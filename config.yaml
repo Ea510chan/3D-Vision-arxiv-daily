@@ -22,6 +22,11 @@ md_wechat_path: './docs/wechat.md'
 
 # keywords to search
 keywords:
+    "Point Cloud Registration":
+        filters: ["Point Cloud Registration", "3D Registration"]
+    "Image Matching":
+        filters: ["Image Matching", "Keypoint Matching", 
+                  "Line Segment Detection", "Local Feature Matching"]
     "SLAM": 
         filters: ["SLAM", "Visual Odometry"]
     "SFM":
@@ -32,8 +37,7 @@ keywords:
                   "visual place recognition","image retrieval"]
     "Keypoint Detection":
         filters: ["Keypoint Detection", "Feature Descriptor"]
-    "Image Matching":
-        filters: ["Image Matching", "Keypoint Matching", 
-                  "Line Segment Detection", "Local Feature Matching"]
     "NeRF":
         filters: ["NeRF"]
+    "Gaussian Splatting"
+        filters: ["Gaussian Splatting"]
