@@ -39,5 +39,5 @@ keywords:
         filters: ["Keypoint Detection", "Feature Descriptor"]
     "NeRF":
         filters: ["NeRF"]
-    "Gaussian Splatting"
+    "Gaussian Splatting":
         filters: ["Gaussian Splatting"]
