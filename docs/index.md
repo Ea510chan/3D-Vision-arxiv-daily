@@ -1,9 +1,9 @@
 ---
-layout: post
-toc: true
+layout: default
 ---
-* TOC
-{:toc}
+
+## Updated on 2025.03.16
+> Usage instructions: [here](./docs/README.md#usage)
 
 ## Point Cloud Registration
 
