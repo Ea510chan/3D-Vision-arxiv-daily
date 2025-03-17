@@ -1,4 +1,4 @@
-## Updated on 2025.03.16
+## Updated on 2025.03.17
 > Usage instructions: [here](./docs/README.md#usage)
 
 <details>
@@ -19,9 +19,9 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
-|**2025-03-13**|**Unlocking Generalization Power in LiDAR Point Cloud Registration**|Zhenxuan Zeng et.al.|[2503.10149](http://arxiv.org/abs/2503.10149)|null|
+|**2025-03-13**|**Unlocking Generalization Power in LiDAR Point Cloud Registration**|Zhenxuan Zeng et.al.|[2503.10149](http://arxiv.org/abs/2503.10149)|**[link](https://github.com/peakpang/ugp)**|
 |**2025-03-11**|**BUFFER-X: Towards Zero-Shot Point Cloud Registration in Diverse Scenes**|Minkyun Seo et.al.|[2503.07940](http://arxiv.org/abs/2503.07940)|**[link](https://github.com/mit-spark/buffer-x)**|
-|**2025-03-10**|**SANDRO: a Robust Solver with a Splitting Strategy for Point Cloud Registration**|Michael Adlerstein et.al.|[2503.07743](http://arxiv.org/abs/2503.07743)|null|
+|**2025-03-10**|**SANDRO: a Robust Solver with a Splitting Strategy for Point Cloud Registration**|Michael Adlerstein et.al.|[2503.07743](http://arxiv.org/abs/2503.07743)|**[link](https://github.com/iit-DLSLab/SANDRO)**|
 |**2025-03-10**|**HybridReg: Robust 3D Point Cloud Registration with Hybrid Motions**|Keyu Du et.al.|[2503.07019](http://arxiv.org/abs/2503.07019)|**[link](https://github.com/hxwork/HybridReg_PyTorch)**|
 |**2025-03-07**|**Diff-Reg v2: Diffusion-Based Matching Matrix Estimation for Image Matching and 3D Registration**|Qianliang Wu et.al.|[2503.04127](http://arxiv.org/abs/2503.04127)|null|
 |**2025-03-04**|**HyperGCT: A Dynamic Hyper-GNN-Learned Geometric Constraint for 3D Registration**|Xiyu Zhang et.al.|[2503.02195](http://arxiv.org/abs/2503.02195)|null|
@@ -30,7 +30,7 @@
 |**2025-02-15**|**Occlusion-aware Non-Rigid Point Cloud Registration via Unsupervised Neural Deformation Correntropy**|Mingyang Zhao et.al.|[2502.10704](http://arxiv.org/abs/2502.10704)|**[link](https://github.com/zikai1/oareg)**|
 |**2025-02-12**|**Fully-Geometric Cross-Attention for Point Cloud Registration**|Weijie Wang et.al.|[2502.08285](http://arxiv.org/abs/2502.08285)|null|
 
-<p align=right>(<a href=#updated-on-20250316>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20250317>back to top</a>)</p>
 
 ## Image Matching
 
@@ -47,7 +47,7 @@
 |**2025-02-26**|**BEV-LIO(LC): BEV Image Assisted LiDAR-Inertial Odometry with Loop Closure**|Haoxin Cai et.al.|[2502.19242](http://arxiv.org/abs/2502.19242)|**[link](https://github.com/hxca1/bev-lio-lc)**|
 |**2025-02-25**|**PromptMID: Modal Invariant Descriptors Based on Diffusion and Vision Foundation Models for Optical-SAR Image Matching**|Han Nie et.al.|[2502.18104](http://arxiv.org/abs/2502.18104)|**[link](https://github.com/hanniewhu/promptmid)**|
 
-<p align=right>(<a href=#updated-on-20250316>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20250317>back to top</a>)</p>
 
 ## SLAM
 
@@ -64,7 +64,7 @@
 |**2025-03-08**|**InfoFusion Controller: Informed TRRT Star with Mutual Information based on Fusion of Pure Pursuit and MPC for Enhanced Path Planning**|Seongjun Choi et.al.|[2503.06010](http://arxiv.org/abs/2503.06010)|**[link](https://github.com/drawingprocess/infofusioncontroller)**|
 |**2025-03-07**|**THE-SEAN: A Heart Rate Variation-Inspired Temporally High-Order Event-Based Visual Odometry with Self-Supervised Spiking Event Accumulation Networks**|Chaoran Xiong et.al.|[2503.05112](http://arxiv.org/abs/2503.05112)|null|
 
-<p align=right>(<a href=#updated-on-20250316>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20250317>back to top</a>)</p>
 
 ## SFM
 
@@ -81,7 +81,7 @@
 |**2025-03-03**|**ecg2o: A Seamless Extension of g2o for Equality-Constrained Factor Graph Optimization**|Anas Abdelkarim et.al.|[2503.01311](http://arxiv.org/abs/2503.01311)|**[link](https://github.com/snt-arg/ecg2o)**|
 |**2025-03-05**|**A Multi-Sensor Fusion Approach for Rapid Orthoimage Generation in Large-Scale UAV Mapping**|Jialei He et.al.|[2503.01202](http://arxiv.org/abs/2503.01202)|null|
 
-<p align=right>(<a href=#updated-on-20250316>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20250317>back to top</a>)</p>
 
 ## Visual Localization
 
@@ -98,7 +98,7 @@
 |**2025-03-09**|**TextInPlace: Indoor Visual Place Recognition in Repetitive Structures with Scene Text Spotting and Verification**|Huaqi Tao et.al.|[2503.06501](http://arxiv.org/abs/2503.06501)|null|
 |**2025-03-08**|**NeuraLoc: Visual Localization in Neural Implicit Map with Dual Complementary Features**|Hongjia Zhai et.al.|[2503.06117](http://arxiv.org/abs/2503.06117)|null|
 
-<p align=right>(<a href=#updated-on-20250316>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20250317>back to top</a>)</p>
 
 ## Keypoint Detection
 
@@ -115,7 +115,7 @@
 |**2025-02-27**|**Automatic Temporal Segmentation for Post-Stroke Rehabilitation: A Keypoint Detection and Temporal Segmentation Approach for Small Datasets**|Jisoo Lee et.al.|[2502.19766](http://arxiv.org/abs/2502.19766)|null|
 |**2025-02-23**|**Rewards-based image analysis in microscopy**|Kamyar Barakati et.al.|[2502.18522](http://arxiv.org/abs/2502.18522)|null|
 
-<p align=right>(<a href=#updated-on-20250316>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20250317>back to top</a>)</p>
 
 ## NeRF
 
@@ -132,7 +132,7 @@
 |**2025-03-10**|**CATPlan: Loss-based Collision Prediction in End-to-End Autonomous Driving**|Ziliang Xiong et.al.|[2503.07425](http://arxiv.org/abs/2503.07425)|null|
 |**2025-03-08**|**Feature-EndoGaussian: Feature Distilled Gaussian Splatting in Surgical Deformable Scene Reconstruction**|Kai Li et.al.|[2503.06161](http://arxiv.org/abs/2503.06161)|null|
 
-<p align=right>(<a href=#updated-on-20250316>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20250317>back to top</a>)</p>
 
 ## Gaussian Splatting
 
@@ -143,13 +143,13 @@
 |**2025-03-13**|**4D LangSplat: 4D Language Gaussian Splatting via Multimodal Large Language Models**|Wanhua Li et.al.|[2503.10437](http://arxiv.org/abs/2503.10437)|null|
 |**2025-03-13**|**VicaSplat: A Single Run is All You Need for 3D Gaussian Splatting and Camera Estimation from Unposed Video Frames**|Zhiqi Li et.al.|[2503.10286](http://arxiv.org/abs/2503.10286)|null|
 |**2025-03-13**|**ROODI: Reconstructing Occluded Objects with Denoising Inpainters**|Yeonjin Chang et.al.|[2503.10256](http://arxiv.org/abs/2503.10256)|null|
-|**2025-03-13**|**GS-SDF: LiDAR-Augmented Gaussian Splatting and Neural SDF for Geometrically Consistent Rendering and Reconstruction**|Jianheng Liu et.al.|[2503.10170](http://arxiv.org/abs/2503.10170)|null|
-|**2025-03-13**|**3D Student Splatting and Scooping**|Jialin Zhu et.al.|[2503.10148](http://arxiv.org/abs/2503.10148)|null|
+|**2025-03-13**|**GS-SDF: LiDAR-Augmented Gaussian Splatting and Neural SDF for Geometrically Consistent Rendering and Reconstruction**|Jianheng Liu et.al.|[2503.10170](http://arxiv.org/abs/2503.10170)|**[link](https://github.com/hku-mars/gs-sdf)**|
+|**2025-03-13**|**3D Student Splatting and Scooping**|Jialin Zhu et.al.|[2503.10148](http://arxiv.org/abs/2503.10148)|**[link](https://github.com/realcrane/student-splating-scooping)**|
 |**2025-03-13**|**GaussHDR: High Dynamic Range Gaussian Splatting via Learning Unified 3D and 2D Local Tone Mapping**|Jinfeng Liu et.al.|[2503.10143](http://arxiv.org/abs/2503.10143)|null|
 |**2025-03-12**|**Hybrid Rendering for Multimodal Autonomous Driving: Merging Neural and Physics-Based Simulation**|Máté Tóth et.al.|[2503.09464](http://arxiv.org/abs/2503.09464)|null|
 |**2025-03-12**|**Online Language Splatting**|Saimouli Katragadda et.al.|[2503.09447](http://arxiv.org/abs/2503.09447)|null|
 
-<p align=right>(<a href=#updated-on-20250316>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20250317>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/Vincentqyw/cv-arxiv-daily.svg?style=for-the-badge
 [contributors-url]: https://github.com/Vincentqyw/cv-arxiv-daily/graphs/contributors
