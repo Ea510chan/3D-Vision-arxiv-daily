@@ -23,7 +23,7 @@ md_wechat_path: './docs/wechat.md'
 # keywords to search
 keywords:
     "3D Registration":
-        filters: ["Point Cloud Registration", "3D Registration", "Point Cloud Matching", "Multi-View Point Cloud Registration", "Image-to-Point Cloud Registration"]
+        filters: ["Point Cloud Registration", "3D Registration", "LiDAR Registration", "Point Cloud Matching", "Multi-View Point Cloud Registration", "Image-to-Point Cloud Registration"]
     "Image Matching":
         filters: ["Image Matching", "Keypoint Matching", 
                   "Line Segment Detection", "Local Feature Matching"]
