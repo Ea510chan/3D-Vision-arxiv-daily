@@ -4,7 +4,7 @@ user_name: "Vincentqyw"
 repo_name: "cv-arxiv-daily"
 show_authors: True
 show_links: True
-show_badge: True
+show_badge: False
 max_results: 10
 
 publish_readme: True
@@ -22,8 +22,8 @@ md_wechat_path: './docs/wechat.md'
 
 # keywords to search
 keywords:
-    "Point Cloud Registration":
-        filters: ["Point Cloud Registration", "3D Registration"]
+    "3D Registration":
+        filters: ["Point Cloud Registration", "3D Registration", "Point Cloud Matching", "Multi-View Point Cloud Registration", "Image-to-Point Cloud Registration"]
     "Image Matching":
         filters: ["Image Matching", "Keypoint Matching", 
                   "Line Segment Detection", "Local Feature Matching"]
