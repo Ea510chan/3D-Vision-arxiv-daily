@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2025.09.26
+## Updated on 2025.09.29
 > Usage instructions: [here](./docs/README.md#usage)
 
 > This page is modified from [here](https://github.com/Vincentqyw/cv-arxiv-daily)
@@ -652,7 +652,7 @@ layout: default
 |**2025-05-17**|**Keypoints as Dynamic Centroids for Unified Human Pose and Segmentation**|Niaz Ahmad et.al.|[2505.12130](http://arxiv.org/abs/2505.12130)|null|
 |**2025-05-16**|**Deepfake Forensic Analysis: Source Dataset Attribution and Legal Implications of Synthetic Media Manipulation**|Massimiliano Cassia et.al.|[2505.11110](http://arxiv.org/abs/2505.11110)|null|
 |**2025-06-19**|**RDD: Robust Feature Detector and Descriptor using Deformable Transformer**|Gonglin Chen et.al.|[2505.08013](http://arxiv.org/abs/2505.08013)|null|
-|**2025-05-12**|**Enabling Privacy-Aware AI-Based Ergonomic Analysis**|Sander De Coninck et.al.|[2505.07306](http://arxiv.org/abs/2505.07306)|null|
+|**2025-05-12**|**Enabling Privacy-Aware AI-Based Ergonomic Analysis**|Sander De Coninck et.al.|[2505.07306](http://arxiv.org/abs/2505.07306)|**[link](https://github.com/decide-ugent/privacy-aware-ergo)**|
 |**2025-05-09**|**My Emotion on your face: The use of Facial Keypoint Detection to preserve Emotions in Latent Space Editing**|Jingrui He et.al.|[2505.06436](http://arxiv.org/abs/2505.06436)|null|
 |**2025-05-05**|**Unsupervised training of keypoint-agnostic descriptors for flexible retinal image registration**|David Rivas-Villar et.al.|[2505.02787](http://arxiv.org/abs/2505.02787)|null|
 |**2025-05-05**|**Unsupervised Deep Learning-based Keypoint Localization Estimating Descriptor Matching Performance**|David Rivas-Villar et.al.|[2505.02779](http://arxiv.org/abs/2505.02779)|null|
@@ -726,7 +726,7 @@ layout: default
 |**2025-07-01**|**PlantSegNeRF: A few-shot, cross-dataset method for plant 3D instance point cloud reconstruction via joint-channel NeRF with multi-view image instance matching**|Xin Yang et.al.|[2507.00371](http://arxiv.org/abs/2507.00371)|null|
 |**2025-06-30**|**AttentionGS: Towards Initialization-Free 3D Gaussian Splatting via Structural Attention**|Ziao Liu et.al.|[2506.23611](http://arxiv.org/abs/2506.23611)|null|
 |**2025-06-29**|**Dynamic View Synthesis from Small Camera Motion Videos**|Huiqiang Sun et.al.|[2506.23153](http://arxiv.org/abs/2506.23153)|null|
-|**2025-06-27**|**UnMix-NeRF: Spectral Unmixing Meets Neural Radiance Fields**|Fabian Perez et.al.|[2506.21884](http://arxiv.org/abs/2506.21884)|null|
+|**2025-06-27**|**UnMix-NeRF: Spectral Unmixing Meets Neural Radiance Fields**|Fabian Perez et.al.|[2506.21884](http://arxiv.org/abs/2506.21884)|**[link](https://github.com/Factral/UnMix-NeRF)**|
 |**2025-06-24**|**ICP-3DGS: SfM-free 3D Gaussian Splatting for Large-scale Unbounded Scenes**|Chenhao Zhang et.al.|[2506.21629](http://arxiv.org/abs/2506.21629)|null|
 |**2025-06-26**|**PanSt3R: Multi-view Consistent Panoptic Segmentation**|Lojze Zust et.al.|[2506.21348](http://arxiv.org/abs/2506.21348)|null|
 |**2025-06-25**|**Joint attitude estimation and 3D neural reconstruction of non-cooperative space objects**|Clément Forray et.al.|[2506.20638](http://arxiv.org/abs/2506.20638)|null|
@@ -1183,7 +1183,7 @@ layout: default
 |**2025-09-16**|**DisorientLiDAR: Physical Attacks on LiDAR-based Localization**|Yizhen Lao et.al.|[2509.12595](http://arxiv.org/abs/2509.12595)|null|
 |**2025-09-10**|**iMatcher: Improve matching in point cloud registration via local-to-global geometric consistency learning**|Karim Slimani et.al.|[2509.08982](http://arxiv.org/abs/2509.08982)|null|
 |**2025-09-10**|**Unidimensional semi-discrete partial optimal transport**|Adrien Cances et.al.|[2509.08799](http://arxiv.org/abs/2509.08799)|null|
-|**2025-09-08**|**A Robust Approach for LiDAR-Inertial Odometry Without Sensor-Specific Modeling**|Meher V. R. Malladi et.al.|[2509.06593](http://arxiv.org/abs/2509.06593)|null|
+|**2025-09-08**|**A Robust Approach for LiDAR-Inertial Odometry Without Sensor-Specific Modeling**|Meher V. R. Malladi et.al.|[2509.06593](http://arxiv.org/abs/2509.06593)|**[link](https://github.com/PRBonn/rko_lio)**|
 |**2025-09-08**|**Cross3DReg: Towards a Large-scale Real-world Cross-source Point Cloud Registration Benchmark**|Zongyi Xu et.al.|[2509.06456](http://arxiv.org/abs/2509.06456)|null|
 |**2025-09-08**|**DCReg: Decoupled Characterization for Efficient Degenerate LiDAR Registration**|Xiangcheng Hu et.al.|[2509.06285](http://arxiv.org/abs/2509.06285)|null|
 |**2025-09-02**|**Doctoral Thesis: Geometric Deep Learning For Camera Pose Prediction, Registration, Depth Estimation, and 3D Reconstruction**|Xueyang Kang et.al.|[2509.01873](http://arxiv.org/abs/2509.01873)|null|
