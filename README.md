@@ -241,7 +241,7 @@
 |**2025-05-20**|**A Methodological Framework for Measuring Spatial Labeling Similarity**|Yihang Du et.al.|[2505.14128](http://arxiv.org/abs/2505.14128)|**[link](https://github.com/yihdu/slam)**|
 |**2025-05-22**|**Place Recognition: A Comprehensive Review, Current Challenges and Future Directions**|Zhenyu Li et.al.|[2505.14068](http://arxiv.org/abs/2505.14068)|**[link](https://github.com/cv4ra/sota-place-recognitioner)**|
 |**2025-05-19**|**eStonefish-scenes: A synthetically generated dataset for underwater event-based optical flow prediction tasks**|Jad Mansour et.al.|[2505.13309](http://arxiv.org/abs/2505.13309)|null|
-|**2025-05-23**|**VGGT-SLAM: Dense RGB SLAM Optimized on the SL(4) Manifold**|Dominic Maggio et.al.|[2505.12549](http://arxiv.org/abs/2505.12549)|null|
+|**2025-05-23**|**VGGT-SLAM: Dense RGB SLAM Optimized on the SL(4) Manifold**|Dominic Maggio et.al.|[2505.12549](http://arxiv.org/abs/2505.12549)|**[link](https://github.com/MIT-SPARK/VGGT-SLAM)**|
 |**2025-05-18**|**Is Semantic SLAM Ready for Embedded Systems ? A Comparative Survey**|Calvin Galagain et.al.|[2505.12384](http://arxiv.org/abs/2505.12384)|null|
 |**2025-05-18**|**Structureless VIO**|Junlin Song et.al.|[2505.12337](http://arxiv.org/abs/2505.12337)|null|
 |**2025-05-16**|**EgoDex: Learning Dexterous Manipulation from Large-Scale Egocentric Video**|Ryan Hoque et.al.|[2505.11709](http://arxiv.org/abs/2505.11709)|null|
@@ -375,10 +375,10 @@
 |**2025-08-07**|**Refining Gaussian Splatting: A Volumetric Densification Approach**|Mohamed Abdul Gafoor et.al.|[2508.05187](http://arxiv.org/abs/2508.05187)|null|
 |**2025-07-16**|**Enhancing In-Domain and Out-Domain EmoFake Detection via Cooperative Multilingual Speech Foundation Models**|Orchid Chetia Phukan et.al.|[2507.12595](http://arxiv.org/abs/2507.12595)|null|
 |**2025-07-16**|**BRUM: Robust 3D Vehicle Reconstruction from 360 Sparse Images**|Davide Di Nucci et.al.|[2507.12095](http://arxiv.org/abs/2507.12095)|null|
-|**2025-07-16**|**Spatial Frequency Modulation for Semantic Segmentation**|Linwei Chen et.al.|[2507.11893](http://arxiv.org/abs/2507.11893)|null|
+|**2025-07-16**|**Spatial Frequency Modulation for Semantic Segmentation**|Linwei Chen et.al.|[2507.11893](http://arxiv.org/abs/2507.11893)|**[link](https://github.com/Linwei-Chen/SFM)**|
 |**2025-07-14**|**Supporting SENĆOTEN Language Documentation Efforts with Automatic Speech Recognition**|Mengzhe Geng et.al.|[2507.10827](http://arxiv.org/abs/2507.10827)|null|
 |**2025-07-11**|**Review of Feed-forward 3D Reconstruction: From DUSt3R to VGGT**|Wei Zhang et.al.|[2507.08448](http://arxiv.org/abs/2507.08448)|null|
-|**2025-07-04**|**MGSfM: Multi-Camera Geometry Driven Global Structure-from-Motion**|Peilin Tao et.al.|[2507.03306](http://arxiv.org/abs/2507.03306)|null|
+|**2025-07-04**|**MGSfM: Multi-Camera Geometry Driven Global Structure-from-Motion**|Peilin Tao et.al.|[2507.03306](http://arxiv.org/abs/2507.03306)|**[link](https://github.com/3dv-casia/MGSfM)**|
 |**2025-06-30**|**Towards Initialization-free Calibrated Bundle Adjustment**|Carl Olsson et.al.|[2506.23808](http://arxiv.org/abs/2506.23808)|null|
 |**2025-06-30**|**AttentionGS: Towards Initialization-Free 3D Gaussian Splatting via Structural Attention**|Ziao Liu et.al.|[2506.23611](http://arxiv.org/abs/2506.23611)|null|
 |**2025-06-27**|**Single-Scanline Relative Pose Estimation for Rolling Shutter Cameras**|Petr Hruby et.al.|[2506.22069](http://arxiv.org/abs/2506.22069)|null|
@@ -459,7 +459,7 @@
 |**2025-03-11**|**A Framework for Reducing the Complexity of Geometric Vision Problems and its Application to Two-View Triangulation with Approximation Bounds**|Felix Rydell et.al.|[2503.08142](http://arxiv.org/abs/2503.08142)|null|
 |**2025-03-11**|**DaD: Distilled Reinforcement Learning for Diverse Keypoint Detection**|Johan Edstedt et.al.|[2503.07347](http://arxiv.org/abs/2503.07347)|**[link](https://github.com/parskatt/dad)**|
 |**2025-03-18**|**Endo-FASt3r: Endoscopic Foundation model Adaptation for Structure from motion**|Mona Sheikh Zeinoddin et.al.|[2503.07204](http://arxiv.org/abs/2503.07204)|null|
-|**2025-03-10**|**VidBot: Learning Generalizable 3D Actions from In-the-Wild 2D Human Videos for Zero-Shot Robotic Manipulation**|Hanzhi Chen et.al.|[2503.07135](http://arxiv.org/abs/2503.07135)|null|
+|**2025-03-10**|**VidBot: Learning Generalizable 3D Actions from In-the-Wild 2D Human Videos for Zero-Shot Robotic Manipulation**|Hanzhi Chen et.al.|[2503.07135](http://arxiv.org/abs/2503.07135)|**[link](https://github.com/HanzhiC/VidBot)**|
 |**2025-03-09**|**AxisPose: Model-Free Matching-Free Single-Shot 6D Object Pose Estimation via Axis Generation**|Yang Zou et.al.|[2503.06660](http://arxiv.org/abs/2503.06660)|null|
 |**2025-03-07**|**LiDAR-enhanced 3D Gaussian Splatting Mapping**|Jian Shen et.al.|[2503.05425](http://arxiv.org/abs/2503.05425)|null|
 |**2025-03-06**|**PLMP -- Point-Line Minimal Problems for Projective SfM**|Kim Kiehn et.al.|[2503.04351](http://arxiv.org/abs/2503.04351)|null|
@@ -1079,7 +1079,7 @@
 |**2025-06-03**|**Large Processor Chip Model**|Kaiyan Chang et.al.|[2506.02929](http://arxiv.org/abs/2506.02929)|null|
 |**2025-06-04**|**Voyager: Real-Time Splatting City-Scale 3D Gaussians on Your Phone**|Zheng Liu et.al.|[2506.02774](http://arxiv.org/abs/2506.02774)|null|
 |**2025-05-29**|**ZPressor: Bottleneck-Aware Compression for Scalable Feed-Forward 3DGS**|Weijie Wang et.al.|[2505.23734](http://arxiv.org/abs/2505.23734)|**[link](https://github.com/ziplab/ZPressor)**|
-|**2025-05-29**|**AnySplat: Feed-forward 3D Gaussian Splatting from Unconstrained Views**|Lihan Jiang et.al.|[2505.23716](http://arxiv.org/abs/2505.23716)|null|
+|**2025-05-29**|**AnySplat: Feed-forward 3D Gaussian Splatting from Unconstrained Views**|Lihan Jiang et.al.|[2505.23716](http://arxiv.org/abs/2505.23716)|**[link](https://github.com/InternRobotics/AnySplat)**|
 |**2025-05-29**|**Mobi- $π$ : Mobilizing Your Robot Learning Policy**|Jingyun Yang et.al.|[2505.23692](http://arxiv.org/abs/2505.23692)|null|
 |**2025-05-29**|**Radiant Triangle Soup with Soft Connectivity Forces for 3D Reconstruction and Novel View Synthesis**|Nathaniel Burgdorfer et.al.|[2505.23642](http://arxiv.org/abs/2505.23642)|null|
 |**2025-05-29**|**Holistic Large-Scale Scene Reconstruction via Mixed Gaussian Splatting**|Chuandong Liu et.al.|[2505.23280](http://arxiv.org/abs/2505.23280)|**[link](https://github.com/azhuantou/mixgs)**|
@@ -1093,11 +1093,11 @@
 |**2025-05-21**|**RUSplatting: Robust 3D Gaussian Splatting for Sparse-View Underwater Scene Reconstruction**|Zhuodong Jiang et.al.|[2505.15737](http://arxiv.org/abs/2505.15737)|null|
 |**2025-05-21**|**PlantDreamer: Achieving Realistic 3D Plant Models with Diffusion-Guided Gaussian Splatting**|Zane K J Hartley et.al.|[2505.15528](http://arxiv.org/abs/2505.15528)|null|
 |**2025-05-21**|**R3GS: Gaussian Splatting for Robust Reconstruction and Relocalization in Unconstrained Image Collections**|Xu yan et.al.|[2505.15294](http://arxiv.org/abs/2505.15294)|null|
-|**2025-05-21**|**GS2E: Gaussian Splatting is an Effective Data Generator for Event Stream Generation**|Yuchen Li et.al.|[2505.15287](http://arxiv.org/abs/2505.15287)|null|
+|**2025-05-21**|**GS2E: Gaussian Splatting is an Effective Data Generator for Event Stream Generation**|Yuchen Li et.al.|[2505.15287](http://arxiv.org/abs/2505.15287)|**[link](https://github.com/PKU-YuanGroup/GS2E)**|
 |**2025-05-21**|**X-GRM: Large Gaussian Reconstruction Model for Sparse-view X-rays to Computed Tomography**|Yifan Liu et.al.|[2505.15235](http://arxiv.org/abs/2505.15235)|**[link](https://github.com/cuhk-aim-group/x-grm)**|
-|**2025-05-21**|**GT^2-GS: Geometry-aware Texture Transfer for Gaussian Splatting**|Wenjie Liu et.al.|[2505.15208](http://arxiv.org/abs/2505.15208)|null|
+|**2025-05-21**|**GT^2-GS: Geometry-aware Texture Transfer for Gaussian Splatting**|Wenjie Liu et.al.|[2505.15208](http://arxiv.org/abs/2505.15208)|**[link](https://github.com/vpx-ecnu/GT2-GS)**|
 |**2025-05-21**|**MonoSplat: Generalizable 3D Gaussian Splatting from Monocular Depth Foundation Models**|Yifan Liu et.al.|[2505.15185](http://arxiv.org/abs/2505.15185)|**[link](https://github.com/cuhk-aim-group/monosplat)**|
-|**2025-05-20**|**Scan, Materialize, Simulate: A Generalizable Framework for Physically Grounded Robot Planning**|Amine Elhafsi et.al.|[2505.14938](http://arxiv.org/abs/2505.14938)|null|
+|**2025-05-20**|**Scan, Materialize, Simulate: A Generalizable Framework for Physically Grounded Robot Planning**|Amine Elhafsi et.al.|[2505.14938](http://arxiv.org/abs/2505.14938)|**[link](https://github.com/AmineElhafsi/SMS)**|
 |**2025-05-19**|**Recollection from Pensieve: Novel View Synthesis via Learning from Uncalibrated Videos**|Ruoyu Wang et.al.|[2505.13440](http://arxiv.org/abs/2505.13440)|**[link](https://github.com/dwawayu/pensieve)**|
 |**2025-05-19**|**Hybrid 3D-4D Gaussian Splatting for Fast Dynamic Scene Representation**|Seungjun Oh et.al.|[2505.13215](http://arxiv.org/abs/2505.13215)|**[link](https://github.com/ohsngjun/3D-4DGS)**|
 |**2025-05-19**|**3D Gaussian Adaptive Reconstruction for Fourier Light-Field Microscopy**|Chenyu Xu et.al.|[2505.12875](http://arxiv.org/abs/2505.12875)|null|

@@ -257,8 +257,8 @@ layout: default
 |**2025-04-28**|**GSFF-SLAM: 3D Semantic Gaussian Splatting SLAM via Feature Field**|Zuxing Lu et.al.|[2504.19409](http://arxiv.org/abs/2504.19409)|null|
 |**2025-04-27**|**Beyond Physical Reach: Comparing Head- and Cane-Mounted Cameras for Last-Mile Navigation by Blind Users**|Apurv Varshney et.al.|[2504.19345](http://arxiv.org/abs/2504.19345)|null|
 |**2025-04-27**|**NANO-SLAM : Natural Gradient Gaussian Approximation for Vehicle SLAM**|Tianyi Zhang et.al.|[2504.19195](http://arxiv.org/abs/2504.19195)|null|
-|**2025-04-27**|**MISO: Multiresolution Submap Optimization for Efficient Globally Consistent Neural Implicit Reconstruction**|Yulun Tian et.al.|[2504.19104](http://arxiv.org/abs/2504.19104)|null|
-|**2025-04-25**|**Certifiably-Correct Mapping for Safe Navigation Despite Odometry Drift**|Devansh R. Agrawal et.al.|[2504.18713](http://arxiv.org/abs/2504.18713)|null|
+|**2025-04-27**|**MISO: Multiresolution Submap Optimization for Efficient Globally Consistent Neural Implicit Reconstruction**|Yulun Tian et.al.|[2504.19104](http://arxiv.org/abs/2504.19104)|**[link](https://github.com/ExistentialRobotics/MISO)**|
+|**2025-04-25**|**Certifiably-Correct Mapping for Safe Navigation Despite Odometry Drift**|Devansh R. Agrawal et.al.|[2504.18713](http://arxiv.org/abs/2504.18713)|**[link](https://github.com/dasc-lab/certifiably-correct-mapping)**|
 |**2025-04-25**|**Range-based 6-DoF Monte Carlo SLAM with Gradient-guided Particle Filter on GPU**|Takumi Nakao et.al.|[2504.18056](http://arxiv.org/abs/2504.18056)|null|
 |**2025-04-24**|**Autonomous Navigation Of Quadrupeds Using Coverage Path Planning**|Alexander James Becoy et.al.|[2504.17880](http://arxiv.org/abs/2504.17880)|null|
 |**2025-04-24**|**BIM-Constrained Optimization for Accurate Localization and Deviation Correction in Construction Monitoring**|Asier Bikandi et.al.|[2504.17693](http://arxiv.org/abs/2504.17693)|null|
@@ -495,7 +495,7 @@ layout: default
 |**2025-09-01**|**ReCap: Event-Aware Image Captioning with Article Retrieval and Semantic Gaussian Normalization**|Thinh-Phuc Nguyen et.al.|[2509.01259](http://arxiv.org/abs/2509.01259)|null|
 |**2025-07-17**|**FAR-Net: Multi-Stage Fusion Network with Enhanced Semantic Alignment and Adaptive Reconciliation for Composed Image Retrieval**|Jeong-Woo Park et.al.|[2507.12823](http://arxiv.org/abs/2507.12823)|null|
 |**2025-07-17**|**MCoT-RE: Multi-Faceted Chain-of-Thought and Re-Ranking for Training-Free Zero-Shot Composed Image Retrieval**|Jeong-Woo Park et.al.|[2507.12819](http://arxiv.org/abs/2507.12819)|null|
-|**2025-07-16**|**QuRe: Query-Relevant Retrieval through Hard Negative Sampling in Composed Image Retrieval**|Jaehyun Kwak et.al.|[2507.12416](http://arxiv.org/abs/2507.12416)|null|
+|**2025-07-16**|**QuRe: Query-Relevant Retrieval through Hard Negative Sampling in Composed Image Retrieval**|Jaehyun Kwak et.al.|[2507.12416](http://arxiv.org/abs/2507.12416)|**[link](https://github.com/jackwaky/QuRe)**|
 |**2025-07-16**|**CorrMoE: Mixture of Experts with De-stylization Learning for Cross-Scene and Cross-Domain Correspondence Pruning**|Peiwen Xia et.al.|[2507.11834](http://arxiv.org/abs/2507.11834)|null|
 |**2025-07-14**|**GT-Loc: Unifying When and Where in Images Through a Joint Embedding Space**|David G. Shatwell et.al.|[2507.10473](http://arxiv.org/abs/2507.10473)|null|
 |**2025-07-14**|**Text-to-Remote-Sensing-Image Retrieval beyond RGB Sources**|Daniele Rege Cambrin et.al.|[2507.10403](http://arxiv.org/abs/2507.10403)|null|
@@ -786,7 +786,7 @@ layout: default
 |**2025-05-28**|**Can NeRFs See without Cameras?**|Chaitanya Amballa et.al.|[2505.22441](http://arxiv.org/abs/2505.22441)|null|
 |**2025-05-28**|**Learning Fine-Grained Geometry for Sparse-View Splatting via Cascade Depth Loss**|Wenjun Lu et.al.|[2505.22279](http://arxiv.org/abs/2505.22279)|null|
 |**2025-05-28**|**Hyperspectral Gaussian Splatting**|Sunil Kumar Narayanan et.al.|[2505.21890](http://arxiv.org/abs/2505.21890)|null|
-|**2025-05-27**|**Structure from Collision**|Takuhiro Kaneko et.al.|[2505.21335](http://arxiv.org/abs/2505.21335)|null|
+|**2025-05-27**|**Structure from Collision**|Takuhiro Kaneko et.al.|[2505.21335](http://arxiv.org/abs/2505.21335)|**[link](https://github.com/Aryia-Behroziuan/neurons)**|
 |**2025-05-26**|**OB3D: A New Dataset for Benchmarking Omnidirectional 3D Reconstruction Using Blender**|Shintaro Ito et.al.|[2505.20126](http://arxiv.org/abs/2505.20126)|**[link](https://github.com/gsisaoki/omnidirectional_blender_3d_dataset)**|
 |**2025-05-30**|**ErpGS: Equirectangular Image Rendering enhanced with 3D Gaussian Regularization**|Shintaro Ito et.al.|[2505.19883](http://arxiv.org/abs/2505.19883)|null|
 |**2025-05-26**|**GoLF-NRT: Integrating Global Context and Local Geometry for Few-Shot View Synthesis**|You Wang et.al.|[2505.19813](http://arxiv.org/abs/2505.19813)|**[link](https://github.com/klmav-cuc/golf-nrt)**|
@@ -875,7 +875,7 @@ layout: default
 |**2025-03-23**|**PanopticSplatting: End-to-End Panoptic Gaussian Splatting**|Yuxuan Xie et.al.|[2503.18073](http://arxiv.org/abs/2503.18073)|null|
 |**2025-03-21**|**Splat-LOAM: Gaussian Splatting LiDAR Odometry and Mapping**|Emanuele Giacomini et.al.|[2503.17491](http://arxiv.org/abs/2503.17491)|**[link](https://github.com/rvp-group/Splat-LOAM)**|
 |**2025-03-21**|**FFaceNeRF: Few-shot Face Editing in Neural Radiance Fields**|Kwan Yun et.al.|[2503.17095](http://arxiv.org/abs/2503.17095)|**[link](https://github.com/kwanyun/FFaceNeRF)**|
-|**2025-03-21**|**DroneSplat: 3D Gaussian Splatting for Robust 3D Reconstruction from In-the-Wild Drone Imagery**|Jiadong Tang et.al.|[2503.16964](http://arxiv.org/abs/2503.16964)|null|
+|**2025-03-21**|**DroneSplat: 3D Gaussian Splatting for Robust 3D Reconstruction from In-the-Wild Drone Imagery**|Jiadong Tang et.al.|[2503.16964](http://arxiv.org/abs/2503.16964)|**[link](https://github.com/BITyia/DroneSplat)**|
 |**2025-03-20**|**Digitally Prototype Your Eye Tracker: Simulating Hardware Performance using 3D Synthetic Data**|Esther Y. H. Lin et.al.|[2503.16742](http://arxiv.org/abs/2503.16742)|null|
 |**2025-03-19**|**GO-N3RDet: Geometry Optimized NeRF-enhanced 3D Object Detector**|Zechuan Li et.al.|[2503.15211](http://arxiv.org/abs/2503.15211)|null|
 |**2025-03-19**|**MultiBARF: Integrating Imagery of Different Wavelength Regions by Using Neural Radiance Fields**|Kana Kurata et.al.|[2503.15070](http://arxiv.org/abs/2503.15070)|null|
@@ -913,8 +913,8 @@ layout: default
 |**2025-10-02**|**MPMAvatar: Learning 3D Gaussian Avatars with Accurate and Robust Physics-Based Dynamics**|Changmin Lee et.al.|[2510.01619](http://arxiv.org/abs/2510.01619)|null|
 |**2025-10-01**|**Instant4D: 4D Gaussian Splatting in Minutes**|Zhanpeng Luo et.al.|[2510.01119](http://arxiv.org/abs/2510.01119)|null|
 |**2025-09-29**|**Triangle Splatting+: Differentiable Rendering with Opaque Triangles**|Jan Held et.al.|[2509.25122](http://arxiv.org/abs/2509.25122)|null|
-|**2025-09-29**|**GEM: 3D Gaussian Splatting for Efficient and Accurate Cryo-EM Reconstruction**|Huaizhi Qu et.al.|[2509.25075](http://arxiv.org/abs/2509.25075)|null|
-|**2025-09-29**|**LVT: Large-Scale Scene Reconstruction via Local View Transformers**|Tooba Imtiaz et.al.|[2509.25001](http://arxiv.org/abs/2509.25001)|null|
+|**2025-09-29**|**GEM: 3D Gaussian Splatting for Efficient and Accurate Cryo-EM Reconstruction**|Huaizhi Qu et.al.|[2509.25075](http://arxiv.org/abs/2509.25075)|**[link](https://github.com/UNITES-Lab/GEM)**|
+|**2025-09-29**|**LVT: Large-Scale Scene Reconstruction via Local View Transformers**|Tooba Imtiaz et.al.|[2509.25001](http://arxiv.org/abs/2509.25001)|**[link](https://github.com/toobaimt/lvt)**|
 |**2025-09-29**|**DWGS: Enhancing Sparse-View Gaussian Splatting with Hybrid-Loss Depth Estimation and Bidirectional Warping**|Yu Ma et.al.|[2509.24893](http://arxiv.org/abs/2509.24893)|null|
 |**2025-09-29**|**ExGS: Extreme 3D Gaussian Compression with Diffusion Priors**|Jiaqi Chen et.al.|[2509.24758](http://arxiv.org/abs/2509.24758)|null|
 |**2025-09-29**|**Proxy-GS: Efficient 3D Gaussian Splatting via Proxy Mesh**|Yuanyuan Gao et.al.|[2509.24421](http://arxiv.org/abs/2509.24421)|null|
@@ -1121,7 +1121,7 @@ layout: default
 |**2025-04-30**|**4DGS-CC: A Contextual Coding Framework for 4D Gaussian Splatting Data Compression**|Zicong Chen et.al.|[2504.18925](http://arxiv.org/abs/2504.18925)|null|
 |**2025-04-24**|**CasualHDRSplat: Robust High Dynamic Range 3D Gaussian Splatting from Casually Captured Videos**|Shucheng Gong et.al.|[2504.17728](http://arxiv.org/abs/2504.17728)|**[link](https://github.com/wu-cvgl/casualhdrsplat)**|
 |**2025-04-23**|**Gaussian Splatting is an Effective Data Generator for 3D Object Detection**|Farhad G. Zanjani et.al.|[2504.16740](http://arxiv.org/abs/2504.16740)|null|
-|**2025-04-23**|**PIN-WM: Learning Physics-INformed World Models for Non-Prehensile Manipulation**|Wenxuan Li et.al.|[2504.16693](http://arxiv.org/abs/2504.16693)|null|
+|**2025-04-23**|**PIN-WM: Learning Physics-INformed World Models for Non-Prehensile Manipulation**|Wenxuan Li et.al.|[2504.16693](http://arxiv.org/abs/2504.16693)|**[link](https://github.com/XuAdventurer/PIN-WM)**|
 |**2025-04-23**|**HUG: Hierarchical Urban Gaussian Splatting with Block-Based Reconstruction**|Zhongtao Wang et.al.|[2504.16606](http://arxiv.org/abs/2504.16606)|null|
 |**2025-04-23**|**ToF-Splatting: Dense SLAM using Sparse Time-of-Flight Depth and Multi-Frame Integration**|Andrea Conti et.al.|[2504.16545](http://arxiv.org/abs/2504.16545)|null|
 |**2025-04-21**|**StyleMe3D: Stylization with Disentangled Priors by Multiple Encoders on 3D Gaussians**|Cailin Zhuang et.al.|[2504.15281](http://arxiv.org/abs/2504.15281)|null|
@@ -1137,8 +1137,8 @@ layout: default
 |**2025-04-17**|**GSAC: Leveraging Gaussian Splatting for Photorealistic Avatar Creation with Unity Integration**|Rendong Zhang et.al.|[2504.12999](http://arxiv.org/abs/2504.12999)|**[link](https://github.com/VU-RASL/GSAC)**|
 |**2025-04-17**|**Second-order Optimization of Gaussian Splats with Importance Sampling**|Hamza Pehlivan et.al.|[2504.12905](http://arxiv.org/abs/2504.12905)|null|
 |**2025-04-17**|**AAA-Gaussians: Anti-Aliased and Artifact-Free 3D Gaussian Rendering**|Michael Steiner et.al.|[2504.12811](http://arxiv.org/abs/2504.12811)|null|
-|**2025-04-17**|**CAGE-GS: High-fidelity Cage Based 3D Gaussian Splatting Deformation**|Yifei Tong et.al.|[2504.12800](http://arxiv.org/abs/2504.12800)|null|
-|**2025-04-17**|**TSGS: Improving Gaussian Splatting for Transparent Surface Reconstruction via Normal and De-lighting Priors**|Mingwei Li et.al.|[2504.12799](http://arxiv.org/abs/2504.12799)|null|
+|**2025-04-17**|**CAGE-GS: High-fidelity Cage Based 3D Gaussian Splatting Deformation**|Yifei Tong et.al.|[2504.12800](http://arxiv.org/abs/2504.12800)|**[link](https://github.com/phutq341/PhuDepTrai)**|
+|**2025-04-17**|**TSGS: Improving Gaussian Splatting for Transparent Surface Reconstruction via Normal and De-lighting Priors**|Mingwei Li et.al.|[2504.12799](http://arxiv.org/abs/2504.12799)|**[link](https://github.com/longxiang-ai/TSGS)**|
 |**2025-04-14**|**DNF-Avatar: Distilling Neural Fields for Real-time Animatable Avatar Relighting**|Zeren Jiang et.al.|[2504.10486](http://arxiv.org/abs/2504.10486)|**[link](https://github.com/jzr99/DNF-Avatar)**|
 |**2025-04-15**|**LL-Gaussian: Low-Light Scene Reconstruction and Enhancement via Gaussian Splatting for Novel View Synthesis**|Hao Sun et.al.|[2504.10331](http://arxiv.org/abs/2504.10331)|null|
 |**2025-04-14**|**ESCT3D: Efficient and Selectively Controllable Text-Driven 3D Content Generation with Gaussian Splatting**|Huiqi Wu et.al.|[2504.10316](http://arxiv.org/abs/2504.10316)|null|
