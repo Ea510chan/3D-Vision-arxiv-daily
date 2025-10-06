@@ -1,4 +1,4 @@
-## Updated on 2025.10.01
+## Updated on 2025.10.06
 > Usage instructions: [here](./docs/README.md#usage)
 
 > This page is modified from [here](https://github.com/Vincentqyw/cv-arxiv-daily)
@@ -6,7 +6,7 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href=#3d-registration>3D Registration</a></li>
+    <li><a href=#point-cloud-registration>Point Cloud Registration</a></li>
     <li><a href=#image-matching>Image Matching</a></li>
     <li><a href=#slam>SLAM</a></li>
     <li><a href=#sfm>SFM</a></li>
@@ -14,38 +14,64 @@
     <li><a href=#keypoint-detection>Keypoint Detection</a></li>
     <li><a href=#nerf>NeRF</a></li>
     <li><a href=#gaussian-splatting>Gaussian Splatting</a></li>
+    <li><a href=#3d-registration>3D Registration</a></li>
   </ol>
 </details>
 
-## 3D Registration
+## Point Cloud Registration
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
-|**2025-09-29**|**DINOReg: Strong Point Cloud Registration with Vision Foundation Model**|Congjia Chen et.al.|[2509.24370](http://arxiv.org/abs/2509.24370)|null|
-|**2025-09-29**|**Robust Partial 3D Point Cloud Registration via Confidence Estimation under Global Context**|Yongqiang Wang et.al.|[2509.24275](http://arxiv.org/abs/2509.24275)|null|
-|**2025-09-29**|**Skeleton-based Robust Registration Framework for Corrupted 3D Point Clouds**|Yongqiang Wang et.al.|[2509.24273](http://arxiv.org/abs/2509.24273)|null|
-|**2025-09-28**|**AssemblyHands-X: Modeling 3D Hand-Body Coordination for Understanding Bimanual Human Activities**|Tatsuro Banno et.al.|[2509.23888](http://arxiv.org/abs/2509.23888)|null|
-|**2025-09-26**|**An Adaptive ICP LiDAR Odometry Based on Reliable Initial Pose**|Qifeng Wang et.al.|[2509.22058](http://arxiv.org/abs/2509.22058)|null|
-|**2025-09-25**|**Building Information Models to Robot-Ready Site Digital Twins (BIM2RDT): An Agentic AI Safety-First Framework**|Reza Akhavian et.al.|[2509.20705](http://arxiv.org/abs/2509.20705)|null|
-|**2025-09-24**|**Human-Interpretable Uncertainty Explanations for Point Cloud Registration**|Johannes A. Gaus et.al.|[2509.18786](http://arxiv.org/abs/2509.18786)|null|
-|**2025-09-19**|**Self-Supervised Cross-Modal Learning for Image-to-Point Cloud Registration**|Xingmei Wang et.al.|[2509.15882](http://arxiv.org/abs/2509.15882)|null|
-|**2025-09-19**|**FingerSplat: Contactless Fingerprint 3D Reconstruction and Generation based on 3D Gaussian Splatting**|Yuwei Jia et.al.|[2509.15648](http://arxiv.org/abs/2509.15648)|null|
-|**2025-09-18**|**MATTER: Multiscale Attention for Registration Error Regression**|Shipeng Liu et.al.|[2509.12924](http://arxiv.org/abs/2509.12924)|null|
-|**2025-09-16**|**DisorientLiDAR: Physical Attacks on LiDAR-based Localization**|Yizhen Lao et.al.|[2509.12595](http://arxiv.org/abs/2509.12595)|null|
-|**2025-09-10**|**iMatcher: Improve matching in point cloud registration via local-to-global geometric consistency learning**|Karim Slimani et.al.|[2509.08982](http://arxiv.org/abs/2509.08982)|null|
-|**2025-09-10**|**Unidimensional semi-discrete partial optimal transport**|Adrien Cances et.al.|[2509.08799](http://arxiv.org/abs/2509.08799)|null|
-|**2025-09-08**|**A Robust Approach for LiDAR-Inertial Odometry Without Sensor-Specific Modeling**|Meher V. R. Malladi et.al.|[2509.06593](http://arxiv.org/abs/2509.06593)|null|
-|**2025-09-08**|**Cross3DReg: Towards a Large-scale Real-world Cross-source Point Cloud Registration Benchmark**|Zongyi Xu et.al.|[2509.06456](http://arxiv.org/abs/2509.06456)|null|
-|**2025-09-08**|**DCReg: Decoupled Characterization for Efficient Degenerate LiDAR Registration**|Xiangcheng Hu et.al.|[2509.06285](http://arxiv.org/abs/2509.06285)|null|
-|**2025-09-02**|**Doctoral Thesis: Geometric Deep Learning For Camera Pose Prediction, Registration, Depth Estimation, and 3D Reconstruction**|Xueyang Kang et.al.|[2509.01873](http://arxiv.org/abs/2509.01873)|null|
-|**2025-08-28**|**Surfel-based 3D Registration with Equivariant SE(3) Features**|Xueyang Kang et.al.|[2508.20789](http://arxiv.org/abs/2508.20789)|null|
-|**2025-08-24**|**Robust Point Cloud Registration via Geometric Overlapping Guided Rotation Search**|Zhao Zheng et.al.|[2508.17427](http://arxiv.org/abs/2508.17427)|null|
-|**2025-08-22**|**GPL-SLAM: A Laser SLAM Framework with Gaussian Process Based Extended Landmarks**|Ali Emre Balcı et.al.|[2508.16459](http://arxiv.org/abs/2508.16459)|null|
-|**2025-08-22**|**4D Virtual Imaging Platform for Dynamic Joint Assessment via Uni-Plane X-ray and 2D-3D Registration**|Hao Tang et.al.|[2508.16138](http://arxiv.org/abs/2508.16138)|null|
-|**2025-08-21**|**Fast globally optimal Truncated Least Squares point cloud registration with fixed rotation axis**|Ivo Ivanov et.al.|[2508.15613](http://arxiv.org/abs/2508.15613)|null|
-|**2025-08-06**|**PKSS-Align: Robust Point Cloud Registration on Pre-Kendall Shape Space**|Chenlei Lv et.al.|[2508.04286](http://arxiv.org/abs/2508.04286)|null|
+|**2025-07-16**|**A Multi-Level Similarity Approach for Single-View Object Grasping: Matching, Planning, and Fine-Tuning**|Hao Chen et.al.|[2507.11938](http://arxiv.org/abs/2507.11938)|null|
+|**2025-07-09**|**Diff $^2$ I2P: Differentiable Image-to-Point Cloud Registration with Diffusion Prior**|Juncheng Mu et.al.|[2507.06651](http://arxiv.org/abs/2507.06651)|null|
+|**2025-07-07**|**Simultaneous Localization and Mapping Using Active mmWave Sensing in 5G NR**|Tao Du et.al.|[2507.04662](http://arxiv.org/abs/2507.04662)|null|
+|**2025-07-06**|**Lidar Variability: A Novel Dataset and Comparative Study of Solid-State and Spinning Lidars**|Doumegna Mawuto Koudjo Felix et.al.|[2507.04321](http://arxiv.org/abs/2507.04321)|null|
+|**2025-07-03**|**TurboReg: TurboClique for Robust and Efficient Point Cloud Registration**|Shaocheng Yan et.al.|[2507.01439](http://arxiv.org/abs/2507.01439)|null|
+|**2025-06-26**|**CA-I2P: Channel-Adaptive Registration Network with Global Optimal Selection**|Zhixin Cheng et.al.|[2506.21364](http://arxiv.org/abs/2506.21364)|null|
+|**2025-06-18**|**Correspondence-Free Multiview Point Cloud Registration via Depth-Guided Joint Optimisation**|Yiran Zhou et.al.|[2506.18922](http://arxiv.org/abs/2506.18922)|null|
+|**2025-06-18**|**BCRNet: Enhancing Landmark Detection in Laparoscopic Liver Surgery via Bezier Curve Refinement**|Qian Li et.al.|[2506.15279](http://arxiv.org/abs/2506.15279)|null|
+|**2025-06-16**|**MT-PCR: A Hybrid Mamba-Transformer with Spatial Serialization for Hierarchical Point Cloud Registration**|Bingxi Liu et.al.|[2506.13183](http://arxiv.org/abs/2506.13183)|null|
+|**2025-06-13**|**Robust Filtering -- Novel Statistical Learning and Inference Algorithms with Applications**|Aamir Hussain Chughtai et.al.|[2506.11530](http://arxiv.org/abs/2506.11530)|null|
+|**2025-06-11**|**Accurate and efficient zero-shot 6D pose estimation with frozen foundation models**|Andrea Caraffa et.al.|[2506.09784](http://arxiv.org/abs/2506.09784)|null|
+|**2025-06-05**|**Rectified Point Flow: Generic Point Cloud Pose Estimation**|Tao Sun et.al.|[2506.05282](http://arxiv.org/abs/2506.05282)|null|
+|**2025-06-03**|**Guiding Registration with Emergent Similarity from Pre-Trained Diffusion Models**|Nurislam Tursynbek et.al.|[2506.02419](http://arxiv.org/abs/2506.02419)|null|
+|**2025-05-30**|**A 3D Mobile Crowdsensing Framework for Sustainable Urban Digital Twins**|Taku Yamazaki et.al.|[2505.24348](http://arxiv.org/abs/2505.24348)|null|
+|**2025-05-23**|**A Coarse to Fine 3D LiDAR Localization with Deep Local Features for Long Term Robot Navigation in Large Environments**|Míriam Máximo et.al.|[2505.18340](http://arxiv.org/abs/2505.18340)|**[link](https://github.com/miriammaximo/mcl-dlf)**|
+|**2025-05-22**|**D-LIO: 6DoF Direct LiDAR-Inertial Odometry based on Simultaneous Truncated Distance Field Mapping**|Lucia Coto-Elena et.al.|[2505.16726](http://arxiv.org/abs/2505.16726)|**[link](https://github.com/robotics-upo/D-LIO)**|
+|**2025-05-19**|**Cross-modal feature fusion for robust point cloud registration with ambiguous geometry**|Zhaoyi Wang et.al.|[2505.13088](http://arxiv.org/abs/2505.13088)|**[link](https://github.com/zhaoyiww/coff)**|
+|**2025-05-17**|**MonoMobility: Zero-Shot 3D Mobility Analysis from Monocular Videos**|Hongyi Zhou et.al.|[2505.11868](http://arxiv.org/abs/2505.11868)|null|
+|**2025-05-15**|**VGC-RIO: A Tightly Integrated Radar-Inertial Odometry with Spatial Weighted Doppler Velocity and Local Geometric Constrained RCS Histograms**|Jianguang Xiang et.al.|[2505.09103](http://arxiv.org/abs/2505.09103)|null|
+|**2025-05-08**|**An Efficient Method for Accurate Pose Estimation and Error Correction of Cuboidal Objects**|Utsav Rai et.al.|[2505.04962](http://arxiv.org/abs/2505.04962)|null|
+|**2025-05-07**|**Registration of 3D Point Sets Using Exponential-based Similarity Matrix**|Ashutosh Singandhupe et.al.|[2505.04540](http://arxiv.org/abs/2505.04540)|**[link](https://github.com/aralab-unr/esm_icp)**|
+|**2025-05-08**|**FA-KPConv: Introducing Euclidean Symmetries to KPConv via Frame Averaging**|Ali Alawieh et.al.|[2505.04485](http://arxiv.org/abs/2505.04485)|null|
+|**2025-05-06**|**Matching Distance and Geometric Distribution Aided Learning Multiview Point Cloud Registration**|Shiqi Li et.al.|[2505.03692](http://arxiv.org/abs/2505.03692)|**[link](https://github.com/shi-qi-li/mdgd)**|
+|**2025-05-04**|**Enhancing Lidar Point Cloud Sampling via Colorization and Super-Resolution of Lidar Imagery**|Sier Ha et.al.|[2505.02049](http://arxiv.org/abs/2505.02049)|null|
+|**2025-05-09**|**3D Hand-Eye Calibration for Collaborative Robot Arm: Look at Robot Base Once**|Leihui Li et.al.|[2504.21619](http://arxiv.org/abs/2504.21619)|**[link](https://github.com/leihui6/lrbo)**|
+|**2025-04-30**|**Multiview Point Cloud Registration via Optimization in an Autoencoder Latent Space**|Luc Vedrenne et.al.|[2504.21467](http://arxiv.org/abs/2504.21467)|null|
+|**2025-04-21**|**Landmark-Free Preoperative-to-Intraoperative Registration in Laparoscopic Liver Resection**|Jun Zhou et.al.|[2504.15152](http://arxiv.org/abs/2504.15152)|**[link](https://github.com/junzastar/Self-P2IR)**|
+|**2025-04-10**|**Investigating Vision-Language Model for Point Cloud-based Vehicle Classification**|Yiqiao Li et.al.|[2504.08154](http://arxiv.org/abs/2504.08154)|null|
+|**2025-04-09**|**A Pointcloud Registration Framework for Relocalization in Subterranean Environments**|David Akhihiero et.al.|[2504.07231](http://arxiv.org/abs/2504.07231)|null|
+|**2025-04-09**|**FACT: Multinomial Misalignment Classification for Point Cloud Registration**|Ludvig Dillén et.al.|[2504.06627](http://arxiv.org/abs/2504.06627)|null|
+|**2025-04-08**|**Implementation of a Zed 2i Stereo Camera for High-Frequency Shoreline Change and Coastal Elevation Monitoring**|José A. Pilartes-Congo et.al.|[2504.06464](http://arxiv.org/abs/2504.06464)|null|
+|**2025-04-10**|**A Convex and Global Solution for the P $n$ P Problem in 2D Forward-Looking Sonar**|Jiayi Su et.al.|[2504.04445](http://arxiv.org/abs/2504.04445)|null|
+|**2025-04-02**|**Bridge 2D-3D: Uncertainty-aware Hierarchical Registration Network with Domain Alignment**|Zhixin Cheng et.al.|[2504.01641](http://arxiv.org/abs/2504.01641)|null|
+|**2025-04-03**|**IMPACT: A Generic Semantic Loss for Multimodal Medical Image Registration**|Valentin Boussot et.al.|[2503.24121](http://arxiv.org/abs/2503.24121)|**[link](https://github.com/vboussot/impactloss)**|
+|**2025-03-21**|**R2LDM: An Efficient 4D Radar Super-Resolution Framework Leveraging Diffusion Model**|Boyuan Zheng et.al.|[2503.17097](http://arxiv.org/abs/2503.17097)|null|
+|**2025-03-21**|**ColabSfM: Collaborative Structure-from-Motion by Point Cloud Registration**|Johan Edstedt et.al.|[2503.17093](http://arxiv.org/abs/2503.17093)|**[link](https://github.com/ericssonresearch/colabsfm)**|
+|**2025-03-18**|**Three-dimensional Reconstruction of the Lumbar Spine with Submillimeter Accuracy Using Biplanar X-ray Images**|Wanxin Yu et.al.|[2503.14573](http://arxiv.org/abs/2503.14573)|null|
+|**2025-03-17**|**MT-PCR: Leveraging Modality Transformation for Large-Scale Point Cloud Registration with Limited Overlap**|Yilong Wu et.al.|[2503.12833](http://arxiv.org/abs/2503.12833)|null|
+|**2025-03-13**|**Unlocking Generalization Power in LiDAR Point Cloud Registration**|Zhenxuan Zeng et.al.|[2503.10149](http://arxiv.org/abs/2503.10149)|**[link](https://github.com/peakpang/ugp)**|
+|**2025-03-11**|**BUFFER-X: Towards Zero-Shot Point Cloud Registration in Diverse Scenes**|Minkyun Seo et.al.|[2503.07940](http://arxiv.org/abs/2503.07940)|**[link](https://github.com/mit-spark/buffer-x)**|
+|**2025-03-10**|**SANDRO: a Robust Solver with a Splitting Strategy for Point Cloud Registration**|Michael Adlerstein et.al.|[2503.07743](http://arxiv.org/abs/2503.07743)|**[link](https://github.com/iit-DLSLab/SANDRO)**|
+|**2025-03-10**|**HybridReg: Robust 3D Point Cloud Registration with Hybrid Motions**|Keyu Du et.al.|[2503.07019](http://arxiv.org/abs/2503.07019)|**[link](https://github.com/hxwork/HybridReg_PyTorch)**|
+|**2025-03-07**|**Diff-Reg v2: Diffusion-Based Matching Matrix Estimation for Image Matching and 3D Registration**|Qianliang Wu et.al.|[2503.04127](http://arxiv.org/abs/2503.04127)|null|
+|**2025-03-04**|**HyperGCT: A Dynamic Hyper-GNN-Learned Geometric Constraint for 3D Registration**|Xiyu Zhang et.al.|[2503.02195](http://arxiv.org/abs/2503.02195)|**[link](https://github.com/zhangxy0517/HyperGCT)**|
+|**2025-03-02**|**Semantic-ICP: Iterative Closest Point for Non-rigid Multi-Organ Point Cloud Registration**|Wanwen Chen et.al.|[2503.00972](http://arxiv.org/abs/2503.00972)|null|
+|**2025-02-26**|**BEV-LIO(LC): BEV Image Assisted LiDAR-Inertial Odometry with Loop Closure**|Haoxin Cai et.al.|[2502.19242](http://arxiv.org/abs/2502.19242)|**[link](https://github.com/hxca1/bev-lio-lc)**|
+|**2025-02-15**|**Occlusion-aware Non-Rigid Point Cloud Registration via Unsupervised Neural Deformation Correntropy**|Mingyang Zhao et.al.|[2502.10704](http://arxiv.org/abs/2502.10704)|**[link](https://github.com/zikai1/oareg)**|
+|**2025-02-12**|**Fully-Geometric Cross-Attention for Point Cloud Registration**|Weijie Wang et.al.|[2502.08285](http://arxiv.org/abs/2502.08285)|null|
 
-<p align=right>(<a href=#updated-on-20251001>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20251006>back to top</a>)</p>
 
 ## Image Matching
 
@@ -123,7 +149,7 @@
 |**2025-02-26**|**BEV-LIO(LC): BEV Image Assisted LiDAR-Inertial Odometry with Loop Closure**|Haoxin Cai et.al.|[2502.19242](http://arxiv.org/abs/2502.19242)|**[link](https://github.com/hxca1/bev-lio-lc)**|
 |**2025-02-25**|**PromptMID: Modal Invariant Descriptors Based on Diffusion and Vision Foundation Models for Optical-SAR Image Matching**|Han Nie et.al.|[2502.18104](http://arxiv.org/abs/2502.18104)|**[link](https://github.com/hanniewhu/promptmid)**|
 
-<p align=right>(<a href=#updated-on-20251001>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20251006>back to top</a>)</p>
 
 ## SLAM
 
@@ -318,12 +344,14 @@
 |**2025-03-08**|**InfoFusion Controller: Informed TRRT Star with Mutual Information based on Fusion of Pure Pursuit and MPC for Enhanced Path Planning**|Seongjun Choi et.al.|[2503.06010](http://arxiv.org/abs/2503.06010)|**[link](https://github.com/drawingprocess/infofusioncontroller)**|
 |**2025-03-07**|**THE-SEAN: A Heart Rate Variation-Inspired Temporally High-Order Event-Based Visual Odometry with Self-Supervised Spiking Event Accumulation Networks**|Chaoran Xiong et.al.|[2503.05112](http://arxiv.org/abs/2503.05112)|null|
 
-<p align=right>(<a href=#updated-on-20251001>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20251006>back to top</a>)</p>
 
 ## SFM
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2025-10-02**|**Non-Rigid Structure-from-Motion via Differential Geometry with Recoverable Conformal Scale**|Yongbo Chen et.al.|[2510.01665](http://arxiv.org/abs/2510.01665)|null|
+|**2025-09-29**|**VGGT-X: When VGGT Meets Dense Novel View Synthesis**|Yang Liu et.al.|[2509.25191](http://arxiv.org/abs/2509.25191)|null|
 |**2025-09-28**|**BOSfM: A View Planning Framework for Optimal 3D Reconstruction of Agricultural Scenes**|Athanasios Bacharis et.al.|[2509.24126](http://arxiv.org/abs/2509.24126)|null|
 |**2025-09-28**|**RPG360: Robust 360 Depth Estimation with Perspective Foundation Models and Graph Optimization**|Dongki Jung et.al.|[2509.23991](http://arxiv.org/abs/2509.23991)|null|
 |**2025-09-28**|**CrashSplat: 2D to 3D Vehicle Damage Segmentation in Gaussian Splatting**|Dragoş-Andrei Chileban et.al.|[2509.23947](http://arxiv.org/abs/2509.23947)|null|
@@ -439,12 +467,20 @@
 |**2025-03-03**|**ecg2o: A Seamless Extension of g2o for Equality-Constrained Factor Graph Optimization**|Anas Abdelkarim et.al.|[2503.01311](http://arxiv.org/abs/2503.01311)|**[link](https://github.com/snt-arg/ecg2o)**|
 |**2025-03-05**|**A Multi-Sensor Fusion Approach for Rapid Orthoimage Generation in Large-Scale UAV Mapping**|Jialei He et.al.|[2503.01202](http://arxiv.org/abs/2503.01202)|null|
 
-<p align=right>(<a href=#updated-on-20251001>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20251006>back to top</a>)</p>
 
 ## Visual Localization
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2025-10-01**|**EvoWorld: Evolving Panoramic World Generation with Explicit 3D Memory**|Jiahao Wang et.al.|[2510.01183](http://arxiv.org/abs/2510.01183)|null|
+|**2025-10-01**|**A Scene is Worth a Thousand Features: Feed-Forward Camera Localization from a Collection of Image Features**|Axel Barroso-Laguna et.al.|[2510.00978](http://arxiv.org/abs/2510.00978)|null|
+|**2025-10-01**|**Semantic Visual Simultaneous Localization and Mapping: A Survey on State of the Art, Challenges, and Future Directions**|Thanh Nguyen Canh et.al.|[2510.00783](http://arxiv.org/abs/2510.00783)|null|
+|**2025-09-30**|**Video Object Segmentation-Aware Audio Generation**|Ilpo Viertola et.al.|[2509.26604](http://arxiv.org/abs/2509.26604)|null|
+|**2025-09-30**|**SQUARE: Semantic Query-Augmented Fusion and Efficient Batch Reranking for Training-free Zero-Shot Composed Image Retrieval**|Ren-Di Wu et.al.|[2509.26330](http://arxiv.org/abs/2509.26330)|null|
+|**2025-09-30**|**SETR: A Two-Stage Semantic-Enhanced Framework for Zero-Shot Composed Image Retrieval**|Yuqi Xiao et.al.|[2509.26012](http://arxiv.org/abs/2509.26012)|null|
+|**2025-09-30**|**SAGE: Spatial-visual Adaptive Graph Exploration for Visual Place Recognition**|Shunpeng Chen et.al.|[2509.25723](http://arxiv.org/abs/2509.25723)|null|
+|**2025-09-29**|**Robust Visual Localization in Compute-Constrained Environments by Salient Edge Rendering and Weighted Hamming Similarity**|Tu-Hoa Pham et.al.|[2509.25520](http://arxiv.org/abs/2509.25520)|null|
 |**2025-09-29**|**Performance-Efficiency Trade-off for Fashion Image Retrieval**|Julio Hurtado et.al.|[2509.24477](http://arxiv.org/abs/2509.24477)|null|
 |**2025-09-28**|**Prepare for Warp Speed: Sub-millisecond Visual Place Recognition Using Event Cameras**|Vignesh Ramanathan et.al.|[2509.24094](http://arxiv.org/abs/2509.24094)|null|
 |**2025-09-26**|**Johnson-Lindenstrauss Lemma Guided Network for Efficient 3D Medical Segmentation**|Jinpeng Lu et.al.|[2509.22307](http://arxiv.org/abs/2509.22307)|null|
@@ -621,12 +657,13 @@
 |**2025-03-09**|**TextInPlace: Indoor Visual Place Recognition in Repetitive Structures with Scene Text Spotting and Verification**|Huaqi Tao et.al.|[2503.06501](http://arxiv.org/abs/2503.06501)|**[link](https://github.com/hqitao/textinplace)**|
 |**2025-03-08**|**NeuraLoc: Visual Localization in Neural Implicit Map with Dual Complementary Features**|Hongjia Zhai et.al.|[2503.06117](http://arxiv.org/abs/2503.06117)|null|
 
-<p align=right>(<a href=#updated-on-20251001>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20251006>back to top</a>)</p>
 
 ## Keypoint Detection
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2025-09-30**|**Enhancing Certifiable Semantic Robustness via Robust Pruning of Deep Neural Networks**|Hanjiang Hu et.al.|[2510.00083](http://arxiv.org/abs/2510.00083)|null|
 |**2025-09-26**|**PANICL: Mitigating Over-Reliance on Single Prompt in Visual In-Context Learning**|Jiahao Zhang et.al.|[2509.21926](http://arxiv.org/abs/2509.21926)|null|
 |**2025-09-15**|**Bridging the Gap Between Sparsity and Redundancy: A Dual-Decoding Framework with Global Context for Map Inference**|Yudong Shen et.al.|[2509.11731](http://arxiv.org/abs/2509.11731)|null|
 |**2025-09-11**|**A Path Signature Framework for Detecting Creative Fatigue in Digital Advertising**|Charles Shaw et.al.|[2509.09758](http://arxiv.org/abs/2509.09758)|null|
@@ -635,7 +672,7 @@
 |**2025-08-25**|**DroneKey: Drone 3D Pose Estimation in Image Sequences using Gated Key-representation and Pose-adaptive Learning**|Seo-Bin Hwang et.al.|[2508.17746](http://arxiv.org/abs/2508.17746)|null|
 |**2025-08-25**|**HOSt3R: Keypoint-free Hand-Object 3D Reconstruction from RGB images**|Anilkumar Swamy et.al.|[2508.16465](http://arxiv.org/abs/2508.16465)|null|
 |**2025-08-21**|**Mag-Match: Magnetic Vector Field Features for Map Matching and Registration**|William McDonald et.al.|[2508.15300](http://arxiv.org/abs/2508.15300)|null|
-|**2025-08-17**|**Splat Feature Solver**|Butian Xiong et.al.|[2508.12216](http://arxiv.org/abs/2508.12216)|**[link](https://github.com/saliteta/splat-distiller)**|
+|**2025-08-17**|**Splat Feature Solver**|Butian Xiong et.al.|[2508.12216](http://arxiv.org/abs/2508.12216)|null|
 |**2025-08-13**|**Topological Structure Description for Artcode Detection Using the Shape of Orientation Histogram**|Liming Xu et.al.|[2508.10942](http://arxiv.org/abs/2508.10942)|null|
 |**2025-08-13**|**Stable Diffusion Models are Secretly Good at Visual In-Context Learning**|Trevine Oorloff et.al.|[2508.09949](http://arxiv.org/abs/2508.09949)|null|
 |**2025-08-16**|**AugLift: Boosting Generalization in Lifting-based 3D Human Pose Estimation**|Nikolai Warner et.al.|[2508.07112](http://arxiv.org/abs/2508.07112)|null|
@@ -684,15 +721,18 @@
 |**2025-02-27**|**Automatic Temporal Segmentation for Post-Stroke Rehabilitation: A Keypoint Detection and Temporal Segmentation Approach for Small Datasets**|Jisoo Lee et.al.|[2502.19766](http://arxiv.org/abs/2502.19766)|null|
 |**2025-02-23**|**Rewards-based image analysis in microscopy**|Kamyar Barakati et.al.|[2502.18522](http://arxiv.org/abs/2502.18522)|null|
 
-<p align=right>(<a href=#updated-on-20251001>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20251006>back to top</a>)</p>
 
 ## NeRF
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
-|**2025-09-29**|**GEM: 3D Gaussian Splatting for Efficient and Accurate Cryo-EM Reconstruction**|Huaizhi Qu et.al.|[2509.25075](http://arxiv.org/abs/2509.25075)|null|
+|**2025-10-02**|**StealthAttack: Robust 3D Gaussian Splatting Poisoning via Density-Guided Illusions**|Bo-Hsu Ke et.al.|[2510.02314](http://arxiv.org/abs/2510.02314)|null|
+|**2025-10-01**|**Multi-level Dynamic Style Transfer for NeRFs**|Zesheng Li et.al.|[2510.00592](http://arxiv.org/abs/2510.00592)|null|
+|**2025-09-29**|**VGGT-X: When VGGT Meets Dense Novel View Synthesis**|Yang Liu et.al.|[2509.25191](http://arxiv.org/abs/2509.25191)|null|
+|**2025-10-02**|**GEM: 3D Gaussian Splatting for Efficient and Accurate Cryo-EM Reconstruction**|Huaizhi Qu et.al.|[2509.25075](http://arxiv.org/abs/2509.25075)|null|
 |**2025-09-28**|**From Fields to Splats: A Cross-Domain Survey of Real-Time Neural Scene Representations**|Javed Ahmad et.al.|[2509.23555](http://arxiv.org/abs/2509.23555)|null|
-|**2025-09-27**|**FM-SIREN & FM-FINER: Nyquist-Informed Frequency Multiplier for Implicit Neural Representation with Periodic Activation**|Mohammed Alsakabi et.al.|[2509.23438](http://arxiv.org/abs/2509.23438)|null|
+|**2025-09-30**|**FM-SIREN & FM-FINER: Nyquist-Informed Frequency Multiplier for Implicit Neural Representation with Periodic Activation**|Mohammed Alsakabi et.al.|[2509.23438](http://arxiv.org/abs/2509.23438)|null|
 |**2025-09-27**|**OracleGS: Grounding Generative Priors for Sparse-View Gaussian Splatting**|Atakan Topaloglu et.al.|[2509.23258](http://arxiv.org/abs/2509.23258)|null|
 |**2025-09-23**|**WaveletGaussian: Wavelet-domain Diffusion for Sparse-view 3D Gaussian Object Reconstruction**|Hung Nguyen et.al.|[2509.19073](http://arxiv.org/abs/2509.19073)|null|
 |**2025-09-23**|**Seeing Through Reflections: Advancing 3D Scene Reconstruction in Mirror-Containing Environments with Gaussian Splatting**|Zijing Guo et.al.|[2509.18956](http://arxiv.org/abs/2509.18956)|null|
@@ -881,12 +921,22 @@
 |**2025-03-10**|**CATPlan: Loss-based Collision Prediction in End-to-End Autonomous Driving**|Ziliang Xiong et.al.|[2503.07425](http://arxiv.org/abs/2503.07425)|null|
 |**2025-03-08**|**Feature-EndoGaussian: Feature Distilled Gaussian Splatting in Surgical Deformable Scene Reconstruction**|Kai Li et.al.|[2503.06161](http://arxiv.org/abs/2503.06161)|null|
 
-<p align=right>(<a href=#updated-on-20251001>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20251006>back to top</a>)</p>
 
 ## Gaussian Splatting
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2025-10-02**|**StealthAttack: Robust 3D Gaussian Splatting Poisoning via Density-Guided Illusions**|Bo-Hsu Ke et.al.|[2510.02314](http://arxiv.org/abs/2510.02314)|null|
+|**2025-10-02**|**Performance-Guided Refinement for Visual Aerial Navigation using Editable Gaussian Splatting in FalconGym 2.0**|Yan Miao et.al.|[2510.02248](http://arxiv.org/abs/2510.02248)|null|
+|**2025-10-02**|**Spec-Gloss Surfels and Normal-Diffuse Priors for Relightable Glossy Objects**|Georgios Kouros et.al.|[2510.02069](http://arxiv.org/abs/2510.02069)|null|
+|**2025-10-02**|**GaussianMorphing: Mesh-Guided 3D Gaussians for Semantic-Aware Object Morphing**|Mengtian Li et.al.|[2510.02034](http://arxiv.org/abs/2510.02034)|null|
+|**2025-10-02**|**4DGS-Craft: Consistent and Interactive 4D Gaussian Splatting Editing**|Lei Liu et.al.|[2510.01991](http://arxiv.org/abs/2510.01991)|null|
+|**2025-10-02**|**ROI-GS: Interest-based Local Quality 3D Gaussian Splatting**|Quoc-Anh Bui et.al.|[2510.01978](http://arxiv.org/abs/2510.01978)|null|
+|**2025-10-02**|**GreenhouseSplat: A Dataset of Photorealistic Greenhouse Simulations for Mobile Robotics**|Diram Tabaa et.al.|[2510.01848](http://arxiv.org/abs/2510.01848)|null|
+|**2025-10-02**|**LOBE-GS: Load-Balanced and Efficient 3D Gaussian Splatting for Large-Scale Scene Reconstruction**|Sheng-Hsiang Hung et.al.|[2510.01767](http://arxiv.org/abs/2510.01767)|null|
+|**2025-10-02**|**MPMAvatar: Learning 3D Gaussian Avatars with Accurate and Robust Physics-Based Dynamics**|Changmin Lee et.al.|[2510.01619](http://arxiv.org/abs/2510.01619)|null|
+|**2025-10-01**|**Instant4D: 4D Gaussian Splatting in Minutes**|Zhanpeng Luo et.al.|[2510.01119](http://arxiv.org/abs/2510.01119)|null|
 |**2025-09-29**|**Triangle Splatting+: Differentiable Rendering with Opaque Triangles**|Jan Held et.al.|[2509.25122](http://arxiv.org/abs/2509.25122)|null|
 |**2025-09-29**|**GEM: 3D Gaussian Splatting for Efficient and Accurate Cryo-EM Reconstruction**|Huaizhi Qu et.al.|[2509.25075](http://arxiv.org/abs/2509.25075)|null|
 |**2025-09-29**|**LVT: Large-Scale Scene Reconstruction via Local View Transformers**|Tooba Imtiaz et.al.|[2509.25001](http://arxiv.org/abs/2509.25001)|null|
@@ -1193,7 +1243,35 @@
 |**2025-03-12**|**Hybrid Rendering for Multimodal Autonomous Driving: Merging Neural and Physics-Based Simulation**|Máté Tóth et.al.|[2503.09464](http://arxiv.org/abs/2503.09464)|null|
 |**2025-03-12**|**Online Language Splatting**|Saimouli Katragadda et.al.|[2503.09447](http://arxiv.org/abs/2503.09447)|null|
 
-<p align=right>(<a href=#updated-on-20251001>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20251006>back to top</a>)</p>
 
+## 3D Registration
 
+|Publish Date|Title|Authors|PDF|Code|
+|---|---|---|---|---|
+|**2025-09-29**|**DINOReg: Strong Point Cloud Registration with Vision Foundation Model**|Congjia Chen et.al.|[2509.24370](http://arxiv.org/abs/2509.24370)|null|
+|**2025-09-29**|**Robust Partial 3D Point Cloud Registration via Confidence Estimation under Global Context**|Yongqiang Wang et.al.|[2509.24275](http://arxiv.org/abs/2509.24275)|null|
+|**2025-09-29**|**Skeleton-based Robust Registration Framework for Corrupted 3D Point Clouds**|Yongqiang Wang et.al.|[2509.24273](http://arxiv.org/abs/2509.24273)|null|
+|**2025-09-28**|**AssemblyHands-X: Modeling 3D Hand-Body Coordination for Understanding Bimanual Human Activities**|Tatsuro Banno et.al.|[2509.23888](http://arxiv.org/abs/2509.23888)|null|
+|**2025-09-26**|**An Adaptive ICP LiDAR Odometry Based on Reliable Initial Pose**|Qifeng Wang et.al.|[2509.22058](http://arxiv.org/abs/2509.22058)|null|
+|**2025-09-25**|**Building Information Models to Robot-Ready Site Digital Twins (BIM2RDT): An Agentic AI Safety-First Framework**|Reza Akhavian et.al.|[2509.20705](http://arxiv.org/abs/2509.20705)|null|
+|**2025-09-24**|**Human-Interpretable Uncertainty Explanations for Point Cloud Registration**|Johannes A. Gaus et.al.|[2509.18786](http://arxiv.org/abs/2509.18786)|null|
+|**2025-09-19**|**Self-Supervised Cross-Modal Learning for Image-to-Point Cloud Registration**|Xingmei Wang et.al.|[2509.15882](http://arxiv.org/abs/2509.15882)|null|
+|**2025-09-19**|**FingerSplat: Contactless Fingerprint 3D Reconstruction and Generation based on 3D Gaussian Splatting**|Yuwei Jia et.al.|[2509.15648](http://arxiv.org/abs/2509.15648)|null|
+|**2025-09-18**|**MATTER: Multiscale Attention for Registration Error Regression**|Shipeng Liu et.al.|[2509.12924](http://arxiv.org/abs/2509.12924)|null|
+|**2025-09-16**|**DisorientLiDAR: Physical Attacks on LiDAR-based Localization**|Yizhen Lao et.al.|[2509.12595](http://arxiv.org/abs/2509.12595)|null|
+|**2025-09-10**|**iMatcher: Improve matching in point cloud registration via local-to-global geometric consistency learning**|Karim Slimani et.al.|[2509.08982](http://arxiv.org/abs/2509.08982)|null|
+|**2025-09-10**|**Unidimensional semi-discrete partial optimal transport**|Adrien Cances et.al.|[2509.08799](http://arxiv.org/abs/2509.08799)|null|
+|**2025-09-08**|**A Robust Approach for LiDAR-Inertial Odometry Without Sensor-Specific Modeling**|Meher V. R. Malladi et.al.|[2509.06593](http://arxiv.org/abs/2509.06593)|null|
+|**2025-09-08**|**Cross3DReg: Towards a Large-scale Real-world Cross-source Point Cloud Registration Benchmark**|Zongyi Xu et.al.|[2509.06456](http://arxiv.org/abs/2509.06456)|null|
+|**2025-09-08**|**DCReg: Decoupled Characterization for Efficient Degenerate LiDAR Registration**|Xiangcheng Hu et.al.|[2509.06285](http://arxiv.org/abs/2509.06285)|null|
+|**2025-09-02**|**Doctoral Thesis: Geometric Deep Learning For Camera Pose Prediction, Registration, Depth Estimation, and 3D Reconstruction**|Xueyang Kang et.al.|[2509.01873](http://arxiv.org/abs/2509.01873)|null|
+|**2025-08-28**|**Surfel-based 3D Registration with Equivariant SE(3) Features**|Xueyang Kang et.al.|[2508.20789](http://arxiv.org/abs/2508.20789)|null|
+|**2025-08-24**|**Robust Point Cloud Registration via Geometric Overlapping Guided Rotation Search**|Zhao Zheng et.al.|[2508.17427](http://arxiv.org/abs/2508.17427)|null|
+|**2025-08-22**|**GPL-SLAM: A Laser SLAM Framework with Gaussian Process Based Extended Landmarks**|Ali Emre Balcı et.al.|[2508.16459](http://arxiv.org/abs/2508.16459)|null|
+|**2025-08-22**|**4D Virtual Imaging Platform for Dynamic Joint Assessment via Uni-Plane X-ray and 2D-3D Registration**|Hao Tang et.al.|[2508.16138](http://arxiv.org/abs/2508.16138)|null|
+|**2025-08-21**|**Fast globally optimal Truncated Least Squares point cloud registration with fixed rotation axis**|Ivo Ivanov et.al.|[2508.15613](http://arxiv.org/abs/2508.15613)|null|
+|**2025-08-06**|**PKSS-Align: Robust Point Cloud Registration on Pre-Kendall Shape Space**|Chenlei Lv et.al.|[2508.04286](http://arxiv.org/abs/2508.04286)|null|
+
+<p align=right>(<a href=#updated-on-20251006>back to top</a>)</p>
 
