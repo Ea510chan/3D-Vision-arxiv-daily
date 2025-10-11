@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2025.10.06
+## Updated on 2025.10.11
 > Usage instructions: [here](./docs/README.md#usage)
 
 > This page is modified from [here](https://github.com/Vincentqyw/cv-arxiv-daily)
@@ -64,6 +64,10 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-10-08**|**Lattice-allocated Real-time Line Segment Feature Detection and Tracking Using Only an Event-based Camera**|Mikihiro Ikura et.al.|[2510.06829](http://arxiv.org/abs/2510.06829)|null|
+|**2025-10-08**|**StyleKeeper: Prevent Content Leakage using Negative Visual Query Guidance**|Jaeseok Jeong et.al.|[2510.06827](http://arxiv.org/abs/2510.06827)|null|
+|**2025-10-08**|**Efficient Discriminative Joint Encoders for Large Scale Vision-Language Reranking**|Mitchell Keren Taraday et.al.|[2510.06820](http://arxiv.org/abs/2510.06820)|null|
+|**2025-10-06**|**SegMASt3R: Geometry Grounded Segment Matching**|Rohit Jayanti et.al.|[2510.05051](http://arxiv.org/abs/2510.05051)|null|
 |**2025-09-23**|**Hierarchical Neural Semantic Representation for 3D Semantic Correspondence**|Keyu Du et.al.|[2509.17431](http://arxiv.org/abs/2509.17431)|null|
 |**2025-09-20**|**PM25Vision: A Large-Scale Benchmark Dataset for Visual Estimation of Air Quality**|Yang Han et.al.|[2509.16519](http://arxiv.org/abs/2509.16519)|null|
 |**2025-09-19**|**DistillMatch: Leveraging Knowledge Distillation from Vision Foundation Model for Multimodal Image Matching**|Meng Yang et.al.|[2509.16017](http://arxiv.org/abs/2509.16017)|null|
@@ -140,6 +144,7 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-10-02**|**Visual Odometry with Transformers**|Vlardimir Yugay et.al.|[2510.03348](http://arxiv.org/abs/2510.03348)|null|
 |**2025-09-19**|**Omni-LIVO: Robust RGB-Colored Multi-Camera Visual-Inertial-LiDAR Odometry via Photometric Migration and ESIKF Fusion**|Yinong Cao et.al.|[2509.15673](http://arxiv.org/abs/2509.15673)|null|
 |**2025-09-18**|**BEV-ODOM2: Enhanced BEV-based Monocular Visual Odometry with PV-BEV Fusion and Dense Flow Supervision for Ground Robots**|Yufei Wei et.al.|[2509.14636](http://arxiv.org/abs/2509.14636)|null|
 |**2025-09-17**|**UM-Depth : Uncertainty Masked Self-Supervised Monocular Depth Estimation with Visual Odometry**|Tae-Wook Um et.al.|[2509.13713](http://arxiv.org/abs/2509.13713)|null|
@@ -334,7 +339,7 @@ layout: default
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
 |**2025-10-02**|**Non-Rigid Structure-from-Motion via Differential Geometry with Recoverable Conformal Scale**|Yongbo Chen et.al.|[2510.01665](http://arxiv.org/abs/2510.01665)|null|
-|**2025-09-29**|**VGGT-X: When VGGT Meets Dense Novel View Synthesis**|Yang Liu et.al.|[2509.25191](http://arxiv.org/abs/2509.25191)|null|
+|**2025-10-08**|**VGGT-X: When VGGT Meets Dense Novel View Synthesis**|Yang Liu et.al.|[2509.25191](http://arxiv.org/abs/2509.25191)|null|
 |**2025-09-28**|**BOSfM: A View Planning Framework for Optimal 3D Reconstruction of Agricultural Scenes**|Athanasios Bacharis et.al.|[2509.24126](http://arxiv.org/abs/2509.24126)|null|
 |**2025-09-28**|**RPG360: Robust 360 Depth Estimation with Perspective Foundation Models and Graph Optimization**|Dongki Jung et.al.|[2509.23991](http://arxiv.org/abs/2509.23991)|null|
 |**2025-09-28**|**CrashSplat: 2D to 3D Vehicle Damage Segmentation in Gaussian Splatting**|Dragoş-Andrei Chileban et.al.|[2509.23947](http://arxiv.org/abs/2509.23947)|null|
@@ -454,6 +459,16 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-10-09**|**DarkHash: A Data-Free Backdoor Attack Against Deep Hashing**|Ziqi Zhou et.al.|[2510.08094](http://arxiv.org/abs/2510.08094)|null|
+|**2025-10-09**|**CIR-CoT: Towards Interpretable Composed Image Retrieval via End-to-End Chain-of-Thought Reasoning**|Weihuang Lin et.al.|[2510.08003](http://arxiv.org/abs/2510.08003)|null|
+|**2025-10-09**|**Mutual Learning for Hashing: Unlocking Strong Hash Functions from Weak Supervision**|Xiaoxu Ma et.al.|[2510.07703](http://arxiv.org/abs/2510.07703)|null|
+|**2025-10-08**|**Multi-hop Deep Joint Source-Channel Coding with Deep Hash Distillation for Semantically Aligned Image Retrieval**|Didrik Bergström et.al.|[2510.06868](http://arxiv.org/abs/2510.06868)|null|
+|**2025-10-07**|**CalibCLIP: Contextual Calibration of Dominant Semantics for Text-Driven Image Retrieval**|Bin Kang et.al.|[2510.05586](http://arxiv.org/abs/2510.05586)|null|
+|**2025-10-06**|**Personalizing Retrieval using Joint Embeddings or "the Return of Fluffy"**|Bruno Korbar et.al.|[2510.05411](http://arxiv.org/abs/2510.05411)|null|
+|**2025-10-05**|**Flexible and Efficient Spatio-Temporal Transformer for Sequential Visual Place Recognition**|Yu Kiu et.al.|[2510.04282](http://arxiv.org/abs/2510.04282)|null|
+|**2025-10-04**|**The Overlooked Value of Test-time Reference Sets in Visual Place Recognition**|Mubariz Zaffar et.al.|[2510.03751](http://arxiv.org/abs/2510.03751)|null|
+|**2025-10-03**|**Novel UWB Synthetic Aperture Radar Imaging for Mobile Robot Mapping**|Charith Premachandra et.al.|[2510.02874](http://arxiv.org/abs/2510.02874)|null|
+|**2025-10-03**|**Team Xiaomi EV-AD VLA: Caption-Guided Retrieval System for Cross-Modal Drone Navigation -- Technical Report for IROS 2025 RoboSense Challenge Track 4**|Lingfeng Zhang et.al.|[2510.02728](http://arxiv.org/abs/2510.02728)|null|
 |**2025-10-01**|**EvoWorld: Evolving Panoramic World Generation with Explicit 3D Memory**|Jiahao Wang et.al.|[2510.01183](http://arxiv.org/abs/2510.01183)|null|
 |**2025-10-01**|**A Scene is Worth a Thousand Features: Feed-Forward Camera Localization from a Collection of Image Features**|Axel Barroso-Laguna et.al.|[2510.00978](http://arxiv.org/abs/2510.00978)|null|
 |**2025-10-01**|**Semantic Visual Simultaneous Localization and Mapping: A Survey on State of the Art, Challenges, and Future Directions**|Thanh Nguyen Canh et.al.|[2510.00783](http://arxiv.org/abs/2510.00783)|null|
@@ -704,13 +719,15 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-10-09**|**An Energy-Efficient Edge Coprocessor for Neural Rendering with Explicit Data Reuse Strategies**|Binzhe Yuan et.al.|[2510.07667](http://arxiv.org/abs/2510.07667)|null|
+|**2025-10-03**|**ROGR: Relightable 3D Objects using Generative Relighting**|Jiapeng Tang et.al.|[2510.03163](http://arxiv.org/abs/2510.03163)|null|
 |**2025-10-02**|**StealthAttack: Robust 3D Gaussian Splatting Poisoning via Density-Guided Illusions**|Bo-Hsu Ke et.al.|[2510.02314](http://arxiv.org/abs/2510.02314)|null|
 |**2025-10-01**|**Multi-level Dynamic Style Transfer for NeRFs**|Zesheng Li et.al.|[2510.00592](http://arxiv.org/abs/2510.00592)|null|
-|**2025-09-29**|**VGGT-X: When VGGT Meets Dense Novel View Synthesis**|Yang Liu et.al.|[2509.25191](http://arxiv.org/abs/2509.25191)|null|
+|**2025-10-08**|**VGGT-X: When VGGT Meets Dense Novel View Synthesis**|Yang Liu et.al.|[2509.25191](http://arxiv.org/abs/2509.25191)|null|
 |**2025-10-02**|**GEM: 3D Gaussian Splatting for Efficient and Accurate Cryo-EM Reconstruction**|Huaizhi Qu et.al.|[2509.25075](http://arxiv.org/abs/2509.25075)|null|
 |**2025-09-28**|**From Fields to Splats: A Cross-Domain Survey of Real-Time Neural Scene Representations**|Javed Ahmad et.al.|[2509.23555](http://arxiv.org/abs/2509.23555)|null|
 |**2025-09-30**|**FM-SIREN & FM-FINER: Nyquist-Informed Frequency Multiplier for Implicit Neural Representation with Periodic Activation**|Mohammed Alsakabi et.al.|[2509.23438](http://arxiv.org/abs/2509.23438)|null|
-|**2025-09-27**|**OracleGS: Grounding Generative Priors for Sparse-View Gaussian Splatting**|Atakan Topaloglu et.al.|[2509.23258](http://arxiv.org/abs/2509.23258)|null|
+|**2025-10-04**|**OracleGS: Grounding Generative Priors for Sparse-View Gaussian Splatting**|Atakan Topaloglu et.al.|[2509.23258](http://arxiv.org/abs/2509.23258)|null|
 |**2025-09-23**|**WaveletGaussian: Wavelet-domain Diffusion for Sparse-view 3D Gaussian Object Reconstruction**|Hung Nguyen et.al.|[2509.19073](http://arxiv.org/abs/2509.19073)|null|
 |**2025-09-23**|**Seeing Through Reflections: Advancing 3D Scene Reconstruction in Mirror-Containing Environments with Gaussian Splatting**|Zijing Guo et.al.|[2509.18956](http://arxiv.org/abs/2509.18956)|null|
 |**2025-09-22**|**From Restoration to Reconstruction: Rethinking 3D Gaussian Splatting for Underwater Scenes**|Guoxi Huang et.al.|[2509.17789](http://arxiv.org/abs/2509.17789)|null|
@@ -902,6 +919,16 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-10-09**|**ReSplat: Learning Recurrent Gaussian Splats**|Haofei Xu et.al.|[2510.08575](http://arxiv.org/abs/2510.08575)|null|
+|**2025-10-09**|**D $^2$ GS: Depth-and-Density Guided Gaussian Splatting for Stable and Accurate Sparse-View Reconstruction**|Meixi Song et.al.|[2510.08566](http://arxiv.org/abs/2510.08566)|null|
+|**2025-10-09**|**Splat the Net: Radiance Fields with Splattable Neural Primitives**|Xilong Zhou et.al.|[2510.08491](http://arxiv.org/abs/2510.08491)|null|
+|**2025-10-09**|**Efficient Label Refinement for Face Parsing Under Extreme Poses Using 3D Gaussian Splatting**|Ankit Gahlawat et.al.|[2510.08096](http://arxiv.org/abs/2510.08096)|null|
+|**2025-10-09**|**CVD-STORM: Cross-View Video Diffusion with Spatial-Temporal Reconstruction Model for Autonomous Driving**|Tianrui Zhang et.al.|[2510.07944](http://arxiv.org/abs/2510.07944)|null|
+|**2025-10-09**|**PrismGS: Physically-Grounded Anti-Aliasing for High-Fidelity Large-Scale 3D Gaussian Splatting**|Houqiang Zhong et.al.|[2510.07830](http://arxiv.org/abs/2510.07830)|null|
+|**2025-10-09**|**DEGS: Deformable Event-based 3D Gaussian Splatting from RGB and Event Stream**|Junhao He et.al.|[2510.07752](http://arxiv.org/abs/2510.07752)|null|
+|**2025-10-09**|**ComGS: Efficient 3D Object-Scene Composition via Surface Octahedral Probes**|Jian Gao et.al.|[2510.07729](http://arxiv.org/abs/2510.07729)|null|
+|**2025-10-08**|**Generating Surface for Text-to-3D using 2D Gaussian Splatting**|Huanning Dong et.al.|[2510.06967](http://arxiv.org/abs/2510.06967)|null|
+|**2025-10-08**|**Capture and Interact: Rapid 3D Object Acquisition and Rendering with Gaussian Splatting in Unity**|Islomjon Shukhratov et.al.|[2510.06802](http://arxiv.org/abs/2510.06802)|null|
 |**2025-10-02**|**StealthAttack: Robust 3D Gaussian Splatting Poisoning via Density-Guided Illusions**|Bo-Hsu Ke et.al.|[2510.02314](http://arxiv.org/abs/2510.02314)|null|
 |**2025-10-02**|**Performance-Guided Refinement for Visual Aerial Navigation using Editable Gaussian Splatting in FalconGym 2.0**|Yan Miao et.al.|[2510.02248](http://arxiv.org/abs/2510.02248)|null|
 |**2025-10-02**|**Spec-Gloss Surfels and Normal-Diffuse Priors for Relightable Glossy Objects**|Georgios Kouros et.al.|[2510.02069](http://arxiv.org/abs/2510.02069)|null|
@@ -1222,6 +1249,7 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-10-08**|**Novel point cloud registration approach for noninvasive patient specific estimation of leaflet strain from 3D images of heart valves**|Wensi Wu et.al.|[2510.06578](http://arxiv.org/abs/2510.06578)|null|
 |**2025-09-29**|**DINOReg: Strong Point Cloud Registration with Vision Foundation Model**|Congjia Chen et.al.|[2509.24370](http://arxiv.org/abs/2509.24370)|null|
 |**2025-09-29**|**Robust Partial 3D Point Cloud Registration via Confidence Estimation under Global Context**|Yongqiang Wang et.al.|[2509.24275](http://arxiv.org/abs/2509.24275)|null|
 |**2025-09-29**|**Skeleton-based Robust Registration Framework for Corrupted 3D Point Clouds**|Yongqiang Wang et.al.|[2509.24273](http://arxiv.org/abs/2509.24273)|null|
