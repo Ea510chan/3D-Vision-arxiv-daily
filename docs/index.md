@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2025.10.16
+## Updated on 2025.10.21
 > Usage instructions: [here](./docs/README.md#usage)
 
 > This page is modified from [here](https://github.com/Vincentqyw/cv-arxiv-daily)
@@ -152,7 +152,7 @@ layout: default
 |**2025-09-17**|**UM-Depth : Uncertainty Masked Self-Supervised Monocular Depth Estimation with Visual Odometry**|Tae-Wook Um et.al.|[2509.13713](http://arxiv.org/abs/2509.13713)|null|
 |**2025-09-17**|**Barometer-Aided Attitude Estimation**|Méloné Nyoba Tchonkeu et.al.|[2509.13649](http://arxiv.org/abs/2509.13649)|null|
 |**2025-09-10**|**Good Deep Features to Track: Self-Supervised Feature Extraction and Tracking in Visual Odometry**|Sai Puneeth Reddy Gottam et.al.|[2509.08333](http://arxiv.org/abs/2509.08333)|null|
-|**2025-09-10**|**Deep Visual Odometry for Stereo Event Cameras**|Sheng Zhong et.al.|[2509.08235](http://arxiv.org/abs/2509.08235)|null|
+|**2025-09-10**|**Deep Visual Odometry for Stereo Event Cameras**|Sheng Zhong et.al.|[2509.08235](http://arxiv.org/abs/2509.08235)|**[link](https://github.com/USTCPCS/CVPR2018_attention)**|
 |**2025-09-09**|**Aerial-ground Cross-modal Localization: Dataset, Ground-truth, and Benchmark**|Yandi Yang et.al.|[2509.07362](http://arxiv.org/abs/2509.07362)|null|
 |**2025-09-04**|**Odometry Calibration and Pose Estimation of a 4WIS4WID Mobile Wall Climbing Robot**|Branimir Ćaran et.al.|[2509.04016](http://arxiv.org/abs/2509.04016)|null|
 |**2025-08-01**|**CoProU-VO: Combining Projected Uncertainty for End-to-End Unsupervised Monocular Visual Odometry**|Jingchao Xie et.al.|[2508.00568](http://arxiv.org/abs/2508.00568)|null|
@@ -340,6 +340,10 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-10-17**|**MRASfM: Multi-Camera Reconstruction and Aggregation through Structure-from-Motion in Driving Scenes**|Lingfeng Xuan et.al.|[2510.15467](http://arxiv.org/abs/2510.15467)|null|
+|**2025-10-17**|**CuSfM: CUDA-Accelerated Structure-from-Motion**|Jingrui Yu et.al.|[2510.15271](http://arxiv.org/abs/2510.15271)|null|
+|**2025-10-15**|**Learning Neural Parametric 3D Breast Shape Models for Metrical Surface Reconstruction From Monocular RGB Videos**|Maximilian Weiherer et.al.|[2510.13540](http://arxiv.org/abs/2510.13540)|null|
+|**2025-10-15**|**InstantSfM: Fully Sparse and Parallel Structure-from-Motion**|Jiankun Zhong et.al.|[2510.13310](http://arxiv.org/abs/2510.13310)|null|
 |**2025-10-14**|**Scene Coordinate Reconstruction Priors**|Wenjing Bian et.al.|[2510.12387](http://arxiv.org/abs/2510.12387)|null|
 |**2025-10-10**|**Two-Stage Gaussian Splatting Optimization for Outdoor Scene Reconstruction**|Deborah Pintani et.al.|[2510.09489](http://arxiv.org/abs/2510.09489)|null|
 |**2025-10-02**|**Non-Rigid Structure-from-Motion via Differential Geometry with Recoverable Conformal Scale**|Yongbo Chen et.al.|[2510.01665](http://arxiv.org/abs/2510.01665)|null|
@@ -463,6 +467,8 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-10-16**|**Acquisition of interpretable domain information during brain MR image harmonization for content-based image retrieval**|Keima Abe et.al.|[2510.14535](http://arxiv.org/abs/2510.14535)|null|
+|**2025-10-15**|**Through the Lens of Doubt: Robust and Efficient Uncertainty Estimation for Visual Place Recognition**|Emily Miller et.al.|[2510.13464](http://arxiv.org/abs/2510.13464)|null|
 |**2025-10-13**|**Embedding the Teacher: Distilling vLLM Preferences for Scalable Image Retrieval**|Eric He et.al.|[2510.12014](http://arxiv.org/abs/2510.12014)|null|
 |**2025-10-10**|**Hierarchical Scheduling for Multi-Vector Image Retrieval**|Maoliang Li et.al.|[2510.08976](http://arxiv.org/abs/2510.08976)|null|
 |**2025-10-09**|**DarkHash: A Data-Free Backdoor Attack Against Deep Hashing**|Ziqi Zhou et.al.|[2510.08094](http://arxiv.org/abs/2510.08094)|null|
@@ -725,6 +731,8 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-10-16**|**GauSSmart: Enhanced 3D Reconstruction through 2D Foundation Models and Geometric Filtering**|Alexander Valverde et.al.|[2510.14270](http://arxiv.org/abs/2510.14270)|null|
+|**2025-10-16**|**SimULi: Real-Time LiDAR and Camera Simulation with Unscented Transforms**|Haithem Turki et.al.|[2510.12901](http://arxiv.org/abs/2510.12901)|null|
 |**2025-10-13**|**Perspective-aware 3D Gaussian Inpainting with Multi-view Consistency**|Yuxin Cheng et.al.|[2510.10993](http://arxiv.org/abs/2510.10993)|null|
 |**2025-10-11**|**Opacity-Gradient Driven Density Control for Compact and Efficient Few-Shot 3D Gaussian Splatting**|Abdelrhman Elrawy et.al.|[2510.10257](http://arxiv.org/abs/2510.10257)|null|
 |**2025-10-11**|**Gesplat: Robust Pose-Free 3D Reconstruction via Geometry-Guided Gaussian Splatting**|Jiahui Lu et.al.|[2510.10097](http://arxiv.org/abs/2510.10097)|null|
@@ -931,6 +939,16 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-10-17**|**PFGS: Pose-Fused 3D Gaussian Splatting for Complete Multi-Pose Object Reconstruction**|Ting-Yu Yen et.al.|[2510.15386](http://arxiv.org/abs/2510.15386)|null|
+|**2025-10-17**|**GaussGym: An open-source real-to-sim framework for learning locomotion from pixels**|Alejandro Escontrela et.al.|[2510.15352](http://arxiv.org/abs/2510.15352)|null|
+|**2025-10-16**|**SaLon3R: Structure-aware Long-term Generalizable 3D Reconstruction from Unposed Images**|Jiaxin Guo et.al.|[2510.15072](http://arxiv.org/abs/2510.15072)|null|
+|**2025-10-16**|**Leveraging Learned Image Prior for 3D Gaussian Compression**|Seungjoo Shin et.al.|[2510.14705](http://arxiv.org/abs/2510.14705)|null|
+|**2025-10-16**|**BalanceGS: Algorithm-System Co-design for Efficient 3D Gaussian Splatting Training on GPU**|Junyi Wu et.al.|[2510.14564](http://arxiv.org/abs/2510.14564)|null|
+|**2025-10-16**|**GauSSmart: Enhanced 3D Reconstruction through 2D Foundation Models and Geometric Filtering**|Alexander Valverde et.al.|[2510.14270](http://arxiv.org/abs/2510.14270)|null|
+|**2025-10-16**|**Virtually Being: Customizing Camera-Controllable Video Diffusion Models with Multi-View Performance Captures**|Yuancheng Xu et.al.|[2510.14179](http://arxiv.org/abs/2510.14179)|null|
+|**2025-10-17**|**Capture, Canonicalize, Splat: Zero-Shot 3D Gaussian Avatars from Unstructured Phone Images**|Emanuel Garbin et.al.|[2510.14081](http://arxiv.org/abs/2510.14081)|null|
+|**2025-10-15**|**Instant Skinned Gaussian Avatars for Web, Mobile and VR Applications**|Naruya Kondo et.al.|[2510.13978](http://arxiv.org/abs/2510.13978)|null|
+|**2025-10-15**|**VIST3A: Text-to-3D by Stitching a Multi-view Reconstruction Network to a Video Generator**|Hyojun Go et.al.|[2510.13454](http://arxiv.org/abs/2510.13454)|null|
 |**2025-10-14**|**Uncertainty Matters in Dynamic Gaussian Splatting for Monocular 4D Reconstruction**|Fengzhi Guo et.al.|[2510.12768](http://arxiv.org/abs/2510.12768)|null|
 |**2025-10-14**|**BSGS: Bi-stage 3D Gaussian Splatting for Camera Motion Deblurring**|An Zhao et.al.|[2510.12493](http://arxiv.org/abs/2510.12493)|null|
 |**2025-10-14**|**Hybrid Gaussian Splatting for Novel Urban View Synthesis**|Mohamed Omran et.al.|[2510.12308](http://arxiv.org/abs/2510.12308)|null|
