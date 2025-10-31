@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2025.10.27
+## Updated on 2025.10.31
 > Usage instructions: [here](./docs/README.md#usage)
 
 > This page is modified from [here](https://github.com/Vincentqyw/cv-arxiv-daily)
@@ -64,10 +64,12 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-10-27**|**The MDW Hα Sky Survey: Data Release 1**|Noor Aftab et.al.|[2510.22900](http://arxiv.org/abs/2510.22900)|null|
+|**2025-10-26**|**FairJudge: MLLM Judging for Social Attributes and Prompt Image Alignment**|Zahraa Al Sahili et.al.|[2510.22827](http://arxiv.org/abs/2510.22827)|null|
 |**2025-10-08**|**Lattice-allocated Real-time Line Segment Feature Detection and Tracking Using Only an Event-based Camera**|Mikihiro Ikura et.al.|[2510.06829](http://arxiv.org/abs/2510.06829)|null|
 |**2025-10-08**|**StyleKeeper: Prevent Content Leakage using Negative Visual Query Guidance**|Jaeseok Jeong et.al.|[2510.06827](http://arxiv.org/abs/2510.06827)|null|
 |**2025-10-08**|**Efficient Discriminative Joint Encoders for Large Scale Vision-Language Reranking**|Mitchell Keren Taraday et.al.|[2510.06820](http://arxiv.org/abs/2510.06820)|null|
-|**2025-10-06**|**SegMASt3R: Geometry Grounded Segment Matching**|Rohit Jayanti et.al.|[2510.05051](http://arxiv.org/abs/2510.05051)|null|
+|**2025-10-24**|**SegMASt3R: Geometry Grounded Segment Matching**|Rohit Jayanti et.al.|[2510.05051](http://arxiv.org/abs/2510.05051)|null|
 |**2025-09-23**|**Hierarchical Neural Semantic Representation for 3D Semantic Correspondence**|Keyu Du et.al.|[2509.17431](http://arxiv.org/abs/2509.17431)|null|
 |**2025-09-20**|**PM25Vision: A Large-Scale Benchmark Dataset for Visual Estimation of Air Quality**|Yang Han et.al.|[2509.16519](http://arxiv.org/abs/2509.16519)|null|
 |**2025-09-19**|**DistillMatch: Leveraging Knowledge Distillation from Vision Foundation Model for Multimodal Image Matching**|Meng Yang et.al.|[2509.16017](http://arxiv.org/abs/2509.16017)|null|
@@ -144,6 +146,7 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-10-29**|**EA3D: Online Open-World 3D Object Extraction from Streaming Videos**|Xiaoyu Zhou et.al.|[2510.25146](http://arxiv.org/abs/2510.25146)|null|
 |**2025-10-21**|**DeepDetect: Learning All-in-One Dense Keypoints**|Shaharyar Ahmed Khan Tareen et.al.|[2510.17422](http://arxiv.org/abs/2510.17422)|null|
 |**2025-10-14**|**SPORTS: Simultaneous Panoptic Odometry, Rendering, Tracking and Segmentation for Urban Scenes Understanding**|Zhiliu Yang et.al.|[2510.12749](http://arxiv.org/abs/2510.12749)|null|
 |**2025-10-14**|**PolygMap: A Perceptive Locomotion Framework for Humanoid Robot Stair Climbing**|Bingquan Li et.al.|[2510.12346](http://arxiv.org/abs/2510.12346)|null|
@@ -472,7 +475,15 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2025-10-23**|**BIOCAP: Exploiting Synthetic Captions Beyond Labels in Biological Foundation Models**|Ziheng Zhang et.al.|[2510.20095](http://arxiv.org/abs/2510.20095)|null|
+|**2025-10-29**|**Instance-Level Composed Image Retrieval**|Bill Psomas et.al.|[2510.25387](http://arxiv.org/abs/2510.25387)|null|
+|**2025-10-28**|**DualCap: Enhancing Lightweight Image Captioning via Dual Retrieval with Similar Scenes Visual Prompts**|Binbin Li et.al.|[2510.24813](http://arxiv.org/abs/2510.24813)|null|
+|**2025-10-27**|**Accurate and Scalable Multimodal Pathology Retrieval via Attentive Vision-Language Alignment**|Hongyi Wang et.al.|[2510.23224](http://arxiv.org/abs/2510.23224)|null|
+|**2025-10-26**|**Seeing the Unseen: Towards Zero-Shot Inspection for Wind Turbine Blades using Knowledge-Augmented Vision Language Models**|Yang Zhang et.al.|[2510.22868](http://arxiv.org/abs/2510.22868)|null|
+|**2025-10-26**|**TWC-SLAM: Multi-Agent Cooperative SLAM with Text Semantics and WiFi Features Integration for Similar Indoor Environments**|Chunyu Li et.al.|[2510.22754](http://arxiv.org/abs/2510.22754)|null|
+|**2025-10-26**|**Cross-view Localization and Synthesis -- Datasets, Challenges and Opportunities**|Ningli Xu et.al.|[2510.22736](http://arxiv.org/abs/2510.22736)|null|
+|**2025-10-26**|**STATUS Bench: A Rigorous Benchmark for Evaluating Object State Understanding in Vision-Language Models**|Mahiro Ukai et.al.|[2510.22571](http://arxiv.org/abs/2510.22571)|null|
+|**2025-10-26**|**Bag-of-Word-Groups (BoWG): A Robust and Efficient Loop Closure Detection Method Under Perceptual Aliasing**|Xiang Fei et.al.|[2510.22529](http://arxiv.org/abs/2510.22529)|null|
+|**2025-10-24**|**BioCAP: Exploiting Synthetic Captions Beyond Labels in Biological Foundation Models**|Ziheng Zhang et.al.|[2510.20095](http://arxiv.org/abs/2510.20095)|null|
 |**2025-10-18**|**Small Language Models Offer Significant Potential for Science Community**|Jian Zhang et.al.|[2510.18890](http://arxiv.org/abs/2510.18890)|null|
 |**2025-10-21**|**Beyond Single Images: Retrieval Self-Augmented Unsupervised Camouflaged Object Detection**|Ji Du et.al.|[2510.18437](http://arxiv.org/abs/2510.18437)|null|
 |**2025-10-21**|**ImageGem: In-the-wild Generative Image Interaction Dataset for Generative Model Personalization**|Yuanhe Guo et.al.|[2510.18433](http://arxiv.org/abs/2510.18433)|null|
@@ -680,6 +691,8 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-10-26**|**Cross-Species Transfer Learning in Agricultural AI: Evaluating ZebraPose Adaptation for Dairy Cattle Pose Estimation**|Mackenzie Tapp et.al.|[2510.22618](http://arxiv.org/abs/2510.22618)|null|
+|**2025-10-25**|**SemiETPicker: Fast and Label-Efficient Particle Picking for CryoET Tomography Using Semi-Supervised Learning**|Linhan Wang et.al.|[2510.22454](http://arxiv.org/abs/2510.22454)|null|
 |**2025-10-21**|**GBlobs: Local LiDAR Geometry for Improved Sensor Placement Generalization**|Dušan Malić et.al.|[2510.18539](http://arxiv.org/abs/2510.18539)|null|
 |**2025-10-21**|**DeepDetect: Learning All-in-One Dense Keypoints**|Shaharyar Ahmed Khan Tareen et.al.|[2510.17422](http://arxiv.org/abs/2510.17422)|null|
 |**2025-09-30**|**Enhancing Certifiable Semantic Robustness via Robust Pruning of Deep Neural Networks**|Hanjiang Hu et.al.|[2510.00083](http://arxiv.org/abs/2510.00083)|null|
@@ -744,6 +757,8 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-10-29**|**4-Doodle: Text to 3D Sketches that Move!**|Hao Chen et.al.|[2510.25319](http://arxiv.org/abs/2510.25319)|null|
+|**2025-10-25**|**I2-NeRF: Learning Neural Radiance Fields Under Physically-Grounded Media Interactions**|Shuhong Liu et.al.|[2510.22161](http://arxiv.org/abs/2510.22161)|null|
 |**2025-10-23**|**From Far and Near: Perceptual Evaluation of Crowd Representations Across Levels of Detail**|Xiaohan Sun et.al.|[2510.20558](http://arxiv.org/abs/2510.20558)|null|
 |**2025-10-22**|**Extreme Views: 3DGS Filter for Novel View Synthesis from Out-of-Distribution Camera Poses**|Damian Bowness et.al.|[2510.20027](http://arxiv.org/abs/2510.20027)|null|
 |**2025-10-22**|**AegisRF: Adversarial Perturbations Guided with Sensitivity for Protecting Intellectual Property of Neural Radiance Fields**|Woo Jae Kim et.al.|[2510.19371](http://arxiv.org/abs/2510.19371)|null|
@@ -956,6 +971,16 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-10-29**|**$D^2GS$ : Dense Depth Regularization for LiDAR-free Urban Scene Reconstruction**|Kejing Xia et.al.|[2510.25173](http://arxiv.org/abs/2510.25173)|null|
+|**2025-10-29**|**AtlasGS: Atlanta-world Guided Surface Reconstruction with Implicit Structured Gaussians**|Xiyu Zhang et.al.|[2510.25129](http://arxiv.org/abs/2510.25129)|null|
+|**2025-10-28**|**NVSim: Novel View Synthesis Simulator for Large Scale Indoor Navigation**|Mingyu Jeong et.al.|[2510.24335](http://arxiv.org/abs/2510.24335)|null|
+|**2025-10-28**|**LagMemo: Language 3D Gaussian Splatting Memory for Multi-modal Open-vocabulary Multi-goal Visual Navigation**|Haotian Zhou et.al.|[2510.24118](http://arxiv.org/abs/2510.24118)|null|
+|**2025-10-28**|**A Survey on Collaborative SLAM with 3D Gaussian Splatting**|Phuc Nguyen Xuan et.al.|[2510.23988](http://arxiv.org/abs/2510.23988)|null|
+|**2025-10-27**|**PlanarGS: High-Fidelity Indoor 3D Gaussian Splatting Guided by Vision-Language Planar Priors**|Xirui Jin et.al.|[2510.23930](http://arxiv.org/abs/2510.23930)|null|
+|**2025-10-27**|**Explicit Memory through Online 3D Gaussian Splatting Improves Class-Agnostic Video Segmentation**|Anthony Opipari et.al.|[2510.23521](http://arxiv.org/abs/2510.23521)|null|
+|**2025-10-27**|**VR-Drive: Viewpoint-Robust End-to-End Driving with Feed-Forward 3D Gaussian Splatting**|Hoonhee Cho et.al.|[2510.23205](http://arxiv.org/abs/2510.23205)|null|
+|**2025-10-27**|**EndoWave: Rational-Wavelet 4D Gaussian Splatting for Endoscopic Reconstruction**|Taoyu Wu et.al.|[2510.23087](http://arxiv.org/abs/2510.23087)|null|
+|**2025-10-27**|**Scaling Up Occupancy-centric Driving Scene Generation: Dataset and Method**|Bohan Li et.al.|[2510.22973](http://arxiv.org/abs/2510.22973)|null|
 |**2025-10-23**|**GSWorld: Closed-Loop Photo-Realistic Simulation Suite for Robotic Manipulation**|Guangqi Jiang et.al.|[2510.20813](http://arxiv.org/abs/2510.20813)|null|
 |**2025-10-23**|**Dino-Diffusion Modular Designs Bridge the Cross-Domain Gap in Autonomous Parking**|Zixuan Wu et.al.|[2510.20335](http://arxiv.org/abs/2510.20335)|null|
 |**2025-10-23**|**COS3D: Collaborative Open-Vocabulary 3D Segmentation**|Runsong Zhu et.al.|[2510.20238](http://arxiv.org/abs/2510.20238)|null|
@@ -1316,6 +1341,8 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2025-10-27**|**Quality-controlled registration of urban MLS point clouds reducing drift effects by adaptive fragmentation**|Marco Antonio Ortiz Rincon et.al.|[2510.23416](http://arxiv.org/abs/2510.23416)|**[link](https://github.com/Marco-23/SSC-Registration)**|
+|**2025-10-25**|**Breaking the Static Assumption: A Dynamic-Aware LIO Framework Via Spatio-Temporal Normal Analysis**|Chen Zhiqiang et.al.|[2510.22313](http://arxiv.org/abs/2510.22313)|null|
 |**2025-10-19**|**Registration is a Powerful Rotation-Invariance Learner for 3D Anomaly Detection**|Yuyang Yu et.al.|[2510.16865](http://arxiv.org/abs/2510.16865)|null|
 |**2025-10-08**|**Novel point cloud registration approach for noninvasive patient specific estimation of leaflet strain from 3D images of heart valves**|Wensi Wu et.al.|[2510.06578](http://arxiv.org/abs/2510.06578)|null|
 |**2025-09-29**|**DINOReg: Strong Point Cloud Registration with Vision Foundation Model**|Congjia Chen et.al.|[2509.24370](http://arxiv.org/abs/2509.24370)|null|
