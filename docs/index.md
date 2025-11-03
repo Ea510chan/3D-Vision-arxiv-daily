@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2025.11.01
+## Updated on 2025.11.03
 > Usage instructions: [here](./docs/README.md#usage)
 
 > This page is modified from [here](https://github.com/Vincentqyw/cv-arxiv-daily)
@@ -1064,7 +1064,7 @@ layout: default
 |**2025-09-17**|**Plug-and-Play PDE Optimization for 3D Gaussian Splatting: Toward High-Quality Rendering and Reconstruction**|Yifan Mo et.al.|[2509.13938](http://arxiv.org/abs/2509.13938)|null|
 |**2025-09-17**|**LamiGauss: Pitching Radiative Gaussian for Sparse-View X-ray Laminography Reconstruction**|Chu Chen et.al.|[2509.13863](http://arxiv.org/abs/2509.13863)|null|
 |**2025-09-16**|**MemGS: Memory-Efficient Gaussian Splatting for Real-Time SLAM**|Yinlong Bai et.al.|[2509.13536](http://arxiv.org/abs/2509.13536)|null|
-|**2025-09-16**|**Improving 3D Gaussian Splatting Compression by Scene-Adaptive Lattice Vector Quantization**|Hao Xu et.al.|[2509.13482](http://arxiv.org/abs/2509.13482)|null|
+|**2025-09-16**|**Improving 3D Gaussian Splatting Compression by Scene-Adaptive Lattice Vector Quantization**|Hao Xu et.al.|[2509.13482](http://arxiv.org/abs/2509.13482)|**[link](https://github.com/hxu160/SALVQ)**|
 |**2025-09-16**|**Dream3DAvatar: Text-Controlled 3D Avatar Reconstruction from a Single Image**|Gaofeng Liu et.al.|[2509.13013](http://arxiv.org/abs/2509.13013)|null|
 |**2025-09-16**|**Beyond Averages: Open-Vocabulary 3D Scene Understanding with Gaussian Splatting and Bag of Embeddings**|Abdalla Arafa et.al.|[2509.12938](http://arxiv.org/abs/2509.12938)|null|
 |**2025-09-12**|**On the Geometric Accuracy of Implicit and Primitive-based Representations Derived from View Rendering Constraints**|Elias De Smijter et.al.|[2509.10241](http://arxiv.org/abs/2509.10241)|null|
