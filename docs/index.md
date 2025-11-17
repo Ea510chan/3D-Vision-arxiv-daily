@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2025.11.11
+## Updated on 2025.11.17
 > Usage instructions: [here](./docs/README.md#usage)
 
 > This page is modified from [here](https://github.com/Vincentqyw/cv-arxiv-daily)
@@ -199,7 +199,7 @@ layout: default
 |**2025-06-21**|**Optimizing Exploration with a New Uncertainty Framework for Active SLAM Systems**|Sebastian Sansoni et.al.|[2506.17775](http://arxiv.org/abs/2506.17775)|null|
 |**2025-06-18**|**MCOO-SLAM: A Multi-Camera Omnidirectional Object SLAM System**|Miaoxin Pan et.al.|[2506.15402](http://arxiv.org/abs/2506.15402)|null|
 |**2025-06-24**|**RA-NeRF: Robust Neural Radiance Field Reconstruction with Accurate Camera Pose Estimation under Complex Trajectories**|Qingsong Yan et.al.|[2506.15242](http://arxiv.org/abs/2506.15242)|null|
-|**2025-06-18**|**SHeRLoc: Synchronized Heterogeneous Radar Place Recognition for Cross-Modal Localization**|Hanjun Kim et.al.|[2506.15175](http://arxiv.org/abs/2506.15175)|null|
+|**2025-06-18**|**SHeRLoc: Synchronized Heterogeneous Radar Place Recognition for Cross-Modal Localization**|Hanjun Kim et.al.|[2506.15175](http://arxiv.org/abs/2506.15175)|**[link](https://github.com/hanjun815/SHeRLoc)**|
 |**2025-06-18**|**VIMS: A Visual-Inertial-Magnetic-Sonar SLAM System in Underwater Environments**|Bingbing Zhang et.al.|[2506.15126](http://arxiv.org/abs/2506.15126)|null|
 |**2025-06-16**|**Slanted light-sheet array microscopy for large volume imaging at rates exceeding 100 Hz**|Kai Long et.al.|[2506.13664](http://arxiv.org/abs/2506.13664)|null|
 |**2025-06-16**|**Cognitive Synergy Architecture: SEGO for Human-Centric Collaborative Robots**|Jaehong Oh et.al.|[2506.13149](http://arxiv.org/abs/2506.13149)|null|
@@ -229,7 +229,7 @@ layout: default
 |**2025-06-01**|**Globally Consistent RGB-D SLAM with 2D Gaussian Splatting**|Xingguang Zhong et.al.|[2506.00970](http://arxiv.org/abs/2506.00970)|**[link](https://github.com/PRBonn/2DGS-SLAM)**|
 |**2025-05-30**|**Black-box Adversarial Attacks on CNN-based SLAM Algorithms**|Maria Rafaela Gkeka et.al.|[2505.24654](http://arxiv.org/abs/2505.24654)|null|
 |**2025-05-28**|**Semantic Exploration and Dense Mapping of Complex Environments using Ground Robots Equipped with LiDAR and Panoramic Camera**|Xiaoyang Zhan et.al.|[2505.22880](http://arxiv.org/abs/2505.22880)|null|
-|**2025-05-28**|**4DTAM: Non-Rigid Tracking and Mapping via Dynamic Surface Gaussians**|Hidenobu Matsuki et.al.|[2505.22859](http://arxiv.org/abs/2505.22859)|null|
+|**2025-05-28**|**4DTAM: Non-Rigid Tracking and Mapping via Dynamic Surface Gaussians**|Hidenobu Matsuki et.al.|[2505.22859](http://arxiv.org/abs/2505.22859)|**[link](https://github.com/muskie82/4dtam)**|
 |**2025-05-28**|**UP-SLAM: Adaptively Structured Gaussian SLAM with Uncertainty Prediction in Dynamic Environments**|Wancai Zheng et.al.|[2505.22335](http://arxiv.org/abs/2505.22335)|null|
 |**2025-05-27**|**HS-SLAM: A Fast and Hybrid Strategy-Based SLAM Approach for Low-Speed Autonomous Driving**|Bingxiang Kang et.al.|[2505.20906](http://arxiv.org/abs/2505.20906)|null|
 |**2025-05-27**|**ProBA: Probabilistic Bundle Adjustment with the Bhattacharyya Coefficient**|Jason Chui et.al.|[2505.20858](http://arxiv.org/abs/2505.20858)|null|
@@ -565,8 +565,8 @@ layout: default
 |**2025-07-16**|**CorrMoE: Mixture of Experts with De-stylization Learning for Cross-Scene and Cross-Domain Correspondence Pruning**|Peiwen Xia et.al.|[2507.11834](http://arxiv.org/abs/2507.11834)|null|
 |**2025-07-14**|**GT-Loc: Unifying When and Where in Images Through a Joint Embedding Space**|David G. Shatwell et.al.|[2507.10473](http://arxiv.org/abs/2507.10473)|null|
 |**2025-07-14**|**Text-to-Remote-Sensing-Image Retrieval beyond RGB Sources**|Daniele Rege Cambrin et.al.|[2507.10403](http://arxiv.org/abs/2507.10403)|null|
-|**2025-07-14**|**Kaleidoscopic Background Attack: Disrupting Pose Estimation with Multi-Fold Radial Symmetry Textures**|Xinlong Ding et.al.|[2507.10265](http://arxiv.org/abs/2507.10265)|null|
-|**2025-07-11**|**RadiomicsRetrieval: A Customizable Framework for Medical Image Retrieval Using Radiomics Features**|Inye Na et.al.|[2507.08546](http://arxiv.org/abs/2507.08546)|null|
+|**2025-07-14**|**Kaleidoscopic Background Attack: Disrupting Pose Estimation with Multi-Fold Radial Symmetry Textures**|Xinlong Ding et.al.|[2507.10265](http://arxiv.org/abs/2507.10265)|**[link](https://github.com/wakuwu/KBA)**|
+|**2025-07-11**|**RadiomicsRetrieval: A Customizable Framework for Medical Image Retrieval Using Radiomics Features**|Inye Na et.al.|[2507.08546](http://arxiv.org/abs/2507.08546)|**[link](https://github.com/nainye/RadiomicsRetrieval)**|
 |**2025-07-11**|**LiDAR, GNSS and IMU Sensor Alignment through Dynamic Time Warping to Construct 3D City Maps**|Haitian Wang et.al.|[2507.08420](http://arxiv.org/abs/2507.08420)|null|
 |**2025-07-11**|**Deep Hashing with Semantic Hash Centers for Image Retrieval**|Li Chen et.al.|[2507.08404](http://arxiv.org/abs/2507.08404)|null|
 |**2025-07-10**|**SCREP: Scene Coordinate Regression and Evidential Learning-based Perception-Aware Trajectory Generation**|Juyeop Han et.al.|[2507.07467](http://arxiv.org/abs/2507.07467)|null|
@@ -758,7 +758,7 @@ layout: default
 |**2025-03-31**|**SuperEvent: Cross-Modal Learning of Event-based Keypoint Detection**|Yannick Burkhardt et.al.|[2504.00139](http://arxiv.org/abs/2504.00139)|null|
 |**2025-03-29**|**Deep Visual Servoing of an Aerial Robot Using Keypoint Feature Extraction**|Shayan Sepahvand et.al.|[2503.23171](http://arxiv.org/abs/2503.23171)|null|
 |**2025-03-25**|**Multiscale Feature Importance-based Bit Allocation for End-to-End Feature Coding for Machines**|Junle Liu et.al.|[2503.19278](http://arxiv.org/abs/2503.19278)|null|
-|**2025-03-05**|**Periodontal Bone Loss Analysis via Keypoint Detection With Heuristic Post-Processing**|Ryan Banks et.al.|[2503.13477](http://arxiv.org/abs/2503.13477)|null|
+|**2025-03-05**|**Periodontal Bone Loss Analysis via Keypoint Detection With Heuristic Post-Processing**|Ryan Banks et.al.|[2503.13477](http://arxiv.org/abs/2503.13477)|**[link](https://github.com/Banksylel/Bone-Loss-Keypoint-Detection-Code)**|
 |**2025-03-16**|**Histogram Transporter: Learning Rotation-Equivariant Orientation Histograms for High-Precision Robotic Kitting**|Jiadong Zhou et.al.|[2503.12541](http://arxiv.org/abs/2503.12541)|null|
 |**2025-04-12**|**Keypoint Detection and Description for Raw Bayer Images**|Jiakai Lin et.al.|[2503.08673](http://arxiv.org/abs/2503.08673)|null|
 |**2025-03-10**|**REF-VLM: Triplet-Based Referring Paradigm for Unified Visual Decoding**|Yan Tai et.al.|[2503.07413](http://arxiv.org/abs/2503.07413)|**[link](https://github.com/MacavityT/REF-VLM)**|
@@ -1248,9 +1248,9 @@ layout: default
 |**2025-05-17**|**Gaussian Splatting as a Unified Representation for Autonomy in Unstructured Environments**|Dexter Ong et.al.|[2505.11794](http://arxiv.org/abs/2505.11794)|null|
 |**2025-05-16**|**Exploiting Radiance Fields for Grasp Generation on Novel Synthetic Views**|Abhishek Kashyap et.al.|[2505.11467](http://arxiv.org/abs/2505.11467)|null|
 |**2025-05-16**|**GrowSplat: Constructing Temporal Digital Twins of Plants with Gaussian Splats**|Simeon Adebola et.al.|[2505.10923](http://arxiv.org/abs/2505.10923)|null|
-|**2025-05-14**|**Real2Render2Real: Scaling Robot Data Without Dynamics Simulation or Robot Hardware**|Justin Yu et.al.|[2505.09601](http://arxiv.org/abs/2505.09601)|null|
+|**2025-05-14**|**Real2Render2Real: Scaling Robot Data Without Dynamics Simulation or Robot Hardware**|Justin Yu et.al.|[2505.09601](http://arxiv.org/abs/2505.09601)|**[link](https://github.com/uynitsuj/real2render2real)**|
 |**2025-05-14**|**Neural Video Compression using 2D Gaussian Splatting**|Lakshya Gupta et.al.|[2505.09324](http://arxiv.org/abs/2505.09324)|null|
-|**2025-05-13**|**NavDP: Learning Sim-to-Real Navigation Diffusion Policy with Privileged Information Guidance**|Wenzhe Cai et.al.|[2505.08712](http://arxiv.org/abs/2505.08712)|null|
+|**2025-05-13**|**NavDP: Learning Sim-to-Real Navigation Diffusion Policy with Privileged Information Guidance**|Wenzhe Cai et.al.|[2505.08712](http://arxiv.org/abs/2505.08712)|**[link](https://github.com/InternRobotics/NavDP)**|
 |**2025-05-13**|**DLO-Splatting: Tracking Deformable Linear Objects Using 3D Gaussian Splatting**|Holly Dinkel et.al.|[2505.08644](http://arxiv.org/abs/2505.08644)|null|
 |**2025-05-13**|**FOCI: Trajectory Optimization on Gaussian Splats**|Mario Gomez Andreu et.al.|[2505.08510](http://arxiv.org/abs/2505.08510)|null|
 |**2025-05-13**|**A Survey of 3D Reconstruction with Event Cameras: From Event-based Geometry to Neural 3D Rendering**|Chuanzhi Xu et.al.|[2505.08438](http://arxiv.org/abs/2505.08438)|null|
