@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2025.12.11
+## Updated on 2025.12.15
 > Usage instructions: [here](./docs/README.md#usage)
 
 > This page is modified from [here](https://github.com/Vincentqyw/cv-arxiv-daily)
@@ -593,7 +593,7 @@ layout: default
 |**2025-12-07**|**Spatial Retrieval Augmented Autonomous Driving**|Xiaosong Jia et.al.|[2512.06865](http://arxiv.org/abs/2512.06865)|null|
 |**2025-12-06**|**Language-driven Fine-grained Retrieval**|Shijie Wang et.al.|[2512.06255](http://arxiv.org/abs/2512.06255)|null|
 |**2025-12-05**|**GuideNav: User-Informed Development of a Vision-Only Robotic Navigation Assistant For Blind Travelers**|Hochul Hwang et.al.|[2512.06147](http://arxiv.org/abs/2512.06147)|null|
-|**2025-12-04**|**ARM-Thinker: Reinforcing Multimodal Generative Reward Models with Agentic Tool Use and Visual Reasoning**|Shengyuan Ding et.al.|[2512.05111](http://arxiv.org/abs/2512.05111)|null|
+|**2025-12-04**|**ARM-Thinker: Reinforcing Multimodal Generative Reward Models with Agentic Tool Use and Visual Reasoning**|Shengyuan Ding et.al.|[2512.05111](http://arxiv.org/abs/2512.05111)|**[link](https://github.com/InternLM/ARM-Thinker)**|
 |**2025-12-04**|**Visual Reasoning Tracer: Object-Level Grounded Reasoning Benchmark**|Haobo Yuan et.al.|[2512.05091](http://arxiv.org/abs/2512.05091)|null|
 |**2025-12-04**|**Semantic-Guided Two-Stage GAN for Face Inpainting with Hybrid Perceptual Encoding**|Abhigyan Bhattacharya et.al.|[2512.05039](http://arxiv.org/abs/2512.05039)|null|
 |**2025-12-04**|**Revealing stimulus-dependent dynamics through statistical complexity**|Edson V. de Paula et.al.|[2512.05007](http://arxiv.org/abs/2512.05007)|null|
@@ -1582,7 +1582,7 @@ layout: default
 |**2025-04-13**|**DropoutGS: Dropping Out Gaussians for Better Sparse-view Rendering**|Yexing Xu et.al.|[2504.09491](http://arxiv.org/abs/2504.09491)|null|
 |**2025-04-12**|**A Constrained Optimization Approach for Gaussian Splatting from Coarsely-posed Images and Noisy Lidar Point Clouds**|Jizong Peng et.al.|[2504.09129](http://arxiv.org/abs/2504.09129)|**[link](https://github.com/eldentse/contrained-optimization-3dgs)**|
 |**2025-04-12**|**BIGS: Bimanual Category-agnostic Interaction Reconstruction from Monocular Videos via 3D Gaussian Splatting**|Jeongwan On et.al.|[2504.09097](http://arxiv.org/abs/2504.09097)|**[link](https://github.com/On-JungWoan/BIGS)**|
-|**2025-04-09**|**Wheat3DGS: In-field 3D Reconstruction, Instance Segmentation and Phenotyping of Wheat Heads with Gaussian Splatting**|Daiwei Zhang et.al.|[2504.06978](http://arxiv.org/abs/2504.06978)|null|
+|**2025-04-09**|**Wheat3DGS: In-field 3D Reconstruction, Instance Segmentation and Phenotyping of Wheat Heads with Gaussian Splatting**|Daiwei Zhang et.al.|[2504.06978](http://arxiv.org/abs/2504.06978)|**[link](https://github.com/zdwww/Wheat-3DGS)**|
 |**2025-04-09**|**IAAO: Interactive Affordance Learning for Articulated Objects in 3D Environments**|Can Zhang et.al.|[2504.06827](http://arxiv.org/abs/2504.06827)|null|
 |**2025-04-09**|**SVG-IR: Spatially-Varying Gaussian Splatting for Inverse Rendering**|Hanxiao Sun et.al.|[2504.06815](http://arxiv.org/abs/2504.06815)|**[link](https://github.com/learner-shx/svg-ir)**|
 |**2025-04-09**|**GSta: Efficient Training Scheme with Siestaed Gaussians for Monocular 3D Scene Reconstruction**|Anil Armagan et.al.|[2504.06716](http://arxiv.org/abs/2504.06716)|null|
@@ -1601,7 +1601,7 @@ layout: default
 |**2025-04-03**|**Toward Real-world BEV Perception: Depth Uncertainty Estimation via Gaussian Splatting**|Shu-Wei Lu et.al.|[2504.01957](http://arxiv.org/abs/2504.01957)|null|
 |**2025-04-02**|**BOGausS: Better Optimized Gaussian Splatting**|Stéphane Pateux et.al.|[2504.01844](http://arxiv.org/abs/2504.01844)|null|
 |**2025-04-02**|**FIORD: A Fisheye Indoor-Outdoor Dataset with LIDAR Ground Truth for 3D Scene Reconstruction and Benchmarking**|Ulas Gunes et.al.|[2504.01732](http://arxiv.org/abs/2504.01732)|null|
-|**2025-04-02**|**FlowR: Flowing from Sparse to Dense 3D Reconstructions**|Tobias Fischer et.al.|[2504.01647](http://arxiv.org/abs/2504.01647)|null|
+|**2025-04-02**|**FlowR: Flowing from Sparse to Dense 3D Reconstructions**|Tobias Fischer et.al.|[2504.01647](http://arxiv.org/abs/2504.01647)|**[link](https://github.com/tobiasfshr/flowr)**|
 |**2025-03-28**|**TranSplat: Lighting-Consistent Cross-Scene Object Transfer with 3D Gaussian Splatting**|Boyang et.al.|[2503.22676](http://arxiv.org/abs/2503.22676)|null|
 |**2025-03-28**|**Audio-Plane: Audio Factorization Plane Gaussian Splatting for Real-Time Talking Head Synthesis**|Shuai Shen et.al.|[2503.22605](http://arxiv.org/abs/2503.22605)|null|
 |**2025-03-28**|**EndoLRMGS: Complete Endoscopic Scene Reconstruction combining Large Reconstruction Modelling and Gaussian Splatting**|Xu Wang et.al.|[2503.22437](http://arxiv.org/abs/2503.22437)|**[link](https://github.com/michaelwanggo/endolrmgs)**|
