@@ -1,4 +1,4 @@
-## Updated on 2025.12.15
+## Updated on 2025.12.16
 > Usage instructions: [here](./docs/README.md#usage)
 
 > This page is modified from [here](https://github.com/Vincentqyw/cv-arxiv-daily)
@@ -71,12 +71,14 @@
 |**2025-02-15**|**Occlusion-aware Non-Rigid Point Cloud Registration via Unsupervised Neural Deformation Correntropy**|Mingyang Zhao et.al.|[2502.10704](http://arxiv.org/abs/2502.10704)|**[link](https://github.com/zikai1/oareg)**|
 |**2025-02-12**|**Fully-Geometric Cross-Attention for Point Cloud Registration**|Weijie Wang et.al.|[2502.08285](http://arxiv.org/abs/2502.08285)|null|
 
-<p align=right>(<a href=#updated-on-20251215>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20251216>back to top</a>)</p>
 
 ## Image Matching
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2025-12-11**|**Self-Supervised Contrastive Embedding Adaptation for Endoscopic Image Matching**|Alberto Rota et.al.|[2512.10379](http://arxiv.org/abs/2512.10379)|null|
+|**2025-12-11**|**MotionEdit: Benchmarking and Learning Motion-Centric Image Editing**|Yixin Wan et.al.|[2512.10284](http://arxiv.org/abs/2512.10284)|null|
 |**2025-12-04**|**Value Gradient Guidance for Flow Matching Alignment**|Zhen Liu et.al.|[2512.05116](http://arxiv.org/abs/2512.05116)|null|
 |**2025-12-04**|**Deep infant brain segmentation from multi-contrast MRI**|Malte Hoffmann et.al.|[2512.05114](http://arxiv.org/abs/2512.05114)|null|
 |**2025-12-04**|**Deep Forcing: Training-Free Long Video Generation with Deep Sink and Participative Compression**|Jung Yi et.al.|[2512.05081](http://arxiv.org/abs/2512.05081)|null|
@@ -203,12 +205,13 @@
 |**2025-02-26**|**BEV-LIO(LC): BEV Image Assisted LiDAR-Inertial Odometry with Loop Closure**|Haoxin Cai et.al.|[2502.19242](http://arxiv.org/abs/2502.19242)|**[link](https://github.com/hxca1/bev-lio-lc)**|
 |**2025-02-25**|**PromptMID: Modal Invariant Descriptors Based on Diffusion and Vision Foundation Models for Optical-SAR Image Matching**|Han Nie et.al.|[2502.18104](http://arxiv.org/abs/2502.18104)|**[link](https://github.com/hanniewhu/promptmid)**|
 
-<p align=right>(<a href=#updated-on-20251215>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20251216>back to top</a>)</p>
 
 ## SLAM
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2025-12-10**|**Inertial Magnetic SLAM Systems Using Low-Cost Sensors**|Chuan Huang et.al.|[2512.10128](http://arxiv.org/abs/2512.10128)|null|
 |**2025-12-01**|**KM-ViPE: Online Tightly Coupled Vision-Language-Geometry Fusion for Open-Vocabulary Semantic SLAM**|Zaid Nasser et.al.|[2512.01889](http://arxiv.org/abs/2512.01889)|null|
 |**2025-11-29**|**Odometry Without Correspondence from Inertially Constrained Ruled Surfaces**|Chenqi Zhu et.al.|[2512.00327](http://arxiv.org/abs/2512.00327)|null|
 |**2025-11-25**|**Conceptual Evaluation of Deep Visual Stereo Odometry for the MARWIN Radiation Monitoring Robot in Accelerator Tunnels**|André Dehne et.al.|[2512.00080](http://arxiv.org/abs/2512.00080)|null|
@@ -422,12 +425,13 @@
 |**2025-03-08**|**InfoFusion Controller: Informed TRRT Star with Mutual Information based on Fusion of Pure Pursuit and MPC for Enhanced Path Planning**|Seongjun Choi et.al.|[2503.06010](http://arxiv.org/abs/2503.06010)|**[link](https://github.com/drawingprocess/infofusioncontroller)**|
 |**2025-03-07**|**THE-SEAN: A Heart Rate Variation-Inspired Temporally High-Order Event-Based Visual Odometry with Self-Supervised Spiking Event Accumulation Networks**|Chaoran Xiong et.al.|[2503.05112](http://arxiv.org/abs/2503.05112)|null|
 
-<p align=right>(<a href=#updated-on-20251215>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20251216>back to top</a>)</p>
 
 ## SFM
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2025-12-11**|**3D Blood Pulsation Maps**|Maurice Rohr et.al.|[2512.10517](http://arxiv.org/abs/2512.10517)|null|
 |**2025-12-09**|**Selfi: Self Improving Reconstruction Engine via 3D Geometric Feature Alignment**|Youming Deng et.al.|[2512.08930](http://arxiv.org/abs/2512.08930)|null|
 |**2025-12-05**|**The Dynamic Prior: Understanding 3D Structures for Casual Dynamic Videos**|Zhuoyuan Wu et.al.|[2512.05398](http://arxiv.org/abs/2512.05398)|null|
 |**2025-12-05**|**PoolNet: Deep Learning for 2D to 3D Video Process Validation**|Sanchit Kaul et.al.|[2512.05362](http://arxiv.org/abs/2512.05362)|null|
@@ -602,12 +606,15 @@
 |**2025-03-03**|**ecg2o: A Seamless Extension of g2o for Equality-Constrained Factor Graph Optimization**|Anas Abdelkarim et.al.|[2503.01311](http://arxiv.org/abs/2503.01311)|**[link](https://github.com/snt-arg/ecg2o)**|
 |**2025-03-05**|**A Multi-Sensor Fusion Approach for Rapid Orthoimage Generation in Large-Scale UAV Mapping**|Jialei He et.al.|[2503.01202](http://arxiv.org/abs/2503.01202)|null|
 
-<p align=right>(<a href=#updated-on-20251215>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20251216>back to top</a>)</p>
 
 ## Visual Localization
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2025-12-11**|**Beyond Pixels: A Training-Free, Text-to-Text Framework for Remote Sensing Image Retrieval**|J. Xiao et.al.|[2512.10596](http://arxiv.org/abs/2512.10596)|null|
+|**2025-12-10**|**YOPO-Nav: Visual Navigation using 3DGS Graphs from One-Pass Videos**|Ryan Meegan et.al.|[2512.09903](http://arxiv.org/abs/2512.09903)|null|
+|**2025-12-09**|**Adaptive Thresholding for Visual Place Recognition using Negative Gaussian Mixture Statistics**|Nick Trinh et.al.|[2512.09071](http://arxiv.org/abs/2512.09071)|null|
 |**2025-12-08**|**Generalized Referring Expression Segmentation on Aerial Photos**|Luís Marnoto et.al.|[2512.07338](http://arxiv.org/abs/2512.07338)|null|
 |**2025-12-07**|**Spatial Retrieval Augmented Autonomous Driving**|Xiaosong Jia et.al.|[2512.06865](http://arxiv.org/abs/2512.06865)|null|
 |**2025-12-06**|**Language-driven Fine-grained Retrieval**|Shijie Wang et.al.|[2512.06255](http://arxiv.org/abs/2512.06255)|null|
@@ -882,7 +889,7 @@
 |**2025-03-09**|**TextInPlace: Indoor Visual Place Recognition in Repetitive Structures with Scene Text Spotting and Verification**|Huaqi Tao et.al.|[2503.06501](http://arxiv.org/abs/2503.06501)|**[link](https://github.com/hqitao/textinplace)**|
 |**2025-03-08**|**NeuraLoc: Visual Localization in Neural Implicit Map with Dual Complementary Features**|Hongjia Zhai et.al.|[2503.06117](http://arxiv.org/abs/2503.06117)|null|
 
-<p align=right>(<a href=#updated-on-20251215>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20251216>back to top</a>)</p>
 
 ## Keypoint Detection
 
@@ -981,17 +988,20 @@
 |**2025-02-27**|**Automatic Temporal Segmentation for Post-Stroke Rehabilitation: A Keypoint Detection and Temporal Segmentation Approach for Small Datasets**|Jisoo Lee et.al.|[2502.19766](http://arxiv.org/abs/2502.19766)|null|
 |**2025-02-23**|**Rewards-based image analysis in microscopy**|Kamyar Barakati et.al.|[2502.18522](http://arxiv.org/abs/2502.18522)|null|
 
-<p align=right>(<a href=#updated-on-20251215>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20251216>back to top</a>)</p>
 
 ## NeRF
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2025-12-11**|**Physically Aware 360 $^\circ$ View Generation from a Single Image using Disentangled Scene Embeddings**|Karthikeya KV et.al.|[2512.10293](http://arxiv.org/abs/2512.10293)|null|
+|**2025-12-10**|**Log NeRF: Comparing Spaces for Learning Radiance Fields**|Sihe Chen et.al.|[2512.09375](http://arxiv.org/abs/2512.09375)|null|
+|**2025-12-11**|**Relightable and Dynamic Gaussian Avatar Reconstruction from Monocular Video**|Seonghwa Choi et.al.|[2512.09335](http://arxiv.org/abs/2512.09335)|null|
 |**2025-12-09**|**HybridSplat: Fast Reflection-baked Gaussian Tracing using Hybrid Splatting**|Chang Liu et.al.|[2512.08334](http://arxiv.org/abs/2512.08334)|null|
 |**2025-12-09**|**Blur2Sharp: Human Novel Pose and View Synthesis with Generative Prior Refinement**|Chia-Hern Lai et.al.|[2512.08215](http://arxiv.org/abs/2512.08215)|null|
 |**2025-12-09**|**From Orbit to Ground: Generative City Photogrammetry from Extreme Off-Nadir Satellite Images**|Fei Yu et.al.|[2512.07527](http://arxiv.org/abs/2512.07527)|null|
 |**2025-12-08**|**Radiance-Field Reinforced Pretraining: Scaling Localization Models with Unlabeled Wireless Signals**|Guosheng Wang et.al.|[2512.07309](http://arxiv.org/abs/2512.07309)|null|
-|**2025-12-06**|**AGORA: Adversarial Generation Of Real-time Animatable 3D Gaussian Head Avatars**|Ramazan Fazylov et.al.|[2512.06438](http://arxiv.org/abs/2512.06438)|null|
+|**2025-12-10**|**AGORA: Adversarial Generation Of Real-time Animatable 3D Gaussian Head Avatars**|Ramazan Fazylov et.al.|[2512.06438](http://arxiv.org/abs/2512.06438)|null|
 |**2025-12-04**|**Gaussian Entropy Fields: Driving Adaptive Sparsity in 3D Gaussian Optimization**|Hong Kuang et.al.|[2512.04542](http://arxiv.org/abs/2512.04542)|null|
 |**2025-12-03**|**Radiance Meshes for Volumetric Reconstruction**|Alexander Mai et.al.|[2512.04076](http://arxiv.org/abs/2512.04076)|null|
 |**2025-12-03**|**What Is The Best 3D Scene Representation for Robotics? From Geometric to Foundation Models**|Tianchen Deng et.al.|[2512.03422](http://arxiv.org/abs/2512.03422)|null|
@@ -1236,12 +1246,22 @@
 |**2025-03-10**|**CATPlan: Loss-based Collision Prediction in End-to-End Autonomous Driving**|Ziliang Xiong et.al.|[2503.07425](http://arxiv.org/abs/2503.07425)|null|
 |**2025-03-08**|**Feature-EndoGaussian: Feature Distilled Gaussian Splatting in Surgical Deformable Scene Reconstruction**|Kai Li et.al.|[2503.06161](http://arxiv.org/abs/2503.06161)|null|
 
-<p align=right>(<a href=#updated-on-20251215>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20251216>back to top</a>)</p>
 
 ## Gaussian Splatting
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2025-12-12**|**Moment-Based 3D Gaussian Splatting: Resolving Volumetric Occlusion with Order-Independent Transmittance**|Jan U. Müller et.al.|[2512.11800](http://arxiv.org/abs/2512.11800)|null|
+|**2025-12-12**|**Prior-Enhanced Gaussian Splatting for Dynamic Scene Reconstruction from Casual Video**|Meng-Li Shih et.al.|[2512.11356](http://arxiv.org/abs/2512.11356)|null|
+|**2025-12-12**|**Lightweight 3D Gaussian Splatting Compression via Video Codec**|Qi Yang et.al.|[2512.11186](http://arxiv.org/abs/2512.11186)|null|
+|**2025-12-11**|**GaussianHeadTalk: Wobble-Free 3D Talking Heads with Audio Driven Gaussian Splatting**|Madhav Agarwal et.al.|[2512.10939](http://arxiv.org/abs/2512.10939)|null|
+|**2025-12-11**|**DeMapGS: Simultaneous Mesh Deformation and Surface Attribute Mapping via Gaussian Splatting**|Shuyi Zhou et.al.|[2512.10572](http://arxiv.org/abs/2512.10572)|null|
+|**2025-12-11**|**Neural Hamiltonian Deformation Fields for Dynamic Scene Rendering**|Hai-Long Qin et.al.|[2512.10424](http://arxiv.org/abs/2512.10424)|null|
+|**2025-12-11**|**Breaking the Vicious Cycle: Coherent 3D Gaussian Splatting from Sparse and Motion-Blurred Views**|Zhankuo Xu et.al.|[2512.10369](http://arxiv.org/abs/2512.10369)|null|
+|**2025-12-11**|**Physically Aware 360 $^\circ$ View Generation from a Single Image using Disentangled Scene Embeddings**|Karthikeya KV et.al.|[2512.10293](http://arxiv.org/abs/2512.10293)|null|
+|**2025-12-11**|**Long-LRM++: Preserving Fine Details in Feed-Forward Wide-Coverage Reconstruction**|Chen Ziwen et.al.|[2512.10267](http://arxiv.org/abs/2512.10267)|null|
+|**2025-12-10**|**TraceFlow: Dynamic 3D Reconstruction of Specular Scenes Driven by Ray Tracing**|Jiachen Tao et.al.|[2512.10095](http://arxiv.org/abs/2512.10095)|null|
 |**2025-12-09**|**OpenMonoGS-SLAM: Monocular Gaussian Splatting SLAM with Open-set Semantics**|Jisang Yoo et.al.|[2512.08625](http://arxiv.org/abs/2512.08625)|null|
 |**2025-12-09**|**On-the-fly Large-scale 3D Reconstruction from Multi-Camera Rigs**|Yijia Guo et.al.|[2512.08498](http://arxiv.org/abs/2512.08498)|null|
 |**2025-12-09**|**Visionary: The World Model Carrier Built on WebGPU-Powered Gaussian Splatting Platform**|Yuning Gong et.al.|[2512.08478](http://arxiv.org/abs/2512.08478)|null|
@@ -1676,19 +1696,22 @@
 |**2025-03-12**|**Hybrid Rendering for Multimodal Autonomous Driving: Merging Neural and Physics-Based Simulation**|Máté Tóth et.al.|[2503.09464](http://arxiv.org/abs/2503.09464)|null|
 |**2025-03-12**|**Online Language Splatting**|Saimouli Katragadda et.al.|[2503.09447](http://arxiv.org/abs/2503.09447)|null|
 
-<p align=right>(<a href=#updated-on-20251215>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20251216>back to top</a>)</p>
 
 ## 3D Registration
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2025-12-12**|**A Multi-Mode Structured Light 3D Imaging System with Multi-Source Information Fusion for Underwater Pipeline Detection**|Qinghan Hu et.al.|[2512.11354](http://arxiv.org/abs/2512.11354)|null|
+|**2025-12-10**|**Generative Point Cloud Registration**|Haobo Jiang et.al.|[2512.09407](http://arxiv.org/abs/2512.09407)|**[link](https://github.com/Chen-Suyi/PointRegGPT)**|
+|**2025-12-10**|**FUSER: Feed-Forward MUltiview 3D Registration Transformer and SE(3) $^N$ Diffusion Refinement**|Haobo Jiang et.al.|[2512.09373](http://arxiv.org/abs/2512.09373)|null|
 |**2025-12-04**|**A dynamic memory assignment strategy for dilation-based ICP algorithm on embedded GPUs**|Qiong Chang et.al.|[2512.04996](http://arxiv.org/abs/2512.04996)|null|
 |**2025-12-04**|**Environment-Aware Channel Inference via Cross-Modal Flow: From Multimodal Sensing to Wireless Channels**|Guangming Liang et.al.|[2512.04966](http://arxiv.org/abs/2512.04966)|null|
 |**2025-12-02**|**TALO: Pushing 3D Vision Foundation Models Towards Globally Consistent Online Reconstruction**|Fengyi Zhang et.al.|[2512.02341](http://arxiv.org/abs/2512.02341)|null|
 |**2025-12-01**|**Register Any Point: Scaling 3D Point Cloud Registration by Flow Matching**|Yue Pan et.al.|[2512.01850](http://arxiv.org/abs/2512.01850)|**[link](https://github.com/PRBonn/RAP)**|
 |**2025-11-30**|**LAHNet: Local Attentive Hashing Network for Point Cloud Registration**|Wentao Qu et.al.|[2512.00927](http://arxiv.org/abs/2512.00927)|null|
-|**2025-12-02**|**PointCNN++: Performant Convolution on Native Points**|Lihan Li et.al.|[2511.23227](http://arxiv.org/abs/2511.23227)|**[link](https://github.com/Lihhan/PointCNNpp)**|
-|**2025-11-28**|**ViGG: Robust RGB-D Point Cloud Registration using Visual-Geometric Mutual Guidance**|Congjia Chen et.al.|[2511.22908](http://arxiv.org/abs/2511.22908)|**[link](https://github.com/ccjccjccj/ViGG)**|
+|**2025-12-02**|**PointCNN++: Performant Convolution on Native Points**|Lihan Li et.al.|[2511.23227](http://arxiv.org/abs/2511.23227)|null|
+|**2025-11-28**|**ViGG: Robust RGB-D Point Cloud Registration using Visual-Geometric Mutual Guidance**|Congjia Chen et.al.|[2511.22908](http://arxiv.org/abs/2511.22908)|null|
 |**2025-11-27**|**Aquas: Enhancing Domain Specialization through Holistic Hardware-Software Co-Optimization based on MLIR**|Yuyang Zou et.al.|[2511.22267](http://arxiv.org/abs/2511.22267)|null|
 |**2025-11-26**|**Enhanced Landmark Detection Model in Pelvic Fluoroscopy using 2D/3D Registration Loss**|Chou Mo et.al.|[2511.21575](http://arxiv.org/abs/2511.21575)|null|
 |**2025-11-26**|**E-M3RF: An Equivariant Multimodal 3D Re-assembly Framework**|Adeela Islam et.al.|[2511.21422](http://arxiv.org/abs/2511.21422)|null|
@@ -1747,5 +1770,5 @@
 |**2025-08-21**|**Fast globally optimal Truncated Least Squares point cloud registration with fixed rotation axis**|Ivo Ivanov et.al.|[2508.15613](http://arxiv.org/abs/2508.15613)|null|
 |**2025-08-06**|**PKSS-Align: Robust Point Cloud Registration on Pre-Kendall Shape Space**|Chenlei Lv et.al.|[2508.04286](http://arxiv.org/abs/2508.04286)|null|
 
-<p align=right>(<a href=#updated-on-20251215>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20251216>back to top</a>)</p>
 
