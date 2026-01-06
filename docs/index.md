@@ -2,28 +2,70 @@
 layout: default
 ---
 
-# 3D Vision arXiv Daily
+<section class="hero">
+  <div class="hero-content">
+    <p class="eyebrow">3D Vision arXiv Daily</p>
+    <h1>Daily radar for 3D vision papers</h1>
+    <p class="hero-lede">Track fresh papers across the 3D stack with curated topics, clean summaries, and code links.</p>
+    <div class="hero-actions">
+      <a class="btn primary" href="#topics">Explore topics</a>
+      <a class="btn ghost" href="https://github.com/Ea510chan/3D-Vision-arxiv-daily">GitHub repo</a>
+    </div>
+  </div>
+  <div class="hero-panel">
+    <div class="stat"><span>Updated</span><strong>2026.01.07</strong></div>
+    <div class="stat"><span>Topics</span><strong>7</strong></div>
+    <div class="stat"><span>Total papers</span><strong>1677</strong></div>
+  </div>
+</section>
 
-> Updated on 2026.01.06
-> Topics: 7 | Total papers: 1698
-> Usage instructions: [here](README.html#usage)
-> This page is modified from [here](https://github.com/Vincentqyw/cv-arxiv-daily)
-
-## Topics
-
-| Topic | Latest Update | Papers | Link |
-|---|---|---|---|
-| Point Cloud Registration | 2025-12-30 | 117 | [Point Cloud Registration](topics/point-cloud-registration.html) |
-| Image Matching | 2026-01-05 | 132 | [Image Matching](topics/image-matching.html) |
-| SLAM | 2026-01-05 | 216 | [SLAM](topics/slam.html) |
-| 3D Reconstruction | 2026-01-05 | 185 | [3D Reconstruction](topics/3d-reconstruction.html) |
-| Visual Localization | 2026-01-05 | 298 | [Visual Localization](topics/visual-localization.html) |
-| NeRF | 2026-01-04 | 265 | [NeRF](topics/nerf.html) |
-| Gaussian Splatting | 2026-01-05 | 485 | [Gaussian Splatting](topics/gaussian-splatting.html) |
-
-## How It Works
-
-- Configure search keywords in `config.yaml`.
-- Run `daily_arxiv.py` (or GitHub Actions) to refresh JSON and Markdown outputs.
-- Browse the topic pages for full paper lists.
-
+<section id="topics" class="section">
+  <div class="section-head">
+    <h2>Topics</h2>
+    <p>Pick a domain to dive into the latest papers and code.</p>
+  </div>
+  <div class="topic-grid">
+    <a class="topic-card" href="topics/point-cloud-registration.html" style="--accent: #28d8ff;">
+      <span class="topic-icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2.5 20.5 7v10L12 21.5 3.5 17V7z" fill="currentColor" opacity="0.25"/><path d="M12 4.2 18.7 8v8L12 19.8 5.3 16V8z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></span>
+      <h3>Point Cloud Registration</h3>
+      <p>Latest: 2025-12-30 · Papers: 117</p>
+      <span class="topic-cta">View papers →</span>
+    </a>
+    <a class="topic-card" href="topics/image-matching.html" style="--accent: #39ff88;">
+      <span class="topic-icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2.5 20.5 7v10L12 21.5 3.5 17V7z" fill="currentColor" opacity="0.25"/><path d="M12 4.2 18.7 8v8L12 19.8 5.3 16V8z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></span>
+      <h3>Image Matching</h3>
+      <p>Latest: 2025-12-31 · Papers: 131</p>
+      <span class="topic-cta">View papers →</span>
+    </a>
+    <a class="topic-card" href="topics/slam.html" style="--accent: #ffb347;">
+      <span class="topic-icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2.5 20.5 7v10L12 21.5 3.5 17V7z" fill="currentColor" opacity="0.25"/><path d="M12 4.2 18.7 8v8L12 19.8 5.3 16V8z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></span>
+      <h3>SLAM</h3>
+      <p>Latest: 2025-12-22 · Papers: 215</p>
+      <span class="topic-cta">View papers →</span>
+    </a>
+    <a class="topic-card" href="topics/3d-reconstruction.html" style="--accent: #ffd166;">
+      <span class="topic-icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2.5 20.5 7v10L12 21.5 3.5 17V7z" fill="currentColor" opacity="0.25"/><path d="M12 4.2 18.7 8v8L12 19.8 5.3 16V8z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></span>
+      <h3>3D Reconstruction</h3>
+      <p>Latest: 2025-12-31 · Papers: 176</p>
+      <span class="topic-cta">View papers →</span>
+    </a>
+    <a class="topic-card" href="topics/visual-localization.html" style="--accent: #9bfffc;">
+      <span class="topic-icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2.5 20.5 7v10L12 21.5 3.5 17V7z" fill="currentColor" opacity="0.25"/><path d="M12 4.2 18.7 8v8L12 19.8 5.3 16V8z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></span>
+      <h3>Visual Localization</h3>
+      <p>Latest: 2026-01-01 · Papers: 298</p>
+      <span class="topic-cta">View papers →</span>
+    </a>
+    <a class="topic-card" href="topics/nerf.html" style="--accent: #00ffa3;">
+      <span class="topic-icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2.5 20.5 7v10L12 21.5 3.5 17V7z" fill="currentColor" opacity="0.25"/><path d="M12 4.2 18.7 8v8L12 19.8 5.3 16V8z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></span>
+      <h3>NeRF</h3>
+      <p>Latest: 2026-01-01 · Papers: 264</p>
+      <span class="topic-cta">View papers →</span>
+    </a>
+    <a class="topic-card" href="topics/gaussian-splatting.html" style="--accent: #ff6ad5;">
+      <span class="topic-icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2.5 20.5 7v10L12 21.5 3.5 17V7z" fill="currentColor" opacity="0.25"/><path d="M12 4.2 18.7 8v8L12 19.8 5.3 16V8z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></span>
+      <h3>Gaussian Splatting</h3>
+      <p>Latest: 2026-01-01 · Papers: 476</p>
+      <span class="topic-cta">View papers →</span>
+    </a>
+  </div>
+</section>

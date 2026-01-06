@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title | default: site.title }}</title>
+    <meta name="description" content="{{ page.description | default: site.description }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+  </head>
+  <body>
+    <div class="page">
+      <header class="site-header">
+        <a class="brand" href="{{ '/' | relative_url }}">
+          <span class="brand-mark"></span>
+          <span>3D Vision arXiv Daily</span>
+        </a>
+        <nav class="site-nav">
+          <a href="{{ '/' | relative_url }}">Home</a>
+          <a href="{{ '/README.html' | relative_url }}">Usage</a>
+          <a href="{{ site.repo_url }}">GitHub</a>
+        </nav>
+      </header>
+      <main class="site-main">
+        {{ content }}
+      </main>
+      <footer class="site-footer">
+        <div>Updated daily by GitHub Actions · {{ site.title }}</div>
+        <div><a href="{{ site.repo_url }}">Source</a> · <a href="{{ site.pages_url }}">Pages</a></div>
+      </footer>
+    </div>
+    <script src="{{ '/assets/js/site.js' | relative_url }}"></script>
+  </body>
+</html>

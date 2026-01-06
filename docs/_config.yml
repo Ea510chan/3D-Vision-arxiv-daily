@@ -1,6 +1,9 @@
-title: CV Arxiv Daily
-description: Automatically Update CV Papers Daily using Github Actions (Update Every 8th hours)
-show_downloads: true
+title: 3D Vision arXiv Daily
+description: Daily radar for 3D vision papers with curated topics and code links.
+show_downloads: false
+
+repo_url: https://github.com/Ea510chan/3D-Vision-arxiv-daily
+pages_url: https://ea510chan.github.io/3D-Vision-arxiv-daily/
 
 github:
   zip_url: https://github.com/Ea510chan/cv-arxiv-daily
@@ -8,9 +11,6 @@ github:
 
 ## add remote theme
 remote_theme: jekyll/minima@v2.5.1
-
-# minima:
-skin: dark
 
 plugins:
  - jekyll-remote-theme # add this line to the plugins list if you already have one
