@@ -77,6 +77,7 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2026-01-05**|**Exact Clique Number Manipulation via Edge Interdiction**|Yi Zhou et.al.|[2601.01869](http://arxiv.org/abs/2601.01869)|null|
 |**2025-12-31**|**Quantum Visual Word Sense Disambiguation: Unraveling Ambiguities Through Quantum Inference Model**|Wenbo Qiao et.al.|[2512.24687](http://arxiv.org/abs/2512.24687)|null|
 |**2025-12-24**|**VisRes Bench: On Evaluating the Visual Reasoning Capabilities of VLMs**|Brigitta Malagurski Törtei et.al.|[2512.21194](http://arxiv.org/abs/2512.21194)|null|
 |**2025-12-20**|**Analog Quantum Image Representation with Qubit-Frugal Encoding**|Vikrant Sharma et.al.|[2512.18451](http://arxiv.org/abs/2512.18451)|null|
@@ -215,6 +216,7 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2026-01-05**|**360DVO: Deep Visual Odometry for Monocular 360-Degree Camera**|Xiaopeng Guo et.al.|[2601.02309](http://arxiv.org/abs/2601.02309)|null|
 |**2025-12-22**|**Trifocal Tensor and Relative Pose Estimation with Known Vertical Direction**|Tao Li et.al.|[2512.19110](http://arxiv.org/abs/2512.19110)|null|
 |**2025-12-16**|**SUPER -- A Framework for Sensitivity-based Uncertainty-aware Performance and Risk Assessment in Visual Inertial Odometry**|Johannes A. Gaus et.al.|[2512.14189](http://arxiv.org/abs/2512.14189)|null|
 |**2025-12-10**|**Inertial Magnetic SLAM Systems Using Low-Cost Sensors**|Chuan Huang et.al.|[2512.10128](http://arxiv.org/abs/2512.10128)|null|
@@ -620,7 +622,7 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
-|**2026-01-01**|**Vision-Language Reasoning for Geolocalization: A Reinforcement Learning Approach**|Biao Wu et.al.|[2601.00388](http://arxiv.org/abs/2601.00388)|null|
+|**2026-01-05**|**Vision-Language Reasoning for Geolocalization: A Reinforcement Learning Approach**|Biao Wu et.al.|[2601.00388](http://arxiv.org/abs/2601.00388)|null|
 |**2025-12-31**|**OCP-LS: An Efficient Algorithm for Visual Localization**|Jindi Zhong et.al.|[2512.24552](http://arxiv.org/abs/2512.24552)|null|
 |**2025-12-30**|**Geometric Multi-Session Map Merging with Learned Local Descriptors**|Yanlong Ma et.al.|[2512.24384](http://arxiv.org/abs/2512.24384)|null|
 |**2025-12-29**|**Learning to Feel the Future: DreamTacVLA for Contact-Rich Manipulation**|Guo Ye et.al.|[2512.23864](http://arxiv.org/abs/2512.23864)|null|
@@ -925,6 +927,7 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2026-01-02**|**UnrealPose: Leveraging Game Engine Kinematics for Large-Scale Synthetic Human Pose Data**|Joshua Kawaguchi et.al.|[2601.00991](http://arxiv.org/abs/2601.00991)|null|
 |**2025-12-31**|**GenZ: Foundational models as latent variable generators within traditional statistical models**|Marko Jojic et.al.|[2512.24834](http://arxiv.org/abs/2512.24834)|null|
 |**2025-12-17**|**BLANKET: Anonymizing Faces in Infant Video Recordings**|Ditmar Hadera et.al.|[2512.15542](http://arxiv.org/abs/2512.15542)|null|
 |**2025-12-17**|**Off The Grid: Detection of Primitives for Feed-Forward 3D Gaussian Splatting**|Arthur Moreau et.al.|[2512.15508](http://arxiv.org/abs/2512.15508)|null|
@@ -1028,6 +1031,7 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2026-01-04**|**EdgeNeRF: Edge-Guided Regularization for Neural Radiance Fields from Sparse Views**|Weiqi Yu et.al.|[2601.01431](http://arxiv.org/abs/2601.01431)|null|
 |**2026-01-01**|**CropNeRF: A Neural Radiance Field-Based Framework for Crop Counting**|Md Ahmed Al Muzaddid et.al.|[2601.00207](http://arxiv.org/abs/2601.00207)|null|
 |**2025-12-20**|**Neural Brain Fields: A NeRF-Inspired Approach for Generating Nonexistent EEG Electrodes**|Shahar Ain Kedem et.al.|[2601.00012](http://arxiv.org/abs/2601.00012)|null|
 |**2025-12-31**|**UniC-Lift: Unified 3D Instance Segmentation via Contrastive Learning**|Ankit Dhiman et.al.|[2512.24763](http://arxiv.org/abs/2512.24763)|null|
@@ -1299,6 +1303,15 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2026-01-05**|**HeadLighter: Disentangling Illumination in Generative 3D Gaussian Heads via Lightstage Captures**|Yating Wang et.al.|[2601.02103](http://arxiv.org/abs/2601.02103)|null|
+|**2026-01-05**|**360-GeoGS: Geometrically Consistent Feed-Forward 3D Gaussian Splatting Reconstruction for 360 Images**|Jiaqi Yao et.al.|[2601.02102](http://arxiv.org/abs/2601.02102)|null|
+|**2026-01-05**|**InpaintHuman: Reconstructing Occluded Humans with Multi-Scale UV Mapping and Identity-Preserving Diffusion Inpainting**|Jinlong Fan et.al.|[2601.02098](http://arxiv.org/abs/2601.02098)|null|
+|**2026-01-05**|**SketchRodGS: Sketch-based Extraction of Slender Geometries for Animating Gaussian Splatting Scenes**|Haato Watanabe et.al.|[2601.02072](http://arxiv.org/abs/2601.02072)|null|
+|**2026-01-05**|**ESGaussianFace: Emotional and Stylized Audio-Driven Facial Animation via 3D Gaussian Splatting**|Chuhang Ma et.al.|[2601.01847](http://arxiv.org/abs/2601.01847)|null|
+|**2026-01-04**|**Animated 3DGS Avatars in Diverse Scenes with Consistent Lighting and Shadows**|Aymen Mir et.al.|[2601.01660](http://arxiv.org/abs/2601.01660)|null|
+|**2026-01-04**|**ParkGaussian: Surround-view 3D Gaussian Splatting for Autonomous Parking**|Xiaobao Wei et.al.|[2601.01386](http://arxiv.org/abs/2601.01386)|null|
+|**2026-01-04**|**ShadowGS: Shadow-Aware 3D Gaussian Splatting for Satellite Imagery**|Feng Luo et.al.|[2601.00939](http://arxiv.org/abs/2601.00939)|null|
+|**2026-01-01**|**Clean-GS: Semantic Mask-Guided Pruning for 3D Gaussian Splatting**|Subhankar Mishra et.al.|[2601.00913](http://arxiv.org/abs/2601.00913)|null|
 |**2026-01-01**|**SV-GS: Sparse View 4D Reconstruction with Skeleton-Driven Gaussian Splatting**|Jun-Jee Chao et.al.|[2601.00285](http://arxiv.org/abs/2601.00285)|null|
 |**2025-12-31**|**PhysTalk: Language-driven Real-time Physics in 3D Gaussian Scenes**|Luca Collorone et.al.|[2512.24986](http://arxiv.org/abs/2512.24986)|null|
 |**2025-12-31**|**UniC-Lift: Unified 3D Instance Segmentation via Contrastive Learning**|Ankit Dhiman et.al.|[2512.24763](http://arxiv.org/abs/2512.24763)|null|
