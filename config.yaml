@@ -19,25 +19,32 @@ json_wechat_path: './docs/cv-arxiv-daily-wechat.json'
 md_readme_path: 'README.md'
 md_gitpage_path: './docs/index.md'
 md_wechat_path: './docs/wechat.md'
+md_readme_topics_dir: './topics'
+md_gitpage_topics_dir: './docs/topics'
 
 # keywords to search
 keywords:
-    "3D Registration":
+    "Point Cloud Registration":
         filters: ["Point Cloud Registration", "3D Registration", "LiDAR Registration", "Point Cloud Matching", "Multi-View Point Cloud Registration", "Image-to-Point Cloud Registration"]
     "Image Matching":
-        filters: ["Image Matching", "Keypoint Matching", 
+        filters: ["Image Matching", "Keypoint Matching",
                   "Line Segment Detection", "Local Feature Matching"]
-    "SLAM": 
+    "SLAM":
         filters: ["SLAM", "Visual Odometry"]
-    "SFM":
-        filters: ["SFM", "Structure from Motion"]
+    "3D Reconstruction":
+        filters: ["3D Reconstruction", "SFM", "Structure from Motion"]
     "Visual Localization":
         filters: ["Visual Localization","Camera Localization",
                   "Camera Re-localisation","Loop Closure Detection",
                   "visual place recognition","image retrieval"]
-    "Keypoint Detection":
-        filters: ["Keypoint Detection", "Feature Descriptor"]
     "NeRF":
         filters: ["NeRF"]
     "Gaussian Splatting":
         filters: ["Gaussian Splatting"]
+
+# topic maintenance
+topic_merge:
+    "3D Registration": "Point Cloud Registration"
+    "SFM": "3D Reconstruction"
+topic_drop:
+    - "Keypoint Detection"
