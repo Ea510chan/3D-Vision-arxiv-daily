@@ -13,9 +13,9 @@ layout: default
     </div>
   </div>
   <div class="hero-panel">
-    <div class="stat"><span>Updated</span><strong>2026.01.07</strong></div>
+    <div class="stat"><span>Updated</span><strong>2026.01.06</strong></div>
     <div class="stat"><span>Topics</span><strong>7</strong></div>
-    <div class="stat"><span>Total papers</span><strong>1677</strong></div>
+    <div class="stat"><span>Total papers</span><strong>1698</strong></div>
   </div>
 </section>
 
@@ -34,37 +34,37 @@ layout: default
     <a class="topic-card" href="topics/image-matching.html" style="--accent: #39ff88;">
       <span class="topic-icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2.5 20.5 7v10L12 21.5 3.5 17V7z" fill="currentColor" opacity="0.25"/><path d="M12 4.2 18.7 8v8L12 19.8 5.3 16V8z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></span>
       <h3>Image Matching</h3>
-      <p>Latest: 2025-12-31 · Papers: 131</p>
+      <p>Latest: 2026-01-05 · Papers: 132</p>
       <span class="topic-cta">View papers →</span>
     </a>
     <a class="topic-card" href="topics/slam.html" style="--accent: #ffb347;">
       <span class="topic-icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2.5 20.5 7v10L12 21.5 3.5 17V7z" fill="currentColor" opacity="0.25"/><path d="M12 4.2 18.7 8v8L12 19.8 5.3 16V8z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></span>
       <h3>SLAM</h3>
-      <p>Latest: 2025-12-22 · Papers: 215</p>
+      <p>Latest: 2026-01-05 · Papers: 216</p>
       <span class="topic-cta">View papers →</span>
     </a>
     <a class="topic-card" href="topics/3d-reconstruction.html" style="--accent: #ffd166;">
       <span class="topic-icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2.5 20.5 7v10L12 21.5 3.5 17V7z" fill="currentColor" opacity="0.25"/><path d="M12 4.2 18.7 8v8L12 19.8 5.3 16V8z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></span>
       <h3>3D Reconstruction</h3>
-      <p>Latest: 2025-12-31 · Papers: 176</p>
+      <p>Latest: 2026-01-05 · Papers: 185</p>
       <span class="topic-cta">View papers →</span>
     </a>
     <a class="topic-card" href="topics/visual-localization.html" style="--accent: #9bfffc;">
       <span class="topic-icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2.5 20.5 7v10L12 21.5 3.5 17V7z" fill="currentColor" opacity="0.25"/><path d="M12 4.2 18.7 8v8L12 19.8 5.3 16V8z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></span>
       <h3>Visual Localization</h3>
-      <p>Latest: 2026-01-01 · Papers: 298</p>
+      <p>Latest: 2026-01-05 · Papers: 298</p>
       <span class="topic-cta">View papers →</span>
     </a>
     <a class="topic-card" href="topics/nerf.html" style="--accent: #00ffa3;">
       <span class="topic-icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2.5 20.5 7v10L12 21.5 3.5 17V7z" fill="currentColor" opacity="0.25"/><path d="M12 4.2 18.7 8v8L12 19.8 5.3 16V8z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></span>
       <h3>NeRF</h3>
-      <p>Latest: 2026-01-01 · Papers: 264</p>
+      <p>Latest: 2026-01-04 · Papers: 265</p>
       <span class="topic-cta">View papers →</span>
     </a>
     <a class="topic-card" href="topics/gaussian-splatting.html" style="--accent: #ff6ad5;">
       <span class="topic-icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2.5 20.5 7v10L12 21.5 3.5 17V7z" fill="currentColor" opacity="0.25"/><path d="M12 4.2 18.7 8v8L12 19.8 5.3 16V8z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></span>
       <h3>Gaussian Splatting</h3>
-      <p>Latest: 2026-01-01 · Papers: 476</p>
+      <p>Latest: 2026-01-05 · Papers: 485</p>
       <span class="topic-cta">View papers →</span>
     </a>
   </div>
