@@ -1,6 +1,7 @@
 import os
 import re
 import json
+import html
 try:
     import arxiv
 except ImportError:
@@ -63,8 +64,28 @@ def sort_papers(papers):
     for key in keys:
         output[key] = papers[key]
     return output    
+
+def sort_papers_by_date(papers: dict):
+    items = list(papers.items())
+    def sort_key(item):
+        paper_id, paper = item
+        date_value = get_paper_date(paper)
+        return (date_value or datetime.date.min, paper_id)
+    items.sort(key=sort_key, reverse=True)
+    return items
 def strip_md_bold(text: str) -> str:
     return text.replace("**", "")
+
+def escape_html(text: str) -> str:
+    return html.escape(text or "", quote=True)
+
+def extract_first_url(text: str) -> str:
+    if not text:
+        return ""
+    match = re.search(r"\((https?://[^)]+)\)", text)
+    if match:
+        return match.group(1)
+    return ""
 
 def pretty_math(s: str) -> str:
     ret = ''
@@ -88,20 +109,51 @@ def parse_paper_row(row: str):
     parts = row.strip().split("|")
     if len(parts) < 6:
         return "", "", "", "", ""
-    date = parts[1].strip()
-    title = parts[2].strip()
-    authors = parts[3].strip()
-    arxiv_id = parts[4].strip()
-    code = parts[5].strip()
+    date = strip_md_bold(parts[1].strip())
+    title = strip_md_bold(parts[2].strip())
+    authors = strip_md_bold(parts[3].strip())
+    arxiv_id = strip_md_bold(parts[4].strip())
+    code = strip_md_bold(parts[5].strip())
     return date, title, authors, arxiv_id, code
+
+def paper_to_dict(paper_id: str, paper):
+    if isinstance(paper, dict):
+        return paper
+    date, title, authors, arxiv_field, code_field = parse_paper_row(str(paper))
+    arxiv_link = extract_first_url(arxiv_field)
+    if not arxiv_link:
+        arxiv_link = f"{arxiv_url}abs/{paper_id}".replace("//abs", "/abs")
+    pdf_url = arxiv_link.replace("/abs/", "/pdf/") + ".pdf" if arxiv_link else ""
+    code_url = extract_first_url(code_field)
+    return {
+        "title": title,
+        "authors": authors,
+        "summary": "",
+        "arxiv_id": paper_id,
+        "arxiv_url": arxiv_link,
+        "pdf_url": pdf_url,
+        "code_url": code_url,
+        "updated": date,
+        "published": "",
+        "primary_category": "",
+        "comments": "",
+    }
 
 def parse_paper_date(row: str):
     date, _, _, _, _ = parse_paper_row(row)
-    date = strip_md_bold(date)
     try:
         return datetime.datetime.strptime(date, "%Y-%m-%d").date()
     except ValueError:
         return None
+
+def get_paper_date(paper):
+    if isinstance(paper, dict):
+        date_str = paper.get("updated") or paper.get("published") or ""
+        try:
+            return datetime.datetime.strptime(date_str, "%Y-%m-%d").date()
+        except ValueError:
+            return None
+    return parse_paper_date(str(paper))
 
 def slugify_topic(topic: str) -> str:
     slug = re.sub(r"[^a-z0-9]+", "-", topic.lower()).strip("-")
@@ -132,7 +184,7 @@ def get_latest_date(papers: dict):
     for row in papers.values():
         if row is None:
             continue
-        parsed = parse_paper_date(str(row))
+        parsed = get_paper_date(row)
         if parsed and (latest is None or parsed > latest):
             latest = parsed
     return latest
@@ -142,43 +194,126 @@ def topic_link(topic: str, topics_dir: str, link_ext: str):
     path = os.path.join(topics_dir, f"{slug}{link_ext}")
     return path.replace("\\", "/")
 
+TOPIC_EMOJI = {
+    "Point Cloud Registration": "🧭",
+    "Image Matching": "🧩",
+    "SLAM": "🛰️",
+    "3D Reconstruction": "🧱",
+    "Visual Localization": "🗺️",
+    "NeRF": "🌫️",
+    "Gaussian Splatting": "✨",
+}
+
+TOPIC_ACCENTS = {
+    "Point Cloud Registration": "#28d8ff",
+    "Image Matching": "#39ff88",
+    "SLAM": "#ffb347",
+    "3D Reconstruction": "#ffd166",
+    "Visual Localization": "#9bfffc",
+    "NeRF": "#00ffa3",
+    "Gaussian Splatting": "#ff6ad5",
+}
+
+ICON_SVG = (
+    "<svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\">"
+    "<path d=\"M12 2.5 20.5 7v10L12 21.5 3.5 17V7z\" fill=\"currentColor\" opacity=\"0.25\"/>"
+    "<path d=\"M12 4.2 18.7 8v8L12 19.8 5.3 16V8z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/>"
+    "</svg>"
+)
+
 def write_index_page(data: dict,
                      md_filename: str,
                      topics_dir: str,
                      link_ext: str,
                      usage_link: str,
                      show_badge: bool,
-                     to_web: bool):
+                     to_web: bool,
+                     pages_url: str = "",
+                     repo_url: str = ""):
     date_now = str(datetime.date.today()).replace("-", ".")
     total_papers = sum(len(papers) for papers in data.values() if papers)
     with open(md_filename, "w+") as f:
         if to_web:
             f.write("---\nlayout: default\n---\n\n")
-        if show_badge and not to_web:
+            f.write("<section class=\"hero\">\n")
+            f.write("  <div class=\"hero-content\">\n")
+            f.write("    <p class=\"eyebrow\">3D Vision arXiv Daily</p>\n")
+            f.write("    <h1>Daily radar for 3D vision papers</h1>\n")
+            f.write("    <p class=\"hero-lede\">Track fresh papers across the 3D stack with curated topics, clean summaries, and code links.</p>\n")
+            f.write("    <div class=\"hero-actions\">\n")
+            f.write("      <a class=\"btn primary\" href=\"#topics\">Explore topics</a>\n")
+            if repo_url:
+                f.write(f"      <a class=\"btn ghost\" href=\"{repo_url}\">GitHub repo</a>\n")
+            f.write("    </div>\n")
+            f.write("  </div>\n")
+            f.write("  <div class=\"hero-panel\">\n")
+            f.write(f"    <div class=\"stat\"><span>Updated</span><strong>{date_now}</strong></div>\n")
+            f.write(f"    <div class=\"stat\"><span>Topics</span><strong>{len(data)}</strong></div>\n")
+            f.write(f"    <div class=\"stat\"><span>Total papers</span><strong>{total_papers}</strong></div>\n")
+            f.write("  </div>\n")
+            f.write("</section>\n\n")
+
+            f.write("<section id=\"topics\" class=\"section\">\n")
+            f.write("  <div class=\"section-head\">\n")
+            f.write("    <h2>Topics</h2>\n")
+            f.write("    <p>Pick a domain to dive into the latest papers and code.</p>\n")
+            f.write("  </div>\n")
+            f.write("  <div class=\"topic-grid\">\n")
+            for topic, papers in data.items():
+                latest = get_latest_date(papers)
+                latest_str = latest.isoformat() if latest else "-"
+                count = len(papers) if papers else 0
+                link = topic_link(topic, topics_dir, link_ext)
+                accent = TOPIC_ACCENTS.get(topic, "#28d8ff")
+                f.write(f"    <a class=\"topic-card\" href=\"{link}\" style=\"--accent: {accent};\">\n")
+                f.write(f"      <span class=\"topic-icon\">{ICON_SVG}</span>\n")
+                f.write(f"      <h3>{escape_html(topic)}</h3>\n")
+                f.write(f"      <p>Latest: {latest_str} · Papers: {count}</p>\n")
+                f.write("      <span class=\"topic-cta\">View papers →</span>\n")
+                f.write("    </a>\n")
+            f.write("  </div>\n")
+            f.write("</section>\n")
+            return
+
+        if show_badge:
             f.write(f"[![Contributors][contributors-shield]][contributors-url]\n")
             f.write(f"[![Forks][forks-shield]][forks-url]\n")
             f.write(f"[![Stargazers][stars-shield]][stars-url]\n")
             f.write(f"[![Issues][issues-shield]][issues-url]\n\n")
-        f.write("# 3D Vision arXiv Daily\n\n")
+        f.write("# 3D Vision arXiv Daily 🚀\n\n")
+        if pages_url:
+            f.write(f"> 🌐 Start here: **[GitHub Pages]({pages_url})**\n")
         f.write(f"> Updated on {date_now}\n")
         f.write(f"> Topics: {len(data)} | Total papers: {total_papers}\n")
         f.write(f"> Usage instructions: [here]({usage_link})\n")
         f.write("> This page is modified from [here](https://github.com/Vincentqyw/cv-arxiv-daily)\n\n")
-        f.write("## Topics\n\n")
-        f.write("| Topic | Latest Update | Papers | Link |\n")
-        f.write("|---|---|---|---|\n")
+
+        f.write("## Quick Access\n\n")
+        if pages_url:
+            f.write(f"- 🌌 Live reading: [GitHub Pages]({pages_url})\n")
+        if repo_url:
+            f.write(f"- 🧑‍💻 Source code: [Repository]({repo_url})\n")
+        f.write(f"- 📘 Usage: [Setup guide]({usage_link})\n")
+        f.write("\n")
+
+        f.write("## Topics Navigator\n\n")
+        f.write("| | Topic | Latest Update | Papers | Link |\n")
+        f.write("|---|---|---|---|---|\n")
         for topic, papers in data.items():
             latest = get_latest_date(papers)
             latest_str = latest.isoformat() if latest else "-"
             count = len(papers) if papers else 0
             link = topic_link(topic, topics_dir, link_ext)
-            f.write(f"| {topic} | {latest_str} | {count} | [{topic}]({link}) |\n")
+            emoji = TOPIC_EMOJI.get(topic, "📌")
+            f.write(f"| {emoji} | {topic} | {latest_str} | {count} | [{topic}]({link}) |\n")
         f.write("\n")
+
         f.write("## How It Works\n\n")
         f.write("- Configure search keywords in `config.yaml`.\n")
         f.write("- Run `daily_arxiv.py` (or GitHub Actions) to refresh JSON and Markdown outputs.\n")
         f.write("- Browse the topic pages for full paper lists.\n\n")
-        if show_badge and not to_web:
+
+        if show_badge:
             f.write((f"[contributors-shield]: https://img.shields.io/github/"
                      f"contributors/Vincentqyw/cv-arxiv-daily.svg?style=for-the-badge\n"))
             f.write((f"[contributors-url]: https://github.com/Vincentqyw/"
@@ -200,8 +335,63 @@ def write_topic_page(topic: str, papers: dict, md_path: str, to_web: bool):
     date_now = str(datetime.date.today()).replace("-", ".")
     with open(md_path, "w+") as f:
         if to_web:
+            accent = TOPIC_ACCENTS.get(topic, "#28d8ff")
             f.write("---\nlayout: default\n")
             f.write(f"title: {topic}\n---\n\n")
+            f.write(f"<section class=\"topic-hero\" style=\"--accent: {accent};\">\n")
+            f.write(f"  <div>\n")
+            f.write(f"    <p class=\"eyebrow\">Topic</p>\n")
+            f.write(f"    <h1>{escape_html(topic)}</h1>\n")
+            f.write(f"    <p class=\"topic-lede\">Updated {date_now} · {len(papers)} papers</p>\n")
+            f.write("  </div>\n")
+            f.write(f"  <a class=\"btn ghost\" href=\"../index.html#topics\">← Back to topics</a>\n")
+            f.write("</section>\n\n")
+
+            f.write("<section class=\"paper-grid\">\n")
+            for paper_id, paper in sort_papers_by_date(papers):
+                paper_data = paper_to_dict(paper_id, paper)
+                title = escape_html(paper_data.get("title", "Untitled"))
+                authors = escape_html(paper_data.get("authors", ""))
+                summary = (paper_data.get("summary", "") or "").strip()
+                if not summary:
+                    summary = "Abstract unavailable in cached data. It will appear after the next refresh."
+                summary = escape_html(summary)
+                arxiv_link = paper_data.get("arxiv_url", "")
+                pdf_link = paper_data.get("pdf_url", "")
+                code_link = paper_data.get("code_url", "")
+                updated = paper_data.get("updated", "")
+
+                f.write("  <article class=\"paper-card\">\n")
+                f.write("    <details class=\"paper-details\">\n")
+                f.write("      <summary>\n")
+                f.write(f"        <span class=\"paper-title\">{title}</span>\n")
+                f.write(f"        <span class=\"paper-authors\">{authors}</span>\n")
+                if updated:
+                    f.write(f"        <span class=\"paper-meta\">Updated {escape_html(updated)}</span>\n")
+                f.write("      </summary>\n")
+                f.write("      <div class=\"paper-body\">\n")
+                f.write(f"        <p class=\"paper-abstract\">{summary}</p>\n")
+                f.write("        <div class=\"paper-links\">\n")
+                if arxiv_link:
+                    f.write(f"          <a class=\"chip\" href=\"{arxiv_link}\">arXiv</a>\n")
+                if pdf_link:
+                    f.write(f"          <a class=\"chip\" href=\"{pdf_link}\">PDF</a>\n")
+                if code_link:
+                    f.write(f"          <a class=\"chip\" href=\"{code_link}\">Code</a>\n")
+                else:
+                    f.write("          <span class=\"chip ghost\">Code: N/A</span>\n")
+                f.write("        </div>\n")
+                if pdf_link:
+                    f.write(f"        <div class=\"paper-preview\" data-pdf=\"{pdf_link}\">\n")
+                    f.write("          <div class=\"preview-placeholder\">Preview loads on expand</div>\n")
+                    f.write("          <canvas class=\"preview-canvas\" aria-hidden=\"true\"></canvas>\n")
+                    f.write("        </div>\n")
+                f.write("      </div>\n")
+                f.write("    </details>\n")
+                f.write("  </article>\n")
+            f.write("</section>\n")
+            return
+
         f.write(f"# {topic}\n\n")
         f.write(f"> Updated on {date_now}\n\n")
         f.write("| Publish Date | Title | Authors | PDF | Code |\n")
@@ -244,7 +434,7 @@ def get_code_link(qword:str) -> str:
         logging.debug(f"GitHub search failed for {qword}: {e}")
         return None
   
-def get_daily_papers(topic,query="slam", max_results=2):
+def get_daily_papers(topic, query="slam", max_results=2):
     """
     @param topic: str
     @param query: str
@@ -253,8 +443,9 @@ def get_daily_papers(topic,query="slam", max_results=2):
     if arxiv is None:
         raise RuntimeError("Missing dependency: install the 'arxiv' package to fetch papers.")
     # output 
-    content = dict() 
+    content = dict()
     content_to_web = dict()
+    content_to_wechat = dict()
     client = arxiv.Client()
     search = arxiv.Search(
         query = query,
@@ -292,25 +483,40 @@ def get_daily_papers(topic,query="slam", max_results=2):
         
         if repo_url is not None:
             content[paper_key] = "|**{}**|**{}**|{} et.al.|[{}]({})|**[link]({})**|\n".format(
-                   update_time,paper_title,paper_first_author,paper_key,paper_url,repo_url)
-            content_to_web[paper_key] = "- {}, **{}**, {} et.al., Paper: [{}]({}), Code: **[{}]({})**".format(
-                   update_time,paper_title,paper_first_author,paper_url,paper_url,repo_url,repo_url)
+                   update_time, paper_title, paper_first_author, paper_key, paper_url, repo_url)
+            content_to_wechat[paper_key] = "- {}, **{}**, {} et.al., Paper: [{}]({}), Code: **[{}]({})**".format(
+                   update_time, paper_title, paper_first_author, paper_url, paper_url, repo_url, repo_url)
         else:
             content[paper_key] = "|**{}**|**{}**|{} et.al.|[{}]({})|null|\n".format(
-                   update_time,paper_title,paper_first_author,paper_key,paper_url)
-            content_to_web[paper_key] = "- {}, **{}**, {} et.al., Paper: [{}]({})".format(
-                   update_time,paper_title,paper_first_author,paper_url,paper_url)
+                   update_time, paper_title, paper_first_author, paper_key, paper_url)
+            content_to_wechat[paper_key] = "- {}, **{}**, {} et.al., Paper: [{}]({})".format(
+                   update_time, paper_title, paper_first_author, paper_url, paper_url)
+
+        content_to_web[paper_key] = {
+            "title": paper_title,
+            "authors": paper_authors,
+            "summary": paper_abstract,
+            "arxiv_id": paper_key,
+            "arxiv_url": paper_url,
+            "pdf_url": f"{arxiv_url}pdf/{paper_key}.pdf",
+            "code_url": repo_url or "",
+            "updated": str(update_time),
+            "published": str(publish_time),
+            "primary_category": primary_category,
+            "comments": comments or "",
+        }
 
         # TODO: select useful comments
         comments = None
         if comments != None:
-            content_to_web[paper_key] += f", {comments}\n"
+            content_to_wechat[paper_key] += f", {comments}\n"
         else:
-            content_to_web[paper_key] += f"\n"
+            content_to_wechat[paper_key] += f"\n"
 
-    data = {topic:content}
-    data_web = {topic:content_to_web}
-    return data,data_web 
+    data = {topic: content}
+    data_web = {topic: content_to_web}
+    data_wechat = {topic: content_to_wechat}
+    return data, data_web, data_wechat 
 
 def update_paper_links(filename, topic_merge=None, topic_drop=None, allowed_topics=None):
     '''
@@ -330,18 +536,30 @@ def update_paper_links(filename, topic_merge=None, topic_drop=None, allowed_topi
             allowed_topics or []
         )
 
-        for keywords,v in json_data.items():
+        for keywords, v in json_data.items():
             logging.info(f'keywords = {keywords}')
-            for paper_id,contents in v.items():
+            for paper_id, contents in v.items():
+                if isinstance(contents, dict):
+                    code_url = contents.get("code_url") or ""
+                    if code_url:
+                        continue
+                    repo_url = get_code_link(contents.get("title", ""))
+                    if repo_url is None:
+                        repo_url = get_code_link(paper_id)
+                    if repo_url is not None:
+                        contents["code_url"] = repo_url
+                        json_data[keywords][paper_id] = contents
+                    continue
+
                 contents = str(contents)
 
                 update_time, paper_title, paper_first_author, paper_url, code_url = parse_paper_row(contents)
                 paper_url = re.sub(r'v\d+', '', paper_url)
 
-                contents = "|{}|{}|{}|{}|{}|\n".format(update_time,paper_title,paper_first_author,paper_url,code_url)
+                contents = "|{}|{}|{}|{}|{}|\n".format(update_time, paper_title, paper_first_author, paper_url, code_url)
                 json_data[keywords][paper_id] = str(contents)
                 logging.info(f'paper_id = {paper_id}, contents = {contents}')
-                
+
                 valid_link = False if '|null|' in contents else True
                 if valid_link:
                     continue
@@ -350,7 +568,7 @@ def update_paper_links(filename, topic_merge=None, topic_drop=None, allowed_topi
                 if repo_url is None:
                     repo_url = get_code_link(paper_id)
                 if repo_url is not None:
-                    new_cont = contents.replace('|null|',f'|**[link]({repo_url})**|')
+                    new_cont = contents.replace('|null|', f'|**[link]({repo_url})**|')
                     logging.info(f'ID = {paper_id}, contents = {new_cont}')
                     json_data[keywords][paper_id] = str(new_cont)
         # dump to json file
@@ -520,7 +738,8 @@ def json_to_md(filename, md_filename,
 def demo(**config):
     # TODO: use config
     data_collector = []
-    data_collector_web= []
+    data_collector_web = []
+    data_collector_wechat = []
     
     keywords = config['kv']
     max_results = config['max_results']
@@ -540,10 +759,11 @@ def demo(**config):
         logging.info(f"GET daily papers begin")
         for topic, keyword in keywords.items():
             logging.info(f"Keyword: {topic}")
-            data, data_web = get_daily_papers(topic, query = keyword,
-                                            max_results = max_results)
+            data, data_web, data_wechat = get_daily_papers(topic, query = keyword,
+                                                          max_results = max_results)
             data_collector.append(data)
             data_collector_web.append(data_web)
+            data_collector_wechat.append(data_wechat)
             print("\n")
         logging.info(f"GET daily papers end")
 
@@ -583,7 +803,9 @@ def demo(**config):
             link_ext=".md",
             usage_link="./docs/README.md#usage",
             show_badge=show_badge,
-            to_web=False
+            to_web=False,
+            pages_url=config.get("pages_url", ""),
+            repo_url=config.get("repo_url", "")
         )
         write_topic_pages(data, readme_topics_dir, to_web=False)
 
@@ -602,7 +824,7 @@ def demo(**config):
         else:    
             update_json_file(
                 json_file,
-                data_collector,
+                data_collector_web,
                 topic_merge=topic_merge,
                 topic_drop=topic_drop,
                 allowed_topics=allowed_topics
@@ -622,7 +844,9 @@ def demo(**config):
             link_ext=".html",
             usage_link="README.html#usage",
             show_badge=show_badge,
-            to_web=True
+            to_web=True,
+            pages_url=config.get("pages_url", ""),
+            repo_url=config.get("repo_url", "")
         )
         write_topic_pages(data, gitpage_topics_dir, to_web=True)
 
@@ -641,7 +865,7 @@ def demo(**config):
         else:    
             update_json_file(
                 json_file,
-                data_collector_web,
+                data_collector_wechat,
                 topic_merge=topic_merge,
                 topic_drop=topic_drop,
                 allowed_topics=allowed_topics

@@ -36,6 +36,13 @@ class DailyArxivTest(unittest.TestCase):
         self.assertEqual(len(normalized["Point Cloud Registration"]), 1)
         self.assertEqual(len(normalized["3D Reconstruction"]), 1)
 
+    def test_paper_to_dict_from_row(self):
+        data = da.paper_to_dict("1234.5678", SAMPLE_ROW_1)
+        self.assertEqual(data["title"], "Title A")
+        self.assertEqual(data["arxiv_id"], "1234.5678")
+        self.assertTrue(data["arxiv_url"].startswith("http://arxiv.org/abs/"))
+        self.assertTrue(data["pdf_url"].endswith(".pdf"))
+
     def test_write_index_and_topic_pages(self):
         data = {
             "Topic A": {"id1": SAMPLE_ROW_1},
@@ -54,6 +61,8 @@ class DailyArxivTest(unittest.TestCase):
                 usage_link="./docs/README.md#usage",
                 show_badge=False,
                 to_web=False,
+                pages_url="https://example.com/pages",
+                repo_url="https://example.com/repo",
             )
             da.write_topic_pages(data, str(topics_dir), to_web=False)
 
