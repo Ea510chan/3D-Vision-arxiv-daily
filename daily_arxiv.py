@@ -1,7 +1,10 @@
 import os
 import re
 import json
-import arxiv
+try:
+    import arxiv
+except ImportError:
+    arxiv = None
 import yaml
 import logging
 import argparse
@@ -60,7 +63,161 @@ def sort_papers(papers):
     for key in keys:
         output[key] = papers[key]
     return output    
-import requests
+def strip_md_bold(text: str) -> str:
+    return text.replace("**", "")
+
+def pretty_math(s: str) -> str:
+    ret = ''
+    match = re.search(r"\$.*\$", s)
+    if match is None:
+        return s
+    math_start, math_end = match.span()
+    space_trail = space_leading = ''
+    prefix = s[:math_start]
+    suffix = s[math_end:]
+    if prefix and prefix[-1] != ' ' and '*' != prefix[-1]:
+        space_trail = ' '
+    if suffix and suffix[0] != ' ' and '*' != suffix[0]:
+        space_leading = ' '
+    ret += s[:math_start]
+    ret += f'{space_trail}${match.group()[1:-1].strip()}${space_leading}'
+    ret += s[math_end:]
+    return ret
+
+def parse_paper_row(row: str):
+    parts = row.strip().split("|")
+    if len(parts) < 6:
+        return "", "", "", "", ""
+    date = parts[1].strip()
+    title = parts[2].strip()
+    authors = parts[3].strip()
+    arxiv_id = parts[4].strip()
+    code = parts[5].strip()
+    return date, title, authors, arxiv_id, code
+
+def parse_paper_date(row: str):
+    date, _, _, _, _ = parse_paper_row(row)
+    date = strip_md_bold(date)
+    try:
+        return datetime.datetime.strptime(date, "%Y-%m-%d").date()
+    except ValueError:
+        return None
+
+def slugify_topic(topic: str) -> str:
+    slug = re.sub(r"[^a-z0-9]+", "-", topic.lower()).strip("-")
+    return slug
+
+def normalize_topics(data: dict, topic_merge: dict, topic_drop: list, allowed_topics: list):
+    normalized = {}
+    drop_set = set(topic_drop or [])
+    for topic, papers in data.items():
+        if topic in drop_set:
+            continue
+        target = topic_merge.get(topic, topic) if topic_merge else topic
+        if allowed_topics and target not in allowed_topics:
+            continue
+        normalized.setdefault(target, {}).update(papers)
+    if allowed_topics:
+        ordered = {}
+        for topic in allowed_topics:
+            ordered[topic] = normalized.get(topic, {})
+        return ordered
+    return normalized
+
+def ensure_dir(path: str):
+    os.makedirs(path, exist_ok=True)
+
+def get_latest_date(papers: dict):
+    latest = None
+    for row in papers.values():
+        if row is None:
+            continue
+        parsed = parse_paper_date(str(row))
+        if parsed and (latest is None or parsed > latest):
+            latest = parsed
+    return latest
+
+def topic_link(topic: str, topics_dir: str, link_ext: str):
+    slug = slugify_topic(topic)
+    path = os.path.join(topics_dir, f"{slug}{link_ext}")
+    return path.replace("\\", "/")
+
+def write_index_page(data: dict,
+                     md_filename: str,
+                     topics_dir: str,
+                     link_ext: str,
+                     usage_link: str,
+                     show_badge: bool,
+                     to_web: bool):
+    date_now = str(datetime.date.today()).replace("-", ".")
+    total_papers = sum(len(papers) for papers in data.values() if papers)
+    with open(md_filename, "w+") as f:
+        if to_web:
+            f.write("---\nlayout: default\n---\n\n")
+        if show_badge and not to_web:
+            f.write(f"[![Contributors][contributors-shield]][contributors-url]\n")
+            f.write(f"[![Forks][forks-shield]][forks-url]\n")
+            f.write(f"[![Stargazers][stars-shield]][stars-url]\n")
+            f.write(f"[![Issues][issues-shield]][issues-url]\n\n")
+        f.write("# 3D Vision arXiv Daily\n\n")
+        f.write(f"> Updated on {date_now}\n")
+        f.write(f"> Topics: {len(data)} | Total papers: {total_papers}\n")
+        f.write(f"> Usage instructions: [here]({usage_link})\n")
+        f.write("> This page is modified from [here](https://github.com/Vincentqyw/cv-arxiv-daily)\n\n")
+        f.write("## Topics\n\n")
+        f.write("| Topic | Latest Update | Papers | Link |\n")
+        f.write("|---|---|---|---|\n")
+        for topic, papers in data.items():
+            latest = get_latest_date(papers)
+            latest_str = latest.isoformat() if latest else "-"
+            count = len(papers) if papers else 0
+            link = topic_link(topic, topics_dir, link_ext)
+            f.write(f"| {topic} | {latest_str} | {count} | [{topic}]({link}) |\n")
+        f.write("\n")
+        f.write("## How It Works\n\n")
+        f.write("- Configure search keywords in `config.yaml`.\n")
+        f.write("- Run `daily_arxiv.py` (or GitHub Actions) to refresh JSON and Markdown outputs.\n")
+        f.write("- Browse the topic pages for full paper lists.\n\n")
+        if show_badge and not to_web:
+            f.write((f"[contributors-shield]: https://img.shields.io/github/"
+                     f"contributors/Vincentqyw/cv-arxiv-daily.svg?style=for-the-badge\n"))
+            f.write((f"[contributors-url]: https://github.com/Vincentqyw/"
+                     f"cv-arxiv-daily/graphs/contributors\n"))
+            f.write((f"[forks-shield]: https://img.shields.io/github/forks/Vincentqyw/"
+                     f"cv-arxiv-daily.svg?style=for-the-badge\n"))
+            f.write((f"[forks-url]: https://github.com/Vincentqyw/"
+                     f"cv-arxiv-daily/network/members\n"))
+            f.write((f"[stars-shield]: https://img.shields.io/github/stars/Vincentqyw/"
+                     f"cv-arxiv-daily.svg?style=for-the-badge\n"))
+            f.write((f"[stars-url]: https://github.com/Vincentqyw/"
+                     f"cv-arxiv-daily/stargazers\n"))
+            f.write((f"[issues-shield]: https://img.shields.io/github/issues/Vincentqyw/"
+                     f"cv-arxiv-daily.svg?style=for-the-badge\n"))
+            f.write((f"[issues-url]: https://github.com/Vincentqyw/"
+                     f"cv-arxiv-daily/issues\n\n"))
+
+def write_topic_page(topic: str, papers: dict, md_path: str, to_web: bool):
+    date_now = str(datetime.date.today()).replace("-", ".")
+    with open(md_path, "w+") as f:
+        if to_web:
+            f.write("---\nlayout: default\n")
+            f.write(f"title: {topic}\n---\n\n")
+        f.write(f"# {topic}\n\n")
+        f.write(f"> Updated on {date_now}\n\n")
+        f.write("| Publish Date | Title | Authors | PDF | Code |\n")
+        f.write("|:---------|:-----------------------|:---------|:------|:------|\n")
+        sorted_papers = sort_papers(papers)
+        for _, row in sorted_papers.items():
+            if row is not None:
+                f.write(pretty_math(str(row)))
+        f.write("\n")
+
+def write_topic_pages(data: dict, topics_dir: str, to_web: bool):
+    ensure_dir(topics_dir)
+    for topic, papers in data.items():
+        slug = slugify_topic(topic)
+        md_path = os.path.join(topics_dir, f"{slug}.md")
+        write_topic_page(topic, papers, md_path, to_web)
 
 def get_code_link(qword:str) -> str:
     """
@@ -93,6 +250,8 @@ def get_daily_papers(topic,query="slam", max_results=2):
     @param query: str
     @return paper_with_code: dict
     """
+    if arxiv is None:
+        raise RuntimeError("Missing dependency: install the 'arxiv' package to fetch papers.")
     # output 
     content = dict() 
     content_to_web = dict()
@@ -153,20 +312,10 @@ def get_daily_papers(topic,query="slam", max_results=2):
     data_web = {topic:content_to_web}
     return data,data_web 
 
-def update_paper_links(filename):
+def update_paper_links(filename, topic_merge=None, topic_drop=None, allowed_topics=None):
     '''
     weekly update paper links in json file 
     '''
-    def parse_arxiv_string(s):
-        parts = s.split("|")
-        date = parts[1].strip()
-        title = parts[2].strip()
-        authors = parts[3].strip()
-        arxiv_id = parts[4].strip()
-        code = parts[5].strip()
-        arxiv_id = re.sub(r'v\d+', '', arxiv_id)
-        return date,title,authors,arxiv_id,code
-
     with open(filename,"r") as f:
         content = f.read()
         if not content:
@@ -174,14 +323,20 @@ def update_paper_links(filename):
         else:
             m = json.loads(content)
             
-        json_data = m.copy() 
+        json_data = normalize_topics(
+            m.copy(),
+            topic_merge or {},
+            topic_drop or [],
+            allowed_topics or []
+        )
 
         for keywords,v in json_data.items():
             logging.info(f'keywords = {keywords}')
             for paper_id,contents in v.items():
                 contents = str(contents)
 
-                update_time, paper_title, paper_first_author, paper_url, code_url = parse_arxiv_string(contents)
+                update_time, paper_title, paper_first_author, paper_url, code_url = parse_paper_row(contents)
+                paper_url = re.sub(r'v\d+', '', paper_url)
 
                 contents = "|{}|{}|{}|{}|{}|\n".format(update_time,paper_title,paper_first_author,paper_url,code_url)
                 json_data[keywords][paper_id] = str(contents)
@@ -202,7 +357,7 @@ def update_paper_links(filename):
         with open(filename,"w") as f:
             json.dump(json_data,f)
 
-def update_json_file(filename,data_dict):
+def update_json_file(filename, data_dict, topic_merge=None, topic_drop=None, allowed_topics=None):
     '''
     daily update json file using data_dict
     '''
@@ -213,9 +368,14 @@ def update_json_file(filename,data_dict):
         else:
             m = json.loads(content)
             
-    json_data = m.copy() 
+    json_data = normalize_topics(
+        m.copy(),
+        topic_merge or {},
+        topic_drop or [],
+        allowed_topics or []
+    )
     
-    # update papers in each keywords         
+    # update papers in each keywords
     for data in data_dict:
         for keyword in data.keys():
             papers = data[keyword]
@@ -224,36 +384,31 @@ def update_json_file(filename,data_dict):
                 json_data[keyword].update(papers)
             else:
                 json_data[keyword] = papers
+    json_data = normalize_topics(
+        json_data,
+        topic_merge or {},
+        topic_drop or [],
+        allowed_topics or []
+    )
 
     with open(filename,"w") as f:
         json.dump(json_data,f)
     
-def json_to_md(filename,md_filename,
+def json_to_md(filename, md_filename,
                task = '',
-               to_web = False, 
-               use_title = True, 
+               to_web = False,
+               use_title = True,
                use_tc = True,
                show_badge = True,
-               use_b2t = True):
+               use_b2t = True,
+               topic_merge = None,
+               topic_drop = None,
+               allowed_topics = None):
     """
     @param filename: str
     @param md_filename: str
     @return None
     """
-    def pretty_math(s:str) -> str:
-        ret = ''
-        match = re.search(r"\$.*\$", s)
-        if match == None:
-            return s
-        math_start,math_end = match.span()
-        space_trail = space_leading = ''
-        if s[:math_start][-1] != ' ' and '*' != s[:math_start][-1]: space_trail = ' ' 
-        if s[math_end:][0] != ' ' and '*' != s[math_end:][0]: space_leading = ' ' 
-        ret += s[:math_start] 
-        ret += f'{space_trail}${match.group()[1:-1].strip()}${space_leading}' 
-        ret += s[math_end:]
-        return ret
-  
     DateNow = datetime.date.today()
     DateNow = str(DateNow)
     DateNow = DateNow.replace('-','.')
@@ -264,6 +419,12 @@ def json_to_md(filename,md_filename,
             data = {}
         else:
             data = json.loads(content)
+    data = normalize_topics(
+        data,
+        topic_merge or {},
+        topic_drop or [],
+        allowed_topics or []
+    )
 
     # clean README.md if daily already exist else create it
     with open(md_filename,"w+") as f:
@@ -367,6 +528,11 @@ def demo(**config):
     publish_gitpage = config['publish_gitpage']
     publish_wechat = config['publish_wechat']
     show_badge = config['show_badge']
+    topic_merge = config.get('topic_merge', {})
+    topic_drop = config.get('topic_drop', [])
+    allowed_topics = list(config['keywords'].keys())
+    readme_topics_dir = config.get('md_readme_topics_dir', './topics')
+    gitpage_topics_dir = config.get('md_gitpage_topics_dir', './docs/topics')
 
     b_update = config['update_paper_links']
     logging.info(f'Update Paper Link = {b_update}')
@@ -387,13 +553,39 @@ def demo(**config):
         md_file   = config['md_readme_path']
         # update paper links
         if config['update_paper_links']:
-            update_paper_links(json_file)
+            update_paper_links(
+                json_file,
+                topic_merge=topic_merge,
+                topic_drop=topic_drop,
+                allowed_topics=allowed_topics
+            )
         else:    
             # update json data
-            update_json_file(json_file,data_collector)
-        # json data to markdown
-        json_to_md(json_file,md_file, task ='Update Readme', \
-            show_badge = show_badge)
+            update_json_file(
+                json_file,
+                data_collector,
+                topic_merge=topic_merge,
+                topic_drop=topic_drop,
+                allowed_topics=allowed_topics
+            )
+        with open(json_file, "r") as f:
+            content = f.read()
+            data = json.loads(content) if content else {}
+        data = normalize_topics(data, topic_merge, topic_drop, allowed_topics)
+        readme_topics_link_dir = os.path.relpath(
+            readme_topics_dir,
+            start=os.path.dirname(md_file) or "."
+        )
+        write_index_page(
+            data,
+            md_file,
+            readme_topics_link_dir,
+            link_ext=".md",
+            usage_link="./docs/README.md#usage",
+            show_badge=show_badge,
+            to_web=False
+        )
+        write_topic_pages(data, readme_topics_dir, to_web=False)
 
     # 2. update docs/index.md file (to gitpage)
     if publish_gitpage:
@@ -401,12 +593,38 @@ def demo(**config):
         md_file   = config['md_gitpage_path']
         # TODO: duplicated update paper links!!!
         if config['update_paper_links']:
-            update_paper_links(json_file)
+            update_paper_links(
+                json_file,
+                topic_merge=topic_merge,
+                topic_drop=topic_drop,
+                allowed_topics=allowed_topics
+            )
         else:    
-            update_json_file(json_file,data_collector)
-        json_to_md(json_file, md_file, task ='Update GitPage', \
-            to_web = True, show_badge = show_badge, \
-            use_tc=False, use_b2t=False)
+            update_json_file(
+                json_file,
+                data_collector,
+                topic_merge=topic_merge,
+                topic_drop=topic_drop,
+                allowed_topics=allowed_topics
+            )
+        with open(json_file, "r") as f:
+            content = f.read()
+            data = json.loads(content) if content else {}
+        data = normalize_topics(data, topic_merge, topic_drop, allowed_topics)
+        gitpage_topics_link_dir = os.path.relpath(
+            gitpage_topics_dir,
+            start=os.path.dirname(md_file) or "."
+        )
+        write_index_page(
+            data,
+            md_file,
+            gitpage_topics_link_dir,
+            link_ext=".html",
+            usage_link="README.html#usage",
+            show_badge=show_badge,
+            to_web=True
+        )
+        write_topic_pages(data, gitpage_topics_dir, to_web=True)
 
     # 3. Update docs/wechat.md file
     if publish_wechat:
@@ -414,11 +632,31 @@ def demo(**config):
         md_file   = config['md_wechat_path']
         # TODO: duplicated update paper links!!!
         if config['update_paper_links']:
-            update_paper_links(json_file)
+            update_paper_links(
+                json_file,
+                topic_merge=topic_merge,
+                topic_drop=topic_drop,
+                allowed_topics=allowed_topics
+            )
         else:    
-            update_json_file(json_file, data_collector_web)
-        json_to_md(json_file, md_file, task ='Update Wechat', \
-            to_web=False, use_title= False, show_badge = show_badge)
+            update_json_file(
+                json_file,
+                data_collector_web,
+                topic_merge=topic_merge,
+                topic_drop=topic_drop,
+                allowed_topics=allowed_topics
+            )
+        json_to_md(
+            json_file,
+            md_file,
+            task='Update Wechat',
+            to_web=False,
+            use_title=False,
+            show_badge=show_badge,
+            topic_merge=topic_merge,
+            topic_drop=topic_drop,
+            allowed_topics=allowed_topics
+        )
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()

@@ -1,3 +1,8 @@
+---
+layout: default
+title: Usage
+---
+
 <p align="center">
   <h1 align="center"><br><ins>CV-ARXIV-DAILY</ins><br>Automatically Update CV Papers Daily using Github Actions</h1>
  
