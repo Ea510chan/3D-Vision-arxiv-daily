@@ -73,6 +73,72 @@ def sort_papers_by_date(papers: dict):
         return (date_value or datetime.date.min, paper_id)
     items.sort(key=sort_key, reverse=True)
     return items
+
+def backfill_web_abstracts(filename,
+                           topic_merge=None,
+                           topic_drop=None,
+                           allowed_topics=None,
+                           max_total=0,
+                           chunk_size=40):
+    with open(filename, "r") as f:
+        content = f.read()
+        data = json.loads(content) if content else {}
+    data = normalize_topics(
+        data,
+        topic_merge or {},
+        topic_drop or [],
+        allowed_topics or []
+    )
+
+    to_fetch = []
+    for topic, papers in data.items():
+        for paper_id, paper in papers.items():
+            paper_dict = paper_to_dict(paper_id, paper)
+            papers[paper_id] = paper_dict
+            if paper_dict.get("summary"):
+                continue
+            to_fetch.append((topic, paper_id))
+
+    if not to_fetch:
+        logging.info("No missing abstracts to backfill.")
+        return
+
+    if max_total and len(to_fetch) > max_total:
+        to_fetch = to_fetch[:max_total]
+
+    logging.info(f"Backfilling abstracts for {len(to_fetch)} papers.")
+
+    for idx in range(0, len(to_fetch), chunk_size):
+        chunk = to_fetch[idx:idx + chunk_size]
+        ids = [paper_id for _, paper_id in chunk]
+        try:
+            results = fetch_arxiv_metadata(ids)
+        except Exception as exc:
+            logging.warning(f"Abstract backfill failed: {exc}")
+            break
+        for topic, paper_id in chunk:
+            result = results.get(paper_id)
+            if not result:
+                continue
+            papers = data.get(topic, {})
+            paper_dict = papers.get(paper_id, {})
+            paper_dict.update({
+                "title": result.title,
+                "authors": get_authors(result.authors),
+                "summary": result.summary.replace("\n", " "),
+                "arxiv_id": paper_id,
+                "arxiv_url": f"{arxiv_url}abs/{paper_id}",
+                "pdf_url": f"{arxiv_url}pdf/{paper_id}.pdf",
+                "updated": str(result.updated.date()) if result.updated else paper_dict.get("updated", ""),
+                "published": str(result.published.date()) if result.published else paper_dict.get("published", ""),
+                "primary_category": result.primary_category or "",
+                "comments": result.comment or "",
+            })
+            papers[paper_id] = paper_dict
+            data[topic] = papers
+
+    with open(filename, "w") as f:
+        json.dump(data, f)
 def strip_md_bold(text: str) -> str:
     return text.replace("**", "")
 
@@ -145,6 +211,20 @@ def parse_paper_date(row: str):
         return datetime.datetime.strptime(date, "%Y-%m-%d").date()
     except ValueError:
         return None
+
+def strip_arxiv_version(arxiv_id: str) -> str:
+    return re.sub(r"v\\d+$", "", arxiv_id or "")
+
+def fetch_arxiv_metadata(id_list):
+    if arxiv is None:
+        raise RuntimeError("Missing dependency: install the 'arxiv' package to fetch papers.")
+    client = arxiv.Client()
+    search = arxiv.Search(id_list=id_list)
+    results = {}
+    for result in client.results(search):
+        short_id = strip_arxiv_version(result.get_short_id())
+        results[short_id] = result
+    return results
 
 def get_paper_date(paper):
     if isinstance(paper, dict):
@@ -752,6 +832,8 @@ def demo(**config):
     allowed_topics = list(config['keywords'].keys())
     readme_topics_dir = config.get('md_readme_topics_dir', './topics')
     gitpage_topics_dir = config.get('md_gitpage_topics_dir', './docs/topics')
+    backfill_abstracts = config.get('backfill_abstracts', False)
+    backfill_max_papers = config.get('backfill_max_papers', 0)
 
     b_update = config['update_paper_links']
     logging.info(f'Update Paper Link = {b_update}')
@@ -828,6 +910,14 @@ def demo(**config):
                 topic_merge=topic_merge,
                 topic_drop=topic_drop,
                 allowed_topics=allowed_topics
+            )
+        if backfill_abstracts:
+            backfill_web_abstracts(
+                json_file,
+                topic_merge=topic_merge,
+                topic_drop=topic_drop,
+                allowed_topics=allowed_topics,
+                max_total=backfill_max_papers
             )
         with open(json_file, "r") as f:
             content = f.read()
