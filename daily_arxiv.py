@@ -2,6 +2,7 @@ import os
 import re
 import json
 import html
+import time
 try:
     import arxiv
 except ImportError:
@@ -17,7 +18,7 @@ logging.basicConfig(format='[%(asctime)s %(levelname)s] %(message)s',
                     level=logging.INFO)
 
 github_url = "https://api.github.com/search/repositories"
-arxiv_url = "http://arxiv.org/"
+arxiv_url = "https://arxiv.org/"
 
 def load_config(config_file:str) -> dict:
     '''
@@ -79,7 +80,8 @@ def backfill_web_abstracts(filename,
                            topic_drop=None,
                            allowed_topics=None,
                            max_total=0,
-                           chunk_size=40):
+                           chunk_size=40,
+                           sleep_seconds=1.0):
     with open(filename, "r") as f:
         content = f.read()
         data = json.loads(content) if content else {}
@@ -127,8 +129,8 @@ def backfill_web_abstracts(filename,
                 "authors": get_authors(result.authors),
                 "summary": result.summary.replace("\n", " "),
                 "arxiv_id": paper_id,
-                "arxiv_url": f"{arxiv_url}abs/{paper_id}",
-                "pdf_url": f"{arxiv_url}pdf/{paper_id}.pdf",
+                "arxiv_url": ensure_https(f"{arxiv_url}abs/{paper_id}"),
+                "pdf_url": ensure_https(f"{arxiv_url}pdf/{paper_id}.pdf"),
                 "updated": str(result.updated.date()) if result.updated else paper_dict.get("updated", ""),
                 "published": str(result.published.date()) if result.published else paper_dict.get("published", ""),
                 "primary_category": result.primary_category or "",
@@ -136,6 +138,8 @@ def backfill_web_abstracts(filename,
             })
             papers[paper_id] = paper_dict
             data[topic] = papers
+        if sleep_seconds:
+            time.sleep(sleep_seconds)
 
     with open(filename, "w") as f:
         json.dump(data, f)
@@ -152,6 +156,13 @@ def extract_first_url(text: str) -> str:
     if match:
         return match.group(1)
     return ""
+
+def ensure_https(url: str) -> str:
+    if not url:
+        return ""
+    if url.startswith("http://arxiv.org/"):
+        return url.replace("http://", "https://", 1)
+    return url
 
 def pretty_math(s: str) -> str:
     ret = ''
@@ -184,11 +195,14 @@ def parse_paper_row(row: str):
 
 def paper_to_dict(paper_id: str, paper):
     if isinstance(paper, dict):
+        paper["arxiv_url"] = ensure_https(paper.get("arxiv_url", ""))
+        paper["pdf_url"] = ensure_https(paper.get("pdf_url", ""))
         return paper
     date, title, authors, arxiv_field, code_field = parse_paper_row(str(paper))
     arxiv_link = extract_first_url(arxiv_field)
     if not arxiv_link:
         arxiv_link = f"{arxiv_url}abs/{paper_id}".replace("//abs", "/abs")
+    arxiv_link = ensure_https(arxiv_link)
     pdf_url = arxiv_link.replace("/abs/", "/pdf/") + ".pdf" if arxiv_link else ""
     code_url = extract_first_url(code_field)
     return {
@@ -436,8 +450,8 @@ def write_topic_page(topic: str, papers: dict, md_path: str, to_web: bool):
                 if not summary:
                     summary = "Abstract unavailable in cached data. It will appear after the next refresh."
                 summary = escape_html(summary)
-                arxiv_link = paper_data.get("arxiv_url", "")
-                pdf_link = paper_data.get("pdf_url", "")
+                arxiv_link = ensure_https(paper_data.get("arxiv_url", ""))
+                pdf_link = ensure_https(paper_data.get("pdf_url", ""))
                 code_link = paper_data.get("code_url", "")
                 updated = paper_data.get("updated", "")
 
@@ -834,6 +848,8 @@ def demo(**config):
     gitpage_topics_dir = config.get('md_gitpage_topics_dir', './docs/topics')
     backfill_abstracts = config.get('backfill_abstracts', False)
     backfill_max_papers = config.get('backfill_max_papers', 0)
+    backfill_chunk_size = config.get('backfill_chunk_size', 40)
+    backfill_sleep_seconds = config.get('backfill_sleep_seconds', 1.0)
 
     b_update = config['update_paper_links']
     logging.info(f'Update Paper Link = {b_update}')
@@ -917,7 +933,9 @@ def demo(**config):
                 topic_merge=topic_merge,
                 topic_drop=topic_drop,
                 allowed_topics=allowed_topics,
-                max_total=backfill_max_papers
+                max_total=backfill_max_papers,
+                chunk_size=backfill_chunk_size,
+                sleep_seconds=backfill_sleep_seconds
             )
         with open(json_file, "r") as f:
             content = f.read()

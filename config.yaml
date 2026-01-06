@@ -10,6 +10,8 @@ show_badge: False
 max_results: 10
 backfill_abstracts: True
 backfill_max_papers: 0
+backfill_chunk_size: 25
+backfill_sleep_seconds: 1.2
 
 publish_readme: True
 publish_gitpage: True

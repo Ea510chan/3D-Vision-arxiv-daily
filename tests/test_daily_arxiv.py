@@ -40,7 +40,7 @@ class DailyArxivTest(unittest.TestCase):
         data = da.paper_to_dict("1234.5678", SAMPLE_ROW_1)
         self.assertEqual(data["title"], "Title A")
         self.assertEqual(data["arxiv_id"], "1234.5678")
-        self.assertTrue(data["arxiv_url"].startswith("http://arxiv.org/abs/"))
+        self.assertTrue(data["arxiv_url"].startswith("https://arxiv.org/abs/"))
         self.assertTrue(data["pdf_url"].endswith(".pdf"))
 
     def test_write_index_and_topic_pages(self):
