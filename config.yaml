@@ -9,7 +9,7 @@ show_links: True
 show_badge: False
 max_results: 10
 backfill_abstracts: True
-backfill_max_papers: 400
+backfill_max_papers: 0
 
 publish_readme: True
 publish_gitpage: True
