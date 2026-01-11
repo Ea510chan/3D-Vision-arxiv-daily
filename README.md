@@ -1,8 +1,8 @@
 # 3D Vision arXiv Daily 🚀
 
 > 🌐 Start here: **[GitHub Pages](https://ea510chan.github.io/3D-Vision-arxiv-daily/)**
-> Updated on 2026.01.06
-> Topics: 7 | Total papers: 1698
+> Updated on 2026.01.11
+> Topics: 7 | Total papers: 1721
 > Usage instructions: [here](./docs/README.md#usage)
 > This page is modified from [here](https://github.com/Vincentqyw/cv-arxiv-daily)
 
@@ -16,13 +16,13 @@
 
 | | Topic | Latest Update | Papers | Link |
 |---|---|---|---|---|
-| 🧭 | Point Cloud Registration | 2025-12-30 | 117 | [Point Cloud Registration](topics/point-cloud-registration.md) |
+| 🧭 | Point Cloud Registration | 2026-01-06 | 118 | [Point Cloud Registration](topics/point-cloud-registration.md) |
 | 🧩 | Image Matching | 2026-01-05 | 132 | [Image Matching](topics/image-matching.md) |
 | 🛰️ | SLAM | 2026-01-05 | 216 | [SLAM](topics/slam.md) |
-| 🧱 | 3D Reconstruction | 2026-01-05 | 185 | [3D Reconstruction](topics/3d-reconstruction.md) |
-| 🗺️ | Visual Localization | 2026-01-05 | 298 | [Visual Localization](topics/visual-localization.md) |
-| 🌫️ | NeRF | 2026-01-04 | 265 | [NeRF](topics/nerf.md) |
-| ✨ | Gaussian Splatting | 2026-01-05 | 485 | [Gaussian Splatting](topics/gaussian-splatting.md) |
+| 🧱 | 3D Reconstruction | 2026-01-08 | 187 | [3D Reconstruction](topics/3d-reconstruction.md) |
+| 🗺️ | Visual Localization | 2026-01-07 | 304 | [Visual Localization](topics/visual-localization.md) |
+| 🌫️ | NeRF | 2026-01-08 | 269 | [NeRF](topics/nerf.md) |
+| ✨ | Gaussian Splatting | 2026-01-08 | 495 | [Gaussian Splatting](topics/gaussian-splatting.md) |
 
 ## How It Works
 
