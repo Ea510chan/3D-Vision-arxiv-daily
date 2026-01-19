@@ -13,7 +13,7 @@ layout: default
     </div>
   </div>
   <div class="hero-panel">
-    <div class="stat"><span>Updated</span><strong>2026.01.16</strong></div>
+    <div class="stat"><span>Updated</span><strong>2026.01.19</strong></div>
     <div class="stat"><span>Topics</span><strong>7</strong></div>
     <div class="stat"><span>Total papers</span><strong>1752</strong></div>
   </div>
