@@ -7,7 +7,7 @@ title: Gaussian Splatting
   <div>
     <p class="eyebrow">Topic</p>
     <h1>Gaussian Splatting</h1>
-    <p class="topic-lede">Updated 2026.01.07 · 476 papers</p>
+    <p class="topic-lede">Updated 2026.01.31 · 527 papers</p>
   </div>
   <a class="btn ghost" href="../index.html#topics">← Back to topics</a>
 </section>
@@ -16,18 +16,1089 @@ title: Gaussian Splatting
   <article class="paper-card">
     <details class="paper-details">
       <summary>
-        <span class="paper-title">SV-GS: Sparse View 4D Reconstruction with Skeleton-Driven Gaussian Splatting</span>
-        <span class="paper-authors">Jun-Jee Chao et.al.</span>
+        <span class="paper-title">PLANING: A Loosely Coupled Triangle-Gaussian Framework for Streaming 3D Reconstruction</span>
+        <span class="paper-authors">Changjian Jiang, Kerui Ren, Xudong Li, Kaiwen Song, Linning Xu, Tao Lu, Junting Dong, Yu Zhang, Bo Dai, Mulin Yu</span>
+        <span class="paper-meta">Updated 2026-01-29</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Streaming reconstruction from monocular image sequences remains challenging, as existing methods typically favor either high-quality rendering or accurate geometry, but rarely both. We present PLANING, an efficient on-the-fly reconstruction framework built on a hybrid representation that loosely couples explicit geometric primitives with neural Gaussians, enabling geometry and appearance to be modeled in a decoupled manner. This decoupling supports an online initialization and optimization strategy that separates geometry and appearance updates, yielding stable streaming reconstruction with substantially reduced structural redundancy. PLANING improves dense mesh Chamfer-L2 by 18.52% over PGSR, surpasses ARTDECO by 1.31 dB PSNR, and reconstructs ScanNetV2 scenes in under 100 seconds, over 5x faster than 2D Gaussian Splatting, while matching the quality of offline per-scene optimization. Beyond reconstruction quality, the structural clarity and computational efficiency of \modelname~make it well suited for a broad range of downstream applications, such as enabling large-scale scene modeling and simulation-ready environments for embodied AI. Project page: https://city-super.github.io/PLANING/ .</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.22046">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.22046.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.22046.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Hybrid Foveated Path Tracing with Peripheral Gaussians for Immersive Anatomy</span>
+        <span class="paper-authors">Constantin Kleinbeck, Luisa Theelke, Hannah Schieber, Ulrich Eck, Rüdiger von Eisenhart-Rothe, Daniel Roth</span>
+        <span class="paper-meta">Updated 2026-01-29</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Volumetric medical imaging offers great potential for understanding complex pathologies. Yet, traditional 2D slices provide little support for interpreting spatial relationships, forcing users to mentally reconstruct anatomy into three dimensions. Direct volumetric path tracing and VR rendering can improve perception but are computationally expensive, while precomputed representations, like Gaussian Splatting, require planning ahead. Both approaches limit interactive use.   We propose a hybrid rendering approach for high-quality, interactive, and immersive anatomical visualization. Our method combines streamed foveated path tracing with a lightweight Gaussian Splatting approximation of the periphery. The peripheral model generation is optimized with volume data and continuously refined using foveal renderings, enabling interactive updates. Depth-guided reprojection further improves robustness to latency and allows users to balance fidelity with refresh rate.   We compare our method against direct path tracing and Gaussian Splatting. Our results highlight how their combination can preserve strengths in visual quality while re-generating the peripheral model in under a second, eliminating extensive preprocessing and approximations. This opens new options for interactive medical visualization.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.22026">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.22026.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.22026.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">FreeFix: Boosting 3D Gaussian Splatting via Fine-Tuning-Free Diffusion Models</span>
+        <span class="paper-authors">Hongyu Zhou, Zisen Shao, Sheng Miao, Pan Wang, Dongfeng Bai, Bingbing Liu, Yiyi Liao</span>
+        <span class="paper-meta">Updated 2026-01-28</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Neural Radiance Fields and 3D Gaussian Splatting have advanced novel view synthesis, yet still rely on dense inputs and often degrade at extrapolated views. Recent approaches leverage generative models, such as diffusion models, to provide additional supervision, but face a trade-off between generalization and fidelity: fine-tuning diffusion models for artifact removal improves fidelity but risks overfitting, while fine-tuning-free methods preserve generalization but often yield lower fidelity. We introduce FreeFix, a fine-tuning-free approach that pushes the boundary of this trade-off by enhancing extrapolated rendering with pretrained image diffusion models. We present an interleaved 2D-3D refinement strategy, showing that image diffusion models can be leveraged for consistent refinement without relying on costly video diffusion models. Furthermore, we take a closer look at the guidance signal for 2D refinement and propose a per-pixel confidence mask to identify uncertain regions for targeted improvement. Experiments across multiple datasets show that FreeFix improves multi-frame consistency and achieves performance comparable to or surpassing fine-tuning-based methods, while retaining strong generalization ability.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.20857">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.20857.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.20857.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">GRTX: Efficient Ray Tracing for 3D Gaussian-Based Rendering</span>
+        <span class="paper-authors">Junseo Lee, Sangyun Jeon, Jungi Lee, Junyong Park, Jaewoong Sim</span>
+        <span class="paper-meta">Updated 2026-01-28</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">3D Gaussian Splatting has gained widespread adoption across diverse applications due to its exceptional rendering performance and visual quality. While most existing methods rely on rasterization to render Gaussians, recent research has started investigating ray tracing approaches to overcome the fundamental limitations inherent in rasterization. However, current Gaussian ray tracing methods suffer from inefficiencies such as bloated acceleration structures and redundant node traversals, which greatly degrade ray tracing performance.   In this work, we present GRTX, a set of software and hardware optimizations that enable efficient ray tracing for 3D Gaussian-based rendering. First, we introduce a novel approach for constructing streamlined acceleration structures for Gaussian primitives. Our key insight is that anisotropic Gaussians can be treated as unit spheres through ray space transformations, which substantially reduces BVH size and traversal overhead. Second, we propose dedicated hardware support for traversal checkpointing within ray tracing units. This eliminates redundant node visits during multi-round tracing by resuming traversal from checkpointed nodes rather than restarting from the root node in each subsequent round. Our evaluation shows that GRTX significantly improves ray tracing performance compared to the baseline ray tracing method with a negligible hardware cost.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.20429">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.20429.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.20429.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">GVGS: Gaussian Visibility-Aware Multi-View Geometry for Accurate Surface Reconstruction</span>
+        <span class="paper-authors">Mai Su, Qihan Yu, Zhongtao Wang, Yilong Li, Chengwei Pan, Yisong Chen, Guoping Wang</span>
+        <span class="paper-meta">Updated 2026-01-28</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">3D Gaussian Splatting enables efficient optimization and high-quality rendering, yet accurate surface reconstruction remains challenging. Prior methods improve surface reconstruction by refining Gaussian depth estimates, either via multi-view geometric consistency or through monocular depth priors. However, multi-view constraints become unreliable under large geometric discrepancies, while monocular priors suffer from scale ambiguity and local inconsistency, ultimately leading to inaccurate Gaussian depth supervision. To address these limitations, we introduce a Gaussian visibility-aware multi-view geometric consistency constraint that aggregates the visibility of shared Gaussian primitives across views, enabling more accurate and stable geometric supervision. In addition, we propose a progressive quadtree-calibrated Monocular depth constraint that performs block-wise affine calibration from coarse to fine spatial scales, mitigating the scale ambiguity of depth priors while preserving fine-grained surface details. Extensive experiments on DTU and TNT datasets demonstrate consistent improvements in geometric accuracy over prior Gaussian-based and implicit surface reconstruction methods. Codes are available at an anonymous repository: https://github.com/GVGScode/GVGS.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.20331">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.20331.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.20331.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Fast Converging 3D Gaussian Splatting for 1-Minute Reconstruction</span>
+        <span class="paper-authors">Ziyu Zhang, Tianle Liu, Diantao Tu, Shuhan Shen</span>
+        <span class="paper-meta">Updated 2026-01-28</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">We present a fast 3DGS reconstruction pipeline designed to converge within one minute, developed for the SIGGRAPH Asia 3DGS Fast Reconstruction Challenge. The challenge consists of an initial round using SLAM-generated camera poses (with noisy trajectories) and a final round using COLMAP poses (highly accurate). To robustly handle these heterogeneous settings, we develop a two-stage solution. In the first round, we use reverse per-Gaussian parallel optimization and compact forward splatting based on Taming-GS and Speedy-splat, load-balanced tiling, an anchor-based Neural-Gaussian representation enabling rapid convergence with fewer learnable parameters, initialization from monocular depth and partially from feed-forward 3DGS models, and a global pose refinement module for noisy SLAM trajectories. In the final round, the accurate COLMAP poses change the optimization landscape; we disable pose refinement, revert from Neural-Gaussians back to standard 3DGS to eliminate MLP inference overhead, introduce multi-view consistency-guided Gaussian splitting inspired by Fast-GS, and introduce a depth estimator to supervise the rendered depth. Together, these techniques enable high-fidelity reconstruction under a strict one-minute budget. Our method achieved the top performance with a PSNR of 28.43 and ranked first in the competition.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.19489">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.19489.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.19489.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Graphical X Splatting (GraphiXS): A Graphical Model for 4D Gaussian Splatting under Uncertainty</span>
+        <span class="paper-authors">Doga Yilmaz, Jialin Zhu, Deshan Gong, He Wang</span>
+        <span class="paper-meta">Updated 2026-01-27</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">We propose a new framework to systematically incorporate data uncertainty in Gaussian Splatting. Being the new paradigm of neural rendering, Gaussian Splatting has been investigated in many applications, with the main effort in extending its representation, improving its optimization process, and accelerating its speed. However, one orthogonal, much needed, but under-explored area is data uncertainty. In standard 4D Gaussian Splatting, data uncertainty can manifest as view sparsity, missing frames, camera asynchronization, etc. So far, there has been little research to holistically incorporating various types of data uncertainty under a single framework. To this end, we propose Graphical X Splatting, or GraphiXS, a new probabilistic framework that considers multiple types of data uncertainty, aiming for a fundamental augmentation of the current 4D Gaussian Splatting paradigm into a probabilistic setting. GraphiXS is general and can be instantiated with a range of primitives, e.g. Gaussians, Student&#x27;s-t. Furthermore, GraphiXS can be used to `upgrade&#x27; existing methods to accommodate data uncertainty. Through exhaustive evaluation and comparison, we demonstrate that GraphiXS can systematically model various uncertainties in data, outperform existing methods in many settings where data are missing or polluted in space and time, and therefore is a major generalization of the current 4D Gaussian Splatting research.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.19843">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.19843.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.19843.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">WaterClear-GS: Optical-Aware Gaussian Splatting for Underwater Reconstruction and Restoration</span>
+        <span class="paper-authors">Xinrui Zhang, Yufeng Wang, Shuangkang Fang, Zesheng Wang, Dacheng Qi, Wenrui Ding</span>
+        <span class="paper-meta">Updated 2026-01-27</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Underwater 3D reconstruction and appearance restoration are hindered by the complex optical properties of water, such as wavelength-dependent attenuation and scattering. Existing Neural Radiance Fields (NeRF)-based methods struggle with slow rendering speeds and suboptimal color restoration, while 3D Gaussian Splatting (3DGS) inherently lacks the capability to model complex volumetric scattering effects. To address these issues, we introduce WaterClear-GS, the first pure 3DGS-based framework that explicitly integrates underwater optical properties of local attenuation and scattering into Gaussian primitives, eliminating the need for an auxiliary medium network. Our method employs a dual-branch optimization strategy to ensure underwater photometric consistency while naturally recovering water-free appearances. This strategy is enhanced by depth-guided geometry regularization and perception-driven image loss, together with exposure constraints, spatially-adaptive regularization, and physically guided spectral regularization, which collectively enforce local 3D coherence and maintain natural visual perception. Experiments on standard benchmarks and our newly collected dataset demonstrate that WaterClear-GS achieves outstanding performance on both novel view synthesis (NVS) and underwater image restoration (UIR) tasks, while maintaining real-time rendering. The code will be available at https://buaaxrzhang.github.io/WaterClear-GS/.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.19753">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.19753.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.19753.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">ClipGS-VR: Immersive and Interactive Cinematic Visualization of Volumetric Medical Data in Mobile Virtual Reality</span>
+        <span class="paper-authors">Yuqi Tong, Ruiyang Li, Chengkun Li, Qixuan Liu, Shi Qiu, Pheng-Ann Heng</span>
+        <span class="paper-meta">Updated 2026-01-27</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">High-fidelity cinematic medical visualization on mobile virtual reality (VR) remains challenging. Although ClipGS enables cross-sectional exploration via 3D Gaussian Splatting, it lacks arbitrary-angle slicing on consumer-grade VR headsets. To achieve real-time interactive performance, we introduce ClipGS-VR and restructure ClipGS&#x27;s neural inference into a consolidated dataset, integrating high-fidelity layers from multiple pre-computed slicing states into a unified rendering structure. Our framework further supports arbitrary-angle slicing via gradient-based opacity modulation for smooth, visually coherent rendering. Evaluations confirm our approach maintains visual fidelity comparable to offline results while offering superior usability and interaction efficiency.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.19310">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.19310.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.19310.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">TIGaussian: Disentangle Gaussians for Spatial-Awared Text-Image-3D Alignment</span>
+        <span class="paper-authors">Jiarun Liu, Qifeng Chen, Yiru Zhao, Minghua Liu, Baorui Ma, Sheng Yang</span>
+        <span class="paper-meta">Updated 2026-01-27</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">While visual-language models have profoundly linked features between texts and images, the incorporation of 3D modality data, such as point clouds and 3D Gaussians, further enables pretraining for 3D-related tasks, e.g., cross-modal retrieval, zero-shot classification, and scene recognition. As challenges remain in extracting 3D modal features and bridging the gap between different modalities, we propose TIGaussian, a framework that harnesses 3D Gaussian Splatting (3DGS) characteristics to strengthen cross-modality alignment through multi-branch 3DGS tokenizer and modality-specific 3D feature alignment strategies. Specifically, our multi-branch 3DGS tokenizer decouples the intrinsic properties of 3DGS structures into compact latent representations, enabling more generalizable feature extraction. To further bridge the modality gap, we develop a bidirectional cross-modal alignment strategies: a multi-view feature fusion mechanism that leverages diffusion priors to resolve perspective ambiguity in image-3D alignment, while a text-3D projection module adaptively maps 3D features to text embedding space for better text-3D alignment. Extensive experiments on various datasets demonstrate the state-of-the-art performance of TIGaussian in multiple tasks.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.19247">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.19247.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.19247.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">EVolSplat4D: Efficient Volume-based Gaussian Splatting for 4D Urban Scene Synthesis</span>
+        <span class="paper-authors">Sheng Miao, Sijin Li, Pan Wang, Dongfeng Bai, Bingbing Liu, Yue Wang, Andreas Geiger, Yiyi Liao</span>
+        <span class="paper-meta">Updated 2026-01-22</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Novel view synthesis (NVS) of static and dynamic urban scenes is essential for autonomous driving simulation, yet existing methods often struggle to balance reconstruction time with quality. While state-of-the-art neural radiance fields and 3D Gaussian Splatting approaches achieve photorealism, they often rely on time-consuming per-scene optimization. Conversely, emerging feed-forward methods frequently adopt per-pixel Gaussian representations, which lead to 3D inconsistencies when aggregating multi-view predictions in complex, dynamic environments. We propose EvolSplat4D, a feed-forward framework that moves beyond existing per-pixel paradigms by unifying volume-based and pixel-based Gaussian prediction across three specialized branches. For close-range static regions, we predict consistent geometry of 3D Gaussians over multiple frames directly from a 3D feature volume, complemented by a semantically-enhanced image-based rendering module for predicting their appearance. For dynamic actors, we utilize object-centric canonical spaces and a motion-adjusted rendering module to aggregate temporal features, ensuring stable 4D reconstruction despite noisy motion priors. Far-Field scenery is handled by an efficient per-pixel Gaussian branch to ensure full-scene coverage. Experimental results on the KITTI-360, KITTI, Waymo, and PandaSet datasets show that EvolSplat4D reconstructs both static and dynamic environments with superior accuracy and consistency, outperforming both per-scene optimization and state-of-the-art feed-forward baselines.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.15951">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.15951.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.15951.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">ThermoSplat: Cross-Modal 3D Gaussian Splatting with Feature Modulation and Geometry Decoupling</span>
+        <span class="paper-authors">Zhaoqi Su, Shihai Chen, Xinyan Lin, Liqin Huang, Zhipeng Su, Xiaoqiang Lu</span>
+        <span class="paper-meta">Updated 2026-01-22</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Multi-modal scene reconstruction integrating RGB and thermal infrared data is essential for robust environmental perception across diverse lighting and weather conditions. However, extending 3D Gaussian Splatting (3DGS) to multi-spectral scenarios remains challenging. Current approaches often struggle to fully leverage the complementary information of multi-modal data, typically relying on mechanisms that either tend to neglect cross-modal correlations or leverage shared representations that fail to adaptively handle the complex structural correlations and physical discrepancies between spectrums. To address these limitations, we propose ThermoSplat, a novel framework that enables deep spectral-aware reconstruction through active feature modulation and adaptive geometry decoupling. First, we introduce a Cross-Modal FiLM Modulation mechanism that dynamically conditions shared latent features on thermal structural priors, effectively guiding visible texture synthesis with reliable cross-modal geometric cues. Second, to accommodate modality-specific geometric inconsistencies, we propose a Modality-Adaptive Geometric Decoupling scheme that learns independent opacity offsets and executes an independent rasterization pass for the thermal branch. Additionally, a hybrid rendering pipeline is employed to integrate explicit Spherical Harmonics with implicit neural decoding, ensuring both semantic consistency and high-frequency detail preservation. Extensive experiments on the RGBT-Scenes dataset demonstrate that ThermoSplat achieves state-of-the-art rendering quality across both visible and thermal spectrums.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.15897">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.15897.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.15897.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">LL-GaussianImage: Efficient Image Representation for Zero-shot Low-Light Enhancement with 2D Gaussian Splatting</span>
+        <span class="paper-authors">Yuhan Chen, Wenxuan Yu, Guofa Li, Yijun Xu, Ying Fang, Yicui Shi, Long Cao, Wenbo Chu, Keqiang Li</span>
+        <span class="paper-meta">Updated 2026-01-22</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">2D Gaussian Splatting (2DGS) is an emerging explicit scene representation method with significant potential for image compression due to high fidelity and high compression ratios. However, existing low-light enhancement algorithms operate predominantly within the pixel domain. Processing 2DGS-compressed images necessitates a cumbersome decompression-enhancement-recompression pipeline, which compromises efficiency and introduces secondary degradation. To address these limitations, we propose LL-GaussianImage, the first zero-shot unsupervised framework designed for low-light enhancement directly within the 2DGS compressed representation domain. Three primary advantages are offered by this framework. First, a semantic-guided Mixture-of-Experts enhancement framework is designed. Dynamic adaptive transformations are applied to the sparse attribute space of 2DGS using rendered images as guidance to enable compression-as-enhancement without full decompression to a pixel grid. Second, a multi-objective collaborative loss function system is established to strictly constrain smoothness and fidelity during enhancement, suppressing artifacts while improving visual quality. Third, a two-stage optimization process is utilized to achieve reconstruction-as-enhancement. The accuracy of the base representation is ensured through single-scale reconstruction and network robustness is enhanced. High-quality enhancement of low-light images is achieved while high compression ratios are maintained. The feasibility and superiority of the paradigm for direct processing within the compressed representation domain are validated through experimental results.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.15772">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.15772.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.15772.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">LL-GaussianMap: Zero-shot Low-Light Image Enhancement via 2D Gaussian Splatting Guided Gain Maps</span>
+        <span class="paper-authors">Yuhan Chen, Ying Fang, Guofa Li, Wenxuan Yu, Yicui Shi, Jingrui Zhang, Kefei Qian, Wenbo Chu, Keqiang Li</span>
+        <span class="paper-meta">Updated 2026-01-22</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Significant progress has been made in low-light image enhancement with respect to visual quality. However, most existing methods primarily operate in the pixel domain or rely on implicit feature representations. As a result, the intrinsic geometric structural priors of images are often neglected. 2D Gaussian Splatting (2DGS) has emerged as a prominent explicit scene representation technique characterized by superior structural fitting capabilities and high rendering efficiency. Despite these advantages, the utilization of 2DGS in low-level vision tasks remains unexplored. To bridge this gap, LL-GaussianMap is proposed as the first unsupervised framework incorporating 2DGS into low-light image enhancement. Distinct from conventional methodologies, the enhancement task is formulated as a gain map generation process guided by 2DGS primitives. The proposed method comprises two primary stages. First, high-fidelity structural reconstruction is executed utilizing 2DGS. Then, data-driven enhancement dictionary coefficients are rendered via the rasterization mechanism of Gaussian splatting through an innovative unified enhancement module. This design effectively incorporates the structural perception capabilities of 2DGS into gain map generation, thereby preserving edges and suppressing artifacts during enhancement. Additionally, the reliance on paired data is circumvented through unsupervised learning. Experimental results demonstrate that LL-GaussianMap achieves superior enhancement performance with an extremely low storage footprint, highlighting the effectiveness of explicit Gaussian representations for image enhancement.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.15766">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.15766.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.15766.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Structured Image-based Coding for Efficient Gaussian Splatting Compression</span>
+        <span class="paper-authors">Pedro Martin, Antonio Rodrigues, Joao Ascenso, Maria Paula Queluz</span>
+        <span class="paper-meta">Updated 2026-01-22</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Gaussian Splatting (GS) has recently emerged as a state-of-the-art representation for radiance fields, combining real-time rendering with high visual fidelity. However, GS models require storing millions of parameters, leading to large file sizes that impair their use in practical multimedia systems. To address this limitation, this paper introduces GS Image-based Compression (GSICO), a novel GS codec that efficiently compresses pre-trained GS models while preserving perceptual fidelity. The core contribution lies in a mapping procedure that arranges GS parameters into structured images, guided by a novel algorithm that enhances spatial coherence. These GS parameter images are then encoded using a conventional image codec. Experimental evaluations on Tanks and Temples, Deep Blending, and Mip-NeRF360 datasets show that GSICO achieves average compression factors of 20.2x with minimal loss in visual quality, as measured by PSNR, SSIM, and LPIPS. Compared with state-of-the-art GS compression methods, the proposed codec consistently yields superior rate-distortion (RD) trade-offs.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.14510">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.14510.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.14510.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">SplatBus: A Gaussian Splatting Viewer Framework via GPU Interprocess Communication</span>
+        <span class="paper-authors">Yinghan Xu, Théo Morales, John Dingliana</span>
+        <span class="paper-meta">Updated 2026-01-21</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Radiance field-based rendering methods have attracted significant interest from the computer vision and computer graphics communities. They enable high-fidelity rendering with complex real-world lighting effects, but at the cost of high rendering time. 3D Gaussian Splatting solves this issue with a rasterisation-based approach for real-time rendering, enabling applications such as autonomous driving, robotics, virtual reality, and extended reality. However, current 3DGS implementations are difficult to integrate into traditional mesh-based rendering pipelines, which is a common use case for interactive applications and artistic exploration. To address this limitation, this software solution uses Nvidia&#x27;s interprocess communication (IPC) APIs to easily integrate into implementations and allow the results to be viewed in external clients such as Unity, Blender, Unreal Engine, and OpenGL viewers. The code is available at https://github.com/RockyXu66/splatbus.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.15431">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.15431.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.15431.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">LuxRemix: Lighting Decomposition and Remixing for Indoor Scenes</span>
+        <span class="paper-authors">Ruofan Liang, Norman Müller, Ethan Weber, Duncan Zauss, Nandita Vijaykumar, Peter Kontschieder, Christian Richardt</span>
+        <span class="paper-meta">Updated 2026-01-21</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">We present a novel approach for interactive light editing in indoor scenes from a single multi-view scene capture. Our method leverages a generative image-based light decomposition model that factorizes complex indoor scene illumination into its constituent light sources. This factorization enables independent manipulation of individual light sources, specifically allowing control over their state (on/off), chromaticity, and intensity. We further introduce multi-view lighting harmonization to ensure consistent propagation of the lighting decomposition across all scene views. This is integrated into a relightable 3D Gaussian splatting representation, providing real-time interactive control over the individual light sources. Our results demonstrate highly photorealistic lighting decomposition and relighting outcomes across diverse indoor scenes. We evaluate our method on both synthetic and real-world datasets and provide a quantitative and qualitative comparison to state-of-the-art techniques. For video results and interactive demos, see https://luxremix.github.io.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.15283">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.15283.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.15283.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">POTR: Post-Training 3DGS Compression</span>
+        <span class="paper-authors">Bert Ramlot, Martijn Courteaux, Peter Lambert, Glenn Van Wallendael</span>
+        <span class="paper-meta">Updated 2026-01-21</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">3D Gaussian Splatting (3DGS) has recently emerged as a promising contender to Neural Radiance Fields (NeRF) in 3D scene reconstruction and real-time novel view synthesis. 3DGS outperforms NeRF in training and inference speed but has substantially higher storage requirements. To remedy this downside, we propose POTR, a post-training 3DGS codec built on two novel techniques. First, POTR introduces a novel pruning approach that uses a modified 3DGS rasterizer to efficiently calculate every splat&#x27;s individual removal effect simultaneously. This technique results in 2-4x fewer splats than other post-training pruning techniques and as a result also significantly accelerates inference with experiments demonstrating 1.5-2x faster inference than other compressed models. Second, we propose a novel method to recompute lighting coefficients, significantly reducing their entropy without using any form of training. Our fast and highly parallel approach especially increases AC lighting coefficient sparsity, with experiments demonstrating increases from 70% to 97%, with minimal loss in quality. Finally, we extend POTR with a simple fine-tuning scheme to further enhance pruning, inference, and rate-distortion performance. Experiments demonstrate that POTR, even without fine-tuning, consistently outperforms all other post-training compression techniques in both rate-distortion performance and inference speed.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.14821">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.14821.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.14821.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Rig-Aware 3D Reconstruction of Vehicle Undercarriages using Gaussian Splatting</span>
+        <span class="paper-authors">Nitin Kulkarni, Akhil Devarashetti, Charlie Cluss, Livio Forte, Dan Buckmaster, Philip Schneider, Chunming Qiao, Alina Vereshchaka</span>
+        <span class="paper-meta">Updated 2026-01-20</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Inspecting the undercarriage of used vehicles is a labor-intensive task that requires inspectors to crouch or crawl underneath each vehicle to thoroughly examine it. Additionally, online buyers rarely see undercarriage photos. We present an end-to-end pipeline that utilizes a three-camera rig to capture videos of the undercarriage as the vehicle drives over it, and produces an interactive 3D model of the undercarriage. The 3D model enables inspectors and customers to rotate, zoom, and slice through the undercarriage, allowing them to detect rust, leaks, or impact damage in seconds, thereby improving both workplace safety and buyer confidence. Our primary contribution is a rig-aware Structure-from-Motion (SfM) pipeline specifically designed to overcome the challenges of wide-angle lens distortion and low-parallax scenes. Our method overcomes the challenges of wide-angle lens distortion and low-parallax scenes by integrating precise camera calibration, synchronized video streams, and strong geometric priors from the camera rig. We use a constrained matching strategy with learned components, the DISK feature extractor, and the attention-based LightGlue matcher to generate high-quality sparse point clouds that are often unattainable with standard SfM pipelines. These point clouds seed the Gaussian splatting process to generate photorealistic undercarriage models that render in real-time. Our experiments and ablation studies demonstrate that our design choices are essential to achieve state-of-the-art quality.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.14208">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.14208.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.14208.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">One-Shot Refiner: Boosting Feed-forward Novel View Synthesis via One-Step Diffusion</span>
+        <span class="paper-authors">Yitong Dong, Qi Zhang, Minchao Jiang, Zhiqiang Wu, Qingnan Fan, Ying Feng, Huaqi Zhang, Hujun Bao, Guofeng Zhang</span>
+        <span class="paper-meta">Updated 2026-01-20</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">We present a novel framework for high-fidelity novel view synthesis (NVS) from sparse images, addressing key limitations in recent feed-forward 3D Gaussian Splatting (3DGS) methods built on Vision Transformer (ViT) backbones. While ViT-based pipelines offer strong geometric priors, they are often constrained by low-resolution inputs due to computational costs. Moreover, existing generative enhancement methods tend to be 3D-agnostic, resulting in inconsistent structures across views, especially in unseen regions. To overcome these challenges, we design a Dual-Domain Detail Perception Module, which enables handling high-resolution images without being limited by the ViT backbone, and endows Gaussians with additional features to store high-frequency details. We develop a feature-guided diffusion network, which can preserve high-frequency details during the restoration process. We introduce a unified training strategy that enables joint optimization of the ViT-based geometric backbone and the diffusion-based refinement module. Experiments demonstrate that our method can maintain superior generation quality across multiple datasets.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.14161">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.14161.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.14161.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">RSATalker: Realistic Socially-Aware Talking Head Generation for Multi-Turn Conversation</span>
+        <span class="paper-authors">Peng Chen, Xiaobao Wei, Yi Yang, Naiming Yao, Hui Chen, Feng Tian</span>
+        <span class="paper-meta">Updated 2026-01-15</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Talking head generation is increasingly important in virtual reality (VR), especially for social scenarios involving multi-turn conversation. Existing approaches face notable limitations: mesh-based 3D methods can model dual-person dialogue but lack realistic textures, while large-model-based 2D methods produce natural appearances but incur prohibitive computational costs. Recently, 3D Gaussian Splatting (3DGS) based methods achieve efficient and realistic rendering but remain speaker-only and ignore social relationships. We introduce RSATalker, the first framework that leverages 3DGS for realistic and socially-aware talking head generation with support for multi-turn conversation. Our method first drives mesh-based 3D facial motion from speech, then binds 3D Gaussians to mesh facets to render high-fidelity 2D avatar videos. To capture interpersonal dynamics, we propose a socially-aware module that encodes social relationships, including blood and non-blood as well as equal and unequal, into high-level embeddings through a learnable query mechanism. We design a three-stage training paradigm and construct the RSATalker dataset with speech-mesh-image triplets annotated with social relationships. Extensive experiments demonstrate that RSATalker achieves state-of-the-art performance in both realism and social awareness. The code and dataset will be released.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.10606">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.10606.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.10606.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Thinking Like Van Gogh: Structure-Aware Style Transfer via Flow-Guided 3D Gaussian Splatting</span>
+        <span class="paper-authors">Zhendong Wang, Lebin Zhou, Jingchuan Xiao, Rongduo Han, Nam Ling, Cihan Ruan</span>
+        <span class="paper-meta">Updated 2026-01-15</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">In 1888, Vincent van Gogh wrote, &quot;I am seeking exaggeration in the essential.&quot; This principle, amplifying structural form while suppressing photographic detail, lies at the core of Post-Impressionist art. However, most existing 3D style transfer methods invert this philosophy, treating geometry as a rigid substrate for surface-level texture projection. To authentically reproduce Post-Impressionist stylization, geometric abstraction must be embraced as the primary vehicle of expression.   We propose a flow-guided geometric advection framework for 3D Gaussian Splatting (3DGS) that operationalizes this principle in a mesh-free setting. Our method extracts directional flow fields from 2D paintings and back-propagates them into 3D space, rectifying Gaussian primitives to form flow-aligned brushstrokes that conform to scene topology without relying on explicit mesh priors. This enables expressive structural deformation driven directly by painterly motion rather than photometric constraints.   Our contributions are threefold: (1) a projection-based, mesh-free flow guidance mechanism that transfers 2D artistic motion into 3D Gaussian geometry; (2) a luminance-structure decoupling strategy that isolates geometric deformation from color optimization, mitigating artifacts during aggressive structural abstraction; and (3) a VLM-as-a-Judge evaluation framework that assesses artistic authenticity through aesthetic judgment instead of conventional pixel-level metrics, explicitly addressing the subjective nature of artistic stylization.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.10075">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.10075.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.10075.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Variable Basis Mapping for Real-Time Volumetric Visualization</span>
+        <span class="paper-authors">Qibiao Li, Yuxuan Wang, Youcheng Cai, Huangsheng Du, Ligang Liu</span>
+        <span class="paper-meta">Updated 2026-01-14</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Real-time visualization of large-scale volumetric data remains challenging, as direct volume rendering and voxel-based methods suffer from prohibitively high computational cost. We propose Variable Basis Mapping (VBM), a framework that transforms volumetric fields into 3D Gaussian Splatting (3DGS) representations through wavelet-domain analysis. First, we precompute a compact Wavelet-to-Gaussian Transition Bank that provides optimal Gaussian surrogates for canonical wavelet atoms across multiple scales. Second, we perform analytical Gaussian construction that maps discrete wavelet coefficients directly to 3DGS parameters using a closed-form, mathematically principled rule. Finally, a lightweight image-space fine-tuning stage further refines the representation to improve rendering fidelity. Experiments on diverse datasets demonstrate that VBM significantly accelerates convergence and enhances rendering quality, enabling real-time volumetric visualization.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.09417">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.09417.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.09417.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">TIDI-GS: Floater Suppression in 3D Gaussian Splatting for Enhanced Indoor Scene Fidelity</span>
+        <span class="paper-authors">Sooyeun Yang, Cheyul Im, Jee Won Lee, Jongseong Brad Choi</span>
+        <span class="paper-meta">Updated 2026-01-14</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">3D Gaussian Splatting (3DGS) is a technique to create high-quality, real-time 3D scenes from images. This method often produces visual artifacts known as floaters--nearly transparent, disconnected elements that drift in space away from the actual surface. This geometric inaccuracy undermines the reliability of these models for practical applications, which is critical. To address this issue, we introduce TIDI-GS, a new training framework designed to eliminate these floaters. A key benefit of our approach is that it functions as a lightweight plugin for the standard 3DGS pipeline, requiring no major architectural changes and adding minimal overhead to the training process. The core of our method is a floater pruning algorithm--TIDI--that identifies and removes floaters based on several criteria: their consistency across multiple viewpoints, their spatial relationship to other elements, and an importance score learned during training. The framework includes a mechanism to preserve fine details, ensuring that important high-frequency elements are not mistakenly removed. This targeted cleanup is supported by a monocular depth-based loss function that helps improve the overall geometric structure of the scene. Our experiments demonstrate that TIDI-GS improves both the perceptual quality and geometric integrity of reconstructions, transforming them into robust digital assets, suitable for high-fidelity applications.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.09291">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.09291.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.09291.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">GaussianFluent: Gaussian Simulation for Dynamic Scenes with Mixed Materials</span>
+        <span class="paper-authors">Bei Huang, Yixin Chen, Ruijie Lu, Gang Zeng, Hongbin Zha, Yuru Pei, Siyuan Huang</span>
+        <span class="paper-meta">Updated 2026-01-14</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">3D Gaussian Splatting (3DGS) has emerged as a prominent 3D representation for high-fidelity and real-time rendering. Prior work has coupled physics simulation with Gaussians, but predominantly targets soft, deformable materials, leaving brittle fracture largely unresolved. This stems from two key obstacles: the lack of volumetric interiors with coherent textures in GS representation, and the absence of fracture-aware simulation methods for Gaussians. To address these challenges, we introduce GaussianFluent, a unified framework for realistic simulation and rendering of dynamic object states. First, it synthesizes photorealistic interiors by densifying internal Gaussians guided by generative models. Second, it integrates an optimized Continuum Damage Material Point Method (CD-MPM) to enable brittle fracture simulation at remarkably high speed. Our approach handles complex scenarios including mixed-material objects and multi-stage fracture propagation, achieving results infeasible with previous methods. Experiments clearly demonstrate GaussianFluent&#x27;s capability for photo-realistic, real-time rendering with structurally consistent interiors, highlighting its potential for downstream application, such as VR and Robotics.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.09265">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.09265.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.09265.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">A$^2$TG: Adaptive Anisotropic Textured Gaussians for Efficient 3D Scene Representation</span>
+        <span class="paper-authors">Sheng-Chi Hsu, Ting-Yu Yen, Shih-Hsuan Hung, Hung-Kuo Chu</span>
+        <span class="paper-meta">Updated 2026-01-14</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Gaussian Splatting has emerged as a powerful representation for high-quality, real-time 3D scene rendering. While recent works extend Gaussians with learnable textures to enrich visual appearance, existing approaches allocate a fixed square texture per primitive, leading to inefficient memory usage and limited adaptability to scene variability. In this paper, we introduce adaptive anisotropic textured Gaussians (A$^2$TG), a novel representation that generalizes textured Gaussians by equipping each primitive with an anisotropic texture. Our method employs a gradient-guided adaptive rule to jointly determine texture resolution and aspect ratio, enabling non-uniform, detail-aware allocation that aligns with the anisotropic nature of Gaussian splats. This design significantly improves texture efficiency, reducing memory consumption while enhancing image quality. Experiments on multiple benchmark datasets demonstrate that A TG consistently outperforms fixed-texture Gaussian Splatting methods, achieving comparable rendering fidelity with substantially lower memory requirements.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.09243">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.09243.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.09243.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">ViewMorpher3D: A 3D-aware Diffusion Framework for Multi-Camera Novel View Synthesis in Autonomous Driving</span>
+        <span class="paper-authors">Farhad G. Zanjani, Hong Cai, Amirhossein Habibian</span>
+        <span class="paper-meta">Updated 2026-01-13</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Autonomous driving systems rely heavily on multi-view images to ensure accurate perception and robust decision-making. To effectively develop and evaluate perception stacks and planning algorithms, realistic closed-loop simulators are indispensable. While 3D reconstruction techniques such as Gaussian Splatting offer promising avenues for simulator construction, the rendered novel views often exhibit artifacts, particularly in extrapolated perspectives or when available observations are sparse.   We introduce ViewMorpher3D, a multi-view image enhancement framework based on image diffusion models, designed to elevate photorealism and multi-view coherence in driving scenes. Unlike single-view approaches, ViewMorpher3D jointly processes a set of rendered views conditioned on camera poses, 3D geometric priors, and temporally adjacent or spatially overlapping reference views. This enables the model to infer missing details, suppress rendering artifacts, and enforce cross-view consistency.   Our framework accommodates variable numbers of cameras and flexible reference/target view configurations, making it adaptable to diverse sensor setups. Experiments on real-world driving datasets demonstrate substantial improvements in image quality metrics, effectively reducing artifacts while preserving geometric fidelity.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.07540">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.07540.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.07540.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">3DGS-Drag: Dragging Gaussians for Intuitive Point-Based 3D Editing</span>
+        <span class="paper-authors">Jiahua Dong, Yu-Xiong Wang</span>
+        <span class="paper-meta">Updated 2026-01-12</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">The transformative potential of 3D content creation has been progressively unlocked through advancements in generative models. Recently, intuitive drag editing with geometric changes has attracted significant attention in 2D editing yet remains challenging for 3D scenes. In this paper, we introduce 3DGS-Drag -- a point-based 3D editing framework that provides efficient, intuitive drag manipulation of real 3D scenes. Our approach bridges the gap between deformation-based and 2D-editing-based 3D editing methods, addressing their limitations to geometry-related content editing. We leverage two key innovations: deformation guidance utilizing 3D Gaussian Splatting for consistent geometric modifications and diffusion guidance for content correction and visual quality enhancement. A progressive editing strategy further supports aggressive 3D drag edits. Our method enables a wide range of edits, including motion change, shape adjustment, inpainting, and content extension. Experimental results demonstrate the effectiveness of 3DGS-Drag in various scenes, achieving state-of-the-art performance in geometry-related 3D content editing. Notably, the editing is efficient, taking 10 to 20 minutes on a single RTX 4090 GPU.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.07963">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.07963.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.07963.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Mon3tr: Monocular 3D Telepresence with Pre-built Gaussian Avatars as Amortization</span>
+        <span class="paper-authors">Fangyu Lin, Yingdong Hu, Zhening Liu, Yufan Zhuang, Zehong Lin, Jun Zhang</span>
+        <span class="paper-meta">Updated 2026-01-12</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Immersive telepresence aims to transform human interaction in AR/VR applications by enabling lifelike full-body holographic representations for enhanced remote collaboration. However, existing systems rely on hardware-intensive multi-camera setups and demand high bandwidth for volumetric streaming, limiting their real-time performance on mobile devices. To overcome these challenges, we propose Mon3tr, a novel Monocular 3D telepresence framework that integrates 3D Gaussian splatting (3DGS) based parametric human modeling into telepresence for the first time. Mon3tr adopts an amortized computation strategy, dividing the process into a one-time offline multi-view reconstruction phase to build a user-specific avatar and a monocular online inference phase during live telepresence sessions. A single monocular RGB camera is used to capture body motions and facial expressions in real time to drive the 3DGS-based parametric human model, significantly reducing system complexity and cost. The extracted motion and appearance features are transmitted at &lt; 0.2 Mbps over WebRTC&#x27;s data channel, allowing robust adaptation to network fluctuations. On the receiver side, e.g., Meta Quest 3, we develop a lightweight 3DGS attribute deformation network to dynamically generate corrective 3DGS attribute adjustments on the pre-built avatar, synthesizing photorealistic motion and appearance at ~ 60 FPS. Extensive experiments demonstrate the state-of-the-art performance of our method, achieving a PSNR of &gt; 28 dB for novel poses, an end-to-end latency of ~ 80 ms, and &gt; 1000x bandwidth reduction compared to point-cloud streaming, while supporting real-time operation from monocular inputs across diverse scenarios. Our demos can be found at https://mon3tr3d.github.io.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.07518">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.07518.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.07518.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">R3-RECON: Radiance-Field-Free Active Reconstruction via Renderability</span>
+        <span class="paper-authors">Xiaofeng Jin, Matteo Frosi, Yiran Guo, Matteo Matteucci</span>
+        <span class="paper-meta">Updated 2026-01-12</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">In active reconstruction, an embodied agent must decide where to look next to efficiently acquire views that support high-quality novel-view rendering. Recent work on active view planning for neural rendering largely derives next-best-view (NBV) criteria by backpropagating through radiance fields or estimating information entropy over 3D Gaussian primitives. While effective, these strategies tightly couple view selection to heavy, representation-specific mechanisms and fail to account for the computational and resource constraints required for lightweight online deployment. In this paper, we revisit active reconstruction from a renderability-centric perspective. We propose $\mathbb{R}^{3}$-RECON, a radiance-fields-free active reconstruction framework that induces an implicit, pose-conditioned renderability field over SE(3) from a lightweight voxel map. Our formulation aggregates per-voxel online observation statistics into a unified scalar renderability score that is cheap to update and can be queried in closed form at arbitrary candidate viewpoints in milliseconds, without requiring gradients or radiance-field training. This renderability field is strongly correlated with image-space reconstruction error, naturally guiding NBV selection. We further introduce a panoramic extension that estimates omnidirectional (360$^\circ$) view utility to accelerate candidate evaluation. In the standard indoor Replica dataset, $\mathbb{R}^{3}$-RECON achieves more uniform novel-view quality and higher 3D Gaussian splatting (3DGS) reconstruction accuracy than recent active GS baselines with matched view and time budgets.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.07484">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.07484.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.07484.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">SARA: Scene-Aware Reconstruction Accelerator</span>
+        <span class="paper-authors">Jee Won Lee, Hansol Lim, Minhyeok Im, Dohyeon Lee, Jongseong Brad Choi</span>
+        <span class="paper-meta">Updated 2026-01-11</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">We present SARA (Scene-Aware Reconstruction Accelerator), a geometry-driven pair selection module for Structure-from-Motion (SfM). Unlike conventional pipelines that select pairs based on visual similarity alone, SARA introduces geometry-first pair selection by scoring reconstruction informativeness - the product of overlap and parallax - before expensive matching. A lightweight pre-matching stage uses mutual nearest neighbors and RANSAC to estimate these cues, then constructs an Information-Weighted Spanning Tree (IWST) augmented with targeted edges for loop closure, long-baseline anchors, and weak-view reinforcement. Compared to exhaustive matching, SARA reduces rotation errors by 46.5+-5.5% and translation errors by 12.5+-6.5% across modern learned detectors, while achieving at most 50x speedup through 98% pair reduction (from 30,848 to 580 pairs). This reduces matching complexity from quadratic to quasi-linear, maintaining within +-3% of baseline reconstruction metrics for 3D Gaussian Splatting and SVRaster.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.06831">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.06831.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.06831.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">SRFlow: A Dataset and Regularization Model for High-Resolution Facial Optical Flow via Splatting Rasterization</span>
+        <span class="paper-authors">JiaLin Zhang, Dong Li</span>
+        <span class="paper-meta">Updated 2026-01-10</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Facial optical flow supports a wide range of tasks in facial motion analysis. However, the lack of high-resolution facial optical flow datasets has hindered progress in this area. In this paper, we introduce Splatting Rasterization Flow (SRFlow), a high-resolution facial optical flow dataset, and Splatting Rasterization Guided FlowNet (SRFlowNet), a facial optical flow model with tailored regularization losses. These losses constrain flow predictions using masks and gradients computed via difference or Sobel operator. This effectively suppresses high-frequency noise and large-scale errors in texture-less or repetitive-pattern regions, enabling SRFlowNet to be the first model explicitly capable of capturing high-resolution skin motion guided by Gaussian splatting rasterization. Experiments show that training with the SRFlow dataset improves facial optical flow estimation across various optical flow models, reducing end-point error (EPE) by up to 42% (from 0.5081 to 0.2953). Furthermore, when coupled with the SRFlow dataset, SRFlowNet achieves up to a 48% improvement in F1-score (from 0.4733 to 0.6947) on a composite of three micro-expression datasets. These results demonstrate the value of advancing both facial optical flow estimation and micro-expression recognition.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.06479">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.06479.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.06479.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">OceanSplat: Object-aware Gaussian Splatting with Trinocular View Consistency for Underwater Scene Reconstruction</span>
+        <span class="paper-authors">Minseong Kweon, Jinsun Park</span>
+        <span class="paper-meta">Updated 2026-01-08</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">We introduce OceanSplat, a novel 3D Gaussian Splatting-based approach for accurately representing 3D geometry in underwater scenes. To overcome multi-view inconsistencies caused by underwater optical degradation, our method enforces trinocular view consistency by rendering horizontally and vertically translated camera views relative to each input view and aligning them via inverse warping. Furthermore, these translated camera views are used to derive a synthetic epipolar depth prior through triangulation, which serves as a self-supervised depth regularizer. These geometric constraints facilitate the spatial optimization of 3D Gaussians and preserve scene structure in underwater environments. We also propose a depth-aware alpha adjustment that modulates the opacity of 3D Gaussians during early training based on their $z$-component and viewing direction, deterring the formation of medium-induced primitives. With our contributions, 3D Gaussians are disentangled from the scattering medium, enabling robust representation of object geometry and significantly reducing floating artifacts in reconstructed underwater scenes. Experiments on real-world underwater and simulated scenes demonstrate that OceanSplat substantially outperforms existing methods for both scene reconstruction and restoration in scattering media.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.04984">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.04984.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.04984.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">ProFuse: Efficient Cross-View Context Fusion for Open-Vocabulary 3D Gaussian Splatting</span>
+        <span class="paper-authors">Yen-Jen Chiou, Wei-Tse Cheng, Yuan-Fu Yang</span>
+        <span class="paper-meta">Updated 2026-01-08</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">We present ProFuse, an efficient context-aware framework for open-vocabulary 3D scene understanding with 3D Gaussian Splatting (3DGS). The pipeline enhances cross-view consistency and intra-mask cohesion within a direct registration setup, adding minimal overhead and requiring no render-supervised fine-tuning. Instead of relying on a pretrained 3DGS scene, we introduce a dense correspondence-guided pre-registration phase that initializes Gaussians with accurate geometry while jointly constructing 3D Context Proposals via cross-view clustering. Each proposal carries a global feature obtained through weighted aggregation of member embeddings, and this feature is fused onto Gaussians during direct registration to maintain per-primitive language coherence across views. With associations established in advance, semantic fusion requires no additional optimization beyond standard reconstruction, and the model retains geometric refinement without densification. ProFuse achieves strong open-vocabulary 3DGS understanding while completing semantic attachment in about five minutes per scene, which is two times faster than SOTA.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.04754">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.04754.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.04754.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">SCAR-GS: Spatial Context Attention for Residuals in Progressive Gaussian Splatting</span>
+        <span class="paper-authors">Diego Revilla, Pooja Suresh, Anand Bhojan, Ooi Wei Tsang</span>
+        <span class="paper-meta">Updated 2026-01-07</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Recent advances in 3D Gaussian Splatting have allowed for real-time, high-fidelity novel view synthesis. Nonetheless, these models have significant storage requirements for large and medium-sized scenes, hindering their deployment over cloud and streaming services. Some of the most recent progressive compression techniques for these models rely on progressive masking and scalar quantization techniques to reduce the bitrate of Gaussian attributes using spatial context models. While effective, scalar quantization may not optimally capture the correlations of high-dimensional feature vectors, which can potentially limit the rate-distortion performance.   In this work, we introduce a novel progressive codec for 3D Gaussian Splatting that replaces traditional methods with a more powerful Residual Vector Quantization approach to compress the primitive features. Our key contribution is an auto-regressive entropy model, guided by a multi-resolution hash grid, that accurately predicts the conditional probability of each successive transmitted index, allowing for coarse and refinement layers to be compressed with high efficiency.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.04348">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.04348.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.04348.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">IDESplat: Iterative Depth Probability Estimation for Generalizable 3D Gaussian Splatting</span>
+        <span class="paper-authors">Wei Long, Haifeng Wu, Shiyin Jiang, Jinhua Zhang, Xinchun Ji, Shuhang Gu</span>
+        <span class="paper-meta">Updated 2026-01-07</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Generalizable 3D Gaussian Splatting aims to directly predict Gaussian parameters using a feed-forward network for scene reconstruction. Among these parameters, Gaussian means are particularly difficult to predict, so depth is usually estimated first and then unprojected to obtain the Gaussian sphere centers. Existing methods typically rely solely on a single warp to estimate depth probability, which hinders their ability to fully leverage cross-view geometric cues, resulting in unstable and coarse depth maps. To address this limitation, we propose IDESplat, which iteratively applies warp operations to boost depth probability estimation for accurate Gaussian mean prediction. First, to eliminate the inherent instability of a single warp, we introduce a Depth Probability Boosting Unit (DPBU) that integrates epipolar attention maps produced by cascading warp operations in a multiplicative manner. Next, we construct an iterative depth estimation process by stacking multiple DPBUs, progressively identifying potential depth candidates with high likelihood. As IDESplat iteratively boosts depth probability estimates and updates the depth candidates, the depth map is gradually refined, resulting in accurate Gaussian means. We conduct experiments on RealEstate10K, ACID, and DL3DV. IDESplat achieves outstanding reconstruction quality and state-of-the-art performance with real-time efficiency. On RE10K, it outperforms DepthSplat by 0.33 dB in PSNR, using only 10.7% of the parameters and 70% of the memory. Additionally, our IDESplat improves PSNR by 2.95 dB over DepthSplat on the DTU dataset in cross-dataset experiments, demonstrating its strong generalization ability.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.03824">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.03824.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.03824.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">G2P: Gaussian-to-Point Attribute Alignment for Boundary-Aware 3D Semantic Segmentation</span>
+        <span class="paper-authors">Hojun Song, Chae-yeong Song, Jeong-hun Hong, Chaewon Moon, Dong-hwi Kim, Gahyeon Kim, Soo Ye Kim, Yiyi Liao, Jaehyup Lee, Sang-hyo Park</span>
+        <span class="paper-meta">Updated 2026-01-07</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Semantic segmentation on point clouds is critical for 3D scene understanding. However, sparse and irregular point distributions provide limited appearance evidence, making geometry-only features insufficient to distinguish objects with similar shapes but distinct appearances (e.g., color, texture, material). We propose Gaussian-to-Point (G2P), which transfers appearance-aware attributes from 3D Gaussian Splatting to point clouds for more discriminative and appearance-consistent segmentation. Our G2P address the misalignment between optimized Gaussians and original point geometry by establishing point-wise correspondences. By leveraging Gaussian opacity attributes, we resolve the geometric ambiguity that limits existing models. Additionally, Gaussian scale attributes enable precise boundary localization in complex 3D scenes. Extensive experiments demonstrate that our approach achieves superior performance on standard benchmarks and shows significant improvements on geometrically challenging classes, all without any 2D or language supervision.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.03510">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.03510.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.03510.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">RelightAnyone: A Generalized Relightable 3D Gaussian Head Model</span>
+        <span class="paper-authors">Yingyan Xu, Pramod Rao, Sebastian Weiss, Gaspard Zoss, Markus Gross, Christian Theobalt, Marc Habermann, Derek Bradley</span>
+        <span class="paper-meta">Updated 2026-01-06</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">3D Gaussian Splatting (3DGS) has become a standard approach to reconstruct and render photorealistic 3D head avatars. A major challenge is to relight the avatars to match any scene illumination. For high quality relighting, existing methods require subjects to be captured under complex time-multiplexed illumination, such as one-light-at-a-time (OLAT). We propose a new generalized relightable 3D Gaussian head model that can relight any subject observed in a single- or multi-view images without requiring OLAT data for that subject. Our core idea is to learn a mapping from flat-lit 3DGS avatars to corresponding relightable Gaussian parameters for that avatar. Our model consists of two stages: a first stage that models flat-lit 3DGS avatars without OLAT lighting, and a second stage that learns the mapping to physically-based reflectance parameters for high-quality relighting. This two-stage design allows us to train the first stage across diverse existing multi-view datasets without OLAT lighting ensuring cross-subject generalization, where we learn a dataset-specific lighting code for self-supervised lighting alignment. Subsequently, the second stage can be trained on a significantly smaller dataset of subjects captured under OLAT illumination. Together, this allows our method to generalize well and relight any subject from the first stage as if we had captured them under OLAT lighting. Furthermore, we can fit our model to unseen subjects from as little as a single image, allowing several applications in novel view synthesis and relighting for digital avatars.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.03357">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.03357.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.03357.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">CaricatureGS: Exaggerating 3D Gaussian Splatting Faces With Gaussian Curvature</span>
+        <span class="paper-authors">Eldad Matmon, Amit Bracha, Noam Rotstein, Ron Kimmel</span>
+        <span class="paper-meta">Updated 2026-01-06</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">A photorealistic and controllable 3D caricaturization framework for faces is introduced. We start with an intrinsic Gaussian curvature-based surface exaggeration technique, which, when coupled with texture, tends to produce over-smoothed renders. To address this, we resort to 3D Gaussian Splatting (3DGS), which has recently been shown to produce realistic free-viewpoint avatars. Given a multiview sequence, we extract a FLAME mesh, solve a curvature-weighted Poisson equation, and obtain its exaggerated form. However, directly deforming the Gaussians yields poor results, necessitating the synthesis of pseudo-ground-truth caricature images by warping each frame to its exaggerated 2D representation using local affine transformations. We then devise a training scheme that alternates real and synthesized supervision, enabling a single Gaussian collection to represent both natural and exaggerated avatars. This scheme improves fidelity, supports local edits, and allows continuous control over the intensity of the caricature. In order to achieve real-time deformations, an efficient interpolation between the original and exaggerated surfaces is introduced. We further analyze and show that it has a bounded deviation from closed-form solutions. In both quantitative and qualitative evaluations, our results outperform prior work, delivering photorealistic, geometry-controlled caricature avatars.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.03319">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.03319.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.03319.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">A High-Fidelity Digital Twin for Robotic Manipulation Based on 3D Gaussian Splatting</span>
+        <span class="paper-authors">Ziyang Sun, Lingfan Bao, Tianhu Peng, Jingcheng Sun, Chengxu Zhou</span>
+        <span class="paper-meta">Updated 2026-01-06</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Developing high-fidelity, interactive digital twins is crucial for enabling closed-loop motion planning and reliable real-world robot execution, which are essential to advancing sim-to-real transfer. However, existing approaches often suffer from slow reconstruction, limited visual fidelity, and difficulties in converting photorealistic models into planning-ready collision geometry. We present a practical framework that constructs high-quality digital twins within minutes from sparse RGB inputs. Our system employs 3D Gaussian Splatting (3DGS) for fast, photorealistic reconstruction as a unified scene representation. We enhance 3DGS with visibility-aware semantic fusion for accurate 3D labelling and introduce an efficient, filter-based geometry conversion method to produce collision-ready models seamlessly integrated with a Unity-ROS2-MoveIt physics engine. In experiments with a Franka Emika Panda robot performing pick-and-place tasks, we demonstrate that this enhanced geometric accuracy effectively supports robust manipulation in real-world trials. These results demonstrate that 3DGS-based digital twins, enriched with semantic and geometric consistency, offer a fast, reliable, and scalable path from perception to manipulation in unstructured environments.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.03200">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.03200.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.03200.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">SA-ResGS: Self-Augmented Residual 3D Gaussian Splatting for Next Best View Selection</span>
+        <span class="paper-authors">Kim Jun-Seong, Tae-Hyun Oh, Eduardo Pérez-Pellitero, Youngkyoon Jang</span>
+        <span class="paper-meta">Updated 2026-01-06</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">We propose Self-Augmented Residual 3D Gaussian Splatting (SA-ResGS), a novel framework to stabilize uncertainty quantification and enhancing uncertainty-aware supervision in next-best-view (NBV) selection for active scene reconstruction. SA-ResGS improves both the reliability of uncertainty estimates and their effectiveness for supervision by generating Self-Augmented point clouds (SA-Points) via triangulation between a training view and a rasterized extrapolated view, enabling efficient scene coverage estimation. While improving scene coverage through physically guided view selection, SA-ResGS also addresses the challenge of under-supervised Gaussians, exacerbated by sparse and wide-baseline views, by introducing the first residual learning strategy tailored for 3D Gaussian Splatting. This targeted supervision enhances gradient flow in high-uncertainty Gaussians by combining uncertainty-driven filtering with dropout- and hard-negative-mining-inspired sampling. Our contributions are threefold: (1) a physically grounded view selection strategy that promotes efficient and uniform scene coverage; (2) an uncertainty-aware residual supervision scheme that amplifies learning signals for weakly contributing Gaussians, improving training stability and uncertainty estimation across scenes with diverse camera distributions; (3) an implicit unbiasing of uncertainty quantification as a consequence of constrained view selection and residual supervision, which together mitigate conflicting effects of wide-baseline exploration and sparse-view ambiguity in NBV planning. Experiments on active view selection demonstrate that SA-ResGS outperforms state-of-the-art baselines in both reconstruction quality and view selection robustness.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.03024">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.03024.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.03024.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">CAMO: Category-Agnostic 3D Motion Transfer from Monocular 2D Videos</span>
+        <span class="paper-authors">Taeyeon Kim, Youngju Na, Jumin Lee, Minhyuk Sung, Sung-Eui Yoon</span>
+        <span class="paper-meta">Updated 2026-01-06</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Motion transfer from 2D videos to 3D assets is a challenging problem, due to inherent pose ambiguities and diverse object shapes, often requiring category-specific parametric templates. We propose CAMO, a category-agnostic framework that transfers motion to diverse target meshes directly from monocular 2D videos without relying on predefined templates or explicit 3D supervision. The core of CAMO is a morphology-parameterized articulated 3D Gaussian splatting model combined with dense semantic correspondences to jointly adapt shape and pose through optimization. This approach effectively alleviates shape-pose ambiguities, enabling visually faithful motion transfer for diverse categories. Experimental results demonstrate superior motion accuracy, efficiency, and visual coherence compared to existing methods, significantly advancing motion transfer in varied object categories and casual video scenarios.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.02716">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.02716.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.02716.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">HeadLighter: Disentangling Illumination in Generative 3D Gaussian Heads via Lightstage Captures</span>
+        <span class="paper-authors">Yating Wang, Yuan Sun, Xuan Wang, Ran Yi, Boyao Zhou, Yipengjing Sun, Hongyu Liu, Yinuo Wang, Lizhuang Ma</span>
+        <span class="paper-meta">Updated 2026-01-05</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Recent 3D-aware head generative models based on 3D Gaussian Splatting achieve real-time, photorealistic and view-consistent head synthesis. However, a fundamental limitation persists: the deep entanglement of illumination and intrinsic appearance prevents controllable relighting. Existing disentanglement methods rely on strong assumptions to enable weakly supervised learning, which restricts their capacity for complex illumination. To address this challenge, we introduce HeadLighter, a novel supervised framework that learns a physically plausible decomposition of appearance and illumination in head generative models. Specifically, we design a dual-branch architecture that separately models lighting-invariant head attributes and physically grounded rendering components. A progressive disentanglement training is employed to gradually inject head appearance priors into the generative architecture, supervised by multi-view images captured under controlled light conditions with a light stage setup. We further introduce a distillation strategy to generate high-quality normals for realistic rendering. Experiments demonstrate that our method preserves high-quality generation and real-time rendering, while simultaneously supporting explicit lighting and viewpoint editing. We will publicly release our code and dataset.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.02103">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.02103.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.02103.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">360-GeoGS: Geometrically Consistent Feed-Forward 3D Gaussian Splatting Reconstruction for 360 Images</span>
+        <span class="paper-authors">Jiaqi Yao, Zhongmiao Yan, Jingyi Xu, Songpengcheng Xia, Yan Xiang, Ling Pei</span>
+        <span class="paper-meta">Updated 2026-01-05</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">3D scene reconstruction is fundamental for spatial intelligence applications such as AR, robotics, and digital twins. Traditional multi-view stereo struggles with sparse viewpoints or low-texture regions, while neural rendering approaches, though capable of producing high-quality results, require per-scene optimization and lack real-time efficiency. Explicit 3D Gaussian Splatting (3DGS) enables efficient rendering, but most feed-forward variants focus on visual quality rather than geometric consistency, limiting accurate surface reconstruction and overall reliability in spatial perception tasks. This paper presents a novel feed-forward 3DGS framework for 360 images, capable of generating geometrically consistent Gaussian primitives while maintaining high rendering quality. A Depth-Normal geometric regularization is introduced to couple rendered depth gradients with normal information, supervising Gaussian rotation, scale, and position to improve point cloud and surface accuracy. Experimental results show that the proposed method maintains high rendering quality while significantly improving geometric consistency, providing an effective solution for 3D reconstruction in spatial perception tasks.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.02102">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.02102.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.02102.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">InpaintHuman: Reconstructing Occluded Humans with Multi-Scale UV Mapping and Identity-Preserving Diffusion Inpainting</span>
+        <span class="paper-authors">Jinlong Fan, Shanshan Zhao, Liang Zheng, Jing Zhang, Yuxiang Yang, Mingming Gong</span>
+        <span class="paper-meta">Updated 2026-01-05</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Reconstructing complete and animatable 3D human avatars from monocular videos remains challenging, particularly under severe occlusions. While 3D Gaussian Splatting has enabled photorealistic human rendering, existing methods struggle with incomplete observations, often producing corrupted geometry and temporal inconsistencies. We present InpaintHuman, a novel method for generating high-fidelity, complete, and animatable avatars from occluded monocular videos. Our approach introduces two key innovations: (i) a multi-scale UV-parameterized representation with hierarchical coarse-to-fine feature interpolation, enabling robust reconstruction of occluded regions while preserving geometric details; and (ii) an identity-preserving diffusion inpainting module that integrates textual inversion with semantic-conditioned guidance for subject-specific, temporally coherent completion. Unlike SDS-based methods, our approach employs direct pixel-level supervision to ensure identity fidelity. Experiments on synthetic benchmarks (PeopleSnapshot, ZJU-MoCap) and real-world scenarios (OcMotion) demonstrate competitive performance with consistent improvements in reconstruction quality across diverse poses and viewpoints.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.02098">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.02098.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.02098.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">SketchRodGS: Sketch-based Extraction of Slender Geometries for Animating Gaussian Splatting Scenes</span>
+        <span class="paper-authors">Haato Watanabe, Nobuyuki Umetani</span>
+        <span class="paper-meta">Updated 2026-01-05</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Physics simulation of slender elastic objects often requires discretization as a polyline. However, constructing a polyline from Gaussian splatting is challenging as Gaussian splatting lacks connectivity information and the configuration of Gaussian primitives contains much noise. This paper presents a method to extract a polyline representation of the slender part of the objects in a Gaussian splatting scene from the user&#x27;s sketching input. Our method robustly constructs a polyline mesh that represents the slender parts using the screen-space shortest path analysis that can be efficiently solved using dynamic programming. We demonstrate the effectiveness of our approach in several in-the-wild examples.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.02072">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.02072.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.02072.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">ESGaussianFace: Emotional and Stylized Audio-Driven Facial Animation via 3D Gaussian Splatting</span>
+        <span class="paper-authors">Chuhang Ma, Shuai Tan, Ye Pan, Jiaolong Yang, Xin Tong</span>
+        <span class="paper-meta">Updated 2026-01-05</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Most current audio-driven facial animation research primarily focuses on generating videos with neutral emotions. While some studies have addressed the generation of facial videos driven by emotional audio, efficiently generating high-quality talking head videos that integrate both emotional expressions and style features remains a significant challenge. In this paper, we propose ESGaussianFace, an innovative framework for emotional and stylized audio-driven facial animation. Our approach leverages 3D Gaussian Splatting to reconstruct 3D scenes and render videos, ensuring efficient generation of 3D consistent results. We propose an emotion-audio-guided spatial attention method that effectively integrates emotion features with audio content features. Through emotion-guided attention, the model is able to reconstruct facial details across different emotional states more accurately. To achieve emotional and stylized deformations of the 3D Gaussian points through emotion and style features, we introduce two 3D Gaussian deformation predictors. Futhermore, we propose a multi-stage training strategy, enabling the step-by-step learning of the character&#x27;s lip movements, emotional variations, and style features. Our generated results exhibit high efficiency, high quality, and 3D consistency. Extensive experimental results demonstrate that our method outperforms existing state-of-the-art techniques in terms of lip movement accuracy, expression variation, and style feature expressiveness.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.01847">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.01847.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.01847.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Animated 3DGS Avatars in Diverse Scenes with Consistent Lighting and Shadows</span>
+        <span class="paper-authors">Aymen Mir, Riza Alp Guler, Jian Wang, Gerard Pons-Moll, Bing Zhou</span>
+        <span class="paper-meta">Updated 2026-01-04</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">We present a method for consistent lighting and shadows when animated 3D Gaussian Splatting (3DGS) avatars interact with 3DGS scenes or with dynamic objects inserted into otherwise static scenes. Our key contribution is Deep Gaussian Shadow Maps (DGSM), a modern analogue of the classical shadow mapping algorithm tailored to the volumetric 3DGS representation. Building on the classic deep shadow mapping idea, we show that 3DGS admits closed form light accumulation along light rays, enabling volumetric shadow computation without meshing. For each estimated light, we tabulate transmittance over concentric radial shells and store them in octahedral atlases, which modern GPUs can sample in real time per query to attenuate affected scene Gaussians and thus cast and receive shadows consistently. To relight moving avatars, we approximate the local environment illumination with HDRI probes represented in a spherical harmonic (SH) basis and apply a fast per Gaussian radiance transfer, avoiding explicit BRDF estimation or offline optimization. We demonstrate environment consistent lighting for avatars from AvatarX and ActorsHQ, composited into ScanNet++, DL3DV, and SuperSplat scenes, and show interactions with inserted objects. Across single and multi avatar settings, DGSM and SH relighting operate fully in the volumetric 3DGS representation, yielding coherent shadows and relighting while avoiding meshing.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.01660">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.01660.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.01660.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">ParkGaussian: Surround-view 3D Gaussian Splatting for Autonomous Parking</span>
+        <span class="paper-authors">Xiaobao Wei, Zhangjie Ye, Yuxiang Gu, Zunjie Zhu, Yunfei Guo, Yingying Shen, Shan Zhao, Ming Lu, Haiyang Sun, Bing Wang, Guang Chen, Rongfeng Lu, Hangjun Ye</span>
+        <span class="paper-meta">Updated 2026-01-04</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Parking is a critical task for autonomous driving systems (ADS), with unique challenges in crowded parking slots and GPS-denied environments. However, existing works focus on 2D parking slot perception, mapping, and localization, 3D reconstruction remains underexplored, which is crucial for capturing complex spatial geometry in parking scenarios. Naively improving the visual quality of reconstructed parking scenes does not directly benefit autonomous parking, as the key entry point for parking is the slots perception module. To address these limitations, we curate the first benchmark named ParkRecon3D, specifically designed for parking scene reconstruction. It includes sensor data from four surround-view fisheye cameras with calibrated extrinsics and dense parking slot annotations. We then propose ParkGaussian, the first framework that integrates 3D Gaussian Splatting (3DGS) for parking scene reconstruction. To further improve the alignment between reconstruction and downstream parking slot detection, we introduce a slot-aware reconstruction strategy that leverages existing parking perception methods to enhance the synthesis quality of slot regions. Experiments on ParkRecon3D demonstrate that ParkGaussian achieves state-of-the-art reconstruction quality and better preserves perception consistency for downstream tasks. The code and dataset will be released at: https://github.com/wm-research/ParkGaussian</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.01386">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.01386.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.01386.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">ShadowGS: Shadow-Aware 3D Gaussian Splatting for Satellite Imagery</span>
+        <span class="paper-authors">Feng Luo, Hongbo Pan, Xiang Yang, Baoyu Jiang, Fengqing Liu, Tao Huang</span>
+        <span class="paper-meta">Updated 2026-01-04</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">3D Gaussian Splatting (3DGS) has emerged as a novel paradigm for 3D reconstruction from satellite imagery. However, in multi-temporal satellite images, prevalent shadows exhibit significant inconsistencies due to varying illumination conditions. To address this, we propose ShadowGS, a novel framework based on 3DGS. It leverages a physics-based rendering equation from remote sensing, combined with an efficient ray marching technique, to precisely model geometrically consistent shadows while maintaining efficient rendering. Additionally, it effectively disentangles different illumination components and apparent attributes in the scene. Furthermore, we introduce a shadow consistency constraint that significantly enhances the geometric accuracy of 3D reconstruction. We also incorporate a novel shadow map prior to improve performance with sparse-view inputs. Extensive experiments demonstrate that ShadowGS outperforms current state-of-the-art methods in shadow decoupling accuracy, 3D reconstruction precision, and novel view synthesis quality, with only a few minutes of training. ShadowGS exhibits robust performance across various settings, including RGB, pansharpened, and sparse-view satellite inputs.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.00939">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.00939.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.00939.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Clean-GS: Semantic Mask-Guided Pruning for 3D Gaussian Splatting</span>
+        <span class="paper-authors">Subhankar Mishra</span>
         <span class="paper-meta">Updated 2026-01-01</span>
       </summary>
       <div class="paper-body">
-        <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
+        <p class="paper-abstract">3D Gaussian Splatting produces high-quality scene reconstructions but generates hundreds of thousands of spurious Gaussians (floaters) scattered throughout the environment. These artifacts obscure objects of interest and inflate model sizes, hindering deployment in bandwidth-constrained applications. We present Clean-GS, a method for removing background clutter and floaters from 3DGS reconstructions using sparse semantic masks. Our approach combines whitelist-based spatial filtering with color-guided validation and outlier removal to achieve 60-80\% model compression while preserving object quality. Unlike existing 3DGS pruning methods that rely on global importance metrics, Clean-GS uses semantic information from as few as 3 segmentation masks (1\% of views) to identify and remove Gaussians not belonging to the target object. Our multi-stage approach consisting of (1) whitelist filtering via projection to masked regions, (2) depth-buffered color validation, and (3) neighbor-based outlier removal isolates monuments and objects from complex outdoor scenes. Experiments on Tanks and Temples show that Clean-GS reduces file sizes from 125MB to 47MB while maintaining rendering quality, making 3DGS models practical for web deployment and AR/VR applications. Our code is available at https://github.com/smlab-niser/clean-gs</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2601.00285">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2601.00285.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2601.00913">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.00913.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2601.00285.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.00913.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">SV-GS: Sparse View 4D Reconstruction with Skeleton-Driven Gaussian Splatting</span>
+        <span class="paper-authors">Jun-Jee Chao, Volkan Isler</span>
+        <span class="paper-meta">Updated 2026-01-01</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Reconstructing a dynamic target moving over a large area is challenging. Standard approaches for dynamic object reconstruction require dense coverage in both the viewing space and the temporal dimension, typically relying on multi-view videos captured at each time step. However, such setups are only possible in constrained environments. In real-world scenarios, observations are often sparse over time and captured sparsely from diverse viewpoints (e.g., from security cameras), making dynamic reconstruction highly ill-posed. We present SV-GS, a framework that simultaneously estimates a deformation model and the object&#x27;s motion over time under sparse observations. To initialize SV-GS, we leverage a rough skeleton graph and an initial static reconstruction as inputs to guide motion estimation. (Later, we show that this input requirement can be relaxed.) Our method optimizes a skeleton-driven deformation field composed of a coarse skeleton joint pose estimator and a module for fine-grained deformations. By making only the joint pose estimator time-dependent, our model enables smooth motion interpolation while preserving learned geometric details. Experiments on synthetic datasets show that our method outperforms existing approaches under sparse observations by up to 34% in PSNR, and achieves comparable performance to dense monocular video methods on real-world datasets despite using significantly fewer frames. Moreover, we demonstrate that the input initial static reconstruction can be replaced by a diffusion-based generative prior, making our method more practical for real-world scenarios.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.00285">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.00285.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.00285.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -44,11 +1115,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.24986">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.24986.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.24986">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.24986.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.24986.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.24986.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -65,11 +1136,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.24763">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.24763.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.24763">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.24763.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.24763.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.24763.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -86,11 +1157,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.24742">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.24742.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.24742">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.24742.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.24742.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.24742.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -107,11 +1178,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.24018">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.24018.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.24018">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.24018.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.24018.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.24018.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -128,11 +1199,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.23998">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.23998.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.23998">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.23998.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.23998.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.23998.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -149,11 +1220,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.23054">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.23054.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.23054">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.23054.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.23054.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.23054.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -170,11 +1241,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.23255">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.23255.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.23255">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.23255.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.23255.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.23255.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -191,11 +1262,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.23176">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.23176.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.23176">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.23176.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.23176.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.23176.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -212,11 +1283,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.22882">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.22882.pdf">PDF</a>
-          <span class="chip ghost">Code: N/A</span>
+          <a class="chip" href="https://arxiv.org/abs/2512.22882">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.22882.pdf">PDF</a>
+          <a class="chip" href="https://github.com/jgamble77/REST-API">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.22882.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.22882.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -233,11 +1304,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.22771">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.22771.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.22771">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.22771.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.22771.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.22771.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -254,11 +1325,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.22706">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.22706.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.22706">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.22706.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.22706.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.22706.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -275,11 +1346,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.22489">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.22489.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.22489">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.22489.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.22489.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.22489.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -296,11 +1367,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.20943">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.20943.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.20943">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.20943.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.20943.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.20943.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -317,11 +1388,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.20927">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.20927.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.20927">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.20927.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.20927.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.20927.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -338,11 +1409,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.20495">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.20495.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.20495">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.20495.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.20495.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.20495.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -359,11 +1430,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.20377">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.20377.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.20377">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.20377.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.20377.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.20377.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -380,11 +1451,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.20148">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.20148.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.20148">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.20148.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.20148.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.20148.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -401,11 +1472,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.20129">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.20129.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.20129">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.20129.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.20129.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.20129.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -422,11 +1493,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.19678">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.19678.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.19678">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.19678.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.19678.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.19678.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -443,11 +1514,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.19648">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.19648.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.19648">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.19648.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.19648.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.19648.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -464,11 +1535,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.19108">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.19108.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.19108">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.19108.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.19108.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.19108.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -485,11 +1556,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.18692">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.18692.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.18692">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.18692.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.18692.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.18692.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -506,11 +1577,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.16893">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.16893.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.16893">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.16893.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.16893.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.16893.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -527,11 +1598,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.16706">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.16706.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.16706">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.16706.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.16706.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.16706.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -548,11 +1619,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.16397">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.16397.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.16397">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.16397.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.16397.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.16397.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -569,11 +1640,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.15711">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.15711.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.15711">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.15711.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.15711.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.15711.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -590,11 +1661,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.15508">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.15508.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.15508">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.15508.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.15508.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.15508.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -611,11 +1682,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.15258">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.15258.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.15258">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.15258.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.15258.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.15258.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -632,11 +1703,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.15048">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.15048.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.15048">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.15048.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.15048.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.15048.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -653,11 +1724,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.15034">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.15034.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.15034">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.15034.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.15034.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.15034.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -674,11 +1745,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.14406">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.14406.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.14406">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.14406.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.14406.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.14406.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -695,11 +1766,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.14352">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.14352.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.14352">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.14352.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.14352.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.14352.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -716,11 +1787,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.11800">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.11800.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.11800">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.11800.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.11800.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.11800.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -737,11 +1808,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.11356">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.11356.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.11356">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.11356.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.11356.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.11356.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -758,11 +1829,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.11186">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.11186.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.11186">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.11186.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.11186.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.11186.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -779,11 +1850,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.10939">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.10939.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.10939">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.10939.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.10939.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.10939.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -800,11 +1871,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.10572">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.10572.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.10572">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.10572.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.10572.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.10572.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -821,11 +1892,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.10424">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.10424.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.10424">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.10424.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.10424.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.10424.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -842,11 +1913,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.10369">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.10369.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.10369">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.10369.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.10369.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.10369.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -863,11 +1934,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.10293">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.10293.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.10293">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.10293.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.10293.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.10293.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -884,11 +1955,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.10267">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.10267.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.10267">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.10267.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.10267.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.10267.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -905,11 +1976,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.10095">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.10095.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.10095">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.10095.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.10095.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.10095.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -926,11 +1997,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.08625">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.08625.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.08625">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.08625.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.08625.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.08625.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -947,11 +2018,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.08498">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.08498.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.08498">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.08498.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.08498.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.08498.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -968,11 +2039,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.08478">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.08478.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.08478">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.08478.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.08478.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.08478.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -989,11 +2060,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.08334">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.08334.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.08334">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.08334.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.08334.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.08334.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1010,11 +2081,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.08271">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.08271.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.08271">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.08271.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.08271.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.08271.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1031,11 +2102,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.07806">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.07806.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.07806">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.07806.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.07806.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.07806.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1052,11 +2123,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.07381">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.07381.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.07381">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.07381.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.07381.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.07381.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1073,11 +2144,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.07345">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.07345.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.07345">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.07345.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.07345.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.07345.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1094,11 +2165,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.07247">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.07247.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.07247">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.07247.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.07247.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.07247.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1115,11 +2186,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.07230">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.07230.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.07230">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.07230.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.07230.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.07230.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1136,11 +2207,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.05113">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.05113.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.05113">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.05113.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.05113.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.05113.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1157,11 +2228,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.05060">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.05060.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.05060">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.05060.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.05060.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.05060.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1178,11 +2249,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.04815">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.04815.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.04815">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.04815.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.04815.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.04815.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1199,11 +2270,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.04731">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.04731.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.04731">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.04731.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.04731.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.04731.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1220,11 +2291,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.04542">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.04542.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.04542">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.04542.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.04542.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.04542.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1241,11 +2312,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.04421">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.04421.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.04421">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.04421.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.04421.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.04421.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1262,11 +2333,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.04315">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.04315.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.04315">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.04315.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.04315.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.04315.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1283,11 +2354,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.04313">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.04313.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.04313">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.04313.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.04313.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.04313.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1304,11 +2375,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.04021">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.04021.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.04021">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.04021.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.04021.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.04021.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1325,11 +2396,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.03601">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.03601.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.03601">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.03601.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.03601.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.03601.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1346,11 +2417,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.21459">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.21459.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.21459">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.21459.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.21459.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.21459.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1367,11 +2438,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.21367">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.21367.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.21367">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.21367.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.21367.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.21367.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1388,11 +2459,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.21265">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.21265.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.21265">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.21265.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.21265.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.21265.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1409,11 +2480,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.20354">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.20354.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.20354">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.20354.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.20354.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.20354.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1430,11 +2501,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.20348">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.20348.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.20348">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.20348.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.20348.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.20348.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1451,11 +2522,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.19861">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.19861.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.19861">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.19861.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.19861.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.19861.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1472,11 +2543,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.19854">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.19854.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.19854">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.19854.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.19854.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.19854.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1493,11 +2564,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.19294">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.19294.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.19294">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.19294.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.19294.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.19294.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1514,11 +2585,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.19235">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.19235.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.19235">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.19235.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.19235.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.19235.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1535,11 +2606,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.19202">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.19202.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.19202">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.19202.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.19202.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.19202.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1556,11 +2627,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.19172">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.19172.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.19172">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.19172.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.19172.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.19172.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1577,11 +2648,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.18873">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.18873.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.18873">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.18873.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.18873.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.18873.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1598,11 +2669,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.18755">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.18755.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.18755">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.18755.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.18755.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.18755.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1619,11 +2690,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.18570">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.18570.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.18570">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.18570.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.18570.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.18570.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1640,11 +2711,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.18525">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.18525.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.18525">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.18525.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.18525.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.18525.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1661,11 +2732,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.18441">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.18441.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.18441">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.18441.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.18441.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.18441.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1682,11 +2753,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.18386">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.18386.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.18386">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.18386.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.18386.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.18386.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1703,11 +2774,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.15102">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.15102.pdf">PDF</a>
-          <span class="chip ghost">Code: N/A</span>
+          <a class="chip" href="https://arxiv.org/abs/2511.15102">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.15102.pdf">PDF</a>
+          <a class="chip" href="https://github.com/1207koo/gaussian_blending">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.15102.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.15102.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1724,11 +2795,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.14270">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.14270.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.14270">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.14270.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.14270.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.14270.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1745,11 +2816,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.14848">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.14848.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.14848">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.14848.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.14848.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.14848.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1766,11 +2837,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.14633">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.14633.pdf">PDF</a>
-          <span class="chip ghost">Code: N/A</span>
+          <a class="chip" href="https://arxiv.org/abs/2511.14633">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.14633.pdf">PDF</a>
+          <a class="chip" href="https://github.com/miya-oi/SparseSurf">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.14633.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.14633.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1787,11 +2858,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.14540">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.14540.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.14540">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.14540.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.14540.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.14540.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1808,11 +2879,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.14477">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.14477.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.14477">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.14477.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.14477.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.14477.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1829,11 +2900,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.14357">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.14357.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.14357">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.14357.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.14357.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.14357.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1850,11 +2921,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.14343">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.14343.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.14343">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.14343.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.14343.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.14343.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1871,11 +2942,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.14315">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.14315.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.14315">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.14315.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.14315.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.14315.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1892,11 +2963,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.14291">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.14291.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.14291">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.14291.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.14291.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.14291.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1913,11 +2984,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.05229">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.05229.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.05229">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.05229.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.05229.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.05229.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1934,11 +3005,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.05152">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.05152.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.05152">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.05152.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.05152.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.05152.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1955,11 +3026,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.05109">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.05109.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.05109">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.05109.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.05109.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.05109.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1976,11 +3047,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.04951">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.04951.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.04951">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.04951.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.04951.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.04951.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1997,11 +3068,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.04944">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.04944.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.04944">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.04944.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.04944.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.04944.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2018,11 +3089,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.04797">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.04797.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.04797">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.04797.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.04797.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.04797.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2039,11 +3110,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.04665">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.04665.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.04665">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.04665.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.04665.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.04665.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2060,11 +3131,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.04283">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.04283.pdf">PDF</a>
-          <span class="chip ghost">Code: N/A</span>
+          <a class="chip" href="https://arxiv.org/abs/2511.04283">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.04283.pdf">PDF</a>
+          <a class="chip" href="https://github.com/fastgs/FastGS">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.04283.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.04283.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2081,11 +3152,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.03992">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.03992.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.03992">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.03992.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.03992.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.03992.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2102,11 +3173,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.03099">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.03099.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.03099">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.03099.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.03099.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.03099.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2123,11 +3194,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.02777">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.02777.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.02777">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.02777.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.02777.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.02777.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2144,11 +3215,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.02207">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.02207.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.02207">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.02207.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.02207.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.02207.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2165,11 +3236,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.00560">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.00560.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.00560">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.00560.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.00560.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.00560.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2186,11 +3257,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.27318">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.27318.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.27318">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.27318.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.27318.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.27318.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2207,11 +3278,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.27133">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.27133.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.27133">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.27133.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.27133.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.27133.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2228,11 +3299,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.26921">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.26921.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.26921">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.26921.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.26921.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.26921.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2249,11 +3320,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.26786">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.26786.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.26786">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.26786.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.26786.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.26786.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2270,11 +3341,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.26694">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.26694.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.26694">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.26694.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.26694.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.26694.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2291,11 +3362,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.26358">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.26358.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.26358">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.26358.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.26358.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.26358.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2312,11 +3383,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.26166">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.26166.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.26166">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.26166.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.26166.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.26166.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2333,11 +3404,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.26117">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.26117.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.26117">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.26117.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.26117.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.26117.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2354,11 +3425,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.25173">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.25173.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.25173">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.25173.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.25173.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.25173.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2375,11 +3446,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.25129">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.25129.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.25129">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.25129.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.25129.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.25129.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2396,11 +3467,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.24335">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.24335.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.24335">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.24335.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.24335.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.24335.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2417,11 +3488,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.24118">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.24118.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.24118">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.24118.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.24118.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.24118.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2438,11 +3509,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.23988">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.23988.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.23988">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.23988.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.23988.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.23988.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2459,11 +3530,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.23930">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.23930.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.23930">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.23930.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.23930.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.23930.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2480,11 +3551,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.23521">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.23521.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.23521">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.23521.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.23521.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.23521.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2501,11 +3572,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.23205">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.23205.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.23205">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.23205.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.23205.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.23205.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2522,11 +3593,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.23087">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.23087.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.23087">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.23087.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.23087.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.23087.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2543,11 +3614,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.22973">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.22973.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.22973">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.22973.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.22973.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.22973.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2564,11 +3635,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.20813">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.20813.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.20813">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.20813.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.20813.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.20813.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2585,11 +3656,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.20335">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.20335.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.20335">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.20335.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.20335.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.20335.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2606,11 +3677,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.20238">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.20238.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.20238">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.20238.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.20238.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.20238.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2627,11 +3698,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.20027">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.20027.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.20027">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.20027.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.20027.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.20027.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2648,11 +3719,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.19578">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.19578.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.19578">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.19578.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.19578.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.19578.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2669,11 +3740,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.19255">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.19255.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.19255">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.19255.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.19255.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.19255.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2690,11 +3761,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.19210">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.19210.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.19210">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.19210.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.19210.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.19210.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2711,11 +3782,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.19200">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.19200.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.19200">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.19200.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.19200.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.19200.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2732,11 +3803,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.19653">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.19653.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.19653">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.19653.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.19653.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.19653.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2753,11 +3824,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.18739">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.18739.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.18739">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.18739.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.18739.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.18739.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2774,11 +3845,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.15386">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.15386.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.15386">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.15386.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.15386.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.15386.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2795,11 +3866,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.15352">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.15352.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.15352">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.15352.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.15352.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.15352.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2816,11 +3887,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.14081">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.14081.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.14081">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.14081.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.14081.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.14081.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2837,11 +3908,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.15072">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.15072.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.15072">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.15072.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.15072.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.15072.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2858,11 +3929,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.14705">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.14705.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.14705">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.14705.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.14705.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.14705.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2879,11 +3950,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.14564">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.14564.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.14564">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.14564.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.14564.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.14564.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2900,11 +3971,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.14270">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.14270.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.14270">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.14270.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.14270.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.14270.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2921,11 +3992,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.14179">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.14179.pdf">PDF</a>
-          <span class="chip ghost">Code: N/A</span>
+          <a class="chip" href="https://arxiv.org/abs/2510.14179">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.14179.pdf">PDF</a>
+          <a class="chip" href="https://github.com/Eyeline-Labs/Virtually-Being">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.14179.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.14179.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2942,11 +4013,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.13978">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.13978.pdf">PDF</a>
-          <span class="chip ghost">Code: N/A</span>
+          <a class="chip" href="https://arxiv.org/abs/2510.13978">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.13978.pdf">PDF</a>
+          <a class="chip" href="https://github.com/naruya/gaussian-vrm">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.13978.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.13978.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2963,11 +4034,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.13454">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.13454.pdf">PDF</a>
-          <span class="chip ghost">Code: N/A</span>
+          <a class="chip" href="https://arxiv.org/abs/2510.13454">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.13454.pdf">PDF</a>
+          <a class="chip" href="https://github.com/gohyojun15/VIST3A">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.13454.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.13454.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2984,11 +4055,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.12768">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.12768.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.12768">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.12768.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.12768.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.12768.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3005,11 +4076,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.12493">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.12493.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.12493">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.12493.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.12493.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.12493.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3026,11 +4097,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.12308">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.12308.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.12308">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.12308.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.12308.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.12308.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3047,11 +4118,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.12282">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.12282.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.12282">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.12282.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.12282.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.12282.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3068,11 +4139,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.12174">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.12174.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.12174">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.12174.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.12174.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.12174.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3089,11 +4160,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.12099">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.12099.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.12099">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.12099.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.12099.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.12099.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3110,11 +4181,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.11878">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.11878.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.11878">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.11878.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.11878.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.11878.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3131,11 +4202,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.11717">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.11717.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.11717">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.11717.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.11717.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.11717.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3152,11 +4223,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.11689">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.11689.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.11689">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.11689.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.11689.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.11689.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3173,11 +4244,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.11473">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.11473.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.11473">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.11473.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.11473.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.11473.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3194,11 +4265,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.08575">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.08575.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.08575">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.08575.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.08575.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.08575.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3215,11 +4286,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.08566">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.08566.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.08566">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.08566.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.08566.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.08566.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3236,11 +4307,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.08491">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.08491.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.08491">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.08491.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.08491.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.08491.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3257,11 +4328,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.08096">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.08096.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.08096">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.08096.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.08096.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.08096.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3278,11 +4349,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.07944">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.07944.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.07944">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.07944.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.07944.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.07944.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3299,11 +4370,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.07830">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.07830.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.07830">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.07830.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.07830.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.07830.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3320,11 +4391,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.07752">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.07752.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.07752">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.07752.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.07752.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.07752.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3341,11 +4412,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.07729">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.07729.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.07729">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.07729.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.07729.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.07729.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3362,11 +4433,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.06967">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.06967.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.06967">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.06967.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.06967.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.06967.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3383,11 +4454,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.06802">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.06802.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.06802">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.06802.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.06802.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.06802.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3404,11 +4475,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.02314">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.02314.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.02314">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.02314.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.02314.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.02314.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3425,11 +4496,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.02248">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.02248.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.02248">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.02248.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.02248.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.02248.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3446,11 +4517,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.02069">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.02069.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.02069">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.02069.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.02069.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.02069.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3467,11 +4538,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.02034">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.02034.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.02034">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.02034.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.02034.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.02034.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3488,11 +4559,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.01991">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.01991.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.01991">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.01991.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.01991.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.01991.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3509,11 +4580,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.01978">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.01978.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.01978">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.01978.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.01978.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.01978.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3530,11 +4601,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.01848">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.01848.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.01848">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.01848.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.01848.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.01848.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3551,11 +4622,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.01767">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.01767.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.01767">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.01767.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.01767.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.01767.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3572,11 +4643,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.01619">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.01619.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.01619">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.01619.pdf">PDF</a>
           <a class="chip" href="https://github.com/KAISTChangmin/MPMAvatar">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.01619.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.01619.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3593,11 +4664,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.01119">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.01119.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.01119">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.01119.pdf">PDF</a>
           <a class="chip" href="https://github.com/Zhanpeng1202/Instant4D">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.01119.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.01119.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3614,11 +4685,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.25122">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.25122.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.25122">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.25122.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.25122.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.25122.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3635,11 +4706,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.25075">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.25075.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.25075">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.25075.pdf">PDF</a>
           <a class="chip" href="https://github.com/UNITES-Lab/GEM">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.25075.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.25075.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3656,11 +4727,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.25001">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.25001.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.25001">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.25001.pdf">PDF</a>
           <a class="chip" href="https://github.com/toobaimt/lvt">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.25001.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.25001.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3677,11 +4748,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.24893">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.24893.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.24893">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.24893.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.24893.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.24893.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3698,11 +4769,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.24758">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.24758.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.24758">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.24758.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.24758.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.24758.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3719,11 +4790,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.24421">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.24421.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.24421">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.24421.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.24421.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.24421.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3740,11 +4811,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.24308">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.24308.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.24308">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.24308.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.24308.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.24308.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3761,11 +4832,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.23947">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.23947.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.23947">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.23947.pdf">PDF</a>
           <a class="chip" href="https://github.com/DragosChileban/CrashSplat">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.23947.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.23947.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3782,11 +4853,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.23555">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.23555.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.23555">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.23555.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.23555.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.23555.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3803,11 +4874,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.23492">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.23492.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.23492">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.23492.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.23492.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.23492.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3824,11 +4895,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.20251">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.20251.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.20251">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.20251.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.20251.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.20251.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3845,11 +4916,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.19937">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.19937.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.19937">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.19937.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.19937.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.19937.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3866,11 +4937,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.19898">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.19898.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.19898">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.19898.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.19898.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.19898.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3887,11 +4958,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.19793">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.19793.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.19793">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.19793.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.19793.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.19793.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3908,11 +4979,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.19726">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.19726.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.19726">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.19726.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.19726.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.19726.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3929,11 +5000,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.19297">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.19297.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.19297">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.19297.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.19297.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.19297.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3950,11 +5021,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.19296">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.19296.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.19296">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.19296.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.19296.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.19296.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3971,11 +5042,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.19073">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.19073.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.19073">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.19073.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.19073.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.19073.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3992,11 +5063,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.18956">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.18956.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.18956">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.18956.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.18956.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.18956.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4013,11 +5084,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.18898">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.18898.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.18898">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.18898.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.18898.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.18898.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4034,11 +5105,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.14739">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.14739.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.14739">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.14739.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.14739.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.14739.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4055,11 +5126,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.14687">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.14687.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.14687">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.14687.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.14687.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.14687.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4076,11 +5147,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.14421">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.14421.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.14421">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.14421.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.14421.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.14421.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4097,11 +5168,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.14191">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.14191.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.14191">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.14191.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.14191.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.14191.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4118,11 +5189,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.13938">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.13938.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.13938">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.13938.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.13938.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.13938.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4139,11 +5210,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.13863">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.13863.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.13863">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.13863.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.13863.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.13863.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4160,11 +5231,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.13536">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.13536.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.13536">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.13536.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.13536.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.13536.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4181,11 +5252,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.13482">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.13482.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.13482">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.13482.pdf">PDF</a>
           <a class="chip" href="https://github.com/hxu160/SALVQ">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.13482.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.13482.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4202,11 +5273,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.13013">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.13013.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.13013">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.13013.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.13013.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.13013.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4223,11 +5294,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.12938">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.12938.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.12938">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.12938.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.12938.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.12938.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4244,11 +5315,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.10241">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.10241.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.10241">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.10241.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.10241.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.10241.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4265,11 +5336,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.06685">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.06685.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.06685">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.06685.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.06685.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.06685.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4286,11 +5357,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.07809">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.07809.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.07809">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.07809.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.07809.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.07809.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4307,11 +5378,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.07774">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.07774.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.07774">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.07774.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.07774.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.07774.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4328,11 +5399,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.07493">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.07493.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.07493">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.07493.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.07493.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.07493.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4349,11 +5420,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.07435">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.07435.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.07435">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.07435.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.07435.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.07435.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4370,11 +5441,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.06433">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.06433.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.06433">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.06433.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.06433.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.06433.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4391,11 +5462,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.06400">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.06400.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.06400">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.06400.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.06400.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.06400.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4412,11 +5483,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.07021">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.07021.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.07021">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.07021.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.07021.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.07021.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4433,11 +5504,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.05515">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.05515.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.05515">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.05515.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.05515.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.05515.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4454,11 +5525,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.05216">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.05216.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.05216">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.05216.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.05216.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.05216.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4475,11 +5546,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2507.12667">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2507.12667.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2507.12667">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2507.12667.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2507.12667.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.12667.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4496,11 +5567,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2507.12621">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2507.12621.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2507.12621">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2507.12621.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2507.12621.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.12621.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4517,11 +5588,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2507.12498">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2507.12498.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2507.12498">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2507.12498.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2507.12498.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.12498.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4538,11 +5609,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2507.12137">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2507.12137.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2507.12137">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2507.12137.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2507.12137.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.12137.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4559,11 +5630,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2507.12095">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2507.12095.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2507.12095">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2507.12095.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2507.12095.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.12095.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4580,11 +5651,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2507.12027">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2507.12027.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2507.12027">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2507.12027.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2507.12027.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.12027.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4601,11 +5672,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2507.11931">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2507.11931.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2507.11931">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2507.11931.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2507.11931.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.11931.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4622,11 +5693,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2507.11069">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2507.11069.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2507.11069">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2507.11069.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2507.11069.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.11069.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4643,11 +5714,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2507.11321">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2507.11321.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2507.11321">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2507.11321.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2507.11321.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.11321.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4664,11 +5735,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2507.11061">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2507.11061.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2507.11061">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2507.11061.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2507.11061.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.11061.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4685,11 +5756,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2507.10542">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2507.10542.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2507.10542">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2507.10542.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2507.10542.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.10542.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4706,11 +5777,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2507.09993">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2507.09993.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2507.09993">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2507.09993.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2507.09993.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.09993.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4727,11 +5798,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2507.08726">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2507.08726.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2507.08726">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2507.08726.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2507.08726.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.08726.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4748,11 +5819,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2507.08434">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2507.08434.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2507.08434">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2507.08434.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2507.08434.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.08434.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4769,11 +5840,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2507.08137">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2507.08137.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2507.08137">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2507.08137.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2507.08137.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.08137.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4790,11 +5861,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2507.08136">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2507.08136.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2507.08136">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2507.08136.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2507.08136.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.08136.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4811,11 +5882,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2507.07733">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2507.07733.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2507.07733">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2507.07733.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2507.07733.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.07733.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4832,11 +5903,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2507.07519">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2507.07519.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2507.07519">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2507.07519.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2507.07519.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.07519.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4853,11 +5924,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2507.07465">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2507.07465.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2507.07465">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2507.07465.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2507.07465.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.07465.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4874,11 +5945,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2507.07395">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2507.07395.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2507.07395">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2507.07395.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2507.07395.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.07395.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4895,11 +5966,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2507.07000">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2507.07000.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2507.07000">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2507.07000.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2507.07000.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.07000.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4916,11 +5987,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2507.06684">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2507.06684.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2507.06684">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2507.06684.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2507.06684.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.06684.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4937,11 +6008,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2507.06671">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2507.06671.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2507.06671">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2507.06671.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2507.06671.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.06671.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4958,11 +6029,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2507.06647">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2507.06647.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2507.06647">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2507.06647.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2507.06647.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.06647.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4979,11 +6050,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2507.06109">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2507.06109.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2507.06109">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2507.06109.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2507.06109.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.06109.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5000,11 +6071,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2507.06103">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2507.06103.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2507.06103">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2507.06103.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2507.06103.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.06103.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5021,11 +6092,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2507.06060">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2507.06060.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2507.06060">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2507.06060.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2507.06060.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.06060.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5042,11 +6113,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2507.05859">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2507.05859.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2507.05859">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2507.05859.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2507.05859.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.05859.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5063,11 +6134,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2507.05763">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2507.05763.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2507.05763">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2507.05763.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2507.05763.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.05763.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5084,11 +6155,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2507.05661">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2507.05661.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2507.05661">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2507.05661.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2507.05661.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.05661.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5105,11 +6176,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2507.02803">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2507.02803.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2507.02803">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2507.02803.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2507.02803.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.02803.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5126,11 +6197,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2507.02600">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2507.02600.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2507.02600">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2507.02600.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2507.02600.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.02600.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5147,11 +6218,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2507.02363">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2507.02363.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2507.02363">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2507.02363.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2507.02363.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.02363.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5168,11 +6239,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2507.02257">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2507.02257.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2507.02257">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2507.02257.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2507.02257.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.02257.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5189,11 +6260,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2507.01367">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2507.01367.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2507.01367">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2507.01367.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2507.01367.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.01367.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5210,11 +6281,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2507.01125">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2507.01125.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2507.01125">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2507.01125.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2507.01125.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.01125.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5231,11 +6302,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2507.01110">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2507.01110.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2507.01110">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2507.01110.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2507.01110.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.01110.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5252,11 +6323,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2507.00916">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2507.00916.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2507.00916">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2507.00916.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2507.00916.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.00916.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5273,11 +6344,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2507.00886">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2507.00886.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2507.00886">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2507.00886.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2507.00886.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.00886.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5294,11 +6365,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2507.00554">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2507.00554.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2507.00554">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2507.00554.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2507.00554.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.00554.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5315,11 +6386,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.21401">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.21401.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.21401">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.21401.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.21401.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.21401.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5336,11 +6407,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.22280">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.22280.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.22280">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.22280.pdf">PDF</a>
           <a class="chip" href="https://github.com/Yuliang-Huang/DIGS">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.22280.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.22280.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5357,11 +6428,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.22099">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.22099.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.22099">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.22099.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.22099.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.22099.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5378,11 +6449,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.21520">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.21520.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.21520">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.21520.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.21520.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.21520.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5399,11 +6470,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.21420">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.21420.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.21420">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.21420.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.21420.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.21420.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5420,11 +6491,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.21152">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.21152.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.21152">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.21152.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.21152.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.21152.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5441,11 +6512,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.21117">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.21117.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.21117">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.21117.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.21117.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.21117.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5462,11 +6533,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.21009">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.21009.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.21009">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.21009.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.21009.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.21009.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5483,11 +6554,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.20998">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.20998.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.20998">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.20998.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.20998.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.20998.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5504,11 +6575,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.20875">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.20875.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.20875">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.20875.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.20875.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.20875.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5525,11 +6596,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.19842">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.19842.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.19842">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.19842.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.19842.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.19842.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5546,11 +6617,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.19415">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.19415.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.19415">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.19415.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.19415.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.19415.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5567,11 +6638,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.19291">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.19291.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.19291">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.19291.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.19291.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.19291.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5588,11 +6659,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.18885">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.18885.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.18885">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.18885.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.18885.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.18885.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5609,11 +6680,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.18792">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.18792.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.18792">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.18792.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.18792.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.18792.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5630,11 +6701,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.18787">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.18787.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.18787">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.18787.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.18787.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.18787.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5651,11 +6722,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.18677">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.18677.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.18677">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.18677.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.18677.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.18677.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5672,11 +6743,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.16262">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.16262.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.16262">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.16262.pdf">PDF</a>
           <a class="chip" href="https://github.com/cmlab-korea/awesome-3d-low-level-vision">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.16262.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.16262.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5693,11 +6764,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.17636">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.17636.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.17636">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.17636.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.17636.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.17636.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5714,11 +6785,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.17212">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.17212.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.17212">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.17212.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.17212.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.17212.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5735,11 +6806,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.15680">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.15680.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.15680">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.15680.pdf">PDF</a>
           <a class="chip" href="https://github.com/kywind/pgnd">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.15680.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.15680.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5756,11 +6827,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.15242">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.15242.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.15242">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.15242.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.15242.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.15242.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5777,11 +6848,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.14856">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.14856.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.14856">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.14856.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.14856.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.14856.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5798,11 +6869,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.14742">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.14742.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.14742">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.14742.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.14742.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.14742.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5819,11 +6890,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.14642">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.14642.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.14642">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.14642.pdf">PDF</a>
           <a class="chip" href="https://github.com/yukexing/3dgs-ieval-15k">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.14642.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.14642.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5840,11 +6911,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.14229">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.14229.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.14229">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.14229.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.14229.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.14229.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5861,11 +6932,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.14135">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.14135.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.14135">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.14135.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.14135.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.14135.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5882,11 +6953,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.14009">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.14009.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.14009">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.14009.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.14009.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.14009.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5903,11 +6974,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.13766">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.13766.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.13766">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.13766.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.13766.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.13766.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5924,11 +6995,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.13516">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.13516.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.13516">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.13516.pdf">PDF</a>
           <a class="chip" href="https://github.com/kidleyh/smw-gs">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.13516.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.13516.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5945,11 +7016,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.10335">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.10335.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.10335">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.10335.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.10335.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.10335.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5966,11 +7037,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.09417">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.09417.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.09417">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.09417.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.09417.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.09417.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5987,11 +7058,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.09997">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.09997.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.09997">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.09997.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.09997.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.09997.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -6008,11 +7079,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.09952">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.09952.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.09952">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.09952.pdf">PDF</a>
           <a class="chip" href="https://github.com/wangzy22/unipre3d">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.09952.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.09952.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -6029,11 +7100,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.09836">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.09836.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.09836">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.09836.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.09836.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.09836.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -6050,11 +7121,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.09663">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.09663.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.09663">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.09663.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.09663.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.09663.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -6071,11 +7142,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.09534">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.09534.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.09534">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.09534.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.09534.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.09534.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -6092,11 +7163,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.09518">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.09518.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.09518">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.09518.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.09518.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.09518.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -6113,11 +7184,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.09479">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.09479.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.09479">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.09479.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.09479.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.09479.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -6134,11 +7205,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.09378">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.09378.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.09378">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.09378.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.09378.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.09378.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -6155,11 +7226,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.07917">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.07917.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.07917">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.07917.pdf">PDF</a>
           <a class="chip" href="https://github.com/tuallen/speede3dgs">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.07917.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.07917.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -6176,11 +7247,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.07897">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.07897.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.07897">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.07897.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.07897.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.07897.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -6197,11 +7268,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.07826">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.07826.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.07826">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.07826.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.07826.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.07826.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -6218,11 +7289,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.07697">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.07697.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.07697">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.07697.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.07697.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.07697.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -6239,11 +7310,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.07670">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.07670.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.07670">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.07670.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.07670.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.07670.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -6260,11 +7331,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.07657">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.07657.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.07657">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.07657.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.07657.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.07657.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -6281,11 +7352,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.07338">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.07338.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.07338">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.07338.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.07338.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.07338.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -6302,11 +7373,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.07069">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.07069.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.07069">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.07069.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.07069.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.07069.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -6323,11 +7394,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.06988">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.06988.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.06988">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.06988.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.06988.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.06988.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -6344,11 +7415,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.06909">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.06909.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.06909">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.06909.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.06909.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.06909.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -6365,11 +7436,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.04218">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.04218.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.04218">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.04218.pdf">PDF</a>
           <a class="chip" href="https://github.com/autonomousvision/navsim">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.04218.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.04218.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -6386,11 +7457,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.04174">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.04174.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.04174">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.04174.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.04174.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.04174.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -6407,11 +7478,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.04120">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.04120.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.04120">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.04120.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.04120.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.04120.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -6428,11 +7499,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.03872">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.03872.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.03872">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.03872.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.03872.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.03872.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -6449,11 +7520,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.03594">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.03594.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.03594">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.03594.pdf">PDF</a>
           <a class="chip" href="https://github.com/ripl/splart">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.03594.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.03594.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -6470,11 +7541,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.03538">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.03538.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.03538">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.03538.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.03538.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.03538.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -6491,11 +7562,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.02774">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.02774.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.02774">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.02774.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.02774.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.02774.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -6512,11 +7583,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.03407">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.03407.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.03407">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.03407.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.03407.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.03407.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -6533,11 +7604,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.03073">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.03073.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.03073">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.03073.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.03073.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.03073.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -6554,11 +7625,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.02929">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.02929.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.02929">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.02929.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.02929.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.02929.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -6575,11 +7646,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.23734">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.23734.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.23734">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.23734.pdf">PDF</a>
           <a class="chip" href="https://github.com/ziplab/ZPressor">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.23734.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.23734.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -6596,11 +7667,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.23716">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.23716.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.23716">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.23716.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.23716.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.23716.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -6617,11 +7688,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.23692">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.23692.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.23692">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.23692.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.23692.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.23692.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -6638,11 +7709,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.23642">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.23642.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.23642">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.23642.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.23642.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.23642.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -6659,11 +7730,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.23280">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.23280.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.23280">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.23280.pdf">PDF</a>
           <a class="chip" href="https://github.com/azhuantou/mixgs">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.23280.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.23280.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -6680,11 +7751,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.23158">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.23158.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.23158">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.23158.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.23158.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.23158.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -6701,11 +7772,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.22978">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.22978.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.22978">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.22978.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.22978.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.22978.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -6722,11 +7793,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.22908">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.22908.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.22908">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.22908.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.22908.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.22908.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -6743,11 +7814,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.22854">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.22854.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.22854">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.22854.pdf">PDF</a>
           <a class="chip" href="https://github.com/kornelhowil/clipgaussian">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.22854.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.22854.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -6764,11 +7835,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.22400">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.22400.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.22400">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.22400.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.22400.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.22400.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -6785,11 +7856,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.16535">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.16535.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.16535">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.16535.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.16535.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.16535.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -6806,11 +7877,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.16533">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.16533.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.16533">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.16533.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.16533.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.16533.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -6827,11 +7898,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.15737">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.15737.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.15737">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.15737.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.15737.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.15737.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -6848,11 +7919,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.15528">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.15528.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.15528">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.15528.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.15528.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.15528.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -6869,11 +7940,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.15294">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.15294.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.15294">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.15294.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.15294.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.15294.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -6890,11 +7961,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.15287">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.15287.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.15287">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.15287.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.15287.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.15287.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -6911,11 +7982,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.15235">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.15235.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.15235">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.15235.pdf">PDF</a>
           <a class="chip" href="https://github.com/cuhk-aim-group/x-grm">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.15235.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.15235.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -6932,11 +8003,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.15208">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.15208.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.15208">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.15208.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.15208.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.15208.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -6953,11 +8024,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.15185">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.15185.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.15185">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.15185.pdf">PDF</a>
           <a class="chip" href="https://github.com/cuhk-aim-group/monosplat">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.15185.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.15185.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -6974,11 +8045,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.14938">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.14938.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.14938">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.14938.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.14938.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.14938.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -6995,11 +8066,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.13440">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.13440.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.13440">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.13440.pdf">PDF</a>
           <a class="chip" href="https://github.com/dwawayu/pensieve">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.13440.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.13440.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -7016,11 +8087,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.13215">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.13215.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.13215">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.13215.pdf">PDF</a>
           <a class="chip" href="https://github.com/ohsngjun/3D-4DGS">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.13215.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.13215.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -7037,11 +8108,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.12875">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.12875.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.12875">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.12875.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.12875.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.12875.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -7058,11 +8129,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.12693">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.12693.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.12693">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.12693.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.12693.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.12693.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -7079,11 +8150,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.12384">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.12384.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.12384">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.12384.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.12384.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.12384.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -7100,11 +8171,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.11905">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.11905.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.11905">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.11905.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.11905.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.11905.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -7121,11 +8192,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.11868">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.11868.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.11868">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.11868.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.11868.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.11868.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -7142,11 +8213,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.11794">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.11794.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.11794">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.11794.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.11794.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.11794.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -7163,11 +8234,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.11467">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.11467.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.11467">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.11467.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.11467.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.11467.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -7184,11 +8255,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.10923">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.10923.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.10923">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.10923.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.10923.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.10923.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -7205,11 +8276,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.09601">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.09601.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.09601">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.09601.pdf">PDF</a>
           <a class="chip" href="https://github.com/uynitsuj/real2render2real">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.09601.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.09601.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -7226,11 +8297,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.09324">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.09324.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.09324">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.09324.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.09324.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.09324.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -7247,11 +8318,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.08712">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.08712.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.08712">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.08712.pdf">PDF</a>
           <a class="chip" href="https://github.com/InternRobotics/NavDP">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.08712.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.08712.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -7268,11 +8339,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.08644">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.08644.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.08644">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.08644.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.08644.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.08644.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -7289,11 +8360,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.08510">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.08510.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.08510">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.08510.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.08510.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.08510.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -7310,11 +8381,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.08438">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.08438.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.08438">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.08438.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.08438.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.08438.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -7331,11 +8402,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.08196">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.08196.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.08196">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.08196.pdf">PDF</a>
           <a class="chip" href="https://github.com/h-huang774/adc-gs">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.08196.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.08196.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -7352,11 +8423,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.07396">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.07396.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.07396">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.07396.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.07396.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.07396.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -7373,11 +8444,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.08124">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.08124.pdf">PDF</a>
-          <span class="chip ghost">Code: N/A</span>
+          <a class="chip" href="https://arxiv.org/abs/2505.08124">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.08124.pdf">PDF</a>
+          <a class="chip" href="https://github.com/slag-project/slag-project.github.io">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.08124.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.08124.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -7394,11 +8465,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.07539">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.07539.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.07539">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.07539.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.07539.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.07539.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -7415,11 +8486,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.05475">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.05475.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.05475">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.05475.pdf">PDF</a>
           <a class="chip" href="https://github.com/yc4ny/SVAD">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.05475.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.05475.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -7436,11 +8507,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.05356">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.05356.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.05356">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.05356.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.05356.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.05356.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -7457,11 +8528,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.04668">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.04668.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.04668">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.04668.pdf">PDF</a>
           <a class="chip" href="https://github.com/martinyxr/sgcr">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.04668.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.04668.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -7478,11 +8549,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.04659">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.04659.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.04659">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.04659.pdf">PDF</a>
           <a class="chip" href="https://github.com/onmyoji-xiao/gssplat">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.04659.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.04659.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -7499,11 +8570,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.04262">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.04262.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.04262">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.04262.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.04262.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.04262.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -7520,11 +8591,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.03310">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.03310.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.03310">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.03310.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.03310.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.03310.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -7541,11 +8612,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.02178">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.02178.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.02178">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.02178.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.02178.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.02178.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -7562,11 +8633,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.02175">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.02175.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.02175">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.02175.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.02175.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.02175.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -7583,11 +8654,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.02126">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.02126.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.02126">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.02126.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.02126.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.02126.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -7604,11 +8675,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.02108">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.02108.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.02108">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.02108.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.02108.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.02108.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -7625,11 +8696,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.01383">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.01383.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.01383">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.01383.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.01383.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.01383.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -7646,11 +8717,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.01235">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.01235.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.01235">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.01235.pdf">PDF</a>
           <a class="chip" href="https://github.com/bbangsik13/OR2">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.01235.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.01235.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -7667,11 +8738,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.00421">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.00421.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.00421">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.00421.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.00421.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.00421.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -7688,11 +8759,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.20379">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.20379.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.20379">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.20379.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.20379.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.20379.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -7709,11 +8780,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.00737">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.00737.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.00737">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.00737.pdf">PDF</a>
           <a class="chip" href="https://github.com/jiajiali04/3d-reconstruction-plants">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.00737.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.00737.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -7730,11 +8801,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.21650">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.21650.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.21650">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.21650.pdf">PDF</a>
           <a class="chip" href="https://github.com/pku-yuangroup/holotime">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.21650.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.21650.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -7751,11 +8822,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.18925">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.18925.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.18925">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.18925.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.18925.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.18925.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -7772,11 +8843,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.21067">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.21067.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.21067">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.21067.pdf">PDF</a>
           <a class="chip" href="https://github.com/JohannaXie/GauSS-MI">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.21067.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.21067.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -7793,11 +8864,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.20829">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.20829.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.20829">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.20829.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.20829.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.20829.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -7814,11 +8885,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.20607">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.20607.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.20607">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.20607.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.20607.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.20607.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -7835,11 +8906,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.20403">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.20403.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.20403">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.20403.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.20403.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.20403.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -7856,11 +8927,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.20378">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.20378.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.20378">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.20378.pdf">PDF</a>
           <a class="chip" href="https://github.com/wuuu3511/sparse2dgs">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.20378.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.20378.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -7877,11 +8948,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.19938">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.19938.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.19938">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.19938.pdf">PDF</a>
           <a class="chip" href="https://github.com/hku-mars/mesh-learner">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.19938.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.19938.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -7898,11 +8969,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.19557">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.19557.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.19557">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.19557.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.19557.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.19557.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -7919,11 +8990,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.19409">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.19409.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.19409">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.19409.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.19409.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.19409.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -7940,11 +9011,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.19261">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.19261.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.19261">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.19261.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.19261.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.19261.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -7961,11 +9032,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.17728">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.17728.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.17728">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.17728.pdf">PDF</a>
           <a class="chip" href="https://github.com/wu-cvgl/casualhdrsplat">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.17728.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.17728.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -7982,11 +9053,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.16740">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.16740.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.16740">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.16740.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.16740.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.16740.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -8003,11 +9074,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.16693">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.16693.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.16693">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.16693.pdf">PDF</a>
           <a class="chip" href="https://github.com/XuAdventurer/PIN-WM">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.16693.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.16693.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -8024,11 +9095,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.16606">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.16606.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.16606">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.16606.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.16606.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.16606.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -8045,11 +9116,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.16545">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.16545.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.16545">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.16545.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.16545.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.16545.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -8066,11 +9137,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.15281">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.15281.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.15281">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.15281.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.15281.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.15281.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -8087,11 +9158,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.15229">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.15229.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.15229">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.15229.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.15229.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.15229.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -8108,11 +9179,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.15122">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.15122.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.15122">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.15122.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.15122.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.15122.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -8129,11 +9200,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.14699">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.14699.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.14699">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.14699.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.14699.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.14699.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -8150,11 +9221,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.14638">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.14638.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.14638">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.14638.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.14638.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.14638.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -8171,11 +9242,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.13167">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.13167.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.13167">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.13167.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.13167.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.13167.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -8192,11 +9263,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.13175">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.13175.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.13175">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.13175.pdf">PDF</a>
           <a class="chip" href="https://github.com/InternRobotics/RoboSplat">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.13175.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.13175.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -8213,11 +9284,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.13159">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.13159.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.13159">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.13159.pdf">PDF</a>
           <a class="chip" href="https://github.com/ndrwmlnk/awesome-digital-twins">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.13159.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.13159.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -8234,11 +9305,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.13153">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.13153.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.13153">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.13153.pdf">PDF</a>
           <a class="chip" href="https://github.com/atrovast/thgs">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.13153.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.13153.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -8255,11 +9326,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.13022">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.13022.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.13022">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.13022.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.13022.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.13022.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -8276,11 +9347,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.12999">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.12999.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.12999">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.12999.pdf">PDF</a>
           <a class="chip" href="https://github.com/VU-RASL/GSAC">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.12999.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.12999.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -8297,11 +9368,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.12905">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.12905.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.12905">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.12905.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.12905.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.12905.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -8318,11 +9389,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.12811">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.12811.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.12811">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.12811.pdf">PDF</a>
           <a class="chip" href="https://github.com/DerThomy/AAA-Gaussians">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.12811.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.12811.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -8339,11 +9410,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.12800">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.12800.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.12800">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.12800.pdf">PDF</a>
           <a class="chip" href="https://github.com/phutq341/PhuDepTrai">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.12800.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.12800.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -8360,11 +9431,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.12799">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.12799.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.12799">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.12799.pdf">PDF</a>
           <a class="chip" href="https://github.com/longxiang-ai/TSGS">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.12799.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.12799.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -8381,11 +9452,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.10331">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.10331.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.10331">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.10331.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.10331.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.10331.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -8402,11 +9473,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.10001">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.10001.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.10001">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.10001.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.10001.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.10001.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -8423,11 +9494,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.10486">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.10486.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.10486">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.10486.pdf">PDF</a>
           <a class="chip" href="https://github.com/jzr99/DNF-Avatar">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.10486.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.10486.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -8444,11 +9515,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.10316">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.10316.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.10316">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.10316.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.10316.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.10316.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -8465,11 +9536,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.10012">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.10012.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.10012">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.10012.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.10012.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.10012.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -8486,11 +9557,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.09878">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.09878.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.09878">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.09878.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.09878.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.09878.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -8507,11 +9578,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.09588">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.09588.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.09588">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.09588.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.09588.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.09588.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -8528,11 +9599,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.09491">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.09491.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.09491">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.09491.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.09491.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.09491.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -8549,11 +9620,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.09129">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.09129.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.09129">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.09129.pdf">PDF</a>
           <a class="chip" href="https://github.com/eldentse/contrained-optimization-3dgs">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.09129.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.09129.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -8570,11 +9641,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.09097">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.09097.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.09097">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.09097.pdf">PDF</a>
           <a class="chip" href="https://github.com/On-JungWoan/BIGS">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.09097.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.09097.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -8591,11 +9662,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.06598">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.06598.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.06598">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.06598.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.06598.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.06598.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -8612,11 +9683,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.06978">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.06978.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.06978">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.06978.pdf">PDF</a>
           <a class="chip" href="https://github.com/zdwww/Wheat-3DGS">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.06978.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.06978.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -8633,11 +9704,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.06827">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.06827.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.06827">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.06827.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.06827.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.06827.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -8654,11 +9725,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.06815">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.06815.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.06815">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.06815.pdf">PDF</a>
           <a class="chip" href="https://github.com/learner-shx/svg-ir">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.06815.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.06815.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -8675,11 +9746,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.06716">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.06716.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.06716">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.06716.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.06716.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.06716.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -8696,11 +9767,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.06651">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.06651.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.06651">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.06651.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.06651.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.06651.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -8717,11 +9788,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.05740">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.05740.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.05740">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.05740.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.05740.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.05740.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -8738,11 +9809,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.05544">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.05544.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.05544">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.05544.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.05544.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.05544.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -8759,11 +9830,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.05517">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.05517.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.05517">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.05517.pdf">PDF</a>
           <a class="chip" href="https://github.com/mavens-lab/layered_3d_gaussian_splats">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.05517.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.05517.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -8780,11 +9851,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.05296">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.05296.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.05296">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.05296.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.05296.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.05296.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -8801,11 +9872,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.02437">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.02437.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.02437">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.02437.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.02437.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.02437.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -8822,11 +9893,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.02316">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.02316.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.02316">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.02316.pdf">PDF</a>
           <a class="chip" href="https://github.com/GAInuist/ConsDreamer">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.02316.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.02316.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -8843,11 +9914,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.02278">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.02278.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.02278">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.02278.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.02278.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.02278.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -8864,11 +9935,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.01957">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.01957.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.01957">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.01957.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.01957.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.01957.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -8885,11 +9956,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.02158">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.02158.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.02158">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.02158.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.02158.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.02158.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -8906,11 +9977,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.02045">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.02045.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.02045">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.02045.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.02045.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.02045.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -8927,11 +9998,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.01960">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.01960.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.01960">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.01960.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.01960.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.01960.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -8948,11 +10019,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.01844">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.01844.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.01844">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.01844.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.01844.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.01844.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -8969,11 +10040,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.01732">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.01732.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.01732">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.01732.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.01732.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.01732.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -8990,11 +10061,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.01647">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.01647.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.01647">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.01647.pdf">PDF</a>
           <a class="chip" href="https://github.com/tobiasfshr/flowr">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.01647.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.01647.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -9011,11 +10082,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.22676">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.22676.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.22676">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.22676.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.22676.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.22676.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -9032,11 +10103,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.22605">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.22605.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.22605">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.22605.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.22605.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.22605.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -9053,11 +10124,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.22437">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.22437.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.22437">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.22437.pdf">PDF</a>
           <a class="chip" href="https://github.com/michaelwanggo/endolrmgs">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.22437.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.22437.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -9074,11 +10145,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.22324">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.22324.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.22324">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.22324.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.22324.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.22324.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -9095,11 +10166,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.22225">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.22225.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.22225">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.22225.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.22225.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.22225.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -9116,11 +10187,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.22218">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.22218.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.22218">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.22218.pdf">PDF</a>
           <a class="chip" href="https://github.com/vpx-ecnu/ABC-GS">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.22218.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.22218.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -9137,11 +10208,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.22204">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.22204.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.22204">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.22204.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.22204.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.22204.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -9158,11 +10229,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.22159">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.22159.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.22159">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.22159.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.22159.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.22159.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -9179,11 +10250,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.21364">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.21364.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.21364">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.21364.pdf">PDF</a>
           <a class="chip" href="https://github.com/internlandmark/landmarksystem">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.21364.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.21364.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -9200,11 +10271,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.20776">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.20776.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.20776">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.20776.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.20776.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.20776.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -9221,11 +10292,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.21779">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.21779.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.21779">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.21779.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.21779.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.21779.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -9242,11 +10313,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.21767">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.21767.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.21767">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.21767.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.21767.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.21767.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -9263,11 +10334,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.21442">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.21442.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.21442">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.21442.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.21442.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.21442.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -9284,11 +10355,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.21226">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.21226.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.21226">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.21226.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.21226.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.21226.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -9305,11 +10376,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.21104">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.21104.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.21104">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.21104.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.21104.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.21104.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -9326,11 +10397,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.20779">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.20779.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.20779">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.20779.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.20779.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.20779.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -9347,11 +10418,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.20221">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.20221.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.20221">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.20221.pdf">PDF</a>
           <a class="chip" href="https://github.com/timwang2001/tc-gs">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.20221.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.20221.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -9368,11 +10439,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.20168">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.20168.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.20168">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.20168.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.20168.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.20168.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -9389,11 +10460,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.18458">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.18458.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.18458">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.18458.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.18458.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.18458.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -9410,11 +10481,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.18794">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.18794.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.18794">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.18794.pdf">PDF</a>
           <a class="chip" href="https://github.com/USMizuki/NexusGS">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.18794.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.18794.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -9431,11 +10502,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.18718">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.18718.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.18718">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.18718.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.18718.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.18718.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -9452,11 +10523,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.18682">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.18682.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.18682">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.18682.pdf">PDF</a>
           <a class="chip" href="https://github.com/facebookresearch/vkraygs">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.18682.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.18682.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -9473,11 +10544,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.18640">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.18640.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.18640">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.18640.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.18640.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.18640.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -9494,11 +10565,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.18421">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.18421.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.18421">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.18421.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.18421.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.18421.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -9515,11 +10586,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.18402">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.18402.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.18402">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.18402.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.18402.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.18402.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -9536,11 +10607,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.18275">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.18275.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.18275">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.18275.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.18275.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.18275.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -9557,11 +10628,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.18108">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.18108.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.18108">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.18108.pdf">PDF</a>
           <a class="chip" href="https://github.com/cancaries/SceneCrafter">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.18108.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.18108.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -9578,11 +10649,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.18107">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.18107.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.18107">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.18107.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.18107.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.18107.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -9599,11 +10670,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.14736">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.14736.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.14736">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.14736.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.14736.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.14736.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -9620,11 +10691,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.14698">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.14698.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.14698">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.14698.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.14698.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.14698.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -9641,11 +10712,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.14475">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.14475.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.14475">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.14475.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.14475.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.14475.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -9662,11 +10733,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.14274">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.14274.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.14274">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.14274.pdf">PDF</a>
           <a class="chip" href="https://github.com/fraunhoferhhi/improving-adc-3dgs">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.14274.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.14274.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -9683,11 +10754,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.14198">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.14198.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.14198">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.14198.pdf">PDF</a>
           <a class="chip" href="https://github.com/isee-laboratory/rogsplat">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.14198.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.14198.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -9704,11 +10775,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.14171">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.14171.pdf">PDF</a>
-          <span class="chip ghost">Code: N/A</span>
+          <a class="chip" href="https://arxiv.org/abs/2503.14171">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.14171.pdf">PDF</a>
+          <a class="chip" href="https://github.com/KeKsBoTer/upscale3dgs">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.14171.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.14171.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -9725,11 +10796,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.14029">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.14029.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.14029">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.14029.pdf">PDF</a>
           <a class="chip" href="https://github.com/runsong123/unified-lift">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.14029.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.14029.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -9746,11 +10817,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.13948">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.13948.pdf">PDF</a>
-          <span class="chip ghost">Code: N/A</span>
+          <a class="chip" href="https://arxiv.org/abs/2503.13948">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.13948.pdf">PDF</a>
+          <a class="chip" href="https://github.com/Evan-sudo/Light4GS">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.13948.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.13948.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -9767,11 +10838,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.13272">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.13272.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.13272">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.13272.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.13272.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.13272.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -9788,11 +10859,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.13176">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.13176.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.13176">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.13176.pdf">PDF</a>
           <a class="chip" href="https://github.com/BatFaceWayne/DeGauss">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.13176.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.13176.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -9809,11 +10880,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.10625">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.10625.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.10625">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.10625.pdf">PDF</a>
           <a class="chip" href="https://github.com/aigc3d/LHM">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.10625.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.10625.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -9830,11 +10901,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.10604">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.10604.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.10604">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.10604.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.10604.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.10604.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -9851,11 +10922,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.10437">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.10437.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.10437">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.10437.pdf">PDF</a>
           <a class="chip" href="https://github.com/zrporz/4DLangSplat">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.10437.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.10437.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -9872,11 +10943,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.10286">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.10286.pdf">PDF</a>
-          <span class="chip ghost">Code: N/A</span>
+          <a class="chip" href="https://arxiv.org/abs/2503.10286">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.10286.pdf">PDF</a>
+          <a class="chip" href="https://github.com/WU-CVGL/VicaSplat">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.10286.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.10286.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -9893,11 +10964,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.10256">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.10256.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.10256">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.10256.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.10256.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.10256.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -9914,11 +10985,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.10170">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.10170.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.10170">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.10170.pdf">PDF</a>
           <a class="chip" href="https://github.com/hku-mars/gs-sdf">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.10170.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.10170.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -9935,11 +11006,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.10148">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.10148.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.10148">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.10148.pdf">PDF</a>
           <a class="chip" href="https://github.com/realcrane/student-splating-scooping">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.10148.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.10148.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -9956,11 +11027,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.10143">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.10143.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.10143">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.10143.pdf">PDF</a>
           <a class="chip" href="https://github.com/LiuJF1226/GaussHDR">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.10143.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.10143.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -9977,11 +11048,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.09464">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.09464.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.09464">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.09464.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.09464.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.09464.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -9998,11 +11069,11 @@ title: Gaussian Splatting
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.09447">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.09447.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.09447">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.09447.pdf">PDF</a>
           <a class="chip" href="https://github.com/rpng/online_lang_splatting">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.09447.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.09447.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>

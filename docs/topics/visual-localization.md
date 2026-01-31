@@ -7,7 +7,7 @@ title: Visual Localization
   <div>
     <p class="eyebrow">Topic</p>
     <h1>Visual Localization</h1>
-    <p class="topic-lede">Updated 2026.01.07 · 298 papers</p>
+    <p class="topic-lede">Updated 2026.01.31 · 327 papers</p>
   </div>
   <a class="btn ghost" href="../index.html#topics">← Back to topics</a>
 </section>
@@ -16,18 +16,627 @@ title: Visual Localization
   <article class="paper-card">
     <details class="paper-details">
       <summary>
-        <span class="paper-title">Vision-Language Reasoning for Geolocalization: A Reinforcement Learning Approach</span>
-        <span class="paper-authors">Biao Wu et.al.</span>
-        <span class="paper-meta">Updated 2026-01-01</span>
+        <span class="paper-title">Variance &amp; Greediness: A comparative study of metric-learning losses</span>
+        <span class="paper-authors">Donghuo Zeng, Hao Niu, Zhi Li, Masato Taya</span>
+        <span class="paper-meta">Updated 2026-01-29</span>
       </summary>
       <div class="paper-body">
-        <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
+        <p class="paper-abstract">Metric learning is central to retrieval, yet its effects on embedding geometry and optimization dynamics are not well understood. We introduce a diagnostic framework, VARIANCE (intra-/inter-class variance) and GREEDINESS (active ratio and gradient norms), to compare seven representative losses, i.e., Contrastive, Triplet, N-pair, InfoNCE, ArcFace, SCL, and CCL, across five image-retrieval datasets. Our analysis reveals that Triplet and SCL preserve higher within-class variance and clearer inter-class margins, leading to stronger top-1 retrieval in fine-grained settings. In contrast, Contrastive and InfoNCE compact embeddings are achieved quickly through many small updates, accelerating convergence but potentially oversimplifying class structures. N-pair achieves a large mean separation but with uneven spacing. These insights reveal a form of efficiency-granularity trade-off and provide practical guidance: prefer Triplet/SCL when diversity preservation and hard-sample discrimination are critical, and Contrastive/InfoNCE when faster embedding compaction is desired.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2601.00388">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2601.00388.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2601.21450">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.21450.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2601.00388.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.21450.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">When Vision Meets Texts in Listwise Reranking</span>
+        <span class="paper-authors">Hongyi Cai</span>
+        <span class="paper-meta">Updated 2026-01-28</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Recent advancements in information retrieval have highlighted the potential of integrating visual and textual information, yet effective reranking for image-text documents remains challenging due to the modality gap and scarcity of aligned datasets. Meanwhile, existing approaches often rely on large models (7B to 32B parameters) with reasoning-based distillation, incurring unnecessary computational overhead while primarily focusing on textual modalities. In this paper, we propose Rank-Nexus, a multimodal image-text document reranker that performs listwise qualitative reranking on retrieved lists incorporating both images and texts. To bridge the modality gap, we introduce a progressive cross-modal training strategy. We first train modalities separately: leveraging abundant text reranking data, we distill knowledge into the text branch. For images, where data is scarce, we construct distilled pairs from multimodal large language model (MLLM) captions on image retrieval benchmarks. Subsequently, we distill a joint image-text reranking dataset. Rank-Nexus achieves outstanding performance on text reranking benchmarks (TREC, BEIR) and the challenging image reranking benchmark (INQUIRE, MMDocIR), using only a lightweight 2B pretrained visual-language model. This efficient design ensures strong generalization across diverse multimodal scenarios without excessive parameters or reasoning overhead.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.20623">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.20623.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.20623.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Eliminating Hallucination in Diffusion-Augmented Interactive Text-to-Image Retrieval</span>
+        <span class="paper-authors">Zhuocheng Zhang, Kangheng Liang, Guanxuan Li, Paul Henderson, Richard Mccreadie, Zijun Long</span>
+        <span class="paper-meta">Updated 2026-01-28</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Diffusion-Augmented Interactive Text-to-Image Retrieval (DAI-TIR) is a promising paradigm that improves retrieval performance by generating query images via diffusion models and using them as additional ``views&#x27;&#x27; of the user&#x27;s intent. However, these generative views can be incorrect because diffusion generation may introduce hallucinated visual cues that conflict with the original query text. Indeed, we empirically demonstrate that these hallucinated cues can substantially degrade DAI-TIR performance. To address this, we propose Diffusion-aware Multi-view Contrastive Learning (DMCL), a hallucination-robust training framework that casts DAI-TIR as joint optimization over representations of query intent and the target image. DMCL introduces semantic-consistency and diffusion-aware contrastive objectives to align textual and diffusion-generated query views while suppressing hallucinated query signals. This yields an encoder that acts as a semantic filter, effectively mapping hallucinated cues into a null space, improving robustness to spurious cues and better representing the user&#x27;s intent. Attention visualization and geometric embedding-space analyses corroborate this filtering behavior. Across five standard benchmarks, DMCL delivers consistent improvements in multi-round Hits@10, reaching as high as 7.37\% over prior fine-tuned and zero-shot baselines, which indicates it is a general and robust training framework for DAI-TIR.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.20391">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.20391.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.20391.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">VGGT-SLAM 2.0: Real time Dense Feed-forward Scene Reconstruction</span>
+        <span class="paper-authors">Dominic Maggio, Luca Carlone</span>
+        <span class="paper-meta">Updated 2026-01-27</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">We present VGGT-SLAM 2.0, a real time RGB feed-forward SLAM system which substantially improves upon VGGT-SLAM for incrementally aligning submaps created from VGGT. Firstly, we remove high-dimensional 15-degree-of-freedom drift and planar degeneracy from VGGT-SLAM by creating a new factor graph design while still addressing the reconstruction ambiguity of VGGT given unknown camera intrinsics. Secondly, by studying the attention layers of VGGT, we show that one of the layers is well suited to assist in image retrieval verification for free without additional training, which enables both rejecting false positive matches and allows for completing more loop closures. Finally, we conduct a suite of experiments which includes showing VGGT-SLAM 2.0 can easily be adapted for open-set object detection and demonstrating real time performance while running online onboard a ground robot using a Jetson Thor. We also test in environments ranging from cluttered indoor apartments and office scenes to a 4,200 square foot barn, and we also demonstrate VGGT-SLAM 2.0 achieves the highest accuracy on the TUM dataset with about 23 percent less pose error than VGGT-SLAM. Code will be released upon publication.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.19887">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.19887.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.19887.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Pixel-Grounded Retrieval for Knowledgeable Large Multimodal Models</span>
+        <span class="paper-authors">Jeonghwan Kim, Renjie Tao, Sanat Sharma, Jiaqi Wang, Kai Sun, Zhaojiang Lin, Seungwhan Moon, Lambert Mathias, Anuj Kumar, Heng Ji, Xin Luna Dong</span>
+        <span class="paper-meta">Updated 2026-01-27</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Visual Question Answering (VQA) often requires coupling fine-grained perception with factual knowledge beyond the input image. Prior multimodal Retrieval-Augmented Generation (MM-RAG) systems improve factual grounding but lack an internal policy for when and how to retrieve. We propose PixSearch, the first end-to-end Segmenting Large Multimodal Model (LMM) that unifies region-level perception and retrieval-augmented reasoning. During encoding, PixSearch emits &lt;search&gt; tokens to trigger retrieval, selects query modalities (text, image, or region), and generates pixel-level masks that directly serve as visual queries, eliminating the reliance on modular pipelines (detectors, segmenters, captioners, etc.). A two-stage supervised fine-tuning regimen with search-interleaved supervision teaches retrieval timing and query selection while preserving segmentation ability. On egocentric and entity-centric VQA benchmarks, PixSearch substantially improves factual consistency and generalization, yielding a 19.7% relative gain in accuracy on CRAG-MM compared to whole image retrieval, while retaining competitive reasoning performance on various VQA and text-only QA tasks.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.19060">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.19060.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.19060.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">X-Aligner: Composed Visual Retrieval without the Bells and Whistles</span>
+        <span class="paper-authors">Yuqian Zheng, Mariana-Iuliana Georgescu</span>
+        <span class="paper-meta">Updated 2026-01-23</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Composed Video Retrieval (CoVR) facilitates video retrieval by combining visual and textual queries. However, existing CoVR frameworks typically fuse multimodal inputs in a single stage, achieving only marginal gains over initial baseline. To address this, we propose a novel CoVR framework that leverages the representational power of Vision Language Models (VLMs). Our framework incorporates a novel cross-attention module X-Aligner, composed of cross-attention layers that progressively fuse visual and textual inputs and align their multimodal representation with that of the target video. To further enhance the representation of the multimodal query, we incorporate the caption of the visual query as an additional input. The framework is trained in two stages to preserve the pretrained VLM representation. In the first stage, only the newly introduced module is trained, while in the second stage, the textual query encoder is also fine-tuned. We implement our framework on top of BLIP-family architecture, namely BLIP and BLIP-2, and train it on the Webvid-CoVR data set. In addition to in-domain evaluation on Webvid-CoVR-Test, we perform zero-shot evaluations on the Composed Image Retrieval (CIR) data sets CIRCO and Fashion-IQ. Our framework achieves state-of-the-art performance on CoVR obtaining a Recall@1 of 63.93% on Webvid-CoVR-Test, and demonstrates strong zero-shot generalization on CIR tasks.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.16582">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.16582.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.16582.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Rethinking Composed Image Retrieval Evaluation: A Fine-Grained Benchmark from Image Editing</span>
+        <span class="paper-authors">Tingyu Song, Yanzhao Zhang, Mingxin Li, Zhuoning Guo, Dingkun Long, Pengjun Xie, Siyue Zhang, Yilun Zhao, Shu Wu</span>
+        <span class="paper-meta">Updated 2026-01-22</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Composed Image Retrieval (CIR) is a pivotal and complex task in multimodal understanding. Current CIR benchmarks typically feature limited query categories and fail to capture the diverse requirements of real-world scenarios. To bridge this evaluation gap, we leverage image editing to achieve precise control over modification types and content, enabling a pipeline for synthesizing queries across a broad spectrum of categories. Using this pipeline, we construct EDIR, a novel fine-grained CIR benchmark. EDIR encompasses 5,000 high-quality queries structured across five main categories and fifteen subcategories. Our comprehensive evaluation of 13 multimodal embedding models reveals a significant capability gap; even state-of-the-art models (e.g., RzenEmbed and GME) struggle to perform consistently across all subcategories, highlighting the rigorous nature of our benchmark. Through comparative analysis, we further uncover inherent limitations in existing benchmarks, such as modality biases and insufficient categorical coverage. Furthermore, an in-domain training experiment demonstrates the feasibility of our benchmark. This experiment clarifies the task challenges by distinguishing between categories that are solvable with targeted data and those that expose intrinsic limitations of current model architectures.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.16125">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.16125.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.16125.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Heterogeneous Uncertainty-Guided Composed Image Retrieval with Fine-Grained Probabilistic Learning</span>
+        <span class="paper-authors">Haomiao Tang, Jinpeng Wang, Minyi Zhao, Guanghao Meng, Ruisheng Luo, Long Chen, Shu-Tao Xia</span>
+        <span class="paper-meta">Updated 2026-01-22</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Composed Image Retrieval (CIR) enables image search by combining a reference image with modification text. Intrinsic noise in CIR triplets incurs intrinsic uncertainty and threatens the model&#x27;s robustness. Probabilistic learning approaches have shown promise in addressing such issues; however, they fall short for CIR due to their instance-level holistic modeling and homogeneous treatment of queries and targets. This paper introduces a Heterogeneous Uncertainty-Guided (HUG) paradigm to overcome these limitations. HUG utilizes a fine-grained probabilistic learning framework, where queries and targets are represented by Gaussian embeddings that capture detailed concepts and uncertainties. We customize heterogeneous uncertainty estimations for multi-modal queries and uni-modal targets. Given a query, we capture uncertainties not only regarding uni-modal content quality but also multi-modal coordination, followed by a provable dynamic weighting mechanism to derive comprehensive query uncertainty. We further design uncertainty-guided objectives, including query-target holistic contrast and fine-grained contrasts with comprehensive negative sampling strategies, which effectively enhance discriminative learning. Experiments on benchmarks demonstrate HUG&#x27;s effectiveness beyond state-of-the-art baselines, with faithful analysis justifying the technical contributions.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.11393">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.11393.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.11393.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Unified Multimodal and Multilingual Retrieval via Multi-Task Learning with NLU Integration</span>
+        <span class="paper-authors">Xinyuan Zhang, Lina Zhang, Lisung Chen, Guangyao Liu, Shuai Nie, Jiaming Xu, Runyu Shi, Ying Huang, Guoquan Zhang</span>
+        <span class="paper-meta">Updated 2026-01-21</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Multimodal retrieval systems typically employ Vision Language Models (VLMs) that encode images and text independently into vectors within a shared embedding space. Despite incorporating text encoders, VLMs consistently underperform specialized text models on text-only retrieval tasks. Moreover, introducing additional text encoders increases storage, inference overhead, and exacerbates retrieval inefficiencies, especially in multilingual settings. To address these limitations, we propose a multi-task learning framework that unifies the feature representation across images, long and short texts, and intent-rich queries. To our knowledge, this is the first work to jointly optimize multilingual image retrieval, text retrieval, and natural language understanding (NLU) tasks within a single framework. Our approach integrates image and text retrieval with a shared text encoder that is enhanced by NLU features for intent understanding and retrieval accuracy.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.14714">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.14714.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.14714.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">LookBench: A Live and Holistic Open Benchmark for Fashion Image Retrieval</span>
+        <span class="paper-authors">Chao Gao, Siqiao Xue, Yimin Peng, Jiwen Fu, Tingyi Gu, Shanshan Li, Fan Zhou</span>
+        <span class="paper-meta">Updated 2026-01-21</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">In this paper, we present LookBench (We use the term &quot;look&quot; to reflect retrieval that mirrors how people shop -- finding the exact item, a close substitute, or a visually consistent alternative.), a live, holistic and challenging benchmark for fashion image retrieval in real e-commerce settings. LookBench includes both recent product images sourced from live websites and AI-generated fashion images, reflecting contemporary trends and use cases. Each test sample is time-stamped and we intend to update the benchmark periodically, enabling contamination-aware evaluation aligned with declared training cutoffs. Grounded in our fine-grained attribute taxonomy, LookBench covers single-item and outfit-level retrieval across. Our experiments reveal that LookBench poses a significant challenge on strong baselines, with many models achieving below $60\%$ Recall@1. Our proprietary model achieves the best performance on LookBench, and we release an open-source counterpart that ranks second, with both models attaining state-of-the-art results on legacy Fashion200K evaluations. LookBench is designed to be updated semi-annually with new test samples and progressively harder task variants, providing a durable measure of progress. We publicly release our leaderboard, dataset, evaluation code, and trained models.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.14706">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.14706.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.14706.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">XR: Cross-Modal Agents for Composed Image Retrieval</span>
+        <span class="paper-authors">Zhongyu Yang, Wei Pang, Yingfang Yuan</span>
+        <span class="paper-meta">Updated 2026-01-20</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Retrieval is being redefined by agentic AI, demanding multimodal reasoning beyond conventional similarity-based paradigms. Composed Image Retrieval (CIR) exemplifies this shift as each query combines a reference image with textual modifications, requiring compositional understanding across modalities. While embedding-based CIR methods have achieved progress, they remain narrow in perspective, capturing limited cross-modal cues and lacking semantic reasoning. To address these limitations, we introduce XR, a training-free multi-agent framework that reframes retrieval as a progressively coordinated reasoning process. It orchestrates three specialized types of agents: imagination agents synthesize target representations through cross-modal generation, similarity agents perform coarse filtering via hybrid matching, and question agents verify factual consistency through targeted reasoning for fine filtering. Through progressive multi-agent coordination, XR iteratively refines retrieval to meet both semantic and visual query constraints, achieving up to a 38% gain over strong training-free and training-based baselines on FashionIQ, CIRR, and CIRCO, while ablations show each agent is essential. Code is available: https://01yzzyu.github.io/xr.github.io/.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.14245">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.14245.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.14245.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Fine-Grained Zero-Shot Composed Image Retrieval with Complementary Visual-Semantic Integration</span>
+        <span class="paper-authors">Yongcong Ye, Kai Zhang, Yanghai Zhang, Enhong Chen, Longfei Li, Jun Zhou</span>
+        <span class="paper-meta">Updated 2026-01-20</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Zero-shot composed image retrieval (ZS-CIR) is a rapidly growing area with significant practical applications, allowing users to retrieve a target image by providing a reference image and a relative caption describing the desired modifications. Existing ZS-CIR methods often struggle to capture fine-grained changes and integrate visual and semantic information effectively. They primarily rely on either transforming the multimodal query into a single text using image-to-text models or employing large language models for target image description generation, approaches that often fail to capture complementary visual information and complete semantic context. To address these limitations, we propose a novel Fine-Grained Zero-Shot Composed Image Retrieval method with Complementary Visual-Semantic Integration (CVSI). Specifically, CVSI leverages three key components: (1) Visual Information Extraction, which not only extracts global image features but also uses a pre-trained mapping network to convert the image into a pseudo token, combining it with the modification text and the objects most likely to be added. (2) Semantic Information Extraction, which involves using a pre-trained captioning model to generate multiple captions for the reference image, followed by leveraging an LLM to generate the modified captions and the objects most likely to be added. (3) Complementary Information Retrieval, which integrates information extracted from both the query and database images to retrieve the target image, enabling the system to efficiently handle retrieval queries in a variety of situations. Extensive experiments on three public datasets (e.g., CIRR, CIRCO, and FashionIQ) demonstrate that CVSI significantly outperforms existing state-of-the-art methods. Our code is available at https://github.com/yyc6631/CVSI.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.14060">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.14060.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.14060.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Glance-or-Gaze: Incentivizing LMMs to Adaptively Focus Search via Reinforcement Learning</span>
+        <span class="paper-authors">Hongbo Bai, Yujin Zhou, Yile Wu, Chi-Min Chan, Pengcheng Wen, Kunhao Pan, Sirui Han, Yike Guo</span>
+        <span class="paper-meta">Updated 2026-01-20</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Large Multimodal Models (LMMs) have achieved remarkable success in visual understanding, yet they struggle with knowledge-intensive queries involving long-tail entities or evolving information due to static parametric knowledge. Recent search-augmented approaches attempt to address this limitation, but existing methods rely on indiscriminate whole-image retrieval that introduces substantial visual redundancy and noise, and lack deep iterative reflection, limiting their effectiveness on complex visual queries. To overcome these challenges, we propose Glance-or-Gaze (GoG), a fully autonomous framework that shifts from passive perception to active visual planning. GoG introduces a Selective Gaze mechanism that dynamically chooses whether to glance at global context or gaze into high-value regions, filtering irrelevant information before retrieval. We design a dual-stage training strategy: Reflective GoG Behavior Alignment via supervised fine-tuning instills the fundamental GoG paradigm, while Complexity-Adaptive Reinforcement Learning further enhances the model&#x27;s capability to handle complex queries through iterative reasoning. Experiments across six benchmarks demonstrate state-of-the-art performance. Ablation studies confirm that both Selective Gaze and complexity-adaptive RL are essential for effective visual search. We will release our data and models for further exploration soon.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.13942">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.13942.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.13942.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">DC-VLAQ: Query-Residual Aggregation for Robust Visual Place Recognition</span>
+        <span class="paper-authors">Hanyu Zhu, Zhihao Zhan, Yuhang Ming, Liang Li, Dibo Hou, Javier Civera, Wanzeng Kong</span>
+        <span class="paper-meta">Updated 2026-01-19</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">One of the central challenges in visual place recognition (VPR) is learning a robust global representation that remains discriminative under large viewpoint changes, illumination variations, and severe domain shifts. While visual foundation models (VFMs) provide strong local features, most existing methods rely on a single model, overlooking the complementary cues offered by different VFMs. However, exploiting such complementary information inevitably alters token distributions, which challenges the stability of existing query-based global aggregation schemes. To address these challenges, we propose DC-VLAQ, a representation-centric framework that integrates the fusion of complementary VFMs and robust global aggregation. Specifically, we first introduce a lightweight residual-guided complementary fusion that anchors representations in the DINOv2 feature space while injecting complementary semantics from CLIP through a learned residual correction. In addition, we propose the Vector of Local Aggregated Queries (VLAQ), a query--residual global aggregation scheme that encodes local tokens by their residual responses to learnable queries, resulting in improved stability and the preservation of fine-grained discriminative cues. Extensive experiments on standard VPR benchmarks, including Pitts30k, Tokyo24/7, MSLS, Nordland, SPED, and AmsterTime, demonstrate that DC-VLAQ consistently outperforms strong baselines and achieves state-of-the-art performance, particularly under challenging domain shifts and long-term appearance changes.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.12729">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.12729.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.12729.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">SupScene: Learning Overlap-Aware Global Descriptor for Unconstrained SfM</span>
+        <span class="paper-authors">Xulei Shi, Maoyu Wang, Yuning Peng, Guanbo Wang, Xin Wang, Qi Chen, Pengjie Tao</span>
+        <span class="paper-meta">Updated 2026-01-17</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Image retrieval is a critical step for alleviating the quadratic complexity of image matching in unconstrained Structure-from-Motion (SfM). However, in this context, image retrieval typically focuses more on the image pairs of geometric matchability than on those of semantic similarity, a nuance that most existing deep learning-based methods guided by batched binaries (overlapping vs. non-overlapping pairs) fail to capture. In this paper, we introduce SupScene, a novel solution that learns global descriptors tailored for finding overlapping image pairs of similar geometric nature for SfM. First, to better underline co-visible regions, we employ a subgraph-based training strategy that moves beyond equally important isolated pairs, leveraging ground-truth geometric overlapping relationships with various weights to provide fine-grained supervision via a soft supervised contrastive loss. Second, we introduce DiVLAD, a DINO-inspired VLAD aggregator that leverages the inherent multi-head attention maps from the last block of ViT. And then, a learnable gating mechanism is designed to adaptively utilize these semantically salient cues with visual features, enabling a more discriminative global descriptor. Extensive experiments on the GL3D dataset demonstrate that our method achieves state-of-the-art performance, significantly outperforming NetVLAD while introducing a negligible number of additional trainable parameters. Furthermore, we show that the proposed training strategy brings consistent gains across different aggregation techniques. Code and models are available at https://anonymous.4open.science/r/SupScene-5B73.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.11930">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.11930.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.11930.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Simple Models, Rich Representations: Visual Decoding from Primate Intracortical Neural Signals</span>
+        <span class="paper-authors">Matteo Ciferri, Matteo Ferrante, Nicola Toschi</span>
+        <span class="paper-meta">Updated 2026-01-16</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Understanding how neural activity gives rise to perception is a central challenge in neuroscience. We address the problem of decoding visual information from high-density intracortical recordings in primates, using the THINGS Ventral Stream Spiking Dataset. We systematically evaluate the effects of model architecture, training objectives, and data scaling on decoding performance. Results show that decoding accuracy is mainly driven by modeling temporal dynamics in neural signals, rather than architectural complexity. A simple model combining temporal attention with a shallow MLP achieves up to 70% top-1 image retrieval accuracy, outperforming linear baselines as well as recurrent and convolutional approaches. Scaling analyses reveal predictable diminishing returns with increasing input dimensionality and dataset size. Building on these findings, we design a modular generative decoding pipeline that combines low-resolution latent reconstruction with semantically conditioned diffusion, generating plausible images from 200 ms of brain activity. This framework provides principles for brain-computer interfaces and semantic neural decoding.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.11108">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.11108.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.11108.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Multilingual-To-Multimodal (M2M): Unlocking New Languages with Monolingual Text</span>
+        <span class="paper-authors">Piyush Singh Pasi</span>
+        <span class="paper-meta">Updated 2026-01-15</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Multimodal models excel in English, supported by abundant image-text and audio-text data, but performance drops sharply for other languages due to limited multilingual multimodal resources. Existing solutions rely heavily on machine translation, while advances in multilingual text modeling remain underutilized. We introduce METAL, a lightweight alignment method that learns only a few linear layers using English text alone to map multilingual text embeddings into a multimodal space. Despite its simplicity, METAL matches baseline performance in English (94.9 percent Recall at 10) and achieves strong zero-shot transfer (89.5 percent Recall at 10 averaged across 11 languages, 10 unseen) on XTD text-to-image retrieval. Qualitative t-SNE visualizations show that multilingual embeddings align tightly with multimodal representations, while weight analysis reveals that the transformation reshapes embedding geometry rather than performing trivial rotations. Beyond image-text retrieval, METAL generalizes to audio-text retrieval and cross-lingual text-to-image generation. We release code and checkpoints at https://github.com/m2m-codebase/M2M , as well as multilingual evaluation datasets including MSCOCO Multilingual 30K (https://huggingface.co/datasets/piyushsinghpasi/mscoco-multilingual-30k ), AudioCaps Multilingual (https://huggingface.co/datasets/piyushsinghpasi/audiocaps-multilingual ), and Clotho Multilingual (https://huggingface.co/datasets/piyushsinghpasi/clotho-multilingual ), to facilitate further research.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.10096">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.10096.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.10096.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">UniHash: Unifying Pointwise and Pairwise Hashing Paradigms for Seen and Unseen Category Retrieval</span>
+        <span class="paper-authors">Xiaoxu Ma, Runhao Li, Hanwen Liu, Xiangbo Zhang, Zhenyu Weng</span>
+        <span class="paper-meta">Updated 2026-01-14</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Effective retrieval across both seen and unseen categories is crucial for modern image retrieval systems. Retrieval on seen categories ensures precise recognition of known classes, while retrieval on unseen categories promotes generalization to novel classes with limited supervision. However, most existing deep hashing methods are confined to a single training paradigm, either pointwise or pairwise, where the former excels on seen categories and the latter generalizes better to unseen ones. To overcome this limitation, we propose Unified Hashing (UniHash), a dual-branch framework that unifies the strengths of both paradigms to achieve balanced retrieval performance across seen and unseen categories. UniHash consists of two complementary branches: a center-based branch following the pointwise paradigm and a pairwise branch following the pairwise paradigm. A novel hash code learning method is introduced to enable bidirectional knowledge transfer between branches, improving hash code discriminability and generalization. It employs a mutual learning loss to align hash representations and introduces a Split-Merge Mixture of Hash Experts (SM-MoH) module to enhance cross-branch exchange of hash representations. Theoretical analysis substantiates the effectiveness of UniHash, and extensive experiments on CIFAR-10, MSCOCO, and ImageNet demonstrate that UniHash consistently achieves state-of-the-art performance in both seen and unseen image retrieval scenarios.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.09828">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.09828.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.09828.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Hybrid guided variational autoencoder for visual place recognition</span>
+        <span class="paper-authors">Ni Wang, Zihan You, Emre Neftci, Thorben Schoepe</span>
+        <span class="paper-meta">Updated 2026-01-14</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Autonomous agents such as cars, robots and drones need to precisely localize themselves in diverse environments, including in GPS-denied indoor environments. One approach for precise localization is visual place recognition (VPR), which estimates the place of an image based on previously seen places. State-of-the-art VPR models require high amounts of memory, making them unwieldy for mobile deployment, while more compact models lack robustness and generalization capabilities. This work overcomes these limitations for robotics using a combination of event-based vision sensors and an event-based novel guided variational autoencoder (VAE). The encoder part of our model is based on a spiking neural network model which is compatible with power-efficient low latency neuromorphic hardware. The VAE successfully disentangles the visual features of 16 distinct places in our new indoor VPR dataset with a classification performance comparable to other state-of-the-art approaches while, showing robust performance also under various illumination conditions. When tested with novel visual inputs from unknown scenes, our model can distinguish between these places, which demonstrates a high generalization capability by learning the essential features of location. Our compact and robust guided VAE with generalization capabilities poses a promising model for visual place recognition that can significantly enhance mobile robot navigation in known and unknown indoor environments.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.09248">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.09248.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.09248.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Keyframe-based Dense Mapping with the Graph of View-Dependent Local Maps</span>
+        <span class="paper-authors">Krzysztof Zielinski, Dominik Belter</span>
+        <span class="paper-meta">Updated 2026-01-13</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">In this article, we propose a new keyframe-based mapping system. The proposed method updates local Normal Distribution Transform maps (NDT) using data from an RGB-D sensor. The cells of the NDT are stored in 2D view-dependent structures to better utilize the properties and uncertainty model of RGB-D cameras. This method naturally represents an object closer to the camera origin with higher precision. The local maps are stored in the pose graph which allows correcting global map after loop closure detection. We also propose a procedure that allows merging and filtering local maps to obtain a global map of the environment. Finally, we compare our method with Octomap and NDT-OM and provide example applications of the proposed mapping method.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.08520">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.08520.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.08520.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Enhancing Image Quality Assessment Ability of LMMs via Retrieval-Augmented Generation</span>
+        <span class="paper-authors">Kang Fu, Huiyu Duan, Zicheng Zhang, Yucheng Zhu, Jun Zhao, Xiongkuo Min, Jia Wang, Guangtao Zhai</span>
+        <span class="paper-meta">Updated 2026-01-13</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Large Multimodal Models (LMMs) have recently shown remarkable promise in low-level visual perception tasks, particularly in Image Quality Assessment (IQA), demonstrating strong zero-shot capability. However, achieving state-of-the-art performance often requires computationally expensive fine-tuning methods, which aim to align the distribution of quality-related token in output with image quality levels. Inspired by recent training-free works for LMM, we introduce IQARAG, a novel, training-free framework that enhances LMMs&#x27; IQA ability. IQARAG leverages Retrieval-Augmented Generation (RAG) to retrieve some semantically similar but quality-variant reference images with corresponding Mean Opinion Scores (MOSs) for input image. These retrieved images and input image are integrated into a specific prompt. Retrieved images provide the LMM with a visual perception anchor for IQA task. IQARAG contains three key phases: Retrieval Feature Extraction, Image Retrieval, and Integration &amp; Quality Score Generation. Extensive experiments across multiple diverse IQA datasets, including KADID, KonIQ, LIVE Challenge, and SPAQ, demonstrate that the proposed IQARAG effectively boosts the IQA performance of LMMs, offering a resource-efficient alternative to fine-tuning for quality assessment.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.08311">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.08311.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.08311.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Ground What You See: Hallucination-Resistant MLLMs via Caption Feedback, Diversity-Aware Sampling, and Conflict Regularization</span>
+        <span class="paper-authors">Miao Pan, Wangjie Gan, Jintao Chen, Wenqi Zhang, Bing Sun, Jianwei Yin, Xuhong Zhang</span>
+        <span class="paper-meta">Updated 2026-01-13</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">While Multimodal Large Language Models (MLLMs) have achieved remarkable success across diverse tasks, their practical deployment is severely hindered by hallucination issues, which become particularly acute during Reinforcement Learning (RL) optimization. This paper systematically analyzes the root causes of hallucinations in MLLMs under RL training, identifying three critical factors: (1) an over-reliance on chained visual reasoning, where inaccurate initial descriptions or redundant information anchor subsequent inferences to incorrect premises; (2) insufficient exploration diversity during policy optimization, leading the model to generate overly confident but erroneous outputs; and (3) destructive conflicts between training samples, where Neural Tangent Kernel (NTK) similarity causes false associations and unstable parameter updates. To address these challenges, we propose a comprehensive framework comprising three core modules. First, we enhance visual localization by introducing dedicated planning and captioning stages before the reasoning phase, employing a quality-based caption reward to ensure accurate initial anchoring. Second, to improve exploration, we categorize samples based on the mean and variance of their reward distributions, prioritizing samples with high variance to focus the model on diverse and informative data. Finally, to mitigate sample interference, we regulate NTK similarity by grouping sample pairs and applying an InfoNCE loss to push overly similar pairs apart and pull dissimilar ones closer, thereby guiding gradient interactions toward a balanced range. Experimental results demonstrate that our proposed method significantly reduces hallucination rates and effectively enhances the inference accuracy of MLLMs.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.06224">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.06224.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.06224.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Multi-task Cross-modal Learning for Chest X-ray Image Retrieval</span>
+        <span class="paper-authors">Zhaohui Liang, Sivaramakrishnan Rajaraman, Niccolo Marini, Zhiyun Xue, Sameer Antani</span>
+        <span class="paper-meta">Updated 2026-01-08</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">CLIP and BiomedCLIP are examples of vision-language foundation models and offer strong cross-modal embeddings; however, they are not optimized for fine-grained medical retrieval tasks, such as retrieving clinically relevant radiology reports using chest X-ray (CXR) image queries. To address this shortcoming, we propose a multi-task learning framework to fine-tune BiomedCLIP and evaluate improvements to CXR image-text retrieval. Using BiomedCLIP as the backbone, we incorporate a lightweight MLP projector head trained with a multi-task composite loss function that includes: (1) a binary cross-entropy loss to distinguish normal from abnormal CXR studies, (2) a supervised contrastive loss to reinforce intra-class consistency, and (3) a CLIP loss to maintain cross-modal alignment. Experimental results demonstrate that the fine-tuned model achieves more balanced and clinically meaningful performance across both image-to-text and text-to-image retrieval tasks compared to the pretrained BiomedCLIP and general-purpose CLIP models. Furthermore, t-SNE visualizations reveal clearer semantic clustering of normal and abnormal cases, demonstrating the model&#x27;s enhanced diagnostic sensitivity. These findings highlight the value of domain-adaptive, multi-task learning for advancing cross-modal retrieval in biomedical applications.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.05399">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.05399.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.05399.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">ImLoc: Revisiting Visual Localization with Image-based Representation</span>
+        <span class="paper-authors">Xudong Jiang, Fangjinhua Wang, Silvano Galliani, Christoph Vogel, Marc Pollefeys</span>
+        <span class="paper-meta">Updated 2026-01-07</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Existing visual localization methods are typically either 2D image-based, which are easy to build and maintain but limited in effective geometric reasoning, or 3D structure-based, which achieve high accuracy but require a centralized reconstruction and are difficult to update. In this work, we revisit visual localization with a 2D image-based representation and propose to augment each image with estimated depth maps to capture the geometric structure. Supported by the effective use of dense matchers, this representation is not only easy to build and maintain, but achieves highest accuracy in challenging conditions. With compact compression and a GPU-accelerated LO-RANSAC implementation, the whole pipeline is efficient in both storage and computation and allows for a flexible trade-off between accuracy and highest memory efficiency. Our method achieves a new state-of-the-art accuracy on various standard benchmarks and outperforms existing memory-efficient methods at comparable map sizes. Code will be available at https://github.com/cvg/Hierarchical-Localization.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.04185">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.04185.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.04185.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">CSMCIR: CoT-Enhanced Symmetric Alignment with Memory Bank for Composed Image Retrieval</span>
+        <span class="paper-authors">Zhipeng Qian, Zihan Liang, Yufei Ma, Ben Chen, Huangyu Dai, Yiwei Ma, Jiayi Ji, Chenyi Lei, Han Li, Xiaoshuai Sun</span>
+        <span class="paper-meta">Updated 2026-01-07</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Composed Image Retrieval (CIR) enables users to search for target images using both a reference image and manipulation text, offering substantial advantages over single-modality retrieval systems. However, existing CIR methods suffer from representation space fragmentation: queries and targets comprise heterogeneous modalities and are processed by distinct encoders, forcing models to bridge misaligned representation spaces only through post-hoc alignment, which fundamentally limits retrieval performance. This architectural asymmetry manifests as three distinct, well-separated clusters in the feature space, directly demonstrating how heterogeneous modalities create fundamentally misaligned representation spaces from initialization. In this work, we propose CSMCIR, a unified representation framework that achieves efficient query-target alignment through three synergistic components. First, we introduce a Multi-level Chain-of-Thought (MCoT) prompting strategy that guides Multimodal Large Language Models to generate discriminative, semantically compatible captions for target images, establishing modal symmetry. Building upon this, we design a symmetric dual-tower architecture where both query and target sides utilize the identical shared-parameter Q-Former for cross-modal encoding, ensuring consistent feature representations and further reducing the alignment gap. Finally, this architectural symmetry enables an entropy-based, temporally dynamic Memory Bank strategy that provides high-quality negative samples while maintaining consistency with the evolving model state. Extensive experiments on four benchmark datasets demonstrate that our CSMCIR achieves state-of-the-art performance with superior training efficiency. Comprehensive ablation studies further validate the effectiveness of each proposed component.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.03728">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.03728.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.03728.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">BREATH-VL: Vision-Language-Guided 6-DoF Bronchoscopy Localization via Semantic-Geometric Fusion</span>
+        <span class="paper-authors">Qingyao Tian, Bingyu Yang, Huai Liao, Xinyan Huang, Junyong Li, Dong Yi, Hongbin Liu</span>
+        <span class="paper-meta">Updated 2026-01-07</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Vision-language models (VLMs) have recently shown remarkable performance in navigation and localization tasks by leveraging large-scale pretraining for semantic understanding. However, applying VLMs to 6-DoF endoscopic camera localization presents several challenges: 1) the lack of large-scale, high-quality, densely annotated, and localization-oriented vision-language datasets in real-world medical settings; 2) limited capability for fine-grained pose regression; and 3) high computational latency when extracting temporal features from past frames. To address these issues, we first construct BREATH dataset, the largest in-vivo endoscopic localization dataset to date, collected in the complex human airway. Building on this dataset, we propose BREATH-VL, a hybrid framework that integrates semantic cues from VLMs with geometric information from vision-based registration methods for accurate 6-DoF pose estimation. Our motivation lies in the complementary strengths of both approaches: VLMs offer generalizable semantic understanding, while registration methods provide precise geometric alignment. To further enhance the VLM&#x27;s ability to capture temporal context, we introduce a lightweight context-learning mechanism that encodes motion history as linguistic prompts, enabling efficient temporal reasoning without expensive video-level computation. Extensive experiments demonstrate that the vision-language module delivers robust semantic localization in challenging surgical scenes. Building on this, our BREATH-VL outperforms state-of-the-art vision-only localization methods in both accuracy and generalization, reducing translational error by 25.5% compared with the best-performing baseline, while achieving competitive computational latency.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.03713">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.03713.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.03713.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">HOLO: Homography-Guided Pose Estimator Network for Fine-Grained Visual Localization on SD Maps</span>
+        <span class="paper-authors">Xuchang Zhong, Xu Cao, Jinke Feng, Hao Fang</span>
+        <span class="paper-meta">Updated 2026-01-07</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Visual localization on standard-definition (SD) maps has emerged as a promising low-cost and scalable solution for autonomous driving. However, existing regression-based approaches often overlook inherent geometric priors, resulting in suboptimal training efficiency and limited localization accuracy. In this paper, we propose a novel homography-guided pose estimator network for fine-grained visual localization between multi-view images and standard-definition (SD) maps. We construct input pairs that satisfy a homography constraint by projecting ground-view features into the BEV domain and enforcing semantic alignment with map features. Then we leverage homography relationships to guide feature fusion and restrict the pose outputs to a valid feasible region, which significantly improves training efficiency and localization accuracy compared to prior methods relying on attention-based fusion and direct 3-DoF pose regression. To the best of our knowledge, this is the first work to unify BEV semantic reasoning with homography learning for image-to-map localization. Furthermore, by explicitly modeling homography transformations, the proposed framework naturally supports cross-resolution inputs, enhancing model flexibility. Extensive experiments on the nuScenes dataset demonstrate that our approach significantly outperforms existing state-of-the-art visual localization methods. Code and pretrained models will be publicly released to foster future research.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.02730">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.02730.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.02730.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Comparative Analysis of Binarization Methods For Medical Image Hashing On Odir Dataset</span>
+        <span class="paper-authors">Nedim Muzoglu</span>
+        <span class="paper-meta">Updated 2026-01-07</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">In this study, we evaluated four binarization methods. Locality-Sensitive Hashing (LSH), Iterative Quantization (ITQ), Kernel-based Supervised Hashing (KSH), and Supervised Discrete Hashing (SDH) on the ODIR dataset using deep feature embeddings. Experimental results show that SDH achieved the best performance, with an mAP@100 of 0.9184 using only 32-bit codes, outperforming LSH, ITQ, and KSH. Compared with prior studies, our method proved highly competitive: Fang et al. reported 0.7528 (Fundus-iSee, 48 bits) and 0.8856 (ASOCT-Cataract, 48 bits), while Wijesinghe et al. achieved 94.01 (KVASIR, 256 bits). Despite using significantly fewer bits, our SDH-based framework reached retrieval accuracy close to the state-of-the-art. These findings demonstrate that SDH is the most effective approach among those tested, offering a practical balance of accuracy, storage, and efficiency for medical image retrieval and device inventory management.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.02564">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.02564.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.02564.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Loop Closure using AnyLoc Visual Place Recognition in DPV-SLAM</span>
+        <span class="paper-authors">Wenzheng Zhang, Kazuki Adachi, Yoshitaka Hara, Sousuke Nakamura</span>
+        <span class="paper-meta">Updated 2026-01-06</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Loop closure is crucial for maintaining the accuracy and consistency of visual SLAM. We propose a method to improve loop closure performance in DPV-SLAM. Our approach integrates AnyLoc, a learning-based visual place recognition technique, as a replacement for the classical Bag of Visual Words (BoVW) loop detection method. In contrast to BoVW, which relies on handcrafted features, AnyLoc utilizes deep feature representations, enabling more robust image retrieval across diverse viewpoints and lighting conditions. Furthermore, we propose an adaptive mechanism that dynamically adjusts similarity threshold based on environmental conditions, removing the need for manual tuning. Experiments on both indoor and outdoor datasets demonstrate that our method significantly outperforms the original DPV-SLAM in terms of loop closure accuracy and robustness. The proposed method offers a practical and scalable solution for enhancing loop closure performance in modern SLAM systems.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.02723">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.02723.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.02723.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Vision-Language Reasoning for Geolocalization: A Reinforcement Learning Approach</span>
+        <span class="paper-authors">Biao Wu, Meng Fang, Ling Chen, Ke Xu, Tao Cheng, Jun Wang</span>
+        <span class="paper-meta">Updated 2026-01-05</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Recent advances in vision-language models have opened up new possibilities for reasoning-driven image geolocalization. However, existing approaches often rely on synthetic reasoning annotations or external image retrieval, which can limit interpretability and generalizability. In this paper, we present Geo-R, a retrieval-free framework that uncovers structured reasoning paths from existing ground-truth coordinates and optimizes geolocation accuracy via reinforcement learning. We propose the Chain of Region, a rule-based hierarchical reasoning paradigm that generates precise, interpretable supervision by mapping GPS coordinates to geographic entities (e.g., country, province, city) without relying on model-generated or synthetic labels. Building on this, we introduce a lightweight reinforcement learning strategy with coordinate-aligned rewards based on Haversine distance, enabling the model to refine predictions through spatially meaningful feedback. Our approach bridges structured geographic reasoning with direct spatial supervision, yielding improved localization accuracy, stronger generalization, and more transparent inference. Experimental results across multiple benchmarks confirm the effectiveness of Geo-R, establishing a new retrieval-free paradigm for scalable and interpretable image geolocalization. To facilitate further research and ensure reproducibility, both the model and code will be made publicly available.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.00388">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.00388.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.00388.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -38,17 +647,17 @@ title: Visual Localization
     <details class="paper-details">
       <summary>
         <span class="paper-title">OCP-LS: An Efficient Algorithm for Visual Localization</span>
-        <span class="paper-authors">Jindi Zhong et.al.</span>
+        <span class="paper-authors">Jindi Zhong, Hongxia Wang, Huanshui Zhang</span>
         <span class="paper-meta">Updated 2025-12-31</span>
       </summary>
       <div class="paper-body">
-        <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
+        <p class="paper-abstract">This paper proposes a novel second-order optimization algorithm. It aims to address large-scale optimization problems in deep learning because it incorporates the OCP method and appropriately approximating the diagonal elements of the Hessian matrix. Extensive experiments on multiple standard visual localization benchmarks demonstrate the significant superiority of the proposed method. Compared with conventional optimiza tion algorithms, our framework achieves competitive localization accuracy while exhibiting faster convergence, enhanced training stability, and improved robustness to noise interference.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.24552">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.24552.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.24552">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.24552.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.24552.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.24552.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -59,17 +668,17 @@ title: Visual Localization
     <details class="paper-details">
       <summary>
         <span class="paper-title">Geometric Multi-Session Map Merging with Learned Local Descriptors</span>
-        <span class="paper-authors">Yanlong Ma et.al.</span>
+        <span class="paper-authors">Yanlong Ma, Nakul S. Joshi, Christa S. Robison, Philip R. Osteen, Brett T. Lopez</span>
         <span class="paper-meta">Updated 2025-12-30</span>
       </summary>
       <div class="paper-body">
-        <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
+        <p class="paper-abstract">Multi-session map merging is crucial for extended autonomous operations in large-scale environments. In this paper, we present GMLD, a learning-based local descriptor framework for large-scale multi-session point cloud map merging that systematically aligns maps collected across different sessions with overlapping regions. The proposed framework employs a keypoint-aware encoder and a plane-based geometric transformer to extract discriminative features for loop closure detection and relative pose estimation. To further improve global consistency, we include inter-session scan matching cost factors in the factor-graph optimization stage. We evaluate our framework on the public datasets, as well as self-collected data from diverse environments. The results show accurate and robust map merging with low error, and the learned features deliver strong performance in both loop closure detection and relative pose estimation.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.24384">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.24384.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.24384">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.24384.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.24384.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.24384.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -80,17 +689,17 @@ title: Visual Localization
     <details class="paper-details">
       <summary>
         <span class="paper-title">Learning to Feel the Future: DreamTacVLA for Contact-Rich Manipulation</span>
-        <span class="paper-authors">Guo Ye et.al.</span>
+        <span class="paper-authors">Guo Ye, Zexi Zhang, Xu Zhao, Shang Wu, Haoran Lu, Shihan Lu, Han Liu</span>
         <span class="paper-meta">Updated 2025-12-29</span>
       </summary>
       <div class="paper-body">
-        <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
+        <p class="paper-abstract">Vision-Language-Action (VLA) models have shown remarkable generalization by mapping web-scale knowledge to robotic control, yet they remain blind to physical contact. Consequently, they struggle with contact-rich manipulation tasks that require reasoning about force, texture, and slip. While some approaches incorporate low-dimensional tactile signals, they fail to capture the high-resolution dynamics essential for such interactions. To address this limitation, we introduce DreamTacVLA, a framework that grounds VLA models in contact physics by learning to feel the future. Our model adopts a hierarchical perception scheme in which high-resolution tactile images serve as micro-vision inputs coupled with wrist-camera local vision and third-person macro vision. To reconcile these multi-scale sensory streams, we first train a unified policy with a Hierarchical Spatial Alignment (HSA) loss that aligns tactile tokens with their spatial counterparts in the wrist and third-person views. To further deepen the model&#x27;s understanding of fine-grained contact dynamics, we finetune the system with a tactile world model that predicts future tactile signals. To mitigate tactile data scarcity and the wear-prone nature of tactile sensors, we construct a hybrid large-scale dataset sourced from both high-fidelity digital twin and real-world experiments. By anticipating upcoming tactile states, DreamTacVLA acquires a rich model of contact physics and conditions its actions on both real observations and imagined consequences. Across contact-rich manipulation tasks, it outperforms state-of-the-art VLA baselines, achieving up to 95% success, highlighting the importance of understanding physical contact for robust, touch-aware robotic agents.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.23864">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.23864.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.23864">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.23864.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.23864.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.23864.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -101,17 +710,17 @@ title: Visual Localization
     <details class="paper-details">
       <summary>
         <span class="paper-title">MindWatcher: Toward Smarter Multimodal Tool-Integrated Reasoning</span>
-        <span class="paper-authors">Jiawei Chen et.al.</span>
+        <span class="paper-authors">Jiawei Chen, Xintian Shen, Lihao Zheng, Zhenwei Shao, Hongyuan Zhang, Pengfei Yu, Xudong Rao, Ning Mao, Xiaobo Liu, Lian Wen, Chaoqun Du, Feng Gu, Wei He, Qizhen Li, Shanshan Li, Zide Liu, Jing Luo, Lifu Mu, Xuhao Pan, Chang Ren, Haoyi Sun, Qian Wang, Wei Wang, Hongfu Yang, Jiqing Zhan, Chunpeng Zhou, Zheng Zhou, Hao Ma, Tao Wei, Pan Zhou, Wei Chen</span>
         <span class="paper-meta">Updated 2025-12-29</span>
       </summary>
       <div class="paper-body">
-        <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
+        <p class="paper-abstract">Traditional workflow-based agents exhibit limited intelligence when addressing real-world problems requiring tool invocation. Tool-integrated reasoning (TIR) agents capable of autonomous reasoning and tool invocation are rapidly emerging as a powerful approach for complex decision-making tasks involving multi-step interactions with external environments. In this work, we introduce MindWatcher, a TIR agent integrating interleaved thinking and multimodal chain-of-thought (CoT) reasoning. MindWatcher can autonomously decide whether and how to invoke diverse tools and coordinate their use, without relying on human prompts or workflows. The interleaved thinking paradigm enables the model to switch between thinking and tool calling at any intermediate stage, while its multimodal CoT capability allows manipulation of images during reasoning to yield more precise search results. We implement automated data auditing and evaluation pipelines, complemented by manually curated high-quality datasets for training, and we construct a benchmark, called MindWatcher-Evaluate Bench (MWE-Bench), to evaluate its performance. MindWatcher is equipped with a comprehensive suite of auxiliary reasoning tools, enabling it to address broad-domain multimodal problems. A large-scale, high-quality local image retrieval database, covering eight categories including cars, animals, and plants, endows model with robust object recognition despite its small size. Finally, we design a more efficient training infrastructure for MindWatcher, enhancing training speed and hardware utilization. Experiments not only demonstrate that MindWatcher matches or exceeds the performance of larger or more recent models through superior tool invocation, but also uncover critical insights for agent training, such as the genetic inheritance phenomenon in agentic RL.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.23412">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.23412.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.23412">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.23412.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.23412.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.23412.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -122,17 +731,17 @@ title: Visual Localization
     <details class="paper-details">
       <summary>
         <span class="paper-title">Anomaly Detection by Effectively Leveraging Synthetic Images</span>
-        <span class="paper-authors">Sungho Kang et.al.</span>
+        <span class="paper-authors">Sungho Kang, Hyunkyu Park, Yeonho Lee, Hanbyul Lee, Mijoo Jeong, YeongHyeon Park, Injae Lee, Juneho Yi</span>
         <span class="paper-meta">Updated 2025-12-29</span>
       </summary>
       <div class="paper-body">
-        <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
+        <p class="paper-abstract">Anomaly detection plays a vital role in industrial manufacturing. Due to the scarcity of real defect images, unsupervised approaches that rely solely on normal images have been extensively studied. Recently, diffusion-based generative models brought attention to training data synthesis as an alternative solution. In this work, we focus on a strategy to effectively leverage synthetic images to maximize the anomaly detection performance. Previous synthesis strategies are broadly categorized into two groups, presenting a clear trade-off. Rule-based synthesis, such as injecting noise or pasting patches, is cost-effective but often fails to produce realistic defect images. On the other hand, generative model-based synthesis can create high-quality defect images but requires substantial cost. To address this problem, we propose a novel framework that leverages a pre-trained text-guided image-to-image translation model and image retrieval model to efficiently generate synthetic defect images. Specifically, the image retrieval model assesses the similarity of the generated images to real normal images and filters out irrelevant outputs, thereby enhancing the quality and relevance of the generated defect images. To effectively leverage synthetic images, we also introduce a two stage training strategy. In this strategy, the model is first pre-trained on a large volume of images from rule-based synthesis and then fine-tuned on a smaller set of high-quality images. This method significantly reduces the cost for data collection while improving the anomaly detection performance. Experiments on the MVTec AD dataset demonstrate the effectiveness of our approach.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.23227">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.23227.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.23227">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.23227.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.23227.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.23227.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -143,17 +752,17 @@ title: Visual Localization
     <details class="paper-details">
       <summary>
         <span class="paper-title">UniPR-3D: Towards Universal Visual Place Recognition with Visual Geometry Grounded Transformer</span>
-        <span class="paper-authors">Tianchen Deng et.al.</span>
+        <span class="paper-authors">Tianchen Deng, Xun Chen, Ziming Li, Hongming Shen, Danwei Wang, Javier Civera, Hesheng Wang</span>
         <span class="paper-meta">Updated 2025-12-28</span>
       </summary>
       <div class="paper-body">
-        <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
+        <p class="paper-abstract">Visual Place Recognition (VPR) has been traditionally formulated as a single-image retrieval task. Using multiple views offers clear advantages, yet this setting remains relatively underexplored and existing methods often struggle to generalize across diverse environments. In this work we introduce UniPR-3D, the first VPR architecture that effectively integrates information from multiple views. UniPR-3D builds on a VGGT backbone capable of encoding multi-view 3D representations, which we adapt by designing feature aggregators and fine-tune for the place recognition task. To construct our descriptor, we jointly leverage the 3D tokens and intermediate 2D tokens produced by VGGT. Based on their distinct characteristics, we design dedicated aggregation modules for 2D and 3D features, allowing our descriptor to capture fine-grained texture cues while also reasoning across viewpoints. To further enhance generalization, we incorporate both single- and multi-frame aggregation schemes, along with a variable-length sequence retrieval strategy. Our experiments show that UniPR-3D sets a new state of the art, outperforming both single- and multi-view baselines and highlighting the effectiveness of geometry-grounded tokens for VPR. Our code and models will be made publicly available on Github https://github.com/dtc111111/UniPR-3D.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.21078">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.21078.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.21078">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.21078.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.21078.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.21078.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -164,17 +773,17 @@ title: Visual Localization
     <details class="paper-details">
       <summary>
         <span class="paper-title">Reloc-VGGT: Visual Re-localization with Geometry Grounded Transformer</span>
-        <span class="paper-authors">Tianchen Deng et.al.</span>
+        <span class="paper-authors">Tianchen Deng, Wenhua Wu, Kunzhen Wu, Guangming Wang, Siting Zhu, Shenghai Yuan, Xun Chen, Guole Shen, Zhe Liu, Hesheng Wang</span>
         <span class="paper-meta">Updated 2025-12-26</span>
       </summary>
       <div class="paper-body">
-        <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
+        <p class="paper-abstract">Visual localization has traditionally been formulated as a pair-wise pose regression problem. Existing approaches mainly estimate relative poses between two images and employ a late-fusion strategy to obtain absolute pose estimates. However, the late motion average is often insufficient for effectively integrating spatial information, and its accuracy degrades in complex environments. In this paper, we present the first visual localization framework that performs multi-view spatial integration through an early-fusion mechanism, enabling robust operation in both structured and unstructured environments. Our framework is built upon the VGGT backbone, which encodes multi-view 3D geometry, and we introduce a pose tokenizer and projection module to more effectively exploit spatial relationships from multiple database views. Furthermore, we propose a novel sparse mask attention strategy that reduces computational cost by avoiding the quadratic complexity of global attention, thereby enabling real-time performance at scale. Trained on approximately eight million posed image pairs, Reloc-VGGT demonstrates strong accuracy and remarkable generalization ability. Extensive experiments across diverse public datasets consistently validate the effectiveness and efficiency of our approach, delivering high-quality camera pose estimates in real time while maintaining robustness to unseen environments. Our code and models will be publicly released upon acceptance.https://github.com/dtc111111/Reloc-VGGT.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.21883">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.21883.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.21883">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.21883.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.21883.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.21883.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -185,17 +794,17 @@ title: Visual Localization
     <details class="paper-details">
       <summary>
         <span class="paper-title">Leveraging Lightweight Entity Extraction for Scalable Event-Based Image Retrieval</span>
-        <span class="paper-authors">Dao Sy Duy Minh et.al.</span>
+        <span class="paper-authors">Dao Sy Duy Minh, Huynh Trung Kiet, Nguyen Lam Phu Quy, Phu-Hoa Pham, Tran Chi Nguyen</span>
         <span class="paper-meta">Updated 2025-12-24</span>
       </summary>
       <div class="paper-body">
-        <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
+        <p class="paper-abstract">Retrieving images from natural language descriptions is a core task at the intersection of computer vision and natural language processing, with wide-ranging applications in search engines, media archiving, and digital content management. However, real-world image-text retrieval remains challenging due to vague or context-dependent queries, linguistic variability, and the need for scalable solutions. In this work, we propose a lightweight two-stage retrieval pipeline that leverages event-centric entity extraction to incorporate temporal and contextual signals from real-world captions. The first stage performs efficient candidate filtering using BM25 based on salient entities, while the second stage applies BEiT-3 models to capture deep multimodal semantics and rerank the results. Evaluated on the OpenEvents v1 benchmark, our method achieves a mean average precision of 0.559, substantially outperforming prior baselines. These results highlight the effectiveness of combining event-guided filtering with long-text vision-language modeling for accurate and efficient retrieval in complex, real-world scenarios. Our code is available at https://github.com/PhamPhuHoa-23/Event-Based-Image-Retrieval</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.21221">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.21221.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.21221">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.21221.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.21221.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.21221.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -206,17 +815,17 @@ title: Visual Localization
     <details class="paper-details">
       <summary>
         <span class="paper-title">Soft Filtering: Guiding Zero-shot Composed Image Retrieval with Prescriptive and Proscriptive Constraints</span>
-        <span class="paper-authors">Youjin Jung et.al.</span>
+        <span class="paper-authors">Youjin Jung, Seongwoo Cho, Hyun-seok Min, Sungchul Choi</span>
         <span class="paper-meta">Updated 2025-12-23</span>
       </summary>
       <div class="paper-body">
-        <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
+        <p class="paper-abstract">Composed Image Retrieval (CIR) aims to find a target image that aligns with user intent, expressed through a reference image and a modification text. While Zero-shot CIR (ZS-CIR) methods sidestep the need for labeled training data by leveraging pretrained vision-language models, they often rely on a single fused query that merges all descriptive cues of what the user wants, tending to dilute key information and failing to account for what they wish to avoid. Moreover, current CIR benchmarks assume a single correct target per query, overlooking the ambiguity in modification texts. To address these challenges, we propose Soft Filtering with Textual constraints (SoFT), a training-free, plug-and-play filtering module for ZS-CIR. SoFT leverages multimodal large language models (LLMs) to extract two complementary constraints from the reference-modification pair: prescriptive (must-have) and proscriptive (must-avoid) constraints. These serve as semantic filters that reward or penalize candidate images to re-rank results, without modifying the base retrieval model or adding supervision. In addition, we construct a two-stage dataset pipeline that refines CIR benchmarks. We first identify multiple plausible targets per query to construct multi-target triplets, capturing the open-ended nature of user intent. Then guide multimodal LLMs to rewrite the modification text to focus on one target, while referencing contrastive distractors to ensure precision. This enables more comprehensive and reliable evaluation under varying ambiguity levels. Applied on top of CIReVL, a ZS-CIR retriever, SoFT raises R@5 to 65.25 on CIRR (+12.94), mAP@50 to 27.93 on CIRCO (+6.13), and R@50 to 58.44 on FashionIQ (+4.59), demonstrating broad effectiveness.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.20781">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.20781.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.20781">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.20781.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.20781.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.20781.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -233,11 +842,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.20174">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.20174.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.20174">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.20174.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.20174.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.20174.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -254,11 +863,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.19663">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.19663.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.19663">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.19663.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.19663.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.19663.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -275,11 +884,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.19026">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.19026.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.19026">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.19026.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.19026.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.19026.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -296,11 +905,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.18613">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.18613.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.18613">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.18613.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.18613.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.18613.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -317,11 +926,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.18407">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.18407.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.18407">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.18407.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.18407.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.18407.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -338,11 +947,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.17226">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.17226.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.17226">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.17226.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.17226.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.17226.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -359,11 +968,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.17121">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.17121.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.17121">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.17121.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.17121.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.17121.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -380,11 +989,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.16294">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.16294.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.16294">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.16294.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.16294.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.16294.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -401,11 +1010,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.14560">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.14560.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.14560">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.14560.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.14560.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.14560.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -422,11 +1031,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.14102">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.14102.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.14102">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.14102.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.14102.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.14102.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -443,11 +1052,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.13055">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.13055.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.13055">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.13055.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.13055.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.13055.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -464,11 +1073,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.12610">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.12610.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.12610">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.12610.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.12610.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.12610.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -485,11 +1094,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.10596">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.10596.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.10596">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.10596.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.10596.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.10596.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -506,11 +1115,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.09903">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.09903.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.09903">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.09903.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.09903.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.09903.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -527,11 +1136,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.09071">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.09071.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.09071">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.09071.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.09071.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.09071.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -548,11 +1157,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.07338">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.07338.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.07338">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.07338.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.07338.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.07338.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -569,11 +1178,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.06865">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.06865.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.06865">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.06865.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.06865.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.06865.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -590,11 +1199,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.06255">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.06255.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.06255">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.06255.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.06255.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.06255.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -611,11 +1220,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.06147">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.06147.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.06147">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.06147.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.06147.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.06147.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -632,11 +1241,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.05111">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.05111.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.05111">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.05111.pdf">PDF</a>
           <a class="chip" href="https://github.com/InternLM/ARM-Thinker">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.05111.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.05111.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -653,11 +1262,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.05091">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.05091.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.05091">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.05091.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.05091.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.05091.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -674,11 +1283,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.05039">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.05039.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.05039">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.05039.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.05039.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.05039.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -695,11 +1304,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.05007">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.05007.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.05007">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.05007.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.05007.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.05007.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -716,11 +1325,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.04989">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.04989.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.04989">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.04989.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.04989.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.04989.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -737,11 +1346,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.04939">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.04939.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.04939">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.04939.pdf">PDF</a>
           <a class="chip" href="https://github.com/GarlicBa/LiteVGGT-repo">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.04939.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.04939.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -758,11 +1367,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.04783">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.04783.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.04783">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.04783.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.04783.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.04783.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -779,11 +1388,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.04772">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.04772.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.04772">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.04772.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.04772.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.04772.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -800,11 +1409,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.04763">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.04763.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.04763">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.04763.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.04763.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.04763.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -821,11 +1430,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.04662">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.04662.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.04662">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.04662.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.04662.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.04662.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -842,11 +1451,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.02792">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.02792.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.02792">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.02792.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.02792.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.02792.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -863,11 +1472,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.02697">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.02697.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.02697">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.02697.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.02697.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.02697.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -884,11 +1493,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.01636">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.01636.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.01636">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.01636.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.01636.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.01636.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -905,11 +1514,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.01498">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.01498.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.01498">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.01498.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.01498.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.01498.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -926,11 +1535,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.22860">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.22860.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.22860">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.22860.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.22860.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.22860.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -947,11 +1556,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.22253">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.22253.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.22253">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.22253.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.22253.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.22253.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -968,11 +1577,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.21663">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.21663.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.21663">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.21663.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.21663.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.21663.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -989,11 +1598,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.21647">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.21647.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.21647">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.21647.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.21647.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.21647.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1010,11 +1619,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.21631">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.21631.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.21631">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.21631.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.21631.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.21631.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1031,11 +1640,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.21579">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.21579.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.21579">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.21579.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.21579.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.21579.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1052,11 +1661,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.21389">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.21389.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.21389">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.21389.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.21389.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.21389.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1073,11 +1682,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.21375">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.21375.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.21375">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.21375.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.21375.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.21375.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1094,11 +1703,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.21317">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.21317.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.21317">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.21317.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.21317.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.21317.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1115,11 +1724,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.21311">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.21311.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.21311">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.21311.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.21311.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.21311.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1136,11 +1745,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.21271">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.21271.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.21271">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.21271.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.21271.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.21271.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1157,11 +1766,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.21202">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.21202.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.21202">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.21202.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.21202.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.21202.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1178,11 +1787,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.19400">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.19400.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.19400">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.19400.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.19400.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.19400.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1199,11 +1808,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.19396">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.19396.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.19396">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.19396.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.19396.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.19396.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1220,11 +1829,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.19226">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.19226.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.19226">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.19226.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.19226.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.19226.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1241,11 +1850,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.19200">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.19200.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.19200">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.19200.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.19200.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.19200.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1262,11 +1871,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.19149">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.19149.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.19149">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.19149.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.19149.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.19149.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1283,11 +1892,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.19105">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.19105.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.19105">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.19105.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.19105.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.19105.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1304,11 +1913,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.19080">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.19080.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.19080">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.19080.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.19080.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.19080.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1325,11 +1934,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.19057">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.19057.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.19057">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.19057.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.19057.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.19057.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1346,11 +1955,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.19031">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.19031.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.19031">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.19031.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.19031.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.19031.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1367,11 +1976,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.19021">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.19021.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.19021">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.19021.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.19021.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.19021.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1388,11 +1997,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.15705">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.15705.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.15705">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.15705.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.15705.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.15705.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1409,11 +2018,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.15700">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.15700.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.15700">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.15700.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.15700.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.15700.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1430,11 +2039,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.15633">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.15633.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.15633">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.15633.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.15633.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.15633.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1451,11 +2060,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.15515">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.15515.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.15515">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.15515.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.15515.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.15515.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1472,11 +2081,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.15464">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.15464.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.15464">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.15464.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.15464.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.15464.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1493,11 +2102,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.15435">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.15435.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.15435">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.15435.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.15435.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.15435.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1514,11 +2123,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.15370">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.15370.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.15370">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.15370.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.15370.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.15370.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1535,11 +2144,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.15333">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.15333.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.15333">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.15333.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.15333.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.15333.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1556,11 +2165,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.15201">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.15201.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.15201">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.15201.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.15201.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.15201.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1577,11 +2186,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.15118">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.15118.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.15118">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.15118.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.15118.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.15118.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1598,11 +2207,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.05404">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.05404.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.05404">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.05404.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.05404.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.05404.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1619,11 +2228,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.05020">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.05020.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.05020">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.05020.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.05020.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.05020.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1640,11 +2249,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.04384">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.04384.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.04384">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.04384.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.04384.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.04384.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1661,11 +2270,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.04232">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.04232.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.04232">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.04232.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.04232.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.04232.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1682,11 +2291,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.02489">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.02489.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.02489">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.02489.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.02489.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.02489.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1703,11 +2312,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.02371">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.02371.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.02371">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.02371.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.02371.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.02371.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1724,11 +2333,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.01390">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.01390.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.01390">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.01390.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.01390.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.01390.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1745,11 +2354,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.26861">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.26861.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.26861">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.26861.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.26861.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.26861.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1766,11 +2375,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.00925">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.00925.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.00925">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.00925.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.00925.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.00925.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1787,11 +2396,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.00635">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.00635.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.00635">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.00635.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.00635.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.00635.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1808,11 +2417,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.27243">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.27243.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.27243">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.27243.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.27243.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.27243.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1829,11 +2438,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.26795">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.26795.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.26795">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.26795.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.26795.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.26795.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1850,11 +2459,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.25387">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.25387.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.25387">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.25387.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.25387.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.25387.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1871,11 +2480,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.24813">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.24813.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.24813">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.24813.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.24813.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.24813.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1892,11 +2501,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.23224">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.23224.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.23224">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.23224.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.23224.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.23224.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1913,11 +2522,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.22868">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.22868.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.22868">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.22868.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.22868.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.22868.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1934,11 +2543,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.22754">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.22754.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.22754">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.22754.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.22754.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.22754.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1955,11 +2564,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.22736">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.22736.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.22736">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.22736.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.22736.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.22736.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1976,11 +2585,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.22571">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.22571.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.22571">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.22571.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.22571.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.22571.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1997,11 +2606,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.22529">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.22529.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.22529">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.22529.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.22529.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.22529.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2018,11 +2627,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.20095">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.20095.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.20095">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.20095.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.20095.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.20095.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2039,11 +2648,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.18437">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.18437.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.18437">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.18437.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.18437.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.18437.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2060,11 +2669,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.18433">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.18433.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.18433">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.18433.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.18433.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.18433.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2081,11 +2690,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.18218">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.18218.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.18218">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.18218.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.18218.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.18218.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2102,11 +2711,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.17739">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.17739.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.17739">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.17739.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.17739.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.17739.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2123,11 +2732,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.18890">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.18890.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.18890">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.18890.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.18890.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.18890.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2144,11 +2753,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.14535">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.14535.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.14535">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.14535.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.14535.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.14535.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2165,11 +2774,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.13464">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.13464.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.13464">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.13464.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.13464.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.13464.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2186,11 +2795,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.12014">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.12014.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.12014">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.12014.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.12014.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.12014.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2207,11 +2816,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.08976">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.08976.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.08976">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.08976.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.08976.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.08976.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2228,11 +2837,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.08094">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.08094.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.08094">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.08094.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.08094.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.08094.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2249,11 +2858,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.08003">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.08003.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.08003">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.08003.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.08003.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.08003.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2270,11 +2879,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.07703">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.07703.pdf">PDF</a>
-          <span class="chip ghost">Code: N/A</span>
+          <a class="chip" href="https://arxiv.org/abs/2510.07703">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.07703.pdf">PDF</a>
+          <a class="chip" href="https://github.com/mxx0723/MLH">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.07703.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.07703.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2291,11 +2900,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.06868">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.06868.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.06868">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.06868.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.06868.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.06868.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2312,11 +2921,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.05586">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.05586.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.05586">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.05586.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.05586.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.05586.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2333,11 +2942,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.05411">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.05411.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.05411">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.05411.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.05411.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.05411.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2354,11 +2963,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.04282">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.04282.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.04282">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.04282.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.04282.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.04282.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2375,11 +2984,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.03751">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.03751.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.03751">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.03751.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.03751.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.03751.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2396,11 +3005,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.02874">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.02874.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.02874">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.02874.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.02874.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.02874.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2417,11 +3026,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.02728">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.02728.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.02728">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.02728.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.02728.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.02728.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2438,11 +3047,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.01183">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.01183.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.01183">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.01183.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.01183.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.01183.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2459,11 +3068,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.00978">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.00978.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.00978">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.00978.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.00978.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.00978.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2480,11 +3089,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.00783">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.00783.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.00783">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.00783.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.00783.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.00783.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2501,11 +3110,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.26604">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.26604.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.26604">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.26604.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.26604.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.26604.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2522,11 +3131,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.26330">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.26330.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.26330">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.26330.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.26330.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.26330.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2543,11 +3152,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.26012">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.26012.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.26012">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.26012.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.26012.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.26012.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2564,11 +3173,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.25723">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.25723.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.25723">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.25723.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.25723.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.25723.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2585,11 +3194,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.25520">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.25520.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.25520">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.25520.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.25520.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.25520.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2606,11 +3215,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.24477">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.24477.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.24477">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.24477.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.24477.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.24477.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2627,11 +3236,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.24094">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.24094.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.24094">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.24094.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.24094.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.24094.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2648,11 +3257,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.22307">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.22307.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.22307">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.22307.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.22307.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.22307.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2669,11 +3278,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.15472">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.15472.pdf">PDF</a>
-          <span class="chip ghost">Code: N/A</span>
+          <a class="chip" href="https://arxiv.org/abs/2509.15472">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.15472.pdf">PDF</a>
+          <a class="chip" href="https://github.com/ichbill/EDGE">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.15472.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.15472.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2690,11 +3299,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.20271">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.20271.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.20271">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.20271.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.20271.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.20271.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2711,11 +3320,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.20401">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.20401.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.20401">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.20401.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.20401.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.20401.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2732,11 +3341,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.19203">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.19203.pdf">PDF</a>
-          <span class="chip ghost">Code: N/A</span>
+          <a class="chip" href="https://arxiv.org/abs/2509.19203">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.19203.pdf">PDF</a>
+          <a class="chip" href="https://github.com/IoannaNti/LexiCLIP">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.19203.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.19203.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2753,11 +3362,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.18350">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.18350.pdf">PDF</a>
-          <span class="chip ghost">Code: N/A</span>
+          <a class="chip" href="https://arxiv.org/abs/2509.18350">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.18350.pdf">PDF</a>
+          <a class="chip" href="https://github.com/deepscenario/OrthoLoC">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.18350.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.18350.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2774,11 +3383,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.17049">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.17049.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.17049">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.17049.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.17049.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.17049.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2795,11 +3404,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.15432">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.15432.pdf">PDF</a>
-          <span class="chip ghost">Code: N/A</span>
+          <a class="chip" href="https://arxiv.org/abs/2509.15432">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.15432.pdf">PDF</a>
+          <a class="chip" href="https://github.com/thongnt99/serval">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.15432.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.15432.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2816,11 +3425,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.14985">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.14985.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.14985">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.14985.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.14985.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.14985.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2837,11 +3446,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.14746">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.14746.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.14746">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.14746.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.14746.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.14746.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2858,11 +3467,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.14565">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.14565.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.14565">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.14565.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.14565.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.14565.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2879,11 +3488,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.14516">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.14516.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.14516">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.14516.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.14516.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.14516.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2900,11 +3509,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.14427">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.14427.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.14427">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.14427.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.14427.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.14427.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2921,11 +3530,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.14104">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.14104.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.14104">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.14104.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.14104.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.14104.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2942,11 +3551,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.12824">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.12824.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.12824">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.12824.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.12824.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.12824.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2963,11 +3572,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.13474">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.13474.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.13474">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.13474.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.13474.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.13474.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2984,11 +3593,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.13414">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.13414.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.13414">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.13414.pdf">PDF</a>
           <a class="chip" href="https://github.com/facebookresearch/map-anything">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.13414.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.13414.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3005,11 +3614,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.11862">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.11862.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.11862">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.11862.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.11862.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.11862.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3026,11 +3635,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.09306">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.09306.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.09306">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.09306.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.09306.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.09306.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3047,11 +3656,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.07362">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.07362.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.07362">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.07362.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.07362.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.07362.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3068,11 +3677,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.06566">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.06566.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.06566">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.06566.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.06566.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.06566.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3089,11 +3698,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.04948">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.04948.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.04948">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.04948.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.04948.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.04948.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3110,11 +3719,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.04772">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.04772.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.04772">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.04772.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.04772.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.04772.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3131,11 +3740,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.04351">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.04351.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.04351">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.04351.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.04351.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.04351.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3152,11 +3761,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.04193">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.04193.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.04193">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.04193.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.04193.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.04193.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3173,11 +3782,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.02129">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.02129.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.02129">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.02129.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.02129.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.02129.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3194,11 +3803,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.01968">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.01968.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.01968">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.01968.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.01968.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.01968.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3215,11 +3824,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.01360">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.01360.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.01360">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.01360.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.01360.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.01360.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3236,11 +3845,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.01259">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.01259.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.01259">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.01259.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.01259.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.01259.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3257,11 +3866,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2507.12823">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2507.12823.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2507.12823">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2507.12823.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2507.12823.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.12823.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3278,11 +3887,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2507.12819">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2507.12819.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2507.12819">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2507.12819.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2507.12819.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.12819.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3299,11 +3908,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2507.12416">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2507.12416.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2507.12416">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2507.12416.pdf">PDF</a>
           <a class="chip" href="https://github.com/jackwaky/QuRe">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2507.12416.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.12416.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3320,11 +3929,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2507.11834">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2507.11834.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2507.11834">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2507.11834.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2507.11834.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.11834.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3341,11 +3950,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2507.10473">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2507.10473.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2507.10473">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2507.10473.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2507.10473.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.10473.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3362,11 +3971,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2507.10403">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2507.10403.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2507.10403">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2507.10403.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2507.10403.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.10403.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3383,11 +3992,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2507.10265">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2507.10265.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2507.10265">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2507.10265.pdf">PDF</a>
           <a class="chip" href="https://github.com/wakuwu/KBA">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2507.10265.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.10265.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3404,11 +4013,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2507.08546">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2507.08546.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2507.08546">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2507.08546.pdf">PDF</a>
           <a class="chip" href="https://github.com/nainye/RadiomicsRetrieval">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2507.08546.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.08546.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3425,11 +4034,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2507.08420">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2507.08420.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2507.08420">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2507.08420.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2507.08420.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.08420.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3446,11 +4055,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2507.08404">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2507.08404.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2507.08404">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2507.08404.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2507.08404.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.08404.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3467,11 +4076,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2507.07467">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2507.07467.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2507.07467">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2507.07467.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2507.07467.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.07467.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3488,11 +4097,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2507.07384">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2507.07384.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2507.07384">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2507.07384.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2507.07384.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.07384.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3509,11 +4118,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2507.07079">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2507.07079.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2507.07079">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2507.07079.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2507.07079.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.07079.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3530,11 +4139,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2507.06654">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2507.06654.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2507.06654">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2507.06654.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2507.06654.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.06654.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3551,11 +4160,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2507.05970">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2507.05970.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2507.05970">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2507.05970.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2507.05970.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.05970.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3572,11 +4181,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2507.05631">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2507.05631.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2507.05631">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2507.05631.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2507.05631.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.05631.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3593,11 +4202,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2507.04667">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2507.04667.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2507.04667">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2507.04667.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2507.04667.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.04667.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3614,11 +4223,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2507.05513">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2507.05513.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2507.05513">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2507.05513.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2507.05513.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.05513.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3635,11 +4244,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2507.04735">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2507.04735.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2507.04735">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2507.04735.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2507.04735.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.04735.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3656,11 +4265,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2507.04662">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2507.04662.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2507.04662">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2507.04662.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2507.04662.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.04662.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3677,11 +4286,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2507.04503">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2507.04503.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2507.04503">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2507.04503.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2507.04503.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.04503.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3698,11 +4307,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2507.03831">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2507.03831.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2507.03831">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2507.03831.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2507.03831.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.03831.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3719,11 +4328,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2507.00659">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2507.00659.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2507.00659">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2507.00659.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2507.00659.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.00659.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3740,11 +4349,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.22939">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.22939.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.22939">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.22939.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.22939.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.22939.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3761,11 +4370,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.22864">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.22864.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.22864">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.22864.pdf">PDF</a>
           <a class="chip" href="https://github.com/AI-Application-and-Integration-Lab/MaTIR">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.22864.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.22864.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3782,11 +4391,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.22336">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.22336.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.22336">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.22336.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.22336.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.22336.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3803,11 +4412,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.21101">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.21101.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.21101">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.21101.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.21101.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.21101.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3824,11 +4433,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.18246">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.18246.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.18246">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.18246.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.18246.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.18246.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3845,11 +4454,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.20467">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.20467.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.20467">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.20467.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.20467.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.20467.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3866,11 +4475,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.20312">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.20312.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.20312">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.20312.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.20312.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.20312.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3887,11 +4496,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.18902">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.18902.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.18902">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.18902.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.18902.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.18902.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3908,11 +4517,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.16745">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.16745.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.16745">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.16745.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.16745.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.16745.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3929,11 +4538,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.16353">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.16353.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.16353">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.16353.pdf">PDF</a>
           <a class="chip" href="https://github.com/shuaichaochao/mambahash">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.16353.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.16353.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3950,11 +4559,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.16273">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.16273.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.16273">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.16273.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.16273.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.16273.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3971,11 +4580,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.15988">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.15988.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.15988">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.15988.pdf">PDF</a>
           <a class="chip" href="https://github.com/QVPR/aarapsiproject">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.15988.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.15988.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -3992,11 +4601,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.15851">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.15851.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.15851">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.15851.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.15851.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.15851.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4013,11 +4622,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.15180">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.15180.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.15180">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.15180.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.15180.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.15180.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4034,11 +4643,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.14707">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.14707.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.14707">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.14707.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.14707.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.14707.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4055,11 +4664,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.14178">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.14178.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.14178">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.14178.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.14178.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.14178.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4076,11 +4685,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.13496">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.13496.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.13496">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.13496.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.13496.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.13496.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4097,11 +4706,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.13509">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.13509.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.13509">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.13509.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.13509.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.13509.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4118,11 +4727,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.13133">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.13133.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.13133">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.13133.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.13133.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.13133.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4139,11 +4748,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.13073">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.13073.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.13073">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.13073.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.13073.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.13073.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4160,11 +4769,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.12401">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.12401.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.12401">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.12401.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.12401.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.12401.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4181,11 +4790,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.11167">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.11167.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.11167">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.11167.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.11167.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.11167.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4202,11 +4811,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.10182">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.10182.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.10182">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.10182.pdf">PDF</a>
           <a class="chip" href="https://github.com/adobe-research/polar-vl">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.10182.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.10182.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4223,11 +4832,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.09748">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.09748.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.09748">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.09748.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.09748.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.09748.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4244,11 +4853,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.10030">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.10030.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.10030">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.10030.pdf">PDF</a>
           <a class="chip" href="https://github.com/tychenn/aqua">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.10030.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.10030.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4265,11 +4874,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.08526">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.08526.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.08526">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.08526.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.08526.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.08526.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4286,11 +4895,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.07045">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.07045.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.07045">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.07045.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.07045.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.07045.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4307,11 +4916,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.06602">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.06602.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.06602">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.06602.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.06602.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.06602.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4328,11 +4937,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.06220">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.06220.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.06220">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.06220.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.06220.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.06220.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4349,11 +4958,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.06205">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.06205.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.06205">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.06205.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.06205.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.06205.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4370,11 +4979,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.04764">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.04764.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.04764">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.04764.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.04764.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.04764.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4391,11 +5000,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.04619">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.04619.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.04619">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.04619.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.04619.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.04619.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4412,11 +5021,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.02291">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.02291.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.02291">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.02291.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.02291.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.02291.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4433,11 +5042,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.00976">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.00976.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.00976">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.00976.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.00976.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.00976.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4454,11 +5063,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.24441">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.24441.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.24441">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.24441.pdf">PDF</a>
           <a class="chip" href="https://github.com/mcg-nju/sorce">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.24441.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.24441.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4475,11 +5084,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.23763">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.23763.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.23763">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.23763.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.23763.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.23763.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4496,11 +5105,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.22859">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.22859.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.22859">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.22859.pdf">PDF</a>
           <a class="chip" href="https://github.com/muskie82/4dtam">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.22859.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.22859.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4517,11 +5126,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.22098">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.22098.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.22098">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.22098.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.22098.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.22098.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4538,11 +5147,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.22089">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.22089.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.22089">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.22089.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.22089.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.22089.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4559,11 +5168,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.21754">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.21754.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.21754">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.21754.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.21754.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.21754.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4580,11 +5189,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.21647">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.21647.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.21647">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.21647.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.21647.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.21647.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4601,11 +5210,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.20764">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.20764.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.20764">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.20764.pdf">PDF</a>
           <a class="chip" href="https://github.com/mvrl/context-cir">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.20764.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.20764.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4622,11 +5231,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.20291">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.20291.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.20291">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.20291.pdf">PDF</a>
           <a class="chip" href="https://github.com/xiaowu0162/visualize-then-retrieve">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.20291.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.20291.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4643,11 +5252,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.19952">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.19952.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.19952">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.19952.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.19952.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.19952.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4664,11 +5273,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.19944">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.19944.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.19944">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.19944.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.19944.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.19944.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4685,11 +5294,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.16447">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.16447.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.16447">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.16447.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.16447.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.16447.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4706,11 +5315,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.15877">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.15877.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.15877">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.15877.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.15877.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.15877.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4727,11 +5336,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.15867">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.15867.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.15867">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.15867.pdf">PDF</a>
           <a class="chip" href="https://github.com/nickhaidos/scenir-icml2025">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.15867.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.15867.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4748,11 +5357,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.13828">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.13828.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.13828">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.13828.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.13828.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.13828.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4769,11 +5378,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.12254">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.12254.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.12254">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.12254.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.12254.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.12254.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4790,11 +5399,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.11620">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.11620.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.11620">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.11620.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.11620.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.11620.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4811,11 +5420,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.11121">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.11121.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.11121">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.11121.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.11121.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.11121.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4832,11 +5441,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.01956">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.01956.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.01956">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.01956.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.01956.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.01956.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4853,11 +5462,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.03565">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.03565.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.03565">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.03565.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.03565.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.03565.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4874,11 +5483,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.03422">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.03422.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.03422">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.03422.pdf">PDF</a>
           <a class="chip" href="https://github.com/lyp-deeplearning/liftfeat">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.03422.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.03422.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4895,11 +5504,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.03242">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.03242.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.03242">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.03242.pdf">PDF</a>
           <a class="chip" href="https://github.com/davidetalon/fashionact">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.03242.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.03242.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4916,11 +5525,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.03836">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.03836.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.03836">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.03836.pdf">PDF</a>
           <a class="chip" href="https://github.com/cszhanglmu/obd-finder">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.03836.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.03836.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4937,11 +5546,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.01113">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.01113.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.01113">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.01113.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.01113.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.01113.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4958,11 +5567,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.20379">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.20379.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.20379">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.20379.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.20379.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.20379.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -4979,11 +5588,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.17990">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.17990.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.17990">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.17990.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.17990.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.17990.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5000,11 +5609,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.17636">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.17636.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.17636">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.17636.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.17636.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.17636.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5021,11 +5630,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.16691">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.16691.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.16691">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.16691.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.16691.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.16691.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5042,11 +5651,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.16323">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.16323.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.16323">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.16323.pdf">PDF</a>
           <a class="chip" href="https://github.com/mediacontentatlas/mediacontentatlas">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.16323.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.16323.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5063,11 +5672,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.14359">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.14359.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.14359">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.14359.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.14359.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.14359.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5084,11 +5693,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.13172">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.13172.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.13172">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.13172.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.13172.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.13172.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5105,11 +5714,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.12100">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.12100.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.12100">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.12100.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.12100.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.12100.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5126,11 +5735,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.11134">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.11134.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.11134">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.11134.pdf">PDF</a>
           <a class="chip" href="https://github.com/ghanning/gcsa">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.11134.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.11134.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5147,11 +5756,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.10995">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.10995.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.10995">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.10995.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.10995.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.10995.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5168,11 +5777,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.09881">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.09881.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.09881">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.09881.pdf">PDF</a>
           <a class="chip" href="https://github.com/chenshunpeng/FoL">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.09881.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.09881.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5189,11 +5798,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.09155">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.09155.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.09155">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.09155.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.09155.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.09155.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5210,11 +5819,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.08901">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.08901.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.08901">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.08901.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.08901.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.08901.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5231,11 +5840,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.08710">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.08710.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.08710">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.08710.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.08710.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.08710.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5252,11 +5861,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.08368">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.08368.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.08368">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.08368.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.08368.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.08368.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5273,11 +5882,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.08280">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.08280.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.08280">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.08280.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.08280.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.08280.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5294,11 +5903,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.07718">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.07718.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.07718">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.07718.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.07718.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.07718.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5315,11 +5924,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.07231">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.07231.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.07231">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.07231.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.07231.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.07231.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5336,11 +5945,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.06666">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.06666.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.06666">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.06666.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.06666.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.06666.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5357,11 +5966,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.06116">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.06116.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.06116">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.06116.pdf">PDF</a>
           <a class="chip" href="https://github.com/FarInHeight/To-Match-or-Not-to-Match">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.06116.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.06116.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5378,11 +5987,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.04339">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.04339.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.04339">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.04339.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.04339.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.04339.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5399,11 +6008,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.02259">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.02259.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.02259">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.02259.pdf">PDF</a>
           <a class="chip" href="https://github.com/longvideohaystack/tstar">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.02259.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.02259.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5420,11 +6029,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.03169">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.03169.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.03169">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.03169.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.03169.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.03169.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5441,11 +6050,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.02086">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.02086.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.02086">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.02086.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.02086.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.02086.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5462,11 +6071,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.01348">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.01348.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.01348">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.01348.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.01348.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.01348.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5483,11 +6092,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.00954">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.00954.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.00954">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.00954.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.00954.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.00954.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5504,11 +6113,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.00812">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.00812.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.00812">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.00812.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.00812.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.00812.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5525,11 +6134,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.24182">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.24182.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.24182">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.24182.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.24182.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.24182.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5546,11 +6155,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.23664">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.23664.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.23664">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.23664.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.23664.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.23664.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5567,11 +6176,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.23577">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.23577.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.23577">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.23577.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.23577.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.23577.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5588,11 +6197,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.21772">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.21772.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.21772">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.21772.pdf">PDF</a>
           <a class="chip" href="https://github.com/MrZilinXiao/LongContextReranker">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.21772.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.21772.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5609,11 +6218,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.21757">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.21757.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.21757">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.21757.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.21757.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.21757.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5630,11 +6239,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.21338">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.21338.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.21338">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.21338.pdf">PDF</a>
           <a class="chip" href="https://github.com/nubot-nudt/ugna-vpr">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.21338.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.21338.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5651,11 +6260,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.21309">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.21309.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.21309">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.21309.pdf">PDF</a>
           <a class="chip" href="https://github.com/sdu-l/finecir">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.21309.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.21309.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5672,11 +6281,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.21236">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.21236.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.21236">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.21236.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.21236.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.21236.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5693,11 +6302,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.19910">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.19910.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.19910">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.19910.pdf">PDF</a>
           <a class="chip" href="https://github.com/hmchuong/CoLLM">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.19910.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.19910.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5714,11 +6323,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.19543">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.19543.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.19543">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.19543.pdf">PDF</a>
           <a class="chip" href="https://github.com/JunweiZheng93/SPR">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.19543.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.19543.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5735,11 +6344,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.19358">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.19358.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.19358">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.19358.pdf">PDF</a>
           <a class="chip" href="https://github.com/zju3dv/STDLoc">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.19358.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.19358.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5756,11 +6365,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.19296">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.19296.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.19296">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.19296.pdf">PDF</a>
           <a class="chip" href="https://github.com/ZiChao111/FTI4CIR">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.19296.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.19296.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5777,11 +6386,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.18142">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.18142.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.18142">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.18142.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.18142.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.18142.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5798,11 +6407,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.17938">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.17938.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.17938">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.17938.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.17938.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.17938.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5819,11 +6428,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.17899">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.17899.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.17899">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.17899.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.17899.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.17899.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5840,11 +6449,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.17871">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.17871.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.17871">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.17871.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.17871.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.17871.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5861,11 +6470,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.17109">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.17109.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.17109">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.17109.pdf">PDF</a>
           <a class="chip" href="https://github.com/pter61/predicir">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.17109.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.17109.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5882,11 +6491,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.17005">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.17005.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.17005">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.17005.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.17005.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.17005.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5903,11 +6512,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.16064">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.16064.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.16064">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.16064.pdf">PDF</a>
           <a class="chip" href="https://github.com/ShiShuMo/PromptHash">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.16064.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.16064.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5924,11 +6533,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.15997">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.15997.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.15997">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.15997.pdf">PDF</a>
           <a class="chip" href="https://github.com/PaulSK98/Nerf2Dataset">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.15997.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.15997.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5945,11 +6554,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.14346">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.14346.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.14346">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.14346.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.14346.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.14346.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5966,11 +6575,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.13982">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.13982.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.13982">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.13982.pdf">PDF</a>
           <a class="chip" href="https://github.com/ais-lab/a-score">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.13982.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.13982.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -5987,11 +6596,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.13385">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.13385.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.13385">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.13385.pdf">PDF</a>
           <a class="chip" href="https://github.com/mrazhou/seta">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.13385.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.13385.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -6008,11 +6617,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.13090">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.13090.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.13090">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.13090.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.13090.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.13090.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -6029,11 +6638,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.13045">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.13045.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.13045">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.13045.pdf">PDF</a>
           <a class="chip" href="https://github.com/gmberton/image-retrieval">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.13045.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.13045.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -6050,11 +6659,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.10166">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.10166.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.10166">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.10166.pdf">PDF</a>
           <a class="chip" href="https://github.com/pengfei-luo/ImageScope">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.10166.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.10166.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -6071,11 +6680,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.10692">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.10692.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.10692">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.10692.pdf">PDF</a>
           <a class="chip" href="https://github.com/uav-avl/benchmark">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.10692.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.10692.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -6092,11 +6701,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.09370">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.09370.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.09370">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.09370.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.09370.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.09370.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -6113,11 +6722,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.08170">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.08170.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.08170">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.08170.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.08170.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.08170.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -6134,11 +6743,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.07038">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.07038.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.07038">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.07038.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.07038.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.07038.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -6155,11 +6764,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.07037">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.07037.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.07037">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.07037.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.07037.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.07037.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -6176,11 +6785,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.06840">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.06840.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.06840">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.06840.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.06840.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.06840.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -6197,11 +6806,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.06796">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.06796.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.06796">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.06796.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.06796.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.06796.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -6218,11 +6827,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.06601">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.06601.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.06601">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.06601.pdf">PDF</a>
           <a class="chip" href="https://github.com/syqlyx/StructVPR">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.06601.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.06601.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -6239,11 +6848,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.06501">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.06501.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.06501">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.06501.pdf">PDF</a>
           <a class="chip" href="https://github.com/hqitao/textinplace">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.06501.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.06501.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -6260,11 +6869,11 @@ title: Visual Localization
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.06117">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.06117.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.06117">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.06117.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.06117.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.06117.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>

@@ -7,7 +7,7 @@ title: Image Matching
   <div>
     <p class="eyebrow">Topic</p>
     <h1>Image Matching</h1>
-    <p class="topic-lede">Updated 2026.01.07 · 131 papers</p>
+    <p class="topic-lede">Updated 2026.01.31 · 140 papers</p>
   </div>
   <a class="btn ghost" href="../index.html#topics">← Back to topics</a>
 </section>
@@ -16,18 +16,207 @@ title: Image Matching
   <article class="paper-card">
     <details class="paper-details">
       <summary>
+        <span class="paper-title">A Streamlined Attention-Based Network for Descriptor Extraction</span>
+        <span class="paper-authors">Mattia D&#x27;Urso, Emanuele Santellani, Christian Sormann, Mattia Rossi, Andreas Kuhn, Friedrich Fraundorfer</span>
+        <span class="paper-meta">Updated 2026-01-19</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">We introduce SANDesc, a Streamlined Attention-Based Network for Descriptor extraction that aims to improve on existing architectures for keypoint description.   Our descriptor network learns to compute descriptors that improve matching without modifying the underlying keypoint detector. We employ a revised U-Net-like architecture enhanced with Convolutional Block Attention Modules and residual paths, enabling effective local representation while maintaining computational efficiency. We refer to the building blocks of our model as Residual U-Net Blocks with Attention. The model is trained using a modified triplet loss in combination with a curriculum learning-inspired hard negative mining strategy, which improves training stability.   Extensive experiments on HPatches, MegaDepth-1500, and the Image Matching Challenge 2021 show that training SANDesc on top of existing keypoint detectors leads to improved results on multiple matching tasks compared to the original keypoint descriptors. At the same time, SANDesc has a model complexity of just 2.4 million parameters.   As a further contribution, we introduce a new urban dataset featuring 4K images and pre-calibrated intrinsics, designed to evaluate feature extractors. On this benchmark, SANDesc achieves substantial performance gains over the existing descriptors while operating with limited computational resources.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.13126">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.13126.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.13126.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">XRefine: Attention-Guided Keypoint Match Refinement</span>
+        <span class="paper-authors">Jan Fabian Schmid, Annika Hagemann</span>
+        <span class="paper-meta">Updated 2026-01-18</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Sparse keypoint matching is crucial for 3D vision tasks, yet current keypoint detectors often produce spatially inaccurate matches. Existing refinement methods mitigate this issue through alignment of matched keypoint locations, but they are typically detector-specific, requiring retraining for each keypoint detector. We introduce XRefine, a novel, detector-agnostic approach for sub-pixel keypoint refinement that operates solely on image patches centered at matched keypoints. Our cross-attention-based architecture learns to predict refined keypoint coordinates without relying on internal detector representations, enabling generalization across detectors. Furthermore, XRefine can be extended to handle multi-view feature tracks. Experiments on MegaDepth, KITTI, and ScanNet demonstrate that the approach consistently improves geometric estimation accuracy, achieving superior performance compared to existing refinement methods while maintaining runtime efficiency. Our code and trained models can be found at https://github.com/boschresearch/xrefine.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.12530">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.12530.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.12530.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Detecting 3D Line Segments for 6DoF Pose Estimation with Limited Data</span>
+        <span class="paper-authors">Matej Mok, Lukáš Gajdošech, Michal Mesároš, Martin Madaras, Viktor Kocur</span>
+        <span class="paper-meta">Updated 2026-01-17</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">The task of 6DoF object pose estimation is one of the fundamental problems of 3D vision with many practical applications such as industrial automation. Traditional deep learning approaches for this task often require extensive training data or CAD models, limiting their application in real-world industrial settings where data is scarce and object instances vary. We propose a novel method for 6DoF pose estimation focused specifically on bins used in industrial settings. We exploit the cuboid geometry of bins by first detecting intermediate 3D line segments corresponding to their top edges. Our approach extends the 2D line segment detection network LeTR to operate on structured point cloud data. The detected 3D line segments are then processed using a simple geometric procedure to robustly determine the bin&#x27;s 6DoF pose. To evaluate our method, we extend an existing dataset with a newly collected and annotated dataset, which we make publicly available. We show that incorporating synthetic training data significantly improves pose estimation accuracy on real scans. Moreover, we show that our method significantly outperforms current state-of-the-art 6DoF pose estimation methods in terms of the pose accuracy (3 cm translation error, 8.2$^\circ$ rotation error) while not requiring instance-specific CAD models during inference.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.12090">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.12090.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.12090.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">SupScene: Learning Overlap-Aware Global Descriptor for Unconstrained SfM</span>
+        <span class="paper-authors">Xulei Shi, Maoyu Wang, Yuning Peng, Guanbo Wang, Xin Wang, Qi Chen, Pengjie Tao</span>
+        <span class="paper-meta">Updated 2026-01-17</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Image retrieval is a critical step for alleviating the quadratic complexity of image matching in unconstrained Structure-from-Motion (SfM). However, in this context, image retrieval typically focuses more on the image pairs of geometric matchability than on those of semantic similarity, a nuance that most existing deep learning-based methods guided by batched binaries (overlapping vs. non-overlapping pairs) fail to capture. In this paper, we introduce SupScene, a novel solution that learns global descriptors tailored for finding overlapping image pairs of similar geometric nature for SfM. First, to better underline co-visible regions, we employ a subgraph-based training strategy that moves beyond equally important isolated pairs, leveraging ground-truth geometric overlapping relationships with various weights to provide fine-grained supervision via a soft supervised contrastive loss. Second, we introduce DiVLAD, a DINO-inspired VLAD aggregator that leverages the inherent multi-head attention maps from the last block of ViT. And then, a learnable gating mechanism is designed to adaptively utilize these semantically salient cues with visual features, enabling a more discriminative global descriptor. Extensive experiments on the GL3D dataset demonstrate that our method achieves state-of-the-art performance, significantly outperforming NetVLAD while introducing a negligible number of additional trainable parameters. Furthermore, we show that the proposed training strategy brings consistent gains across different aggregation techniques. Code and models are available at https://anonymous.4open.science/r/SupScene-5B73.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.11930">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.11930.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.11930.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">CLIDD: Cross-Layer Independent Deformable Description for Efficient and Discriminative Local Feature Representation</span>
+        <span class="paper-authors">Haodi Yao, Fenghua He, Ning Hao, Yao Su</span>
+        <span class="paper-meta">Updated 2026-01-14</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Robust local feature representations are essential for spatial intelligence tasks such as robot navigation and augmented reality. Establishing reliable correspondences requires descriptors that provide both high discriminative power and computational efficiency. To address this, we introduce Cross-Layer Independent Deformable Description (CLIDD), a method that achieves superior distinctiveness by sampling directly from independent feature hierarchies. This approach utilizes learnable offsets to capture fine-grained structural details across scales while bypassing the computational burden of unified dense representations. To ensure real-time performance, we implement a hardware-aware kernel fusion strategy that maximizes inference throughput. Furthermore, we develop a scalable framework that integrates lightweight architectures with a training protocol leveraging both metric learning and knowledge distillation. This scheme generates a wide spectrum of model variants optimized for diverse deployment constraints. Extensive evaluations demonstrate that our approach achieves superior matching accuracy and exceptional computational efficiency simultaneously. Specifically, the ultra-compact variant matches the precision of SuperPoint while utilizing only 0.004M parameters, achieving a 99.7% reduction in model size. Furthermore, our high-performance configuration outperforms all current state-of-the-art methods, including high-capacity DINOv2-based frameworks, while exceeding 200 FPS on edge devices. These results demonstrate that CLIDD delivers high-precision local feature matching with minimal computational overhead, providing a robust and scalable solution for real-time spatial intelligence tasks.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.09230">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.09230.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.09230.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Near-perfect photo-ID of the Hula painted frog with zero-shot deep local-feature matching</span>
+        <span class="paper-authors">Maayan Yesharim, R. G. Bina Perl, Uri Roll, Sarig Gafny, Eli Geffen, Yoav Ram</span>
+        <span class="paper-meta">Updated 2026-01-13</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Accurate individual identification is essential for monitoring rare amphibians, yet invasive marking is often unsuitable for critically endangered species. We evaluate state-of-the-art computer-vision methods for photographic re-identification of the Hula painted frog (Latonia nigriventer) using 1,233 ventral images from 191 individuals collected during 2013-2020 capture-recapture surveys. We compare deep local-feature matching in a zero-shot setting with deep global-feature embedding models. The local-feature pipeline achieves 98% top-1 closed-set identification accuracy, outperforming all global-feature models; fine-tuning improves the best global-feature model to 60% top-1 (91% top-10) but remains below local matching. To combine scalability with accuracy, we implement a two-stage workflow in which a fine-tuned global-feature model retrieves a short candidate list that is re-ranked by local-feature matching, reducing end-to-end runtime from 6.5-7.8 hours to ~38 minutes while maintaining ~96% top-1 closed-set accuracy on the labeled dataset. Separation of match scores between same- and different-individual pairs supports thresholding for open-set identification, enabling practical handling of novel individuals. We deploy this pipeline as a web application for routine field use, providing rapid, standardized, non-invasive identification to support conservation monitoring and capture-recapture analyses. Overall, in this species, zero-shot deep local-feature matching outperformed global-feature embedding and provides a strong default for photo-identification.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.08798">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.08798.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.08798.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Second-order Gaussian directional derivative representations for image high-resolution corner detection</span>
+        <span class="paper-authors">Dongbo Xie, Junjie Qiu, Changming Sun, Weichuan Zhang</span>
+        <span class="paper-meta">Updated 2026-01-13</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Corner detection is widely used in various computer vision tasks, such as image matching and 3D reconstruction. Our research indicates that there are theoretical flaws in Zhang et al.&#x27;s use of a simple corner model to obtain a series of corner characteristics, as the grayscale information of two adjacent corners can affect each other. In order to address the above issues, a second-order Gaussian directional derivative (SOGDD) filter is used in this work to smooth two typical high-resolution angle models (i.e. END-type and L-type models). Then, the SOGDD representations of these two corner models were derived separately, and many characteristics of high-resolution corners were discovered, which enabled us to demonstrate how to select Gaussian filtering scales to obtain intensity variation information from images, accurately depicting adjacent corners. In addition, a new high-resolution corner detection method for images has been proposed for the first time, which can accurately detect adjacent corner points. The experimental results have verified that the proposed method outperforms state-of-the-art methods in terms of localization error, robustness to image blur transformation, image matching, and 3D reconstruction.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.08182">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.08182.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.08182.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Stationaere Kurven auf endlichdimensionalen Mannigfaltigkeiten</span>
+        <span class="paper-authors">Tobias Starke</span>
+        <span class="paper-meta">Updated 2026-01-09</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">In this work we discuss the notion of stationary curves of the length functional, the so-called (weak) geodesics, on a Riemannian manifold. The motivation behind this work is to give a detailed description of many key concepts from differential geometry that one needs in order to understand the important notion of a (weak) geodesic. For this, we mainly focus on finite-dimensional smooth manifolds, so that we can develop an intuitive and geometric understanding of the concepts that we want to discuss. At the end of this work, we also provide a rough description of how one can generalise these ideas into infinite dimensions and how one can use (weak) geodesics in special algorithms for image matching (see [21]).</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.05695">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.05695.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.05695.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Exact Clique Number Manipulation via Edge Interdiction</span>
+        <span class="paper-authors">Yi Zhou, Haoyu Jiang, Chenghao Zhu, André Rossi</span>
+        <span class="paper-meta">Updated 2026-01-05</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">The Edge Interdiction Clique Problem (EICP) aims to remove at most $k$ edges from a graph so as to minimize the size of the largest clique in the remaining graph. This problem captures a fundamental question in graph manipulation: which edges are structurally critical for preserving large cliques? Such a problem is also motivated by practical applications including protein function maintenance and image matching. The EICP is computationally challenging and belongs to a complexity class beyond NP. Existing approaches rely on general mixed-integer bilevel programming solvers or reformulate the problem into a single-level mixed integer linear program. However, they are still not scalable when the graph size and interdiction budget $k$ grow. To overcome this, we investigate new mixed integer linear formulations, which recast the problem into a sequence of parameterized Edge Blocker Clique Problems (EBCP). This perspective decomposes the original problem into simpler subproblems and enables tighter modeling of clique-related inequalities. Furthermore, we propose a two-stage exact algorithm, \textsc{RLCM}, which first applies problem-specific reduction techniques to shrink the graph and then solves the reduced problem using a tailored branch-and-cut framework. Extensive computational experiments on maximum clique benchmark graphs, large real-world sparse networks, and random graphs demonstrate that \textsc{RLCM} consistently outperforms existing approaches.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.01869">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.01869.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.01869.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
         <span class="paper-title">Quantum Visual Word Sense Disambiguation: Unraveling Ambiguities Through Quantum Inference Model</span>
-        <span class="paper-authors">Wenbo Qiao et.al.</span>
+        <span class="paper-authors">Wenbo Qiao, Peng Zhang, Qinghua Hu</span>
         <span class="paper-meta">Updated 2025-12-31</span>
       </summary>
       <div class="paper-body">
-        <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
+        <p class="paper-abstract">Visual word sense disambiguation focuses on polysemous words, where candidate images can be easily confused. Traditional methods use classical probability to calculate the likelihood of an image matching each gloss of the target word, summing these to form a posterior probability. However, due to the challenge of semantic uncertainty, glosses from different sources inevitably carry semantic biases, which can lead to biased disambiguation results. Inspired by quantum superposition in modeling uncertainty, this paper proposes a Quantum Inference Model for Unsupervised Visual Word Sense Disambiguation (Q-VWSD). It encodes multiple glosses of the target word into a superposition state to mitigate semantic biases. Then, the quantum circuit is executed, and the results are observed. By formalizing our method, we find that Q-VWSD is a quantum generalization of the method based on classical probability. Building on this, we further designed a heuristic version of Q-VWSD that can run more efficiently on classical computing. The experiments demonstrate that our method outperforms state-of-the-art classical methods, particularly by effectively leveraging non-specialized glosses from large language models, which further enhances performance. Our approach showcases the potential of quantum machine learning in practical applications and provides a case for leveraging quantum modeling advantages on classical computers while quantum hardware remains immature.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.24687">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.24687.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.24687">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.24687.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.24687.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.24687.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -38,17 +227,17 @@ title: Image Matching
     <details class="paper-details">
       <summary>
         <span class="paper-title">SPIDER: Spatial Image CorresponDence Estimator for Robust Calibration</span>
-        <span class="paper-authors">Zhimin Shao et.al.</span>
+        <span class="paper-authors">Zhimin Shao, Abhay Yadav, Rama Chellappa, Cheng Peng</span>
         <span class="paper-meta">Updated 2025-12-26</span>
       </summary>
       <div class="paper-body">
-        <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
+        <p class="paper-abstract">Reliable image correspondences form the foundation of vision-based spatial perception, enabling recovery of 3D structure and camera poses. However, unconstrained feature matching across domains such as aerial, indoor, and outdoor scenes remains challenging due to large variations in appearance, scale and viewpoint. Feature matching has been conventionally formulated as a 2D-to-2D problem; however, recent 3D foundation models provides spatial feature matching properties based on two-view geometry. While powerful, we observe that these spatially coherent matches often concentrate on dominant planar regions, e.g., walls or ground surfaces, while being less sensitive to fine-grained geometric details, particularly under large viewpoint changes. To better understand these trade-offs, we first perform linear probe experiments to evaluate the performance of various vision foundation models for image matching. Building on these insights, we introduce SPIDER, a universal feature matching framework that integrates a shared feature extraction backbone with two specialized network heads for estimating both 2D-based and 3D-based correspondences from coarse to fine. Finally, we introduce an image-matching evaluation benchmark that focuses on unconstrained scenarios with large baselines. SPIDER significantly outperforms SoTA methods, demonstrating its strong ability as a universal image-matching method.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.17750">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.17750.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.17750">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.17750.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.17750.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.17750.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -59,17 +248,17 @@ title: Image Matching
     <details class="paper-details">
       <summary>
         <span class="paper-title">VisRes Bench: On Evaluating the Visual Reasoning Capabilities of VLMs</span>
-        <span class="paper-authors">Brigitta Malagurski Törtei et.al.</span>
+        <span class="paper-authors">Brigitta Malagurski Törtei, Yasser Dahou, Ngoc Dung Huynh, Wamiq Reyaz Para, Phúc H. Lê Khac, Ankit Singh, Sofian Chaybouti, Sanath Narayan</span>
         <span class="paper-meta">Updated 2025-12-24</span>
       </summary>
       <div class="paper-body">
-        <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
+        <p class="paper-abstract">Vision-Language Models (VLMs) have achieved remarkable progress across tasks such as visual question answering and image captioning. Yet, the extent to which these models perform visual reasoning as opposed to relying on linguistic priors remains unclear. To address this, we introduce VisRes Bench, a benchmark designed to study visual reasoning in naturalistic settings without contextual language supervision. Analyzing model behavior across three levels of complexity, we uncover clear limitations in perceptual and relational visual reasoning capacities. VisRes isolates distinct reasoning abilities across its levels. Level 1 probes perceptual completion and global image matching under perturbations such as blur, texture changes, occlusion, and rotation; Level 2 tests rule-based inference over a single attribute (e.g., color, count, orientation); and Level 3 targets compositional reasoning that requires integrating multiple visual attributes. Across more than 19,000 controlled task images, we find that state-of-the-art VLMs perform near random under subtle perceptual perturbations, revealing limited abstraction beyond pattern recognition. We conclude by discussing how VisRes provides a unified framework for advancing abstract visual reasoning in multimodal research.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.21194">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.21194.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.21194">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.21194.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.21194.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.21194.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -80,17 +269,17 @@ title: Image Matching
     <details class="paper-details">
       <summary>
         <span class="paper-title">Analog Quantum Image Representation with Qubit-Frugal Encoding</span>
-        <span class="paper-authors">Vikrant Sharma et.al.</span>
+        <span class="paper-authors">Vikrant Sharma, Neel Kanth Kundu</span>
         <span class="paper-meta">Updated 2025-12-20</span>
       </summary>
       <div class="paper-body">
-        <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
+        <p class="paper-abstract">In this work, we introduce a fundamentally new paradigm for quantum image representation tailored for neutral-atom quantum devices. The proposed method constructs a qubit-efficient image representation by first applying a cartographic generalization algorithm to a classical edge-extracted input image, yielding a highly optimized sparse-dot based geometric description. While ensuring the structural integrity of the image, this sparse representation is then embedded into the atomic configuration of Aquila (QuEra Computing Inc.), modeled through the Bloqade simulation software stack. By encoding visual information through physical atom placement rather than digital basis-state coding, the approach avoids the costly state-preparation overhead inherent to digital quantum image processing circuits. Additionally, pruning sparse dot images, akin to map feature reduction, compresses representations without fidelity loss, thereby substantially reducing qubit requirements when implemented on an analog neutral-atom quantum device. The resulting quantum-native images have been successfully evaluated through matching tasks against an image database, thus illustrating the feasibility of this approach for image matching applications. Since sparse-dot image representations enable seamless generation of synthetic datasets, this work constitutes an initial step towards fully quantum-native machine-learning pipelines for visual data and highlights the potential of scalable analog quantum computing to enable resource-efficient alternatives to energy-intensive classical AI-based image processing frameworks.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.18451">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.18451.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.18451">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.18451.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.18451.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.18451.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -101,17 +290,17 @@ title: Image Matching
     <details class="paper-details">
       <summary>
         <span class="paper-title">The Perceptual Observatory Characterizing Robustness and Grounding in MLLMs</span>
-        <span class="paper-authors">Tejas Anvekar et.al.</span>
+        <span class="paper-authors">Tejas Anvekar, Fenil Bardoliya, Pavan K. Turaga, Chitta Baral, Vivek Gupta</span>
         <span class="paper-meta">Updated 2025-12-17</span>
       </summary>
       <div class="paper-body">
-        <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
+        <p class="paper-abstract">Recent advances in multimodal large language models (MLLMs) have yielded increasingly powerful models, yet their perceptual capacities remain poorly characterized. In practice, most model families scale language component while reusing nearly identical vision encoders (e.g., Qwen2.5-VL 3B/7B/72B), which raises pivotal concerns about whether progress reflects genuine visual grounding or reliance on internet-scale textual world knowledge. Existing evaluation methods emphasize end-task accuracy, overlooking robustness, attribution fidelity, and reasoning under controlled perturbations. We present The Perceptual Observatory, a framework that characterizes MLLMs across verticals like: (i) simple vision tasks, such as face matching and text-in-vision comprehension capabilities; (ii) local-to-global understanding, encompassing image matching, grid pointing game, and attribute localization, which tests general visual grounding. Each vertical is instantiated with ground-truth datasets of faces and words, systematically perturbed through pixel-based augmentations and diffusion-based stylized illusions. The Perceptual Observatory moves beyond leaderboard accuracy to yield insights into how MLLMs preserve perceptual grounding and relational structure under perturbations, providing a principled foundation for analyzing strengths and weaknesses of current and future models.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.15949">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.15949.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.15949">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.15949.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.15949.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.15949.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -122,17 +311,17 @@ title: Image Matching
     <details class="paper-details">
       <summary>
         <span class="paper-title">MotionEdit: Benchmarking and Learning Motion-Centric Image Editing</span>
-        <span class="paper-authors">Yixin Wan et.al.</span>
+        <span class="paper-authors">Yixin Wan, Lei Ke, Wenhao Yu, Kai-Wei Chang, Dong Yu</span>
         <span class="paper-meta">Updated 2025-12-14</span>
       </summary>
       <div class="paper-body">
-        <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
+        <p class="paper-abstract">We introduce MotionEdit, a novel dataset for motion-centric image editing-the task of modifying subject actions and interactions while preserving identity, structure, and physical plausibility. Unlike existing image editing datasets that focus on static appearance changes or contain only sparse, low-quality motion edits, MotionEdit provides high-fidelity image pairs depicting realistic motion transformations extracted and verified from continuous videos. This new task is not only scientifically challenging but also practically significant, powering downstream applications such as frame-controlled video synthesis and animation.   To evaluate model performance on the novel task, we introduce MotionEdit-Bench, a benchmark that challenges models on motion-centric edits and measures model performance with generative, discriminative, and preference-based metrics. Benchmark results reveal that motion editing remains highly challenging for existing state-of-the-art diffusion-based editing models. To address this gap, we propose MotionNFT (Motion-guided Negative-aware Fine Tuning), a post-training framework that computes motion alignment rewards based on how well the motion flow between input and model-edited images matches the ground-truth motion, guiding models toward accurate motion transformations. Extensive experiments on FLUX.1 Kontext and Qwen-Image-Edit show that MotionNFT consistently improves editing quality and motion fidelity of both base models on the motion editing task without sacrificing general editing ability, demonstrating its effectiveness. Our code is at https://github.com/elainew728/motion-edit/.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.10284">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.10284.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.10284">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.10284.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.10284.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.10284.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -143,17 +332,17 @@ title: Image Matching
     <details class="paper-details">
       <summary>
         <span class="paper-title">Self-Supervised Contrastive Embedding Adaptation for Endoscopic Image Matching</span>
-        <span class="paper-authors">Alberto Rota et.al.</span>
+        <span class="paper-authors">Alberto Rota, Elena De Momi</span>
         <span class="paper-meta">Updated 2025-12-11</span>
       </summary>
       <div class="paper-body">
-        <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
+        <p class="paper-abstract">Accurate spatial understanding is essential for image-guided surgery, augmented reality integration and context awareness. In minimally invasive procedures, where visual input is the sole intraoperative modality, establishing precise pixel-level correspondences between endoscopic frames is critical for 3D reconstruction, camera tracking, and scene interpretation. However, the surgical domain presents distinct challenges: weak perspective cues, non-Lambertian tissue reflections, and complex, deformable anatomy degrade the performance of conventional computer vision techniques. While Deep Learning models have shown strong performance in natural scenes, their features are not inherently suited for fine-grained matching in surgical images and require targeted adaptation to meet the demands of this domain. This research presents a novel Deep Learning pipeline for establishing feature correspondences in endoscopic image pairs, alongside a self-supervised optimization framework for model training. The proposed methodology leverages a novel-view synthesis pipeline to generate ground-truth inlier correspondences, subsequently utilized for mining triplets within a contrastive learning paradigm. Through this self-supervised approach, we augment the DINOv2 backbone with an additional Transformer layer, specifically optimized to produce embeddings that facilitate direct matching through cosine similarity thresholding. Experimental evaluation demonstrates that our pipeline surpasses state-of-the-art methodologies on the SCARED datasets improved matching precision and lower epipolar error compared to the related work. The proposed framework constitutes a valuable contribution toward enabling more accurate high-level computer vision applications in surgical endoscopy.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.10379">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.10379.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.10379">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.10379.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.10379.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.10379.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -170,11 +359,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.05116">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.05116.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.05116">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.05116.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.05116.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.05116.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -191,11 +380,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.05114">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.05114.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.05114">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.05114.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.05114.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.05114.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -212,11 +401,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.05081">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.05081.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.05081">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.05081.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.05081.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.05081.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -233,11 +422,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.05078">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.05078.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.05078">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.05078.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.05078.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.05078.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -254,11 +443,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.05016">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.05016.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.05016">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.05016.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.05016.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.05016.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -275,11 +464,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.04966">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.04966.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.04966">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.04966.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.04966.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.04966.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -296,11 +485,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.04821">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.04821.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.04821">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.04821.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.04821.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.04821.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -317,11 +506,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.04804">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.04804.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.04804">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.04804.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.04804.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.04804.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -338,11 +527,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.04677">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.04677.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.04677">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.04677.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.04677.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.04677.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -359,11 +548,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.04662">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.04662.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.04662">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.04662.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.04662.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.04662.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -374,17 +563,17 @@ title: Image Matching
     <details class="paper-details">
       <summary>
         <span class="paper-title">DINO-RotateMatch: A Rotation-Aware Deep Framework for Robust Image Matching in Large-Scale 3D Reconstruction</span>
-        <span class="paper-authors">Kaichen Zhang et.al.</span>
+        <span class="paper-authors">Kaichen Zhang, Tianxiang Sheng, Xuanming Shi</span>
         <span class="paper-meta">Updated 2025-12-03</span>
       </summary>
       <div class="paper-body">
-        <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
+        <p class="paper-abstract">This paper presents DINO-RotateMatch, a deep-learning framework designed to address the chal lenges of image matching in large-scale 3D reconstruction from unstructured Internet images. The   method integrates a dataset-adaptive image pairing strategy with rotation-aware keypoint extraction and   matching. DINO is employed to retrieve semantically relevant image pairs in large collections, while   rotation-based augmentation captures orientation-dependent local features using ALIKED and Light Glue. Experiments on the Kaggle Image Matching Challenge 2025 demonstrate consistent improve ments in mean Average Accuracy (mAA), achieving a Silver Award (47th of 943 teams). The results   confirm that combining self-supervised global descriptors with rotation-enhanced local matching offers   a robust and scalable solution for large-scale 3D reconstruction.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2512.03715">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2512.03715.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2512.03715">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.03715.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2512.03715.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.03715.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -401,11 +590,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.21647">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.21647.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.21647">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.21647.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.21647.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.21647.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -422,11 +611,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.21592">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.21592.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.21592">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.21592.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.21592.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.21592.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -443,11 +632,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.21452">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.21452.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.21452">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.21452.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.21452.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.21452.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -464,11 +653,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.21335">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.21335.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.21335">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.21335.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.21335.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.21335.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -479,17 +668,17 @@ title: Image Matching
     <details class="paper-details">
       <summary>
         <span class="paper-title">Unlocking Zero-shot Potential of Semi-dense Image Matching via Gaussian Splatting</span>
-        <span class="paper-authors">Juncheng Chen et.al.</span>
+        <span class="paper-authors">Juncheng Chen, Chao Xu, Yanjun Cao</span>
         <span class="paper-meta">Updated 2025-11-26</span>
       </summary>
       <div class="paper-body">
-        <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
+        <p class="paper-abstract">Learning-based image matching critically depends on large-scale, diverse, and geometrically accurate training data. 3D Gaussian Splatting (3DGS) enables photorealistic novel-view synthesis and thus is attractive for data generation. However, its geometric inaccuracies and biased depth rendering currently prevent robust correspondence labeling. To address this, we introduce MatchGS, the first framework designed to systematically correct and leverage 3DGS for robust, zero-shot image matching. Our approach is twofold: (1) a geometrically-faithful data generation pipeline that refines 3DGS geometry to produce highly precise correspondence labels, enabling the synthesis of a vast and diverse range of viewpoints without compromising rendering fidelity; and (2) a 2D-3D representation alignment strategy that infuses 3DGS&#x27; explicit 3D knowledge into the 2D matcher, guiding 2D semi-dense matchers to learn viewpoint-invariant 3D representations. Our generated ground-truth correspondences reduce the epipolar error by up to 40 times compared to existing datasets, enable supervision under extreme viewpoint changes, and provide self-supervisory signals through Gaussian attributes. Consequently, state-of-the-art matchers trained solely on our data achieve significant zero-shot performance gains on public benchmarks, with improvements of up to 17.7%. Our work demonstrates that with proper geometric refinement, 3DGS can serve as a scalable, high-fidelity, and structurally-rich data source, paving the way for a new generation of robust zero-shot image matchers.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.21265">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.21265.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.21265">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.21265.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.21265.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.21265.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -506,11 +695,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.21215">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.21215.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.21215">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.21215.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.21215.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.21215.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -527,11 +716,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.21203">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.21203.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.21203">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.21203.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.21203.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.21203.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -548,11 +737,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.21121">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.21121.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.21121">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.21121.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.21121.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.21121.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -569,11 +758,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.21097">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.21097.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.21097">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.21097.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.21097.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.21097.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -590,11 +779,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.21028">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.21028.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.21028">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.21028.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.21028.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.21028.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -611,11 +800,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.19434">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.19434.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.19434">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.19434.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.19434.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.19434.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -632,11 +821,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.19379">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.19379.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.19379">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.19379.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.19379.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.19379.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -653,11 +842,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.19365">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.19365.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.19365">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.19365.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.19365.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.19365.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -674,11 +863,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.19268">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.19268.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.19268">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.19268.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.19268.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.19268.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -695,11 +884,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.19071">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.19071.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.19071">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.19071.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.19071.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.19071.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -716,11 +905,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.19040">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.19040.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.19040">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.19040.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.19040.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.19040.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -737,11 +926,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.18942">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.18942.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.18942">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.18942.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.18942.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.18942.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -758,11 +947,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.18834">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.18834.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.18834">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.18834.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.18834.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.18834.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -779,11 +968,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.18831">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.18831.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.18831">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.18831.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.18831.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.18831.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -800,11 +989,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.18765">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.18765.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.18765">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.18765.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.18765.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.18765.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -821,11 +1010,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.17309">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.17309.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.17309">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.17309.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.17309.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.17309.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -842,11 +1031,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.15706">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.15706.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.15706">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.15706.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.15706.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.15706.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -863,11 +1052,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.15316">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.15316.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.15316">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.15316.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.15316.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.15316.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -884,11 +1073,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.15209">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.15209.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.15209">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.15209.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.15209.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.15209.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -905,11 +1094,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.15066">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.15066.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.15066">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.15066.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.15066.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.15066.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -926,11 +1115,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.15029">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.15029.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.15029">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.15029.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.15029.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.15029.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -947,11 +1136,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.14963">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.14963.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.14963">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.14963.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.14963.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.14963.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -968,11 +1157,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.14419">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.14419.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.14419">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.14419.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.14419.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.14419.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -989,11 +1178,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.14411">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.14411.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.14411">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.14411.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.14411.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.14411.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1010,11 +1199,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.14315">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.14315.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.14315">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.14315.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.14315.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.14315.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1031,11 +1220,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.14286">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.14286.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.14286">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.14286.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.14286.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.14286.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1052,11 +1241,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.13168">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.13168.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.13168">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.13168.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.13168.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.13168.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1073,11 +1262,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.11435">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.11435.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.11435">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.11435.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.11435.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.11435.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1094,11 +1283,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.05949">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.05949.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.05949">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.05949.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.05949.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.05949.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1115,11 +1304,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.03416">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.03416.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.03416">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.03416.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.03416.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.03416.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1136,11 +1325,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2511.02489">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2511.02489.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2511.02489">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2511.02489.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2511.02489.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.02489.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1157,11 +1346,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.22900">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.22900.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.22900">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.22900.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.22900.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.22900.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1178,11 +1367,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.22827">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.22827.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.22827">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.22827.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.22827.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.22827.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1199,11 +1388,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.05051">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.05051.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.05051">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.05051.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.05051.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.05051.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1220,11 +1409,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.06829">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.06829.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.06829">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.06829.pdf">PDF</a>
           <a class="chip" href="https://github.com/event-driven-robotics/RT-EvLDT">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.06829.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.06829.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1241,11 +1430,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.06827">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.06827.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.06827">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.06827.pdf">PDF</a>
           <a class="chip" href="https://github.com/naver-ai/StyleKeeper">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.06827.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.06827.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1262,11 +1451,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2510.06820">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2510.06820.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2510.06820">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2510.06820.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2510.06820.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.06820.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1283,11 +1472,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.09792">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.09792.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.09792">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.09792.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.09792.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.09792.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1304,11 +1493,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.17431">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.17431.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.17431">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.17431.pdf">PDF</a>
           <a class="chip" href="https://github.com/mapledky/NSR_PyTorch">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.17431.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.17431.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1325,11 +1514,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.08805">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.08805.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.08805">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.08805.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.08805.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.08805.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1346,11 +1535,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.16519">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.16519.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.16519">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.16519.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.16519.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.16519.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1367,11 +1556,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.16017">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.16017.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.16017">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.16017.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.16017.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.16017.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1388,11 +1577,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.14966">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.14966.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.14966">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.14966.pdf">PDF</a>
           <a class="chip" href="https://github.com/longkukuhi/RoboEye">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.14966.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.14966.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1409,11 +1598,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.11255">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.11255.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.11255">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.11255.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.11255.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.11255.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1430,11 +1619,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.09594">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.09594.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.09594">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.09594.pdf">PDF</a>
           <a class="chip" href="https://github.com/oravus/object-react">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.09594.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.09594.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1451,11 +1640,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2508.19742">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2508.19742.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2508.19742">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2508.19742.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2508.19742.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2508.19742.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1472,11 +1661,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.06566">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.06566.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.06566">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.06566.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.06566.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.06566.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1493,11 +1682,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2509.04273">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2509.04273.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2509.04273">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2509.04273.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2509.04273.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.04273.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1514,11 +1703,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2508.10716">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2508.10716.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2508.10716">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2508.10716.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2508.10716.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2508.10716.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1535,11 +1724,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2508.10294">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2508.10294.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2508.10294">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2508.10294.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2508.10294.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2508.10294.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1556,11 +1745,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2508.09486">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2508.09486.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2508.09486">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2508.09486.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2508.09486.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2508.09486.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1577,11 +1766,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2508.08521">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2508.08521.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2508.08521">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2508.08521.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2508.08521.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2508.08521.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1598,11 +1787,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2508.07812">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2508.07812.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2508.07812">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2508.07812.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2508.07812.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2508.07812.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1619,11 +1808,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2508.05187">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2508.05187.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2508.05187">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2508.05187.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2508.05187.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2508.05187.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1640,11 +1829,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2507.06744">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2507.06744.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2507.06744">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2507.06744.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2507.06744.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.06744.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1661,11 +1850,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.22139">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.22139.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.22139">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.22139.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.22139.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.22139.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1682,11 +1871,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2507.03868">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2507.03868.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2507.03868">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2507.03868.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2507.03868.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.03868.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1703,11 +1892,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2507.01667">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2507.01667.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2507.01667">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2507.01667.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2507.01667.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.01667.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1724,11 +1913,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.23707">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.23707.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.23707">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.23707.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.23707.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.23707.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1745,11 +1934,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.23077">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.23077.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.23077">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.23077.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.23077.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.23077.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1766,11 +1955,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.22336">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.22336.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.22336">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.22336.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.22336.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.22336.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1787,11 +1976,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.21923">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.21923.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.21923">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.21923.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.21923.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.21923.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1808,11 +1997,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.20191">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.20191.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.20191">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.20191.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.20191.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.20191.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1829,11 +2018,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.24305">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.24305.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.24305">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.24305.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.24305.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.24305.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1850,11 +2039,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.15180">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.15180.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.15180">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.15180.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.15180.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.15180.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1871,11 +2060,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.13133">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.13133.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.13133">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.13133.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.13133.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.13133.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1892,11 +2081,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.10344">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.10344.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.10344">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.10344.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.10344.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.10344.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1913,11 +2102,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.09748">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.09748.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.09748">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.09748.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.09748.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.09748.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1934,11 +2123,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.09369">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.09369.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.09369">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.09369.pdf">PDF</a>
           <a class="chip" href="https://github.com/ant-research/scalelsd">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.09369.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.09369.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1955,11 +2144,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.04917">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.04917.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.04917">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.04917.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.04917.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.04917.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1976,11 +2165,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.04619">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.04619.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.04619">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.04619.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.04619.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.04619.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -1997,11 +2186,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.22458">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.22458.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.22458">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.22458.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.22458.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.22458.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2018,11 +2207,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.17973">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.17973.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.17973">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.17973.pdf">PDF</a>
           <a class="chip" href="https://github.com/simbauer/to_glue_or_not_to_glue">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.17973.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.17973.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2039,11 +2228,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2506.06302">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2506.06302.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2506.06302">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2506.06302.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2506.06302.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.06302.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2060,11 +2249,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.11264">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.11264.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.11264">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.11264.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.11264.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.11264.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2081,11 +2270,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.19458">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.19458.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.19458">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.19458.pdf">PDF</a>
           <a class="chip" href="https://github.com/sutaoyu/CDMEA">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.19458.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.19458.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2102,11 +2291,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.07375">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.07375.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.07375">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.07375.pdf">PDF</a>
           <a class="chip" href="https://github.com/hustCYQ/GLFM-Multi-class-3DAD">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.07375.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.07375.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2123,11 +2312,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.03422">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.03422.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.03422">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.03422.pdf">PDF</a>
           <a class="chip" href="https://github.com/lyp-deeplearning/liftfeat">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.03422.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.03422.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2144,11 +2333,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.03836">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.03836.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.03836">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.03836.pdf">PDF</a>
           <a class="chip" href="https://github.com/cszhanglmu/obd-finder">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.03836.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.03836.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2165,11 +2354,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2505.02161">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2505.02161.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2505.02161">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2505.02161.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2505.02161.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.02161.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2186,11 +2375,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.19398">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.19398.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.19398">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.19398.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.19398.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.19398.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2207,11 +2396,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.16346">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.16346.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.16346">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.16346.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.16346.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.16346.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2228,11 +2417,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.06116">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.06116.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.06116">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.06116.pdf">PDF</a>
           <a class="chip" href="https://github.com/FarInHeight/To-Match-or-Not-to-Match">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.06116.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.06116.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2249,11 +2438,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.13836">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.13836.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.13836">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.13836.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.13836.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.13836.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2270,11 +2459,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.08348">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.08348.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.08348">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.08348.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.08348.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.08348.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2291,11 +2480,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.06604">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.06604.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.06604">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.06604.pdf">PDF</a>
           <a class="chip" href="https://github.com/jh-chung1/imgregister2dto3d">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.06604.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.06604.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2312,11 +2501,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.04834">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.04834.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.04834">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.04834.pdf">PDF</a>
           <a class="chip" href="https://github.com/stilcrad/denseaffine">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.04834.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.04834.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2333,11 +2522,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2504.00812">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2504.00812.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2504.00812">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2504.00812.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2504.00812.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.00812.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2354,11 +2543,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.23925">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.23925.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.23925">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.23925.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.23925.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.23925.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2375,11 +2564,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.22881">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.22881.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.22881">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.22881.pdf">PDF</a>
           <a class="chip" href="https://github.com/pairx-explains/pairx">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.22881.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.22881.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2396,11 +2585,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.20827">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.20827.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.20827">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.20827.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.20827.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.20827.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2417,11 +2606,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.17715">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.17715.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.17715">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.17715.pdf">PDF</a>
           <a class="chip" href="https://github.com/apollos1301/normmatchtrans">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.17715.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.17715.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2438,11 +2627,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.16275">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.16275.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.16275">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.16275.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.16275.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.16275.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2459,11 +2648,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.16185">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.16185.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.16185">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.16185.pdf">PDF</a>
           <a class="chip" href="https://github.com/peihaowu/mapglue">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.16185.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.16185.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2480,11 +2669,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.15285">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.15285.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.15285">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.15285.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.15285.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.15285.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2501,11 +2690,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.13433">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.13433.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.13433">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.13433.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.13433.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.13433.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2522,11 +2711,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.12706">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.12706.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.12706">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.12706.pdf">PDF</a>
           <a class="chip" href="https://github.com/rahuldeshmukh43/satdepth">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.12706.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.12706.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2543,11 +2732,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.11148">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.11148.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.11148">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.11148.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.11148.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.11148.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2564,11 +2753,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.10017">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.10017.pdf">PDF</a>
-          <span class="chip ghost">Code: N/A</span>
+          <a class="chip" href="https://arxiv.org/abs/2503.10017">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.10017.pdf">PDF</a>
+          <a class="chip" href="https://github.com/ASU-ESIC-FAN-Lab/speedy_mast3r">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.10017.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.10017.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2585,11 +2774,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.08673">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.08673.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.08673">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.08673.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.08673.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.08673.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2606,11 +2795,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.04127">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.04127.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.04127">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.04127.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.04127.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.04127.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2627,11 +2816,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.04205">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.04205.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.04205">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.04205.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.04205.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.04205.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2648,11 +2837,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.03437">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.03437.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.03437">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.03437.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.03437.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.03437.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2669,11 +2858,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2503.00132">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2503.00132.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2503.00132">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2503.00132.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2503.00132.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.00132.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2690,11 +2879,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2502.20036">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2502.20036.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2502.20036">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2502.20036.pdf">PDF</a>
           <a class="chip" href="https://github.com/yejunzhang/a2-gnn">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2502.20036.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2502.20036.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2711,11 +2900,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2502.19955">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2502.19955.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2502.19955">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2502.19955.pdf">PDF</a>
           <span class="chip ghost">Code: N/A</span>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2502.19955.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2502.19955.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2732,11 +2921,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2502.19242">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2502.19242.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2502.19242">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2502.19242.pdf">PDF</a>
           <a class="chip" href="https://github.com/hxca1/bev-lio-lc">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2502.19242.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2502.19242.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
@@ -2753,11 +2942,11 @@ title: Image Matching
       <div class="paper-body">
         <p class="paper-abstract">Abstract unavailable in cached data. It will appear after the next refresh.</p>
         <div class="paper-links">
-          <a class="chip" href="http://arxiv.org/abs/2502.18104">arXiv</a>
-          <a class="chip" href="http://arxiv.org/pdf/2502.18104.pdf">PDF</a>
+          <a class="chip" href="https://arxiv.org/abs/2502.18104">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2502.18104.pdf">PDF</a>
           <a class="chip" href="https://github.com/hanniewhu/promptmid">Code</a>
         </div>
-        <div class="paper-preview" data-pdf="http://arxiv.org/pdf/2502.18104.pdf">
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2502.18104.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
