@@ -7,7 +7,7 @@ title: NeRF
   <div>
     <p class="eyebrow">Topic</p>
     <h1>NeRF</h1>
-    <p class="topic-lede">Updated 2026.01.31 · 282 papers</p>
+    <p class="topic-lede">Updated 2026.02.01 · 282 papers</p>
   </div>
   <a class="btn ghost" href="../index.html#topics">← Back to topics</a>
 </section>
