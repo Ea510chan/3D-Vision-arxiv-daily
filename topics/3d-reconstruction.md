@@ -1,19 +1,19 @@
 # 3D Reconstruction
 
-> Updated on 2026.02.01
+> Updated on 2026.02.02
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-01-29**|**MetricAnything: Scaling Metric Depth Pretraining with Noisy Heterogeneous Sources**|Baorui Ma et.al.|[2601.22054](https://arxiv.org/abs/2601.22054)|null|
-|**2026-01-29**|**PLANING: A Loosely Coupled Triangle-Gaussian Framework for Streaming 3D Reconstruction**|Changjian Jiang et.al.|[2601.22046](https://arxiv.org/abs/2601.22046)|null|
-|**2026-01-29**|**Urban Neural Surface Reconstruction from Constrained Sparse Aerial Imagery with 3D SAR Fusion**|Da Li et.al.|[2601.22045](https://arxiv.org/abs/2601.22045)|null|
-|**2026-01-29**|**Synthetic-to-Real Domain Bridging for Single-View 3D Reconstruction of Ships for Maritime Monitoring**|Borja Carrillo-Perez et.al.|[2601.21786](https://arxiv.org/abs/2601.21786)|null|
-|**2026-01-29**|**From Implicit Ambiguity to Explicit Solidity: Diagnosing Interior Geometric Degradation in Neural Radiance Fields for Dense 3D Scene Understanding**|Jiangsan Zhao et.al.|[2601.21421](https://arxiv.org/abs/2601.21421)|null|
-|**2026-01-28**|**VersaQ-3D: A Reconfigurable Accelerator Enabling Feed-Forward and Generalizable 3D Reconstruction via Versatile Quantization**|Yipu Zhang et.al.|[2601.20317](https://arxiv.org/abs/2601.20317)|null|
-|**2026-01-27**|**Size Matters: Reconstructing Real-Scale 3D Models from Monocular Images for Food Portion Estimation**|Gautham Vinod et.al.|[2601.20051](https://arxiv.org/abs/2601.20051)|null|
-|**2026-01-28**|**GeoDiff3D: Self-Supervised 3D Scene Generation with Geometry-Constrained 2D Diffusion Guidance**|Haozhi Zhu et.al.|[2601.19785](https://arxiv.org/abs/2601.19785)|null|
-|**2026-01-27**|**WaterClear-GS: Optical-Aware Gaussian Splatting for Underwater Reconstruction and Restoration**|Xinrui Zhang et.al.|[2601.19753](https://arxiv.org/abs/2601.19753)|null|
-|**2026-01-27**|**NuiWorld: Exploring a Scalable Framework for End-to-End Controllable World Generation**|Han-Hung Lee et.al.|[2601.19048](https://arxiv.org/abs/2601.19048)|null|
+|2026-01-29|MetricAnything: Scaling Metric Depth Pretraining with Noisy Heterogeneous Sources|Baorui Ma et.al.|[2601.22054](https://arxiv.org/abs/2601.22054)|null|
+|2026-01-29|PLANING: A Loosely Coupled Triangle-Gaussian Framework for Streaming 3D Reconstruction|Changjian Jiang et.al.|[2601.22046](https://arxiv.org/abs/2601.22046)|null|
+|2026-01-29|Urban Neural Surface Reconstruction from Constrained Sparse Aerial Imagery with 3D SAR Fusion|Da Li et.al.|[2601.22045](https://arxiv.org/abs/2601.22045)|null|
+|2026-01-29|Synthetic-to-Real Domain Bridging for Single-View 3D Reconstruction of Ships for Maritime Monitoring|Borja Carrillo-Perez et.al.|[2601.21786](https://arxiv.org/abs/2601.21786)|null|
+|2026-01-29|From Implicit Ambiguity to Explicit Solidity: Diagnosing Interior Geometric Degradation in Neural Radiance Fields for Dense 3D Scene Understanding|Jiangsan Zhao et.al.|[2601.21421](https://arxiv.org/abs/2601.21421)|null|
+|2026-01-28|VersaQ-3D: A Reconfigurable Accelerator Enabling Feed-Forward and Generalizable 3D Reconstruction via Versatile Quantization|Yipu Zhang et.al.|[2601.20317](https://arxiv.org/abs/2601.20317)|null|
+|2026-01-27|Size Matters: Reconstructing Real-Scale 3D Models from Monocular Images for Food Portion Estimation|Gautham Vinod et.al.|[2601.20051](https://arxiv.org/abs/2601.20051)|null|
+|2026-01-28|GeoDiff3D: Self-Supervised 3D Scene Generation with Geometry-Constrained 2D Diffusion Guidance|Haozhi Zhu et.al.|[2601.19785](https://arxiv.org/abs/2601.19785)|null|
+|2026-01-27|WaterClear-GS: Optical-Aware Gaussian Splatting for Underwater Reconstruction and Restoration|Xinrui Zhang et.al.|[2601.19753](https://arxiv.org/abs/2601.19753)|null|
+|2026-01-27|NuiWorld: Exploring a Scalable Framework for End-to-End Controllable World Generation|Han-Hung Lee et.al.|[2601.19048](https://arxiv.org/abs/2601.19048)|null|
 |2026-01-21|Three-dimensional visualization of X-ray micro-CT with large-scale datasets: Efficiency and accuracy for real-time interaction|Yipeng Yin et.al.|[2601.15098](https://arxiv.org/abs/2601.15098)|null|
 |2026-01-20|Rig-Aware 3D Reconstruction of Vehicle Undercarriages using Gaussian Splatting|Nitin Kulkarni et.al.|[2601.14208](https://arxiv.org/abs/2601.14208)|null|
 |2026-01-20|ParkingTwin: Training-Free Streaming 3D Reconstruction for Parking-Lot Digital Twins|Xinhao Liu et.al.|[2601.13706](https://arxiv.org/abs/2601.13706)|null|
@@ -81,9 +81,9 @@
 |2025-11-24|MagicWorld: Interactive Geometry-driven Video World Exploration|Guangyuan Li et.al.|[2511.18886](http://arxiv.org/abs/2511.18886)|null|
 |2025-11-24|STCDiT: Spatio-Temporally Consistent Diffusion Transformer for High-Quality Video Super-Resolution|Junyang Chen et.al.|[2511.18786](http://arxiv.org/abs/2511.18786)|null|
 |2025-11-24|On the role of fractional Brownian motion in models of chemotaxis and stochastic gradient ascent|Gustavo Cornejo-Olea et.al.|[2511.18745](http://arxiv.org/abs/2511.18745)|null|
-|2025-11-23|C3Po: Cross-View Cross-Modality Correspondence by Pointmap Prediction|Kuan Wei Huang et.al.|[2511.18559](http://arxiv.org/abs/2511.18559)|**[link](https://github.com/c3po-correspondence/C3Po)**|
+|2025-11-23|C3Po: Cross-View Cross-Modality Correspondence by Pointmap Prediction|Kuan Wei Huang et.al.|[2511.18559](http://arxiv.org/abs/2511.18559)|[link](https://github.com/c3po-correspondence/C3Po)|
 |2025-11-23|Non-Symplectic Deformations of Geometric Quantisation|Kerr Maxwell et.al.|[2511.18549](http://arxiv.org/abs/2511.18549)|null|
-|2025-11-23|Zero-Shot Video Deraining with Video Diffusion Models|Tuomas Varanka et.al.|[2511.18537](http://arxiv.org/abs/2511.18537)|**[link](https://github.com/tvaranka/ZSVD)**|
+|2025-11-23|Zero-Shot Video Deraining with Video Diffusion Models|Tuomas Varanka et.al.|[2511.18537](http://arxiv.org/abs/2511.18537)|[link](https://github.com/tvaranka/ZSVD)|
 |2025-11-23|Expanding the Workspace of Electromagnetic Navigation Systems Using Dynamic Feedback for Single- and Multi-agent Control|Jasan Zughaibi et.al.|[2511.18486](http://arxiv.org/abs/2511.18486)|null|
 |2025-11-19|MambaIO: Global-Coordinate Inertial Odometry for Pedestrians via Multi-Scale Frequency-Decoupled Modeling|Shanshan Zhang et.al.|[2511.15645](http://arxiv.org/abs/2511.15645)|null|
 |2025-11-19|Covariant Measures of Non-Markovianity in Curved Spacetime|Tushar Waghmare et.al.|[2511.15365](http://arxiv.org/abs/2511.15365)|null|

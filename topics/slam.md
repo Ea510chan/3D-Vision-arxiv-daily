@@ -1,23 +1,23 @@
 # SLAM
 
-> Updated on 2026.02.01
+> Updated on 2026.02.02
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-01-22**|**Keyframe-Based Feed-Forward Visual Odometry**|Weichen Dai et.al.|[2601.16020](https://arxiv.org/abs/2601.16020)|null|
-|**2026-01-09**|**360DVO: Deep Visual Odometry for Monocular 360-Degree Camera**|Xiaopeng Guo et.al.|[2601.02309](https://arxiv.org/abs/2601.02309)|null|
-|**2025-12-22**|**Trifocal Tensor and Relative Pose Estimation with Known Vertical Direction**|Tao Li et.al.|[2512.19110](https://arxiv.org/abs/2512.19110)|null|
-|**2025-12-16**|**SUPER -- A Framework for Sensitivity-based Uncertainty-aware Performance and Risk Assessment in Visual Inertial Odometry**|Johannes A. Gaus et.al.|[2512.14189](https://arxiv.org/abs/2512.14189)|null|
-|**2025-12-10**|**Inertial Magnetic SLAM Systems Using Low-Cost Sensors**|Chuan Huang et.al.|[2512.10128](https://arxiv.org/abs/2512.10128)|null|
+|2026-01-22|Keyframe-Based Feed-Forward Visual Odometry|Weichen Dai et.al.|[2601.16020](https://arxiv.org/abs/2601.16020)|null|
+|2026-01-09|360DVO: Deep Visual Odometry for Monocular 360-Degree Camera|Xiaopeng Guo et.al.|[2601.02309](https://arxiv.org/abs/2601.02309)|null|
+|2025-12-22|Trifocal Tensor and Relative Pose Estimation with Known Vertical Direction|Tao Li et.al.|[2512.19110](https://arxiv.org/abs/2512.19110)|null|
+|2025-12-16|SUPER -- A Framework for Sensitivity-based Uncertainty-aware Performance and Risk Assessment in Visual Inertial Odometry|Johannes A. Gaus et.al.|[2512.14189](https://arxiv.org/abs/2512.14189)|null|
+|2025-12-10|Inertial Magnetic SLAM Systems Using Low-Cost Sensors|Chuan Huang et.al.|[2512.10128](https://arxiv.org/abs/2512.10128)|null|
 |2025-12-01|KM-ViPE: Online Tightly Coupled Vision-Language-Geometry Fusion for Open-Vocabulary Semantic SLAM|Zaid Nasser et.al.|[2512.01889](http://arxiv.org/abs/2512.01889)|null|
-|**2025-11-29**|**Odometry Without Correspondence from Inertially Constrained Ruled Surfaces**|Chenqi Zhu et.al.|[2512.00327](https://arxiv.org/abs/2512.00327)|null|
+|2025-11-29|Odometry Without Correspondence from Inertially Constrained Ruled Surfaces|Chenqi Zhu et.al.|[2512.00327](https://arxiv.org/abs/2512.00327)|null|
 |2025-11-25|Conceptual Evaluation of Deep Visual Stereo Odometry for the MARWIN Radiation Monitoring Robot in Accelerator Tunnels|André Dehne et.al.|[2512.00080](http://arxiv.org/abs/2512.00080)|null|
-|**2025-11-28**|**MARVO: Marine-Adaptive Radiance-aware Visual Odometry**|Sacchin Sundar et.al.|[2511.22860](https://arxiv.org/abs/2511.22860)|null|
+|2025-11-28|MARVO: Marine-Adaptive Radiance-aware Visual Odometry|Sacchin Sundar et.al.|[2511.22860](https://arxiv.org/abs/2511.22860)|null|
 |2025-11-26|Dual-Agent Reinforcement Learning for Adaptive and Cost-Aware Visual-Inertial Odometry|Feiyang Pan et.al.|[2511.21083](http://arxiv.org/abs/2511.21083)|null|
 |2025-11-25|Estimating Fog Parameters from a Sequence of Stereo Images|Yining Ding et.al.|[2511.20865](http://arxiv.org/abs/2511.20865)|[link](https://github.com/SenseRoboticsLab/estimating-fog-parameters)|
-|**2025-11-25**|**Metric, inertially aligned monocular state estimation via kinetodynamic priors**|Jiaxin Liu et.al.|[2511.20496](https://arxiv.org/abs/2511.20496)|null|
-|**2025-11-25**|**AMB3R: Accurate Feed-forward Metric-scale 3D Reconstruction with Backend**|Hengyi Wang et.al.|[2511.20343](https://arxiv.org/abs/2511.20343)|null|
-|**2025-11-24**|**AutoOdom: Learning Auto-regressive Proprioceptive Odometry for Legged Locomotion**|Changsheng Luo et.al.|[2511.18857](https://arxiv.org/abs/2511.18857)|null|
+|2025-11-25|Metric, inertially aligned monocular state estimation via kinetodynamic priors|Jiaxin Liu et.al.|[2511.20496](https://arxiv.org/abs/2511.20496)|null|
+|2025-11-25|AMB3R: Accurate Feed-forward Metric-scale 3D Reconstruction with Backend|Hengyi Wang et.al.|[2511.20343](https://arxiv.org/abs/2511.20343)|**[link](https://github.com/HengyiWang/amb3r)**|
+|2025-11-24|AutoOdom: Learning Auto-regressive Proprioceptive Odometry for Legged Locomotion|Changsheng Luo et.al.|[2511.18857](https://arxiv.org/abs/2511.18857)|null|
 |2025-11-21|IndustryNav: Exploring Spatial Reasoning of Embodied Agents in Dynamic Industrial Navigation|Yifan Li et.al.|[2511.17384](http://arxiv.org/abs/2511.17384)|null|
 |2025-11-18|A visual study of ICP variants for Lidar Odometry|Sebastian Dingler et.al.|[2511.14919](http://arxiv.org/abs/2511.14919)|null|
 |2025-11-16|DPVO-QAT++: Heterogeneous QAT and CUDA Kernel Fusion for High-Performance Deep Patch Visual Odometry|Cheng Liao et.al.|[2511.12653](https://arxiv.org/abs/2511.12653)|null|
@@ -43,7 +43,7 @@
 |2025-09-04|Odometry Calibration and Pose Estimation of a 4WIS4WID Mobile Wall Climbing Robot|Branimir Ćaran et.al.|[2509.04016](http://arxiv.org/abs/2509.04016)|null|
 |2025-08-01|CoProU-VO: Combining Projected Uncertainty for End-to-End Unsupervised Monocular Visual Odometry|Jingchao Xie et.al.|[2508.00568](http://arxiv.org/abs/2508.00568)|[link](https://github.com/Jchao-Xie/CoProU)|
 |2025-07-25|A Fast and Light-weight Non-Iterative Visual Odometry with RGB-D Cameras|Zheng Yang et.al.|[2507.18886](http://arxiv.org/abs/2507.18886)|null|
-|2025-07-21|DiffPF: Differentiable Particle Filtering with Generative Sampling via Conditional Diffusion Models|Ziyu Wan et.al.|[2507.15716](http://arxiv.org/abs/2507.15716)|**[link](https://github.com/ZiyuNUS/DiffPF)**|
+|2025-07-21|DiffPF: Differentiable Particle Filtering with Generative Sampling via Conditional Diffusion Models|Ziyu Wan et.al.|[2507.15716](http://arxiv.org/abs/2507.15716)|[link](https://github.com/ZiyuNUS/DiffPF)|
 |2025-07-21|Dense-depth map guided deep Lidar-Visual Odometry with Sparse Point Clouds and Images|JunYing Huang et.al.|[2507.15496](http://arxiv.org/abs/2507.15496)|null|
 |2025-07-17|DINO-VO: A Feature-based Visual Odometry Leveraging a Visual Foundation Model|Maulana Bisyir Azhari et.al.|[2507.13145](http://arxiv.org/abs/2507.13145)|null|
 |2025-07-17|MoCap2GT: A High-Precision Ground Truth Estimator for SLAM Benchmarking Based on Motion Capture and IMU Fusion|Zichao Shu et.al.|[2507.12920](http://arxiv.org/abs/2507.12920)|null|
@@ -209,7 +209,7 @@
 |2025-03-17|Digital Beamforming Enhanced Radar Odometry|Jingqi Jiang et.al.|[2503.13252](http://arxiv.org/abs/2503.13252)|[link](https://github.com/SenseRoboticsLab/DBE-Radar)|
 |2025-03-17|Dynamic-Dark SLAM: RGB-Thermal Cooperative Robot Vision Strategy for Multi-Person Tracking in Both Well-Lit and Low-Light Scenes|Tatsuro Sakai et.al.|[2503.12768](http://arxiv.org/abs/2503.12768)|null|
 |2025-03-16|KISS-SLAM: A Simple, Robust, and Accurate 3D LiDAR SLAM System With Enhanced Generalization Capabilities|Tiziano Guadagnino et.al.|[2503.12660](http://arxiv.org/abs/2503.12660)|null|
-|2025-03-16|Deblur Gaussian Splatting SLAM|Francesco Girlanda et.al.|[2503.12572](http://arxiv.org/abs/2503.12572)|**[link](https://github.com/WU-CVGL/MBA-SLAM)**|
+|2025-03-16|Deblur Gaussian Splatting SLAM|Francesco Girlanda et.al.|[2503.12572](http://arxiv.org/abs/2503.12572)|[link](https://github.com/WU-CVGL/MBA-SLAM)|
 |2025-03-16|M2UD: A Multi-model, Multi-scenario, Uneven-terrain Dataset for Ground Robot with Localization and Mapping Evaluation|Yanpeng Jia et.al.|[2503.12387](http://arxiv.org/abs/2503.12387)|null|
 |2025-03-13|OSMa-Bench: Evaluating Open Semantic Mapping Under Varying Lighting Conditions|Maxim Popov et.al.|[2503.10331](http://arxiv.org/abs/2503.10331)|[link](https://github.com/be2rlab/OSMa-Bench)|
 |2025-03-12|Online Language Splatting|Saimouli Katragadda et.al.|[2503.09447](http://arxiv.org/abs/2503.09447)|[link](https://github.com/rpng/online_lang_splatting)|

@@ -7,7 +7,7 @@ title: NeRF
   <div>
     <p class="eyebrow">Topic</p>
     <h1>NeRF</h1>
-    <p class="topic-lede">Updated 2026.02.01 · 282 papers</p>
+    <p class="topic-lede">Updated 2026.02.02 · 282 papers</p>
   </div>
   <a class="btn ghost" href="../index.html#topics">← Back to topics</a>
 </section>
@@ -865,7 +865,7 @@ title: NeRF
         <div class="paper-links">
           <a class="chip" href="https://arxiv.org/abs/2512.04076">arXiv</a>
           <a class="chip" href="https://arxiv.org/pdf/2512.04076.pdf">PDF</a>
-          <span class="chip ghost">Code: N/A</span>
+          <a class="chip" href="https://github.com/half-potato/radiance_meshes">Code</a>
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.04076.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
@@ -1075,7 +1075,7 @@ title: NeRF
         <div class="paper-links">
           <a class="chip" href="https://arxiv.org/abs/2511.19542">arXiv</a>
           <a class="chip" href="https://arxiv.org/pdf/2511.19542.pdf">PDF</a>
-          <span class="chip ghost">Code: N/A</span>
+          <a class="chip" href="https://github.com/kjae0/SpLap">Code</a>
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.19542.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
@@ -1138,7 +1138,7 @@ title: NeRF
         <div class="paper-links">
           <a class="chip" href="https://arxiv.org/abs/2511.18441">arXiv</a>
           <a class="chip" href="https://arxiv.org/pdf/2511.18441.pdf">PDF</a>
-          <span class="chip ghost">Code: N/A</span>
+          <a class="chip" href="https://github.com/loryruta/ReCoGS">Code</a>
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.18441.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
@@ -1369,7 +1369,7 @@ title: NeRF
         <div class="paper-links">
           <a class="chip" href="https://arxiv.org/abs/2511.06457">arXiv</a>
           <a class="chip" href="https://arxiv.org/pdf/2511.06457.pdf">PDF</a>
-          <span class="chip ghost">Code: N/A</span>
+          <a class="chip" href="https://github.com/dfki-av/Inpaint360GS">Code</a>
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.06457.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>

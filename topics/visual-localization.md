@@ -1,19 +1,19 @@
 # Visual Localization
 
-> Updated on 2026.02.01
+> Updated on 2026.02.02
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-01-29**|**Variance & Greediness: A comparative study of metric-learning losses**|Donghuo Zeng et.al.|[2601.21450](https://arxiv.org/abs/2601.21450)|null|
-|**2026-01-28**|**When Vision Meets Texts in Listwise Reranking**|Hongyi Cai et.al.|[2601.20623](https://arxiv.org/abs/2601.20623)|null|
-|**2026-01-28**|**Eliminating Hallucination in Diffusion-Augmented Interactive Text-to-Image Retrieval**|Zhuocheng Zhang et.al.|[2601.20391](https://arxiv.org/abs/2601.20391)|null|
-|**2026-01-27**|**VGGT-SLAM 2.0: Real time Dense Feed-forward Scene Reconstruction**|Dominic Maggio et.al.|[2601.19887](https://arxiv.org/abs/2601.19887)|null|
-|**2026-01-27**|**Pixel-Grounded Retrieval for Knowledgeable Large Multimodal Models**|Jeonghwan Kim et.al.|[2601.19060](https://arxiv.org/abs/2601.19060)|null|
-|**2026-01-23**|**X-Aligner: Composed Visual Retrieval without the Bells and Whistles**|Yuqian Zheng et.al.|[2601.16582](https://arxiv.org/abs/2601.16582)|null|
-|**2026-01-22**|**Rethinking Composed Image Retrieval Evaluation: A Fine-Grained Benchmark from Image Editing**|Tingyu Song et.al.|[2601.16125](https://arxiv.org/abs/2601.16125)|null|
-|**2026-01-21**|**Unified Multimodal and Multilingual Retrieval via Multi-Task Learning with NLU Integration**|Xinyuan Zhang et.al.|[2601.14714](https://arxiv.org/abs/2601.14714)|null|
-|**2026-01-21**|**LookBench: A Live and Holistic Open Benchmark for Fashion Image Retrieval**|Chao Gao et.al.|[2601.14706](https://arxiv.org/abs/2601.14706)|null|
-|**2026-01-20**|**XR: Cross-Modal Agents for Composed Image Retrieval**|Zhongyu Yang et.al.|[2601.14245](https://arxiv.org/abs/2601.14245)|null|
+|2026-01-29|Variance & Greediness: A comparative study of metric-learning losses|Donghuo Zeng et.al.|[2601.21450](https://arxiv.org/abs/2601.21450)|null|
+|2026-01-28|When Vision Meets Texts in Listwise Reranking|Hongyi Cai et.al.|[2601.20623](https://arxiv.org/abs/2601.20623)|null|
+|2026-01-28|Eliminating Hallucination in Diffusion-Augmented Interactive Text-to-Image Retrieval|Zhuocheng Zhang et.al.|[2601.20391](https://arxiv.org/abs/2601.20391)|null|
+|2026-01-27|VGGT-SLAM 2.0: Real time Dense Feed-forward Scene Reconstruction|Dominic Maggio et.al.|[2601.19887](https://arxiv.org/abs/2601.19887)|null|
+|2026-01-27|Pixel-Grounded Retrieval for Knowledgeable Large Multimodal Models|Jeonghwan Kim et.al.|[2601.19060](https://arxiv.org/abs/2601.19060)|null|
+|2026-01-23|X-Aligner: Composed Visual Retrieval without the Bells and Whistles|Yuqian Zheng et.al.|[2601.16582](https://arxiv.org/abs/2601.16582)|null|
+|2026-01-22|Rethinking Composed Image Retrieval Evaluation: A Fine-Grained Benchmark from Image Editing|Tingyu Song et.al.|[2601.16125](https://arxiv.org/abs/2601.16125)|null|
+|2026-01-21|Unified Multimodal and Multilingual Retrieval via Multi-Task Learning with NLU Integration|Xinyuan Zhang et.al.|[2601.14714](https://arxiv.org/abs/2601.14714)|null|
+|2026-01-21|LookBench: A Live and Holistic Open Benchmark for Fashion Image Retrieval|Chao Gao et.al.|[2601.14706](https://arxiv.org/abs/2601.14706)|null|
+|2026-01-20|XR: Cross-Modal Agents for Composed Image Retrieval|Zhongyu Yang et.al.|[2601.14245](https://arxiv.org/abs/2601.14245)|null|
 |2026-01-20|Fine-Grained Zero-Shot Composed Image Retrieval with Complementary Visual-Semantic Integration|Yongcong Ye et.al.|[2601.14060](https://arxiv.org/abs/2601.14060)|null|
 |2026-01-20|Glance-or-Gaze: Incentivizing LMMs to Adaptively Focus Search via Reinforcement Learning|Hongbo Bai et.al.|[2601.13942](https://arxiv.org/abs/2601.13942)|null|
 |2026-01-19|DC-VLAQ: Query-Residual Aggregation for Robust Visual Place Recognition|Hanyu Zhu et.al.|[2601.12729](https://arxiv.org/abs/2601.12729)|null|
@@ -42,7 +42,7 @@
 |2025-12-26|Reloc-VGGT: Visual Re-localization with Geometry Grounded Transformer|Tianchen Deng et.al.|[2512.21883](https://arxiv.org/abs/2512.21883)|null|
 |2025-12-24|Leveraging Lightweight Entity Extraction for Scalable Event-Based Image Retrieval|Dao Sy Duy Minh et.al.|[2512.21221](https://arxiv.org/abs/2512.21221)|null|
 |2025-12-28|UniPR-3D: Towards Universal Visual Place Recognition with Visual Geometry Grounded Transformer|Tianchen Deng et.al.|[2512.21078](https://arxiv.org/abs/2512.21078)|null|
-|2025-12-23|Soft Filtering: Guiding Zero-shot Composed Image Retrieval with Prescriptive and Proscriptive Constraints|Youjin Jung et.al.|[2512.20781](https://arxiv.org/abs/2512.20781)|**[link](https://github.com/jjungyujin/SoFT)**|
+|2025-12-23|Soft Filtering: Guiding Zero-shot Composed Image Retrieval with Prescriptive and Proscriptive Constraints|Youjin Jung et.al.|[2512.20781](https://arxiv.org/abs/2512.20781)|[link](https://github.com/jjungyujin/SoFT)|
 |2025-12-23|Towards Natural Language-Based Document Image Retrieval: New Dataset and Benchmark|Hao Guo et.al.|[2512.20174](http://arxiv.org/abs/2512.20174)|null|
 |2025-12-22|Beyond CLIP: Knowledge-Enhanced Multimodal Transformers for Cross-Modal Alignment in Diabetic Retinopathy Diagnosis|Argha Kamal Samanta et.al.|[2512.19663](http://arxiv.org/abs/2512.19663)|null|
 |2025-12-22|Finer-Personalization Rank: Fine-Grained Retrieval Examines Identity Preservation for Personalized Generation|Connor Kilrain et.al.|[2512.19026](http://arxiv.org/abs/2512.19026)|null|

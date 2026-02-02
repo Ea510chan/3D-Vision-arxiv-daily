@@ -1,19 +1,19 @@
 # Image Matching
 
-> Updated on 2026.02.01
+> Updated on 2026.02.02
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-01-19**|**A Streamlined Attention-Based Network for Descriptor Extraction**|Mattia D'Urso et.al.|[2601.13126](https://arxiv.org/abs/2601.13126)|null|
-|**2026-01-18**|**XRefine: Attention-Guided Keypoint Match Refinement**|Jan Fabian Schmid et.al.|[2601.12530](https://arxiv.org/abs/2601.12530)|null|
-|**2026-01-17**|**Detecting 3D Line Segments for 6DoF Pose Estimation with Limited Data**|Matej Mok et.al.|[2601.12090](https://arxiv.org/abs/2601.12090)|null|
-|**2026-01-17**|**SupScene: Learning Overlap-Aware Global Descriptor for Unconstrained SfM**|Xulei Shi et.al.|[2601.11930](https://arxiv.org/abs/2601.11930)|null|
-|**2026-01-14**|**CLIDD: Cross-Layer Independent Deformable Description for Efficient and Discriminative Local Feature Representation**|Haodi Yao et.al.|[2601.09230](https://arxiv.org/abs/2601.09230)|null|
-|**2026-01-13**|**Near-perfect photo-ID of the Hula painted frog with zero-shot deep local-feature matching**|Maayan Yesharim et.al.|[2601.08798](https://arxiv.org/abs/2601.08798)|null|
-|**2026-01-13**|**Second-order Gaussian directional derivative representations for image high-resolution corner detection**|Dongbo Xie et.al.|[2601.08182](https://arxiv.org/abs/2601.08182)|null|
-|**2026-01-09**|**Stationaere Kurven auf endlichdimensionalen Mannigfaltigkeiten**|Tobias Starke et.al.|[2601.05695](https://arxiv.org/abs/2601.05695)|null|
-|**2026-01-05**|**Exact Clique Number Manipulation via Edge Interdiction**|Yi Zhou et.al.|[2601.01869](https://arxiv.org/abs/2601.01869)|null|
-|**2025-12-31**|**Quantum Visual Word Sense Disambiguation: Unraveling Ambiguities Through Quantum Inference Model**|Wenbo Qiao et.al.|[2512.24687](https://arxiv.org/abs/2512.24687)|null|
+|2026-01-19|A Streamlined Attention-Based Network for Descriptor Extraction|Mattia D'Urso et.al.|[2601.13126](https://arxiv.org/abs/2601.13126)|null|
+|2026-01-18|XRefine: Attention-Guided Keypoint Match Refinement|Jan Fabian Schmid et.al.|[2601.12530](https://arxiv.org/abs/2601.12530)|null|
+|2026-01-17|Detecting 3D Line Segments for 6DoF Pose Estimation with Limited Data|Matej Mok et.al.|[2601.12090](https://arxiv.org/abs/2601.12090)|null|
+|2026-01-17|SupScene: Learning Overlap-Aware Global Descriptor for Unconstrained SfM|Xulei Shi et.al.|[2601.11930](https://arxiv.org/abs/2601.11930)|null|
+|2026-01-14|CLIDD: Cross-Layer Independent Deformable Description for Efficient and Discriminative Local Feature Representation|Haodi Yao et.al.|[2601.09230](https://arxiv.org/abs/2601.09230)|null|
+|2026-01-13|Near-perfect photo-ID of the Hula painted frog with zero-shot deep local-feature matching|Maayan Yesharim et.al.|[2601.08798](https://arxiv.org/abs/2601.08798)|null|
+|2026-01-13|Second-order Gaussian directional derivative representations for image high-resolution corner detection|Dongbo Xie et.al.|[2601.08182](https://arxiv.org/abs/2601.08182)|null|
+|2026-01-09|Stationaere Kurven auf endlichdimensionalen Mannigfaltigkeiten|Tobias Starke et.al.|[2601.05695](https://arxiv.org/abs/2601.05695)|null|
+|2026-01-05|Exact Clique Number Manipulation via Edge Interdiction|Yi Zhou et.al.|[2601.01869](https://arxiv.org/abs/2601.01869)|null|
+|2025-12-31|Quantum Visual Word Sense Disambiguation: Unraveling Ambiguities Through Quantum Inference Model|Wenbo Qiao et.al.|[2512.24687](https://arxiv.org/abs/2512.24687)|null|
 |2025-12-24|VisRes Bench: On Evaluating the Visual Reasoning Capabilities of VLMs|Brigitta Malagurski Törtei et.al.|[2512.21194](https://arxiv.org/abs/2512.21194)|null|
 |2025-12-20|Analog Quantum Image Representation with Qubit-Frugal Encoding|Vikrant Sharma et.al.|[2512.18451](https://arxiv.org/abs/2512.18451)|null|
 |2025-12-17|The Perceptual Observatory Characterizing Robustness and Grounding in MLLMs|Tejas Anvekar et.al.|[2512.15949](https://arxiv.org/abs/2512.15949)|null|
@@ -141,7 +141,7 @@
 |2025-03-05|JamMa: Ultra-lightweight Local Feature Matching with Joint Mamba|Xiaoyong Lu et.al.|[2503.03437](http://arxiv.org/abs/2503.03437)|null|
 |2025-02-28|CNSv2: Probabilistic Correspondence Encoded Neural Image Servo|Anzhe Chen et.al.|[2503.00132](http://arxiv.org/abs/2503.00132)|null|
 |2025-02-27|A2-GNN: Angle-Annular GNN for Visual Descriptor-free Camera Relocalization|Yejun Zhang et.al.|[2502.20036](http://arxiv.org/abs/2502.20036)|[link](https://github.com/yejunzhang/a2-gnn)|
-|2025-02-27|RUBIK: A Structured Benchmark for Image Matching across Geometric Challenges|Thibaut Loiseau et.al.|[2502.19955](http://arxiv.org/abs/2502.19955)|**[link](https://github.com/thibautloiseau/RUBIK)**|
+|2025-02-27|RUBIK: A Structured Benchmark for Image Matching across Geometric Challenges|Thibaut Loiseau et.al.|[2502.19955](http://arxiv.org/abs/2502.19955)|[link](https://github.com/thibautloiseau/RUBIK)|
 |2025-02-26|BEV-LIO(LC): BEV Image Assisted LiDAR-Inertial Odometry with Loop Closure|Haoxin Cai et.al.|[2502.19242](http://arxiv.org/abs/2502.19242)|[link](https://github.com/hxca1/bev-lio-lc)|
 |2025-02-25|PromptMID: Modal Invariant Descriptors Based on Diffusion and Vision Foundation Models for Optical-SAR Image Matching|Han Nie et.al.|[2502.18104](http://arxiv.org/abs/2502.18104)|[link](https://github.com/hanniewhu/promptmid)|
 

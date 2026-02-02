@@ -7,7 +7,7 @@ title: Gaussian Splatting
   <div>
     <p class="eyebrow">Topic</p>
     <h1>Gaussian Splatting</h1>
-    <p class="topic-lede">Updated 2026.02.01 · 527 papers</p>
+    <p class="topic-lede">Updated 2026.02.02 · 527 papers</p>
   </div>
   <a class="btn ghost" href="../index.html#topics">← Back to topics</a>
 </section>
@@ -4057,7 +4057,7 @@ title: Gaussian Splatting
         <div class="paper-links">
           <a class="chip" href="https://arxiv.org/abs/2510.12768">arXiv</a>
           <a class="chip" href="https://arxiv.org/pdf/2510.12768.pdf">PDF</a>
-          <span class="chip ghost">Code: N/A</span>
+          <a class="chip" href="https://github.com/TAMU-Visual-AI/usplat4d">Code</a>
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.12768.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
@@ -7669,7 +7669,7 @@ title: Gaussian Splatting
         <div class="paper-links">
           <a class="chip" href="https://arxiv.org/abs/2505.23716">arXiv</a>
           <a class="chip" href="https://arxiv.org/pdf/2505.23716.pdf">PDF</a>
-          <span class="chip ghost">Code: N/A</span>
+          <a class="chip" href="https://github.com/InternRobotics/AnySplat">Code</a>
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.23716.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
@@ -8047,7 +8047,7 @@ title: Gaussian Splatting
         <div class="paper-links">
           <a class="chip" href="https://arxiv.org/abs/2505.14938">arXiv</a>
           <a class="chip" href="https://arxiv.org/pdf/2505.14938.pdf">PDF</a>
-          <span class="chip ghost">Code: N/A</span>
+          <a class="chip" href="https://github.com/AmineElhafsi/SMS">Code</a>
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.14938.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>

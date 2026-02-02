@@ -7,7 +7,7 @@ title: Visual Localization
   <div>
     <p class="eyebrow">Topic</p>
     <h1>Visual Localization</h1>
-    <p class="topic-lede">Updated 2026.02.01 · 327 papers</p>
+    <p class="topic-lede">Updated 2026.02.02 · 327 papers</p>
   </div>
   <a class="btn ghost" href="../index.html#topics">← Back to topics</a>
 </section>
@@ -2503,7 +2503,7 @@ title: Visual Localization
         <div class="paper-links">
           <a class="chip" href="https://arxiv.org/abs/2510.23224">arXiv</a>
           <a class="chip" href="https://arxiv.org/pdf/2510.23224.pdf">PDF</a>
-          <span class="chip ghost">Code: N/A</span>
+          <a class="chip" href="https://github.com/Dootmaan/PathSearch">Code</a>
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.23224.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
@@ -2650,7 +2650,7 @@ title: Visual Localization
         <div class="paper-links">
           <a class="chip" href="https://arxiv.org/abs/2510.18437">arXiv</a>
           <a class="chip" href="https://arxiv.org/pdf/2510.18437.pdf">PDF</a>
-          <span class="chip ghost">Code: N/A</span>
+          <a class="chip" href="https://github.com/xiaohainku/RISE">Code</a>
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.18437.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>

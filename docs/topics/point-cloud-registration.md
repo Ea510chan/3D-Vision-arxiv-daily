@@ -7,7 +7,7 @@ title: Point Cloud Registration
   <div>
     <p class="eyebrow">Topic</p>
     <h1>Point Cloud Registration</h1>
-    <p class="topic-lede">Updated 2026.02.01 · 119 papers</p>
+    <p class="topic-lede">Updated 2026.02.02 · 119 papers</p>
   </div>
   <a class="btn ghost" href="../index.html#topics">← Back to topics</a>
 </section>
@@ -844,7 +844,7 @@ title: Point Cloud Registration
         <div class="paper-links">
           <a class="chip" href="https://arxiv.org/abs/2511.11735">arXiv</a>
           <a class="chip" href="https://arxiv.org/pdf/2511.11735.pdf">PDF</a>
-          <span class="chip ghost">Code: N/A</span>
+          <a class="chip" href="https://github.com/yonatansverdlov/Toward-bilipshiz-geometric-models">Code</a>
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.11735.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
