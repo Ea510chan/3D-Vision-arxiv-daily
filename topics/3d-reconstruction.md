@@ -1,9 +1,19 @@
 # 3D Reconstruction
 
-> Updated on 2026.02.02
+> Updated on 2026.02.06
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-02-04**|**AGILE: Hand-Object Interaction Reconstruction from Video via Agentic Generation**|Jin-Chuan Shi et.al.|[2602.04672](https://arxiv.org/abs/2602.04672)|null|
+|**2026-02-04**|**S-MUSt3R: Sliding Multi-view 3D Reconstruction**|Leonid Antsfeld et.al.|[2602.04517](https://arxiv.org/abs/2602.04517)|null|
+|**2026-02-04**|**TrajVG: 3D Trajectory-Coupled Visual Geometry Learning**|Xingyu Miao et.al.|[2602.04439](https://arxiv.org/abs/2602.04439)|null|
+|**2026-02-04**|**Improving 2D Diffusion Models for 3D Medical Imaging with Inter-Slice Consistent Stochasticity**|Chenhe Du et.al.|[2602.04162](https://arxiv.org/abs/2602.04162)|null|
+|**2026-02-04**|**SuperPoint-E: local features for 3D reconstruction via tracking adaptation in endoscopy**|O. Leon Barbed et.al.|[2602.04108](https://arxiv.org/abs/2602.04108)|null|
+|**2026-02-03**|**AnyStyle: Single-Pass Multimodal Stylization for 3D Gaussian Splatting**|Joanna Kaleta et.al.|[2602.04043](https://arxiv.org/abs/2602.04043)|null|
+|**2026-02-03**|**EventNeuS: 3D Mesh Reconstruction from a Single Event Camera**|Shreyas Sachan et.al.|[2602.03847](https://arxiv.org/abs/2602.03847)|null|
+|**2026-02-03**|**Pi-GS: Sparse-View Gaussian Splatting with Dense π^3 Initialization**|Manuel Hofer et.al.|[2602.03327](https://arxiv.org/abs/2602.03327)|null|
+|**2026-02-03**|**Depth Completion in Unseen Field Robotics Environments Using Extremely Sparse Depth Measurements**|Marco Job et.al.|[2602.03209](https://arxiv.org/abs/2602.03209)|null|
+|**2026-02-02**|**3D Foundation Model-Based Loop Closing for Decentralized Collaborative SLAM**|Pierre-Yves Lajoie et.al.|[2602.02430](https://arxiv.org/abs/2602.02430)|null|
 |2026-01-29|MetricAnything: Scaling Metric Depth Pretraining with Noisy Heterogeneous Sources|Baorui Ma et.al.|[2601.22054](https://arxiv.org/abs/2601.22054)|null|
 |2026-01-29|PLANING: A Loosely Coupled Triangle-Gaussian Framework for Streaming 3D Reconstruction|Changjian Jiang et.al.|[2601.22046](https://arxiv.org/abs/2601.22046)|null|
 |2026-01-29|Urban Neural Surface Reconstruction from Constrained Sparse Aerial Imagery with 3D SAR Fusion|Da Li et.al.|[2601.22045](https://arxiv.org/abs/2601.22045)|null|

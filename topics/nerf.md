@@ -1,15 +1,19 @@
 # NeRF
 
-> Updated on 2026.02.02
+> Updated on 2026.02.06
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|2026-01-29|From Implicit Ambiguity to Explicit Solidity: Diagnosing Interior Geometric Degradation in Neural Radiance Fields for Dense 3D Scene Understanding|Jiangsan Zhao et.al.|[2601.21421](https://arxiv.org/abs/2601.21421)|null|
-|2026-01-29|Lightweight High-Fidelity Low-Bitrate Talking Face Compression for 3D Video Conference|Jianglong Li et.al.|[2601.21269](https://arxiv.org/abs/2601.21269)|null|
-|2026-01-27|WaterClear-GS: Optical-Aware Gaussian Splatting for Underwater Reconstruction and Restoration|Xinrui Zhang et.al.|[2601.19753](https://arxiv.org/abs/2601.19753)|null|
-|2026-01-27|Bridging Visual and Wireless Sensing: A Unified Radiation Field for 3D Radio Map Construction|Chaozheng Wen et.al.|[2601.19216](https://arxiv.org/abs/2601.19216)|null|
-|2026-01-26|Audio-Driven Talking Face Generation with Blink Embedding and Hash Grid Landmarks Encoding|Yuhui Zhang et.al.|[2601.18849](https://arxiv.org/abs/2601.18849)|null|
-|2026-01-25|MV-SAM: Multi-view Promptable Segmentation using Pointmap Guidance|Yoonwoo Jeong et.al.|[2601.17866](https://arxiv.org/abs/2601.17866)|null|
+|**2026-02-03**|**Beyond Cropping and Rotation: Automated Evolution of Powerful Task-Specific Augmentations with Generative Models**|Judah Goldfeder et.al.|[2602.03123](https://arxiv.org/abs/2602.03123)|null|
+|**2026-01-30**|**EAG-PT: Emission-Aware Gaussians and Path Tracing for Indoor Scene Reconstruction and Editing**|Xijie Yang et.al.|[2601.23065](https://arxiv.org/abs/2601.23065)|null|
+|**2026-02-02**|**Under-Canopy Terrain Reconstruction in Dense Forests Using RGB Imaging and Neural 3D Reconstruction**|Refael Sheffer et.al.|[2601.22861](https://arxiv.org/abs/2601.22861)|null|
+|**2026-01-30**|**Diachronic Stereo Matching for Multi-Date Satellite Imagery**|Elías Masquil et.al.|[2601.22808](https://arxiv.org/abs/2601.22808)|null|
+|**2026-01-29**|**From Implicit Ambiguity to Explicit Solidity: Diagnosing Interior Geometric Degradation in Neural Radiance Fields for Dense 3D Scene Understanding**|Jiangsan Zhao et.al.|[2601.21421](https://arxiv.org/abs/2601.21421)|null|
+|**2026-01-29**|**Lightweight High-Fidelity Low-Bitrate Talking Face Compression for 3D Video Conference**|Jianglong Li et.al.|[2601.21269](https://arxiv.org/abs/2601.21269)|null|
+|**2026-01-27**|**WaterClear-GS: Optical-Aware Gaussian Splatting for Underwater Reconstruction and Restoration**|Xinrui Zhang et.al.|[2601.19753](https://arxiv.org/abs/2601.19753)|null|
+|**2026-01-27**|**Bridging Visual and Wireless Sensing: A Unified Radiation Field for 3D Radio Map Construction**|Chaozheng Wen et.al.|[2601.19216](https://arxiv.org/abs/2601.19216)|null|
+|**2026-01-26**|**Audio-Driven Talking Face Generation with Blink Embedding and Hash Grid Landmarks Encoding**|Yuhui Zhang et.al.|[2601.18849](https://arxiv.org/abs/2601.18849)|null|
+|**2026-01-25**|**MV-SAM: Multi-view Promptable Segmentation using Pointmap Guidance**|Yoonwoo Jeong et.al.|[2601.17866](https://arxiv.org/abs/2601.17866)|null|
 |2026-01-24|NeRF-MIR: Towards High-Quality Restoration of Masked Images with Neural Radiance Fields|Xianliang Huang et.al.|[2601.17350](https://arxiv.org/abs/2601.17350)|null|
 |2026-01-23|Multi-View Consistent Wound Segmentation With Neural Fields|Remi Chierchia et.al.|[2601.16487](https://arxiv.org/abs/2601.16487)|null|
 |2026-01-21|Seeing through Light and Darkness: Sensor-Physics Grounded Deblurring HDR NeRF from Single-Exposure Images and Events|Yunshan Qi et.al.|[2601.15475](https://arxiv.org/abs/2601.15475)|null|

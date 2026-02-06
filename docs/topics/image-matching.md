@@ -7,12 +7,54 @@ title: Image Matching
   <div>
     <p class="eyebrow">Topic</p>
     <h1>Image Matching</h1>
-    <p class="topic-lede">Updated 2026.02.02 · 140 papers</p>
+    <p class="topic-lede">Updated 2026.02.06 · 141 papers</p>
   </div>
   <a class="btn ghost" href="../index.html#topics">← Back to topics</a>
 </section>
 
 <section class="paper-grid">
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Quantile Transfer for Reliable Operating Point Selection in Visual Place Recognition</span>
+        <span class="paper-authors">Dhyey Manish Rajani, Michael Milford, Tobias Fischer</span>
+        <span class="paper-meta">Updated 2026-02-04</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Visual Place Recognition (VPR) is a key component for localisation in GNSS-denied environments, but its performance critically depends on selecting an image matching threshold (operating point) that balances precision and recall. Thresholds are typically hand-tuned offline for a specific environment and fixed during deployment, leading to degraded performance under environmental change. We propose a method that, given a user-defined precision requirement, automatically selects the operating point of a VPR system to maximise recall. The method uses a small calibration traversal with known correspondences and transfers thresholds to deployment via quantile normalisation of similarity score distributions. This quantile transfer ensures that thresholds remain stable across calibration sizes and query subsets, making the method robust to sampling variability. Experiments with multiple state-of-the-art VPR techniques and datasets show that the proposed approach consistently outperforms the state-of-the-art, delivering up to 25% higher recall in high-precision operating regimes. The method eliminates manual tuning by adapting to new environments and generalising across operating conditions. Our code will be released upon acceptance.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.04401">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.04401.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.04401.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Detecting 3D Line Segments for 6DoF Pose Estimation with Limited Data</span>
+        <span class="paper-authors">Matej Mok, Lukáš Gajdošech, Michal Mesároš, Martin Madaras, Viktor Kocur</span>
+        <span class="paper-meta">Updated 2026-02-03</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">The task of 6DoF object pose estimation is one of the fundamental problems of 3D vision with many practical applications such as industrial automation. Traditional deep learning approaches for this task often require extensive training data or CAD models, limiting their application in real-world industrial settings where data is scarce and object instances vary. We propose a novel method for 6DoF pose estimation focused specifically on bins used in industrial settings. We exploit the cuboid geometry of bins by first detecting intermediate 3D line segments corresponding to their top edges. Our approach extends the 2D line segment detection network LeTR to operate on structured point cloud data. The detected 3D line segments are then processed using a simple geometric procedure to robustly determine the bin&#x27;s 6DoF pose. To evaluate our method, we extend an existing dataset with a newly collected and annotated dataset, which we make publicly available. We show that incorporating synthetic training data significantly improves pose estimation accuracy on real scans. Moreover, we show that our method significantly outperforms current state-of-the-art 6DoF pose estimation methods in terms of the pose accuracy (3 cm translation error, 8.2$^\circ$ rotation error) while not requiring instance-specific CAD models during inference.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.12090">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.12090.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.12090.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
   <article class="paper-card">
     <details class="paper-details">
       <summary>
@@ -49,27 +91,6 @@ title: Image Matching
           <span class="chip ghost">Code: N/A</span>
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.12530.pdf">
-          <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
-        </div>
-      </div>
-    </details>
-  </article>
-  <article class="paper-card">
-    <details class="paper-details">
-      <summary>
-        <span class="paper-title">Detecting 3D Line Segments for 6DoF Pose Estimation with Limited Data</span>
-        <span class="paper-authors">Matej Mok, Lukáš Gajdošech, Michal Mesároš, Martin Madaras, Viktor Kocur</span>
-        <span class="paper-meta">Updated 2026-01-17</span>
-      </summary>
-      <div class="paper-body">
-        <p class="paper-abstract">The task of 6DoF object pose estimation is one of the fundamental problems of 3D vision with many practical applications such as industrial automation. Traditional deep learning approaches for this task often require extensive training data or CAD models, limiting their application in real-world industrial settings where data is scarce and object instances vary. We propose a novel method for 6DoF pose estimation focused specifically on bins used in industrial settings. We exploit the cuboid geometry of bins by first detecting intermediate 3D line segments corresponding to their top edges. Our approach extends the 2D line segment detection network LeTR to operate on structured point cloud data. The detected 3D line segments are then processed using a simple geometric procedure to robustly determine the bin&#x27;s 6DoF pose. To evaluate our method, we extend an existing dataset with a newly collected and annotated dataset, which we make publicly available. We show that incorporating synthetic training data significantly improves pose estimation accuracy on real scans. Moreover, we show that our method significantly outperforms current state-of-the-art 6DoF pose estimation methods in terms of the pose accuracy (3 cm translation error, 8.2$^\circ$ rotation error) while not requiring instance-specific CAD models during inference.</p>
-        <div class="paper-links">
-          <a class="chip" href="https://arxiv.org/abs/2601.12090">arXiv</a>
-          <a class="chip" href="https://arxiv.org/pdf/2601.12090.pdf">PDF</a>
-          <span class="chip ghost">Code: N/A</span>
-        </div>
-        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.12090.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>

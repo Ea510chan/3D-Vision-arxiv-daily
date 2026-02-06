@@ -7,12 +7,54 @@ title: Point Cloud Registration
   <div>
     <p class="eyebrow">Topic</p>
     <h1>Point Cloud Registration</h1>
-    <p class="topic-lede">Updated 2026.02.02 · 119 papers</p>
+    <p class="topic-lede">Updated 2026.02.06 · 121 papers</p>
   </div>
   <a class="btn ghost" href="../index.html#topics">← Back to topics</a>
 </section>
 
 <section class="paper-grid">
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Beyond the Vehicle: Cooperative Localization by Fusing Point Clouds for GPS-Challenged Urban Scenarios</span>
+        <span class="paper-authors">Kuo-Yi Chao, Ralph Rasshofer, Alois Christian Knoll</span>
+        <span class="paper-meta">Updated 2026-02-03</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Accurate vehicle localization is a critical challenge in urban environments where GPS signals are often unreliable. This paper presents a cooperative multi-sensor and multi-modal localization approach to address this issue by fusing data from vehicle-to-vehicle (V2V) and vehicle-to-infrastructure (V2I) systems. Our approach integrates cooperative data with a point cloud registration-based simultaneous localization and mapping (SLAM) algorithm. The system processes point clouds generated from diverse sensor modalities, including vehicle-mounted LiDAR and stereo cameras, as well as sensors deployed at intersections. By leveraging shared data from infrastructure, our method significantly improves localization accuracy and robustness in complex, GPS-noisy urban scenarios.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.03908">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.03908.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.03908.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Parametric vector flows for registration fields in bounded domains with applications to nonlinear interpolation of shock-dominated flows</span>
+        <span class="paper-authors">Jon Labatut, Jean-Baptiste Chapelier, Angelo Iollo, Tommaso Taddei</span>
+        <span class="paper-meta">Updated 2026-01-30</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">We present a registration procedure for parametric model order reduction (MOR) in two- and three-dimensional bounded domains. In the MOR framework, registration methods exploit solution snapshots to identify a parametric coordinate transformation that improves the approximation of the solution set through linear subspaces. For each training parameter, optimization-based (or variational) registration methods minimize a target function that measures the alignment of the coherent structures of interest (e.g., shocks, shear layers, cracks) for different parameter values, over a family of bijections of the computational domain $Ω$. We consider diffeomorphisms $Φ$ that are vector flows of given velocity fields $v$ with vanishing normal component on $\partial Ω$; we rely on a sensor to extract appropriate point clouds from the solution snapshots and we develop an expectation-maximization procedure to simultaneously solve the point cloud matching problem and to determine the velocity $v$ (and thus the bijection $Φ$); finally, we combine our registration method with the nonlinear interpolation technique of [Iollo, Taddei, J. Comput. Phys., 2022] to perform accurate interpolations of fluid dynamic fields in the presence of shocks. Numerical results for a two-dimensional inviscid transonic flow past a NACA airfoil and a three-dimensional viscous transonic flow past an ONERA M6 wing illustrate the many elements of the methodology and demonstrate the effectiveness of nonlinear interpolation for shock-dominated fields.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.22712">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.22712.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.22712.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
   <article class="paper-card">
     <details class="paper-details">
       <summary>

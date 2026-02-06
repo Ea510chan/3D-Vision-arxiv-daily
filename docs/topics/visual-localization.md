@@ -7,12 +7,222 @@ title: Visual Localization
   <div>
     <p class="eyebrow">Topic</p>
     <h1>Visual Localization</h1>
-    <p class="topic-lede">Updated 2026.02.02 · 327 papers</p>
+    <p class="topic-lede">Updated 2026.02.06 · 337 papers</p>
   </div>
   <a class="btn ghost" href="../index.html#topics">← Back to topics</a>
 </section>
 
 <section class="paper-grid">
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">SAR-RAG: ATR Visual Question Answering by Semantic Search, Retrieval, and MLLM Generation</span>
+        <span class="paper-authors">David F. Ramirez, Tim Overman, Kristen Jaskie, Joe Marvin, Andreas Spanias</span>
+        <span class="paper-meta">Updated 2026-02-04</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">We present a visual-context image retrieval-augmented generation (ImageRAG) assisted AI agent for automatic target recognition (ATR) of synthetic aperture radar (SAR). SAR is a remote sensing method used in defense and security applications to detect and monitor the positions of military vehicles, which may appear indistinguishable in images. Researchers have extensively studied SAR ATR to improve the differentiation and identification of vehicle types, characteristics, and measurements. Test examples can be compared with known vehicle target types to improve recognition tasks. New methods enhance the capabilities of neural networks, transformer attention, and multimodal large language models. An agentic AI method may be developed to utilize a defined set of tools, such as searching through a library of similar examples. Our proposed method, SAR Retrieval-Augmented Generation (SAR-RAG), combines a multimodal large language model (MLLM) with a vector database of semantic embeddings to support contextual search for image exemplars with known qualities. By recovering past image examples with known true target types, our SAR-RAG system can compare similar vehicle categories, achieving improved ATR prediction accuracy. We evaluate this through search and retrieval metrics, categorical classification accuracy, and numeric regression of vehicle dimensions. These metrics all show improvements when SAR-RAG is added to an MLLM baseline method as an attached ATR memory bank.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.04712">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.04712.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.04712.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">SDR-CIR: Semantic Debias Retrieval Framework for Training-Free Zero-Shot Composed Image Retrieval</span>
+        <span class="paper-authors">Yi Sun, Jinyu Xu, Qing Xie, Jiachen Li, Yanchun Ma, Yongjian Liu</span>
+        <span class="paper-meta">Updated 2026-02-04</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Composed Image Retrieval (CIR) aims to retrieve a target image from a query composed of a reference image and modification text. Recent training-free zero-shot methods often employ Multimodal Large Language Models (MLLMs) with Chain-of-Thought (CoT) to compose a target image description for retrieval. However, due to the fuzzy matching nature of ZS-CIR, the generated description is prone to semantic bias relative to the target image. We propose SDR-CIR, a training-free Semantic Debias Ranking method based on CoT reasoning. First, Selective CoT guides the MLLM to extract visual content relevant to the modification text during image understanding, thereby reducing visual noise at the source. We then introduce a Semantic Debias Ranking with two steps, Anchor and Debias, to mitigate semantic bias. In the Anchor step, we fuse reference image features with target description features to reinforce useful semantics and supplement omitted cues. In the Debias step, we explicitly model the visual semantic contribution of the reference image to the description and incorporate it into the similarity score as a penalty term. By supplementing omitted cues while suppressing redundancy, SDR-CIR mitigates semantic bias and improves retrieval performance. Experiments on three standard CIR benchmarks show that SDR-CIR achieves state-of-the-art results among one-stage methods while maintaining high efficiency. The code is publicly available at https://github.com/suny105/SDR-CIR.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.04451">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.04451.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.04451.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Quantile Transfer for Reliable Operating Point Selection in Visual Place Recognition</span>
+        <span class="paper-authors">Dhyey Manish Rajani, Michael Milford, Tobias Fischer</span>
+        <span class="paper-meta">Updated 2026-02-04</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Visual Place Recognition (VPR) is a key component for localisation in GNSS-denied environments, but its performance critically depends on selecting an image matching threshold (operating point) that balances precision and recall. Thresholds are typically hand-tuned offline for a specific environment and fixed during deployment, leading to degraded performance under environmental change. We propose a method that, given a user-defined precision requirement, automatically selects the operating point of a VPR system to maximise recall. The method uses a small calibration traversal with known correspondences and transfers thresholds to deployment via quantile normalisation of similarity score distributions. This quantile transfer ensures that thresholds remain stable across calibration sizes and query subsets, making the method robust to sampling variability. Experiments with multiple state-of-the-art VPR techniques and datasets show that the proposed approach consistently outperforms the state-of-the-art, delivering up to 25% higher recall in high-precision operating regimes. The method eliminates manual tuning by adapting to new environments and generalising across operating conditions. Our code will be released upon acceptance.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.04401">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.04401.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.04401.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Beyond Static Cropping: Layer-Adaptive Visual Localization and Decoding Enhancement</span>
+        <span class="paper-authors">Zipeng Zhu, Zhanghao Hu, Qinglin Zhu, Yuxi Hong, Yijun Liu, Jingyong Su, Yulan He, Lin Gui</span>
+        <span class="paper-meta">Updated 2026-02-04</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Large Vision-Language Models (LVLMs) have advanced rapidly by aligning visual patches with the text embedding space, but a fixed visual-token budget forces images to be resized to a uniform pretraining resolution, often erasing fine-grained details and causing hallucinations via over-reliance on language priors. Recent attention-guided enhancement (e.g., cropping or region-focused attention allocation) alleviates this, yet it commonly hinges on a static &quot;magic layer&quot; empirically chosen on simple recognition benchmarks and thus may not transfer to complex reasoning tasks. In contrast to this static assumption, we propose a dynamic perspective on visual grounding. Through a layer-wise sensitivity analysis, we demonstrate that visual grounding is a dynamic process: while simple object recognition tasks rely on middle layers, complex visual search and reasoning tasks require visual information to be reactivated at deeper layers. Based on this observation, we introduce Visual Activation by Query (VAQ), a metric that identifies the layer whose attention map is most relevant to query-specific visual grounding by measuring attention sensitivity to the input query. Building on VAQ, we further propose LASER (Layer-adaptive Attention-guided Selective visual and decoding Enhancement for Reasoning), a training-free inference procedure that adaptively selects task-appropriate layers for visual localization and question answering. Experiments across diverse VQA benchmarks show that LASER significantly improves VQA accuracy across tasks with varying levels of complexity.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.04304">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.04304.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.04304.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Invariance on Manifolds: Understanding Robust Visual Representations for Place Recognition</span>
+        <span class="paper-authors">Jintao Cheng, Weibin Li, Zhijian He, Jin Wu, Chi Man Vong, Wei Zhang</span>
+        <span class="paper-meta">Updated 2026-02-04</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Visual Place Recognition (VPR) demands representations robust to drastic environmental and viewpoint shifts. Current aggregation paradigms, however, either rely on data-hungry supervision or simplistic first-order statistics, often neglecting intrinsic structural correlations. In this work, we propose a Second-Order Geometric Statistics framework that inherently captures geometric stability without training. We conceptualize scenes as covariance descriptors on the Symmetric Positive Definite (SPD) manifold, where perturbations manifest as tractable congruence transformations. By leveraging geometry-aware Riemannian mappings, we project these descriptors into a linearized Euclidean embedding, effectively decoupling signal structure from noise. Our approach introduces a training-free framework built upon fixed, pre-trained backbones, achieving strong zero-shot generalization without parameter updates. Extensive experiments confirm that our method achieves highly competitive performance against state-of-the-art baselines, particularly excelling in challenging zero-shot scenarios.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.00841">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.00841.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.00841.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">LaVPR: Benchmarking Language and Vision for Place Recognition</span>
+        <span class="paper-authors">Ofer Idan, Dan Badur, Yosi Keller, Yoli Shavit</span>
+        <span class="paper-meta">Updated 2026-02-03</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Visual Place Recognition (VPR) often fails under extreme environmental changes and perceptual aliasing. Furthermore, standard systems cannot perform &quot;blind&quot; localization from verbal descriptions alone, a capability needed for applications such as emergency response. To address these challenges, we introduce LaVPR, a large-scale benchmark that extends existing VPR datasets with over 650,000 rich natural-language descriptions. Using LaVPR, we investigate two paradigms: Multi-Modal Fusion for enhanced robustness and Cross-Modal Retrieval for language-based localization. Our results show that language descriptions yield consistent gains in visually degraded conditions, with the most significant impact on smaller backbones. Notably, adding language allows compact models to rival the performance of much larger vision-only architectures. For cross-modal retrieval, we establish a baseline using Low-Rank Adaptation (LoRA) and Multi-Similarity loss, which substantially outperforms standard contrastive methods across vision-language models. Ultimately, LaVPR enables a new class of localization systems that are both resilient to real-world stochasticity and practical for resource-constrained deployment. Our dataset and code are available at https://github.com/oferidan1/LaVPR.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.03253">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.03253.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.03253.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">ObjEmbed: Towards Universal Multimodal Object Embeddings</span>
+        <span class="paper-authors">Shenghao Fu, Yukun Su, Fengyun Rao, Jing Lyu, Xiaohua Xie, Wei-Shi Zheng</span>
+        <span class="paper-meta">Updated 2026-02-03</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Aligning objects with corresponding textual descriptions is a fundamental challenge and a realistic requirement in vision-language understanding. While recent multimodal embedding models excel at global image-text alignment, they often struggle with fine-grained alignment between image regions and specific phrases. In this work, we present ObjEmbed, a novel MLLM embedding model that decomposes the input image into multiple regional embeddings, each corresponding to an individual object, along with global embeddings. It supports a wide range of visual understanding tasks like visual grounding, local image retrieval, and global image retrieval. ObjEmbed enjoys three key properties: (1) Object-Oriented Representation: It captures both semantic and spatial aspects of objects by generating two complementary embeddings for each region: an object embedding for semantic matching and an IoU embedding that predicts localization quality. The final object matching score combines semantic similarity with the predicted IoU, enabling more accurate retrieval. (2) Versatility: It seamlessly handles both region-level and image-level tasks. (3) Efficient Encoding: All objects in an image, along with the full image, are encoded in a single forward pass for high efficiency. Superior performance on 18 diverse benchmarks demonstrates its strong semantic discrimination.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.01753">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.01753.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.01753.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Real-Time Loop Closure Detection in Visual SLAM via NetVLAD and Faiss</span>
+        <span class="paper-authors">Enguang Fan</span>
+        <span class="paper-meta">Updated 2026-02-02</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Loop closure detection (LCD) is a core component of simultaneous localization and mapping (SLAM): it identifies revisited places and enables pose-graph constraints that correct accumulated drift. Classic bag-of-words approaches such as DBoW are efficient but often degrade under appearance change and perceptual aliasing. In parallel, deep learning-based visual place recognition (VPR) descriptors (e.g., NetVLAD and Transformer-based models) offer stronger robustness, but their computational cost is often viewed as a barrier to real-time SLAM. In this paper, we empirically evaluate NetVLAD as an LCD module and compare it against DBoW on the KITTI dataset. We introduce a Fine-Grained Top-K precision-recall curve that better reflects LCD settings where a query may have zero or multiple valid matches. With Faiss-accelerated nearestneighbor search, NetVLAD achieves real-time query speed while improving accuracy and robustness over DBoW, making it a practical drop-in alternative for LCD in SLAM.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.01673">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.01673.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.01673.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">ReCALL: Recalibrating Capability Degradation for MLLM-based Composed Image Retrieval</span>
+        <span class="paper-authors">Tianyu Yang, ChenWei He, Xiangzhao Hao, Tianyue Wang, Jiarui Guo, Haiyun Guo, Leigang Qu, Jinqiao Wang, Tat-Seng Chua</span>
+        <span class="paper-meta">Updated 2026-02-02</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Composed Image Retrieval (CIR) aims to retrieve target images based on a hybrid query comprising a reference image and a modification text. Early dual-tower Vision-Language Models (VLMs) struggle with cross-modality compositional reasoning required for this task. Recently, adapting generative Multimodal Large Language Models (MLLMs) for retrieval offers a promising direction. However, we identify that this adaptation strategy overlooks a fundamental issue: adapting a generative MLLM into a single-embedding discriminative retriever triggers a paradigm conflict, which leads to Capability Degradation - the deterioration of native fine-grained reasoning after retrieval adaptation. To address this challenge, we propose ReCALL (Recalibrating Capability Degradation), a model-agnostic framework that follows a diagnose-generate-refine pipeline: Firstly, we diagnose cognitive blind spots of the retriever via self-guided informative instance mining. Next, we generate corrective instructions and triplets by CoT prompting the foundation MLLM and conduct quality control with VQA-based consistency filtering. Finally, we refine the retriever through continual training on these triplets with a grouped contrastive scheme, thereby internalizing fine-grained visual-semantic distinctions and realigning the discriminative embedding space of retriever with intrinsic compositional reasoning within the MLLM. Extensive experiments on CIRR and FashionIQ show that ReCALL consistently recalibrates degraded capabilities and achieves state-of-the-art performance. Code will be released soon.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.01639">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.01639.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.01639.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Interacted Planes Reveal 3D Line Mapping</span>
+        <span class="paper-authors">Zeran Ke, Bin Tan, Gui-Song Xia, Yujun Shen, Nan Xue</span>
+        <span class="paper-meta">Updated 2026-02-01</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">3D line mapping from multi-view RGB images provides a compact and structured visual representation of scenes. We study the problem from a physical and topological perspective: a 3D line most naturally emerges as the edge of a finite 3D planar patch. We present LiP-Map, a line-plane joint optimization framework that explicitly models learnable line and planar primitives. This coupling enables accurate and detailed 3D line mapping while maintaining strong efficiency (typically completing a reconstruction in 3 to 5 minutes per scene). LiP-Map pioneers the integration of planar topology into 3D line mapping, not by imposing pairwise coplanarity constraints but by explicitly constructing interactions between plane and line primitives, thus offering a principled route toward structured reconstruction in man-made environments. On more than 100 scenes from ScanNetV2, ScanNet++, Hypersim, 7Scenes, and Tanks\&amp;Temple, LiP-Map improves both accuracy and completeness over state-of-the-art methods. Beyond line mapping quality, LiP-Map significantly advances line-assisted visual localization, establishing strong performance on 7Scenes. Our code is released at https://github.com/calmke/LiPMAP for reproducible research.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.01296">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.01296.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.01296.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
   <article class="paper-card">
     <details class="paper-details">
       <summary>

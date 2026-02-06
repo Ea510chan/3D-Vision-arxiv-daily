@@ -1,9 +1,19 @@
 # Gaussian Splatting
 
-> Updated on 2026.02.02
+> Updated on 2026.02.06
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-02-04**|**Nix and Fix: Targeting 1000x Compression of 3D Gaussian Splatting with Diffusion Models**|Cem Eteke et.al.|[2602.04549](https://arxiv.org/abs/2602.04549)|null|
+|**2026-02-04**|**VecSet-Edit: Unleashing Pre-trained LRM for Mesh Editing from Single Image**|Teng-Fang Hsiao et.al.|[2602.04349](https://arxiv.org/abs/2602.04349)|null|
+|**2026-02-04**|**Towards Next-Generation SLAM: A Survey on 3DGS-SLAM Focusing on Performance, Robustness, and Future Directions**|Li Wang et.al.|[2602.04251](https://arxiv.org/abs/2602.04251)|null|
+|**2026-02-03**|**AnyStyle: Single-Pass Multimodal Stylization for 3D Gaussian Splatting**|Joanna Kaleta et.al.|[2602.04043](https://arxiv.org/abs/2602.04043)|null|
+|**2026-02-02**|**Intellectual Property Protection for 3D Gaussian Splatting Assets: A Survey**|Longjie Zhao et.al.|[2602.03878](https://arxiv.org/abs/2602.03878)|null|
+|**2026-02-03**|**Constrained Dynamic Gaussian Splatting**|Zihan Zheng et.al.|[2602.03538](https://arxiv.org/abs/2602.03538)|null|
+|**2026-02-03**|**Pi-GS: Sparse-View Gaussian Splatting with Dense π^3 Initialization**|Manuel Hofer et.al.|[2602.03327](https://arxiv.org/abs/2602.03327)|null|
+|**2026-02-03**|**WebSplatter: Enabling Cross-Device Efficient Gaussian Splatting in Web Browsers via WebGPU**|Yudong Han et.al.|[2602.03207](https://arxiv.org/abs/2602.03207)|null|
+|**2026-02-03**|**SharpTimeGS: Sharp and Stable Dynamic Gaussian Splatting via Lifespan Modulation**|Zhanfeng Liao et.al.|[2602.02989](https://arxiv.org/abs/2602.02989)|null|
+|**2026-02-02**|**SoMA: A Real-to-Sim Neural Simulator for Robotic Soft-body Manipulation**|Mu Huang et.al.|[2602.02402](https://arxiv.org/abs/2602.02402)|null|
 |2026-01-29|PLANING: A Loosely Coupled Triangle-Gaussian Framework for Streaming 3D Reconstruction|Changjian Jiang et.al.|[2601.22046](https://arxiv.org/abs/2601.22046)|null|
 |2026-01-29|Hybrid Foveated Path Tracing with Peripheral Gaussians for Immersive Anatomy|Constantin Kleinbeck et.al.|[2601.22026](https://arxiv.org/abs/2601.22026)|null|
 |2026-01-28|FreeFix: Boosting 3D Gaussian Splatting via Fine-Tuning-Free Diffusion Models|Hongyu Zhou et.al.|[2601.20857](https://arxiv.org/abs/2601.20857)|null|

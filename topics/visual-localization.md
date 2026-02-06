@@ -1,9 +1,19 @@
 # Visual Localization
 
-> Updated on 2026.02.02
+> Updated on 2026.02.06
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-02-04**|**SAR-RAG: ATR Visual Question Answering by Semantic Search, Retrieval, and MLLM Generation**|David F. Ramirez et.al.|[2602.04712](https://arxiv.org/abs/2602.04712)|null|
+|**2026-02-04**|**SDR-CIR: Semantic Debias Retrieval Framework for Training-Free Zero-Shot Composed Image Retrieval**|Yi Sun et.al.|[2602.04451](https://arxiv.org/abs/2602.04451)|null|
+|**2026-02-04**|**Quantile Transfer for Reliable Operating Point Selection in Visual Place Recognition**|Dhyey Manish Rajani et.al.|[2602.04401](https://arxiv.org/abs/2602.04401)|null|
+|**2026-02-04**|**Beyond Static Cropping: Layer-Adaptive Visual Localization and Decoding Enhancement**|Zipeng Zhu et.al.|[2602.04304](https://arxiv.org/abs/2602.04304)|null|
+|**2026-02-03**|**LaVPR: Benchmarking Language and Vision for Place Recognition**|Ofer Idan et.al.|[2602.03253](https://arxiv.org/abs/2602.03253)|null|
+|**2026-02-03**|**ObjEmbed: Towards Universal Multimodal Object Embeddings**|Shenghao Fu et.al.|[2602.01753](https://arxiv.org/abs/2602.01753)|null|
+|**2026-02-02**|**Real-Time Loop Closure Detection in Visual SLAM via NetVLAD and Faiss**|Enguang Fan et.al.|[2602.01673](https://arxiv.org/abs/2602.01673)|null|
+|**2026-02-02**|**ReCALL: Recalibrating Capability Degradation for MLLM-based Composed Image Retrieval**|Tianyu Yang et.al.|[2602.01639](https://arxiv.org/abs/2602.01639)|null|
+|**2026-02-01**|**Interacted Planes Reveal 3D Line Mapping**|Zeran Ke et.al.|[2602.01296](https://arxiv.org/abs/2602.01296)|null|
+|**2026-02-04**|**Invariance on Manifolds: Understanding Robust Visual Representations for Place Recognition**|Jintao Cheng et.al.|[2602.00841](https://arxiv.org/abs/2602.00841)|null|
 |2026-01-29|Variance & Greediness: A comparative study of metric-learning losses|Donghuo Zeng et.al.|[2601.21450](https://arxiv.org/abs/2601.21450)|null|
 |2026-01-28|When Vision Meets Texts in Listwise Reranking|Hongyi Cai et.al.|[2601.20623](https://arxiv.org/abs/2601.20623)|null|
 |2026-01-28|Eliminating Hallucination in Diffusion-Augmented Interactive Text-to-Image Retrieval|Zhuocheng Zhang et.al.|[2601.20391](https://arxiv.org/abs/2601.20391)|null|
