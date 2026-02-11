@@ -7,12 +7,222 @@ title: 3D Reconstruction
   <div>
     <p class="eyebrow">Topic</p>
     <h1>3D Reconstruction</h1>
-    <p class="topic-lede">Updated 2026.02.06 · 230 papers</p>
+    <p class="topic-lede">Updated 2026.02.11 · 240 papers</p>
   </div>
   <a class="btn ghost" href="../index.html#topics">← Back to topics</a>
 </section>
 
 <section class="paper-grid">
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">RealSynCol: a high-fidelity synthetic colon dataset for 3D reconstruction applications</span>
+        <span class="paper-authors">Chiara Lena, Davide Milesi, Alessandro Casella, Luca Carlini, Joseph C. Norton, James Martin, Bruno Scaglioni, Keith L. Obstein, Roberto De Sire, Marco Spadaccini, Cesare Hassan, Pietro Valdastri, Elena De Momi</span>
+        <span class="paper-meta">Updated 2026-02-09</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Deep learning has the potential to improve colonoscopy by enabling 3D reconstruction of the colon, providing a comprehensive view of mucosal surfaces and lesions, and facilitating the identification of unexplored areas. However, the development of robust methods is limited by the scarcity of large-scale ground truth data. We propose RealSynCol, a highly realistic synthetic dataset designed to replicate the endoscopic environment. Colon geometries extracted from 10 CT scans were imported into a virtual environment that closely mimics intraoperative conditions and rendered with realistic vascular textures. The resulting dataset comprises 28\,130 frames, paired with ground truth depth maps, optical flow, 3D meshes, and camera trajectories. A benchmark study was conducted to evaluate the available synthetic colon datasets for the tasks of depth and pose estimation. Results demonstrate that the high realism and variability of RealSynCol significantly enhance generalization performance on clinical images, proving it to be a powerful tool for developing deep learning algorithms to support endoscopic diagnosis.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.08397">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.08397.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.08397.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Dynamic Black-hole Emission Tomography with Physics-informed Neural Fields</span>
+        <span class="paper-authors">Berthy T. Feng, Andrew A. Chael, David Bromley, Aviad Levis, William T. Freeman, Katherine L. Bouman</span>
+        <span class="paper-meta">Updated 2026-02-08</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">With the success of static black-hole imaging, the next frontier is the dynamic and 3D imaging of black holes. Recovering the dynamic 3D gas near a black hole would reveal previously-unseen parts of the universe and inform new physics models. However, only sparse radio measurements from a single viewpoint are possible, making the dynamic 3D reconstruction problem significantly ill-posed. Previously, BH-NeRF addressed the ill-posed problem by assuming Keplerian dynamics of the gas, but this assumption breaks down near the black hole, where the strong gravitational pull of the black hole and increased electromagnetic activity complicate fluid dynamics. To overcome the restrictive assumptions of BH-NeRF, we propose PI-DEF, a physics-informed approach that uses differentiable neural rendering to fit a 4D (time + 3D) emissivity field given EHT measurements. Our approach jointly reconstructs the 3D velocity field with the 4D emissivity field and enforces the velocity as a soft constraint on the dynamics of the emissivity. In experiments on simulated data, we find significantly improved reconstruction accuracy over both BH-NeRF and a physics-agnostic approach. We demonstrate how our method may be used to estimate other physics parameters of the black hole, such as its spin.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.08029">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.08029.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.08029.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Scalable Adaptation of 3D Geometric Foundation Models via Weak Supervision from Internet Video</span>
+        <span class="paper-authors">Zihui Gao, Ke Liu, Donny Y. Chen, Duochao Shi, Guosheng Lin, Hao Chen, Chunhua Shen</span>
+        <span class="paper-meta">Updated 2026-02-08</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Geometric foundation models show promise in 3D reconstruction, yet their progress is severely constrained by the scarcity of diverse, large-scale 3D annotations. While Internet videos offer virtually unlimited raw data, utilizing them as a scaling source for geometric learning is challenging due to the absence of ground-truth geometry and the presence of observational noise. To address this, we propose SAGE, a framework for Scalable Adaptation of GEometric foundation models from raw video streams. SAGE leverages a hierarchical mining pipeline to transform videos into training trajectories and hybrid supervision: (1) Informative training trajectory selection; (2) Sparse Geometric Anchoring via SfM point clouds for global structural guidance; and (3) Dense Differentiable Consistency via 3D Gaussian rendering for multi-view constraints. To prevent catastrophic forgetting, we introduce a regularization strategy using anchor data. Extensive experiments show that SAGE significantly enhances zero-shot generalization, reducing Chamfer Distance by 20-42% on unseen benchmarks (7Scenes, TUM-RGBD, Matterport3D) compared to state-of-the-art baselines. To our knowledge, SAGE pioneers the adaptation of geometric foundation models via Internet video, establishing a scalable paradigm for general-purpose 3D learning.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.07891">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.07891.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.07891.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Recovering 3D Shapes from Ultra-Fast Motion-Blurred Images</span>
+        <span class="paper-authors">Fei Yu, Shudan Guo, Shiqing Xin, Beibei Wang, Haisen Zhao, Wenzheng Chen</span>
+        <span class="paper-meta">Updated 2026-02-08</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">We consider the problem of 3D shape recovery from ultra-fast motion-blurred images. While 3D reconstruction from static images has been extensively studied, recovering geometry from extreme motion-blurred images remains challenging. Such scenarios frequently occur in both natural and industrial settings, such as fast-moving objects in sports (e.g., balls) or rotating machinery, where rapid motion distorts object appearance and makes traditional 3D reconstruction techniques like Multi-View Stereo (MVS) ineffective.   In this paper, we propose a novel inverse rendering approach for shape recovery from ultra-fast motion-blurred images. While conventional rendering techniques typically synthesize blur by averaging across multiple frames, we identify a major computational bottleneck in the repeated computation of barycentric weights. To address this, we propose a fast barycentric coordinate solver, which significantly reduces computational overhead and achieves a speedup of up to 4.57x, enabling efficient and photorealistic simulation of high-speed motion. Crucially, our method is fully differentiable, allowing gradients to propagate from rendered images to the underlying 3D shape, thereby facilitating shape recovery through inverse rendering.   We validate our approach on two representative motion types: rapid translation and rotation. Experimental results demonstrate that our method enables efficient and realistic modeling of ultra-fast moving objects in the forward simulation. Moreover, it successfully recovers 3D shapes from 2D imagery of objects undergoing extreme translational and rotational motion, advancing the boundaries of vision-based 3D reconstruction. Project page: https://maxmilite.github.io/rec-from-ultrafast-blur/</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.07860">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.07860.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.07860.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Compressed Sensing Methods for Memory Reduction in Monte Carlo Simulations</span>
+        <span class="paper-authors">Ethan Lame, Camille Palmer, Todd Palmer, Ilham Variansyah</span>
+        <span class="paper-meta">Updated 2026-02-08</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Monte Carlo simulations of neutronic systems are computationally intensive and demand significant memory resources for high-fidelity modeling. Compressed sensing enables accurate reconstruction of signals from significantly fewer samples than traditional methods. The specific implementation of compressed sensing investigated here involves the use of overlapping cells to collect tallies. Increasing the number of samples improves the reconstruction accuracy, although the marginal gains diminish with more samples. Reconstruction quality is strongly influenced by the sparsity parameter used in basis pursuit denoising. Across the three test cases considered, memory reductions of up to 81.25% (96.25%) are demonstrated for 2D (3D) reconstructions, with select scenarios achieving reconstruction errors within 1 standard deviation of the corresponding high-fidelity reference results.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.07771">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.07771.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.07771.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Perspective-aware fusion of incomplete depth maps and surface normals for accurate 3D reconstruction</span>
+        <span class="paper-authors">Ondrej Hlinka, Georg Kaniak, Christian Kapeller</span>
+        <span class="paper-meta">Updated 2026-02-07</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">We address the problem of reconstructing 3D surfaces from depth and surface normal maps acquired by a sensor system based on a single perspective camera. Depth and normal maps can be obtained through techniques such as structured-light scanning and photometric stereo, respectively. We propose a perspective-aware log-depth fusion approach that extends existing orthographic gradient-based depth-normals fusion methods by explicitly accounting for perspective projection, leading to metrically accurate 3D reconstructions. Additionally, the method handles missing depth measurements by leveraging available surface normal information to inpaint gaps. Experiments on the DiLiGenT-MV data set demonstrate the effectiveness of our approach and highlight the importance of perspective-aware depth-normals fusion.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.07444">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.07444.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.07444.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">MetaSSP: Enhancing Semi-supervised Implicit 3D Reconstruction through Meta-adaptive EMA and SDF-aware Pseudo-label Evaluation</span>
+        <span class="paper-authors">Luoxi Zhang, Chun Xie, Itaru Kitahara</span>
+        <span class="paper-meta">Updated 2026-02-05</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Implicit SDF-based methods for single-view 3D reconstruction achieve high-quality surfaces but require large labeled datasets, limiting their scalability. We propose MetaSSP, a novel semi-supervised framework that exploits abundant unlabeled images. Our approach introduces gradient-based parameter importance estimation to regularize adaptive EMA updates and an SDF-aware pseudo-label weighting mechanism combining augmentation consistency with SDF variance. Beginning with a 10% supervised warm-up, the unified pipeline jointly refines labeled and unlabeled data. On the Pix3D benchmark, our method reduces Chamfer Distance by approximately 20.61% and increases IoU by around 24.09% compared to existing semi-supervised baselines, setting a new state of the art.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.06163">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.06163.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.06163.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">MGP-KAD: Multimodal Geometric Priors and Kolmogorov-Arnold Decoder for Single-View 3D Reconstruction in Complex Scenes</span>
+        <span class="paper-authors">Luoxi Zhang, Chun Xie, Itaru Kitahara</span>
+        <span class="paper-meta">Updated 2026-02-05</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Single-view 3D reconstruction in complex real-world scenes is challenging due to noise, object diversity, and limited dataset availability. To address these challenges, we propose MGP-KAD, a novel multimodal feature fusion framework that integrates RGB and geometric prior to enhance reconstruction accuracy. The geometric prior is generated by sampling and clustering ground-truth object data, producing class-level features that dynamically adjust during training to improve geometric understanding. Additionally, we introduce a hybrid decoder based on Kolmogorov-Arnold Networks (KAN) to overcome the limitations of traditional linear decoders in processing complex multimodal inputs. Extensive experiments on the Pix3D dataset demonstrate that MGP-KAD achieves state-of-the-art (SOTA) performance, significantly improving geometric integrity, smoothness, and detail preservation. Our work provides a robust and effective solution for advancing single-view 3D reconstruction in complex scenes.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.06158">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.06158.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.06158.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">From Blurry to Believable: Enhancing Low-quality Talking Heads with 3D Generative Priors</span>
+        <span class="paper-authors">Ding-Jiun Huang, Yuanhao Wang, Shao-Ji Yuan, Albert Mosella-Montoro, Francisco Vicente Carrasco, Cheng Zhang, Fernando De la Torre</span>
+        <span class="paper-meta">Updated 2026-02-05</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Creating high-fidelity, animatable 3D talking heads is crucial for immersive applications, yet often hindered by the prevalence of low-quality image or video sources, which yield poor 3D reconstructions. In this paper, we introduce SuperHead, a novel framework for enhancing low-resolution, animatable 3D head avatars. The core challenge lies in synthesizing high-quality geometry and textures, while ensuring both 3D and temporal consistency during animation and preserving subject identity. Despite recent progress in image, video and 3D-based super-resolution (SR), existing SR techniques are ill-equipped to handle dynamic 3D inputs. To address this, SuperHead leverages the rich priors from pre-trained 3D generative models via a novel dynamics-aware 3D inversion scheme. This process optimizes the latent representation of the generative model to produce a super-resolved 3D Gaussian Splatting (3DGS) head model, which is subsequently rigged to an underlying parametric head model (e.g., FLAME) for animation. The inversion is jointly supervised using a sparse collection of upscaled 2D face renderings and corresponding depth maps, captured from diverse facial expressions and camera viewpoints, to ensure realism under dynamic facial motions. Experiments demonstrate that SuperHead generates avatars with fine-grained facial details under dynamic motions, significantly outperforming baseline methods in visual quality.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.06122">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.06122.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.06122.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Splat and Distill: Augmenting Teachers with Feed-Forward 3D Reconstruction For 3D-Aware Distillation</span>
+        <span class="paper-authors">David Shavin, Sagie Benaim</span>
+        <span class="paper-meta">Updated 2026-02-05</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Vision Foundation Models (VFMs) have achieved remarkable success when applied to various downstream 2D tasks. Despite their effectiveness, they often exhibit a critical lack of 3D awareness. To this end, we introduce Splat and Distill, a framework that instills robust 3D awareness into 2D VFMs by augmenting the teacher model with a fast, feed-forward 3D reconstruction pipeline. Given 2D features produced by a teacher model, our method first lifts these features into an explicit 3D Gaussian representation, in a feedforward manner. These 3D features are then ``splatted&quot; onto novel viewpoints, producing a set of novel 2D feature maps used to supervise the student model, ``distilling&quot; geometrically grounded knowledge. By replacing slow per-scene optimization of prior work with our feed-forward lifting approach, our framework avoids feature-averaging artifacts, creating a dynamic learning process where the teacher&#x27;s consistency improves alongside that of the student. We conduct a comprehensive evaluation on a suite of downstream tasks, including monocular depth estimation, surface normal estimation, multi-view correspondence, and semantic segmentation. Our method significantly outperforms prior works, not only achieving substantial gains in 3D awareness but also enhancing the underlying semantic richness of 2D features. Project page is available at https://davidshavin4.github.io/Splat-and-Distill/</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.06032">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.06032.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.06032.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
   <article class="paper-card">
     <details class="paper-details">
       <summary>

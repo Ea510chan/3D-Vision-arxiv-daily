@@ -1,9 +1,19 @@
 # Gaussian Splatting
 
-> Updated on 2026.02.06
+> Updated on 2026.02.11
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-02-09**|**Grow with the Flow: 4D Reconstruction of Growing Plants with Gaussian Flow Fields**|Weihan Luo et.al.|[2602.08958](https://arxiv.org/abs/2602.08958)|null|
+|**2026-02-09**|**Analysis of Converged 3D Gaussian Splatting Solutions: Density Effects and Prediction Limit**|Zhendong Wang et.al.|[2602.08909](https://arxiv.org/abs/2602.08909)|null|
+|**2026-02-09**|**GaussianCaR: Gaussian Splatting for Efficient Camera-Radar Fusion**|Santiago Montiel-Marín et.al.|[2602.08784](https://arxiv.org/abs/2602.08784)|null|
+|**2026-02-09**|**Rotated Lights for Consistent and Efficient 2D Gaussians Inverse Rendering**|Geng Lin et.al.|[2602.08724](https://arxiv.org/abs/2602.08724)|null|
+|**2026-02-09**|**Informative Object-centric Next Best View for Object-aware 3D Gaussian Splatting in Cluttered Scenes**|Seunghoon Jeong et.al.|[2602.08266](https://arxiv.org/abs/2602.08266)|null|
+|**2026-02-07**|**Thermal odometry and dense mapping using learned ddometry and Gaussian splatting**|Tianhao Zhou et.al.|[2602.07493](https://arxiv.org/abs/2602.07493)|null|
+|**2026-02-06**|**Zero-Shot UAV Navigation in Forests via Relightable 3D Gaussian Splatting**|Zinan Lv et.al.|[2602.07101](https://arxiv.org/abs/2602.07101)|null|
+|**2026-02-06**|**DynFOA: Generating First-Order Ambisonics with Conditional Diffusion for Dynamic and Acoustically Complex 360-Degree Videos**|Ziyu Luo et.al.|[2602.06846](https://arxiv.org/abs/2602.06846)|null|
+|**2026-02-06**|**GaussianPOP: Principled Simplification Framework for Compact 3D Gaussian Splatting via Error Quantification**|Soonbin Lee et.al.|[2602.06830](https://arxiv.org/abs/2602.06830)|null|
+|**2026-02-06**|**Uncertainty-Aware 4D Gaussian Splatting for Monocular Occluded Human Rendering**|Weiquan Wang et.al.|[2602.06343](https://arxiv.org/abs/2602.06343)|null|
 |**2026-02-04**|**Nix and Fix: Targeting 1000x Compression of 3D Gaussian Splatting with Diffusion Models**|Cem Eteke et.al.|[2602.04549](https://arxiv.org/abs/2602.04549)|null|
 |**2026-02-04**|**VecSet-Edit: Unleashing Pre-trained LRM for Mesh Editing from Single Image**|Teng-Fang Hsiao et.al.|[2602.04349](https://arxiv.org/abs/2602.04349)|null|
 |**2026-02-04**|**Towards Next-Generation SLAM: A Survey on 3DGS-SLAM Focusing on Performance, Robustness, and Future Directions**|Li Wang et.al.|[2602.04251](https://arxiv.org/abs/2602.04251)|null|

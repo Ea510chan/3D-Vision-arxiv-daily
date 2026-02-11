@@ -1,9 +1,12 @@
 # SLAM
 
-> Updated on 2026.02.06
+> Updated on 2026.02.11
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-01-28**|**When Simultaneous Localization and Mapping Meets Wireless Communications: A Survey**|Konstantinos Gounis et.al.|[2602.06995](https://arxiv.org/abs/2602.06995)|null|
+|**2025-12-30**|**Learning to Anchor Visual Odometry: KAN-Based Pose Regression for Planetary Landing**|Xubo Luo et.al.|[2602.06968](https://arxiv.org/abs/2602.06968)|null|
+|**2026-02-05**|**Feature points evaluation on omnidirectional vision with a photorealistic fisheye sequence -- A report on experiments done in 2014**|Julien Moreau et.al.|[2602.05487](https://arxiv.org/abs/2602.05487)|null|
 |**2026-01-22**|**Keyframe-Based Feed-Forward Visual Odometry**|Weichen Dai et.al.|[2601.16020](https://arxiv.org/abs/2601.16020)|null|
 |**2026-01-09**|**360DVO: Deep Visual Odometry for Monocular 360-Degree Camera**|Xiaopeng Guo et.al.|[2601.02309](https://arxiv.org/abs/2601.02309)|null|
 |**2025-12-22**|**Trifocal Tensor and Relative Pose Estimation with Known Vertical Direction**|Tao Li et.al.|[2512.19110](https://arxiv.org/abs/2512.19110)|null|

@@ -7,12 +7,222 @@ title: Gaussian Splatting
   <div>
     <p class="eyebrow">Topic</p>
     <h1>Gaussian Splatting</h1>
-    <p class="topic-lede">Updated 2026.02.06 · 537 papers</p>
+    <p class="topic-lede">Updated 2026.02.11 · 547 papers</p>
   </div>
   <a class="btn ghost" href="../index.html#topics">← Back to topics</a>
 </section>
 
 <section class="paper-grid">
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Grow with the Flow: 4D Reconstruction of Growing Plants with Gaussian Flow Fields</span>
+        <span class="paper-authors">Weihan Luo, Lily Goli, Sherwin Bahmani, Felix Taubner, Andrea Tagliasacchi, David B. Lindell</span>
+        <span class="paper-meta">Updated 2026-02-09</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Modeling the time-varying 3D appearance of plants during their growth poses unique challenges: unlike many dynamic scenes, plants generate new geometry over time as they expand, branch, and differentiate. Recent motion modeling techniques are ill-suited to this problem setting. For example, deformation fields cannot introduce new geometry, and 4D Gaussian splatting constrains motion to a linear trajectory in space and time and cannot track the same set of Gaussians over time. Here, we introduce a 3D Gaussian flow field representation that models plant growth as a time-varying derivative over Gaussian parameters -- position, scale, orientation, color, and opacity -- enabling nonlinear and continuous-time growth dynamics. To initialize a sufficient set of Gaussian primitives, we reconstruct the mature plant and learn a process of reverse growth, effectively simulating the plant&#x27;s developmental history in reverse. Our approach achieves superior image quality and geometric accuracy compared to prior methods on multi-view timelapse datasets of plant growth, providing a new approach for appearance modeling of growing 3D structures.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.08958">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.08958.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.08958.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Analysis of Converged 3D Gaussian Splatting Solutions: Density Effects and Prediction Limit</span>
+        <span class="paper-authors">Zhendong Wang, Cihan Ruan, Jingchuan Xiao, Chuqing Shi, Wei Jiang, Wei Wang, Wenjie Liu, Nam Ling</span>
+        <span class="paper-meta">Updated 2026-02-09</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">We investigate what structure emerges in 3D Gaussian Splatting (3DGS) solutions from standard multi-view optimization. We term these Rendering-Optimal References (RORs) and analyze their statistical properties, revealing stable patterns: mixture-structured scales and bimodal radiance across diverse scenes. To understand what determines these parameters, we apply learnability probes by training predictors to reconstruct RORs from point clouds without rendering supervision. Our analysis uncovers fundamental density-stratification. Dense regions exhibit geometry-correlated parameters amenable to render-free prediction, while sparse regions show systematic failure across architectures. We formalize this through variance decomposition, demonstrating that visibility heterogeneity creates covariance-dominated coupling between geometric and appearance parameters in sparse regions. This reveals the dual character of RORs: geometric primitives where point clouds suffice, and view synthesis primitives where multi-view constraints are essential. We provide density-aware strategies that improve training robustness and discuss architectural implications for systems that adaptively balance feed-forward prediction and rendering-based refinement.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.08909">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.08909.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.08909.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">GaussianCaR: Gaussian Splatting for Efficient Camera-Radar Fusion</span>
+        <span class="paper-authors">Santiago Montiel-Marín, Miguel Antunes-García, Fabio Sánchez-García, Angel Llamazares, Holger Caesar, Luis M. Bergasa</span>
+        <span class="paper-meta">Updated 2026-02-09</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Robust and accurate perception of dynamic objects and map elements is crucial for autonomous vehicles performing safe navigation in complex traffic scenarios. While vision-only methods have become the de facto standard due to their technical advances, they can benefit from effective and cost-efficient fusion with radar measurements. In this work, we advance fusion methods by repurposing Gaussian Splatting as an efficient universal view transformer that bridges the view disparity gap, mapping both image pixels and radar points into a common Bird&#x27;s-Eye View (BEV) representation. Our main contribution is GaussianCaR, an end-to-end network for BEV segmentation that, unlike prior BEV fusion methods, leverages Gaussian Splatting to map raw sensor information into latent features for efficient camera-radar fusion. Our architecture combines multi-scale fusion with a transformer decoder to efficiently extract BEV features. Experimental results demonstrate that our approach achieves performance on par with, or even surpassing, the state of the art on BEV segmentation tasks (57.3%, 82.9%, and 50.1% IoU for vehicles, roads, and lane dividers) on the nuScenes dataset, while maintaining a 3.2x faster inference runtime. Code and project page are available online.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.08784">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.08784.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.08784.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Rotated Lights for Consistent and Efficient 2D Gaussians Inverse Rendering</span>
+        <span class="paper-authors">Geng Lin, Matthias Zwicker</span>
+        <span class="paper-meta">Updated 2026-02-09</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Inverse rendering aims to decompose a scene into its geometry, material properties and light conditions under a certain rendering model. It has wide applications like view synthesis, relighting, and scene editing. In recent years, inverse rendering methods have been inspired by view synthesis approaches like neural radiance fields and Gaussian splatting, which are capable of efficiently decomposing a scene into its geometry and radiance. They then further estimate the material and lighting that lead to the observed scene radiance. However, the latter step is highly ambiguous and prior works suffer from inaccurate color and baked shadows in their albedo estimation albeit their regularization. To this end, we propose RotLight, a simple capturing setup, to address the ambiguity. Compared to a usual capture, RotLight only requires the object to be rotated several times during the process. We show that as few as two rotations is effective in reducing artifacts. To further improve 2DGS-based inverse rendering, we additionally introduce a proxy mesh that not only allows accurate incident light tracing, but also enables a residual constraint and improves global illumination handling. We demonstrate with both synthetic and real world datasets that our method achieves superior albedo estimation while keeping efficient computation.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.08724">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.08724.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.08724.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Informative Object-centric Next Best View for Object-aware 3D Gaussian Splatting in Cluttered Scenes</span>
+        <span class="paper-authors">Seunghoon Jeong, Eunho Lee, Jeongyun Kim, Ayoung Kim</span>
+        <span class="paper-meta">Updated 2026-02-09</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">In cluttered scenes with inevitable occlusions and incomplete observations, selecting informative viewpoints is essential for building a reliable representation. In this context, 3D Gaussian Splatting (3DGS) offers a distinct advantage, as it can explicitly guide the selection of subsequent viewpoints and then refine the representation with new observations. However, existing approaches rely solely on geometric cues, neglect manipulation-relevant semantics, and tend to prioritize exploitation over exploration. To tackle these limitations, we introduce an instance-aware Next Best View (NBV) policy that prioritizes underexplored regions by leveraging object features. Specifically, our object-aware 3DGS distills instancelevel information into one-hot object vectors, which are used to compute confidence-weighted information gain that guides the identification of regions associated with erroneous and uncertain Gaussians. Furthermore, our method can be easily adapted to an object-centric NBV, which focuses view selection on a target object, thereby improving reconstruction robustness to object placement. Experiments demonstrate that our NBV policy reduces depth error by up to 77.14% on the synthetic dataset and 34.10% on the real-world GraspNet dataset compared to baselines. Moreover, compared to targeting the entire scene, performing NBV on a specific object yields an additional reduction of 25.60% in depth error for that object. We further validate the effectiveness of our approach through real-world robotic manipulation tasks.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.08266">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.08266.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.08266.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Thermal odometry and dense mapping using learned ddometry and Gaussian splatting</span>
+        <span class="paper-authors">Tianhao Zhou, Yujia Chen, Zhihao Zhan, Yuhang Ming, Jianzhu Huai</span>
+        <span class="paper-meta">Updated 2026-02-07</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Thermal infrared sensors, with wavelengths longer than smoke particles, can capture imagery independent of darkness, dust, and smoke. This robustness has made them increasingly valuable for motion estimation and environmental perception in robotics, particularly in adverse conditions. Existing thermal odometry and mapping approaches, however, are predominantly geometric and often fail across diverse datasets while lacking the ability to produce dense maps. Motivated by the efficiency and high-quality reconstruction ability of recent Gaussian Splatting (GS) techniques, we propose TOM-GS, a thermal odometry and mapping method that integrates learning-based odometry with GS-based dense mapping. TOM-GS is among the first GS-based SLAM systems tailored for thermal cameras, featuring dedicated thermal image enhancement and monocular depth integration. Extensive experiments on motion estimation and novel-view rendering demonstrate that TOM-GS outperforms existing learning-based methods, confirming the benefits of learning-based pipelines for robust thermal odometry and dense reconstruction.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.07493">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.07493.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.07493.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Zero-Shot UAV Navigation in Forests via Relightable 3D Gaussian Splatting</span>
+        <span class="paper-authors">Zinan Lv, Yeqian Qian, Chen Sang, Hao Liu, Danping Zou, Ming Yang</span>
+        <span class="paper-meta">Updated 2026-02-06</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">UAV navigation in unstructured outdoor environments using passive monocular vision is hindered by the substantial visual domain gap between simulation and reality. While 3D Gaussian Splatting enables photorealistic scene reconstruction from real-world data, existing methods inherently couple static lighting with geometry, severely limiting policy generalization to dynamic real-world illumination. In this paper, we propose a novel end-to-end reinforcement learning framework designed for effective zero-shot transfer to unstructured outdoors. Within a high-fidelity simulation grounded in real-world data, our policy is trained to map raw monocular RGB observations directly to continuous control commands. To overcome photometric limitations, we introduce Relightable 3D Gaussian Splatting, which decomposes scene components to enable explicit, physically grounded editing of environmental lighting within the neural representation. By augmenting training with diverse synthesized lighting conditions ranging from strong directional sunlight to diffuse overcast skies, we compel the policy to learn robust, illumination-invariant visual features. Extensive real-world experiments demonstrate that a lightweight quadrotor achieves robust, collision-free navigation in complex forest environments at speeds up to 10 m/s, exhibiting significant resilience to drastic lighting variations without fine-tuning.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.07101">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.07101.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.07101.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">DynFOA: Generating First-Order Ambisonics with Conditional Diffusion for Dynamic and Acoustically Complex 360-Degree Videos</span>
+        <span class="paper-authors">Ziyu Luo, Lin Chen, Qiang Qu, Xiaoming Chen, Yiran Shen</span>
+        <span class="paper-meta">Updated 2026-02-06</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Spatial audio is crucial for creating compelling immersive 360-degree video experiences. However, generating realistic spatial audio, such as first-order ambisonics (FOA), from 360-degree videos in complex acoustic scenes remains challenging. Existing methods often overlook the dynamic nature and acoustic complexity of 360-degree scenes, fail to fully account for dynamic sound sources, and neglect complex environmental effects such as occlusion, reflections, and reverberation, which are influenced by scene geometries and materials. We propose DynFOA, a framework based on dynamic acoustic perception and conditional diffusion, for generating high-fidelity FOA from 360-degree videos. DynFOA first performs visual processing via a video encoder, which detects and localizes multiple dynamic sound sources, estimates their depth and semantics, and reconstructs the scene geometry and materials using a 3D Gaussian Splatting. This reconstruction technique accurately models occlusion, reflections, and reverberation based on the geometries and materials of the reconstructed 3D scene and the listener&#x27;s viewpoint. The audio encoder then captures the spatial motion and temporal 4D sound source trajectories to fine-tune the diffusion-based FOA generator. The fine-tuned FOA generator adjusts spatial cues in real time, ensuring consistent directional fidelity during listener head rotation and complex environmental changes. Extensive evaluations demonstrate that DynFOA consistently outperforms existing methods across metrics such as spatial accuracy, acoustic fidelity, and distribution matching, while also improving the user experience. Therefore, DynFOA provides a robust and scalable approach to rendering realistic dynamic spatial audio for VR and immersive media applications.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.06846">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.06846.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.06846.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">GaussianPOP: Principled Simplification Framework for Compact 3D Gaussian Splatting via Error Quantification</span>
+        <span class="paper-authors">Soonbin Lee, Yeong-Gyu Kim, Simon Sasse, Tomas M. Borges, Yago Sanchez, Eun-Seok Ryu, Thomas Schierl, Cornelius Hellge</span>
+        <span class="paper-meta">Updated 2026-02-06</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Existing 3D Gaussian Splatting simplification methods commonly use importance scores, such as blending weights or sensitivity, to identify redundant Gaussians. However, these scores are not driven by visual error metrics, often leading to suboptimal trade-offs between compactness and rendering fidelity. We present GaussianPOP, a principled simplification framework based on analytical Gaussian error quantification. Our key contribution is a novel error criterion, derived directly from the 3DGS rendering equation, that precisely measures each Gaussian&#x27;s contribution to the rendered image. By introducing a highly efficient algorithm, our framework enables practical error calculation in a single forward pass. The framework is both accurate and flexible, supporting on-training pruning as well as post-training simplification via iterative error re-quantification for improved stability. Experimental results show that our method consistently outperforms existing state-of-the-art pruning methods across both application scenarios, achieving a superior trade-off between model compactness and high rendering quality.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.06830">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.06830.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.06830.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Uncertainty-Aware 4D Gaussian Splatting for Monocular Occluded Human Rendering</span>
+        <span class="paper-authors">Weiquan Wang, Feifei Shao, Lin Li, Zhen Wang, Jun Xiao, Long Chen</span>
+        <span class="paper-meta">Updated 2026-02-06</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">High-fidelity rendering of dynamic humans from monocular videos typically degrades catastrophically under occlusions. Existing solutions incorporate external priors-either hallucinating missing content via generative models, which induces severe temporal flickering, or imposing rigid geometric heuristics that fail to capture diverse appearances. To this end, we reformulate the task as a Maximum A Posteriori estimation problem under heteroscedastic observation noise. In this paper, we propose U-4DGS, a framework integrating a Probabilistic Deformation Network and a Double Rasterization pipeline. This architecture renders pixel-aligned uncertainty maps that act as an adaptive gradient modulator, automatically attenuating artifacts from unreliable observations. Furthermore, to prevent geometric drift in regions lacking reliable visual cues, we enforce Confidence-Aware Regularizations, which leverage the learned uncertainty to selectively propagate spatial-temporal validity. Extensive experiments on ZJU-MoCap and OcMotion demonstrate that U-4DGS achieves SOTA rendering fidelity and robustness.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.06343">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.06343.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.06343.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
   <article class="paper-card">
     <details class="paper-details">
       <summary>

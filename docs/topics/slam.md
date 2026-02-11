@@ -7,12 +7,54 @@ title: SLAM
   <div>
     <p class="eyebrow">Topic</p>
     <h1>SLAM</h1>
-    <p class="topic-lede">Updated 2026.02.06 · 217 papers</p>
+    <p class="topic-lede">Updated 2026.02.11 · 220 papers</p>
   </div>
   <a class="btn ghost" href="../index.html#topics">← Back to topics</a>
 </section>
 
 <section class="paper-grid">
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Feature points evaluation on omnidirectional vision with a photorealistic fisheye sequence -- A report on experiments done in 2014</span>
+        <span class="paper-authors">Julien Moreau, S. Ambellouis, Yassine Ruichek</span>
+        <span class="paper-meta">Updated 2026-02-05</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">What is this report: This is a scientific report, contributing with a detailed bibliography, a dataset which we will call now PFSeq for &#x27;&#x27;Photorealistic Fisheye Sequence&#x27;&#x27; and make available at https://doi.org/10. 57745/DYIVVU, and comprehensive experiments. This work should be considered as a draft, and has been done during my PhD thesis &#x27;&#x27;Construction of 3D models from fisheye video data-Application to the localisation in urban area&#x27;&#x27; in 2014 [Mor16]. These results have never been published. The aim was to find the best features detector and descriptor for fisheye images, in the context of selfcalibration, with cameras mounted on the top of a car and aiming at the zenith (to proceed then fisheye visual odometry and stereovision in urban scenes). We face a chicken and egg problem, because we can not take advantage of an accurate projection model for an optimal features detection and description, and we rightly need good features to perform the calibration (i.e. to compute the accurate projection model of the camera). What is not this report: It does not contribute with new features algorithm. It does not compare standard features algorithms to algorithms designed for omnidirectional images (unfortunately). It has not been peer-reviewed. Discussions have been translated and enhanced but the experiments have not been run again and the report has not been updated accordingly to the evolution of the state-of-the-art (read this as a 2014 report).</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.05487">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.05487.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.05487.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">When Simultaneous Localization and Mapping Meets Wireless Communications: A Survey</span>
+        <span class="paper-authors">Konstantinos Gounis, Sotiris A. Tegos, Dimitrios Tyrovolas, Panagiotis D. Diamantoulakis, George K. Karagiannidis</span>
+        <span class="paper-meta">Updated 2026-01-28</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">The availability of commercial wireless communication and sensing equipment combined with the advancements in intelligent autonomous systems paves the way towards robust joint communications and simultaneous localization and mapping (SLAM). This paper surveys the state-of-the-art in the nexus of SLAM and Wireless Communications, attributing the bidirectional impact of each with a focus on visual SLAM (V-SLAM) integration. We provide an overview of key concepts related to wireless signal propagation, geometric channel modeling, and radio frequency (RF)-based localization and sensing. In addition to this, we show image processing techniques that can detect landmarks, proactively predicting optimal paths for wireless channels. Several dimensions are considered, including the prerequisites, techniques, background, and future directions and challenges of the intersection between SLAM and wireless communications. We analyze mathematical approaches such as probabilistic models, and spatial methods for signal processing, as well as key technological aspects. We expose techniques and items towards enabling a highly effective retrieval of the autonomous robot state. Among other interesting findings, we observe that monocular V-SLAM would benefit from RF relevant information, as the latter can serve as a proxy for the scale ambiguity resolution. Conversely, we find that wireless communications in the context of 5G and beyond can potentially benefit from visual odometry that is central in SLAM. Moreover, we examine other sources besides the camera for SLAM and describe the twofold relation with wireless communications. Finally, integrated solutions performing joint communications and SLAM are still in their infancy: theoretical and practical advancements are required to add higher-level localization and semantic perception capabilities to RF and multi-antenna technologies.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.06995">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.06995.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.06995.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
   <article class="paper-card">
     <details class="paper-details">
       <summary>
@@ -49,6 +91,27 @@ title: SLAM
           <span class="chip ghost">Code: N/A</span>
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.02309.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Learning to Anchor Visual Odometry: KAN-Based Pose Regression for Planetary Landing</span>
+        <span class="paper-authors">Xubo Luo, Zhaojin Li, Xue Wan, Wei Zhang, Leizheng Shu</span>
+        <span class="paper-meta">Updated 2025-12-30</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Accurate and real-time 6-DoF localization is mission-critical for autonomous lunar landing, yet existing approaches remain limited: visual odometry (VO) drifts unboundedly, while map-based absolute localization fails in texture-sparse or low-light terrain. We introduce KANLoc, a monocular localization framework that tightly couples VO with a lightweight but robust absolute pose regressor. At its core is a Kolmogorov-Arnold Network (KAN) that learns the complex mapping from image features to map coordinates, producing sparse but highly reliable global pose anchors. These anchors are fused into a bundle adjustment framework, effectively canceling drift while retaining local motion precision. KANLoc delivers three key advances: (i) a KAN-based pose regressor that achieves high accuracy with remarkable parameter efficiency, (ii) a hybrid VO-absolute localization scheme that yields globally consistent real-time trajectories (&gt;=15 FPS), and (iii) a tailored data augmentation strategy that improves robustness to sensor occlusion. On both realistic synthetic and real lunar landing datasets, KANLoc reduces average translation and rotation error by 32% and 45%, respectively, with per-trajectory gains of up to 45%/48%, outperforming strong baselines.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.06968">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.06968.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.06968.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>

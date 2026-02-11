@@ -7,12 +7,54 @@ title: Image Matching
   <div>
     <p class="eyebrow">Topic</p>
     <h1>Image Matching</h1>
-    <p class="topic-lede">Updated 2026.02.06 · 141 papers</p>
+    <p class="topic-lede">Updated 2026.02.11 · 144 papers</p>
   </div>
   <a class="btn ghost" href="../index.html#topics">← Back to topics</a>
 </section>
 
 <section class="paper-grid">
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Understanding and Optimizing Attention-Based Sparse Matching for Diverse Local Features</span>
+        <span class="paper-authors">Qiang Wang</span>
+        <span class="paper-meta">Updated 2026-02-09</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">We revisit the problem of training attention-based sparse image matching models for various local features. We first identify one critical design choice that has been previously overlooked, which significantly impacts the performance of the LightGlue model. We then investigate the role of detectors and descriptors within the transformer-based matching framework, finding that detectors, rather than descriptors, are often the primary cause for performance difference. Finally, we propose a novel approach to fine-tune existing image matching models using keypoints from a diverse set of detectors, resulting in a universal, detector-agnostic model. When deployed as a zero-shot matcher for novel detectors, the resulting model achieves or exceeds the accuracy of models specifically trained for those features. Our findings offer valuable insights for the deployment of transformer-based matching models and the future design of local features.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.08430">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.08430.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.08430.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">SOMA-1M: A Large-Scale SAR-Optical Multi-resolution Alignment Dataset for Multi-Task Remote Sensing</span>
+        <span class="paper-authors">Peihao Wu, Yongxiang Yao, Yi Wan, Wenfei Zhang, Ruipeng Zhao, Jiayuan Li, Yongjun Zhang</span>
+        <span class="paper-meta">Updated 2026-02-05</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Synthetic Aperture Radar (SAR) and optical imagery provide complementary strengths that constitute the critical foundation for transcending single-modality constraints and facilitating cross-modal collaborative processing and intelligent interpretation. However, existing benchmark datasets often suffer from limitations such as single spatial resolution, insufficient data scale, and low alignment accuracy, making them inadequate for supporting the training and generalization of multi-scale foundation models. To address these challenges, we introduce SOMA-1M (SAR-Optical Multi-resolution Alignment), a pixel-level precisely aligned dataset containing over 1.3 million pairs of georeferenced images with a specification of 512 x 512 pixels. This dataset integrates imagery from Sentinel-1, PIESAT-1, Capella Space, and Google Earth, achieving global multi-scale coverage from 0.5 m to 10 m. It encompasses 12 typical land cover categories, effectively ensuring scene diversity and complexity. To address multimodal projection deformation and massive data registration, we designed a rigorous coarse-to-fine image matching framework ensuring pixel-level alignment. Based on this dataset, we established comprehensive evaluation benchmarks for four hierarchical vision tasks, including image matching, image fusion, SAR-assisted cloud removal, and cross-modal translation, involving over 30 mainstream algorithms. Experimental results demonstrate that supervised training on SOMA-1M significantly enhances performance across all tasks. Notably, multimodal remote sensing image (MRSI) matching performance achieves current state-of-the-art (SOTA) levels. SOMA-1M serves as a foundational resource for robust multimodal algorithms and remote sensing foundation models. The dataset will be released publicly at: https://github.com/PeihaoWu/SOMA-1M.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.05480">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.05480.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.05480.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
   <article class="paper-card">
     <details class="paper-details">
       <summary>
@@ -49,6 +91,27 @@ title: Image Matching
           <span class="chip ghost">Code: N/A</span>
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.12090.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Gaussian-Constrained LeJEPA Representations for Unsupervised Scene Discovery and Pose Consistency</span>
+        <span class="paper-authors">Mohsen Mostafa</span>
+        <span class="paper-meta">Updated 2026-01-31</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Unsupervised 3D scene reconstruction from unstructured image collections remains a fundamental challenge in computer vision, particularly when images originate from multiple unrelated scenes and contain significant visual ambiguity. The Image Matching Challenge 2025 (IMC2025) highlights these difficulties by requiring both scene discovery and camera pose estimation under real-world conditions, including outliers and mixed content. This paper investigates the application of Gaussian-constrained representations inspired by LeJEPA (Joint Embedding Predictive Architecture) to address these challenges. We present three progressively refined pipelines, culminating in a LeJEPA-inspired approach that enforces isotropic Gaussian constraints on learned image embeddings. Rather than introducing new theoretical guarantees, our work empirically evaluates how these constraints influence clustering consistency and pose estimation robustness in practice. Experimental results on IMC2025 demonstrate that Gaussian-constrained embeddings can improve scene separation and pose plausibility compared to heuristic-driven baselines, particularly in visually ambiguous settings. These findings suggest that theoretically motivated representation constraints offer a promising direction for bridging self-supervised learning principles and practical structure-from-motion pipelines.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.07016">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.07016.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.07016.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>

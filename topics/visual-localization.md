@@ -1,11 +1,15 @@
 # Visual Localization
 
-> Updated on 2026.02.06
+> Updated on 2026.02.11
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-02-09**|**OSCAR: Optimization-Steered Agentic Planning for Composed Image Retrieval**|Teng Wang et.al.|[2602.08603](https://arxiv.org/abs/2602.08603)|null|
+|**2026-02-09**|**A Sketch+Text Composed Image Retrieval Dataset for Thangka**|Jinyu Xu et.al.|[2602.08411](https://arxiv.org/abs/2602.08411)|null|
+|**2026-02-09**|**UrbanGraphEmbeddings: Learning and Evaluating Spatially Grounded Multimodal Embeddings for Urban Science**|Jie Zhang et.al.|[2602.08342](https://arxiv.org/abs/2602.08342)|null|
+|**2026-02-08**|**WristMIR: Coarse-to-Fine Region-Aware Retrieval of Pediatric Wrist Radiographs with Radiology Report-Driven Learning**|Mert Sonmezer et.al.|[2602.07872](https://arxiv.org/abs/2602.07872)|null|
 |**2026-02-04**|**SAR-RAG: ATR Visual Question Answering by Semantic Search, Retrieval, and MLLM Generation**|David F. Ramirez et.al.|[2602.04712](https://arxiv.org/abs/2602.04712)|null|
-|**2026-02-04**|**SDR-CIR: Semantic Debias Retrieval Framework for Training-Free Zero-Shot Composed Image Retrieval**|Yi Sun et.al.|[2602.04451](https://arxiv.org/abs/2602.04451)|null|
+|**2026-02-05**|**SDR-CIR: Semantic Debias Retrieval Framework for Training-Free Zero-Shot Composed Image Retrieval**|Yi Sun et.al.|[2602.04451](https://arxiv.org/abs/2602.04451)|null|
 |**2026-02-04**|**Quantile Transfer for Reliable Operating Point Selection in Visual Place Recognition**|Dhyey Manish Rajani et.al.|[2602.04401](https://arxiv.org/abs/2602.04401)|null|
 |**2026-02-04**|**Beyond Static Cropping: Layer-Adaptive Visual Localization and Decoding Enhancement**|Zipeng Zhu et.al.|[2602.04304](https://arxiv.org/abs/2602.04304)|null|
 |**2026-02-03**|**LaVPR: Benchmarking Language and Vision for Place Recognition**|Ofer Idan et.al.|[2602.03253](https://arxiv.org/abs/2602.03253)|null|

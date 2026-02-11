@@ -7,12 +7,117 @@ title: Visual Localization
   <div>
     <p class="eyebrow">Topic</p>
     <h1>Visual Localization</h1>
-    <p class="topic-lede">Updated 2026.02.06 · 337 papers</p>
+    <p class="topic-lede">Updated 2026.02.11 · 341 papers</p>
   </div>
   <a class="btn ghost" href="../index.html#topics">← Back to topics</a>
 </section>
 
 <section class="paper-grid">
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">OSCAR: Optimization-Steered Agentic Planning for Composed Image Retrieval</span>
+        <span class="paper-authors">Teng Wang, Rong Shan, Jianghao Lin, Junjie Wu, Tianyi Xu, Jianping Zhang, Wenteng Chen, Changwang Zhang, Zhaoxiang Wang, Weinan Zhang, Jun Wang</span>
+        <span class="paper-meta">Updated 2026-02-09</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Composed image retrieval (CIR) requires complex reasoning over heterogeneous visual and textual constraints. Existing approaches largely fall into two paradigms: unified embedding retrieval, which suffers from single-model myopia, and heuristic agentic retrieval, which is limited by suboptimal, trial-and-error orchestration. To this end, we propose OSCAR, an optimization-steered agentic planning framework for composed image retrieval. We are the first to reformulate agentic CIR from a heuristic search process into a principled trajectory optimization problem. Instead of relying on heuristic trial-and-error exploration, OSCAR employs a novel offline-online paradigm. In the offline phase, we model CIR via atomic retrieval selection and composition as a two-stage mixed-integer programming problem, mathematically deriving optimal trajectories that maximize ground-truth coverage for training samples via rigorous boolean set operations. These trajectories are then stored in a golden library to serve as in-context demonstrations for online steering of VLM planner at online inference time. Extensive experiments on three public benchmarks and a private industrial benchmark show that OSCAR consistently outperforms SOTA baselines. Notably, it achieves superior performance using only 10% of training data, demonstrating strong generalization of planning logic rather than dataset-specific memorization.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.08603">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.08603.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.08603.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">A Sketch+Text Composed Image Retrieval Dataset for Thangka</span>
+        <span class="paper-authors">Jinyu Xu, Yi Sun, Jiangling Zhang, Qing Xie, Daomin Ji, Zhifeng Bao, Jiachen Li, Yanchun Ma, Yongjian Liu</span>
+        <span class="paper-meta">Updated 2026-02-09</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Composed Image Retrieval (CIR) enables image retrieval by combining multiple query modalities, but existing benchmarks predominantly focus on general-domain imagery and rely on reference images with short textual modifications. As a result, they provide limited support for retrieval scenarios that require fine-grained semantic reasoning, structured visual understanding, and domain-specific knowledge. In this work, we introduce CIRThan, a sketch+text Composed Image Retrieval dataset for Thangka imagery, a culturally grounded and knowledge-specific visual domain characterized by complex structures, dense symbolic elements, and domain-dependent semantic conventions. CIRThan contains 2,287 high-quality Thangka images, each paired with a human-drawn sketch and hierarchical textual descriptions at three semantic levels, enabling composed queries that jointly express structural intent and multi-level semantic specification. We provide standardized data splits, comprehensive dataset analysis, and benchmark evaluations of representative supervised and zero-shot CIR methods. Experimental results reveal that existing CIR approaches, largely developed for general-domain imagery, struggle to effectively align sketch-based abstractions and hierarchical textual semantics with fine-grained Thangka images, particularly without in-domain supervision. We believe CIRThan offers a valuable benchmark for advancing sketch+text CIR, hierarchical semantic modeling, and multimodal retrieval in cultural heritage and other knowledge-specific visual domains. The dataset is publicly available at https://github.com/jinyuxu-whut/CIRThan.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.08411">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.08411.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.08411.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">UrbanGraphEmbeddings: Learning and Evaluating Spatially Grounded Multimodal Embeddings for Urban Science</span>
+        <span class="paper-authors">Jie Zhang, Xingtong Yu, Yuan Fang, Rudi Stouffs, Zdravko Trivic</span>
+        <span class="paper-meta">Updated 2026-02-09</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Learning transferable multimodal embeddings for urban environments is challenging because urban understanding is inherently spatial, yet existing datasets and benchmarks lack explicit alignment between street-view images and urban structure. We introduce UGData, a spatially grounded dataset that anchors street-view images to structured spatial graphs and provides graph-aligned supervision via spatial reasoning paths and spatial context captions, exposing distance, directionality, connectivity, and neighborhood context beyond image content. Building on UGData, we propose UGE, a two-stage training strategy that progressively and stably aligns images, text, and spatial structures by combining instruction-guided contrastive learning with graph-based spatial encoding. We finally introduce UGBench, a comprehensive benchmark to evaluate how spatially grounded embeddings support diverse urban understanding tasks -- including geolocation ranking, image retrieval, urban perception, and spatial grounding. We develop UGE on multiple state-of-the-art VLM backbones, including Qwen2-VL, Qwen2.5-VL, Phi-3-Vision, and LLaVA1.6-Mistral, and train fixed-dimensional spatial embeddings with LoRA tuning. UGE built upon Qwen2.5-VL-7B backbone achieves up to 44% improvement in image retrieval and 30% in geolocation ranking on training cities, and over 30% and 22% gains respectively on held-out cities, demonstrating the effectiveness of explicit spatial grounding for spatially intensive urban tasks.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.08342">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.08342.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.08342.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">WristMIR: Coarse-to-Fine Region-Aware Retrieval of Pediatric Wrist Radiographs with Radiology Report-Driven Learning</span>
+        <span class="paper-authors">Mert Sonmezer, Serge Vasylechko, Duygu Atasoy, Seyda Ertekin, Sila Kurugol</span>
+        <span class="paper-meta">Updated 2026-02-08</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Retrieving wrist radiographs with analogous fracture patterns is challenging because clinically important cues are subtle, highly localized and often obscured by overlapping anatomy or variable imaging views. Progress is further limited by the scarcity of large, well-annotated datasets for case-based medical image retrieval. We introduce WristMIR, a region-aware pediatric wrist radiograph retrieval framework that leverages dense radiology reports and bone-specific localization to learn fine-grained, clinically meaningful image representations without any manual image-level annotations. Using MedGemma-based structured report mining to generate both global and region-level captions, together with pre-processed wrist images and bone-specific crops of the distal radius, distal ulna, and ulnar styloid, WristMIR jointly trains global and local contrastive encoders and performs a two-stage retrieval process: (1) coarse global matching to identify candidate exams, followed by (2) region-conditioned reranking aligned to a predefined anatomical bone region. WristMIR improves retrieval performance over strong vision-language baselines, raising image-to-text Recall@5 from 0.82% to 9.35%. Its embeddings also yield stronger fracture classification (AUROC 0.949, AUPRC 0.953). In region-aware evaluation, the two-stage design markedly improves retrieval-based fracture diagnosis, increasing mean $F_1$ from 0.568 to 0.753, and radiologists rate its retrieved cases as more clinically relevant, with mean scores rising from 3.36 to 4.35. These findings highlight the potential of anatomically guided retrieval to enhance diagnostic reasoning and support clinical decision-making in pediatric musculoskeletal imaging. The source code is publicly available at https://github.com/quin-med-harvard-edu/WristMIR.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.07872">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.07872.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.07872.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">SDR-CIR: Semantic Debias Retrieval Framework for Training-Free Zero-Shot Composed Image Retrieval</span>
+        <span class="paper-authors">Yi Sun, Jinyu Xu, Qing Xie, Jiachen Li, Yanchun Ma, Yongjian Liu</span>
+        <span class="paper-meta">Updated 2026-02-05</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Composed Image Retrieval (CIR) aims to retrieve a target image from a query composed of a reference image and modification text. Recent training-free zero-shot methods often employ Multimodal Large Language Models (MLLMs) with Chain-of-Thought (CoT) to compose a target image description for retrieval. However, due to the fuzzy matching nature of ZS-CIR, the generated description is prone to semantic bias relative to the target image. We propose SDR-CIR, a training-free Semantic Debias Ranking method based on CoT reasoning. First, Selective CoT guides the MLLM to extract visual content relevant to the modification text during image understanding, thereby reducing visual noise at the source. We then introduce a Semantic Debias Ranking with two steps, Anchor and Debias, to mitigate semantic bias. In the Anchor step, we fuse reference image features with target description features to reinforce useful semantics and supplement omitted cues. In the Debias step, we explicitly model the visual semantic contribution of the reference image to the description and incorporate it into the similarity score as a penalty term. By supplementing omitted cues while suppressing redundancy, SDR-CIR mitigates semantic bias and improves retrieval performance. Experiments on three standard CIR benchmarks show that SDR-CIR achieves state-of-the-art results among one-stage methods while maintaining high efficiency. The code is publicly available at https://github.com/suny105/SDR-CIR.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.04451">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.04451.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.04451.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
   <article class="paper-card">
     <details class="paper-details">
       <summary>
@@ -28,27 +133,6 @@ title: Visual Localization
           <span class="chip ghost">Code: N/A</span>
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.04712.pdf">
-          <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
-        </div>
-      </div>
-    </details>
-  </article>
-  <article class="paper-card">
-    <details class="paper-details">
-      <summary>
-        <span class="paper-title">SDR-CIR: Semantic Debias Retrieval Framework for Training-Free Zero-Shot Composed Image Retrieval</span>
-        <span class="paper-authors">Yi Sun, Jinyu Xu, Qing Xie, Jiachen Li, Yanchun Ma, Yongjian Liu</span>
-        <span class="paper-meta">Updated 2026-02-04</span>
-      </summary>
-      <div class="paper-body">
-        <p class="paper-abstract">Composed Image Retrieval (CIR) aims to retrieve a target image from a query composed of a reference image and modification text. Recent training-free zero-shot methods often employ Multimodal Large Language Models (MLLMs) with Chain-of-Thought (CoT) to compose a target image description for retrieval. However, due to the fuzzy matching nature of ZS-CIR, the generated description is prone to semantic bias relative to the target image. We propose SDR-CIR, a training-free Semantic Debias Ranking method based on CoT reasoning. First, Selective CoT guides the MLLM to extract visual content relevant to the modification text during image understanding, thereby reducing visual noise at the source. We then introduce a Semantic Debias Ranking with two steps, Anchor and Debias, to mitigate semantic bias. In the Anchor step, we fuse reference image features with target description features to reinforce useful semantics and supplement omitted cues. In the Debias step, we explicitly model the visual semantic contribution of the reference image to the description and incorporate it into the similarity score as a penalty term. By supplementing omitted cues while suppressing redundancy, SDR-CIR mitigates semantic bias and improves retrieval performance. Experiments on three standard CIR benchmarks show that SDR-CIR achieves state-of-the-art results among one-stage methods while maintaining high efficiency. The code is publicly available at https://github.com/suny105/SDR-CIR.</p>
-        <div class="paper-links">
-          <a class="chip" href="https://arxiv.org/abs/2602.04451">arXiv</a>
-          <a class="chip" href="https://arxiv.org/pdf/2602.04451.pdf">PDF</a>
-          <span class="chip ghost">Code: N/A</span>
-        </div>
-        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.04451.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>

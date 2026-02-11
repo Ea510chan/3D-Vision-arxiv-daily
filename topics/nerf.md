@@ -1,9 +1,13 @@
 # NeRF
 
-> Updated on 2026.02.06
+> Updated on 2026.02.11
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-02-08**|**Dynamic Black-hole Emission Tomography with Physics-informed Neural Fields**|Berthy T. Feng et.al.|[2602.08029](https://arxiv.org/abs/2602.08029)|null|
+|**2026-02-08**|**Deepfake Synthesis vs. Detection: An Uneven Contest**|Md. Tarek Hasan et.al.|[2602.07986](https://arxiv.org/abs/2602.07986)|null|
+|**2026-02-05**|**NVS-HO: A Benchmark for Novel View Synthesis of Handheld Objects**|Musawar Ali et.al.|[2602.05822](https://arxiv.org/abs/2602.05822)|null|
+|**2026-02-05**|**NeVStereo: A NeRF-Driven NVS-Stereo Architecture for High-Fidelity 3D Tasks**|Pengcheng Chen et.al.|[2602.05423](https://arxiv.org/abs/2602.05423)|null|
 |**2026-02-03**|**Beyond Cropping and Rotation: Automated Evolution of Powerful Task-Specific Augmentations with Generative Models**|Judah Goldfeder et.al.|[2602.03123](https://arxiv.org/abs/2602.03123)|null|
 |**2026-01-30**|**EAG-PT: Emission-Aware Gaussians and Path Tracing for Indoor Scene Reconstruction and Editing**|Xijie Yang et.al.|[2601.23065](https://arxiv.org/abs/2601.23065)|null|
 |**2026-02-02**|**Under-Canopy Terrain Reconstruction in Dense Forests Using RGB Imaging and Neural 3D Reconstruction**|Refael Sheffer et.al.|[2601.22861](https://arxiv.org/abs/2601.22861)|null|

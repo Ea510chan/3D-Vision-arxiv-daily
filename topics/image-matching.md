@@ -1,9 +1,12 @@
 # Image Matching
 
-> Updated on 2026.02.06
+> Updated on 2026.02.11
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-02-09**|**Understanding and Optimizing Attention-Based Sparse Matching for Diverse Local Features**|Qiang Wang et.al.|[2602.08430](https://arxiv.org/abs/2602.08430)|null|
+|**2026-01-31**|**Gaussian-Constrained LeJEPA Representations for Unsupervised Scene Discovery and Pose Consistency**|Mohsen Mostafa et.al.|[2602.07016](https://arxiv.org/abs/2602.07016)|null|
+|**2026-02-05**|**SOMA-1M: A Large-Scale SAR-Optical Multi-resolution Alignment Dataset for Multi-Task Remote Sensing**|Peihao Wu et.al.|[2602.05480](https://arxiv.org/abs/2602.05480)|null|
 |**2026-02-04**|**Quantile Transfer for Reliable Operating Point Selection in Visual Place Recognition**|Dhyey Manish Rajani et.al.|[2602.04401](https://arxiv.org/abs/2602.04401)|null|
 |**2026-01-19**|**A Streamlined Attention-Based Network for Descriptor Extraction**|Mattia D'Urso et.al.|[2601.13126](https://arxiv.org/abs/2601.13126)|null|
 |**2026-01-18**|**XRefine: Attention-Guided Keypoint Match Refinement**|Jan Fabian Schmid et.al.|[2601.12530](https://arxiv.org/abs/2601.12530)|null|
