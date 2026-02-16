@@ -7,12 +7,33 @@ title: NeRF
   <div>
     <p class="eyebrow">Topic</p>
     <h1>NeRF</h1>
-    <p class="topic-lede">Updated 2026.02.11 · 290 papers</p>
+    <p class="topic-lede">Updated 2026.02.16 · 290 papers</p>
   </div>
   <a class="btn ghost" href="../index.html#topics">← Back to topics</a>
 </section>
 
 <section class="paper-grid">
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">From Implicit Ambiguity to Explicit Solidity: Diagnosing Interior Geometric Degradation in Neural Radiance Fields for Dense 3D Scene Understanding</span>
+        <span class="paper-authors">Jiangsan Zhao, Jakob Geipel, Kryzysztof Kusnierek</span>
+        <span class="paper-meta">Updated 2026-02-12</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Neural Radiance Fields (NeRFs) have emerged as a powerful paradigm for multi-view reconstruction, complementing classical photogrammetric pipelines based on Structure-from-Motion (SfM) and Multi-View Stereo (MVS). However, their reliability for quantitative 3D analysis in dense, self-occluding scenes remains poorly understood. In this study, we identify a fundamental failure mode of implicit density fields under heavy occlusion, which we term Interior Geometric Degradation (IGD). We show that transmittance-based volumetric optimization satisfies photometric supervision by reconstructing hollow or fragmented structures rather than solid interiors, leading to systematic instance undercounting. Through controlled experiments on synthetic datasets with increasing occlusion, we demonstrate that state-of-the-art mask-supervised NeRFs saturate at approximately 89% instance recovery in dense scenes, despite improved surface coherence and mask quality. To overcome this limitation, we introduce an explicit geometric pipeline based on Sparse Voxel Rasterization (SVRaster), initialized from SfM feature geometry. By projecting 2D instance masks onto an explicit voxel grid and enforcing geometric separation via recursive splitting, our approach preserves physical solidity and achieves a 95.8% recovery rate in dense clusters. A sensitivity analysis using degraded segmentation masks further shows that explicit SfM-based geometry is substantially more robust to supervision failure, recovering 43% more instances than implicit baselines. These results demonstrate that explicit geometric priors are a prerequisite for reliable quantitative analysis in highly self-occluding 3D scenes.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2601.21421">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2601.21421.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.21421.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
   <article class="paper-card">
     <details class="paper-details">
       <summary>
@@ -175,27 +196,6 @@ title: NeRF
           <span class="chip ghost">Code: N/A</span>
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.22808.pdf">
-          <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
-        </div>
-      </div>
-    </details>
-  </article>
-  <article class="paper-card">
-    <details class="paper-details">
-      <summary>
-        <span class="paper-title">From Implicit Ambiguity to Explicit Solidity: Diagnosing Interior Geometric Degradation in Neural Radiance Fields for Dense 3D Scene Understanding</span>
-        <span class="paper-authors">Jiangsan Zhao, Jakob Geipel, Kryzysztof Kusnierek</span>
-        <span class="paper-meta">Updated 2026-01-29</span>
-      </summary>
-      <div class="paper-body">
-        <p class="paper-abstract">Neural Radiance Fields (NeRFs) have emerged as a powerful paradigm for multi-view reconstruction, complementing classical photogrammetric pipelines based on Structure-from-Motion (SfM) and Multi-View Stereo (MVS). However, their reliability for quantitative 3D analysis in dense, self-occluding scenes remains poorly understood. In this study, we identify a fundamental failure mode of implicit density fields under heavy occlusion, which we term Interior Geometric Degradation (IGD). We show that transmittance-based volumetric optimization satisfies photometric supervision by reconstructing hollow or fragmented structures rather than solid interiors, leading to systematic instance undercounting. Through controlled experiments on synthetic datasets with increasing occlusion, we demonstrate that state-of-the-art mask-supervised NeRFs saturate at approximately 89% instance recovery in dense scenes, despite improved surface coherence and mask quality. To overcome this limitation, we introduce an explicit geometric pipeline based on Sparse Voxel Rasterization (SVRaster), initialized from SfM feature geometry. By projecting 2D instance masks onto an explicit voxel grid and enforcing geometric separation via recursive splitting, our approach preserves physical solidity and achieves a 95.8% recovery rate in dense clusters. A sensitivity analysis using degraded segmentation masks further shows that explicit SfM-based geometry is substantially more robust to supervision failure, recovering 43% more instances than implicit baselines. These results demonstrate that explicit geometric priors are a prerequisite for reliable quantitative analysis in highly self-occluding 3D scenes.</p>
-        <div class="paper-links">
-          <a class="chip" href="https://arxiv.org/abs/2601.21421">arXiv</a>
-          <a class="chip" href="https://arxiv.org/pdf/2601.21421.pdf">PDF</a>
-          <span class="chip ghost">Code: N/A</span>
-        </div>
-        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.21421.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>

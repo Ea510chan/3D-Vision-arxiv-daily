@@ -7,12 +7,33 @@ title: Point Cloud Registration
   <div>
     <p class="eyebrow">Topic</p>
     <h1>Point Cloud Registration</h1>
-    <p class="topic-lede">Updated 2026.02.11 · 121 papers</p>
+    <p class="topic-lede">Updated 2026.02.16 · 122 papers</p>
   </div>
   <a class="btn ghost" href="../index.html#topics">← Back to topics</a>
 </section>
 
 <section class="paper-grid">
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">End-to-End LiDAR optimization for 3D point cloud registration</span>
+        <span class="paper-authors">Siddhant Katyan, Marc-André Gardner, Jean-François Lalonde</span>
+        <span class="paper-meta">Updated 2026-02-11</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">LiDAR sensors are a key modality for 3D perception, yet they are typically designed independently of downstream tasks such as point cloud registration. Conventional registration operates on pre-acquired datasets with fixed LiDAR configurations, leading to suboptimal data collection and significant computational overhead for sampling, noise filtering, and parameter tuning. In this work, we propose an adaptive LiDAR sensing framework that dynamically adjusts sensor parameters, jointly optimizing LiDAR acquisition and registration hyperparameters. By integrating registration feedback into the sensing loop, our approach optimally balances point density, noise, and sparsity, improving registration accuracy and efficiency. Evaluations in the CARLA simulation demonstrate that our method outperforms fixed-parameter baselines while retaining generalization abilities, highlighting the potential of adaptive LiDAR for autonomous perception and robotic applications.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.10492">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.10492.pdf">PDF</a>
+          <a class="chip" href="https://github.com/siddhantkatyan/e2e-lidar-registration">Code</a>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.10492.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
   <article class="paper-card">
     <details class="paper-details">
       <summary>

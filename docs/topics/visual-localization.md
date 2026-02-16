@@ -7,12 +7,96 @@ title: Visual Localization
   <div>
     <p class="eyebrow">Topic</p>
     <h1>Visual Localization</h1>
-    <p class="topic-lede">Updated 2026.02.11 · 341 papers</p>
+    <p class="topic-lede">Updated 2026.02.16 · 344 papers</p>
   </div>
   <a class="btn ghost" href="../index.html#topics">← Back to topics</a>
 </section>
 
 <section class="paper-grid">
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">DiffPlace: Street View Generation via Place-Controllable Diffusion Model Enhancing Place Recognition</span>
+        <span class="paper-authors">Ji Li, Zhiwei Li, Shihao Li, Zhenjiang Yu, Boyang Wang, Haiou Liu</span>
+        <span class="paper-meta">Updated 2026-02-12</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Generative models have advanced significantly in realistic image synthesis, with diffusion models excelling in quality and stability. Recent multi-view diffusion models improve 3D-aware street view generation, but they struggle to produce place-aware and background-consistent urban scenes from text, BEV maps, and object bounding boxes. This limits their effectiveness in generating realistic samples for place recognition tasks. To address these challenges, we propose DiffPlace, a novel framework that introduces a place-ID controller to enable place-controllable multi-view image generation. The place-ID controller employs linear projection, perceiver transformer, and contrastive learning to map place-ID embeddings into a fixed CLIP space, allowing the model to synthesize images with consistent background buildings while flexibly modifying foreground objects and weather conditions. Extensive experiments, including quantitative comparisons and augmented training evaluations, demonstrate that DiffPlace outperforms existing methods in both generation quality and training support for visual place recognition. Our results highlight the potential of generative models in enhancing scene-level and place-aware synthesis, providing a valuable approach for improving place recognition in autonomous driving</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.11875">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.11875.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.11875.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Arbitrary Ratio Feature Compression via Next Token Prediction</span>
+        <span class="paper-authors">Yufan Liu, Daoyuan Ren, Zhipeng Zhang, Wenyang Luo, Bing Li, Weiming Hu, Stephen Maybank</span>
+        <span class="paper-meta">Updated 2026-02-12</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Feature compression is increasingly important for improving the efficiency of downstream tasks, especially in applications involving large-scale or multi-modal data. While existing methods typically rely on dedicated models for achieving specific compression ratios, they are often limited in flexibility and generalization. In particular, retraining is necessary when adapting to a new compression ratio. To address this limitation, we propose a novel and flexible Arbitrary Ratio Feature Compression (ARFC) framework, which supports any compression ratio with a single model, eliminating the need for multiple specialized models. At its core, the Arbitrary Ratio Compressor (ARC) is an auto-regressive model that performs compression via next-token prediction. This allows the compression ratio to be controlled at inference simply by adjusting the number of generated tokens. To enhance the quality of the compressed features, two key modules are introduced. The Mixture of Solutions (MoS) module refines the compressed tokens by utilizing multiple compression results (solutions), reducing uncertainty and improving robustness. The Entity Relation Graph Constraint (ERGC) is integrated into the training process to preserve semantic and structural relationships during compression. Extensive experiments on cross-modal retrieval, image classification, and image retrieval tasks across multiple datasets demonstrate that our method consistently outperforms existing approaches at various compression ratios. Notably, in some cases, it even surpasses the performance of the original, uncompressed features. These results validate the effectiveness and versatility of ARFC for practical, resource-constrained scenarios.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.11494">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.11494.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.11494.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">DeepImageSearch: Benchmarking Multimodal Agents for Context-Aware Image Retrieval in Visual Histories</span>
+        <span class="paper-authors">Chenlong Deng, Mengjie Deng, Junjie Wu, Dun Zeng, Teng Wang, Qingsong Xie, Jiadeng Huang, Shengjie Ma, Changwang Zhang, Zhaoxiang Wang, Jun Wang, Yutao Zhu, Zhicheng Dou</span>
+        <span class="paper-meta">Updated 2026-02-11</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Existing multimodal retrieval systems excel at semantic matching but implicitly assume that query-image relevance can be measured in isolation. This paradigm overlooks the rich dependencies inherent in realistic visual streams, where information is distributed across temporal sequences rather than confined to single snapshots. To bridge this gap, we introduce DeepImageSearch, a novel agentic paradigm that reformulates image retrieval as an autonomous exploration task. Models must plan and perform multi-step reasoning over raw visual histories to locate targets based on implicit contextual cues. We construct DISBench, a challenging benchmark built on interconnected visual data. To address the scalability challenge of creating context-dependent queries, we propose a human-model collaborative pipeline that employs vision-language models to mine latent spatiotemporal associations, effectively offloading intensive context discovery before human verification. Furthermore, we build a robust baseline using a modular agent framework equipped with fine-grained tools and a dual-memory system for long-horizon navigation. Extensive experiments demonstrate that DISBench poses significant challenges to state-of-the-art models, highlighting the necessity of incorporating agentic reasoning into next-generation retrieval systems.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.10809">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.10809.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.10809.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">WristMIR: Coarse-to-Fine Region-Aware Retrieval of Pediatric Wrist Radiographs with Radiology Report-Driven Learning</span>
+        <span class="paper-authors">Mert Sonmezer, Serge Vasylechko, Duygu Atasoy, Seyda Ertekin, Sila Kurugol</span>
+        <span class="paper-meta">Updated 2026-02-10</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Retrieving wrist radiographs with analogous fracture patterns is challenging because clinically important cues are subtle, highly localized and often obscured by overlapping anatomy or variable imaging views. Progress is further limited by the scarcity of large, well-annotated datasets for case-based medical image retrieval. We introduce WristMIR, a region-aware pediatric wrist radiograph retrieval framework that leverages dense radiology reports and bone-specific localization to learn fine-grained, clinically meaningful image representations without any manual image-level annotations. Using MedGemma-based structured report mining to generate both global and region-level captions, together with pre-processed wrist images and bone-specific crops of the distal radius, distal ulna, and ulnar styloid, WristMIR jointly trains global and local contrastive encoders and performs a two-stage retrieval process: (1) coarse global matching to identify candidate exams, followed by (2) region-conditioned reranking aligned to a predefined anatomical bone region. WristMIR improves retrieval performance over strong vision-language baselines, raising image-to-text Recall@5 from 0.82% to 9.35%. Its embeddings also yield stronger fracture classification (AUROC 0.949, AUPRC 0.953). In region-aware evaluation, the two-stage design markedly improves retrieval-based fracture diagnosis, increasing mean $F_1$ from 0.568 to 0.753, and radiologists rate its retrieved cases as more clinically relevant, with mean scores rising from 3.36 to 4.35. These findings highlight the potential of anatomically guided retrieval to enhance diagnostic reasoning and support clinical decision-making in pediatric musculoskeletal imaging. The source code is publicly available at https://github.com/quin-med-harvard-edu/WristMIR.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.07872">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.07872.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.07872.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
   <article class="paper-card">
     <details class="paper-details">
       <summary>
@@ -70,27 +154,6 @@ title: Visual Localization
           <span class="chip ghost">Code: N/A</span>
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.08342.pdf">
-          <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
-        </div>
-      </div>
-    </details>
-  </article>
-  <article class="paper-card">
-    <details class="paper-details">
-      <summary>
-        <span class="paper-title">WristMIR: Coarse-to-Fine Region-Aware Retrieval of Pediatric Wrist Radiographs with Radiology Report-Driven Learning</span>
-        <span class="paper-authors">Mert Sonmezer, Serge Vasylechko, Duygu Atasoy, Seyda Ertekin, Sila Kurugol</span>
-        <span class="paper-meta">Updated 2026-02-08</span>
-      </summary>
-      <div class="paper-body">
-        <p class="paper-abstract">Retrieving wrist radiographs with analogous fracture patterns is challenging because clinically important cues are subtle, highly localized and often obscured by overlapping anatomy or variable imaging views. Progress is further limited by the scarcity of large, well-annotated datasets for case-based medical image retrieval. We introduce WristMIR, a region-aware pediatric wrist radiograph retrieval framework that leverages dense radiology reports and bone-specific localization to learn fine-grained, clinically meaningful image representations without any manual image-level annotations. Using MedGemma-based structured report mining to generate both global and region-level captions, together with pre-processed wrist images and bone-specific crops of the distal radius, distal ulna, and ulnar styloid, WristMIR jointly trains global and local contrastive encoders and performs a two-stage retrieval process: (1) coarse global matching to identify candidate exams, followed by (2) region-conditioned reranking aligned to a predefined anatomical bone region. WristMIR improves retrieval performance over strong vision-language baselines, raising image-to-text Recall@5 from 0.82% to 9.35%. Its embeddings also yield stronger fracture classification (AUROC 0.949, AUPRC 0.953). In region-aware evaluation, the two-stage design markedly improves retrieval-based fracture diagnosis, increasing mean $F_1$ from 0.568 to 0.753, and radiologists rate its retrieved cases as more clinically relevant, with mean scores rising from 3.36 to 4.35. These findings highlight the potential of anatomically guided retrieval to enhance diagnostic reasoning and support clinical decision-making in pediatric musculoskeletal imaging. The source code is publicly available at https://github.com/quin-med-harvard-edu/WristMIR.</p>
-        <div class="paper-links">
-          <a class="chip" href="https://arxiv.org/abs/2602.07872">arXiv</a>
-          <a class="chip" href="https://arxiv.org/pdf/2602.07872.pdf">PDF</a>
-          <span class="chip ghost">Code: N/A</span>
-        </div>
-        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.07872.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>

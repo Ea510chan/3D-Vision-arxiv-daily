@@ -7,12 +7,159 @@ title: 3D Reconstruction
   <div>
     <p class="eyebrow">Topic</p>
     <h1>3D Reconstruction</h1>
-    <p class="topic-lede">Updated 2026.02.11 · 240 papers</p>
+    <p class="topic-lede">Updated 2026.02.16 · 247 papers</p>
   </div>
   <a class="btn ghost" href="../index.html#topics">← Back to topics</a>
 </section>
 
 <section class="paper-grid">
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Ctrl&amp;Shift: High-Quality Geometry-Aware Object Manipulation in Visual Generation</span>
+        <span class="paper-authors">Penghui Ruan, Bojia Zi, Xianbiao Qi, Youze Huang, Rong Xiao, Pichao Wang, Jiannong Cao, Yuhui Shi</span>
+        <span class="paper-meta">Updated 2026-02-11</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Object-level manipulation, relocating or reorienting objects in images or videos while preserving scene realism, is central to film post-production, AR, and creative editing. Yet existing methods struggle to jointly achieve three core goals: background preservation, geometric consistency under viewpoint shifts, and user-controllable transformations. Geometry-based approaches offer precise control but require explicit 3D reconstruction and generalize poorly; diffusion-based methods generalize better but lack fine-grained geometric control. We present Ctrl&amp;Shift, an end-to-end diffusion framework to achieve geometry-consistent object manipulation without explicit 3D representations. Our key insight is to decompose manipulation into two stages, object removal and reference-guided inpainting under explicit camera pose control, and encode both within a unified diffusion process. To enable precise, disentangled control, we design a multi-task, multi-stage training strategy that separates background, identity, and pose signals across tasks. To improve generalization, we introduce a scalable real-world dataset construction pipeline that generates paired image and video samples with estimated relative camera poses. Extensive experiments demonstrate that Ctrl&amp;Shift achieves state-of-the-art results in fidelity, viewpoint consistency, and controllability. To our knowledge, this is the first framework to unify fine-grained geometric control and real-world generalization for object manipulation, without relying on any explicit 3D modeling.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.11440">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.11440.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.11440.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Using a 4-megapixel hybrid photon counting detector for fast, lab-based nanoscale x-ray tomography</span>
+        <span class="paper-authors">Jordan Fonseca, Zachary H. Levine, Joseph W. Fowler, Felix H. Kim, Galen O&#x27;Neil, Nathan J. Ortiz, John Henry Scott, Daniel S. Swetz, Paul Szypryt, Andras E. Vladar, Nathan Nakamura</span>
+        <span class="paper-meta">Updated 2026-02-11</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Hybrid photon counting detectors (HPCDs) have unlocked new capabilities for x-ray-based measurements at synchrotrons around the world in the last 30 years. By leveraging independently optimized sensor and readout layers, they offer high quantum efficiency ($&gt; 80 \%$), ultra-low dark counts, sub-pixel point-spread function, and high count rates ($&gt; 10^{6}$ counts per pixel per second). Furthermore, their small pixel size and large active area endow them with excellent coverage and resolution for both real-space and reciprocal space imaging. Here, we demonstrate that HPCDs are also well-suited for laboratory-based nanoscale x-ray tomography (nano-xCT). We perform nano-xCT on an integrated circuit fabricated at the 130-nm node and produce a 3D reconstruction with 40 times more photons collected 20 times faster than in this group&#x27;s previous work, for an overall speedup of 800$\times$. We review the technical considerations of using an HPCD for tabletop tomography. We quantify our reconstruction image quality using well-established metrics, including the modulation transfer function (MTF), Fourier shell correlation (FSC), and contrast-to-noise (CNR), to validate our choice of experimental parameters that provide sufficient resolution and imaging speed. Using these metrics, we determine that even under current experimental conditions, 160 nm wiring features are reconstructed at 75-80 nm spatial resolution.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.11375">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.11375.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.11375.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">ERGO: Excess-Risk-Guided Optimization for High-Fidelity Monocular 3D Gaussian Splatting</span>
+        <span class="paper-authors">Zehua Ma, Hanhui Li, Zhenyu Xie, Xiaonan Luo, Michael Kampffmeyer, Feng Gao, Xiaodan Liang</span>
+        <span class="paper-meta">Updated 2026-02-10</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Generating 3D content from a single image remains a fundamentally challenging and ill-posed problem due to the inherent absence of geometric and textural information in occluded regions. While state-of-the-art generative models can synthesize auxiliary views to provide additional supervision, these views inevitably contain geometric inconsistencies and textural misalignments that propagate and amplify artifacts during 3D reconstruction. To effectively harness these imperfect supervisory signals, we propose an adaptive optimization framework guided by excess risk decomposition, termed ERGO. Specifically, ERGO decomposes the optimization losses in 3D Gaussian splatting into two components, i.e., excess risk that quantifies the suboptimality gap between current and optimal parameters, and Bayes error that models the irreducible noise inherent in synthesized views. This decomposition enables ERGO to dynamically estimate the view-specific excess risk and adaptively adjust loss weights during optimization. Furthermore, we introduce geometry-aware and texture-aware objectives that complement the excess-risk-derived weighting mechanism, establishing a synergistic global-local optimization paradigm. Consequently, ERGO demonstrates robustness against supervision noise while consistently enhancing both geometric fidelity and textural quality of the reconstructed 3D content. Extensive experiments on the Google Scanned Objects dataset and the OmniObject3D dataset demonstrate the superiority of ERGO over existing state-of-the-art methods.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.10278">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.10278.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.10278.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">XSPLAIN: XAI-enabling Splat-based Prototype Learning for Attribute-aware INterpretability</span>
+        <span class="paper-authors">Dominik Galus, Julia Farganus, Tymoteusz Zapala, Mikołaj Czachorowski, Piotr Borycki, Przemysław Spurek, Piotr Syga</span>
+        <span class="paper-meta">Updated 2026-02-10</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">3D Gaussian Splatting (3DGS) has rapidly become a standard for high-fidelity 3D reconstruction, yet its adoption in multiple critical domains is hindered by the lack of interpretability of the generation models as well as classification of the Splats. While explainability methods exist for other 3D representations, like point clouds, they typically rely on ambiguous saliency maps that fail to capture the volumetric coherence of Gaussian primitives. We introduce XSPLAIN, the first ante-hoc, prototype-based interpretability framework designed specifically for 3DGS classification. Our approach leverages a voxel-aggregated PointNet backbone and a novel, invertible orthogonal transformation that disentangles feature channels for interpretability while strictly preserving the original decision boundaries. Explanations are grounded in representative training examples, enabling intuitive ``this looks like that&#x27;&#x27; reasoning without any degradation in classification performance. A rigorous user study (N=51) demonstrates a decisive preference for our approach: participants selected XSPLAIN explanations 48.4\% of the time as the best, significantly outperforming baselines $(p&lt;0.001)$, showing that XSPLAIN provides transparency and user trust. The source code for this work is available at: https://github.com/Solvro/ml-splat-xai</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.10239">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.10239.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.10239.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Robo3R: Enhancing Robotic Manipulation with Accurate Feed-Forward 3D Reconstruction</span>
+        <span class="paper-authors">Sizhe Yang, Linning Xu, Hao Li, Juncheng Mu, Jia Zeng, Dahua Lin, Jiangmiao Pang</span>
+        <span class="paper-meta">Updated 2026-02-10</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">3D spatial perception is fundamental to generalizable robotic manipulation, yet obtaining reliable, high-quality 3D geometry remains challenging. Depth sensors suffer from noise and material sensitivity, while existing reconstruction models lack the precision and metric consistency required for physical interaction. We introduce Robo3R, a feed-forward, manipulation-ready 3D reconstruction model that predicts accurate, metric-scale scene geometry directly from RGB images and robot states in real time. Robo3R jointly infers scale-invariant local geometry and relative camera poses, which are unified into the scene representation in the canonical robot frame via a learned global similarity transformation. To meet the precision demands of manipulation, Robo3R employs a masked point head for sharp, fine-grained point clouds, and a keypoint-based Perspective-n-Point (PnP) formulation to refine camera extrinsics and global alignment. Trained on Robo3R-4M, a curated large-scale synthetic dataset with four million high-fidelity annotated frames, Robo3R consistently outperforms state-of-the-art reconstruction methods and depth sensors. Across downstream tasks including imitation learning, sim-to-real transfer, grasp synthesis, and collision-free motion planning, we observe consistent gains in performance, suggesting the promise of this alternative 3D sensing module for robotic manipulation.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.10101">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.10101.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.10101.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">SARS: A Novel Face and Body Shape and Appearance Aware 3D Reconstruction System extends Morphable Models</span>
+        <span class="paper-authors">Gulraiz Khan, Kenneth Y. Wertheim, Kevin Pimbblet, Waqas Ahmed</span>
+        <span class="paper-meta">Updated 2026-02-10</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Morphable Models (3DMMs) are a type of morphable model that takes 2D images as inputs and recreates the structure and physical appearance of 3D objects, especially human faces and bodies. 3DMM combines identity and expression blendshapes with a basic face mesh to create a detailed 3D model. The variability in the 3D Morphable models can be controlled by tuning diverse parameters. They are high-level image descriptors, such as shape, texture, illumination, and camera parameters. Previous research in 3D human reconstruction concentrated solely on global face structure or geometry, ignoring face semantic features such as age, gender, and facial landmarks characterizing facial boundaries, curves, dips, and wrinkles. In order to accommodate changes in these high-level facial characteristics, this work introduces a shape and appearance-aware 3D reconstruction system (named SARS by us), a c modular pipeline that extracts body and face information from a single image to properly rebuild the 3D model of the human full body.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.09918">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.09918.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.09918.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Single-Slice-to-3D Reconstruction in Medical Imaging and Natural Objects: A Comparative Benchmark with SAM 3D</span>
+        <span class="paper-authors">Yan Luo, Advaith Ravishankar, Serena Liu, Yutong Yang, Mengyu Wang</span>
+        <span class="paper-meta">Updated 2026-02-10</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">A 3D understanding of anatomy is central to diagnosis and treatment planning, yet volumetric imaging remains costly with long wait times. Image-to-3D foundations models can solve this issue by reconstructing 3D data from 2D modalites. Current foundation models are trained on natural image distributions to reconstruct naturalistic objects from a single image by leveraging geometric priors across pixels. However, it is unclear whether these learned geometric priors transfer to medical data. In this study, we present a controlled zero-shot benchmark of single slice medical image-to-3D reconstruction across five state-of-the-art image-to-3D models: SAM3D, Hunyuan3D-2.1, Direct3D, Hi3DGen, and TripoSG. These are evaluated across six medical datasets spanning anatomical and pathological structures and two natrual datasets, using voxel based metrics and point cloud distance metrics. Across medical datasets, voxel based overlap remains moderate for all models, consistent with a depth reconstruction failure mode when inferring volume from a single slice. In contrast, global distance metrics show more separation between methods: SAM3D achieves the strongest overall topological similarity to ground truth medical 3D data, while alternative models are more prone to over-simplication of reconstruction. Our results quantify the limits of single-slice medical reconstruction and highlight depth ambiguity caused by the planar nature of 2D medical data, motivating multi-view image-to-3D reconstruction to enable reliable medical 3D inference.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.09407">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.09407.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.09407.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
   <article class="paper-card">
     <details class="paper-details">
       <summary>

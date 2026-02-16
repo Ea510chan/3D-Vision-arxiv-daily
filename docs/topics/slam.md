@@ -7,12 +7,33 @@ title: SLAM
   <div>
     <p class="eyebrow">Topic</p>
     <h1>SLAM</h1>
-    <p class="topic-lede">Updated 2026.02.11 · 220 papers</p>
+    <p class="topic-lede">Updated 2026.02.16 · 221 papers</p>
   </div>
   <a class="btn ghost" href="../index.html#topics">← Back to topics</a>
 </section>
 
 <section class="paper-grid">
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">GSO-SLAM: Bidirectionally Coupled Gaussian Splatting and Direct Visual Odometry</span>
+        <span class="paper-authors">Jiung Yeon, Seongbo Ha, Hyeonwoo Yu</span>
+        <span class="paper-meta">Updated 2026-02-12</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">We propose GSO-SLAM, a real-time monocular dense SLAM system that leverages Gaussian scene representation. Unlike existing methods that couple tracking and mapping with a unified scene, incurring computational costs, or loosely integrate them with well-structured tracking frameworks, introducing redundancies, our method bidirectionally couples Visual Odometry (VO) and Gaussian Splatting (GS). Specifically, our approach formulates joint optimization within an Expectation-Maximization (EM) framework, enabling the simultaneous refinement of VO-derived semi-dense depth estimates and the GS representation without additional computational overhead. Moreover, we present Gaussian Splat Initialization, which utilizes image information, keyframe poses, and pixel associations from VO to produce close approximations to the final Gaussian scene, thereby eliminating the need for heuristic methods. Through extensive experiments, we validate the effectiveness of our method, showing that it not only operates in real time but also achieves state-of-the-art geometric/photometric fidelity of the reconstructed scene and tracking accuracy.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.11714">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.11714.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.11714.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
   <article class="paper-card">
     <details class="paper-details">
       <summary>

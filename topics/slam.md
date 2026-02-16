@@ -1,9 +1,10 @@
 # SLAM
 
-> Updated on 2026.02.11
+> Updated on 2026.02.16
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-02-12**|**GSO-SLAM: Bidirectionally Coupled Gaussian Splatting and Direct Visual Odometry**|Jiung Yeon et.al.|[2602.11714](https://arxiv.org/abs/2602.11714)|null|
 |**2026-01-28**|**When Simultaneous Localization and Mapping Meets Wireless Communications: A Survey**|Konstantinos Gounis et.al.|[2602.06995](https://arxiv.org/abs/2602.06995)|null|
 |**2025-12-30**|**Learning to Anchor Visual Odometry: KAN-Based Pose Regression for Planetary Landing**|Xubo Luo et.al.|[2602.06968](https://arxiv.org/abs/2602.06968)|null|
 |**2026-02-05**|**Feature points evaluation on omnidirectional vision with a photorealistic fisheye sequence -- A report on experiments done in 2014**|Julien Moreau et.al.|[2602.05487](https://arxiv.org/abs/2602.05487)|null|

@@ -1,9 +1,10 @@
 # Point Cloud Registration
 
-> Updated on 2026.02.11
+> Updated on 2026.02.16
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-02-11**|**End-to-End LiDAR optimization for 3D point cloud registration**|Siddhant Katyan et.al.|[2602.10492](https://arxiv.org/abs/2602.10492)|**[link](https://github.com/siddhantkatyan/e2e-lidar-registration)**|
 |**2026-02-03**|**Beyond the Vehicle: Cooperative Localization by Fusing Point Clouds for GPS-Challenged Urban Scenarios**|Kuo-Yi Chao et.al.|[2602.03908](https://arxiv.org/abs/2602.03908)|null|
 |**2026-01-30**|**Parametric vector flows for registration fields in bounded domains with applications to nonlinear interpolation of shock-dominated flows**|Jon Labatut et.al.|[2601.22712](https://arxiv.org/abs/2601.22712)|null|
 |**2026-01-14**|**Iterative Differential Entropy Minimization (IDEM) method for fine rigid pairwise 3D Point Cloud Registration: A Focus on the Metric**|Emmanuele Barberi et.al.|[2601.09601](https://arxiv.org/abs/2601.09601)|null|

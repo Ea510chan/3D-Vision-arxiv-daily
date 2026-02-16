@@ -1,9 +1,19 @@
 # Gaussian Splatting
 
-> Updated on 2026.02.11
+> Updated on 2026.02.16
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-02-12**|**3DGSNav: Enhancing Vision-Language Model Reasoning for Object Navigation via Active 3D Gaussian Splatting**|Wancai Zheng et.al.|[2602.12159](https://arxiv.org/abs/2602.12159)|null|
+|**2026-02-12**|**GSO-SLAM: Bidirectionally Coupled Gaussian Splatting and Direct Visual Odometry**|Jiung Yeon et.al.|[2602.11714](https://arxiv.org/abs/2602.11714)|null|
+|**2026-02-12**|**TG-Field: Geometry-Aware Radiative Gaussian Fields for Tomographic Reconstruction**|Yuxiang Zhong et.al.|[2602.11705](https://arxiv.org/abs/2602.11705)|null|
+|**2026-02-12**|**Variation-aware Flexible 3D Gaussian Editing**|Hao Qin et.al.|[2602.11638](https://arxiv.org/abs/2602.11638)|null|
+|**2026-02-12**|**LeafFit: Plant Assets Creation from 3D Gaussian Splatting**|Chang Luo et.al.|[2602.11577](https://arxiv.org/abs/2602.11577)|null|
+|**2026-02-12**|**ReaDy-Go: Real-to-Sim Dynamic 3D Gaussian Splatting Simulation for Environment-Specific Visual Navigation with Moving Obstacles**|Seungyeon Yoo et.al.|[2602.11575](https://arxiv.org/abs/2602.11575)|null|
+|**2026-02-10**|**ERGO: Excess-Risk-Guided Optimization for High-Fidelity Monocular 3D Gaussian Splatting**|Zehua Ma et.al.|[2602.10278](https://arxiv.org/abs/2602.10278)|null|
+|**2026-02-10**|**XSPLAIN: XAI-enabling Splat-based Prototype Learning for Attribute-aware INterpretability**|Dominik Galus et.al.|[2602.10239](https://arxiv.org/abs/2602.10239)|null|
+|**2026-02-10**|**ArtisanGS: Interactive Tools for Gaussian Splat Selection with AI and Human in the Loop**|Clement Fuji Tsang et.al.|[2602.10173](https://arxiv.org/abs/2602.10173)|null|
+|**2026-02-10**|**Faster-GS: Analyzing and Improving Gaussian Splatting Optimization**|Florian Hahlbohm et.al.|[2602.09999](https://arxiv.org/abs/2602.09999)|null|
 |**2026-02-09**|**Grow with the Flow: 4D Reconstruction of Growing Plants with Gaussian Flow Fields**|Weihan Luo et.al.|[2602.08958](https://arxiv.org/abs/2602.08958)|null|
 |**2026-02-09**|**Analysis of Converged 3D Gaussian Splatting Solutions: Density Effects and Prediction Limit**|Zhendong Wang et.al.|[2602.08909](https://arxiv.org/abs/2602.08909)|null|
 |**2026-02-09**|**GaussianCaR: Gaussian Splatting for Efficient Camera-Radar Fusion**|Santiago Montiel-Marín et.al.|[2602.08784](https://arxiv.org/abs/2602.08784)|null|
