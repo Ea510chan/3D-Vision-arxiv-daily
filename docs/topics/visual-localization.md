@@ -46,7 +46,7 @@ title: Visual Localization
         <div class="paper-links">
           <a class="chip" href="https://arxiv.org/abs/2602.11494">arXiv</a>
           <a class="chip" href="https://arxiv.org/pdf/2602.11494.pdf">PDF</a>
-          <span class="chip ghost">Code: N/A</span>
+          <a class="chip" href="https://github.com/muhammetdurmaz54/tst-tc2602-ufcpivj-114940">Code</a>
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.11494.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>

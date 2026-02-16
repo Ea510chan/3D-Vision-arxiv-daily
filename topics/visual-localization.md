@@ -4,23 +4,23 @@
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-02-12**|**DiffPlace: Street View Generation via Place-Controllable Diffusion Model Enhancing Place Recognition**|Ji Li et.al.|[2602.11875](https://arxiv.org/abs/2602.11875)|null|
-|**2026-02-12**|**Arbitrary Ratio Feature Compression via Next Token Prediction**|Yufan Liu et.al.|[2602.11494](https://arxiv.org/abs/2602.11494)|null|
-|**2026-02-11**|**DeepImageSearch: Benchmarking Multimodal Agents for Context-Aware Image Retrieval in Visual Histories**|Chenlong Deng et.al.|[2602.10809](https://arxiv.org/abs/2602.10809)|null|
-|**2026-02-09**|**OSCAR: Optimization-Steered Agentic Planning for Composed Image Retrieval**|Teng Wang et.al.|[2602.08603](https://arxiv.org/abs/2602.08603)|null|
-|**2026-02-09**|**A Sketch+Text Composed Image Retrieval Dataset for Thangka**|Jinyu Xu et.al.|[2602.08411](https://arxiv.org/abs/2602.08411)|null|
-|**2026-02-09**|**UrbanGraphEmbeddings: Learning and Evaluating Spatially Grounded Multimodal Embeddings for Urban Science**|Jie Zhang et.al.|[2602.08342](https://arxiv.org/abs/2602.08342)|null|
-|**2026-02-10**|**WristMIR: Coarse-to-Fine Region-Aware Retrieval of Pediatric Wrist Radiographs with Radiology Report-Driven Learning**|Mert Sonmezer et.al.|[2602.07872](https://arxiv.org/abs/2602.07872)|null|
-|**2026-02-04**|**SAR-RAG: ATR Visual Question Answering by Semantic Search, Retrieval, and MLLM Generation**|David F. Ramirez et.al.|[2602.04712](https://arxiv.org/abs/2602.04712)|null|
-|**2026-02-05**|**SDR-CIR: Semantic Debias Retrieval Framework for Training-Free Zero-Shot Composed Image Retrieval**|Yi Sun et.al.|[2602.04451](https://arxiv.org/abs/2602.04451)|null|
-|**2026-02-04**|**Quantile Transfer for Reliable Operating Point Selection in Visual Place Recognition**|Dhyey Manish Rajani et.al.|[2602.04401](https://arxiv.org/abs/2602.04401)|null|
-|**2026-02-04**|**Beyond Static Cropping: Layer-Adaptive Visual Localization and Decoding Enhancement**|Zipeng Zhu et.al.|[2602.04304](https://arxiv.org/abs/2602.04304)|null|
-|**2026-02-03**|**LaVPR: Benchmarking Language and Vision for Place Recognition**|Ofer Idan et.al.|[2602.03253](https://arxiv.org/abs/2602.03253)|null|
-|**2026-02-03**|**ObjEmbed: Towards Universal Multimodal Object Embeddings**|Shenghao Fu et.al.|[2602.01753](https://arxiv.org/abs/2602.01753)|null|
-|**2026-02-02**|**Real-Time Loop Closure Detection in Visual SLAM via NetVLAD and Faiss**|Enguang Fan et.al.|[2602.01673](https://arxiv.org/abs/2602.01673)|null|
-|**2026-02-02**|**ReCALL: Recalibrating Capability Degradation for MLLM-based Composed Image Retrieval**|Tianyu Yang et.al.|[2602.01639](https://arxiv.org/abs/2602.01639)|null|
-|**2026-02-01**|**Interacted Planes Reveal 3D Line Mapping**|Zeran Ke et.al.|[2602.01296](https://arxiv.org/abs/2602.01296)|null|
-|**2026-02-04**|**Invariance on Manifolds: Understanding Robust Visual Representations for Place Recognition**|Jintao Cheng et.al.|[2602.00841](https://arxiv.org/abs/2602.00841)|null|
+|2026-02-12|DiffPlace: Street View Generation via Place-Controllable Diffusion Model Enhancing Place Recognition|Ji Li et.al.|[2602.11875](https://arxiv.org/abs/2602.11875)|null|
+|2026-02-12|Arbitrary Ratio Feature Compression via Next Token Prediction|Yufan Liu et.al.|[2602.11494](https://arxiv.org/abs/2602.11494)|null|
+|2026-02-11|DeepImageSearch: Benchmarking Multimodal Agents for Context-Aware Image Retrieval in Visual Histories|Chenlong Deng et.al.|[2602.10809](https://arxiv.org/abs/2602.10809)|null|
+|2026-02-09|OSCAR: Optimization-Steered Agentic Planning for Composed Image Retrieval|Teng Wang et.al.|[2602.08603](https://arxiv.org/abs/2602.08603)|null|
+|2026-02-09|A Sketch+Text Composed Image Retrieval Dataset for Thangka|Jinyu Xu et.al.|[2602.08411](https://arxiv.org/abs/2602.08411)|null|
+|2026-02-09|UrbanGraphEmbeddings: Learning and Evaluating Spatially Grounded Multimodal Embeddings for Urban Science|Jie Zhang et.al.|[2602.08342](https://arxiv.org/abs/2602.08342)|null|
+|2026-02-10|WristMIR: Coarse-to-Fine Region-Aware Retrieval of Pediatric Wrist Radiographs with Radiology Report-Driven Learning|Mert Sonmezer et.al.|[2602.07872](https://arxiv.org/abs/2602.07872)|null|
+|2026-02-04|SAR-RAG: ATR Visual Question Answering by Semantic Search, Retrieval, and MLLM Generation|David F. Ramirez et.al.|[2602.04712](https://arxiv.org/abs/2602.04712)|null|
+|2026-02-05|SDR-CIR: Semantic Debias Retrieval Framework for Training-Free Zero-Shot Composed Image Retrieval|Yi Sun et.al.|[2602.04451](https://arxiv.org/abs/2602.04451)|null|
+|2026-02-04|Quantile Transfer for Reliable Operating Point Selection in Visual Place Recognition|Dhyey Manish Rajani et.al.|[2602.04401](https://arxiv.org/abs/2602.04401)|null|
+|2026-02-04|Beyond Static Cropping: Layer-Adaptive Visual Localization and Decoding Enhancement|Zipeng Zhu et.al.|[2602.04304](https://arxiv.org/abs/2602.04304)|null|
+|2026-02-03|LaVPR: Benchmarking Language and Vision for Place Recognition|Ofer Idan et.al.|[2602.03253](https://arxiv.org/abs/2602.03253)|null|
+|2026-02-03|ObjEmbed: Towards Universal Multimodal Object Embeddings|Shenghao Fu et.al.|[2602.01753](https://arxiv.org/abs/2602.01753)|null|
+|2026-02-02|Real-Time Loop Closure Detection in Visual SLAM via NetVLAD and Faiss|Enguang Fan et.al.|[2602.01673](https://arxiv.org/abs/2602.01673)|null|
+|2026-02-02|ReCALL: Recalibrating Capability Degradation for MLLM-based Composed Image Retrieval|Tianyu Yang et.al.|[2602.01639](https://arxiv.org/abs/2602.01639)|null|
+|2026-02-01|Interacted Planes Reveal 3D Line Mapping|Zeran Ke et.al.|[2602.01296](https://arxiv.org/abs/2602.01296)|null|
+|2026-02-04|Invariance on Manifolds: Understanding Robust Visual Representations for Place Recognition|Jintao Cheng et.al.|[2602.00841](https://arxiv.org/abs/2602.00841)|null|
 |2026-01-29|Variance & Greediness: A comparative study of metric-learning losses|Donghuo Zeng et.al.|[2601.21450](https://arxiv.org/abs/2601.21450)|null|
 |2026-01-28|When Vision Meets Texts in Listwise Reranking|Hongyi Cai et.al.|[2601.20623](https://arxiv.org/abs/2601.20623)|null|
 |2026-01-28|Eliminating Hallucination in Diffusion-Augmented Interactive Text-to-Image Retrieval|Zhuocheng Zhang et.al.|[2601.20391](https://arxiv.org/abs/2601.20391)|null|
@@ -266,7 +266,7 @@
 |2025-05-28|4DTAM: Non-Rigid Tracking and Mapping via Dynamic Surface Gaussians|Hidenobu Matsuki et.al.|[2505.22859](http://arxiv.org/abs/2505.22859)|[link](https://github.com/muskie82/4dtam)|
 |2025-05-28|UAVPairs: A Challenging Benchmark for Match Pair Retrieval of Large-scale UAV Images|Junhuan Liu et.al.|[2505.22098](http://arxiv.org/abs/2505.22098)|null|
 |2025-05-28|Fast Feature Matching of UAV Images via Matrix Band Reduction-based GPU Data Schedule|San Jiang et.al.|[2505.22089](http://arxiv.org/abs/2505.22089)|null|
-|2025-05-27|Visual Loop Closure Detection Through Deep Graph Consensus|Martin Büchner et.al.|[2505.21754](http://arxiv.org/abs/2505.21754)|null|
+|2025-05-27|Visual Loop Closure Detection Through Deep Graph Consensus|Martin Büchner et.al.|[2505.21754](http://arxiv.org/abs/2505.21754)|**[link](https://github.com/robot-learning-freiburg/loopgnn)**|
 |2025-05-27|QuARI: Query Adaptive Retrieval Improvement|Eric Xing et.al.|[2505.21647](http://arxiv.org/abs/2505.21647)|[link](https://github.com/mvrl/QuARI)|
 |2025-05-27|ConText-CIR: Learning from Concepts in Text for Composed Image Retrieval|Eric Xing et.al.|[2505.20764](http://arxiv.org/abs/2505.20764)|[link](https://github.com/mvrl/context-cir)|
 |2025-05-26|Visualized Text-to-Image Retrieval|Di Wu et.al.|[2505.20291](http://arxiv.org/abs/2505.20291)|[link](https://github.com/xiaowu0162/visualize-then-retrieve)|

@@ -6199,7 +6199,7 @@ title: Gaussian Splatting
         <div class="paper-links">
           <a class="chip" href="https://arxiv.org/abs/2507.12621">arXiv</a>
           <a class="chip" href="https://arxiv.org/pdf/2507.12621.pdf">PDF</a>
-          <span class="chip ghost">Code: N/A</span>
+          <a class="chip" href="https://github.com/KuangshiAi/NLI4VolVis">Code</a>
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.12621.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
@@ -6241,7 +6241,7 @@ title: Gaussian Splatting
         <div class="paper-links">
           <a class="chip" href="https://arxiv.org/abs/2507.12137">arXiv</a>
           <a class="chip" href="https://arxiv.org/pdf/2507.12137.pdf">PDF</a>
-          <span class="chip ghost">Code: N/A</span>
+          <a class="chip" href="https://github.com/JiaweiXu8/AD-GS">Code</a>
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.12137.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
@@ -6577,7 +6577,7 @@ title: Gaussian Splatting
         <div class="paper-links">
           <a class="chip" href="https://arxiv.org/abs/2507.07395">arXiv</a>
           <a class="chip" href="https://arxiv.org/pdf/2507.07395.pdf">PDF</a>
-          <span class="chip ghost">Code: N/A</span>
+          <a class="chip" href="https://github.com/Sugar0725/Seg-Wild">Code</a>
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.07395.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>

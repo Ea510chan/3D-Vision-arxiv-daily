@@ -3742,7 +3742,7 @@ title: SLAM
         <div class="paper-links">
           <a class="chip" href="https://arxiv.org/abs/2504.03886">arXiv</a>
           <a class="chip" href="https://arxiv.org/pdf/2504.03886.pdf">PDF</a>
-          <span class="chip ghost">Code: N/A</span>
+          <a class="chip" href="https://github.com/GradientSpaces/WildGS-SLAM">Code</a>
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.03886.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
@@ -3763,7 +3763,7 @@ title: SLAM
         <div class="paper-links">
           <a class="chip" href="https://arxiv.org/abs/2504.03089">arXiv</a>
           <a class="chip" href="https://arxiv.org/pdf/2504.03089.pdf">PDF</a>
-          <span class="chip ghost">Code: N/A</span>
+          <a class="chip" href="https://github.com/Kunaldargan/slack_attack_ICIP">Code</a>
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.03089.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>

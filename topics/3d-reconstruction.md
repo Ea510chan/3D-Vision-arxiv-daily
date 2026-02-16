@@ -4,33 +4,33 @@
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-02-11**|**Ctrl&Shift: High-Quality Geometry-Aware Object Manipulation in Visual Generation**|Penghui Ruan et.al.|[2602.11440](https://arxiv.org/abs/2602.11440)|null|
-|**2026-02-11**|**Using a 4-megapixel hybrid photon counting detector for fast, lab-based nanoscale x-ray tomography**|Jordan Fonseca et.al.|[2602.11375](https://arxiv.org/abs/2602.11375)|null|
-|**2026-02-10**|**ERGO: Excess-Risk-Guided Optimization for High-Fidelity Monocular 3D Gaussian Splatting**|Zehua Ma et.al.|[2602.10278](https://arxiv.org/abs/2602.10278)|null|
-|**2026-02-10**|**XSPLAIN: XAI-enabling Splat-based Prototype Learning for Attribute-aware INterpretability**|Dominik Galus et.al.|[2602.10239](https://arxiv.org/abs/2602.10239)|null|
-|**2026-02-10**|**Robo3R: Enhancing Robotic Manipulation with Accurate Feed-Forward 3D Reconstruction**|Sizhe Yang et.al.|[2602.10101](https://arxiv.org/abs/2602.10101)|null|
-|**2026-02-10**|**SARS: A Novel Face and Body Shape and Appearance Aware 3D Reconstruction System extends Morphable Models**|Gulraiz Khan et.al.|[2602.09918](https://arxiv.org/abs/2602.09918)|null|
-|**2026-02-10**|**Single-Slice-to-3D Reconstruction in Medical Imaging and Natural Objects: A Comparative Benchmark with SAM 3D**|Yan Luo et.al.|[2602.09407](https://arxiv.org/abs/2602.09407)|null|
-|**2026-02-09**|**RealSynCol: a high-fidelity synthetic colon dataset for 3D reconstruction applications**|Chiara Lena et.al.|[2602.08397](https://arxiv.org/abs/2602.08397)|null|
-|**2026-02-08**|**Dynamic Black-hole Emission Tomography with Physics-informed Neural Fields**|Berthy T. Feng et.al.|[2602.08029](https://arxiv.org/abs/2602.08029)|null|
-|**2026-02-08**|**Scalable Adaptation of 3D Geometric Foundation Models via Weak Supervision from Internet Video**|Zihui Gao et.al.|[2602.07891](https://arxiv.org/abs/2602.07891)|null|
-|**2026-02-08**|**Recovering 3D Shapes from Ultra-Fast Motion-Blurred Images**|Fei Yu et.al.|[2602.07860](https://arxiv.org/abs/2602.07860)|null|
-|**2026-02-08**|**Compressed Sensing Methods for Memory Reduction in Monte Carlo Simulations**|Ethan Lame et.al.|[2602.07771](https://arxiv.org/abs/2602.07771)|null|
-|**2026-02-07**|**Perspective-aware fusion of incomplete depth maps and surface normals for accurate 3D reconstruction**|Ondrej Hlinka et.al.|[2602.07444](https://arxiv.org/abs/2602.07444)|null|
-|**2026-02-05**|**MetaSSP: Enhancing Semi-supervised Implicit 3D Reconstruction through Meta-adaptive EMA and SDF-aware Pseudo-label Evaluation**|Luoxi Zhang et.al.|[2602.06163](https://arxiv.org/abs/2602.06163)|null|
-|**2026-02-05**|**MGP-KAD: Multimodal Geometric Priors and Kolmogorov-Arnold Decoder for Single-View 3D Reconstruction in Complex Scenes**|Luoxi Zhang et.al.|[2602.06158](https://arxiv.org/abs/2602.06158)|null|
-|**2026-02-05**|**From Blurry to Believable: Enhancing Low-quality Talking Heads with 3D Generative Priors**|Ding-Jiun Huang et.al.|[2602.06122](https://arxiv.org/abs/2602.06122)|null|
-|**2026-02-05**|**Splat and Distill: Augmenting Teachers with Feed-Forward 3D Reconstruction For 3D-Aware Distillation**|David Shavin et.al.|[2602.06032](https://arxiv.org/abs/2602.06032)|null|
-|**2026-02-04**|**AGILE: Hand-Object Interaction Reconstruction from Video via Agentic Generation**|Jin-Chuan Shi et.al.|[2602.04672](https://arxiv.org/abs/2602.04672)|null|
-|**2026-02-04**|**S-MUSt3R: Sliding Multi-view 3D Reconstruction**|Leonid Antsfeld et.al.|[2602.04517](https://arxiv.org/abs/2602.04517)|null|
-|**2026-02-04**|**TrajVG: 3D Trajectory-Coupled Visual Geometry Learning**|Xingyu Miao et.al.|[2602.04439](https://arxiv.org/abs/2602.04439)|null|
-|**2026-02-04**|**Improving 2D Diffusion Models for 3D Medical Imaging with Inter-Slice Consistent Stochasticity**|Chenhe Du et.al.|[2602.04162](https://arxiv.org/abs/2602.04162)|null|
-|**2026-02-04**|**SuperPoint-E: local features for 3D reconstruction via tracking adaptation in endoscopy**|O. Leon Barbed et.al.|[2602.04108](https://arxiv.org/abs/2602.04108)|null|
-|**2026-02-03**|**AnyStyle: Single-Pass Multimodal Stylization for 3D Gaussian Splatting**|Joanna Kaleta et.al.|[2602.04043](https://arxiv.org/abs/2602.04043)|null|
-|**2026-02-03**|**EventNeuS: 3D Mesh Reconstruction from a Single Event Camera**|Shreyas Sachan et.al.|[2602.03847](https://arxiv.org/abs/2602.03847)|null|
-|**2026-02-03**|**Pi-GS: Sparse-View Gaussian Splatting with Dense π^3 Initialization**|Manuel Hofer et.al.|[2602.03327](https://arxiv.org/abs/2602.03327)|null|
-|**2026-02-03**|**Depth Completion in Unseen Field Robotics Environments Using Extremely Sparse Depth Measurements**|Marco Job et.al.|[2602.03209](https://arxiv.org/abs/2602.03209)|null|
-|**2026-02-02**|**3D Foundation Model-Based Loop Closing for Decentralized Collaborative SLAM**|Pierre-Yves Lajoie et.al.|[2602.02430](https://arxiv.org/abs/2602.02430)|null|
+|2026-02-11|Ctrl&Shift: High-Quality Geometry-Aware Object Manipulation in Visual Generation|Penghui Ruan et.al.|[2602.11440](https://arxiv.org/abs/2602.11440)|null|
+|2026-02-11|Using a 4-megapixel hybrid photon counting detector for fast, lab-based nanoscale x-ray tomography|Jordan Fonseca et.al.|[2602.11375](https://arxiv.org/abs/2602.11375)|null|
+|2026-02-10|ERGO: Excess-Risk-Guided Optimization for High-Fidelity Monocular 3D Gaussian Splatting|Zehua Ma et.al.|[2602.10278](https://arxiv.org/abs/2602.10278)|null|
+|2026-02-10|XSPLAIN: XAI-enabling Splat-based Prototype Learning for Attribute-aware INterpretability|Dominik Galus et.al.|[2602.10239](https://arxiv.org/abs/2602.10239)|null|
+|2026-02-10|Robo3R: Enhancing Robotic Manipulation with Accurate Feed-Forward 3D Reconstruction|Sizhe Yang et.al.|[2602.10101](https://arxiv.org/abs/2602.10101)|null|
+|2026-02-10|SARS: A Novel Face and Body Shape and Appearance Aware 3D Reconstruction System extends Morphable Models|Gulraiz Khan et.al.|[2602.09918](https://arxiv.org/abs/2602.09918)|null|
+|2026-02-10|Single-Slice-to-3D Reconstruction in Medical Imaging and Natural Objects: A Comparative Benchmark with SAM 3D|Yan Luo et.al.|[2602.09407](https://arxiv.org/abs/2602.09407)|null|
+|2026-02-09|RealSynCol: a high-fidelity synthetic colon dataset for 3D reconstruction applications|Chiara Lena et.al.|[2602.08397](https://arxiv.org/abs/2602.08397)|null|
+|2026-02-08|Dynamic Black-hole Emission Tomography with Physics-informed Neural Fields|Berthy T. Feng et.al.|[2602.08029](https://arxiv.org/abs/2602.08029)|null|
+|2026-02-08|Scalable Adaptation of 3D Geometric Foundation Models via Weak Supervision from Internet Video|Zihui Gao et.al.|[2602.07891](https://arxiv.org/abs/2602.07891)|null|
+|2026-02-08|Recovering 3D Shapes from Ultra-Fast Motion-Blurred Images|Fei Yu et.al.|[2602.07860](https://arxiv.org/abs/2602.07860)|null|
+|2026-02-08|Compressed Sensing Methods for Memory Reduction in Monte Carlo Simulations|Ethan Lame et.al.|[2602.07771](https://arxiv.org/abs/2602.07771)|null|
+|2026-02-07|Perspective-aware fusion of incomplete depth maps and surface normals for accurate 3D reconstruction|Ondrej Hlinka et.al.|[2602.07444](https://arxiv.org/abs/2602.07444)|null|
+|2026-02-05|MetaSSP: Enhancing Semi-supervised Implicit 3D Reconstruction through Meta-adaptive EMA and SDF-aware Pseudo-label Evaluation|Luoxi Zhang et.al.|[2602.06163](https://arxiv.org/abs/2602.06163)|null|
+|2026-02-05|MGP-KAD: Multimodal Geometric Priors and Kolmogorov-Arnold Decoder for Single-View 3D Reconstruction in Complex Scenes|Luoxi Zhang et.al.|[2602.06158](https://arxiv.org/abs/2602.06158)|null|
+|2026-02-05|From Blurry to Believable: Enhancing Low-quality Talking Heads with 3D Generative Priors|Ding-Jiun Huang et.al.|[2602.06122](https://arxiv.org/abs/2602.06122)|null|
+|2026-02-05|Splat and Distill: Augmenting Teachers with Feed-Forward 3D Reconstruction For 3D-Aware Distillation|David Shavin et.al.|[2602.06032](https://arxiv.org/abs/2602.06032)|null|
+|2026-02-04|AGILE: Hand-Object Interaction Reconstruction from Video via Agentic Generation|Jin-Chuan Shi et.al.|[2602.04672](https://arxiv.org/abs/2602.04672)|null|
+|2026-02-04|S-MUSt3R: Sliding Multi-view 3D Reconstruction|Leonid Antsfeld et.al.|[2602.04517](https://arxiv.org/abs/2602.04517)|null|
+|2026-02-04|TrajVG: 3D Trajectory-Coupled Visual Geometry Learning|Xingyu Miao et.al.|[2602.04439](https://arxiv.org/abs/2602.04439)|null|
+|2026-02-04|Improving 2D Diffusion Models for 3D Medical Imaging with Inter-Slice Consistent Stochasticity|Chenhe Du et.al.|[2602.04162](https://arxiv.org/abs/2602.04162)|null|
+|2026-02-04|SuperPoint-E: local features for 3D reconstruction via tracking adaptation in endoscopy|O. Leon Barbed et.al.|[2602.04108](https://arxiv.org/abs/2602.04108)|null|
+|2026-02-03|AnyStyle: Single-Pass Multimodal Stylization for 3D Gaussian Splatting|Joanna Kaleta et.al.|[2602.04043](https://arxiv.org/abs/2602.04043)|null|
+|2026-02-03|EventNeuS: 3D Mesh Reconstruction from a Single Event Camera|Shreyas Sachan et.al.|[2602.03847](https://arxiv.org/abs/2602.03847)|null|
+|2026-02-03|Pi-GS: Sparse-View Gaussian Splatting with Dense π^3 Initialization|Manuel Hofer et.al.|[2602.03327](https://arxiv.org/abs/2602.03327)|null|
+|2026-02-03|Depth Completion in Unseen Field Robotics Environments Using Extremely Sparse Depth Measurements|Marco Job et.al.|[2602.03209](https://arxiv.org/abs/2602.03209)|null|
+|2026-02-02|3D Foundation Model-Based Loop Closing for Decentralized Collaborative SLAM|Pierre-Yves Lajoie et.al.|[2602.02430](https://arxiv.org/abs/2602.02430)|null|
 |2026-01-29|MetricAnything: Scaling Metric Depth Pretraining with Noisy Heterogeneous Sources|Baorui Ma et.al.|[2601.22054](https://arxiv.org/abs/2601.22054)|null|
 |2026-01-29|PLANING: A Loosely Coupled Triangle-Gaussian Framework for Streaming 3D Reconstruction|Changjian Jiang et.al.|[2601.22046](https://arxiv.org/abs/2601.22046)|null|
 |2026-01-29|Urban Neural Surface Reconstruction from Constrained Sparse Aerial Imagery with 3D SAR Fusion|Da Li et.al.|[2601.22045](https://arxiv.org/abs/2601.22045)|null|
