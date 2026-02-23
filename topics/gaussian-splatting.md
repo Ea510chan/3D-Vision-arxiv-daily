@@ -1,6 +1,6 @@
 # Gaussian Splatting
 
-> Updated on 2026.02.16
+> Updated on 2026.02.23
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
@@ -64,7 +64,7 @@
 |2026-01-13|ViewMorpher3D: A 3D-aware Diffusion Framework for Multi-Camera Novel View Synthesis in Autonomous Driving|Farhad G. Zanjani et.al.|[2601.07540](https://arxiv.org/abs/2601.07540)|null|
 |2026-01-12|Mon3tr: Monocular 3D Telepresence with Pre-built Gaussian Avatars as Amortization|Fangyu Lin et.al.|[2601.07518](https://arxiv.org/abs/2601.07518)|null|
 |2026-01-12|R3-RECON: Radiance-Field-Free Active Reconstruction via Renderability|Xiaofeng Jin et.al.|[2601.07484](https://arxiv.org/abs/2601.07484)|null|
-|2026-01-11|SARA: Scene-Aware Reconstruction Accelerator|Jee Won Lee et.al.|[2601.06831](https://arxiv.org/abs/2601.06831)|null|
+|2026-01-11|SARA: Scene-Aware Reconstruction Accelerator|Jee Won Lee et.al.|[2601.06831](https://arxiv.org/abs/2601.06831)|**[link](https://github.com/SUNY-MEC-MEIC-Lab/SARA)**|
 |2026-01-10|SRFlow: A Dataset and Regularization Model for High-Resolution Facial Optical Flow via Splatting Rasterization|JiaLin Zhang et.al.|[2601.06479](https://arxiv.org/abs/2601.06479)|null|
 |2026-01-08|OceanSplat: Object-aware Gaussian Splatting with Trinocular View Consistency for Underwater Scene Reconstruction|Minseong Kweon et.al.|[2601.04984](https://arxiv.org/abs/2601.04984)|null|
 |2026-01-08|ProFuse: Efficient Cross-View Context Fusion for Open-Vocabulary 3D Gaussian Splatting|Yen-Jen Chiou et.al.|[2601.04754](https://arxiv.org/abs/2601.04754)|[link](https://github.com/chiou1203/ProFuse)|
@@ -502,7 +502,7 @@
 |2025-04-08|Micro-splatting: Maximizing Isotropic Constraints for Refined Optimization in 3D Gaussian Splatting|Jee Won Lee et.al.|[2504.05740](http://arxiv.org/abs/2504.05740)|null|
 |2025-04-07|View-Dependent Deformation Fields for 2D Editing of 3D Models|Martin El Mqirmi et.al.|[2504.05544](http://arxiv.org/abs/2504.05544)|null|
 |2025-04-07|L3GS: Layered 3D Gaussian Splats for Efficient 3D Scene Delivery|Yi-Zhen Tsai et.al.|[2504.05517](http://arxiv.org/abs/2504.05517)|[link](https://github.com/mavens-lab/layered_3d_gaussian_splats)|
-|2025-04-07|Let it Snow! Animating Static Gaussian Scenes With Dynamic Weather Effects|Gal Fiebelman et.al.|[2504.05296](http://arxiv.org/abs/2504.05296)|**[link](https://github.com/Jackie-Li-0228/fog-sandstorm-rainGS)**|
+|2025-04-07|Let it Snow! Animating Static Gaussian Scenes With Dynamic Weather Effects|Gal Fiebelman et.al.|[2504.05296](http://arxiv.org/abs/2504.05296)|[link](https://github.com/Jackie-Li-0228/fog-sandstorm-rainGS)|
 |2025-04-03|MonoGS++: Fast and Accurate Monocular RGB Gaussian SLAM|Renwu Li et.al.|[2504.02437](http://arxiv.org/abs/2504.02437)|null|
 |2025-04-03|ConsDreamer: Advancing Multi-View Consistency for Zero-Shot Text-to-3D Generation|Yuan Zhou et.al.|[2504.02316](http://arxiv.org/abs/2504.02316)|[link](https://github.com/GAInuist/ConsDreamer)|
 |2025-04-03|Digital-twin imaging based on descattering Gaussian splatting|Suguru Shimomura et.al.|[2504.02278](http://arxiv.org/abs/2504.02278)|null|

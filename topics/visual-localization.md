@@ -1,6 +1,6 @@
 # Visual Localization
 
-> Updated on 2026.02.16
+> Updated on 2026.02.23
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
@@ -266,7 +266,7 @@
 |2025-05-28|4DTAM: Non-Rigid Tracking and Mapping via Dynamic Surface Gaussians|Hidenobu Matsuki et.al.|[2505.22859](http://arxiv.org/abs/2505.22859)|[link](https://github.com/muskie82/4dtam)|
 |2025-05-28|UAVPairs: A Challenging Benchmark for Match Pair Retrieval of Large-scale UAV Images|Junhuan Liu et.al.|[2505.22098](http://arxiv.org/abs/2505.22098)|null|
 |2025-05-28|Fast Feature Matching of UAV Images via Matrix Band Reduction-based GPU Data Schedule|San Jiang et.al.|[2505.22089](http://arxiv.org/abs/2505.22089)|null|
-|2025-05-27|Visual Loop Closure Detection Through Deep Graph Consensus|Martin Büchner et.al.|[2505.21754](http://arxiv.org/abs/2505.21754)|**[link](https://github.com/robot-learning-freiburg/loopgnn)**|
+|2025-05-27|Visual Loop Closure Detection Through Deep Graph Consensus|Martin Büchner et.al.|[2505.21754](http://arxiv.org/abs/2505.21754)|[link](https://github.com/robot-learning-freiburg/loopgnn)|
 |2025-05-27|QuARI: Query Adaptive Retrieval Improvement|Eric Xing et.al.|[2505.21647](http://arxiv.org/abs/2505.21647)|[link](https://github.com/mvrl/QuARI)|
 |2025-05-27|ConText-CIR: Learning from Concepts in Text for Composed Image Retrieval|Eric Xing et.al.|[2505.20764](http://arxiv.org/abs/2505.20764)|[link](https://github.com/mvrl/context-cir)|
 |2025-05-26|Visualized Text-to-Image Retrieval|Di Wu et.al.|[2505.20291](http://arxiv.org/abs/2505.20291)|[link](https://github.com/xiaowu0162/visualize-then-retrieve)|

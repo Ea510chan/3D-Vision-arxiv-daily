@@ -1,6 +1,6 @@
 # 3D Reconstruction
 
-> Updated on 2026.02.16
+> Updated on 2026.02.23
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
@@ -8,7 +8,7 @@
 |2026-02-11|Using a 4-megapixel hybrid photon counting detector for fast, lab-based nanoscale x-ray tomography|Jordan Fonseca et.al.|[2602.11375](https://arxiv.org/abs/2602.11375)|null|
 |2026-02-10|ERGO: Excess-Risk-Guided Optimization for High-Fidelity Monocular 3D Gaussian Splatting|Zehua Ma et.al.|[2602.10278](https://arxiv.org/abs/2602.10278)|null|
 |2026-02-10|XSPLAIN: XAI-enabling Splat-based Prototype Learning for Attribute-aware INterpretability|Dominik Galus et.al.|[2602.10239](https://arxiv.org/abs/2602.10239)|null|
-|2026-02-10|Robo3R: Enhancing Robotic Manipulation with Accurate Feed-Forward 3D Reconstruction|Sizhe Yang et.al.|[2602.10101](https://arxiv.org/abs/2602.10101)|null|
+|2026-02-10|Robo3R: Enhancing Robotic Manipulation with Accurate Feed-Forward 3D Reconstruction|Sizhe Yang et.al.|[2602.10101](https://arxiv.org/abs/2602.10101)|**[link](https://github.com/InternRobotics/Robo3R)**|
 |2026-02-10|SARS: A Novel Face and Body Shape and Appearance Aware 3D Reconstruction System extends Morphable Models|Gulraiz Khan et.al.|[2602.09918](https://arxiv.org/abs/2602.09918)|null|
 |2026-02-10|Single-Slice-to-3D Reconstruction in Medical Imaging and Natural Objects: A Comparative Benchmark with SAM 3D|Yan Luo et.al.|[2602.09407](https://arxiv.org/abs/2602.09407)|null|
 |2026-02-09|RealSynCol: a high-fidelity synthetic colon dataset for 3D reconstruction applications|Chiara Lena et.al.|[2602.08397](https://arxiv.org/abs/2602.08397)|null|

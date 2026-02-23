@@ -7,7 +7,7 @@ title: NeRF
   <div>
     <p class="eyebrow">Topic</p>
     <h1>NeRF</h1>
-    <p class="topic-lede">Updated 2026.02.16 · 290 papers</p>
+    <p class="topic-lede">Updated 2026.02.23 · 290 papers</p>
   </div>
   <a class="btn ghost" href="../index.html#topics">← Back to topics</a>
 </section>
@@ -2944,7 +2944,7 @@ title: NeRF
         <div class="paper-links">
           <a class="chip" href="https://arxiv.org/abs/2507.04408">arXiv</a>
           <a class="chip" href="https://arxiv.org/pdf/2507.04408.pdf">PDF</a>
-          <span class="chip ghost">Code: N/A</span>
+          <a class="chip" href="https://github.com/AoxiangFan/VS-NeRF">Code</a>
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.04408.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
