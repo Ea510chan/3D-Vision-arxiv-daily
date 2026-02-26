@@ -1,9 +1,19 @@
 # 3D Reconstruction
 
-> Updated on 2026.02.23
+> Updated on 2026.02.26
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-02-24**|**Event-Aided Sharp Radiance Field Reconstruction for Fast-Flying Drones**|Rong Zou et.al.|[2602.21101](https://arxiv.org/abs/2602.21101)|null|
+|**2026-02-24**|**UFO: Unifying Feed-Forward and Optimization-based Methods for Large Driving Scene Modeling**|Kaiyuan Tan et.al.|[2602.20943](https://arxiv.org/abs/2602.20943)|null|
+|**2026-02-24**|**RU4D-SLAM: Reweighting Uncertainty in Gaussian Splatting SLAM for 4D Scene Reconstruction**|Yangfan Zhao et.al.|[2602.20807](https://arxiv.org/abs/2602.20807)|null|
+|**2026-02-24**|**Monocular Endoscopic Tissue 3D Reconstruction with Multi-Level Geometry Regularization**|Yangsen Chen et.al.|[2602.20718](https://arxiv.org/abs/2602.20718)|null|
+|**2026-02-24**|**From Pairs to Sequences: Track-Aware Policy Gradients for Keypoint Detection**|Yepeng Liu et.al.|[2602.20630](https://arxiv.org/abs/2602.20630)|null|
+|**2026-02-24**|**Long-Term Multi-Session 3D Reconstruction Under Substantial Appearance Change**|Beverley Gorry et.al.|[2602.20584](https://arxiv.org/abs/2602.20584)|null|
+|**2026-02-24**|**Progressive Per-Branch Depth Optimization for DEFOM-Stereo and SAM3 Joint Analysis in UAV Forestry Applications**|Yida Lin et.al.|[2602.20539](https://arxiv.org/abs/2602.20539)|null|
+|**2026-02-23**|**Large-scale Photorealistic Outdoor 3D Scene Reconstruction from UAV Imagery Using Gaussian Splatting Techniques**|Christos Maikos et.al.|[2602.20342](https://arxiv.org/abs/2602.20342)|null|
+|**2026-02-23**|**tttLRM: Test-Time Training for Long Context and Autoregressive 3D Reconstruction**|Chen Wang et.al.|[2602.20160](https://arxiv.org/abs/2602.20160)|null|
+|**2026-02-23**|**Monocular Mesh Recovery and Body Measurement of Female Saanen Goats**|Bo Jin et.al.|[2602.19896](https://arxiv.org/abs/2602.19896)|null|
 |2026-02-11|Ctrl&Shift: High-Quality Geometry-Aware Object Manipulation in Visual Generation|Penghui Ruan et.al.|[2602.11440](https://arxiv.org/abs/2602.11440)|null|
 |2026-02-11|Using a 4-megapixel hybrid photon counting detector for fast, lab-based nanoscale x-ray tomography|Jordan Fonseca et.al.|[2602.11375](https://arxiv.org/abs/2602.11375)|null|
 |2026-02-10|ERGO: Excess-Risk-Guided Optimization for High-Fidelity Monocular 3D Gaussian Splatting|Zehua Ma et.al.|[2602.10278](https://arxiv.org/abs/2602.10278)|null|

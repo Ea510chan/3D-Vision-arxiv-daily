@@ -1,17 +1,19 @@
 # Image Matching
 
-> Updated on 2026.02.23
+> Updated on 2026.02.26
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|2026-02-09|Understanding and Optimizing Attention-Based Sparse Matching for Diverse Local Features|Qiang Wang et.al.|[2602.08430](https://arxiv.org/abs/2602.08430)|null|
-|2026-01-31|Gaussian-Constrained LeJEPA Representations for Unsupervised Scene Discovery and Pose Consistency|Mohsen Mostafa et.al.|[2602.07016](https://arxiv.org/abs/2602.07016)|null|
-|2026-02-05|SOMA-1M: A Large-Scale SAR-Optical Multi-resolution Alignment Dataset for Multi-Task Remote Sensing|Peihao Wu et.al.|[2602.05480](https://arxiv.org/abs/2602.05480)|null|
-|2026-02-04|Quantile Transfer for Reliable Operating Point Selection in Visual Place Recognition|Dhyey Manish Rajani et.al.|[2602.04401](https://arxiv.org/abs/2602.04401)|null|
-|2026-01-19|A Streamlined Attention-Based Network for Descriptor Extraction|Mattia D'Urso et.al.|[2601.13126](https://arxiv.org/abs/2601.13126)|null|
-|2026-01-18|XRefine: Attention-Guided Keypoint Match Refinement|Jan Fabian Schmid et.al.|[2601.12530](https://arxiv.org/abs/2601.12530)|null|
-|2026-02-03|Detecting 3D Line Segments for 6DoF Pose Estimation with Limited Data|Matej Mok et.al.|[2601.12090](https://arxiv.org/abs/2601.12090)|null|
-|2026-01-17|SupScene: Learning Overlap-Aware Global Descriptor for Unconstrained SfM|Xulei Shi et.al.|[2601.11930](https://arxiv.org/abs/2601.11930)|null|
+|**2026-02-23**|**Generative 6D Pose Estimation via Conditional Flow Matching**|Amir Hamza et.al.|[2602.19719](https://arxiv.org/abs/2602.19719)|null|
+|**2026-02-13**|**Matching of SAR and optical images based on transformation to shared modality**|Alexey Borisov et.al.|[2602.12515](https://arxiv.org/abs/2602.12515)|null|
+|**2026-02-09**|**Understanding and Optimizing Attention-Based Sparse Matching for Diverse Local Features**|Qiang Wang et.al.|[2602.08430](https://arxiv.org/abs/2602.08430)|null|
+|**2026-01-31**|**Gaussian-Constrained LeJEPA Representations for Unsupervised Scene Discovery and Pose Consistency**|Mohsen Mostafa et.al.|[2602.07016](https://arxiv.org/abs/2602.07016)|null|
+|**2026-02-05**|**SOMA-1M: A Large-Scale SAR-Optical Multi-resolution Alignment Dataset for Multi-Task Remote Sensing**|Peihao Wu et.al.|[2602.05480](https://arxiv.org/abs/2602.05480)|null|
+|**2026-02-04**|**Quantile Transfer for Reliable Operating Point Selection in Visual Place Recognition**|Dhyey Manish Rajani et.al.|[2602.04401](https://arxiv.org/abs/2602.04401)|null|
+|**2026-01-19**|**A Streamlined Attention-Based Network for Descriptor Extraction**|Mattia D'Urso et.al.|[2601.13126](https://arxiv.org/abs/2601.13126)|null|
+|**2026-01-18**|**XRefine: Attention-Guided Keypoint Match Refinement**|Jan Fabian Schmid et.al.|[2601.12530](https://arxiv.org/abs/2601.12530)|null|
+|**2026-02-03**|**Detecting 3D Line Segments for 6DoF Pose Estimation with Limited Data**|Matej Mok et.al.|[2601.12090](https://arxiv.org/abs/2601.12090)|null|
+|**2026-01-17**|**SupScene: Learning Overlap-Aware Global Descriptor for Unconstrained SfM**|Xulei Shi et.al.|[2601.11930](https://arxiv.org/abs/2601.11930)|null|
 |2026-01-14|CLIDD: Cross-Layer Independent Deformable Description for Efficient and Discriminative Local Feature Representation|Haodi Yao et.al.|[2601.09230](https://arxiv.org/abs/2601.09230)|null|
 |2026-01-13|Near-perfect photo-ID of the Hula painted frog with zero-shot deep local-feature matching|Maayan Yesharim et.al.|[2601.08798](https://arxiv.org/abs/2601.08798)|null|
 |2026-01-13|Second-order Gaussian directional derivative representations for image high-resolution corner detection|Dongbo Xie et.al.|[2601.08182](https://arxiv.org/abs/2601.08182)|null|

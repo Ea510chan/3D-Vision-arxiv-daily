@@ -7,12 +7,33 @@ title: Point Cloud Registration
   <div>
     <p class="eyebrow">Topic</p>
     <h1>Point Cloud Registration</h1>
-    <p class="topic-lede">Updated 2026.02.23 · 122 papers</p>
+    <p class="topic-lede">Updated 2026.02.26 · 122 papers</p>
   </div>
   <a class="btn ghost" href="../index.html#topics">← Back to topics</a>
 </section>
 
 <section class="paper-grid">
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Geometry-to-Image Synthesis-Driven Generative Point Cloud Registration</span>
+        <span class="paper-authors">Haobo Jiang, Jin Xie, Jian Yang, Liang Yu, Jianmin Zheng</span>
+        <span class="paper-meta">Updated 2026-02-14</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">In this paper, we propose a novel 3D registration paradigm, Generative Point Cloud Registration, which bridges advanced 2D generative models with 3D matching tasks to enhance registration performance. Our key idea is to generate cross-view consistent image pairs that are well-aligned with the source and target point clouds, enabling geometry-color feature fusion to facilitate robust matching. To ensure high-quality matching, the generated image pair should feature both 2D-3D geometric consistency and cross-view texture consistency. To this end, we introduce DepthMatch-ControlNet and LiDARMatch-ControlNet, two matching-specific, controllable 2D generative models. Specifically, for depth camera-based 3D registration with point clouds derived from the depth maps, DepthMatch-ControlNet leverages the depth-conditioned generation capabilities of ControlNet to synthesize perspective-view RGB images that are geometrically consistent with depth maps, ensuring accurate 2D-3D alignment. Additionally, by incorporating a coupled conditional denoising scheme and coupled prompt guidance, it further promotes cross-view feature interaction, guiding texture consistency generation. To address LiDAR-based 3D registration with point clouds captured by LiDAR sensors, LiDARMatch-ControlNet extends this framework by conditioning on paired equirectangular range maps projected from 360-degree LiDAR point clouds, generating corresponding panoramic RGB images. Our generative 3D registration paradigm is general and can be seamlessly integrated into a wide range of existing registration methods to improve their performance. Extensive experiments on the 3DMatch and ScanNet datasets (for depth-camera settings), as well as the Dur360BEV dataset (for LiDAR settings), demonstrate the effectiveness of our approach.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2512.09407">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2512.09407.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.09407.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
   <article class="paper-card">
     <details class="paper-details">
       <summary>
@@ -175,27 +196,6 @@ title: Point Cloud Registration
           <span class="chip ghost">Code: N/A</span>
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.23472.pdf">
-          <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
-        </div>
-      </div>
-    </details>
-  </article>
-  <article class="paper-card">
-    <details class="paper-details">
-      <summary>
-        <span class="paper-title">Generative Point Cloud Registration</span>
-        <span class="paper-authors">Haobo Jiang, Jin Xie, Jian Yang, Liang Yu, Jianmin Zheng</span>
-        <span class="paper-meta">Updated 2025-12-10</span>
-      </summary>
-      <div class="paper-body">
-        <p class="paper-abstract">In this paper, we propose a novel 3D registration paradigm, Generative Point Cloud Registration, which bridges advanced 2D generative models with 3D matching tasks to enhance registration performance. Our key idea is to generate cross-view consistent image pairs that are well-aligned with the source and target point clouds, enabling geometry-color feature fusion to facilitate robust matching. To ensure high-quality matching, the generated image pair should feature both 2D-3D geometric consistency and cross-view texture consistency. To achieve this, we introduce Match-ControlNet, a matching-specific, controllable 2D generative model. Specifically, it leverages the depth-conditioned generation capability of ControlNet to produce images that are geometrically aligned with depth maps derived from point clouds, ensuring 2D-3D geometric consistency. Additionally, by incorporating a coupled conditional denoising scheme and coupled prompt guidance, Match-ControlNet further promotes cross-view feature interaction, guiding texture consistency generation. Our generative 3D registration paradigm is general and could be seamlessly integrated into various registration methods to enhance their performance. Extensive experiments on 3DMatch and ScanNet datasets verify the effectiveness of our approach.</p>
-        <div class="paper-links">
-          <a class="chip" href="https://arxiv.org/abs/2512.09407">arXiv</a>
-          <a class="chip" href="https://arxiv.org/pdf/2512.09407.pdf">PDF</a>
-          <span class="chip ghost">Code: N/A</span>
-        </div>
-        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.09407.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>

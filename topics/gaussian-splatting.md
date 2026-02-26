@@ -1,9 +1,19 @@
 # Gaussian Splatting
 
-> Updated on 2026.02.23
+> Updated on 2026.02.26
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-02-24**|**BrepGaussian: CAD reconstruction from Multi-View Images with Gaussian Splatting**|Jiaxing Yu et.al.|[2602.21105](https://arxiv.org/abs/2602.21105)|null|
+|**2026-02-24**|**Dropping Anchor and Spherical Harmonics for Sparse-view Gaussian Splatting**|Shuangkang Fang et.al.|[2602.20933](https://arxiv.org/abs/2602.20933)|null|
+|**2026-02-24**|**RU4D-SLAM: Reweighting Uncertainty in Gaussian Splatting SLAM for 4D Scene Reconstruction**|Yangfan Zhao et.al.|[2602.20807](https://arxiv.org/abs/2602.20807)|null|
+|**2026-02-24**|**Monocular Endoscopic Tissue 3D Reconstruction with Multi-Level Geometry Regularization**|Yangsen Chen et.al.|[2602.20718](https://arxiv.org/abs/2602.20718)|null|
+|**2026-02-24**|**WildGHand: Learning Anti-Perturbation Gaussian Hand Avatars from Monocular In-the-Wild Videos**|Hanhui Li et.al.|[2602.20556](https://arxiv.org/abs/2602.20556)|null|
+|**2026-02-23**|**Aesthetic Camera Viewpoint Suggestion with 3D Aesthetic Field**|Sheyang Tang et.al.|[2602.20363](https://arxiv.org/abs/2602.20363)|null|
+|**2026-02-23**|**Large-scale Photorealistic Outdoor 3D Scene Reconstruction from UAV Imagery Using Gaussian Splatting Techniques**|Christos Maikos et.al.|[2602.20342](https://arxiv.org/abs/2602.20342)|null|
+|**2026-02-23**|**tttLRM: Test-Time Training for Long Context and Autoregressive 3D Reconstruction**|Chen Wang et.al.|[2602.20160](https://arxiv.org/abs/2602.20160)|null|
+|**2026-02-23**|**Augmented Radiance Field: A General Framework for Enhanced Gaussian Splatting**|Yixin Yang et.al.|[2602.19916](https://arxiv.org/abs/2602.19916)|null|
+|**2026-02-23**|**One2Scene: Geometric Consistent Explorable 3D Scene Generation from a Single Image**|Pengfei Wang et.al.|[2602.19766](https://arxiv.org/abs/2602.19766)|null|
 |2026-02-12|3DGSNav: Enhancing Vision-Language Model Reasoning for Object Navigation via Active 3D Gaussian Splatting|Wancai Zheng et.al.|[2602.12159](https://arxiv.org/abs/2602.12159)|null|
 |2026-02-12|GSO-SLAM: Bidirectionally Coupled Gaussian Splatting and Direct Visual Odometry|Jiung Yeon et.al.|[2602.11714](https://arxiv.org/abs/2602.11714)|null|
 |2026-02-12|TG-Field: Geometry-Aware Radiative Gaussian Fields for Tomographic Reconstruction|Yuxiang Zhong et.al.|[2602.11705](https://arxiv.org/abs/2602.11705)|null|

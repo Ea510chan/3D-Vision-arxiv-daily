@@ -7,12 +7,54 @@ title: Image Matching
   <div>
     <p class="eyebrow">Topic</p>
     <h1>Image Matching</h1>
-    <p class="topic-lede">Updated 2026.02.23 · 144 papers</p>
+    <p class="topic-lede">Updated 2026.02.26 · 146 papers</p>
   </div>
   <a class="btn ghost" href="../index.html#topics">← Back to topics</a>
 </section>
 
 <section class="paper-grid">
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Generative 6D Pose Estimation via Conditional Flow Matching</span>
+        <span class="paper-authors">Amir Hamza, Davide Boscaini, Weihang Li, Benjamin Busam, Fabio Poiesi</span>
+        <span class="paper-meta">Updated 2026-02-23</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Existing methods for instance-level 6D pose estimation typically rely on neural networks that either directly regress the pose in $\mathrm{SE}(3)$ or estimate it indirectly via local feature matching. The former struggle with object symmetries, while the latter fail in the absence of distinctive local features. To overcome these limitations, we propose a novel formulation of 6D pose estimation as a conditional flow matching problem in $\mathbb{R}^3$. We introduce Flose, a generative method that infers object poses via a denoising process conditioned on local features. While prior approaches based on conditional flow matching perform denoising solely based on geometric guidance, Flose integrates appearance-based semantic features to mitigate ambiguities caused by object symmetries. We further incorporate RANSAC-based registration to handle outliers. We validate Flose on five datasets from the established BOP benchmark. Flose outperforms prior methods with an average improvement of +4.5 Average Recall. Project Website : https://tev-fbk.github.io/Flose/</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.19719">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.19719.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.19719.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Matching of SAR and optical images based on transformation to shared modality</span>
+        <span class="paper-authors">Alexey Borisov, Evgeny Myasnikov, Vladislav Myasnikov</span>
+        <span class="paper-meta">Updated 2026-02-13</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Significant differences in optical images and Synthetic Aperture Radar (SAR) images are caused by fundamental differences in the physical principles underlying their acquisition by Earth remote sensing platforms. These differences make precise image matching (co-registration) of these two types of images difficult. In this paper, we propose a new approach to image matching of optical and SAR images, which is based on transforming the images to a new modality. The new image modality is common to both optical and SAR images and satisfies the following conditions. First, the transformed images must have an equal pre-defined number of channels. Second, the transformed and co-registered images must be as similar as possible. Third, the transformed images must be non-degenerate, meaning they must preserve the significant features of the original images. To further match images transformed to this shared modality, we train the RoMa image matching model, which is one of the leading solutions for matching of regular digital photographs. We evaluated the proposed approach on the publicly available MultiSenGE dataset containing both optical and SAR images. We demonstrated its superiority over alternative approaches based on image translation between original modalities and various feature matching algorithms. The proposed solution not only provides better quality of matching, but is also more versatile. It enables the use of ready-made RoMa and DeDoDe models, pre-trained for regular images, without retraining for a new modality, while maintaining high-quality matching of optical and SAR images.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.12515">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.12515.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.12515.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
   <article class="paper-card">
     <details class="paper-details">
       <summary>

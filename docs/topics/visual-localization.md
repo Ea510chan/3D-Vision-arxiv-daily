@@ -7,12 +7,222 @@ title: Visual Localization
   <div>
     <p class="eyebrow">Topic</p>
     <h1>Visual Localization</h1>
-    <p class="topic-lede">Updated 2026.02.23 · 344 papers</p>
+    <p class="topic-lede">Updated 2026.02.26 · 354 papers</p>
   </div>
   <a class="btn ghost" href="../index.html#topics">← Back to topics</a>
 </section>
 
 <section class="paper-grid">
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Seeing Through Words: Controlling Visual Retrieval Quality with Language Models</span>
+        <span class="paper-authors">Jianglin Lu, Simon Jenni, Kushal Kafle, Jing Shi, Handong Zhao, Yun Fu</span>
+        <span class="paper-meta">Updated 2026-02-24</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Text-to-image retrieval is a fundamental task in vision-language learning, yet in real-world scenarios it is often challenged by short and underspecified user queries. Such queries are typically only one or two words long, rendering them semantically ambiguous, prone to collisions across diverse visual interpretations, and lacking explicit control over the quality of retrieved images. To address these issues, we propose a new paradigm of quality-controllable retrieval, which enriches short queries with contextual details while incorporating explicit notions of image quality. Our key idea is to leverage a generative language model as a query completion function, extending underspecified queries into descriptive forms that capture fine-grained visual attributes such as pose, scene, and aesthetics. We introduce a general framework that conditions query completion on discretized quality levels, derived from relevance and aesthetic scoring models, so that query enrichment is not only semantically meaningful but also quality-aware. The resulting system provides three key advantages: 1) flexibility, it is compatible with any pretrained vision-language model (VLMs) without modification; 2) transparency, enriched queries are explicitly interpretable by users; and 3) controllability, enabling retrieval results to be steered toward user-preferred quality levels. Extensive experiments demonstrate that our proposed approach significantly improves retrieval results and provides effective quality control, bridging the gap between the expressive capacity of modern VLMs and the underspecified nature of short user queries. Our code is available at https://github.com/Jianglin954/QCQC.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.21175">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.21175.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.21175.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">LST-SLAM: A Stereo Thermal SLAM System for Kilometer-Scale Dynamic Environments</span>
+        <span class="paper-authors">Zeyu Jiang, Kuan Xu, Changhao Chen</span>
+        <span class="paper-meta">Updated 2026-02-24</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Thermal cameras offer strong potential for robot perception under challenging illumination and weather conditions. However, thermal Simultaneous Localization and Mapping (SLAM) remains difficult due to unreliable feature extraction, unstable motion tracking, and inconsistent global pose and map construction, particularly in dynamic large-scale outdoor environments. To address these challenges, we propose LST-SLAM, a novel large-scale stereo thermal SLAM system that achieves robust performance in complex, dynamic scenes. Our approach combines self-supervised thermal feature learning, stereo dual-level motion tracking, and geometric pose optimization. We also introduce a semantic-geometric hybrid constraint that suppresses potentially dynamic features lacking strong inter-frame geometric consistency. Furthermore, we develop an online incremental bag-of-words model for loop closure detection, coupled with global pose optimization to mitigate accumulated drift. Extensive experiments on kilometer-scale dynamic thermal datasets show that LST-SLAM significantly outperforms recent representative SLAM systems, including AirSLAM and DROID-SLAM, in both robustness and accuracy.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.20925">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.20925.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.20925.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Long-Term Multi-Session 3D Reconstruction Under Substantial Appearance Change</span>
+        <span class="paper-authors">Beverley Gorry, Tobias Fischer, Michael Milford, Alejandro Fontan</span>
+        <span class="paper-meta">Updated 2026-02-24</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Long-term environmental monitoring requires the ability to reconstruct and align 3D models across repeated site visits separated by months or years. However, existing Structure-from-Motion (SfM) pipelines implicitly assume near-simultaneous image capture and limited appearance change, and therefore fail when applied to long-term monitoring scenarios such as coral reef surveys, where substantial visual and structural change is common. In this paper, we show that the primary limitation of current approaches lies in their reliance on post-hoc alignment of independently reconstructed sessions, which is insufficient under large temporal appearance change. We address this limitation by enforcing cross-session correspondences directly within a joint SfM reconstruction. Our approach combines complementary handcrafted and learned visual features to robustly establish correspondences across large temporal gaps, enabling the reconstruction of a single coherent 3D model from imagery captured years apart, where standard independent and joint SfM pipelines break down. We evaluate our method on long-term coral reef datasets exhibiting significant real-world change, and demonstrate consistent joint reconstruction across sessions in cases where existing methods fail to produce coherent reconstructions. To ensure scalability to large datasets, we further restrict expensive learned feature matching to a small set of likely cross-session image pairs identified via visual place recognition, which reduces computational cost and improves alignment robustness.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.20584">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.20584.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.20584.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Unlocking Multimodal Document Intelligence: From Current Triumphs to Future Frontiers of Visual Document Retrieval</span>
+        <span class="paper-authors">Yibo Yan, Jiahao Huo, Guanbo Feng, Mingdong Ou, Yi Cao, Xin Zou, Shuliang Liu, Yuanhuiyi Lyu, Yu Huang, Jungang Li, Kening Zheng, Xu Zheng, Philip S. Yu, James Kwok, Xuming Hu</span>
+        <span class="paper-meta">Updated 2026-02-23</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">With the rapid proliferation of multimodal information, Visual Document Retrieval (VDR) has emerged as a critical frontier in bridging the gap between unstructured visually rich data and precise information acquisition. Unlike traditional natural image retrieval, visual documents exhibit unique characteristics defined by dense textual content, intricate layouts, and fine-grained semantic dependencies. This paper presents the first comprehensive survey of the VDR landscape, specifically through the lens of the Multimodal Large Language Model (MLLM) era. We begin by examining the benchmark landscape, and subsequently dive into the methodological evolution, categorizing approaches into three primary aspects: multimodal embedding models, multimodal reranker models, and the integration of Retrieval-Augmented Generation (RAG) and Agentic systems for complex document intelligence. Finally, we identify persistent challenges and outline promising future directions, aiming to provide a clear roadmap for future multimodal document intelligence.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.19961">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.19961.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.19961.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">VGGT-MPR: VGGT-Enhanced Multimodal Place Recognition in Autonomous Driving Environments</span>
+        <span class="paper-authors">Jingyi Xu, Zhangshuo Qi, Zhongmiao Yan, Xuyu Gao, Qianyun Jiao, Songpengcheng Xia, Xieyuanli Chen, Ling Pei</span>
+        <span class="paper-meta">Updated 2026-02-23</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">In autonomous driving, robust place recognition is critical for global localization and loop closure detection. While inter-modality fusion of camera and LiDAR data in multimodal place recognition (MPR) has shown promise in overcoming the limitations of unimodal counterparts, existing MPR methods basically attend to hand-crafted fusion strategies and heavily parameterized backbones that require costly retraining. To address this, we propose VGGT-MPR, a multimodal place recognition framework that adopts the Visual Geometry Grounded Transformer (VGGT) as a unified geometric engine for both global retrieval and re-ranking. In the global retrieval stage, VGGT extracts geometrically-rich visual embeddings through prior depth-aware and point map supervision, and densifies sparse LiDAR point clouds with predicted depth maps to improve structural representation. This enhances the discriminative ability of fused multimodal features and produces global descriptors for fast retrieval. Beyond global retrieval, we design a training-free re-ranking mechanism that exploits VGGT&#x27;s cross-view keypoint-tracking capability. By combining mask-guided keypoint extraction with confidence-aware correspondence scoring, our proposed re-ranking mechanism effectively refines retrieval results without additional parameter optimization. Extensive experiments on large-scale autonomous driving benchmarks and our self-collected data demonstrate that VGGT-MPR achieves state-of-the-art performance, exhibiting strong robustness to severe environmental changes, viewpoint shifts, and occlusions. Our code and data will be made publicly available.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.19735">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.19735.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.19735.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Evaluating the Impact of Data Anonymization on Image Retrieval</span>
+        <span class="paper-authors">Marvin Chen, Manuel Eberhardinger, Johannes Maucher</span>
+        <span class="paper-meta">Updated 2026-02-23</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">With the growing importance of privacy regulations such as the General Data Protection Regulation, anonymizing visual data is becoming increasingly relevant across institutions. However, anonymization can negatively affect the performance of Computer Vision systems that rely on visual features, such as Content-Based Image Retrieval (CBIR). Despite this, the impact of anonymization on CBIR has not been systematically studied. This work addresses this gap, motivated by the DOKIQ project, an artificial intelligence-based system for document verification actively used by the State Criminal Police Office Baden-Württemberg. We propose a simple evaluation framework: retrieval results after anonymization should match those obtained before anonymization as closely as possible. To this end, we systematically assess the impact of anonymization using two public datasets and the internal DOKIQ dataset. Our experiments span three anonymization methods, four anonymization degrees, and four training strategies, all based on the state of the art backbone Self-Distillation with No Labels (DINO)v2. Our results reveal a pronounced retrieval bias in favor of models trained on original data, which produce the most similar retrievals after anonymization. The findings of this paper offer practical insights for developing privacy-compliant CBIR systems while preserving performance.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.19641">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.19641.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.19641.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Knowledge-aware Visual Question Generation for Remote Sensing Images</span>
+        <span class="paper-authors">Siran Li, Li Mi, Javiera Castillo-Navarro, Devis Tuia</span>
+        <span class="paper-meta">Updated 2026-02-22</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">With the rapid development of remote sensing image archives, asking questions about images has become an effective way of gathering specific information or performing image retrieval. However, automatically generated image-based questions tend to be simplistic and template-based, which hinders the real deployment of question answering or visual dialogue systems. To enrich and diversify the questions, we propose a knowledge-aware remote sensing visual question generation model, KRSVQG, that incorporates external knowledge related to the image content to improve the quality and contextual understanding of the generated questions. The model takes an image and a related knowledge triplet from external knowledge sources as inputs and leverages image captioning as an intermediary representation to enhance the image grounding of the generated questions. To assess the performance of KRSVQG, we utilized two datasets that we manually annotated: NWPU-300 and TextRS-300. Results on these two datasets demonstrate that KRSVQG outperforms existing methods and leads to knowledge-enriched questions, grounded in both image and domain knowledge.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.19224">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.19224.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.19224.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Questions beyond Pixels: Integrating Commonsense Knowledge in Visual Question Generation for Remote Sensing</span>
+        <span class="paper-authors">Siran Li, Li Mi, Javiera Castillo-Navarro, Devis Tuia</span>
+        <span class="paper-meta">Updated 2026-02-22</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">With the rapid development of remote sensing image archives, asking questions about images has become an effective way of gathering specific information or performing semantic image retrieval. However, current automatically generated questions tend to be simplistic and template-based, which hinders the deployment of question answering or visual dialogue systems for real-world applications. To enrich and diversify the questions with both image content and commonsense knowledge, we propose a Knowledge-aware Remote Sensing Visual Question Generation model (KRSVQG). The proposed model incorporates related knowledge triplets from external knowledge sources to broaden the question content, while employing image captioning as an intermediary representation to ground questions to the corresponding images. Moreover, KRSVQG utilizes a vision-language pre-training and fine-tuning strategy, enabling the model&#x27;s adaptation to low data regimes. To evaluate the proposed KRSVQG model, we construct two knowledge-aware remote sensing visual question generation datasets: the NWPU-300 dataset and the TextRS-300 dataset. Evaluations, including metrics and human assessment, demonstrate that KRSVQG outperforms existing methods and leads to rich questions, grounded in both image and domain knowledge. As a key practice in vision-language research, knowledge-aware visual question generation advances the understanding of image content beyond pixels, facilitating the development of knowledge-enriched vision-language systems with vision-grounded human commonsense.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.19217">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.19217.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.19217.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">IRIS-SLAM: Unified Geo-Instance Representations for Robust Semantic Localization and Mapping</span>
+        <span class="paper-authors">Tingyang Xiao, Liu Liu, Wei Feng, Zhengyu Zou, Xiaolin Zhou, Wei Sui, Hao Li, Dingwen Zhang, Zhizhong Su</span>
+        <span class="paper-meta">Updated 2026-02-21</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Geometry foundation models have significantly advanced dense geometric SLAM, yet existing systems often lack deep semantic understanding and robust loop closure capabilities. Meanwhile, contemporary semantic mapping approaches are frequently hindered by decoupled architectures and fragile data association. We propose IRIS-SLAM, a novel RGB semantic SLAM system that leverages unified geometric-instance representations derived from an instance-extended foundation model. By extending a geometry foundation model to concurrently predict dense geometry and cross-view consistent instance embeddings, we enable a semantic-synergized association mechanism and instance-guided loop closure detection. Our approach effectively utilizes viewpoint-agnostic semantic anchors to bridge the gap between geometric reconstruction and open-vocabulary mapping. Experimental results demonstrate that IRIS-SLAM significantly outperforms state-of-the-art methods, particularly in map consistency and wide-baseline loop closure reliability.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.18709">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.18709.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.18709.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">VQPP: Video Query Performance Prediction Benchmark</span>
+        <span class="paper-authors">Adrian Catalin Lutu, Eduard Poesina, Radu Tudor Ionescu</span>
+        <span class="paper-meta">Updated 2026-02-19</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Query performance prediction (QPP) is an important and actively studied information retrieval task, having various applications, such as query reformulation, query expansion, and retrieval system selection, among many others. The task has been primarily studied in the context of text and image retrieval, whereas QPP for content-based video retrieval (CBVR) remains largely underexplored. To this end, we propose the first benchmark for video query performance prediction (VQPP), comprising two text-to-video retrieval datasets and two CBVR systems, respectively. VQPP contains a total of 56K text queries and 51K videos, and comes with official training, validation and test splits, fostering direct comparisons and reproducible results. We explore multiple pre-retrieval and post-retrieval performance predictors, creating a representative benchmark for future exploration of QPP in the video domain. Our results show that pre-retrieval predictors obtain competitive performance, enabling applications before performing the retrieval step. We also demonstrate the applicability of VQPP by employing the best performing pre-retrieval predictor as reward model for training a large language model (LLM) on the query reformulation task via direct preference optimization (DPO). We release our benchmark and code at https://github.com/AdrianLutu/VQPP.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.17814">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.17814.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.17814.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
   <article class="paper-card">
     <details class="paper-details">
       <summary>

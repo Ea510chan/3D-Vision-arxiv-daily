@@ -1,17 +1,19 @@
 # SLAM
 
-> Updated on 2026.02.23
+> Updated on 2026.02.26
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|2026-02-12|GSO-SLAM: Bidirectionally Coupled Gaussian Splatting and Direct Visual Odometry|Jiung Yeon et.al.|[2602.11714](https://arxiv.org/abs/2602.11714)|null|
-|2026-01-28|When Simultaneous Localization and Mapping Meets Wireless Communications: A Survey|Konstantinos Gounis et.al.|[2602.06995](https://arxiv.org/abs/2602.06995)|null|
-|2025-12-30|Learning to Anchor Visual Odometry: KAN-Based Pose Regression for Planetary Landing|Xubo Luo et.al.|[2602.06968](https://arxiv.org/abs/2602.06968)|null|
-|2026-02-05|Feature points evaluation on omnidirectional vision with a photorealistic fisheye sequence -- A report on experiments done in 2014|Julien Moreau et.al.|[2602.05487](https://arxiv.org/abs/2602.05487)|null|
-|2026-01-22|Keyframe-Based Feed-Forward Visual Odometry|Weichen Dai et.al.|[2601.16020](https://arxiv.org/abs/2601.16020)|null|
-|2026-01-09|360DVO: Deep Visual Odometry for Monocular 360-Degree Camera|Xiaopeng Guo et.al.|[2601.02309](https://arxiv.org/abs/2601.02309)|null|
-|2025-12-22|Trifocal Tensor and Relative Pose Estimation with Known Vertical Direction|Tao Li et.al.|[2512.19110](https://arxiv.org/abs/2512.19110)|null|
-|2025-12-16|SUPER -- A Framework for Sensitivity-based Uncertainty-aware Performance and Risk Assessment in Visual Inertial Odometry|Johannes A. Gaus et.al.|[2512.14189](https://arxiv.org/abs/2512.14189)|null|
+|**2026-02-22**|**OpenVO: Open-World Visual Odometry with Temporal Dynamics Awareness**|Phuc D. A. Nguyen et.al.|[2602.19035](https://arxiv.org/abs/2602.19035)|null|
+|**2026-02-14**|**UAV-SEAD: State Estimation Anomaly Dataset for UAVs**|Aykut Kabaoglu et.al.|[2602.13900](https://arxiv.org/abs/2602.13900)|null|
+|**2026-02-12**|**GSO-SLAM: Bidirectionally Coupled Gaussian Splatting and Direct Visual Odometry**|Jiung Yeon et.al.|[2602.11714](https://arxiv.org/abs/2602.11714)|null|
+|**2026-01-28**|**When Simultaneous Localization and Mapping Meets Wireless Communications: A Survey**|Konstantinos Gounis et.al.|[2602.06995](https://arxiv.org/abs/2602.06995)|null|
+|**2025-12-30**|**Learning to Anchor Visual Odometry: KAN-Based Pose Regression for Planetary Landing**|Xubo Luo et.al.|[2602.06968](https://arxiv.org/abs/2602.06968)|null|
+|**2026-02-05**|**Feature points evaluation on omnidirectional vision with a photorealistic fisheye sequence -- A report on experiments done in 2014**|Julien Moreau et.al.|[2602.05487](https://arxiv.org/abs/2602.05487)|null|
+|**2026-01-22**|**Keyframe-Based Feed-Forward Visual Odometry**|Weichen Dai et.al.|[2601.16020](https://arxiv.org/abs/2601.16020)|null|
+|**2026-01-09**|**360DVO: Deep Visual Odometry for Monocular 360-Degree Camera**|Xiaopeng Guo et.al.|[2601.02309](https://arxiv.org/abs/2601.02309)|null|
+|**2025-12-22**|**Trifocal Tensor and Relative Pose Estimation with Known Vertical Direction**|Tao Li et.al.|[2512.19110](https://arxiv.org/abs/2512.19110)|null|
+|**2025-12-16**|**SUPER -- A Framework for Sensitivity-based Uncertainty-aware Performance and Risk Assessment in Visual Inertial Odometry**|Johannes A. Gaus et.al.|[2512.14189](https://arxiv.org/abs/2512.14189)|null|
 |2025-12-10|Inertial Magnetic SLAM Systems Using Low-Cost Sensors|Chuan Huang et.al.|[2512.10128](https://arxiv.org/abs/2512.10128)|null|
 |2025-12-01|KM-ViPE: Online Tightly Coupled Vision-Language-Geometry Fusion for Open-Vocabulary Semantic SLAM|Zaid Nasser et.al.|[2512.01889](http://arxiv.org/abs/2512.01889)|null|
 |2025-11-29|Odometry Without Correspondence from Inertially Constrained Ruled Surfaces|Chenqi Zhu et.al.|[2512.00327](https://arxiv.org/abs/2512.00327)|null|

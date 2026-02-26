@@ -1,9 +1,19 @@
 # NeRF
 
-> Updated on 2026.02.23
+> Updated on 2026.02.26
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-02-24**|**Event-Aided Sharp Radiance Field Reconstruction for Fast-Flying Drones**|Rong Zou et.al.|[2602.21101](https://arxiv.org/abs/2602.21101)|null|
+|**2026-02-24**|**Monocular Endoscopic Tissue 3D Reconstruction with Multi-Level Geometry Regularization**|Yangsen Chen et.al.|[2602.20718](https://arxiv.org/abs/2602.20718)|null|
+|**2026-02-23**|**Large-scale Photorealistic Outdoor 3D Scene Reconstruction from UAV Imagery Using Gaussian Splatting Techniques**|Christos Maikos et.al.|[2602.20342](https://arxiv.org/abs/2602.20342)|null|
+|**2026-02-23**|**Augmented Radiance Field: A General Framework for Enhanced Gaussian Splatting**|Yixin Yang et.al.|[2602.19916](https://arxiv.org/abs/2602.19916)|null|
+|**2026-02-21**|**PhysConvex: Physics-Informed 3D Dynamic Convex Radiance Fields for Reconstruction and Simulation**|Dan Wang et.al.|[2602.18886](https://arxiv.org/abs/2602.18886)|null|
+|**2026-02-20**|**Unifying Color and Lightness Correction with View-Adaptive Curve Adjustment for Robust 3D Novel View Synthesis**|Ziteng Cui et.al.|[2602.18322](https://arxiv.org/abs/2602.18322)|null|
+|**2026-02-18**|**HS-3D-NeRF: 3D Surface and Hyperspectral Reconstruction From Stationary Hyperspectral Images Using Multi-Channel NeRFs**|Kibon Ku et.al.|[2602.16950](https://arxiv.org/abs/2602.16950)|null|
+|**2026-02-18**|**Subtractive Modulative Network with Learnable Periodic Activations**|Tiou Wang et.al.|[2602.16337](https://arxiv.org/abs/2602.16337)|null|
+|**2026-02-14**|**High-fidelity 3D reconstruction for planetary exploration**|Alfonso Martínez-Petersen et.al.|[2602.13909](https://arxiv.org/abs/2602.13909)|null|
+|**2026-02-14**|**Nighttime Autonomous Driving Scene Reconstruction with Physically-Based Gaussian Splatting**|Tae-Kyeong Kim et.al.|[2602.13549](https://arxiv.org/abs/2602.13549)|null|
 |2026-02-08|Dynamic Black-hole Emission Tomography with Physics-informed Neural Fields|Berthy T. Feng et.al.|[2602.08029](https://arxiv.org/abs/2602.08029)|null|
 |2026-02-08|Deepfake Synthesis vs. Detection: An Uneven Contest|Md. Tarek Hasan et.al.|[2602.07986](https://arxiv.org/abs/2602.07986)|null|
 |2026-02-05|NVS-HO: A Benchmark for Novel View Synthesis of Handheld Objects|Musawar Ali et.al.|[2602.05822](https://arxiv.org/abs/2602.05822)|null|
