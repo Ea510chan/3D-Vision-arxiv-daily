@@ -1,10 +1,12 @@
 # NeRF
 
-> Updated on 2026.02.26
+> Updated on 2026.03.01
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-02-24**|**Event-Aided Sharp Radiance Field Reconstruction for Fast-Flying Drones**|Rong Zou et.al.|[2602.21101](https://arxiv.org/abs/2602.21101)|null|
+|**2026-02-26**|**Sapling-NeRF: Geo-Localised Sapling Reconstruction in Forests for Ecological Monitoring**|Miguel Ángel Muñoz-Bañón et.al.|[2602.22731](https://arxiv.org/abs/2602.22731)|null|
+|**2026-02-25**|**Lie Flow: Video Dynamic Fields Modeling and Predicting with Lie Algebra as Geometric Physics Principle**|Weidong Qiao et.al.|[2602.21645](https://arxiv.org/abs/2602.21645)|null|
+|**2026-02-26**|**Event-Aided Sharp Radiance Field Reconstruction for Fast-Flying Drones**|Rong Zou et.al.|[2602.21101](https://arxiv.org/abs/2602.21101)|null|
 |**2026-02-24**|**Monocular Endoscopic Tissue 3D Reconstruction with Multi-Level Geometry Regularization**|Yangsen Chen et.al.|[2602.20718](https://arxiv.org/abs/2602.20718)|null|
 |**2026-02-23**|**Large-scale Photorealistic Outdoor 3D Scene Reconstruction from UAV Imagery Using Gaussian Splatting Techniques**|Christos Maikos et.al.|[2602.20342](https://arxiv.org/abs/2602.20342)|null|
 |**2026-02-23**|**Augmented Radiance Field: A General Framework for Enhanced Gaussian Splatting**|Yixin Yang et.al.|[2602.19916](https://arxiv.org/abs/2602.19916)|null|

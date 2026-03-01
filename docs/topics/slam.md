@@ -7,12 +7,54 @@ title: SLAM
   <div>
     <p class="eyebrow">Topic</p>
     <h1>SLAM</h1>
-    <p class="topic-lede">Updated 2026.02.26 · 223 papers</p>
+    <p class="topic-lede">Updated 2026.03.01 · 225 papers</p>
   </div>
   <a class="btn ghost" href="../index.html#topics">← Back to topics</a>
 </section>
 
 <section class="paper-grid">
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Motion-aware Event Suppression for Event Cameras</span>
+        <span class="paper-authors">Roberto Pellerito, Nico Messikommer, Giovanni Cioffi, Marco Cannici, Davide Scaramuzza</span>
+        <span class="paper-meta">Updated 2026-02-26</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">In this work, we introduce the first framework for Motion-aware Event Suppression, which learns to filter events triggered by IMOs and ego-motion in real time. Our model jointly segments IMOs in the current event stream while predicting their future motion, enabling anticipatory suppression of dynamic events before they occur. Our lightweight architecture achieves 173 Hz inference on consumer-grade GPUs with less than 1 GB of memory usage, outperforming previous state-of-the-art methods on the challenging EVIMO benchmark by 67\% in segmentation accuracy while operating at a 53\% higher inference rate. Moreover, we demonstrate significant benefits for downstream applications: our method accelerates Vision Transformer inference by 83\% via token pruning and improves event-based visual odometry accuracy, reducing Absolute Trajectory Error (ATE) by 13\%.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.23204">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.23204.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.23204.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">FLIGHT: Fibonacci Lattice-based Inference for Geometric Heading in real-Time</span>
+        <span class="paper-authors">David Dirnfeld, Fabien Delattre, Pedro Miraldo, Erik Learned-Miller</span>
+        <span class="paper-meta">Updated 2026-02-26</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Estimating camera motion from monocular video is a fundamental problem in computer vision, central to tasks such as SLAM, visual odometry, and structure-from-motion. Existing methods that recover the camera&#x27;s heading under known rotation, whether from an IMU or an optimization algorithm, tend to perform well in low-noise, low-outlier conditions, but often decrease in accuracy or become computationally expensive as noise and outlier levels increase. To address these limitations, we propose a novel generalization of the Hough transform on the unit sphere (S(2)) to estimate the camera&#x27;s heading. First, the method extracts correspondences between two frames and generates a great circle of directions compatible with each pair of correspondences. Then, by discretizing the unit sphere using a Fibonacci lattice as bin centers, each great circle casts votes for a range of directions, ensuring that features unaffected by noise or dynamic objects vote consistently for the correct motion direction. Experimental results on three datasets demonstrate that the proposed method is on the Pareto frontier of accuracy versus efficiency. Additionally, experiments on SLAM show that the proposed method reduces RMSE by correcting the heading during camera pose initialization.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.23115">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.23115.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.23115.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
   <article class="paper-card">
     <details class="paper-details">
       <summary>

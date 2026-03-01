@@ -1,9 +1,10 @@
 # Image Matching
 
-> Updated on 2026.02.26
+> Updated on 2026.03.01
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-02-24**|**FlowFixer: Towards Detail-Preserving Subject-Driven Generation**|Jinyoung Jun et.al.|[2602.21402](https://arxiv.org/abs/2602.21402)|null|
 |**2026-02-23**|**Generative 6D Pose Estimation via Conditional Flow Matching**|Amir Hamza et.al.|[2602.19719](https://arxiv.org/abs/2602.19719)|null|
 |**2026-02-13**|**Matching of SAR and optical images based on transformation to shared modality**|Alexey Borisov et.al.|[2602.12515](https://arxiv.org/abs/2602.12515)|null|
 |**2026-02-09**|**Understanding and Optimizing Attention-Based Sparse Matching for Diverse Local Features**|Qiang Wang et.al.|[2602.08430](https://arxiv.org/abs/2602.08430)|null|

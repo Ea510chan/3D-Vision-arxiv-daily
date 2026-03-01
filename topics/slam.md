@@ -1,9 +1,11 @@
 # SLAM
 
-> Updated on 2026.02.26
+> Updated on 2026.03.01
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-02-26**|**Motion-aware Event Suppression for Event Cameras**|Roberto Pellerito et.al.|[2602.23204](https://arxiv.org/abs/2602.23204)|null|
+|**2026-02-26**|**FLIGHT: Fibonacci Lattice-based Inference for Geometric Heading in real-Time**|David Dirnfeld et.al.|[2602.23115](https://arxiv.org/abs/2602.23115)|null|
 |**2026-02-22**|**OpenVO: Open-World Visual Odometry with Temporal Dynamics Awareness**|Phuc D. A. Nguyen et.al.|[2602.19035](https://arxiv.org/abs/2602.19035)|null|
 |**2026-02-14**|**UAV-SEAD: State Estimation Anomaly Dataset for UAVs**|Aykut Kabaoglu et.al.|[2602.13900](https://arxiv.org/abs/2602.13900)|null|
 |**2026-02-12**|**GSO-SLAM: Bidirectionally Coupled Gaussian Splatting and Direct Visual Odometry**|Jiung Yeon et.al.|[2602.11714](https://arxiv.org/abs/2602.11714)|null|

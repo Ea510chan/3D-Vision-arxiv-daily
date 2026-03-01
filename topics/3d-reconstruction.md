@@ -1,9 +1,19 @@
 # 3D Reconstruction
 
-> Updated on 2026.02.26
+> Updated on 2026.03.01
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-02-26**|**VGG-T $^3$ : Offline Feed-Forward 3D Reconstruction at Scale**|Sven Elflein et.al.|[2602.23361](https://arxiv.org/abs/2602.23361)|null|
+|**2026-02-26**|**UniScale: Unified Scale-Aware 3D Reconstruction for Multi-View Understanding via Prior Injection for Robotic Perception**|Mohammad Mahdavian et.al.|[2602.23224](https://arxiv.org/abs/2602.23224)|null|
+|**2026-02-26**|**FLIGHT: Fibonacci Lattice-based Inference for Geometric Heading in real-Time**|David Dirnfeld et.al.|[2602.23115](https://arxiv.org/abs/2602.23115)|null|
+|**2026-02-26**|**UCM: Unifying Camera Control and Memory with Time-aware Positional Encoding Warping for World Models**|Tianxing Xu et.al.|[2602.22960](https://arxiv.org/abs/2602.22960)|null|
+|**2026-02-26**|**Sapling-NeRF: Geo-Localised Sapling Reconstruction in Forests for Ecological Monitoring**|Miguel Ángel Muñoz-Bañón et.al.|[2602.22731](https://arxiv.org/abs/2602.22731)|null|
+|**2026-02-26**|**QuadSync: Quadrifocal Tensor Synchronization via Tucker Decomposition**|Daniel Miao et.al.|[2602.22639](https://arxiv.org/abs/2602.22639)|null|
+|**2026-02-26**|**GIFSplat: Generative Prior-Guided Iterative Feed-Forward 3D Gaussian Splatting from Sparse Views**|Tianyu Chen et.al.|[2602.22571](https://arxiv.org/abs/2602.22571)|null|
+|**2026-02-26**|**SwiftNDC: Fast Neural Depth Correction for High-Fidelity 3D Reconstruction**|Kang Han et.al.|[2602.22565](https://arxiv.org/abs/2602.22565)|null|
+|**2026-02-25**|**Global-Aware Edge Prioritization for Pose Graph Initialization**|Tong Wei et.al.|[2602.21963](https://arxiv.org/abs/2602.21963)|null|
+|**2026-02-25**|**Geometry-as-context: Modulating Explicit 3D in Scene-consistent Video Generation to Geometry Context**|JiaKui Hu et.al.|[2602.21929](https://arxiv.org/abs/2602.21929)|null|
 |**2026-02-24**|**Event-Aided Sharp Radiance Field Reconstruction for Fast-Flying Drones**|Rong Zou et.al.|[2602.21101](https://arxiv.org/abs/2602.21101)|null|
 |**2026-02-24**|**UFO: Unifying Feed-Forward and Optimization-based Methods for Large Driving Scene Modeling**|Kaiyuan Tan et.al.|[2602.20943](https://arxiv.org/abs/2602.20943)|null|
 |**2026-02-24**|**RU4D-SLAM: Reweighting Uncertainty in Gaussian Splatting SLAM for 4D Scene Reconstruction**|Yangfan Zhao et.al.|[2602.20807](https://arxiv.org/abs/2602.20807)|null|

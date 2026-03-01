@@ -1,9 +1,19 @@
 # Gaussian Splatting
 
-> Updated on 2026.02.26
+> Updated on 2026.03.01
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-02-26**|**Latent Gaussian Splatting for 4D Panoptic Occupancy Tracking**|Maximilian Luz et.al.|[2602.23172](https://arxiv.org/abs/2602.23172)|null|
+|**2026-02-26**|**PackUV: Packed Gaussian UV Maps for 4D Volumetric Video**|Aashish Rai et.al.|[2602.23040](https://arxiv.org/abs/2602.23040)|null|
+|**2026-02-26**|**GSTurb: Gaussian Splatting for Atmospheric Turbulence Mitigation**|Hanliang Du et.al.|[2602.22800](https://arxiv.org/abs/2602.22800)|null|
+|**2026-02-26**|**Sapling-NeRF: Geo-Localised Sapling Reconstruction in Forests for Ecological Monitoring**|Miguel Ángel Muñoz-Bañón et.al.|[2602.22731](https://arxiv.org/abs/2602.22731)|null|
+|**2026-02-26**|**ArtPro: Self-Supervised Articulated Object Reconstruction with Adaptive Integration of Mobility Proposals**|Xuelu Li et.al.|[2602.22666](https://arxiv.org/abs/2602.22666)|null|
+|**2026-02-26**|**BetterScene: 3D Scene Synthesis with Representation-Aligned Generative Model**|Yuci Han et.al.|[2602.22596](https://arxiv.org/abs/2602.22596)|null|
+|**2026-02-26**|**GIFSplat: Generative Prior-Guided Iterative Feed-Forward 3D Gaussian Splatting from Sparse Views**|Tianyu Chen et.al.|[2602.22571](https://arxiv.org/abs/2602.22571)|null|
+|**2026-02-26**|**SwiftNDC: Fast Neural Depth Correction for High-Fidelity 3D Reconstruction**|Kang Han et.al.|[2602.22565](https://arxiv.org/abs/2602.22565)|null|
+|**2026-02-25**|**AeroDGS: Physically Consistent Dynamic Gaussian Splatting for Single-Sequence Aerial 4D Reconstruction**|Hanyang Liu et.al.|[2602.22376](https://arxiv.org/abs/2602.22376)|null|
+|**2026-02-25**|**Interactive Augmented Reality-enabled Outdoor Scene Visualization For Enhanced Real-time Disaster Response**|Dimitrios Apostolakis et.al.|[2602.21874](https://arxiv.org/abs/2602.21874)|null|
 |**2026-02-24**|**BrepGaussian: CAD reconstruction from Multi-View Images with Gaussian Splatting**|Jiaxing Yu et.al.|[2602.21105](https://arxiv.org/abs/2602.21105)|null|
 |**2026-02-24**|**Dropping Anchor and Spherical Harmonics for Sparse-view Gaussian Splatting**|Shuangkang Fang et.al.|[2602.20933](https://arxiv.org/abs/2602.20933)|null|
 |**2026-02-24**|**RU4D-SLAM: Reweighting Uncertainty in Gaussian Splatting SLAM for 4D Scene Reconstruction**|Yangfan Zhao et.al.|[2602.20807](https://arxiv.org/abs/2602.20807)|null|

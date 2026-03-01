@@ -1,9 +1,15 @@
 # Visual Localization
 
-> Updated on 2026.02.26
+> Updated on 2026.03.01
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-02-26**|**VGG-T $^3$ : Offline Feed-Forward 3D Reconstruction at Scale**|Sven Elflein et.al.|[2602.23361](https://arxiv.org/abs/2602.23361)|null|
+|**2026-02-26**|**WISER: Wider Search, Deeper Thinking, and Adaptive Fusion for Training-Free Zero-Shot Composed Image Retrieval**|Tianyue Wang et.al.|[2602.23029](https://arxiv.org/abs/2602.23029)|null|
+|**2026-02-26**|**Autoregressive Visual Decoding from EEG Signals**|Sicheng Dai et.al.|[2602.22555](https://arxiv.org/abs/2602.22555)|null|
+|**2026-02-26**|**Pix2Key: Controllable Open-Vocabulary Retrieval with Semantic Decomposition and Self-Supervised Visual Dictionary Learning**|Guoyizhe Wei et.al.|[2602.22510](https://arxiv.org/abs/2602.22510)|null|
+|**2026-02-25**|**Global-Aware Edge Prioritization for Pose Graph Initialization**|Tong Wei et.al.|[2602.21963](https://arxiv.org/abs/2602.21963)|null|
+|**2026-02-25**|**Automatic Map Density Selection for Locally-Performant Visual Place Recognition**|Somayeh Hussaini et.al.|[2602.21473](https://arxiv.org/abs/2602.21473)|null|
 |**2026-02-24**|**Seeing Through Words: Controlling Visual Retrieval Quality with Language Models**|Jianglin Lu et.al.|[2602.21175](https://arxiv.org/abs/2602.21175)|null|
 |**2026-02-24**|**LST-SLAM: A Stereo Thermal SLAM System for Kilometer-Scale Dynamic Environments**|Zeyu Jiang et.al.|[2602.20925](https://arxiv.org/abs/2602.20925)|null|
 |**2026-02-24**|**Long-Term Multi-Session 3D Reconstruction Under Substantial Appearance Change**|Beverley Gorry et.al.|[2602.20584](https://arxiv.org/abs/2602.20584)|null|

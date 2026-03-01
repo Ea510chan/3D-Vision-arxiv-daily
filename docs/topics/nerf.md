@@ -7,7 +7,7 @@ title: NeRF
   <div>
     <p class="eyebrow">Topic</p>
     <h1>NeRF</h1>
-    <p class="topic-lede">Updated 2026.02.26 · 300 papers</p>
+    <p class="topic-lede">Updated 2026.03.01 · 302 papers</p>
   </div>
   <a class="btn ghost" href="../index.html#topics">← Back to topics</a>
 </section>
@@ -16,9 +16,30 @@ title: NeRF
   <article class="paper-card">
     <details class="paper-details">
       <summary>
+        <span class="paper-title">Sapling-NeRF: Geo-Localised Sapling Reconstruction in Forests for Ecological Monitoring</span>
+        <span class="paper-authors">Miguel Ángel Muñoz-Bañón, Nived Chebrolu, Sruthi M. Krishna Moorthy, Yifu Tao, Fernando Torres, Roberto Salguero-Gómez, Maurice Fallon</span>
+        <span class="paper-meta">Updated 2026-02-26</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Saplings are key indicators of forest regeneration and overall forest health. However, their fine-scale architectural traits are difficult to capture with existing 3D sensing methods, which make quantitative evaluation difficult. Terrestrial Laser Scanners (TLS), Mobile Laser Scanners (MLS), or traditional photogrammetry approaches poorly reconstruct thin branches, dense foliage, and lack the scale consistency needed for long-term monitoring. Implicit 3D reconstruction methods such as Neural Radiance Fields (NeRF) and 3D Gaussian Splatting (3DGS) are promising alternatives, but cannot recover the true scale of a scene and lack any means to be accurately geo-localised. In this paper, we present a pipeline which fuses NeRF, LiDAR SLAM, and GNSS to enable repeatable, geo-localised ecological monitoring of saplings. Our system proposes a three-level representation: (i) coarse Earth-frame localisation using GNSS, (ii) LiDAR-based SLAM for centimetre-accurate localisation and reconstruction, and (iii) NeRF-derived object-centric dense reconstruction of individual saplings. This approach enables repeatable quantitative evaluation and long-term monitoring of sapling traits. Our experiments in forest plots in Wytham Woods (Oxford, UK) and Evo (Finland) show that stem height, branching patterns, and leaf-to-wood ratios can be captured with increased accuracy as compared to TLS. We demonstrate that accurate stem skeletons and leaf distributions can be measured for saplings with heights between 0.5m and 2m in situ, giving ecologists access to richer structural and quantitative data for analysing forest dynamics.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.22731">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.22731.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.22731.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
         <span class="paper-title">Event-Aided Sharp Radiance Field Reconstruction for Fast-Flying Drones</span>
         <span class="paper-authors">Rong Zou, Marco Cannici, Davide Scaramuzza</span>
-        <span class="paper-meta">Updated 2026-02-24</span>
+        <span class="paper-meta">Updated 2026-02-26</span>
       </summary>
       <div class="paper-body">
         <p class="paper-abstract">Fast-flying aerial robots promise rapid inspection under limited battery constraints, with direct applications in infrastructure inspection, terrain exploration, and search and rescue. However, high speeds lead to severe motion blur in images and induce significant drift and noise in pose estimates, making dense 3D reconstruction with Neural Radiance Fields (NeRFs) particularly challenging due to their high sensitivity to such degradations. In this work, we present a unified framework that leverages asynchronous event streams alongside motion-blurred frames to reconstruct high-fidelity radiance fields from agile drone flights. By embedding event-image fusion into NeRF optimization and jointly refining event-based visual-inertial odometry priors using both event and frame modalities, our method recovers sharp radiance fields and accurate camera trajectories without ground-truth supervision. We validate our approach on both synthetic data and real-world sequences captured by a fast-flying drone. Despite highly dynamic drone flights, where RGB frames are severely degraded by motion blur and pose priors become unreliable, our method reconstructs high-fidelity radiance fields and preserves fine scene details, delivering a performance gain of over 50% on real-world data compared to state-of-the-art methods.</p>
@@ -28,6 +49,27 @@ title: NeRF
           <span class="chip ghost">Code: N/A</span>
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.21101.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Lie Flow: Video Dynamic Fields Modeling and Predicting with Lie Algebra as Geometric Physics Principle</span>
+        <span class="paper-authors">Weidong Qiao, Wangmeng Zuo, Hui Li</span>
+        <span class="paper-meta">Updated 2026-02-25</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Modeling 4D scenes requires capturing both spatial structure and temporal motion, which is challenging due to the need for physically consistent representations of complex rigid and non-rigid motions. Existing approaches mainly rely on translational displacements, which struggle to represent rotations, articulated transformations, often leading to spatial inconsistency and physically implausible motion. LieFlow, a dynamic radiance representation framework that explicitly models motion within the SE(3) Lie group, enabling coherent learning of translation and rotation in a unified geometric space. The SE(3) transformation field enforces physically inspired constraints to maintain motion continuity and geometric consistency. The evaluation includes a synthetic dataset with rigid-body trajectories and two real-world datasets capturing complex motion under natural lighting and occlusions. Across all datasets, LieFlow consistently improves view-synthesis fidelity, temporal coherence, and physical realism over NeRF-based baselines. These results confirm that SE(3)-based motion modeling offers a robust and physically grounded framework for representing dynamic 4D scenes.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.21645">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.21645.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.21645.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>

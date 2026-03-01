@@ -7,12 +7,33 @@ title: Image Matching
   <div>
     <p class="eyebrow">Topic</p>
     <h1>Image Matching</h1>
-    <p class="topic-lede">Updated 2026.02.26 · 146 papers</p>
+    <p class="topic-lede">Updated 2026.03.01 · 147 papers</p>
   </div>
   <a class="btn ghost" href="../index.html#topics">← Back to topics</a>
 </section>
 
 <section class="paper-grid">
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">FlowFixer: Towards Detail-Preserving Subject-Driven Generation</span>
+        <span class="paper-authors">Jinyoung Jun, Won-Dong Jang, Wenbin Ouyang, Raghudeep Gadde, Jungbeom Lee</span>
+        <span class="paper-meta">Updated 2026-02-24</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">We present FlowFixer, a refinement framework for subject-driven generation (SDG) that restores fine details lost during generation caused by changes in scale and perspective of a subject. FlowFixer proposes direct image-to-image translation from visual references, avoiding ambiguities in language prompts. To enable image-to-image training, we introduce a one-step denoising scheme to generate self-supervised training data, which automatically removes high-frequency details while preserving global structure, effectively simulating real-world SDG errors. We further propose a keypoint matching-based metric to properly assess fidelity in details beyond semantic similarities usually measured by CLIP or DINO. Experimental results demonstrate that FlowFixer outperforms state-of-the-art SDG methods in both qualitative and quantitative evaluations, setting a new benchmark for high-fidelity subject-driven generation.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.21402">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.21402.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.21402.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
   <article class="paper-card">
     <details class="paper-details">
       <summary>
