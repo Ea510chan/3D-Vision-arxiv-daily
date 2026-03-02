@@ -1,21 +1,21 @@
 # NeRF
 
-> Updated on 2026.03.01
+> Updated on 2026.03.02
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-02-26**|**Sapling-NeRF: Geo-Localised Sapling Reconstruction in Forests for Ecological Monitoring**|Miguel Ángel Muñoz-Bañón et.al.|[2602.22731](https://arxiv.org/abs/2602.22731)|null|
-|**2026-02-25**|**Lie Flow: Video Dynamic Fields Modeling and Predicting with Lie Algebra as Geometric Physics Principle**|Weidong Qiao et.al.|[2602.21645](https://arxiv.org/abs/2602.21645)|null|
-|**2026-02-26**|**Event-Aided Sharp Radiance Field Reconstruction for Fast-Flying Drones**|Rong Zou et.al.|[2602.21101](https://arxiv.org/abs/2602.21101)|null|
-|**2026-02-24**|**Monocular Endoscopic Tissue 3D Reconstruction with Multi-Level Geometry Regularization**|Yangsen Chen et.al.|[2602.20718](https://arxiv.org/abs/2602.20718)|null|
-|**2026-02-23**|**Large-scale Photorealistic Outdoor 3D Scene Reconstruction from UAV Imagery Using Gaussian Splatting Techniques**|Christos Maikos et.al.|[2602.20342](https://arxiv.org/abs/2602.20342)|null|
-|**2026-02-23**|**Augmented Radiance Field: A General Framework for Enhanced Gaussian Splatting**|Yixin Yang et.al.|[2602.19916](https://arxiv.org/abs/2602.19916)|null|
-|**2026-02-21**|**PhysConvex: Physics-Informed 3D Dynamic Convex Radiance Fields for Reconstruction and Simulation**|Dan Wang et.al.|[2602.18886](https://arxiv.org/abs/2602.18886)|null|
-|**2026-02-20**|**Unifying Color and Lightness Correction with View-Adaptive Curve Adjustment for Robust 3D Novel View Synthesis**|Ziteng Cui et.al.|[2602.18322](https://arxiv.org/abs/2602.18322)|null|
-|**2026-02-18**|**HS-3D-NeRF: 3D Surface and Hyperspectral Reconstruction From Stationary Hyperspectral Images Using Multi-Channel NeRFs**|Kibon Ku et.al.|[2602.16950](https://arxiv.org/abs/2602.16950)|null|
-|**2026-02-18**|**Subtractive Modulative Network with Learnable Periodic Activations**|Tiou Wang et.al.|[2602.16337](https://arxiv.org/abs/2602.16337)|null|
-|**2026-02-14**|**High-fidelity 3D reconstruction for planetary exploration**|Alfonso Martínez-Petersen et.al.|[2602.13909](https://arxiv.org/abs/2602.13909)|null|
-|**2026-02-14**|**Nighttime Autonomous Driving Scene Reconstruction with Physically-Based Gaussian Splatting**|Tae-Kyeong Kim et.al.|[2602.13549](https://arxiv.org/abs/2602.13549)|null|
+|2026-02-26|Sapling-NeRF: Geo-Localised Sapling Reconstruction in Forests for Ecological Monitoring|Miguel Ángel Muñoz-Bañón et.al.|[2602.22731](https://arxiv.org/abs/2602.22731)|null|
+|2026-02-25|Lie Flow: Video Dynamic Fields Modeling and Predicting with Lie Algebra as Geometric Physics Principle|Weidong Qiao et.al.|[2602.21645](https://arxiv.org/abs/2602.21645)|null|
+|2026-02-26|Event-Aided Sharp Radiance Field Reconstruction for Fast-Flying Drones|Rong Zou et.al.|[2602.21101](https://arxiv.org/abs/2602.21101)|null|
+|2026-02-24|Monocular Endoscopic Tissue 3D Reconstruction with Multi-Level Geometry Regularization|Yangsen Chen et.al.|[2602.20718](https://arxiv.org/abs/2602.20718)|null|
+|2026-02-23|Large-scale Photorealistic Outdoor 3D Scene Reconstruction from UAV Imagery Using Gaussian Splatting Techniques|Christos Maikos et.al.|[2602.20342](https://arxiv.org/abs/2602.20342)|null|
+|2026-02-23|Augmented Radiance Field: A General Framework for Enhanced Gaussian Splatting|Yixin Yang et.al.|[2602.19916](https://arxiv.org/abs/2602.19916)|null|
+|2026-02-21|PhysConvex: Physics-Informed 3D Dynamic Convex Radiance Fields for Reconstruction and Simulation|Dan Wang et.al.|[2602.18886](https://arxiv.org/abs/2602.18886)|null|
+|2026-02-20|Unifying Color and Lightness Correction with View-Adaptive Curve Adjustment for Robust 3D Novel View Synthesis|Ziteng Cui et.al.|[2602.18322](https://arxiv.org/abs/2602.18322)|null|
+|2026-02-18|HS-3D-NeRF: 3D Surface and Hyperspectral Reconstruction From Stationary Hyperspectral Images Using Multi-Channel NeRFs|Kibon Ku et.al.|[2602.16950](https://arxiv.org/abs/2602.16950)|null|
+|2026-02-18|Subtractive Modulative Network with Learnable Periodic Activations|Tiou Wang et.al.|[2602.16337](https://arxiv.org/abs/2602.16337)|null|
+|2026-02-14|High-fidelity 3D reconstruction for planetary exploration|Alfonso Martínez-Petersen et.al.|[2602.13909](https://arxiv.org/abs/2602.13909)|null|
+|2026-02-14|Nighttime Autonomous Driving Scene Reconstruction with Physically-Based Gaussian Splatting|Tae-Kyeong Kim et.al.|[2602.13549](https://arxiv.org/abs/2602.13549)|null|
 |2026-02-08|Dynamic Black-hole Emission Tomography with Physics-informed Neural Fields|Berthy T. Feng et.al.|[2602.08029](https://arxiv.org/abs/2602.08029)|null|
 |2026-02-08|Deepfake Synthesis vs. Detection: An Uneven Contest|Md. Tarek Hasan et.al.|[2602.07986](https://arxiv.org/abs/2602.07986)|null|
 |2026-02-05|NVS-HO: A Benchmark for Novel View Synthesis of Handheld Objects|Musawar Ali et.al.|[2602.05822](https://arxiv.org/abs/2602.05822)|null|
@@ -100,7 +100,7 @@
 |2025-10-29|4-Doodle: Text to 3D Sketches that Move!|Hao Chen et.al.|[2510.25319](http://arxiv.org/abs/2510.25319)|null|
 |2025-10-25|I2-NeRF: Learning Neural Radiance Fields Under Physically-Grounded Media Interactions|Shuhong Liu et.al.|[2510.22161](http://arxiv.org/abs/2510.22161)|null|
 |2025-10-23|From Far and Near: Perceptual Evaluation of Crowd Representations Across Levels of Detail|Xiaohan Sun et.al.|[2510.20558](http://arxiv.org/abs/2510.20558)|null|
-|2025-10-22|Extreme Views: 3DGS Filter for Novel View Synthesis from Out-of-Distribution Camera Poses|Damian Bowness et.al.|[2510.20027](http://arxiv.org/abs/2510.20027)|null|
+|2025-10-22|Extreme Views: 3DGS Filter for Novel View Synthesis from Out-of-Distribution Camera Poses|Damian Bowness et.al.|[2510.20027](http://arxiv.org/abs/2510.20027)|**[link](https://github.com/damian-bowness/EV3DGS)**|
 |2025-10-22|AegisRF: Adversarial Perturbations Guided with Sensitivity for Protecting Intellectual Property of Neural Radiance Fields|Woo Jae Kim et.al.|[2510.19371](http://arxiv.org/abs/2510.19371)|null|
 |2025-10-22|Advances in 4D Representation: Geometry, Motion, and Interaction|Mingrui Zhao et.al.|[2510.19255](http://arxiv.org/abs/2510.19255)|null|
 |2025-11-03|GauSSmart: Enhanced 3D Reconstruction through 2D Foundation Models and Geometric Filtering|Alexander Valverde et.al.|[2510.14270](http://arxiv.org/abs/2510.14270)|null|

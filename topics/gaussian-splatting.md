@@ -1,29 +1,29 @@
 # Gaussian Splatting
 
-> Updated on 2026.03.01
+> Updated on 2026.03.02
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-02-26**|**Latent Gaussian Splatting for 4D Panoptic Occupancy Tracking**|Maximilian Luz et.al.|[2602.23172](https://arxiv.org/abs/2602.23172)|null|
-|**2026-02-26**|**PackUV: Packed Gaussian UV Maps for 4D Volumetric Video**|Aashish Rai et.al.|[2602.23040](https://arxiv.org/abs/2602.23040)|null|
-|**2026-02-26**|**GSTurb: Gaussian Splatting for Atmospheric Turbulence Mitigation**|Hanliang Du et.al.|[2602.22800](https://arxiv.org/abs/2602.22800)|null|
-|**2026-02-26**|**Sapling-NeRF: Geo-Localised Sapling Reconstruction in Forests for Ecological Monitoring**|Miguel Ángel Muñoz-Bañón et.al.|[2602.22731](https://arxiv.org/abs/2602.22731)|null|
-|**2026-02-26**|**ArtPro: Self-Supervised Articulated Object Reconstruction with Adaptive Integration of Mobility Proposals**|Xuelu Li et.al.|[2602.22666](https://arxiv.org/abs/2602.22666)|null|
-|**2026-02-26**|**BetterScene: 3D Scene Synthesis with Representation-Aligned Generative Model**|Yuci Han et.al.|[2602.22596](https://arxiv.org/abs/2602.22596)|null|
-|**2026-02-26**|**GIFSplat: Generative Prior-Guided Iterative Feed-Forward 3D Gaussian Splatting from Sparse Views**|Tianyu Chen et.al.|[2602.22571](https://arxiv.org/abs/2602.22571)|null|
-|**2026-02-26**|**SwiftNDC: Fast Neural Depth Correction for High-Fidelity 3D Reconstruction**|Kang Han et.al.|[2602.22565](https://arxiv.org/abs/2602.22565)|null|
-|**2026-02-25**|**AeroDGS: Physically Consistent Dynamic Gaussian Splatting for Single-Sequence Aerial 4D Reconstruction**|Hanyang Liu et.al.|[2602.22376](https://arxiv.org/abs/2602.22376)|null|
-|**2026-02-25**|**Interactive Augmented Reality-enabled Outdoor Scene Visualization For Enhanced Real-time Disaster Response**|Dimitrios Apostolakis et.al.|[2602.21874](https://arxiv.org/abs/2602.21874)|null|
-|**2026-02-24**|**BrepGaussian: CAD reconstruction from Multi-View Images with Gaussian Splatting**|Jiaxing Yu et.al.|[2602.21105](https://arxiv.org/abs/2602.21105)|null|
-|**2026-02-24**|**Dropping Anchor and Spherical Harmonics for Sparse-view Gaussian Splatting**|Shuangkang Fang et.al.|[2602.20933](https://arxiv.org/abs/2602.20933)|null|
-|**2026-02-24**|**RU4D-SLAM: Reweighting Uncertainty in Gaussian Splatting SLAM for 4D Scene Reconstruction**|Yangfan Zhao et.al.|[2602.20807](https://arxiv.org/abs/2602.20807)|null|
-|**2026-02-24**|**Monocular Endoscopic Tissue 3D Reconstruction with Multi-Level Geometry Regularization**|Yangsen Chen et.al.|[2602.20718](https://arxiv.org/abs/2602.20718)|null|
-|**2026-02-24**|**WildGHand: Learning Anti-Perturbation Gaussian Hand Avatars from Monocular In-the-Wild Videos**|Hanhui Li et.al.|[2602.20556](https://arxiv.org/abs/2602.20556)|null|
-|**2026-02-23**|**Aesthetic Camera Viewpoint Suggestion with 3D Aesthetic Field**|Sheyang Tang et.al.|[2602.20363](https://arxiv.org/abs/2602.20363)|null|
-|**2026-02-23**|**Large-scale Photorealistic Outdoor 3D Scene Reconstruction from UAV Imagery Using Gaussian Splatting Techniques**|Christos Maikos et.al.|[2602.20342](https://arxiv.org/abs/2602.20342)|null|
-|**2026-02-23**|**tttLRM: Test-Time Training for Long Context and Autoregressive 3D Reconstruction**|Chen Wang et.al.|[2602.20160](https://arxiv.org/abs/2602.20160)|null|
-|**2026-02-23**|**Augmented Radiance Field: A General Framework for Enhanced Gaussian Splatting**|Yixin Yang et.al.|[2602.19916](https://arxiv.org/abs/2602.19916)|null|
-|**2026-02-23**|**One2Scene: Geometric Consistent Explorable 3D Scene Generation from a Single Image**|Pengfei Wang et.al.|[2602.19766](https://arxiv.org/abs/2602.19766)|null|
+|2026-02-26|Latent Gaussian Splatting for 4D Panoptic Occupancy Tracking|Maximilian Luz et.al.|[2602.23172](https://arxiv.org/abs/2602.23172)|null|
+|2026-02-26|PackUV: Packed Gaussian UV Maps for 4D Volumetric Video|Aashish Rai et.al.|[2602.23040](https://arxiv.org/abs/2602.23040)|null|
+|2026-02-26|GSTurb: Gaussian Splatting for Atmospheric Turbulence Mitigation|Hanliang Du et.al.|[2602.22800](https://arxiv.org/abs/2602.22800)|null|
+|2026-02-26|Sapling-NeRF: Geo-Localised Sapling Reconstruction in Forests for Ecological Monitoring|Miguel Ángel Muñoz-Bañón et.al.|[2602.22731](https://arxiv.org/abs/2602.22731)|null|
+|2026-02-26|ArtPro: Self-Supervised Articulated Object Reconstruction with Adaptive Integration of Mobility Proposals|Xuelu Li et.al.|[2602.22666](https://arxiv.org/abs/2602.22666)|null|
+|2026-02-26|BetterScene: 3D Scene Synthesis with Representation-Aligned Generative Model|Yuci Han et.al.|[2602.22596](https://arxiv.org/abs/2602.22596)|null|
+|2026-02-26|GIFSplat: Generative Prior-Guided Iterative Feed-Forward 3D Gaussian Splatting from Sparse Views|Tianyu Chen et.al.|[2602.22571](https://arxiv.org/abs/2602.22571)|null|
+|2026-02-26|SwiftNDC: Fast Neural Depth Correction for High-Fidelity 3D Reconstruction|Kang Han et.al.|[2602.22565](https://arxiv.org/abs/2602.22565)|null|
+|2026-02-25|AeroDGS: Physically Consistent Dynamic Gaussian Splatting for Single-Sequence Aerial 4D Reconstruction|Hanyang Liu et.al.|[2602.22376](https://arxiv.org/abs/2602.22376)|null|
+|2026-02-25|Interactive Augmented Reality-enabled Outdoor Scene Visualization For Enhanced Real-time Disaster Response|Dimitrios Apostolakis et.al.|[2602.21874](https://arxiv.org/abs/2602.21874)|null|
+|2026-02-24|BrepGaussian: CAD reconstruction from Multi-View Images with Gaussian Splatting|Jiaxing Yu et.al.|[2602.21105](https://arxiv.org/abs/2602.21105)|null|
+|2026-02-24|Dropping Anchor and Spherical Harmonics for Sparse-view Gaussian Splatting|Shuangkang Fang et.al.|[2602.20933](https://arxiv.org/abs/2602.20933)|null|
+|2026-02-24|RU4D-SLAM: Reweighting Uncertainty in Gaussian Splatting SLAM for 4D Scene Reconstruction|Yangfan Zhao et.al.|[2602.20807](https://arxiv.org/abs/2602.20807)|null|
+|2026-02-24|Monocular Endoscopic Tissue 3D Reconstruction with Multi-Level Geometry Regularization|Yangsen Chen et.al.|[2602.20718](https://arxiv.org/abs/2602.20718)|null|
+|2026-02-24|WildGHand: Learning Anti-Perturbation Gaussian Hand Avatars from Monocular In-the-Wild Videos|Hanhui Li et.al.|[2602.20556](https://arxiv.org/abs/2602.20556)|null|
+|2026-02-23|Aesthetic Camera Viewpoint Suggestion with 3D Aesthetic Field|Sheyang Tang et.al.|[2602.20363](https://arxiv.org/abs/2602.20363)|null|
+|2026-02-23|Large-scale Photorealistic Outdoor 3D Scene Reconstruction from UAV Imagery Using Gaussian Splatting Techniques|Christos Maikos et.al.|[2602.20342](https://arxiv.org/abs/2602.20342)|null|
+|2026-02-23|tttLRM: Test-Time Training for Long Context and Autoregressive 3D Reconstruction|Chen Wang et.al.|[2602.20160](https://arxiv.org/abs/2602.20160)|null|
+|2026-02-23|Augmented Radiance Field: A General Framework for Enhanced Gaussian Splatting|Yixin Yang et.al.|[2602.19916](https://arxiv.org/abs/2602.19916)|null|
+|2026-02-23|One2Scene: Geometric Consistent Explorable 3D Scene Generation from a Single Image|Pengfei Wang et.al.|[2602.19766](https://arxiv.org/abs/2602.19766)|null|
 |2026-02-12|3DGSNav: Enhancing Vision-Language Model Reasoning for Object Navigation via Active 3D Gaussian Splatting|Wancai Zheng et.al.|[2602.12159](https://arxiv.org/abs/2602.12159)|null|
 |2026-02-12|GSO-SLAM: Bidirectionally Coupled Gaussian Splatting and Direct Visual Odometry|Jiung Yeon et.al.|[2602.11714](https://arxiv.org/abs/2602.11714)|null|
 |2026-02-12|TG-Field: Geometry-Aware Radiative Gaussian Fields for Tomographic Reconstruction|Yuxiang Zhong et.al.|[2602.11705](https://arxiv.org/abs/2602.11705)|null|
@@ -84,7 +84,7 @@
 |2026-01-13|ViewMorpher3D: A 3D-aware Diffusion Framework for Multi-Camera Novel View Synthesis in Autonomous Driving|Farhad G. Zanjani et.al.|[2601.07540](https://arxiv.org/abs/2601.07540)|null|
 |2026-01-12|Mon3tr: Monocular 3D Telepresence with Pre-built Gaussian Avatars as Amortization|Fangyu Lin et.al.|[2601.07518](https://arxiv.org/abs/2601.07518)|null|
 |2026-01-12|R3-RECON: Radiance-Field-Free Active Reconstruction via Renderability|Xiaofeng Jin et.al.|[2601.07484](https://arxiv.org/abs/2601.07484)|null|
-|2026-01-11|SARA: Scene-Aware Reconstruction Accelerator|Jee Won Lee et.al.|[2601.06831](https://arxiv.org/abs/2601.06831)|**[link](https://github.com/SUNY-MEC-MEIC-Lab/SARA)**|
+|2026-01-11|SARA: Scene-Aware Reconstruction Accelerator|Jee Won Lee et.al.|[2601.06831](https://arxiv.org/abs/2601.06831)|[link](https://github.com/SUNY-MEC-MEIC-Lab/SARA)|
 |2026-01-10|SRFlow: A Dataset and Regularization Model for High-Resolution Facial Optical Flow via Splatting Rasterization|JiaLin Zhang et.al.|[2601.06479](https://arxiv.org/abs/2601.06479)|null|
 |2026-01-08|OceanSplat: Object-aware Gaussian Splatting with Trinocular View Consistency for Underwater Scene Reconstruction|Minseong Kweon et.al.|[2601.04984](https://arxiv.org/abs/2601.04984)|null|
 |2026-01-08|ProFuse: Efficient Cross-View Context Fusion for Open-Vocabulary 3D Gaussian Splatting|Yen-Jen Chiou et.al.|[2601.04754](https://arxiv.org/abs/2601.04754)|[link](https://github.com/chiou1203/ProFuse)|

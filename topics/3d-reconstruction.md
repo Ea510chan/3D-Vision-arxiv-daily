@@ -1,34 +1,34 @@
 # 3D Reconstruction
 
-> Updated on 2026.03.01
+> Updated on 2026.03.02
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-02-26**|**VGG-T $^3$ : Offline Feed-Forward 3D Reconstruction at Scale**|Sven Elflein et.al.|[2602.23361](https://arxiv.org/abs/2602.23361)|null|
-|**2026-02-26**|**UniScale: Unified Scale-Aware 3D Reconstruction for Multi-View Understanding via Prior Injection for Robotic Perception**|Mohammad Mahdavian et.al.|[2602.23224](https://arxiv.org/abs/2602.23224)|null|
-|**2026-02-26**|**FLIGHT: Fibonacci Lattice-based Inference for Geometric Heading in real-Time**|David Dirnfeld et.al.|[2602.23115](https://arxiv.org/abs/2602.23115)|null|
-|**2026-02-26**|**UCM: Unifying Camera Control and Memory with Time-aware Positional Encoding Warping for World Models**|Tianxing Xu et.al.|[2602.22960](https://arxiv.org/abs/2602.22960)|null|
-|**2026-02-26**|**Sapling-NeRF: Geo-Localised Sapling Reconstruction in Forests for Ecological Monitoring**|Miguel Ángel Muñoz-Bañón et.al.|[2602.22731](https://arxiv.org/abs/2602.22731)|null|
-|**2026-02-26**|**QuadSync: Quadrifocal Tensor Synchronization via Tucker Decomposition**|Daniel Miao et.al.|[2602.22639](https://arxiv.org/abs/2602.22639)|null|
-|**2026-02-26**|**GIFSplat: Generative Prior-Guided Iterative Feed-Forward 3D Gaussian Splatting from Sparse Views**|Tianyu Chen et.al.|[2602.22571](https://arxiv.org/abs/2602.22571)|null|
-|**2026-02-26**|**SwiftNDC: Fast Neural Depth Correction for High-Fidelity 3D Reconstruction**|Kang Han et.al.|[2602.22565](https://arxiv.org/abs/2602.22565)|null|
-|**2026-02-25**|**Global-Aware Edge Prioritization for Pose Graph Initialization**|Tong Wei et.al.|[2602.21963](https://arxiv.org/abs/2602.21963)|null|
-|**2026-02-25**|**Geometry-as-context: Modulating Explicit 3D in Scene-consistent Video Generation to Geometry Context**|JiaKui Hu et.al.|[2602.21929](https://arxiv.org/abs/2602.21929)|null|
-|**2026-02-24**|**Event-Aided Sharp Radiance Field Reconstruction for Fast-Flying Drones**|Rong Zou et.al.|[2602.21101](https://arxiv.org/abs/2602.21101)|null|
-|**2026-02-24**|**UFO: Unifying Feed-Forward and Optimization-based Methods for Large Driving Scene Modeling**|Kaiyuan Tan et.al.|[2602.20943](https://arxiv.org/abs/2602.20943)|null|
-|**2026-02-24**|**RU4D-SLAM: Reweighting Uncertainty in Gaussian Splatting SLAM for 4D Scene Reconstruction**|Yangfan Zhao et.al.|[2602.20807](https://arxiv.org/abs/2602.20807)|null|
-|**2026-02-24**|**Monocular Endoscopic Tissue 3D Reconstruction with Multi-Level Geometry Regularization**|Yangsen Chen et.al.|[2602.20718](https://arxiv.org/abs/2602.20718)|null|
-|**2026-02-24**|**From Pairs to Sequences: Track-Aware Policy Gradients for Keypoint Detection**|Yepeng Liu et.al.|[2602.20630](https://arxiv.org/abs/2602.20630)|null|
-|**2026-02-24**|**Long-Term Multi-Session 3D Reconstruction Under Substantial Appearance Change**|Beverley Gorry et.al.|[2602.20584](https://arxiv.org/abs/2602.20584)|null|
-|**2026-02-24**|**Progressive Per-Branch Depth Optimization for DEFOM-Stereo and SAM3 Joint Analysis in UAV Forestry Applications**|Yida Lin et.al.|[2602.20539](https://arxiv.org/abs/2602.20539)|null|
-|**2026-02-23**|**Large-scale Photorealistic Outdoor 3D Scene Reconstruction from UAV Imagery Using Gaussian Splatting Techniques**|Christos Maikos et.al.|[2602.20342](https://arxiv.org/abs/2602.20342)|null|
-|**2026-02-23**|**tttLRM: Test-Time Training for Long Context and Autoregressive 3D Reconstruction**|Chen Wang et.al.|[2602.20160](https://arxiv.org/abs/2602.20160)|null|
-|**2026-02-23**|**Monocular Mesh Recovery and Body Measurement of Female Saanen Goats**|Bo Jin et.al.|[2602.19896](https://arxiv.org/abs/2602.19896)|null|
+|2026-02-26|VGG-T $^3$ : Offline Feed-Forward 3D Reconstruction at Scale|Sven Elflein et.al.|[2602.23361](https://arxiv.org/abs/2602.23361)|null|
+|2026-02-26|UniScale: Unified Scale-Aware 3D Reconstruction for Multi-View Understanding via Prior Injection for Robotic Perception|Mohammad Mahdavian et.al.|[2602.23224](https://arxiv.org/abs/2602.23224)|null|
+|2026-02-26|FLIGHT: Fibonacci Lattice-based Inference for Geometric Heading in real-Time|David Dirnfeld et.al.|[2602.23115](https://arxiv.org/abs/2602.23115)|null|
+|2026-02-26|UCM: Unifying Camera Control and Memory with Time-aware Positional Encoding Warping for World Models|Tianxing Xu et.al.|[2602.22960](https://arxiv.org/abs/2602.22960)|null|
+|2026-02-26|Sapling-NeRF: Geo-Localised Sapling Reconstruction in Forests for Ecological Monitoring|Miguel Ángel Muñoz-Bañón et.al.|[2602.22731](https://arxiv.org/abs/2602.22731)|null|
+|2026-02-26|QuadSync: Quadrifocal Tensor Synchronization via Tucker Decomposition|Daniel Miao et.al.|[2602.22639](https://arxiv.org/abs/2602.22639)|null|
+|2026-02-26|GIFSplat: Generative Prior-Guided Iterative Feed-Forward 3D Gaussian Splatting from Sparse Views|Tianyu Chen et.al.|[2602.22571](https://arxiv.org/abs/2602.22571)|null|
+|2026-02-26|SwiftNDC: Fast Neural Depth Correction for High-Fidelity 3D Reconstruction|Kang Han et.al.|[2602.22565](https://arxiv.org/abs/2602.22565)|null|
+|2026-02-25|Global-Aware Edge Prioritization for Pose Graph Initialization|Tong Wei et.al.|[2602.21963](https://arxiv.org/abs/2602.21963)|null|
+|2026-02-25|Geometry-as-context: Modulating Explicit 3D in Scene-consistent Video Generation to Geometry Context|JiaKui Hu et.al.|[2602.21929](https://arxiv.org/abs/2602.21929)|null|
+|2026-02-24|Event-Aided Sharp Radiance Field Reconstruction for Fast-Flying Drones|Rong Zou et.al.|[2602.21101](https://arxiv.org/abs/2602.21101)|null|
+|2026-02-24|UFO: Unifying Feed-Forward and Optimization-based Methods for Large Driving Scene Modeling|Kaiyuan Tan et.al.|[2602.20943](https://arxiv.org/abs/2602.20943)|null|
+|2026-02-24|RU4D-SLAM: Reweighting Uncertainty in Gaussian Splatting SLAM for 4D Scene Reconstruction|Yangfan Zhao et.al.|[2602.20807](https://arxiv.org/abs/2602.20807)|null|
+|2026-02-24|Monocular Endoscopic Tissue 3D Reconstruction with Multi-Level Geometry Regularization|Yangsen Chen et.al.|[2602.20718](https://arxiv.org/abs/2602.20718)|null|
+|2026-02-24|From Pairs to Sequences: Track-Aware Policy Gradients for Keypoint Detection|Yepeng Liu et.al.|[2602.20630](https://arxiv.org/abs/2602.20630)|null|
+|2026-02-24|Long-Term Multi-Session 3D Reconstruction Under Substantial Appearance Change|Beverley Gorry et.al.|[2602.20584](https://arxiv.org/abs/2602.20584)|null|
+|2026-02-24|Progressive Per-Branch Depth Optimization for DEFOM-Stereo and SAM3 Joint Analysis in UAV Forestry Applications|Yida Lin et.al.|[2602.20539](https://arxiv.org/abs/2602.20539)|null|
+|2026-02-23|Large-scale Photorealistic Outdoor 3D Scene Reconstruction from UAV Imagery Using Gaussian Splatting Techniques|Christos Maikos et.al.|[2602.20342](https://arxiv.org/abs/2602.20342)|null|
+|2026-02-23|tttLRM: Test-Time Training for Long Context and Autoregressive 3D Reconstruction|Chen Wang et.al.|[2602.20160](https://arxiv.org/abs/2602.20160)|null|
+|2026-02-23|Monocular Mesh Recovery and Body Measurement of Female Saanen Goats|Bo Jin et.al.|[2602.19896](https://arxiv.org/abs/2602.19896)|null|
 |2026-02-11|Ctrl&Shift: High-Quality Geometry-Aware Object Manipulation in Visual Generation|Penghui Ruan et.al.|[2602.11440](https://arxiv.org/abs/2602.11440)|null|
 |2026-02-11|Using a 4-megapixel hybrid photon counting detector for fast, lab-based nanoscale x-ray tomography|Jordan Fonseca et.al.|[2602.11375](https://arxiv.org/abs/2602.11375)|null|
 |2026-02-10|ERGO: Excess-Risk-Guided Optimization for High-Fidelity Monocular 3D Gaussian Splatting|Zehua Ma et.al.|[2602.10278](https://arxiv.org/abs/2602.10278)|null|
 |2026-02-10|XSPLAIN: XAI-enabling Splat-based Prototype Learning for Attribute-aware INterpretability|Dominik Galus et.al.|[2602.10239](https://arxiv.org/abs/2602.10239)|null|
-|2026-02-10|Robo3R: Enhancing Robotic Manipulation with Accurate Feed-Forward 3D Reconstruction|Sizhe Yang et.al.|[2602.10101](https://arxiv.org/abs/2602.10101)|**[link](https://github.com/InternRobotics/Robo3R)**|
+|2026-02-10|Robo3R: Enhancing Robotic Manipulation with Accurate Feed-Forward 3D Reconstruction|Sizhe Yang et.al.|[2602.10101](https://arxiv.org/abs/2602.10101)|[link](https://github.com/InternRobotics/Robo3R)|
 |2026-02-10|SARS: A Novel Face and Body Shape and Appearance Aware 3D Reconstruction System extends Morphable Models|Gulraiz Khan et.al.|[2602.09918](https://arxiv.org/abs/2602.09918)|null|
 |2026-02-10|Single-Slice-to-3D Reconstruction in Medical Imaging and Natural Objects: A Comparative Benchmark with SAM 3D|Yan Luo et.al.|[2602.09407](https://arxiv.org/abs/2602.09407)|null|
 |2026-02-09|RealSynCol: a high-fidelity synthetic colon dataset for 3D reconstruction applications|Chiara Lena et.al.|[2602.08397](https://arxiv.org/abs/2602.08397)|null|
@@ -256,7 +256,7 @@
 |2025-03-21|ColabSfM: Collaborative Structure-from-Motion by Point Cloud Registration|Johan Edstedt et.al.|[2503.17093](http://arxiv.org/abs/2503.17093)|[link](https://github.com/ericssonresearch/colabsfm)|
 |2025-03-20|From Monocular Vision to Autonomous Action: Guiding Tumor Resection via 3D Reconstruction|Ayberk Acar et.al.|[2503.16263](http://arxiv.org/abs/2503.16263)|null|
 |2025-03-22|Euclid Quick Data Release (Q1). A first view of the star-forming main sequence in the Euclid Deep Fields|Euclid Collaboration et.al.|[2503.15314](http://arxiv.org/abs/2503.15314)|null|
-|2025-03-18|Multi-view Reconstruction via SfM-guided Monocular Depth Estimation|Haoyu Guo et.al.|[2503.14483](http://arxiv.org/abs/2503.14483)|null|
+|2025-03-18|Multi-view Reconstruction via SfM-guided Monocular Depth Estimation|Haoyu Guo et.al.|[2503.14483](http://arxiv.org/abs/2503.14483)|**[link](https://github.com/zju3dv/Murre)**|
 |2025-03-18|A-SCoRe: Attention-based Scene Coordinate Regression for wide-ranging scenarios|Huy-Hoang Bui et.al.|[2503.13982](http://arxiv.org/abs/2503.13982)|[link](https://github.com/ais-lab/a-score)|
 |2025-03-17|Improving Geometric Consistency for 360-Degree Neural Radiance Fields in Indoor Scenarios|Iryna Repinetska et.al.|[2503.13710](http://arxiv.org/abs/2503.13710)|null|
 |2025-03-17|Gaussian On-the-Fly Splatting: A Progressive Framework for Robust Near Real-Time 3DGS Optimization|Yiwei Xu et.al.|[2503.13086](http://arxiv.org/abs/2503.13086)|null|

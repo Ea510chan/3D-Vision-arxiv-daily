@@ -7,7 +7,7 @@ title: SLAM
   <div>
     <p class="eyebrow">Topic</p>
     <h1>SLAM</h1>
-    <p class="topic-lede">Updated 2026.03.01 · 225 papers</p>
+    <p class="topic-lede">Updated 2026.03.02 · 225 papers</p>
   </div>
   <a class="btn ghost" href="../index.html#topics">← Back to topics</a>
 </section>
@@ -277,7 +277,7 @@ title: SLAM
         <div class="paper-links">
           <a class="chip" href="https://arxiv.org/abs/2512.10128">arXiv</a>
           <a class="chip" href="https://arxiv.org/pdf/2512.10128.pdf">PDF</a>
-          <span class="chip ghost">Code: N/A</span>
+          <a class="chip" href="https://github.com/Huang-Chuan/IM-SLAM">Code</a>
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.10128.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>

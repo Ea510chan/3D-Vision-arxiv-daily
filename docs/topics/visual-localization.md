@@ -7,7 +7,7 @@ title: Visual Localization
   <div>
     <p class="eyebrow">Topic</p>
     <h1>Visual Localization</h1>
-    <p class="topic-lede">Updated 2026.03.01 · 360 papers</p>
+    <p class="topic-lede">Updated 2026.03.02 · 360 papers</p>
   </div>
   <a class="btn ghost" href="../index.html#topics">← Back to topics</a>
 </section>

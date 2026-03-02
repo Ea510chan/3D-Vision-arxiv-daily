@@ -1,25 +1,25 @@
 # Visual Localization
 
-> Updated on 2026.03.01
+> Updated on 2026.03.02
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-02-26**|**VGG-T $^3$ : Offline Feed-Forward 3D Reconstruction at Scale**|Sven Elflein et.al.|[2602.23361](https://arxiv.org/abs/2602.23361)|null|
-|**2026-02-26**|**WISER: Wider Search, Deeper Thinking, and Adaptive Fusion for Training-Free Zero-Shot Composed Image Retrieval**|Tianyue Wang et.al.|[2602.23029](https://arxiv.org/abs/2602.23029)|null|
-|**2026-02-26**|**Autoregressive Visual Decoding from EEG Signals**|Sicheng Dai et.al.|[2602.22555](https://arxiv.org/abs/2602.22555)|null|
-|**2026-02-26**|**Pix2Key: Controllable Open-Vocabulary Retrieval with Semantic Decomposition and Self-Supervised Visual Dictionary Learning**|Guoyizhe Wei et.al.|[2602.22510](https://arxiv.org/abs/2602.22510)|null|
-|**2026-02-25**|**Global-Aware Edge Prioritization for Pose Graph Initialization**|Tong Wei et.al.|[2602.21963](https://arxiv.org/abs/2602.21963)|null|
-|**2026-02-25**|**Automatic Map Density Selection for Locally-Performant Visual Place Recognition**|Somayeh Hussaini et.al.|[2602.21473](https://arxiv.org/abs/2602.21473)|null|
-|**2026-02-24**|**Seeing Through Words: Controlling Visual Retrieval Quality with Language Models**|Jianglin Lu et.al.|[2602.21175](https://arxiv.org/abs/2602.21175)|null|
-|**2026-02-24**|**LST-SLAM: A Stereo Thermal SLAM System for Kilometer-Scale Dynamic Environments**|Zeyu Jiang et.al.|[2602.20925](https://arxiv.org/abs/2602.20925)|null|
-|**2026-02-24**|**Long-Term Multi-Session 3D Reconstruction Under Substantial Appearance Change**|Beverley Gorry et.al.|[2602.20584](https://arxiv.org/abs/2602.20584)|null|
-|**2026-02-23**|**Unlocking Multimodal Document Intelligence: From Current Triumphs to Future Frontiers of Visual Document Retrieval**|Yibo Yan et.al.|[2602.19961](https://arxiv.org/abs/2602.19961)|null|
-|**2026-02-23**|**VGGT-MPR: VGGT-Enhanced Multimodal Place Recognition in Autonomous Driving Environments**|Jingyi Xu et.al.|[2602.19735](https://arxiv.org/abs/2602.19735)|null|
-|**2026-02-23**|**Evaluating the Impact of Data Anonymization on Image Retrieval**|Marvin Chen et.al.|[2602.19641](https://arxiv.org/abs/2602.19641)|null|
-|**2026-02-22**|**Knowledge-aware Visual Question Generation for Remote Sensing Images**|Siran Li et.al.|[2602.19224](https://arxiv.org/abs/2602.19224)|null|
-|**2026-02-22**|**Questions beyond Pixels: Integrating Commonsense Knowledge in Visual Question Generation for Remote Sensing**|Siran Li et.al.|[2602.19217](https://arxiv.org/abs/2602.19217)|null|
-|**2026-02-21**|**IRIS-SLAM: Unified Geo-Instance Representations for Robust Semantic Localization and Mapping**|Tingyang Xiao et.al.|[2602.18709](https://arxiv.org/abs/2602.18709)|null|
-|**2026-02-19**|**VQPP: Video Query Performance Prediction Benchmark**|Adrian Catalin Lutu et.al.|[2602.17814](https://arxiv.org/abs/2602.17814)|null|
+|2026-02-26|VGG-T $^3$ : Offline Feed-Forward 3D Reconstruction at Scale|Sven Elflein et.al.|[2602.23361](https://arxiv.org/abs/2602.23361)|null|
+|2026-02-26|WISER: Wider Search, Deeper Thinking, and Adaptive Fusion for Training-Free Zero-Shot Composed Image Retrieval|Tianyue Wang et.al.|[2602.23029](https://arxiv.org/abs/2602.23029)|null|
+|2026-02-26|Autoregressive Visual Decoding from EEG Signals|Sicheng Dai et.al.|[2602.22555](https://arxiv.org/abs/2602.22555)|null|
+|2026-02-26|Pix2Key: Controllable Open-Vocabulary Retrieval with Semantic Decomposition and Self-Supervised Visual Dictionary Learning|Guoyizhe Wei et.al.|[2602.22510](https://arxiv.org/abs/2602.22510)|null|
+|2026-02-25|Global-Aware Edge Prioritization for Pose Graph Initialization|Tong Wei et.al.|[2602.21963](https://arxiv.org/abs/2602.21963)|null|
+|2026-02-25|Automatic Map Density Selection for Locally-Performant Visual Place Recognition|Somayeh Hussaini et.al.|[2602.21473](https://arxiv.org/abs/2602.21473)|null|
+|2026-02-24|Seeing Through Words: Controlling Visual Retrieval Quality with Language Models|Jianglin Lu et.al.|[2602.21175](https://arxiv.org/abs/2602.21175)|null|
+|2026-02-24|LST-SLAM: A Stereo Thermal SLAM System for Kilometer-Scale Dynamic Environments|Zeyu Jiang et.al.|[2602.20925](https://arxiv.org/abs/2602.20925)|null|
+|2026-02-24|Long-Term Multi-Session 3D Reconstruction Under Substantial Appearance Change|Beverley Gorry et.al.|[2602.20584](https://arxiv.org/abs/2602.20584)|null|
+|2026-02-23|Unlocking Multimodal Document Intelligence: From Current Triumphs to Future Frontiers of Visual Document Retrieval|Yibo Yan et.al.|[2602.19961](https://arxiv.org/abs/2602.19961)|null|
+|2026-02-23|VGGT-MPR: VGGT-Enhanced Multimodal Place Recognition in Autonomous Driving Environments|Jingyi Xu et.al.|[2602.19735](https://arxiv.org/abs/2602.19735)|null|
+|2026-02-23|Evaluating the Impact of Data Anonymization on Image Retrieval|Marvin Chen et.al.|[2602.19641](https://arxiv.org/abs/2602.19641)|null|
+|2026-02-22|Knowledge-aware Visual Question Generation for Remote Sensing Images|Siran Li et.al.|[2602.19224](https://arxiv.org/abs/2602.19224)|null|
+|2026-02-22|Questions beyond Pixels: Integrating Commonsense Knowledge in Visual Question Generation for Remote Sensing|Siran Li et.al.|[2602.19217](https://arxiv.org/abs/2602.19217)|null|
+|2026-02-21|IRIS-SLAM: Unified Geo-Instance Representations for Robust Semantic Localization and Mapping|Tingyang Xiao et.al.|[2602.18709](https://arxiv.org/abs/2602.18709)|null|
+|2026-02-19|VQPP: Video Query Performance Prediction Benchmark|Adrian Catalin Lutu et.al.|[2602.17814](https://arxiv.org/abs/2602.17814)|null|
 |2026-02-12|DiffPlace: Street View Generation via Place-Controllable Diffusion Model Enhancing Place Recognition|Ji Li et.al.|[2602.11875](https://arxiv.org/abs/2602.11875)|null|
 |2026-02-12|Arbitrary Ratio Feature Compression via Next Token Prediction|Yufan Liu et.al.|[2602.11494](https://arxiv.org/abs/2602.11494)|null|
 |2026-02-11|DeepImageSearch: Benchmarking Multimodal Agents for Context-Aware Image Retrieval in Visual Histories|Chenlong Deng et.al.|[2602.10809](https://arxiv.org/abs/2602.10809)|null|

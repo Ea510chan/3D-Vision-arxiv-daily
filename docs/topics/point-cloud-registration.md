@@ -7,7 +7,7 @@ title: Point Cloud Registration
   <div>
     <p class="eyebrow">Topic</p>
     <h1>Point Cloud Registration</h1>
-    <p class="topic-lede">Updated 2026.03.01 · 122 papers</p>
+    <p class="topic-lede">Updated 2026.03.02 · 122 papers</p>
   </div>
   <a class="btn ghost" href="../index.html#topics">← Back to topics</a>
 </section>
@@ -1411,7 +1411,7 @@ title: Point Cloud Registration
         <div class="paper-links">
           <a class="chip" href="https://arxiv.org/abs/2509.06285">arXiv</a>
           <a class="chip" href="https://arxiv.org/pdf/2509.06285.pdf">PDF</a>
-          <span class="chip ghost">Code: N/A</span>
+          <a class="chip" href="https://github.com/JokerJohn/DCReg">Code</a>
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.06285.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
