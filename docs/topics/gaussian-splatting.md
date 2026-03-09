@@ -7,7 +7,7 @@ title: Gaussian Splatting
   <div>
     <p class="eyebrow">Topic</p>
     <h1>Gaussian Splatting</h1>
-    <p class="topic-lede">Updated 2026.03.02 · 577 papers</p>
+    <p class="topic-lede">Updated 2026.03.09 · 577 papers</p>
   </div>
   <a class="btn ghost" href="../index.html#topics">← Back to topics</a>
 </section>
@@ -4498,7 +4498,7 @@ title: Gaussian Splatting
         <div class="paper-links">
           <a class="chip" href="https://arxiv.org/abs/2510.25129">arXiv</a>
           <a class="chip" href="https://arxiv.org/pdf/2510.25129.pdf">PDF</a>
-          <span class="chip ghost">Code: N/A</span>
+          <a class="chip" href="https://github.com/xyzhang77/AtlasGS">Code</a>
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.25129.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
@@ -4813,7 +4813,7 @@ title: Gaussian Splatting
         <div class="paper-links">
           <a class="chip" href="https://arxiv.org/abs/2510.19210">arXiv</a>
           <a class="chip" href="https://arxiv.org/pdf/2510.19210.pdf">PDF</a>
-          <span class="chip ghost">Code: N/A</span>
+          <a class="chip" href="https://github.com/cvsp-lab/MoE-GS">Code</a>
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.19210.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>

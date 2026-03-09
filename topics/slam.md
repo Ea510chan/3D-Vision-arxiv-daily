@@ -1,6 +1,6 @@
 # SLAM
 
-> Updated on 2026.03.02
+> Updated on 2026.03.09
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
@@ -116,8 +116,8 @@
 |2025-06-01|Globally Consistent RGB-D SLAM with 2D Gaussian Splatting|Xingguang Zhong et.al.|[2506.00970](http://arxiv.org/abs/2506.00970)|[link](https://github.com/PRBonn/2DGS-SLAM)|
 |2025-05-30|Black-box Adversarial Attacks on CNN-based SLAM Algorithms|Maria Rafaela Gkeka et.al.|[2505.24654](http://arxiv.org/abs/2505.24654)|null|
 |2025-05-28|Semantic Exploration and Dense Mapping of Complex Environments using Ground Robots Equipped with LiDAR and Panoramic Camera|Xiaoyang Zhan et.al.|[2505.22880](http://arxiv.org/abs/2505.22880)|null|
-|2025-05-28|4DTAM: Non-Rigid Tracking and Mapping via Dynamic Surface Gaussians|Hidenobu Matsuki et.al.|[2505.22859](http://arxiv.org/abs/2505.22859)|null|
-|2025-05-28|UP-SLAM: Adaptively Structured Gaussian SLAM with Uncertainty Prediction in Dynamic Environments|Wancai Zheng et.al.|[2505.22335](http://arxiv.org/abs/2505.22335)|null|
+|2025-05-28|4DTAM: Non-Rigid Tracking and Mapping via Dynamic Surface Gaussians|Hidenobu Matsuki et.al.|[2505.22859](http://arxiv.org/abs/2505.22859)|**[link](https://github.com/muskie82/4dtam)**|
+|2025-05-28|UP-SLAM: Adaptively Structured Gaussian SLAM with Uncertainty Prediction in Dynamic Environments|Wancai Zheng et.al.|[2505.22335](http://arxiv.org/abs/2505.22335)|**[link](https://github.com/Aczheng-cai/up_slam.github.io)**|
 |2025-05-27|HS-SLAM: A Fast and Hybrid Strategy-Based SLAM Approach for Low-Speed Autonomous Driving|Bingxiang Kang et.al.|[2505.20906](http://arxiv.org/abs/2505.20906)|null|
 |2025-05-27|ProBA: Probabilistic Bundle Adjustment with the Bhattacharyya Coefficient|Jason Chui et.al.|[2505.20858](http://arxiv.org/abs/2505.20858)|null|
 |2025-05-26|ADD-SLAM: Adaptive Dynamic Dense SLAM with Gaussian Splatting|Wenhua Wu et.al.|[2505.19420](http://arxiv.org/abs/2505.19420)|null|

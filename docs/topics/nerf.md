@@ -7,7 +7,7 @@ title: NeRF
   <div>
     <p class="eyebrow">Topic</p>
     <h1>NeRF</h1>
-    <p class="topic-lede">Updated 2026.03.02 · 302 papers</p>
+    <p class="topic-lede">Updated 2026.03.09 · 302 papers</p>
   </div>
   <a class="btn ghost" href="../index.html#topics">← Back to topics</a>
 </section>
@@ -5947,7 +5947,7 @@ title: NeRF
         <div class="paper-links">
           <a class="chip" href="https://arxiv.org/abs/2503.15211">arXiv</a>
           <a class="chip" href="https://arxiv.org/pdf/2503.15211.pdf">PDF</a>
-          <span class="chip ghost">Code: N/A</span>
+          <a class="chip" href="https://github.com/ZechuanLi/GO-N3RDet">Code</a>
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.15211.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>

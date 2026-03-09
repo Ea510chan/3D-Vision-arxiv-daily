@@ -1,6 +1,6 @@
 # 3D Reconstruction
 
-> Updated on 2026.03.02
+> Updated on 2026.03.09
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
@@ -239,13 +239,13 @@
 |2025-04-17|Volume Encoding Gaussians: Transfer Function-Agnostic 3D Gaussians for Volume Rendering|Landon Dyken et.al.|[2504.13339](http://arxiv.org/abs/2504.13339)|null|
 |2025-04-15|EDGS: Eliminating Densification for Efficient Convergence of 3DGS|Dmytro Kotovenko et.al.|[2504.13204](http://arxiv.org/abs/2504.13204)|[link](https://github.com/CompVis/EDGS)|
 |2025-04-15|Deep Learning-based Bathymetry Retrieval without In-situ Depths using Remote Sensing Imagery and SfM-MVS DSMs with Data Gaps|Panagiotis Agrafiotis et.al.|[2504.11416](http://arxiv.org/abs/2504.11416)|[link](https://github.com/pagraf/swin-bathyunet)|
-|2025-04-12|A Constrained Optimization Approach for Gaussian Splatting from Coarsely-posed Images and Noisy Lidar Point Clouds|Jizong Peng et.al.|[2504.09129](http://arxiv.org/abs/2504.09129)|null|
+|2025-04-12|A Constrained Optimization Approach for Gaussian Splatting from Coarsely-posed Images and Noisy Lidar Point Clouds|Jizong Peng et.al.|[2504.09129](http://arxiv.org/abs/2504.09129)|**[link](https://github.com/eldentse/contrained-optimization-3dgs)**|
 |2025-04-11|Stereophotoclinometry Revisited|Travis Driver et.al.|[2504.08252](http://arxiv.org/abs/2504.08252)|null|
 |2025-04-08|Implementation of a Zed 2i Stereo Camera for High-Frequency Shoreline Change and Coastal Elevation Monitoring|José A. Pilartes-Congo et.al.|[2504.06464](http://arxiv.org/abs/2504.06464)|null|
 |2025-04-07|Decoding the variability in the star-formation histories of z ~ 0.8 galaxies|Jenny T. Wan et.al.|[2504.05281](http://arxiv.org/abs/2504.05281)|null|
 |2025-04-05|3R-GS: Best Practice in Optimizing Camera Poses Along with 3DGS|Zhisheng Huang et.al.|[2504.04294](http://arxiv.org/abs/2504.04294)|null|
 |2025-04-04|An Algebraic Geometry Approach to Viewing Graph Solvability|Federica Arrigoni et.al.|[2504.03637](http://arxiv.org/abs/2504.03637)|null|
-|2025-04-04|Endo3R: Unified Online Reconstruction from Dynamic Monocular Endoscopic Video|Jiaxin Guo et.al.|[2504.03198](http://arxiv.org/abs/2504.03198)|null|
+|2025-04-04|Endo3R: Unified Online Reconstruction from Dynamic Monocular Endoscopic Video|Jiaxin Guo et.al.|[2504.03198](http://arxiv.org/abs/2504.03198)|**[link](https://github.com/wrld/Endo3R)**|
 |2025-04-03|Adaptive Frequency Enhancement Network for Remote Sensing Image Semantic Segmentation|Feng Gao et.al.|[2504.02647](http://arxiv.org/abs/2504.02647)|[link](https://github.com/oucailab/afenet)|
 |2025-04-09|FIORD: A Fisheye Indoor-Outdoor Dataset with LIDAR Ground Truth for 3D Scene Reconstruction and Benchmarking|Ulas Gunes et.al.|[2504.01732](http://arxiv.org/abs/2504.01732)|null|
 |2025-03-31|LITA-GS: Illumination-Agnostic Novel View Synthesis via Reference-Free 3D Gaussian Splatting and Physical Priors|Han Zhou et.al.|[2504.00219](http://arxiv.org/abs/2504.00219)|null|
@@ -256,7 +256,7 @@
 |2025-03-21|ColabSfM: Collaborative Structure-from-Motion by Point Cloud Registration|Johan Edstedt et.al.|[2503.17093](http://arxiv.org/abs/2503.17093)|[link](https://github.com/ericssonresearch/colabsfm)|
 |2025-03-20|From Monocular Vision to Autonomous Action: Guiding Tumor Resection via 3D Reconstruction|Ayberk Acar et.al.|[2503.16263](http://arxiv.org/abs/2503.16263)|null|
 |2025-03-22|Euclid Quick Data Release (Q1). A first view of the star-forming main sequence in the Euclid Deep Fields|Euclid Collaboration et.al.|[2503.15314](http://arxiv.org/abs/2503.15314)|null|
-|2025-03-18|Multi-view Reconstruction via SfM-guided Monocular Depth Estimation|Haoyu Guo et.al.|[2503.14483](http://arxiv.org/abs/2503.14483)|**[link](https://github.com/zju3dv/Murre)**|
+|2025-03-18|Multi-view Reconstruction via SfM-guided Monocular Depth Estimation|Haoyu Guo et.al.|[2503.14483](http://arxiv.org/abs/2503.14483)|[link](https://github.com/zju3dv/Murre)|
 |2025-03-18|A-SCoRe: Attention-based Scene Coordinate Regression for wide-ranging scenarios|Huy-Hoang Bui et.al.|[2503.13982](http://arxiv.org/abs/2503.13982)|[link](https://github.com/ais-lab/a-score)|
 |2025-03-17|Improving Geometric Consistency for 360-Degree Neural Radiance Fields in Indoor Scenarios|Iryna Repinetska et.al.|[2503.13710](http://arxiv.org/abs/2503.13710)|null|
 |2025-03-17|Gaussian On-the-Fly Splatting: A Progressive Framework for Robust Near Real-Time 3DGS Optimization|Yiwei Xu et.al.|[2503.13086](http://arxiv.org/abs/2503.13086)|null|

@@ -1,6 +1,6 @@
 # Gaussian Splatting
 
-> Updated on 2026.03.02
+> Updated on 2026.03.09
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
@@ -449,7 +449,7 @@
 |2025-05-16|GrowSplat: Constructing Temporal Digital Twins of Plants with Gaussian Splats|Simeon Adebola et.al.|[2505.10923](http://arxiv.org/abs/2505.10923)|null|
 |2025-05-14|Real2Render2Real: Scaling Robot Data Without Dynamics Simulation or Robot Hardware|Justin Yu et.al.|[2505.09601](http://arxiv.org/abs/2505.09601)|null|
 |2025-05-14|Neural Video Compression using 2D Gaussian Splatting|Lakshya Gupta et.al.|[2505.09324](http://arxiv.org/abs/2505.09324)|null|
-|2025-05-13|NavDP: Learning Sim-to-Real Navigation Diffusion Policy with Privileged Information Guidance|Wenzhe Cai et.al.|[2505.08712](http://arxiv.org/abs/2505.08712)|null|
+|2025-05-13|NavDP: Learning Sim-to-Real Navigation Diffusion Policy with Privileged Information Guidance|Wenzhe Cai et.al.|[2505.08712](http://arxiv.org/abs/2505.08712)|**[link](https://github.com/InternRobotics/NavDP)**|
 |2025-05-13|DLO-Splatting: Tracking Deformable Linear Objects Using 3D Gaussian Splatting|Holly Dinkel et.al.|[2505.08644](http://arxiv.org/abs/2505.08644)|null|
 |2025-05-13|FOCI: Trajectory Optimization on Gaussian Splats|Mario Gomez Andreu et.al.|[2505.08510](http://arxiv.org/abs/2505.08510)|null|
 |2025-05-13|A Survey of 3D Reconstruction with Event Cameras: From Event-based Geometry to Neural 3D Rendering|Chuanzhi Xu et.al.|[2505.08438](http://arxiv.org/abs/2505.08438)|null|

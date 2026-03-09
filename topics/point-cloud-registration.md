@@ -1,6 +1,6 @@
 # Point Cloud Registration
 
-> Updated on 2026.03.02
+> Updated on 2026.03.09
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
@@ -85,12 +85,12 @@
 |2025-07-03|TurboReg: TurboClique for Robust and Efficient Point Cloud Registration|Shaocheng Yan et.al.|[2507.01439](http://arxiv.org/abs/2507.01439)|null|
 |2025-06-26|CA-I2P: Channel-Adaptive Registration Network with Global Optimal Selection|Zhixin Cheng et.al.|[2506.21364](http://arxiv.org/abs/2506.21364)|null|
 |2025-06-18|Correspondence-Free Multiview Point Cloud Registration via Depth-Guided Joint Optimisation|Yiran Zhou et.al.|[2506.18922](http://arxiv.org/abs/2506.18922)|null|
-|2025-06-18|BCRNet: Enhancing Landmark Detection in Laparoscopic Liver Surgery via Bezier Curve Refinement|Qian Li et.al.|[2506.15279](http://arxiv.org/abs/2506.15279)|null|
-|2025-06-16|MT-PCR: A Hybrid Mamba-Transformer with Spatial Serialization for Hierarchical Point Cloud Registration|Bingxi Liu et.al.|[2506.13183](http://arxiv.org/abs/2506.13183)|null|
+|2025-06-18|BCRNet: Enhancing Landmark Detection in Laparoscopic Liver Surgery via Bezier Curve Refinement|Qian Li et.al.|[2506.15279](http://arxiv.org/abs/2506.15279)|**[link](https://github.com/jinlab-imvr/BCRNet)**|
+|2025-06-16|MT-PCR: A Hybrid Mamba-Transformer with Spatial Serialization for Hierarchical Point Cloud Registration|Bingxi Liu et.al.|[2506.13183](http://arxiv.org/abs/2506.13183)|**[link](https://github.com/an1iu/MT-PCR)**|
 |2025-06-13|Robust Filtering -- Novel Statistical Learning and Inference Algorithms with Applications|Aamir Hussain Chughtai et.al.|[2506.11530](http://arxiv.org/abs/2506.11530)|null|
 |2025-06-11|Accurate and efficient zero-shot 6D pose estimation with frozen foundation models|Andrea Caraffa et.al.|[2506.09784](http://arxiv.org/abs/2506.09784)|null|
-|2025-06-05|Rectified Point Flow: Generic Point Cloud Pose Estimation|Tao Sun et.al.|[2506.05282](http://arxiv.org/abs/2506.05282)|null|
-|2025-06-03|Guiding Registration with Emergent Similarity from Pre-Trained Diffusion Models|Nurislam Tursynbek et.al.|[2506.02419](http://arxiv.org/abs/2506.02419)|null|
+|2025-06-05|Rectified Point Flow: Generic Point Cloud Pose Estimation|Tao Sun et.al.|[2506.05282](http://arxiv.org/abs/2506.05282)|**[link](https://github.com/GradientSpaces/Rectified-Point-Flow)**|
+|2025-06-03|Guiding Registration with Emergent Similarity from Pre-Trained Diffusion Models|Nurislam Tursynbek et.al.|[2506.02419](http://arxiv.org/abs/2506.02419)|**[link](https://github.com/uncbiag/dgir)**|
 |2025-05-30|A 3D Mobile Crowdsensing Framework for Sustainable Urban Digital Twins|Taku Yamazaki et.al.|[2505.24348](http://arxiv.org/abs/2505.24348)|null|
 |2025-05-23|A Coarse to Fine 3D LiDAR Localization with Deep Local Features for Long Term Robot Navigation in Large Environments|Míriam Máximo et.al.|[2505.18340](http://arxiv.org/abs/2505.18340)|[link](https://github.com/miriammaximo/mcl-dlf)|
 |2025-05-22|D-LIO: 6DoF Direct LiDAR-Inertial Odometry based on Simultaneous Truncated Distance Field Mapping|Lucia Coto-Elena et.al.|[2505.16726](http://arxiv.org/abs/2505.16726)|[link](https://github.com/robotics-upo/D-LIO)|

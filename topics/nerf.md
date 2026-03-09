@@ -1,6 +1,6 @@
 # NeRF
 
-> Updated on 2026.03.02
+> Updated on 2026.03.09
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
@@ -100,7 +100,7 @@
 |2025-10-29|4-Doodle: Text to 3D Sketches that Move!|Hao Chen et.al.|[2510.25319](http://arxiv.org/abs/2510.25319)|null|
 |2025-10-25|I2-NeRF: Learning Neural Radiance Fields Under Physically-Grounded Media Interactions|Shuhong Liu et.al.|[2510.22161](http://arxiv.org/abs/2510.22161)|null|
 |2025-10-23|From Far and Near: Perceptual Evaluation of Crowd Representations Across Levels of Detail|Xiaohan Sun et.al.|[2510.20558](http://arxiv.org/abs/2510.20558)|null|
-|2025-10-22|Extreme Views: 3DGS Filter for Novel View Synthesis from Out-of-Distribution Camera Poses|Damian Bowness et.al.|[2510.20027](http://arxiv.org/abs/2510.20027)|**[link](https://github.com/damian-bowness/EV3DGS)**|
+|2025-10-22|Extreme Views: 3DGS Filter for Novel View Synthesis from Out-of-Distribution Camera Poses|Damian Bowness et.al.|[2510.20027](http://arxiv.org/abs/2510.20027)|[link](https://github.com/damian-bowness/EV3DGS)|
 |2025-10-22|AegisRF: Adversarial Perturbations Guided with Sensitivity for Protecting Intellectual Property of Neural Radiance Fields|Woo Jae Kim et.al.|[2510.19371](http://arxiv.org/abs/2510.19371)|null|
 |2025-10-22|Advances in 4D Representation: Geometry, Motion, and Interaction|Mingrui Zhao et.al.|[2510.19255](http://arxiv.org/abs/2510.19255)|null|
 |2025-11-03|GauSSmart: Enhanced 3D Reconstruction through 2D Foundation Models and Geometric Filtering|Alexander Valverde et.al.|[2510.14270](http://arxiv.org/abs/2510.14270)|null|
