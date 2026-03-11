@@ -7,7 +7,7 @@ title: SLAM
   <div>
     <p class="eyebrow">Topic</p>
     <h1>SLAM</h1>
-    <p class="topic-lede">Updated 2026.03.09 · 225 papers</p>
+    <p class="topic-lede">Updated 2026.03.11 · 226 papers</p>
   </div>
   <a class="btn ghost" href="../index.html#topics">← Back to topics</a>
 </section>
@@ -16,9 +16,30 @@ title: SLAM
   <article class="paper-card">
     <details class="paper-details">
       <summary>
+        <span class="paper-title">Edged USLAM: Edge-Aware Event-Based SLAM with Learning-Based Depth Priors</span>
+        <span class="paper-authors">Şebnem Sarıözkan, Hürkan Şahin, Olaya Álvarez-Tuñón, Erdal Kayacan</span>
+        <span class="paper-meta">Updated 2026-03-09</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Conventional visual simultaneous localization and mapping (SLAM) algorithms often fail under rapid motion, low illumination, or abrupt lighting transitions due to motion blur and limited dynamic range. Event cameras mitigate these issues with high temporal resolution and high dynamic range (HDR), but their sparse, asynchronous outputs complicate feature extraction and integration with other sensors; e.g. inertial measurement units (IMUs) and standard cameras. We present Edged USLAM, a hybrid visual-inertial system that extends Ultimate SLAM (USLAM) with an edge-aware front-end and a lightweight depth module. The frontend enhances event frames for robust feature tracking and nonlinear motion compensation, while the depth module provides coarse, region-of-interest (ROI)-based scene depth to improve motion compensation and scale consistency. Evaluations across public benchmarks and real-world unmanned air vehicle (UAV) flights demonstrate that performance varies significantly by scenario. For instance, event-only methods like point-line event-based visual-inertial odometry (PL-EVIO) or learning-based pipelines such as deep event-based visual odometry (DEVO) excel in highly aggressive or extreme HDR conditions. In contrast, Edged USLAM provides superior stability and minimal drift in slow or structured trajectories, ensuring consistently accurate localization on real flights under challenging illumination. These findings highlight the complementary strengths of event-only, learning-based, and hybrid approaches, while positioning Edged USLAM as a robust solution for diverse aerial navigation tasks.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.08150">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.08150.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.08150.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
         <span class="paper-title">Motion-aware Event Suppression for Event Cameras</span>
         <span class="paper-authors">Roberto Pellerito, Nico Messikommer, Giovanni Cioffi, Marco Cannici, Davide Scaramuzza</span>
-        <span class="paper-meta">Updated 2026-02-26</span>
+        <span class="paper-meta">Updated 2026-02-27</span>
       </summary>
       <div class="paper-body">
         <p class="paper-abstract">In this work, we introduce the first framework for Motion-aware Event Suppression, which learns to filter events triggered by IMOs and ego-motion in real time. Our model jointly segments IMOs in the current event stream while predicting their future motion, enabling anticipatory suppression of dynamic events before they occur. Our lightweight architecture achieves 173 Hz inference on consumer-grade GPUs with less than 1 GB of memory usage, outperforming previous state-of-the-art methods on the challenging EVIMO benchmark by 67\% in segmentation accuracy while operating at a 53\% higher inference rate. Moreover, we demonstrate significant benefits for downstream applications: our method accelerates Vision Transformer inference by 83\% via token pruning and improves event-based visual odometry accuracy, reducing Absolute Trajectory Error (ATE) by 13\%.</p>
@@ -67,7 +88,7 @@ title: SLAM
         <div class="paper-links">
           <a class="chip" href="https://arxiv.org/abs/2602.19035">arXiv</a>
           <a class="chip" href="https://arxiv.org/pdf/2602.19035.pdf">PDF</a>
-          <a class="chip" href="https://github.com/Ufere/Assingment_1">Code</a>
+          <span class="chip ghost">Code: N/A</span>
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.19035.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>

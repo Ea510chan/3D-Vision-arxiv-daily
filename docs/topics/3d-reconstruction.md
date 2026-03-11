@@ -7,12 +7,222 @@ title: 3D Reconstruction
   <div>
     <p class="eyebrow">Topic</p>
     <h1>3D Reconstruction</h1>
-    <p class="topic-lede">Updated 2026.03.09 · 267 papers</p>
+    <p class="topic-lede">Updated 2026.03.11 · 277 papers</p>
   </div>
   <a class="btn ghost" href="../index.html#topics">← Back to topics</a>
 </section>
 
 <section class="paper-grid">
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">NLiPsCalib: An Efficient Calibration Framework for High-Fidelity 3D Reconstruction of Curved Visuotactile Sensors</span>
+        <span class="paper-authors">Xuhao Qin, Feiyu Zhao, Yatao Leng, Runze Hu, Chenxi Xiao</span>
+        <span class="paper-meta">Updated 2026-03-10</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Recent advances in visuotactile sensors increasingly employ biomimetic curved surfaces to enhance sensorimotor capabilities. Although such curved visuotactile sensors enable more conformal object contact, their perceptual quality is often degraded by non-uniform illumination, which reduces reconstruction accuracy and typically necessitates calibration. Existing calibration methods commonly rely on customized indenters and specialized devices to collect large-scale photometric data, but these processes are expensive and labor-intensive. To overcome these calibration challenges, we present NLiPsCalib, a physics-consistent and efficient calibration framework for curved visuotactile sensors. NLiPsCalib integrates controllable near-field light sources and leverages Near-Light Photometric Stereo (NLiPs) to estimate contact geometry, simplifying calibration to just a few simple contacts with everyday objects. We further introduce NLiPsTac, a controllable-light-source tactile sensor developed to validate our framework. Experimental results demonstrate that our approach enables high-fidelity 3D reconstruction across diverse curved form factors with a simple calibration procedure. We emphasize that our approach lowers the barrier to developing customized visuotactile sensors of diverse geometries, thereby making visuotactile sensing more accessible to the broader community.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.09319">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.09319.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.09319.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Implicit Geometry Representations for Vision-and-Language Navigation from Web Videos</span>
+        <span class="paper-authors">Mingfei Han, Haihong Hao, Liang Ma, Kamila Zhumakhanova, Ekaterina Radionova, Jingyi Zhang, Xiaojun Chang, Xiaodan Liang, Ivan Laptev</span>
+        <span class="paper-meta">Updated 2026-03-10</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Vision-and-Language Navigation (VLN) has long been constrained by the limited diversity and scalability of simulator-curated datasets, which fail to capture the complexity of real-world environments. To overcome this limitation, we introduce a large-scale video-instruction framework derived from web-based room tour videos, enabling agents to learn from natural human walking demonstrations in diverse, realistic indoor settings. Unlike existing datasets, our framework integrates both open-ended description-enriched trajectories and action-enriched trajectories reconstructed in 3D, providing richer spatial and semantic supervision. A key extension in this work is the incorporation of implicit geometry representations, which extract spatial cues directly from RGB frames without requiring fragile 3D reconstruction. This approach substantially improves data utilization, alleviates reconstruction failures, and unlocks large portions of previously unusable video data. Comprehensive experiments across multiple VLN benchmarks (CVDN, SOON, R2R, and REVERIE) demonstrate that our method not only sets new state-of-the-art performance but also enables the development of robust zero-shot navigation agents. By bridging large-scale web videos with implicit spatial reasoning, this work advances embodied navigation towards more scalable, generalizable, and real-world applicable solutions.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.09259">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.09259.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.09259.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">OSCAR: Occupancy-based Shape Completion via Acoustic Neural Implicit Representations</span>
+        <span class="paper-authors">Magdalena Wysocki, Kadir Burak Buldu, Miruna-Alexandra Gafencu, Mohammad Farid Azampour, Nassir Navab</span>
+        <span class="paper-meta">Updated 2026-03-09</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Accurate 3D reconstruction of vertebral anatomy from ultrasound is important for guiding minimally invasive spine interventions, but it remains challenging due to acoustic shadowing and view-dependent signal variations. We propose an occupancy-based shape completion method that reconstructs complete 3D anatomical geometry from partial ultrasound observations. Crucially for intra-operative applications, our approach extracts the anatomical surface directly from the image, avoiding the need for anatomical labels during inference. This label-free completion relies on a coupled latent space representing both the image appearance and the underlying anatomical shape. By leveraging a Neural Implicit Representation (NIR) that jointly models both spatial occupancy and acoustic interactions, the method uses acoustic parameters to become implicitly aware of the unseen regions without explicit shadowing labels through tracking acoustic signal transmission. We show that this method outperforms state-of-the-art shape completion for B-mode ultrasound by 80% in HD95 score. We validate our approach both in-silico and on phantom US images with registered mesh models from CT labels, demonstrating accurate reconstruction of occluded anatomy and robust generalization across diverse imaging conditions. Code and data will be released on publication.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.08279">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.08279.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.08279.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Speed3R: Sparse Feed-forward 3D Reconstruction Models</span>
+        <span class="paper-authors">Weining Ren, Xiao Tan, Kai Han</span>
+        <span class="paper-meta">Updated 2026-03-09</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">While recent feed-forward 3D reconstruction models accelerate 3D reconstruction by jointly inferring dense geometry and camera poses in a single pass, their reliance on dense attention imposes a quadratic complexity, creating a prohibitive computational bottleneck that severely limits inference speed. To resolve this, we introduce Speed3R, an end-to-end trainable model inspired by the core principle of Structure-from-Motion: that a sparse set of keypoints is sufficient for robust pose estimation. Speed3R features a dual-branch attention mechanism where a compression branch creates a coarse contextual prior to guide a selection branch, which performs fine-grained attention only on the most informative image tokens. This strategy mimics the efficiency of traditional keypoint matching, achieving a remarkable 12.4x inference speedup on 1000-view sequences, while introducing a minimal, controlled trade-off in geometric accuracy. Validated on standard benchmarks with both VGGT and $π^3$ backbones, our method delivers high-quality reconstructions at a fraction of computational cost, paving the way for efficient large-scale scene modeling.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.08055">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.08055.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.08055.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">$L^3$:Scene-agnostic Visual Localization in the Wild</span>
+        <span class="paper-authors">Yu Zhang, Muhua Zhu, Yifei Xue, Tie Ji, Yizhen Lao</span>
+        <span class="paper-meta">Updated 2026-03-09</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Standard visual localization methods typically require offline pre-processing of scenes to obtain 3D structural information for better performance. This inevitably introduces additional computational and time costs, as well as the overhead of storing scene representations. Can we visually localize in a wild scene without any off-line preprocessing step? In this paper, we leverage the online inference capabilities of feed-forward 3D reconstruction networks to propose a novel map-free visual localization framework $L^3$. Specifically, by performing direct online 3D reconstruction on RGB images, followed by two-stage metric scale recovery and pose refinement based on 2D-3D correspondences, $L^3$ achieves high accuracy without the need to pre-build or store any offline scene representations. Extensive experiments demonstrate $L^3$ not only that the performance is comparable to state-of-the-art solutions on various benchmarks, but also that it exhibits significantly superior robustness in sparse scenes (fewer reference images per scene).</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.07937">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.07937.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.07937.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">FrameVGGT: Frame Evidence Rolling Memory for streaming VGGT</span>
+        <span class="paper-authors">Zhisong Xu, Takeshi Oishi</span>
+        <span class="paper-meta">Updated 2026-03-08</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Streaming Visual Geometry Transformers such as StreamVGGT enable strong online 3D perception but suffer from unbounded KV-cache growth, which limits deployment over long streams. We revisit bounded-memory streaming from the perspective of geometric support. In geometry-driven reasoning, memory quality depends not only on how many tokens are retained, but also on whether the retained memory still preserves sufficiently coherent local support. This suggests that token-level retention may become less suitable under fixed budgets, as it can thin the evidence available within each contributing frame and make subsequent fusion more sensitive to weakly aligned history. Motivated by this observation, we propose FrameVGGT, a frame-driven rolling explicit-memory framework that treats each frame&#x27;s incremental KV contribution as a coherent evidence block. FrameVGGT summarizes each block into a compact prototype and maintains a fixed-capacity mid-term bank of complementary frame blocks under strict budgets, with an optional lightweight anchor tier for rare prolonged degradation. Across long-sequence 3D reconstruction, video depth estimation, and camera pose benchmarks, FrameVGGT achieves favorable accuracy--memory trade-offs under bounded memory, while maintaining more stable geometry over long streams.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.07690">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.07690.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.07690.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">ACCURATE: Arbitrary-shaped Continuum Reconstruction Under Robust Adaptive Two-view Estimation</span>
+        <span class="paper-authors">Yaozhi Zhang, Shun Yu, Yugang Zhang, Yang Liu</span>
+        <span class="paper-meta">Updated 2026-03-08</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Accurate reconstruction of arbitrary-shaped long slender continuum bodies, such as guidewires, catheters and other soft continuum manipulators, is essential for accurate mechanical simulation. However, existing image-based reconstruction approaches often suffer from limited accuracy because they often underutilize camera geometry, or lack generality as they rely on rigid geometric assumptions that may fail for continuum robots with complex and highly deformable shapes. To address these limitations, we propose ACCURATE, a 3D reconstruction framework integrating an image segmentation neural network with a geometry-constrained topology traversal and dynamic programming algorithm that enforces global biplanar geometric consistency, minimizes the cumulative point-to-epipolar-line distance, and remains robust to occlusions and epipolar ambiguities cases caused by noise and discretization. Our method achieves high reconstruction accuracy on both simulated and real phantom datasets acquired using a clinical X-ray C-arm system, with mean absolute errors below 1.0 mm.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.07533">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.07533.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.07533.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">DogWeave: High-Fidelity 3D Canine Reconstruction from a Single Image via Normal Fusion and Conditional Inpainting</span>
+        <span class="paper-authors">Shufan Sun, Chenchen Wang, Zongfu Yu</span>
+        <span class="paper-meta">Updated 2026-03-08</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Monocular 3D animal reconstruction is challenging due to complex articulation, self-occlusion, and fine-scale details such as fur. Existing methods often produce distorted geometry and inconsistent textures due to the lack of articulated 3D supervision and limited availability of back-view images in 2D datasets, which makes reconstructing unobserved regions particularly difficult. To address these limitations, we propose DogWeave, a model-based framework for reconstructing high-fidelity 3D canine models from a single RGB image. DogWeave improves geometry by refining a coarsely-initiated parametric mesh into a detailed SDF representation through multi-view normal field optimization using diffusion-enhanced normals. It then generates view-consistent textures through conditional partial inpainting guided by structure and style cues, enabling realistic reconstruction of unobserved regions. Using only about 7,000 dog images processed via our 2D pipeline for training, DogWeave produces complete, realistic 3D models and outperforms state-of-the-art single image to 3d reconstruction methods in both shape accuracy and texture realism for canines.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.07441">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.07441.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.07441.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">SurgCUT3R: Surgical Scene-Aware Continuous Understanding of Temporal 3D Representation</span>
+        <span class="paper-authors">Kaiyuan Xu, Fangzhou Hong, Daniel Elson, Baoru Huang</span>
+        <span class="paper-meta">Updated 2026-03-07</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Reconstructing surgical scenes from monocular endoscopic video is critical for advancing robotic-assisted surgery. However, the application of state-of-the-art general-purpose reconstruction models is constrained by two key challenges: the lack of supervised training data and performance degradation over long video sequences. To overcome these limitations, we propose SurgCUT3R, a systematic framework that adapts unified 3D reconstruction models to the surgical domain. Our contributions are threefold. First, we develop a data generation pipeline that exploits public stereo surgical datasets to produce large-scale, metric-scale pseudo-ground-truth depth maps, effectively bridging the data gap. Second, we propose a hybrid supervision strategy that couples our pseudo-ground-truth with geometric self-correction to enhance robustness against inherent data imperfections. Third, we introduce a hierarchical inference framework that employs two specialized models to effectively mitigate accumulated pose drift over long surgical videos: one for global stability and one for local accuracy. Experiments on the SCARED and StereoMIS datasets demonstrate that our method achieves a competitive balance between accuracy and efficiency, delivering near state-of-the-art but substantially faster pose estimation and offering a practical and effective solution for robust reconstruction in surgical environments. Project page: https://chumo-xu.github.io/SurgCUT3R-ICRA26/.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.06971">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.06971.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.06971.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Virtual Intraoperative CT (viCT): Sequential Anatomic Updates for Modeling Tissue Resection Throughout Endoscopic Sinus Surgery</span>
+        <span class="paper-authors">Nicole M. Gunderson, Graham J. Harris, Jeremy S. Ruthberg, Pengcheng Chen, Di Mao, Randall A. Bly, Waleed M. Abuzeid, Eric J. Seibel</span>
+        <span class="paper-meta">Updated 2026-03-07</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Purpose: Incomplete dissection is a common cause of persistent disease and revision endoscopic sinus surgery (ESS) in chronic rhinosinusitis. Current image-guided surgery systems typically reference static preoperative CT (pCT), and do not model evolving resection boundaries. We present Virtual Intraoperative CT (viCT), a method for sequentially updating pCT throughout ESS using intraoperative 3D reconstructions from monocular endoscopic video to enable visualization of evolving anatomy in CT format.   Methods: Monocular endoscopic video is processed using a depth-supervised NeRF framework with virtual stereo synthesis to generate metrically scaled 3D reconstructions at multiple surgical intervals. Reconstructions undergo rigid, landmark-based registration in 3D Slicer guided by anatomical correspondences, and are then voxelized into the pCT grid. viCT volumes were generated using a ray-based occupancy comparison between pCT and reconstruction to delete outdated voxels and remap preserved anatomy and updated boundaries. Performance is evaluated in a cadaveric feasibility study of four specimens across four ESS stages using volumetric overlap (DSC, Jaccard) and surface metrics (HD95, Chamfer, MSD, RMSD), and qualitative comparisons to ground-truth CT.   Results: viCT updates show agreement with ground-truth anatomy across surgical stages, with submillimeter mean surface errors. Dice Similarity Coefficient (DSC) = 0.88 +/- 0.05 and Jaccard Index = 0.79 +/- 0.07, and Hausdorff Distance 95% (HD95) = 0.69 +/- 0.28 mm, Chamfer Distance = 0.09 +/- 0.05 mm, Mean Surface Distance (MSD) = 0.11 +/- 0.05 mm, and Root Mean Square Distance (RMSD) = 0.32 +/- 0.10 mm.   Conclusion: viCT enables CT-format anatomic updating in an ESS setting without ancillary hardware. Future work will focus on fully automating registration, validation in live cases, and optimizing runtime for real-time deployment.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.06956">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.06956.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.06956.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
   <article class="paper-card">
     <details class="paper-details">
       <summary>

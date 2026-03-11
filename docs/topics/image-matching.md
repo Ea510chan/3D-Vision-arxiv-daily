@@ -7,7 +7,7 @@ title: Image Matching
   <div>
     <p class="eyebrow">Topic</p>
     <h1>Image Matching</h1>
-    <p class="topic-lede">Updated 2026.03.09 · 147 papers</p>
+    <p class="topic-lede">Updated 2026.03.11 · 151 papers</p>
   </div>
   <a class="btn ghost" href="../index.html#topics">← Back to topics</a>
 </section>
@@ -16,9 +16,93 @@ title: Image Matching
   <article class="paper-card">
     <details class="paper-details">
       <summary>
+        <span class="paper-title">Enhancing Cross-View UAV Geolocalization via LVLM-Driven Relational Modeling</span>
+        <span class="paper-authors">Bowen Liu, Pengyue Jia, Wanyu Wang, Derong Xu, Jiawei Cheng, Jiancheng Dong, Xiao Han, Zimo Zhao, Chao Zhang, Bowen Yu, Fangyu Hong, Xiangyu Zhao</span>
+        <span class="paper-meta">Updated 2026-03-09</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">The primary objective of cross-view UAV geolocalization is to identify the exact spatial coordinates of drone-captured imagery by aligning it with extensive, geo-referenced satellite databases. Current approaches typically extract features independently from each perspective and rely on basic heuristics to compute similarity, thereby failing to explicitly capture the essential interactions between different views. To address this limitation, we introduce a novel, plug-and-play ranking architecture designed to explicitly perform joint relational modeling for improved UAV-to-satellite image matching. By harnessing the capabilities of a Large Vision-Language Model (LVLM), our framework effectively learns the deep visual-semantic correlations linking UAV and satellite imagery. Furthermore, we present a novel relational-aware loss function to optimize the training phase. By employing soft labels, this loss provides fine-grained supervision that avoids overly penalizing near-positive matches, ultimately boosting both the model&#x27;s discriminative power and training stability. Comprehensive evaluations across various baseline architectures and standard benchmarks reveal that the proposed method substantially boosts the retrieval accuracy of existing models, yielding superior performance even under highly demanding conditions.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.08063">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.08063.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.08063.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Speed3R: Sparse Feed-forward 3D Reconstruction Models</span>
+        <span class="paper-authors">Weining Ren, Xiao Tan, Kai Han</span>
+        <span class="paper-meta">Updated 2026-03-09</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">While recent feed-forward 3D reconstruction models accelerate 3D reconstruction by jointly inferring dense geometry and camera poses in a single pass, their reliance on dense attention imposes a quadratic complexity, creating a prohibitive computational bottleneck that severely limits inference speed. To resolve this, we introduce Speed3R, an end-to-end trainable model inspired by the core principle of Structure-from-Motion: that a sparse set of keypoints is sufficient for robust pose estimation. Speed3R features a dual-branch attention mechanism where a compression branch creates a coarse contextual prior to guide a selection branch, which performs fine-grained attention only on the most informative image tokens. This strategy mimics the efficiency of traditional keypoint matching, achieving a remarkable 12.4x inference speedup on 1000-view sequences, while introducing a minimal, controlled trade-off in geometric accuracy. Validated on standard benchmarks with both VGGT and $π^3$ backbones, our method delivers high-quality reconstructions at a fraction of computational cost, paving the way for efficient large-scale scene modeling.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.08055">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.08055.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.08055.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">EventGeM: Global-to-Local Feature Matching for Event-Based Visual Place Recognition</span>
+        <span class="paper-authors">Adam D. Hines, Gokul B. Nair, Nicolás Marticorena, Michael Milford, Tobias Fischer</span>
+        <span class="paper-meta">Updated 2026-03-06</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Dynamic vision sensors, also known as event cameras, are rapidly rising in popularity for robotic and computer vision tasks due to their sparse activation and high-temporal resolution. Event cameras have been used in robotic navigation and localization tasks where accurate positioning needs to occur on small and frequent time scales, or when energy concerns are paramount. In this work, we present EventGeM, a state-of-the-art global to local feature fusion pipeline for event-based Visual Place Recognition. We use a pre-trained vision transformer (ViT-S/16) backbone to obtain global feature patch for initial match predictions embeddings from event histogram images. Local feature keypoints were then detected using a pre-trained MaxViT backbone for 2D-homography based re-ranking with RANSAC. For additional re-ranking refinement, we subsequently used a pre-trained vision foundation model for depth estimation to compare structural similarity between references and queries. Our work performs state-of-the-art localization when compared to the best currently available event-based place recognition method across several benchmark datasets and lighting conditions all whilst being fully capable of running in real-time when deployed across a variety of compute architectures. We demonstrate the capability of EventGeM in a real-world deployment on a robotic platform for online localization using event streams directly from an event camera. Project page: https://eventgemvpr.github.io/</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.05807">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.05807.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.05807.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">No Calibration, No Depth, No Problem: Cross-Sensor View Synthesis with 3D Consistency</span>
+        <span class="paper-authors">Cho-Ying Wu, Zixun Huang, Xinyu Huang, Liu Ren</span>
+        <span class="paper-meta">Updated 2026-02-27</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">We present the first study of cross-sensor view synthesis across different modalities. We examine a practical, fundamental, yet widely overlooked problem: getting aligned RGB-X data, where most RGB-X prior work assumes such pairs exist and focuses on modality fusion, but it empirically requires huge engineering effort in calibration. We propose a match-densify-consolidate method. First, we perform RGB-X image matching followed by guided point densification. Using the proposed confidence-aware densification and self-matching filtering, we attain better view synthesis and later consolidate them in 3D Gaussian Splatting (3DGS). Our method uses no 3D priors for X-sensor and only assumes nearly no-cost COLMAP for RGB. We aim to remove the cumbersome calibration for various RGB-X sensors and advance the popularity of cross-sensor learning by a scalable solution that breaks through the bottleneck in large-scale real-world RGB-X data collection.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.23559">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.23559.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.23559.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
         <span class="paper-title">FlowFixer: Towards Detail-Preserving Subject-Driven Generation</span>
         <span class="paper-authors">Jinyoung Jun, Won-Dong Jang, Wenbin Ouyang, Raghudeep Gadde, Jungbeom Lee</span>
-        <span class="paper-meta">Updated 2026-02-24</span>
+        <span class="paper-meta">Updated 2026-02-26</span>
       </summary>
       <div class="paper-body">
         <p class="paper-abstract">We present FlowFixer, a refinement framework for subject-driven generation (SDG) that restores fine details lost during generation caused by changes in scale and perspective of a subject. FlowFixer proposes direct image-to-image translation from visual references, avoiding ambiguities in language prompts. To enable image-to-image training, we introduce a one-step denoising scheme to generate self-supervised training data, which automatically removes high-frequency details while preserving global structure, effectively simulating real-world SDG errors. We further propose a keypoint matching-based metric to properly assess fidelity in details beyond semantic similarities usually measured by CLIP or DINO. Experimental results demonstrate that FlowFixer outperforms state-of-the-art SDG methods in both qualitative and quantitative evaluations, setting a new benchmark for high-fidelity subject-driven generation.</p>

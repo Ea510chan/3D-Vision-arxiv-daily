@@ -7,12 +7,222 @@ title: Visual Localization
   <div>
     <p class="eyebrow">Topic</p>
     <h1>Visual Localization</h1>
-    <p class="topic-lede">Updated 2026.03.09 · 360 papers</p>
+    <p class="topic-lede">Updated 2026.03.11 · 370 papers</p>
   </div>
   <a class="btn ghost" href="../index.html#topics">← Back to topics</a>
 </section>
 
 <section class="paper-grid">
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Composed Vision-Language Retrieval for Skin Cancer Case Search via Joint Alignment of Global and Local Representations</span>
+        <span class="paper-authors">Yuheng Wang, Yuji Lin, Dongrun Zhu, Jiayue Cai, Sunil Kalia, Harvey Lui, Chunqi Chang, Z. Jane Wang, Tim K. Lee</span>
+        <span class="paper-meta">Updated 2026-03-10</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Medical image retrieval aims to identify clinically relevant lesion cases to support diagnostic decision making, education, and quality control. In practice, retrieval queries often combine a reference lesion image with textual descriptors such as dermoscopic features. We study composed vision-language retrieval for skin cancer, where each query consists of an image to text pair and the database contains biopsy-confirmed, multi-class disease cases. We propose a transformer based framework that learns hierarchical composed query representations and performs joint global-local alignment between queries and candidate images. Local alignment aggregates discriminative regions via multiple spatial attention masks, while global alignment provides holistic semantic supervision. The final similarity is computed through a convex, domain-informed weighting that emphasizes clinically salient local evidence while preserving global consistency. Experiments on the public Derm7pt dataset demonstrate consistent improvements over state-of-the-art methods. The proposed framework enables efficient access to relevant medical records and supports practical clinical deployment.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.09108">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.09108.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.09108.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">$L^3$:Scene-agnostic Visual Localization in the Wild</span>
+        <span class="paper-authors">Yu Zhang, Muhua Zhu, Yifei Xue, Tie Ji, Yizhen Lao</span>
+        <span class="paper-meta">Updated 2026-03-09</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Standard visual localization methods typically require offline pre-processing of scenes to obtain 3D structural information for better performance. This inevitably introduces additional computational and time costs, as well as the overhead of storing scene representations. Can we visually localize in a wild scene without any off-line preprocessing step? In this paper, we leverage the online inference capabilities of feed-forward 3D reconstruction networks to propose a novel map-free visual localization framework $L^3$. Specifically, by performing direct online 3D reconstruction on RGB images, followed by two-stage metric scale recovery and pose refinement based on 2D-3D correspondences, $L^3$ achieves high accuracy without the need to pre-build or store any offline scene representations. Extensive experiments demonstrate $L^3$ not only that the performance is comparable to state-of-the-art solutions on various benchmarks, but also that it exhibits significantly superior robustness in sparse scenes (fewer reference images per scene).</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.07937">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.07937.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.07937.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">QdaVPR: A novel query-based domain-agnostic model for visual place recognition</span>
+        <span class="paper-authors">Shanshan Wan, Lai Kang, Yingmei Wei, Tianrui Shen, Haixuan Wang, Chao Zuo</span>
+        <span class="paper-meta">Updated 2026-03-08</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Visual place recognition (VPR) aiming at predicting the location of an image based solely on its visual features is a fundamental task in robotics and autonomous systems. Domain variation remains one of the main challenges in VPR and is relatively unexplored. Existing VPR models attempt to achieve domain agnosticism either by training on large-scale datasets that inherently contain some domain variations, or by being specifically adapted to particular target domains. In practice, the former lacks explicit domain supervision, while the latter generalizes poorly to unseen domain shifts. This paper proposes a novel query-based domain-agnostic VPR model called QdaVPR. First, a dual-level adversarial learning framework is designed to encourage domain invariance for both the query features forming the global descriptor and the image features from which these query features are derived. Then, a triplet supervision based on query combinations is designed to enhance the discriminative power of the global descriptors. To support the learning process, we augment a large-scale VPR dataset using style transfer methods, generating various synthetic domains with corresponding domain labels as auxiliary supervision. Extensive experiments show that QdaVPR achieves state-of-the-art performance on multiple VPR benchmarks with significant domain variations. Specifically, it attains the best Recall@1 and Recall@10 on nearly all test scenarios: 93.5%/98.6% on Nordland (seasonal changes), 97.5%/99.0% on Tokyo24/7 (day-night transitions), and the highest Recall@1 across almost all weather conditions on the SVOX dataset. Our code will be released at https://github.com/shuimushan/QdaVPR.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.07414">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.07414.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.07414.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">T2Nav Algebraic Topology Aware Temporal Graph Memory and Loop Detection for ZeroShot Visual Navigation</span>
+        <span class="paper-authors">Quang-Anh N. D., Duc Pham, Minh-Anh Nguyen, Tung Doan, Tuan Dang</span>
+        <span class="paper-meta">Updated 2026-03-06</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Deploying autonomous agents in real world environments is challenging, particularly for navigation, where systems must adapt to situations they have not encountered before. Traditional learning approaches require substantial amounts of data, constant tuning, and, sometimes, starting over for each new task. That makes them hard to scale and not very flexible. Recent breakthroughs in foundation models, such as large language models and vision language models, enable systems to attempt new navigation tasks without requiring additional training. However, many of these methods only work with specific input types, employ relatively basic reasoning, and fail to fully exploit the details they observe or the structure of the spaces. Here, we introduce T2Nav, a zeroshot navigation system that integrates heterogeneous data and employs graph-based reasoning. By directly incorporating visual information into the graph and matching it to the environment, our approach enables the system to strike a good balance between exploration and goal attainment. This strategy allows robust obstacle avoidance, reliable loop closure detection, and efficient path planning while eliminating redundant exploration patterns. The system demonstrates flexibility by handling goals specified using reference images of target object instances, making it particularly suitable for scenarios in which agents must navigate to visually similar yet spatially distinct instances. Experiments demonstrate that our approach is efficient and adapts well to unknown environments, moving toward practical zero-shot instance-image navigation capabilities.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.06918">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.06918.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.06918.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">EventGeM: Global-to-Local Feature Matching for Event-Based Visual Place Recognition</span>
+        <span class="paper-authors">Adam D. Hines, Gokul B. Nair, Nicolás Marticorena, Michael Milford, Tobias Fischer</span>
+        <span class="paper-meta">Updated 2026-03-06</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Dynamic vision sensors, also known as event cameras, are rapidly rising in popularity for robotic and computer vision tasks due to their sparse activation and high-temporal resolution. Event cameras have been used in robotic navigation and localization tasks where accurate positioning needs to occur on small and frequent time scales, or when energy concerns are paramount. In this work, we present EventGeM, a state-of-the-art global to local feature fusion pipeline for event-based Visual Place Recognition. We use a pre-trained vision transformer (ViT-S/16) backbone to obtain global feature patch for initial match predictions embeddings from event histogram images. Local feature keypoints were then detected using a pre-trained MaxViT backbone for 2D-homography based re-ranking with RANSAC. For additional re-ranking refinement, we subsequently used a pre-trained vision foundation model for depth estimation to compare structural similarity between references and queries. Our work performs state-of-the-art localization when compared to the best currently available event-based place recognition method across several benchmark datasets and lighting conditions all whilst being fully capable of running in real-time when deployed across a variety of compute architectures. We demonstrate the capability of EventGeM in a real-world deployment on a robotic platform for online localization using event streams directly from an event camera. Project page: https://eventgemvpr.github.io/</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.05807">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.05807.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.05807.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Visual Words Meet BM25: Sparse Auto-Encoder Visual Word Scoring for Image Retrieval</span>
+        <span class="paper-authors">Donghoon Han, Eunhwan Park, Seunghyeon Seo</span>
+        <span class="paper-meta">Updated 2026-03-06</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Dense image retrieval is accurate but offers limited interpretability and attribution, and it can be compute-intensive at scale. We present \textbf{BM25-V}, which applies Okapi BM25 scoring to sparse visual-word activations from a Sparse Auto-Encoder (SAE) on Vision Transformer patch features. Across a large gallery, visual-word document frequencies are highly imbalanced and follow a Zipfian-like distribution, making BM25&#x27;s inverse document frequency (IDF) weighting well suited for suppressing ubiquitous, low-information words and emphasizing rare, discriminative ones. BM25-V retrieves high-recall candidates via sparse inverted-index operations and serves as an efficient first-stage retriever for dense reranking. Across seven benchmarks, BM25-V achieves Recall@200 $\geq$ 0.993, enabling a two-stage pipeline that reranks only $K{=}200$ candidates per query and recovers near-dense accuracy within $0.2$\% on average. An SAE trained once on ImageNet-1K transfers zero-shot to seven fine-grained benchmarks without fine-tuning, and BM25-V retrieval decisions are attributable to specific visual words with quantified IDF contributions.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.05781">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.05781.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.05781.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Loop Closure via Maximal Cliques in 3D LiDAR-Based SLAM</span>
+        <span class="paper-authors">Javier Laserna, Saurabh Gupta, Oscar Martinez Mozos, Cyrill Stachniss, Pablo San Segundo</span>
+        <span class="paper-meta">Updated 2026-03-05</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Reliable loop closure detection remains a critical challenge in 3D LiDAR-based SLAM, especially under sensor noise, environmental ambiguity, and viewpoint variation conditions. RANSAC is often used in the context of loop closures for geometric model fitting in the presence of outliers. However, this approach may fail, leading to map inconsistency. We introduce a novel deterministic algorithm, CliReg, for loop closure validation that replaces RANSAC verification with a maximal clique search over a compatibility graph of feature correspondences. This formulation avoids random sampling and increases robustness in the presence of noise and outliers. We integrated our approach into a real- time pipeline employing binary 3D descriptors and a Hamming distance embedding binary search tree-based matching. We evaluated it on multiple real-world datasets featuring diverse LiDAR sensors. The results demonstrate that our proposed technique consistently achieves a lower pose error and more reliable loop closures than RANSAC, especially in sparse or ambiguous conditions. Additional experiments on 2D projection-based maps confirm its generality across spatial domains, making our approach a robust and efficient alternative for loop closure detection.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.05397">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.05397.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.05397.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">PinPoint: Evaluation of Composed Image Retrieval with Explicit Negatives, Multi-Image Queries, and Paraphrase Testing</span>
+        <span class="paper-authors">Rohan Mahadev, Joyce Yuan, Patrick Poirson, David Xue, Hao-Yu Wu, Dmitry Kislyuk</span>
+        <span class="paper-meta">Updated 2026-03-04</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Composed Image Retrieval (CIR) has made significant progress, yet current benchmarks are limited to single ground-truth answers and lack the annotations needed to evaluate false positive avoidance, robustness and multi-image reasoning. We present PinPoint, a comprehensive real world benchmark with 7,635 queries and 329K relevance judgments across 23 query categories. PinPoint advances the field by providing: (1) multiple correct answers (averaging 9.1 per query) (2) explicit hard negatives, (3) six instruction paraphrases per query for robustness testing, (4) multi-image composition support (13.4% of queries), and (5) demographic metadata for fairness evaluation. Based on our analysis of 20+ methods across 4 different major paradigms, we uncover three significant drawbacks: The best methods while achieving mAP@10 of 28.5%, still retrieves irrelevant results (hard negatives) 9% of the time. The best models also exhibit 25.1% performance variation across paraphrases, indicating significant potential for enhancing current CIR techniques. Multi-image queries performs 40 to 70% worse across different methods. To overcome these new issues uncovered by our evaluation framework, we propose a training-free reranking method based on an off-the-shelf MLLM that can be applied to any existing system to bridge the gap. We release the complete dataset, including all images, queries, annotations, retrieval index, and benchmarking code.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.04598">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.04598.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.04598.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">SSR: A Generic Framework for Text-Aided Map Compression for Localization</span>
+        <span class="paper-authors">Mohammad Omama, Po-han Li, Harsh Goel, Minkyu Choi, Behdad Chalaki, Vaishnav Tadiparthi, Hossein Nourkhiz Mahjoub, Ehsan Moradi Pari, Sandeep P. Chinchali</span>
+        <span class="paper-meta">Updated 2026-03-04</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Mapping is crucial in robotics for localization and downstream decision-making. As robots are deployed in ever-broader settings, the maps they rely on continue to increase in size. However, storing these maps indefinitely (cold storage), transferring them across networks, or sending localization queries to cloud-hosted maps imposes prohibitive memory and bandwidth costs. We propose a text-enhanced compression framework that reduces both memory and bandwidth footprints while retaining high-fidelity localization. The key idea is to treat text as an alternative modality: one that can be losslessly compressed with large language models. We propose leveraging lightweight text descriptions combined with very small image feature vectors, which capture &quot;complementary information&quot; as a compact representation for the mapping task. Building on this, our novel technique, Similarity Space Replication (SSR), learns an adaptive image embedding in one shot that captures only the information &quot;complementary&quot; to the text descriptions. We validate our compression framework on multiple downstream localization tasks, including Visual Place Recognition as well as object-centric Monte Carlo localization in both indoor and outdoor settings. SSR achieves 2 times better compression than competing baselines on state-of-the-art datasets, including TokyoVal, Pittsburgh30k, Replica, and KITTI.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.04272">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.04272.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.04272.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Long-Term Visual Localization in Dynamic Benthic Environments: A Dataset, Footprint-Based Ground Truth, and Visual Place Recognition Benchmark</span>
+        <span class="paper-authors">Martin Kvisvik Larsen, Oscar Pizarro</span>
+        <span class="paper-meta">Updated 2026-03-04</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Long-term visual localization has the potential to reduce cost and improve mapping quality in optical benthic monitoring with autonomous underwater vehicles (AUVs). Despite this potential, long-term visual localization in benthic environments remains understudied, primarily due to the lack of curated datasets for benchmarking. Moreover, limited georeferencing accuracy and image footprints necessitate precise geometric information for accurate ground-truthing. In this work, we address these gaps by presenting a curated dataset for long-term visual localization in benthic environments and a novel method to ground-truth visual localization results for near-nadir underwater imagery. Our dataset comprises georeferenced AUV imagery from five benthic reference sites, revisited over periods up to six years, and includes raw and color-corrected stereo imagery, camera calibrations, and sub-decimeter registered camera poses. To our knowledge, this is the first curated underwater dataset for long-term visual localization spanning multiple sites and photic-zone habitats. Our ground-truthing method estimates 3D seafloor image footprints and links camera views with overlapping footprints, ensuring that ground-truth links reflect shared visual content. Building on this dataset and ground truth, we benchmark eight state-of-the-art visual place recognition (VPR) methods and find that Recall@K is significantly lower on our dataset than on established terrestrial and underwater benchmarks. Finally, we compare our footprint-based ground truth to a traditional location-based ground truth and show that distance-threshold ground-truthing can overestimate VPR Recall@K at sites with rugged terrain and altitude variations. Together, the curated dataset, ground-truthing method, and VPR benchmark provide a stepping stone for advancing long-term visual localization in dynamic benthic environments.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.04056">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.04056.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.04056.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
   <article class="paper-card">
     <details class="paper-details">
       <summary>

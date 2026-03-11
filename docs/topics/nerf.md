@@ -7,12 +7,222 @@ title: NeRF
   <div>
     <p class="eyebrow">Topic</p>
     <h1>NeRF</h1>
-    <p class="topic-lede">Updated 2026.03.09 · 302 papers</p>
+    <p class="topic-lede">Updated 2026.03.11 · 312 papers</p>
   </div>
   <a class="btn ghost" href="../index.html#topics">← Back to topics</a>
 </section>
 
 <section class="paper-grid">
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">DenoiseSplat: Feed-Forward Gaussian Splatting for Noisy 3D Scene Reconstruction</span>
+        <span class="paper-authors">Fuzhen Jiang, Zhuoran Li, Yinlin Zhang</span>
+        <span class="paper-meta">Updated 2026-03-10</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">3D scene reconstruction and novel-view synthesis are fundamental for VR, robotics, and content creation. However, most NeRF and 3D Gaussian Splatting pipelines assume clean inputs and degrade under real noise and artifacts. We therefore propose DenoiseSplat, a feed-forward 3D Gaussian splatting method for noisy multi-view images. We build a large-scale, scene-consistent noisy--clean benchmark on RE10K by injecting Gaussian, Poisson, speckle, and salt-and-pepper noise with controlled intensities. With a lightweight MVSplat-style feed-forward backbone, we train end-to-end using only clean 2D renderings as supervision and no 3D ground truth. On noisy RE10K, DenoiseSplat outperforms vanilla MVSplat and a strong two-stage baseline (IDF + MVSplat) in PSNR/SSIM and LPIPS across noise types and levels.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.09291">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.09291.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.09291.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Speeding Up the Learning of 3D Gaussians with Much Shorter Gaussian Lists</span>
+        <span class="paper-authors">Jiaqi Liu, Zhizhong Han</span>
+        <span class="paper-meta">Updated 2026-03-10</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">3D Gaussian splatting (3DGS) has become a vital tool for learning a radiance field from multiple posed images. Although 3DGS shows great advantages over NeRF in terms of rendering quality and efficiency, it remains a research challenge to further improve the efficiency of learning 3D Gaussians. To overcome this challenge, we propose novel training strategies and losses to shorten each Gaussian list used to render a pixel, which speeds up the splatting by involving fewer Gaussians along a ray. Specifically, we shrink the size of each Gaussian by resetting their scales regularly, encouraging smaller Gaussians to cover fewer nearby pixels, which shortens the Gaussian lists of pixels. Additionally, we introduce an entropy constraint on the alpha blending procedure to sharpen the weight distribution of Gaussians along each ray, which drives dominant weights larger while making minor weights smaller. As a result, each Gaussian becomes more focused on the pixels where it is dominant, which reduces its impact on nearby pixels, leading to even shorter Gaussian lists. Eventually, we integrate our method into a rendering resolution scheduler which further improves efficiency through progressive resolution increase. We evaluate our method by comparing it with state-of-the-art methods on widely used benchmarks. Our results show significant advantages over others in efficiency without sacrificing rendering quality.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.09277">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.09277.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.09277.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">SkipGS: Post-Densification Backward Skipping for Efficient 3DGS Training</span>
+        <span class="paper-authors">Jingxing Li, Yongjae Leeand, Deliang Fan</span>
+        <span class="paper-meta">Updated 2026-03-09</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">3D Gaussian Splatting (3DGS) achieves real-time novel-view synthesis by optimizing millions of anisotropic Gaussians, yet its training remains expensive, with the backward pass dominating runtime in the post-densification refinement phase. We observe substantial update redundancy in this phase: many sampled views have near-plateaued losses and provide diminishing gradient benefits, but standard training still runs full backpropagation. We propose SkipGS with a novel view-adaptive backward gating mechanism for efficient post-densification training. SkipGS always performs the forward pass to update per-view loss statistics, and selectively skips backward passes when the sampled view&#x27;s loss is consistent with its recent per-view baseline, while enforcing a minimum backward budget for stable optimization. On Mip-NeRF 360, compared to 3DGS, SkipGS reduces end-to-end training time by 23.1%, driven by a 42.0% reduction in post-densification time, with comparable reconstruction quality. Because it only changes when to backpropagate -- without modifying the renderer, representation, or loss -- SkipGS is plug-and-play and compatible with other complementary efficiency strategies for additive speedups.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.08997">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.08997.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.08997.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Fast Low-light Enhancement and Deblurring for 3D Dark Scenes</span>
+        <span class="paper-authors">Feng Zhang, Jinglong Wang, Ze Li, Yanghong Zhou, Yang Chen, Lei Chen, Xiatian Zhu</span>
+        <span class="paper-meta">Updated 2026-03-09</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Novel view synthesis from low-light, noisy, and motion-blurred imagery remains a valuable and challenging task. Current volumetric rendering methods struggle with compound degradation, and sequential 2D preprocessing introduces artifacts due to interdependencies. In this work, we introduce FLED-GS, a fast low-light enhancement and deblurring framework that reformulates 3D scene restoration as an alternating cycle of enhancement and reconstruction. Specifically, FLED-GS inserts several intermediate brightness anchors to enable progressive recovery, preventing noise blow-up from harming deblurring or geometry. Each iteration sharpens inputs with an off-the-shelf 2D deblurrer and then performs noise-aware 3DGS reconstruction that estimates and suppresses noise while producing clean priors for the next level. Experiments show FLED-GS outperforms state-of-the-art LuSh-NeRF, achieving 21$\times$ faster training and 11$\times$ faster rendering.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.08133">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.08133.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.08133.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Virtual Intraoperative CT (viCT): Sequential Anatomic Updates for Modeling Tissue Resection Throughout Endoscopic Sinus Surgery</span>
+        <span class="paper-authors">Nicole M. Gunderson, Graham J. Harris, Jeremy S. Ruthberg, Pengcheng Chen, Di Mao, Randall A. Bly, Waleed M. Abuzeid, Eric J. Seibel</span>
+        <span class="paper-meta">Updated 2026-03-07</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Purpose: Incomplete dissection is a common cause of persistent disease and revision endoscopic sinus surgery (ESS) in chronic rhinosinusitis. Current image-guided surgery systems typically reference static preoperative CT (pCT), and do not model evolving resection boundaries. We present Virtual Intraoperative CT (viCT), a method for sequentially updating pCT throughout ESS using intraoperative 3D reconstructions from monocular endoscopic video to enable visualization of evolving anatomy in CT format.   Methods: Monocular endoscopic video is processed using a depth-supervised NeRF framework with virtual stereo synthesis to generate metrically scaled 3D reconstructions at multiple surgical intervals. Reconstructions undergo rigid, landmark-based registration in 3D Slicer guided by anatomical correspondences, and are then voxelized into the pCT grid. viCT volumes were generated using a ray-based occupancy comparison between pCT and reconstruction to delete outdated voxels and remap preserved anatomy and updated boundaries. Performance is evaluated in a cadaveric feasibility study of four specimens across four ESS stages using volumetric overlap (DSC, Jaccard) and surface metrics (HD95, Chamfer, MSD, RMSD), and qualitative comparisons to ground-truth CT.   Results: viCT updates show agreement with ground-truth anatomy across surgical stages, with submillimeter mean surface errors. Dice Similarity Coefficient (DSC) = 0.88 +/- 0.05 and Jaccard Index = 0.79 +/- 0.07, and Hausdorff Distance 95% (HD95) = 0.69 +/- 0.28 mm, Chamfer Distance = 0.09 +/- 0.05 mm, Mean Surface Distance (MSD) = 0.11 +/- 0.05 mm, and Root Mean Square Distance (RMSD) = 0.32 +/- 0.10 mm.   Conclusion: viCT enables CT-format anatomic updating in an ESS setting without ancillary hardware. Future work will focus on fully automating registration, validation in live cases, and optimizing runtime for real-time deployment.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.06956">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.06956.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.06956.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">FTSplat: Feed-forward Triangle Splatting Network</span>
+        <span class="paper-authors">Xiong Jinlin, Li Can, Shen Jiawei, Qi Zhigang, Sun Lei, Zhao Dongyang</span>
+        <span class="paper-meta">Updated 2026-03-06</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">High-fidelity three-dimensional (3D) reconstruction is essential for robotics and simulation. While Neural Radiance Fields (NeRF) and 3D Gaussian Splatting (3DGS) achieve impressive rendering quality, their reliance on time-consuming per-scene optimization limits real-time deployment. Emerging feed-forward Gaussian splatting methods improve efficiency but often lack explicit, manifold geometry required for direct simulation. To address these limitations, we propose a feed-forward framework for triangle primitive generation that directly predicts continuous triangle surfaces from calibrated multi-view images. Our method produces simulation-ready models in a single forward pass, obviating the need for per-scene optimization or post-processing. We introduce a pixel-aligned triangle generation module and incorporate relative 3D point cloud supervision to enhance geometric learning stability and consistency. Experiments demonstrate that our method achieves efficient reconstruction while maintaining seamless compatibility with standard graphics and robotic simulators.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.05932">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.05932.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.05932.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Towards 3D Scene Understanding of Gas Plumes in LWIR Hyperspectral Images Using Neural Radiance Fields</span>
+        <span class="paper-authors">Scout Jarman, Zigfried Hampel-Arias, Adra Carr, Kevin R. Moon</span>
+        <span class="paper-meta">Updated 2026-03-05</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Hyperspectral images (HSI) have many applications, ranging from environmental monitoring to national security, and can be used for material detection and identification. Longwave infrared (LWIR) HSI can be used for gas plume detection and analysis. Oftentimes, only a few images of a scene of interest are available and are analyzed individually. The ability to combine information from multiple images into a single, cohesive representation could enhance analysis by providing more context on the scene&#x27;s geometry and spectral properties. Neural radiance fields (NeRFs) create a latent neural representation of volumetric scene properties that enable novel-view rendering and geometry reconstruction, offering a promising avenue for hyperspectral 3D scene reconstruction. We explore the possibility of using NeRFs to create 3D scene reconstructions from LWIR HSI and demonstrate that the model can be used for the basic downstream analysis task of gas plume detection. The physics-based DIRSIG software suite was used to generate a synthetic multi-view LWIR HSI dataset of a simple facility with a strong sulfur hexafluoride gas plume. Our method, built on the standard Mip-NeRF architecture, combines state-of-the-art methods for hyperspectral NeRFs and sparse-view NeRFs, along with a novel adaptive weighted MSE loss. Our final NeRF method requires around 50% fewer training images than the standard Mip-NeRF and achieves an average PSNR of 39.8 dB with as few as 30 training images. Gas plume detection applied to NeRF-rendered test images using the adaptive coherence estimator achieves an average AUC of 0.821 when compared with detection masks generated from ground-truth test images.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.05473">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.05473.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.05473.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">GloSplat: Joint Pose-Appearance Optimization for Faster and More Accurate 3D Reconstruction</span>
+        <span class="paper-authors">Tianyu Xiong, Rui Li, Linjie Li, Jiaqi Yang</span>
+        <span class="paper-meta">Updated 2026-03-05</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Feature extraction, matching, structure from motion (SfM), and novel view synthesis (NVS) have traditionally been treated as separate problems with independent optimization objectives. We present GloSplat, a framework that performs \emph{joint pose-appearance optimization} during 3D Gaussian Splatting training. Unlike prior joint optimization methods (BARF, NeRF--, 3RGS) that rely purely on photometric gradients for pose refinement, GloSplat preserves \emph{explicit SfM feature tracks} as first-class entities throughout training: track 3D points are maintained as separate optimizable parameters from Gaussian primitives, providing persistent geometric anchors via a reprojection loss that operates alongside photometric supervision. This architectural choice prevents early-stage pose drift while enabling fine-grained refinement -- a capability absent in photometric-only approaches. We introduce two pipeline variants: (1) \textbf{GloSplat-F}, a COLMAP-free variant using retrieval-based pair selection for efficient reconstruction, and (2) \textbf{GloSplat-A}, an exhaustive matching variant for maximum quality. Both employ global SfM initialization followed by joint photometric-geometric optimization during 3DGS training. Experiments demonstrate that GloSplat-F achieves state-of-the-art among COLMAP-free methods while GloSplat-A surpasses all COLMAP-based baselines.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.04847">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.04847.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.04847.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">R3GW: Relightable 3D Gaussians for Outdoor Scenes in the Wild</span>
+        <span class="paper-authors">Margherita Lea Corona, Wieland Morgenstern, Peter Eisert, Anna Hilsmann</span>
+        <span class="paper-meta">Updated 2026-03-03</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">3D Gaussian Splatting (3DGS) has established itself as a leading technique for 3D reconstruction and novel view synthesis of static scenes, achieving outstanding rendering quality and fast training. However, the method does not explicitly model the scene illumination, making it unsuitable for relighting tasks. Furthermore, 3DGS struggles to reconstruct scenes captured in the wild by unconstrained photo collections featuring changing lighting conditions. In this paper, we present R3GW, a novel method that learns a relightable 3DGS representation of an outdoor scene captured in the wild. Our approach separates the scene into a relightable foreground and a non-reflective background (the sky), using two distinct sets of Gaussians. R3GW models view-dependent lighting effects in the foreground reflections by combining Physically Based Rendering with the 3DGS scene representation in a varying illumination setting. We evaluate our method quantitatively and qualitatively on the NeRF-OSR dataset, offering state-of-the-art performance and enhanced support for physically-based relighting of unconstrained scenes. Our method synthesizes photorealistic novel views under arbitrary illumination conditions. Additionally, our representation of the sky mitigates depth reconstruction artifacts, improving rendering quality at the sky-foreground boundary</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.02801">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.02801.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.02801.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Neural Electromagnetic Fields for High-Resolution Material Parameter Reconstruction</span>
+        <span class="paper-authors">Zhe Chen, Peilin Zheng, Wenshuo Chen, Xiucheng Wang, Yutao Yue, Nan Cheng</span>
+        <span class="paper-meta">Updated 2026-03-03</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Creating functional Digital Twins, simulatable 3D replicas of the real world, is a central challenge in computer vision. Current methods like NeRF produce visually rich but functionally incomplete twins. The key barrier is the lack of underlying material properties (e.g., permittivity, conductivity). Acquiring this information for every point in a scene via non-contact, non-invasive sensing is a primary goal, but it demands solving a notoriously ill-posed physical inversion problem. Standard remote signals, like images and radio frequencies (RF), deeply entangle the unknown geometry, ambient field, and target materials. We introduce NEMF, a novel framework for dense, non-invasive physical inversion designed to build functional digital twins. Our key insight is a systematic disentanglement strategy. NEMF leverages high-fidelity geometry from images as a powerful anchor, which first enables the resolution of the ambient field. By constraining both geometry and field using only non-invasive data, the original ill-posed problem transforms into a well-posed, physics-supervised learning task. This transformation unlocks our core inversion module: a decoder. Guided by ambient RF signals and a differentiable layer incorporating physical reflection models, it learns to explicitly output a continuous, spatially-varying field of the scene&#x27;s underlying material parameters. We validate our framework on high-fidelity synthetic datasets. Experiments show our non-invasive inversion reconstructs these material maps with high accuracy, and the resulting functional twin enables high-fidelity physical simulation. This advance moves beyond passive visual replicas, enabling the creation of truly functional and simulatable models of the physical world.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.02582">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.02582.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.02582.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
   <article class="paper-card">
     <details class="paper-details">
       <summary>
