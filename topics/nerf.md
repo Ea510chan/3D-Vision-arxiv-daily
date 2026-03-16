@@ -4,19 +4,19 @@
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-03-13**|**Spectral-Geometric Neural Fields for Pose-Free LiDAR View Synthesis**|Yinuo Jiang et.al.|[2603.12903](https://arxiv.org/abs/2603.12903)|null|
-|**2026-03-13**|**Catalyst4D: High-Fidelity 3D-to-4D Scene Editing via Dynamic Propagation**|Shifeng Chen et.al.|[2603.12766](https://arxiv.org/abs/2603.12766)|null|
-|**2026-03-13**|**Node-RF: Learning Generalized Continuous Space-Time Scene Dynamics with Neural ODE-based NeRFs**|Hiran Sarkar et.al.|[2603.12078](https://arxiv.org/abs/2603.12078)|null|
-|**2026-03-10**|**DenoiseSplat: Feed-Forward Gaussian Splatting for Noisy 3D Scene Reconstruction**|Fuzhen Jiang et.al.|[2603.09291](https://arxiv.org/abs/2603.09291)|null|
-|**2026-03-10**|**Speeding Up the Learning of 3D Gaussians with Much Shorter Gaussian Lists**|Jiaqi Liu et.al.|[2603.09277](https://arxiv.org/abs/2603.09277)|null|
-|**2026-03-09**|**SkipGS: Post-Densification Backward Skipping for Efficient 3DGS Training**|Jingxing Li et.al.|[2603.08997](https://arxiv.org/abs/2603.08997)|null|
-|**2026-03-09**|**Fast Low-light Enhancement and Deblurring for 3D Dark Scenes**|Feng Zhang et.al.|[2603.08133](https://arxiv.org/abs/2603.08133)|null|
-|**2026-03-07**|**Virtual Intraoperative CT (viCT): Sequential Anatomic Updates for Modeling Tissue Resection Throughout Endoscopic Sinus Surgery**|Nicole M. Gunderson et.al.|[2603.06956](https://arxiv.org/abs/2603.06956)|null|
-|**2026-03-06**|**FTSplat: Feed-forward Triangle Splatting Network**|Xiong Jinlin et.al.|[2603.05932](https://arxiv.org/abs/2603.05932)|null|
-|**2026-03-05**|**Towards 3D Scene Understanding of Gas Plumes in LWIR Hyperspectral Images Using Neural Radiance Fields**|Scout Jarman et.al.|[2603.05473](https://arxiv.org/abs/2603.05473)|null|
-|**2026-03-05**|**GloSplat: Joint Pose-Appearance Optimization for Faster and More Accurate 3D Reconstruction**|Tianyu Xiong et.al.|[2603.04847](https://arxiv.org/abs/2603.04847)|null|
-|**2026-03-03**|**R3GW: Relightable 3D Gaussians for Outdoor Scenes in the Wild**|Margherita Lea Corona et.al.|[2603.02801](https://arxiv.org/abs/2603.02801)|null|
-|**2026-03-03**|**Neural Electromagnetic Fields for High-Resolution Material Parameter Reconstruction**|Zhe Chen et.al.|[2603.02582](https://arxiv.org/abs/2603.02582)|null|
+|2026-03-13|Spectral-Geometric Neural Fields for Pose-Free LiDAR View Synthesis|Yinuo Jiang et.al.|[2603.12903](https://arxiv.org/abs/2603.12903)|null|
+|2026-03-13|Catalyst4D: High-Fidelity 3D-to-4D Scene Editing via Dynamic Propagation|Shifeng Chen et.al.|[2603.12766](https://arxiv.org/abs/2603.12766)|null|
+|2026-03-13|Node-RF: Learning Generalized Continuous Space-Time Scene Dynamics with Neural ODE-based NeRFs|Hiran Sarkar et.al.|[2603.12078](https://arxiv.org/abs/2603.12078)|null|
+|2026-03-10|DenoiseSplat: Feed-Forward Gaussian Splatting for Noisy 3D Scene Reconstruction|Fuzhen Jiang et.al.|[2603.09291](https://arxiv.org/abs/2603.09291)|null|
+|2026-03-10|Speeding Up the Learning of 3D Gaussians with Much Shorter Gaussian Lists|Jiaqi Liu et.al.|[2603.09277](https://arxiv.org/abs/2603.09277)|null|
+|2026-03-09|SkipGS: Post-Densification Backward Skipping for Efficient 3DGS Training|Jingxing Li et.al.|[2603.08997](https://arxiv.org/abs/2603.08997)|null|
+|2026-03-09|Fast Low-light Enhancement and Deblurring for 3D Dark Scenes|Feng Zhang et.al.|[2603.08133](https://arxiv.org/abs/2603.08133)|null|
+|2026-03-07|Virtual Intraoperative CT (viCT): Sequential Anatomic Updates for Modeling Tissue Resection Throughout Endoscopic Sinus Surgery|Nicole M. Gunderson et.al.|[2603.06956](https://arxiv.org/abs/2603.06956)|null|
+|2026-03-06|FTSplat: Feed-forward Triangle Splatting Network|Xiong Jinlin et.al.|[2603.05932](https://arxiv.org/abs/2603.05932)|null|
+|2026-03-05|Towards 3D Scene Understanding of Gas Plumes in LWIR Hyperspectral Images Using Neural Radiance Fields|Scout Jarman et.al.|[2603.05473](https://arxiv.org/abs/2603.05473)|null|
+|2026-03-05|GloSplat: Joint Pose-Appearance Optimization for Faster and More Accurate 3D Reconstruction|Tianyu Xiong et.al.|[2603.04847](https://arxiv.org/abs/2603.04847)|null|
+|2026-03-03|R3GW: Relightable 3D Gaussians for Outdoor Scenes in the Wild|Margherita Lea Corona et.al.|[2603.02801](https://arxiv.org/abs/2603.02801)|null|
+|2026-03-03|Neural Electromagnetic Fields for High-Resolution Material Parameter Reconstruction|Zhe Chen et.al.|[2603.02582](https://arxiv.org/abs/2603.02582)|null|
 |2026-02-26|Sapling-NeRF: Geo-Localised Sapling Reconstruction in Forests for Ecological Monitoring|Miguel Ángel Muñoz-Bañón et.al.|[2602.22731](https://arxiv.org/abs/2602.22731)|null|
 |2026-02-25|Lie Flow: Video Dynamic Fields Modeling and Predicting with Lie Algebra as Geometric Physics Principle|Weidong Qiao et.al.|[2602.21645](https://arxiv.org/abs/2602.21645)|null|
 |2026-02-26|Event-Aided Sharp Radiance Field Reconstruction for Fast-Flying Drones|Rong Zou et.al.|[2602.21101](https://arxiv.org/abs/2602.21101)|null|
@@ -132,7 +132,7 @@
 |2025-10-02|GEM: 3D Gaussian Splatting for Efficient and Accurate Cryo-EM Reconstruction|Huaizhi Qu et.al.|[2509.25075](http://arxiv.org/abs/2509.25075)|null|
 |2025-09-28|From Fields to Splats: A Cross-Domain Survey of Real-Time Neural Scene Representations|Javed Ahmad et.al.|[2509.23555](http://arxiv.org/abs/2509.23555)|null|
 |2025-09-30|FM-SIREN & FM-FINER: Nyquist-Informed Frequency Multiplier for Implicit Neural Representation with Periodic Activation|Mohammed Alsakabi et.al.|[2509.23438](http://arxiv.org/abs/2509.23438)|null|
-|2025-10-04|OracleGS: Grounding Generative Priors for Sparse-View Gaussian Splatting|Atakan Topaloglu et.al.|[2509.23258](http://arxiv.org/abs/2509.23258)|null|
+|2025-10-04|OracleGS: Grounding Generative Priors for Sparse-View Gaussian Splatting|Atakan Topaloglu et.al.|[2509.23258](http://arxiv.org/abs/2509.23258)|**[link](https://github.com/atakan-topaloglu/vggt_aten)**|
 |2025-09-23|WaveletGaussian: Wavelet-domain Diffusion for Sparse-view 3D Gaussian Object Reconstruction|Hung Nguyen et.al.|[2509.19073](http://arxiv.org/abs/2509.19073)|null|
 |2025-09-23|Seeing Through Reflections: Advancing 3D Scene Reconstruction in Mirror-Containing Environments with Gaussian Splatting|Zijing Guo et.al.|[2509.18956](http://arxiv.org/abs/2509.18956)|null|
 |2025-09-22|From Restoration to Reconstruction: Rethinking 3D Gaussian Splatting for Underwater Scenes|Guoxi Huang et.al.|[2509.17789](http://arxiv.org/abs/2509.17789)|null|

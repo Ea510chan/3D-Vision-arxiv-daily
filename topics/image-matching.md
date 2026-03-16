@@ -4,18 +4,18 @@
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-03-13**|**CM-Bench: A Comprehensive Cross-Modal Feature Matching Benchmark Bridging Visible and Infrared Images**|Liangzheng Sun et.al.|[2603.12690](https://arxiv.org/abs/2603.12690)|null|
-|**2026-03-09**|**Enhancing Cross-View UAV Geolocalization via LVLM-Driven Relational Modeling**|Bowen Liu et.al.|[2603.08063](https://arxiv.org/abs/2603.08063)|null|
-|**2026-03-09**|**Speed3R: Sparse Feed-forward 3D Reconstruction Models**|Weining Ren et.al.|[2603.08055](https://arxiv.org/abs/2603.08055)|null|
-|**2026-03-06**|**EventGeM: Global-to-Local Feature Matching for Event-Based Visual Place Recognition**|Adam D. Hines et.al.|[2603.05807](https://arxiv.org/abs/2603.05807)|null|
-|**2026-02-27**|**No Calibration, No Depth, No Problem: Cross-Sensor View Synthesis with 3D Consistency**|Cho-Ying Wu et.al.|[2602.23559](https://arxiv.org/abs/2602.23559)|null|
-|**2026-02-26**|**FlowFixer: Towards Detail-Preserving Subject-Driven Generation**|Jinyoung Jun et.al.|[2602.21402](https://arxiv.org/abs/2602.21402)|null|
-|**2026-02-23**|**Generative 6D Pose Estimation via Conditional Flow Matching**|Amir Hamza et.al.|[2602.19719](https://arxiv.org/abs/2602.19719)|null|
-|**2026-02-13**|**Matching of SAR and optical images based on transformation to shared modality**|Alexey Borisov et.al.|[2602.12515](https://arxiv.org/abs/2602.12515)|null|
-|**2026-03-12**|**Understanding and Optimizing Attention-Based Sparse Matching for Diverse Local Features**|Qiang Wang et.al.|[2602.08430](https://arxiv.org/abs/2602.08430)|null|
+|2026-03-13|CM-Bench: A Comprehensive Cross-Modal Feature Matching Benchmark Bridging Visible and Infrared Images|Liangzheng Sun et.al.|[2603.12690](https://arxiv.org/abs/2603.12690)|null|
+|2026-03-09|Enhancing Cross-View UAV Geolocalization via LVLM-Driven Relational Modeling|Bowen Liu et.al.|[2603.08063](https://arxiv.org/abs/2603.08063)|null|
+|2026-03-09|Speed3R: Sparse Feed-forward 3D Reconstruction Models|Weining Ren et.al.|[2603.08055](https://arxiv.org/abs/2603.08055)|null|
+|2026-03-06|EventGeM: Global-to-Local Feature Matching for Event-Based Visual Place Recognition|Adam D. Hines et.al.|[2603.05807](https://arxiv.org/abs/2603.05807)|null|
+|2026-02-27|No Calibration, No Depth, No Problem: Cross-Sensor View Synthesis with 3D Consistency|Cho-Ying Wu et.al.|[2602.23559](https://arxiv.org/abs/2602.23559)|null|
+|2026-02-26|FlowFixer: Towards Detail-Preserving Subject-Driven Generation|Jinyoung Jun et.al.|[2602.21402](https://arxiv.org/abs/2602.21402)|null|
+|2026-02-23|Generative 6D Pose Estimation via Conditional Flow Matching|Amir Hamza et.al.|[2602.19719](https://arxiv.org/abs/2602.19719)|null|
+|2026-02-13|Matching of SAR and optical images based on transformation to shared modality|Alexey Borisov et.al.|[2602.12515](https://arxiv.org/abs/2602.12515)|null|
+|2026-03-12|Understanding and Optimizing Attention-Based Sparse Matching for Diverse Local Features|Qiang Wang et.al.|[2602.08430](https://arxiv.org/abs/2602.08430)|null|
 |2026-01-31|Gaussian-Constrained LeJEPA Representations for Unsupervised Scene Discovery and Pose Consistency|Mohsen Mostafa et.al.|[2602.07016](https://arxiv.org/abs/2602.07016)|null|
-|**2026-02-05**|**SOMA-1M: A Large-Scale SAR-Optical Multi-resolution Alignment Dataset for Multi-Task Remote Sensing**|Peihao Wu et.al.|[2602.05480](https://arxiv.org/abs/2602.05480)|null|
-|**2026-02-04**|**Quantile Transfer for Reliable Operating Point Selection in Visual Place Recognition**|Dhyey Manish Rajani et.al.|[2602.04401](https://arxiv.org/abs/2602.04401)|null|
+|2026-02-05|SOMA-1M: A Large-Scale SAR-Optical Multi-resolution Alignment Dataset for Multi-Task Remote Sensing|Peihao Wu et.al.|[2602.05480](https://arxiv.org/abs/2602.05480)|null|
+|2026-02-04|Quantile Transfer for Reliable Operating Point Selection in Visual Place Recognition|Dhyey Manish Rajani et.al.|[2602.04401](https://arxiv.org/abs/2602.04401)|null|
 |2026-01-19|A Streamlined Attention-Based Network for Descriptor Extraction|Mattia D'Urso et.al.|[2601.13126](https://arxiv.org/abs/2601.13126)|null|
 |2026-01-18|XRefine: Attention-Guided Keypoint Match Refinement|Jan Fabian Schmid et.al.|[2601.12530](https://arxiv.org/abs/2601.12530)|null|
 |2026-02-03|Detecting 3D Line Segments for 6DoF Pose Estimation with Limited Data|Matej Mok et.al.|[2601.12090](https://arxiv.org/abs/2601.12090)|null|

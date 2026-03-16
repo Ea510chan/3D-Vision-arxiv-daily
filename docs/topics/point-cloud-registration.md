@@ -382,7 +382,7 @@ title: Point Cloud Registration
         <div class="paper-links">
           <a class="chip" href="https://arxiv.org/abs/2511.23227">arXiv</a>
           <a class="chip" href="https://arxiv.org/pdf/2511.23227.pdf">PDF</a>
-          <span class="chip ghost">Code: N/A</span>
+          <a class="chip" href="https://github.com/Lihhan/PointCNNpp">Code</a>
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.23227.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
@@ -445,7 +445,7 @@ title: Point Cloud Registration
         <div class="paper-links">
           <a class="chip" href="https://arxiv.org/abs/2511.22908">arXiv</a>
           <a class="chip" href="https://arxiv.org/pdf/2511.22908.pdf">PDF</a>
-          <span class="chip ghost">Code: N/A</span>
+          <a class="chip" href="https://github.com/ccjccjccj/ViGG">Code</a>
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.22908.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>

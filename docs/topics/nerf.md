@@ -3280,7 +3280,7 @@ title: NeRF
         <div class="paper-links">
           <a class="chip" href="https://arxiv.org/abs/2507.12132">arXiv</a>
           <a class="chip" href="https://arxiv.org/pdf/2507.12132.pdf">PDF</a>
-          <span class="chip ghost">Code: N/A</span>
+          <a class="chip" href="https://github.com/navidhasanzadeh/dorf">Code</a>
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.12132.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
@@ -3364,7 +3364,7 @@ title: NeRF
         <div class="paper-links">
           <a class="chip" href="https://arxiv.org/abs/2507.09168">arXiv</a>
           <a class="chip" href="https://arxiv.org/pdf/2507.09168.pdf">PDF</a>
-          <span class="chip ghost">Code: N/A</span>
+          <a class="chip" href="https://github.com/nicolasdaire/diffusion-nerf">Code</a>
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.09168.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>

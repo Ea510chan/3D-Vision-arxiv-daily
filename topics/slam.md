@@ -4,17 +4,17 @@
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-03-09**|**Edged USLAM: Edge-Aware Event-Based SLAM with Learning-Based Depth Priors**|Şebnem Sarıözkan et.al.|[2603.08150](https://arxiv.org/abs/2603.08150)|null|
-|**2026-02-27**|**Motion-aware Event Suppression for Event Cameras**|Roberto Pellerito et.al.|[2602.23204](https://arxiv.org/abs/2602.23204)|null|
-|**2026-02-26**|**FLIGHT: Fibonacci Lattice-based Inference for Geometric Heading in real-Time**|David Dirnfeld et.al.|[2602.23115](https://arxiv.org/abs/2602.23115)|null|
-|**2026-02-22**|**OpenVO: Open-World Visual Odometry with Temporal Dynamics Awareness**|Phuc D. A. Nguyen et.al.|[2602.19035](https://arxiv.org/abs/2602.19035)|null|
-|**2026-02-14**|**UAV-SEAD: State Estimation Anomaly Dataset for UAVs**|Aykut Kabaoglu et.al.|[2602.13900](https://arxiv.org/abs/2602.13900)|null|
-|**2026-02-12**|**GSO-SLAM: Bidirectionally Coupled Gaussian Splatting and Direct Visual Odometry**|Jiung Yeon et.al.|[2602.11714](https://arxiv.org/abs/2602.11714)|null|
-|**2026-01-28**|**When Simultaneous Localization and Mapping Meets Wireless Communications: A Survey**|Konstantinos Gounis et.al.|[2602.06995](https://arxiv.org/abs/2602.06995)|null|
+|2026-03-09|Edged USLAM: Edge-Aware Event-Based SLAM with Learning-Based Depth Priors|Şebnem Sarıözkan et.al.|[2603.08150](https://arxiv.org/abs/2603.08150)|null|
+|2026-02-27|Motion-aware Event Suppression for Event Cameras|Roberto Pellerito et.al.|[2602.23204](https://arxiv.org/abs/2602.23204)|null|
+|2026-02-26|FLIGHT: Fibonacci Lattice-based Inference for Geometric Heading in real-Time|David Dirnfeld et.al.|[2602.23115](https://arxiv.org/abs/2602.23115)|null|
+|2026-02-22|OpenVO: Open-World Visual Odometry with Temporal Dynamics Awareness|Phuc D. A. Nguyen et.al.|[2602.19035](https://arxiv.org/abs/2602.19035)|null|
+|2026-02-14|UAV-SEAD: State Estimation Anomaly Dataset for UAVs|Aykut Kabaoglu et.al.|[2602.13900](https://arxiv.org/abs/2602.13900)|null|
+|2026-02-12|GSO-SLAM: Bidirectionally Coupled Gaussian Splatting and Direct Visual Odometry|Jiung Yeon et.al.|[2602.11714](https://arxiv.org/abs/2602.11714)|null|
+|2026-01-28|When Simultaneous Localization and Mapping Meets Wireless Communications: A Survey|Konstantinos Gounis et.al.|[2602.06995](https://arxiv.org/abs/2602.06995)|null|
 |2025-12-30|Learning to Anchor Visual Odometry: KAN-Based Pose Regression for Planetary Landing|Xubo Luo et.al.|[2602.06968](https://arxiv.org/abs/2602.06968)|null|
-|**2026-02-05**|**Feature points evaluation on omnidirectional vision with a photorealistic fisheye sequence -- A report on experiments done in 2014**|Julien Moreau et.al.|[2602.05487](https://arxiv.org/abs/2602.05487)|null|
-|**2026-01-22**|**Keyframe-Based Feed-Forward Visual Odometry**|Weichen Dai et.al.|[2601.16020](https://arxiv.org/abs/2601.16020)|null|
-|**2026-01-09**|**360DVO: Deep Visual Odometry for Monocular 360-Degree Camera**|Xiaopeng Guo et.al.|[2601.02309](https://arxiv.org/abs/2601.02309)|null|
+|2026-02-05|Feature points evaluation on omnidirectional vision with a photorealistic fisheye sequence -- A report on experiments done in 2014|Julien Moreau et.al.|[2602.05487](https://arxiv.org/abs/2602.05487)|null|
+|2026-01-22|Keyframe-Based Feed-Forward Visual Odometry|Weichen Dai et.al.|[2601.16020](https://arxiv.org/abs/2601.16020)|null|
+|2026-01-09|360DVO: Deep Visual Odometry for Monocular 360-Degree Camera|Xiaopeng Guo et.al.|[2601.02309](https://arxiv.org/abs/2601.02309)|null|
 |2025-12-22|Trifocal Tensor and Relative Pose Estimation with Known Vertical Direction|Tao Li et.al.|[2512.19110](https://arxiv.org/abs/2512.19110)|null|
 |2025-12-16|SUPER -- A Framework for Sensitivity-based Uncertainty-aware Performance and Risk Assessment in Visual Inertial Odometry|Johannes A. Gaus et.al.|[2512.14189](https://arxiv.org/abs/2512.14189)|null|
 |2025-12-10|Inertial Magnetic SLAM Systems Using Low-Cost Sensors|Chuan Huang et.al.|[2512.10128](https://arxiv.org/abs/2512.10128)|null|
@@ -105,7 +105,7 @@
 |2025-06-06|Enhancing Situational Awareness in Underwater Robotics with Multi-modal Spatial Perception|Pushyami Kaveti et.al.|[2506.06476](http://arxiv.org/abs/2506.06476)|null|
 |2025-06-06|Dy3DGS-SLAM: Monocular 3D Gaussian Splatting SLAM for Dynamic Environments|Mingrui Li et.al.|[2506.05965](http://arxiv.org/abs/2506.05965)|null|
 |2025-06-06|Analysis of points outcome in ATP Grand Slam Tennis using big data and machine learning|Martin Illum et.al.|[2506.05866](http://arxiv.org/abs/2506.05866)|null|
-|2025-06-05|On-the-fly Reconstruction for Large-Scale Novel View Synthesis from Unposed Images|Andreas Meuleman et.al.|[2506.05558](http://arxiv.org/abs/2506.05558)|null|
+|2025-06-05|On-the-fly Reconstruction for Large-Scale Novel View Synthesis from Unposed Images|Andreas Meuleman et.al.|[2506.05558](http://arxiv.org/abs/2506.05558)|**[link](https://github.com/graphdeco-inria/on-the-fly-nvs)**|
 |2025-06-05|Deep Learning Reforms Image Matching: A Survey and Outlook|Shihua Zhang et.al.|[2506.04619](http://arxiv.org/abs/2506.04619)|null|
 |2025-06-04|cuVSLAM: CUDA accelerated visual odometry|Alexander Korovko et.al.|[2506.04359](http://arxiv.org/abs/2506.04359)|[link](https://github.com/nvlabs/pycuvslam)|
 |2025-06-04|Seeing in the Dark: Benchmarking Egocentric 3D Vision with the Oxford Day-and-Night Dataset|Zirui Wang et.al.|[2506.04224](http://arxiv.org/abs/2506.04224)|null|
@@ -117,8 +117,8 @@
 |2025-06-01|Globally Consistent RGB-D SLAM with 2D Gaussian Splatting|Xingguang Zhong et.al.|[2506.00970](http://arxiv.org/abs/2506.00970)|[link](https://github.com/PRBonn/2DGS-SLAM)|
 |2025-05-30|Black-box Adversarial Attacks on CNN-based SLAM Algorithms|Maria Rafaela Gkeka et.al.|[2505.24654](http://arxiv.org/abs/2505.24654)|null|
 |2025-05-28|Semantic Exploration and Dense Mapping of Complex Environments using Ground Robots Equipped with LiDAR and Panoramic Camera|Xiaoyang Zhan et.al.|[2505.22880](http://arxiv.org/abs/2505.22880)|null|
-|2025-05-28|4DTAM: Non-Rigid Tracking and Mapping via Dynamic Surface Gaussians|Hidenobu Matsuki et.al.|[2505.22859](http://arxiv.org/abs/2505.22859)|**[link](https://github.com/muskie82/4dtam)**|
-|2025-05-28|UP-SLAM: Adaptively Structured Gaussian SLAM with Uncertainty Prediction in Dynamic Environments|Wancai Zheng et.al.|[2505.22335](http://arxiv.org/abs/2505.22335)|**[link](https://github.com/Aczheng-cai/up_slam.github.io)**|
+|2025-05-28|4DTAM: Non-Rigid Tracking and Mapping via Dynamic Surface Gaussians|Hidenobu Matsuki et.al.|[2505.22859](http://arxiv.org/abs/2505.22859)|[link](https://github.com/muskie82/4dtam)|
+|2025-05-28|UP-SLAM: Adaptively Structured Gaussian SLAM with Uncertainty Prediction in Dynamic Environments|Wancai Zheng et.al.|[2505.22335](http://arxiv.org/abs/2505.22335)|[link](https://github.com/Aczheng-cai/up_slam.github.io)|
 |2025-05-27|HS-SLAM: A Fast and Hybrid Strategy-Based SLAM Approach for Low-Speed Autonomous Driving|Bingxiang Kang et.al.|[2505.20906](http://arxiv.org/abs/2505.20906)|null|
 |2025-05-27|ProBA: Probabilistic Bundle Adjustment with the Bhattacharyya Coefficient|Jason Chui et.al.|[2505.20858](http://arxiv.org/abs/2505.20858)|null|
 |2025-05-26|ADD-SLAM: Adaptive Dynamic Dense SLAM with Gaussian Splatting|Wenhua Wu et.al.|[2505.19420](http://arxiv.org/abs/2505.19420)|null|

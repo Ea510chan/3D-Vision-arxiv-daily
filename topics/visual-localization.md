@@ -4,28 +4,28 @@
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-03-13**|**A Closed-Form Solution for Debiasing Vision-Language Models with Utility Guarantees Across Modalities and Tasks**|Tangzheng Lian et.al.|[2603.12998](https://arxiv.org/abs/2603.12998)|null|
-|**2026-03-13**|**Text-Phase Synergy Network with Dual Priors for Unsupervised Cross-Domain Image Retrieval**|Jing Yang et.al.|[2603.12711](https://arxiv.org/abs/2603.12711)|null|
-|**2026-03-13**|**CM-Bench: A Comprehensive Cross-Modal Feature Matching Benchmark Bridging Visible and Infrared Images**|Liangzheng Sun et.al.|[2603.12690](https://arxiv.org/abs/2603.12690)|null|
-|**2026-03-12**|**FBCIR: Balancing Cross-Modal Focuses in Composed Image Retrieval**|Chenchen Zhao et.al.|[2603.11520](https://arxiv.org/abs/2603.11520)|null|
-|**2026-03-12**|**Efficient Cross-View Localization in 6G Space-Air-Ground Integrated Network**|Min Hao et.al.|[2603.11398](https://arxiv.org/abs/2603.11398)|null|
-|**2026-03-10**|**Composed Vision-Language Retrieval for Skin Cancer Case Search via Joint Alignment of Global and Local Representations**|Yuheng Wang et.al.|[2603.09108](https://arxiv.org/abs/2603.09108)|null|
-|**2026-03-09**|**$L^3$ :Scene-agnostic Visual Localization in the Wild**|Yu Zhang et.al.|[2603.07937](https://arxiv.org/abs/2603.07937)|null|
-|**2026-03-08**|**QdaVPR: A novel query-based domain-agnostic model for visual place recognition**|Shanshan Wan et.al.|[2603.07414](https://arxiv.org/abs/2603.07414)|null|
-|**2026-03-06**|**T2Nav Algebraic Topology Aware Temporal Graph Memory and Loop Detection for ZeroShot Visual Navigation**|Quang-Anh N. D. et.al.|[2603.06918](https://arxiv.org/abs/2603.06918)|null|
-|**2026-03-06**|**EventGeM: Global-to-Local Feature Matching for Event-Based Visual Place Recognition**|Adam D. Hines et.al.|[2603.05807](https://arxiv.org/abs/2603.05807)|null|
-|**2026-03-06**|**Visual Words Meet BM25: Sparse Auto-Encoder Visual Word Scoring for Image Retrieval**|Donghoon Han et.al.|[2603.05781](https://arxiv.org/abs/2603.05781)|null|
-|**2026-03-05**|**Loop Closure via Maximal Cliques in 3D LiDAR-Based SLAM**|Javier Laserna et.al.|[2603.05397](https://arxiv.org/abs/2603.05397)|null|
-|**2026-03-04**|**PinPoint: Evaluation of Composed Image Retrieval with Explicit Negatives, Multi-Image Queries, and Paraphrase Testing**|Rohan Mahadev et.al.|[2603.04598](https://arxiv.org/abs/2603.04598)|null|
-|**2026-03-04**|**SSR: A Generic Framework for Text-Aided Map Compression for Localization**|Mohammad Omama et.al.|[2603.04272](https://arxiv.org/abs/2603.04272)|null|
-|**2026-03-04**|**Long-Term Visual Localization in Dynamic Benthic Environments: A Dataset, Footprint-Based Ground Truth, and Visual Place Recognition Benchmark**|Martin Kvisvik Larsen et.al.|[2603.04056](https://arxiv.org/abs/2603.04056)|null|
+|2026-03-13|A Closed-Form Solution for Debiasing Vision-Language Models with Utility Guarantees Across Modalities and Tasks|Tangzheng Lian et.al.|[2603.12998](https://arxiv.org/abs/2603.12998)|null|
+|2026-03-13|Text-Phase Synergy Network with Dual Priors for Unsupervised Cross-Domain Image Retrieval|Jing Yang et.al.|[2603.12711](https://arxiv.org/abs/2603.12711)|null|
+|2026-03-13|CM-Bench: A Comprehensive Cross-Modal Feature Matching Benchmark Bridging Visible and Infrared Images|Liangzheng Sun et.al.|[2603.12690](https://arxiv.org/abs/2603.12690)|null|
+|2026-03-12|FBCIR: Balancing Cross-Modal Focuses in Composed Image Retrieval|Chenchen Zhao et.al.|[2603.11520](https://arxiv.org/abs/2603.11520)|null|
+|2026-03-12|Efficient Cross-View Localization in 6G Space-Air-Ground Integrated Network|Min Hao et.al.|[2603.11398](https://arxiv.org/abs/2603.11398)|null|
+|2026-03-10|Composed Vision-Language Retrieval for Skin Cancer Case Search via Joint Alignment of Global and Local Representations|Yuheng Wang et.al.|[2603.09108](https://arxiv.org/abs/2603.09108)|null|
+|2026-03-09| $L^3$ :Scene-agnostic Visual Localization in the Wild|Yu Zhang et.al.|[2603.07937](https://arxiv.org/abs/2603.07937)|null|
+|2026-03-08|QdaVPR: A novel query-based domain-agnostic model for visual place recognition|Shanshan Wan et.al.|[2603.07414](https://arxiv.org/abs/2603.07414)|null|
+|2026-03-06|T2Nav Algebraic Topology Aware Temporal Graph Memory and Loop Detection for ZeroShot Visual Navigation|Quang-Anh N. D. et.al.|[2603.06918](https://arxiv.org/abs/2603.06918)|null|
+|2026-03-06|EventGeM: Global-to-Local Feature Matching for Event-Based Visual Place Recognition|Adam D. Hines et.al.|[2603.05807](https://arxiv.org/abs/2603.05807)|null|
+|2026-03-06|Visual Words Meet BM25: Sparse Auto-Encoder Visual Word Scoring for Image Retrieval|Donghoon Han et.al.|[2603.05781](https://arxiv.org/abs/2603.05781)|null|
+|2026-03-05|Loop Closure via Maximal Cliques in 3D LiDAR-Based SLAM|Javier Laserna et.al.|[2603.05397](https://arxiv.org/abs/2603.05397)|null|
+|2026-03-04|PinPoint: Evaluation of Composed Image Retrieval with Explicit Negatives, Multi-Image Queries, and Paraphrase Testing|Rohan Mahadev et.al.|[2603.04598](https://arxiv.org/abs/2603.04598)|null|
+|2026-03-04|SSR: A Generic Framework for Text-Aided Map Compression for Localization|Mohammad Omama et.al.|[2603.04272](https://arxiv.org/abs/2603.04272)|null|
+|2026-03-04|Long-Term Visual Localization in Dynamic Benthic Environments: A Dataset, Footprint-Based Ground Truth, and Visual Place Recognition Benchmark|Martin Kvisvik Larsen et.al.|[2603.04056](https://arxiv.org/abs/2603.04056)|null|
 |2026-02-26|VGG-T $^3$ : Offline Feed-Forward 3D Reconstruction at Scale|Sven Elflein et.al.|[2602.23361](https://arxiv.org/abs/2602.23361)|null|
 |2026-02-26|WISER: Wider Search, Deeper Thinking, and Adaptive Fusion for Training-Free Zero-Shot Composed Image Retrieval|Tianyue Wang et.al.|[2602.23029](https://arxiv.org/abs/2602.23029)|null|
 |2026-02-26|Autoregressive Visual Decoding from EEG Signals|Sicheng Dai et.al.|[2602.22555](https://arxiv.org/abs/2602.22555)|null|
 |2026-02-26|Pix2Key: Controllable Open-Vocabulary Retrieval with Semantic Decomposition and Self-Supervised Visual Dictionary Learning|Guoyizhe Wei et.al.|[2602.22510](https://arxiv.org/abs/2602.22510)|null|
 |2026-02-25|Global-Aware Edge Prioritization for Pose Graph Initialization|Tong Wei et.al.|[2602.21963](https://arxiv.org/abs/2602.21963)|null|
 |2026-02-25|Automatic Map Density Selection for Locally-Performant Visual Place Recognition|Somayeh Hussaini et.al.|[2602.21473](https://arxiv.org/abs/2602.21473)|null|
-|2026-02-24|Seeing Through Words: Controlling Visual Retrieval Quality with Language Models|Jianglin Lu et.al.|[2602.21175](https://arxiv.org/abs/2602.21175)|**[link](https://github.com/Jianglin954/QCQC)**|
+|2026-02-24|Seeing Through Words: Controlling Visual Retrieval Quality with Language Models|Jianglin Lu et.al.|[2602.21175](https://arxiv.org/abs/2602.21175)|[link](https://github.com/Jianglin954/QCQC)|
 |2026-02-24|LST-SLAM: A Stereo Thermal SLAM System for Kilometer-Scale Dynamic Environments|Zeyu Jiang et.al.|[2602.20925](https://arxiv.org/abs/2602.20925)|null|
 |2026-02-24|Long-Term Multi-Session 3D Reconstruction Under Substantial Appearance Change|Beverley Gorry et.al.|[2602.20584](https://arxiv.org/abs/2602.20584)|null|
 |2026-02-23|Unlocking Multimodal Document Intelligence: From Current Triumphs to Future Frontiers of Visual Document Retrieval|Yibo Yan et.al.|[2602.19961](https://arxiv.org/abs/2602.19961)|null|
@@ -36,7 +36,7 @@
 |2026-02-21|IRIS-SLAM: Unified Geo-Instance Representations for Robust Semantic Localization and Mapping|Tingyang Xiao et.al.|[2602.18709](https://arxiv.org/abs/2602.18709)|null|
 |2026-02-19|VQPP: Video Query Performance Prediction Benchmark|Adrian Catalin Lutu et.al.|[2602.17814](https://arxiv.org/abs/2602.17814)|null|
 |2026-02-12|DiffPlace: Street View Generation via Place-Controllable Diffusion Model Enhancing Place Recognition|Ji Li et.al.|[2602.11875](https://arxiv.org/abs/2602.11875)|null|
-|2026-02-12|Arbitrary Ratio Feature Compression via Next Token Prediction|Yufan Liu et.al.|[2602.11494](https://arxiv.org/abs/2602.11494)|**[link](https://github.com/muhammetdurmaz54/tst-tc2602-ufcpivj-114940)**|
+|2026-02-12|Arbitrary Ratio Feature Compression via Next Token Prediction|Yufan Liu et.al.|[2602.11494](https://arxiv.org/abs/2602.11494)|[link](https://github.com/muhammetdurmaz54/tst-tc2602-ufcpivj-114940)|
 |2026-02-11|DeepImageSearch: Benchmarking Multimodal Agents for Context-Aware Image Retrieval in Visual Histories|Chenlong Deng et.al.|[2602.10809](https://arxiv.org/abs/2602.10809)|null|
 |2026-02-09|OSCAR: Optimization-Steered Agentic Planning for Composed Image Retrieval|Teng Wang et.al.|[2602.08603](https://arxiv.org/abs/2602.08603)|null|
 |2026-02-09|A Sketch+Text Composed Image Retrieval Dataset for Thangka|Jinyu Xu et.al.|[2602.08411](https://arxiv.org/abs/2602.08411)|null|
@@ -196,7 +196,7 @@
 |2025-10-04|The Overlooked Value of Test-time Reference Sets in Visual Place Recognition|Mubariz Zaffar et.al.|[2510.03751](http://arxiv.org/abs/2510.03751)|null|
 |2025-10-03|Novel UWB Synthetic Aperture Radar Imaging for Mobile Robot Mapping|Charith Premachandra et.al.|[2510.02874](http://arxiv.org/abs/2510.02874)|null|
 |2025-10-03|Team Xiaomi EV-AD VLA: Caption-Guided Retrieval System for Cross-Modal Drone Navigation -- Technical Report for IROS 2025 RoboSense Challenge Track 4|Lingfeng Zhang et.al.|[2510.02728](http://arxiv.org/abs/2510.02728)|null|
-|2025-10-01|EvoWorld: Evolving Panoramic World Generation with Explicit 3D Memory|Jiahao Wang et.al.|[2510.01183](http://arxiv.org/abs/2510.01183)|null|
+|2025-10-01|EvoWorld: Evolving Panoramic World Generation with Explicit 3D Memory|Jiahao Wang et.al.|[2510.01183](http://arxiv.org/abs/2510.01183)|**[link](https://github.com/JiahaoPlus/EvoWorld)**|
 |2025-10-01|A Scene is Worth a Thousand Features: Feed-Forward Camera Localization from a Collection of Image Features|Axel Barroso-Laguna et.al.|[2510.00978](http://arxiv.org/abs/2510.00978)|null|
 |2025-10-01|Semantic Visual Simultaneous Localization and Mapping: A Survey on State of the Art, Challenges, and Future Directions|Thanh Nguyen Canh et.al.|[2510.00783](http://arxiv.org/abs/2510.00783)|null|
 |2025-09-30|Video Object Segmentation-Aware Audio Generation|Ilpo Viertola et.al.|[2509.26604](http://arxiv.org/abs/2509.26604)|null|
@@ -205,7 +205,7 @@
 |2025-09-30|SAGE: Spatial-visual Adaptive Graph Exploration for Visual Place Recognition|Shunpeng Chen et.al.|[2509.25723](http://arxiv.org/abs/2509.25723)|null|
 |2025-09-29|Robust Visual Localization in Compute-Constrained Environments by Salient Edge Rendering and Weighted Hamming Similarity|Tu-Hoa Pham et.al.|[2509.25520](http://arxiv.org/abs/2509.25520)|null|
 |2025-09-29|Performance-Efficiency Trade-off for Fashion Image Retrieval|Julio Hurtado et.al.|[2509.24477](http://arxiv.org/abs/2509.24477)|null|
-|2025-09-28|Prepare for Warp Speed: Sub-millisecond Visual Place Recognition Using Event Cameras|Vignesh Ramanathan et.al.|[2509.24094](http://arxiv.org/abs/2509.24094)|null|
+|2025-09-28|Prepare for Warp Speed: Sub-millisecond Visual Place Recognition Using Event Cameras|Vignesh Ramanathan et.al.|[2509.24094](http://arxiv.org/abs/2509.24094)|**[link](https://github.com/Vignesh-Ramanathan/flash)**|
 |2025-09-26|Johnson-Lindenstrauss Lemma Guided Network for Efficient 3D Medical Segmentation|Jinpeng Lu et.al.|[2509.22307](http://arxiv.org/abs/2509.22307)|null|
 |2025-09-23|SGAligner++: Cross-Modal Language-Aided 3D Scene Graph Alignment|Binod Singh et.al.|[2509.20401](http://arxiv.org/abs/2509.20401)|null|
 |2025-09-24|A Versatile Foundation Model for AI-enabled Mammogram Interpretation|Fuxiang Huang et.al.|[2509.20271](http://arxiv.org/abs/2509.20271)|null|

@@ -4,26 +4,26 @@
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-03-13**|**Towards Spatio-Temporal World Scene Graph Generation from Monocular Videos**|Rohith Peddi et.al.|[2603.13185](https://arxiv.org/abs/2603.13185)|null|
-|**2026-03-13**|**3DTCR: A Physics-Based Generative Framework for Vortex-Following 3D Reconstruction to Improve Tropical Cyclone Intensity Forecasting**|Jun Liu et.al.|[2603.13049](https://arxiv.org/abs/2603.13049)|null|
-|**2026-03-13**|**CMHANet: A Cross-Modal Hybrid Attention Network for Point Cloud Registration**|Dongxu Zhang et.al.|[2603.12721](https://arxiv.org/abs/2603.12721)|null|
-|**2026-03-13**|**Marker-Based 3D Reconstruction of Aggregates with a Comparative Analysis of 2D and 3D Morphologies**|Haohang Huang et.al.|[2603.12667](https://arxiv.org/abs/2603.12667)|null|
-|**2026-03-12**|**Single-View Rolling-Shutter SfM**|Sofía Errázuriz Muñoz et.al.|[2603.11888](https://arxiv.org/abs/2603.11888)|null|
-|**2026-03-12**|**CEI-3D: Collaborative Explicit-Implicit 3D Reconstruction for Realistic and Fine-Grained Object Editing**|Yue Shi et.al.|[2603.11810](https://arxiv.org/abs/2603.11810)|null|
-|**2026-03-12**|**High-Precision 6DOF Pose Estimation via Global Phase Retrieval in Fringe Projection Profilometry for 3D Mapping**|Sehoon Tak et.al.|[2603.11389](https://arxiv.org/abs/2603.11389)|null|
-|**2026-03-11**|**InstantHDR: Single-forward Gaussian Splatting for High Dynamic Range 3D Reconstruction**|Dingqiang Ye et.al.|[2603.11298](https://arxiv.org/abs/2603.11298)|null|
-|**2026-03-11**|**GGPT: Geometry Grounded Point Transformer**|Yutong Chen et.al.|[2603.11174](https://arxiv.org/abs/2603.11174)|null|
-|**2026-03-11**|**Neural Field Thermal Tomography: A Differentiable Physics Framework for Non-Destructive Evaluation**|Tao Zhong et.al.|[2603.11045](https://arxiv.org/abs/2603.11045)|null|
-|**2026-03-10**|**NLiPsCalib: An Efficient Calibration Framework for High-Fidelity 3D Reconstruction of Curved Visuotactile Sensors**|Xuhao Qin et.al.|[2603.09319](https://arxiv.org/abs/2603.09319)|null|
-|**2026-03-10**|**Implicit Geometry Representations for Vision-and-Language Navigation from Web Videos**|Mingfei Han et.al.|[2603.09259](https://arxiv.org/abs/2603.09259)|null|
-|**2026-03-09**|**OSCAR: Occupancy-based Shape Completion via Acoustic Neural Implicit Representations**|Magdalena Wysocki et.al.|[2603.08279](https://arxiv.org/abs/2603.08279)|null|
-|**2026-03-09**|**Speed3R: Sparse Feed-forward 3D Reconstruction Models**|Weining Ren et.al.|[2603.08055](https://arxiv.org/abs/2603.08055)|null|
-|**2026-03-09**|**$L^3$ :Scene-agnostic Visual Localization in the Wild**|Yu Zhang et.al.|[2603.07937](https://arxiv.org/abs/2603.07937)|null|
-|**2026-03-08**|**FrameVGGT: Frame Evidence Rolling Memory for streaming VGGT**|Zhisong Xu et.al.|[2603.07690](https://arxiv.org/abs/2603.07690)|null|
-|**2026-03-08**|**ACCURATE: Arbitrary-shaped Continuum Reconstruction Under Robust Adaptive Two-view Estimation**|Yaozhi Zhang et.al.|[2603.07533](https://arxiv.org/abs/2603.07533)|null|
-|**2026-03-08**|**DogWeave: High-Fidelity 3D Canine Reconstruction from a Single Image via Normal Fusion and Conditional Inpainting**|Shufan Sun et.al.|[2603.07441](https://arxiv.org/abs/2603.07441)|null|
-|**2026-03-07**|**SurgCUT3R: Surgical Scene-Aware Continuous Understanding of Temporal 3D Representation**|Kaiyuan Xu et.al.|[2603.06971](https://arxiv.org/abs/2603.06971)|null|
-|**2026-03-07**|**Virtual Intraoperative CT (viCT): Sequential Anatomic Updates for Modeling Tissue Resection Throughout Endoscopic Sinus Surgery**|Nicole M. Gunderson et.al.|[2603.06956](https://arxiv.org/abs/2603.06956)|null|
+|2026-03-13|Towards Spatio-Temporal World Scene Graph Generation from Monocular Videos|Rohith Peddi et.al.|[2603.13185](https://arxiv.org/abs/2603.13185)|null|
+|2026-03-13|3DTCR: A Physics-Based Generative Framework for Vortex-Following 3D Reconstruction to Improve Tropical Cyclone Intensity Forecasting|Jun Liu et.al.|[2603.13049](https://arxiv.org/abs/2603.13049)|null|
+|2026-03-13|CMHANet: A Cross-Modal Hybrid Attention Network for Point Cloud Registration|Dongxu Zhang et.al.|[2603.12721](https://arxiv.org/abs/2603.12721)|null|
+|2026-03-13|Marker-Based 3D Reconstruction of Aggregates with a Comparative Analysis of 2D and 3D Morphologies|Haohang Huang et.al.|[2603.12667](https://arxiv.org/abs/2603.12667)|null|
+|2026-03-12|Single-View Rolling-Shutter SfM|Sofía Errázuriz Muñoz et.al.|[2603.11888](https://arxiv.org/abs/2603.11888)|null|
+|2026-03-12|CEI-3D: Collaborative Explicit-Implicit 3D Reconstruction for Realistic and Fine-Grained Object Editing|Yue Shi et.al.|[2603.11810](https://arxiv.org/abs/2603.11810)|null|
+|2026-03-12|High-Precision 6DOF Pose Estimation via Global Phase Retrieval in Fringe Projection Profilometry for 3D Mapping|Sehoon Tak et.al.|[2603.11389](https://arxiv.org/abs/2603.11389)|null|
+|2026-03-11|InstantHDR: Single-forward Gaussian Splatting for High Dynamic Range 3D Reconstruction|Dingqiang Ye et.al.|[2603.11298](https://arxiv.org/abs/2603.11298)|null|
+|2026-03-11|GGPT: Geometry Grounded Point Transformer|Yutong Chen et.al.|[2603.11174](https://arxiv.org/abs/2603.11174)|null|
+|2026-03-11|Neural Field Thermal Tomography: A Differentiable Physics Framework for Non-Destructive Evaluation|Tao Zhong et.al.|[2603.11045](https://arxiv.org/abs/2603.11045)|null|
+|2026-03-10|NLiPsCalib: An Efficient Calibration Framework for High-Fidelity 3D Reconstruction of Curved Visuotactile Sensors|Xuhao Qin et.al.|[2603.09319](https://arxiv.org/abs/2603.09319)|null|
+|2026-03-10|Implicit Geometry Representations for Vision-and-Language Navigation from Web Videos|Mingfei Han et.al.|[2603.09259](https://arxiv.org/abs/2603.09259)|null|
+|2026-03-09|OSCAR: Occupancy-based Shape Completion via Acoustic Neural Implicit Representations|Magdalena Wysocki et.al.|[2603.08279](https://arxiv.org/abs/2603.08279)|null|
+|2026-03-09|Speed3R: Sparse Feed-forward 3D Reconstruction Models|Weining Ren et.al.|[2603.08055](https://arxiv.org/abs/2603.08055)|**[link](https://github.com/Visual-AI/speed3r)**|
+|2026-03-09| $L^3$ :Scene-agnostic Visual Localization in the Wild|Yu Zhang et.al.|[2603.07937](https://arxiv.org/abs/2603.07937)|null|
+|2026-03-08|FrameVGGT: Frame Evidence Rolling Memory for streaming VGGT|Zhisong Xu et.al.|[2603.07690](https://arxiv.org/abs/2603.07690)|null|
+|2026-03-08|ACCURATE: Arbitrary-shaped Continuum Reconstruction Under Robust Adaptive Two-view Estimation|Yaozhi Zhang et.al.|[2603.07533](https://arxiv.org/abs/2603.07533)|null|
+|2026-03-08|DogWeave: High-Fidelity 3D Canine Reconstruction from a Single Image via Normal Fusion and Conditional Inpainting|Shufan Sun et.al.|[2603.07441](https://arxiv.org/abs/2603.07441)|null|
+|2026-03-07|SurgCUT3R: Surgical Scene-Aware Continuous Understanding of Temporal 3D Representation|Kaiyuan Xu et.al.|[2603.06971](https://arxiv.org/abs/2603.06971)|null|
+|2026-03-07|Virtual Intraoperative CT (viCT): Sequential Anatomic Updates for Modeling Tissue Resection Throughout Endoscopic Sinus Surgery|Nicole M. Gunderson et.al.|[2603.06956](https://arxiv.org/abs/2603.06956)|null|
 |2026-02-26|VGG-T $^3$ : Offline Feed-Forward 3D Reconstruction at Scale|Sven Elflein et.al.|[2602.23361](https://arxiv.org/abs/2602.23361)|null|
 |2026-02-26|UniScale: Unified Scale-Aware 3D Reconstruction for Multi-View Understanding via Prior Injection for Robotic Perception|Mohammad Mahdavian et.al.|[2602.23224](https://arxiv.org/abs/2602.23224)|null|
 |2026-02-26|FLIGHT: Fibonacci Lattice-based Inference for Geometric Heading in real-Time|David Dirnfeld et.al.|[2602.23115](https://arxiv.org/abs/2602.23115)|null|
@@ -259,13 +259,13 @@
 |2025-04-17|Volume Encoding Gaussians: Transfer Function-Agnostic 3D Gaussians for Volume Rendering|Landon Dyken et.al.|[2504.13339](http://arxiv.org/abs/2504.13339)|null|
 |2025-04-15|EDGS: Eliminating Densification for Efficient Convergence of 3DGS|Dmytro Kotovenko et.al.|[2504.13204](http://arxiv.org/abs/2504.13204)|[link](https://github.com/CompVis/EDGS)|
 |2025-04-15|Deep Learning-based Bathymetry Retrieval without In-situ Depths using Remote Sensing Imagery and SfM-MVS DSMs with Data Gaps|Panagiotis Agrafiotis et.al.|[2504.11416](http://arxiv.org/abs/2504.11416)|[link](https://github.com/pagraf/swin-bathyunet)|
-|2025-04-12|A Constrained Optimization Approach for Gaussian Splatting from Coarsely-posed Images and Noisy Lidar Point Clouds|Jizong Peng et.al.|[2504.09129](http://arxiv.org/abs/2504.09129)|**[link](https://github.com/eldentse/contrained-optimization-3dgs)**|
+|2025-04-12|A Constrained Optimization Approach for Gaussian Splatting from Coarsely-posed Images and Noisy Lidar Point Clouds|Jizong Peng et.al.|[2504.09129](http://arxiv.org/abs/2504.09129)|[link](https://github.com/eldentse/contrained-optimization-3dgs)|
 |2025-04-11|Stereophotoclinometry Revisited|Travis Driver et.al.|[2504.08252](http://arxiv.org/abs/2504.08252)|null|
 |2025-04-08|Implementation of a Zed 2i Stereo Camera for High-Frequency Shoreline Change and Coastal Elevation Monitoring|José A. Pilartes-Congo et.al.|[2504.06464](http://arxiv.org/abs/2504.06464)|null|
 |2025-04-07|Decoding the variability in the star-formation histories of z ~ 0.8 galaxies|Jenny T. Wan et.al.|[2504.05281](http://arxiv.org/abs/2504.05281)|null|
 |2025-04-05|3R-GS: Best Practice in Optimizing Camera Poses Along with 3DGS|Zhisheng Huang et.al.|[2504.04294](http://arxiv.org/abs/2504.04294)|null|
 |2025-04-04|An Algebraic Geometry Approach to Viewing Graph Solvability|Federica Arrigoni et.al.|[2504.03637](http://arxiv.org/abs/2504.03637)|null|
-|2025-04-04|Endo3R: Unified Online Reconstruction from Dynamic Monocular Endoscopic Video|Jiaxin Guo et.al.|[2504.03198](http://arxiv.org/abs/2504.03198)|**[link](https://github.com/wrld/Endo3R)**|
+|2025-04-04|Endo3R: Unified Online Reconstruction from Dynamic Monocular Endoscopic Video|Jiaxin Guo et.al.|[2504.03198](http://arxiv.org/abs/2504.03198)|[link](https://github.com/wrld/Endo3R)|
 |2025-04-03|Adaptive Frequency Enhancement Network for Remote Sensing Image Semantic Segmentation|Feng Gao et.al.|[2504.02647](http://arxiv.org/abs/2504.02647)|[link](https://github.com/oucailab/afenet)|
 |2025-04-09|FIORD: A Fisheye Indoor-Outdoor Dataset with LIDAR Ground Truth for 3D Scene Reconstruction and Benchmarking|Ulas Gunes et.al.|[2504.01732](http://arxiv.org/abs/2504.01732)|null|
 |2025-03-31|LITA-GS: Illumination-Agnostic Novel View Synthesis via Reference-Free 3D Gaussian Splatting and Physical Priors|Han Zhou et.al.|[2504.00219](http://arxiv.org/abs/2504.00219)|null|
