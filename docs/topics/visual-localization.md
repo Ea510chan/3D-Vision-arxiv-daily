@@ -7,12 +7,117 @@ title: Visual Localization
   <div>
     <p class="eyebrow">Topic</p>
     <h1>Visual Localization</h1>
-    <p class="topic-lede">Updated 2026.03.11 · 370 papers</p>
+    <p class="topic-lede">Updated 2026.03.16 · 375 papers</p>
   </div>
   <a class="btn ghost" href="../index.html#topics">← Back to topics</a>
 </section>
 
 <section class="paper-grid">
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">A Closed-Form Solution for Debiasing Vision-Language Models with Utility Guarantees Across Modalities and Tasks</span>
+        <span class="paper-authors">Tangzheng Lian, Guanyu Hu, Yijing Ren, Dimitrios Kollias, Oya Celiktutan</span>
+        <span class="paper-meta">Updated 2026-03-13</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">While Vision-Language Models (VLMs) have achieved remarkable performance across diverse downstream tasks, recent studies have shown that they can inherit social biases from the training data and further propagate them into downstream applications. To address this issue, various debiasing approaches have been proposed, yet most of them aim to improve fairness without having a theoretical guarantee that the utility of the model is preserved. In this paper, we introduce a debiasing method that yields a \textbf{closed-form} solution in the cross-modal space, achieving Pareto-optimal fairness with \textbf{bounded utility losses}. Our method is \textbf{training-free}, requires \textbf{no annotated data}, and can jointly debias both visual and textual modalities across downstream tasks. Extensive experiments show that our method outperforms existing methods in debiasing VLMs across diverse fairness metrics and datasets for both group and \textbf{intersectional} fairness in downstream tasks such as zero-shot image classification, text-to-image retrieval, and text-to-image generation while preserving task performance.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.12998">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.12998.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.12998.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Text-Phase Synergy Network with Dual Priors for Unsupervised Cross-Domain Image Retrieval</span>
+        <span class="paper-authors">Jing Yang, Hui Xue, Shipeng Zhu, Pengfei Fang</span>
+        <span class="paper-meta">Updated 2026-03-13</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">This paper studies unsupervised cross-domain image retrieval (UCDIR), which aims to retrieve images of the same category across different domains without relying on labeled data. Existing methods typically utilize pseudo-labels, derived from clustering algorithms, as supervisory signals for intra-domain representation learning and cross-domain feature alignment. However, these discrete pseudo-labels often fail to provide accurate and comprehensive semantic guidance. Moreover, the alignment process frequently overlooks the entanglement between domain-specific and semantic information, leading to semantic degradation in the learned representations and ultimately impairing retrieval performance. This paper addresses the limitations by proposing a Text-Phase Synergy Network with Dual Priors(TPSNet). Specifically, we first employ CLIP to generate a set of class-specific prompts per domain, termed as domain prompt, serving as a text prior that offers more precise semantic supervision. In parallel, we further introduce a phase prior, represented by domain-invariant phase features, which is integrated into the original image representations to bridge the domain distribution gaps while preserving semantic integrity. Leveraging the synergy of these dual priors, TPSNet significantly outperforms state-of-the-art methods on UCDIR benchmarks.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.12711">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.12711.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.12711.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">CM-Bench: A Comprehensive Cross-Modal Feature Matching Benchmark Bridging Visible and Infrared Images</span>
+        <span class="paper-authors">Liangzheng Sun, Mengfan He, Xingyu Shao, Binbin Li, Zhiqiang Yan, Chunyu Li, Ziyang Meng, Fei Xing</span>
+        <span class="paper-meta">Updated 2026-03-13</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Infrared-visible (IR-VIS) feature matching plays an essential role in cross-modality visual localization, navigation and perception. Along with the rapid development of deep learning techniques, a number of representative image matching methods have been proposed. However, crossmodal feature matching is still a challenging task due to the significant appearance difference. A significant gap for cross-modal feature matching research lies in the absence of standardized benchmarks and metrics for evaluations. In this paper, we introduce a comprehensive cross-modal feature matching benchmark, CM-Bench, which encompasses 30 feature matching algorithms across diverse cross-modal datasets. Specifically, state-of-the-art traditional and deep learning-based methods are first summarized and categorized into sparse, semidense, and dense methods. These methods are evaluated by different tasks including homography estimation, relative pose estimation, and feature-matching-based geo-localization. In addition, we introduce a classification-network-based adaptive preprocessing front-end that automatically selects suitable enhancement strategies before matching. We also present a novel infrared-satellite cross-modal dataset with manually annotated ground-truth correspondences for practical geo-localization evaluation. The dataset and resource will be available at: https://github.com/SLZ98/CM-Bench.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.12690">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.12690.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.12690.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">FBCIR: Balancing Cross-Modal Focuses in Composed Image Retrieval</span>
+        <span class="paper-authors">Chenchen Zhao, Jianhuan Zhuo, Muxi Chen, Zhaohua Zhang, Wenyu Jiang, Tianwen Jiang, Qiuyong Xiao, Jihong Zhang, Qiang Xu</span>
+        <span class="paper-meta">Updated 2026-03-12</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Composed image retrieval (CIR) requires multi-modal models to jointly reason over visual content and semantic modifications presented in text-image input pairs. While current CIR models achieve strong performance on common benchmark cases, their accuracies often degrades in more challenging scenarios where negative candidates are semantically aligned with the query image or text. In this paper, we attribute this degradation to focus imbalances, where models disproportionately attend to one modality while neglecting the other. To validate this claim, we propose FBCIR, a multi-modal focus interpretation method that identifies the most crucial visual and textual input components to a model&#x27;s retrieval decisions. Using FBCIR, we report that focus imbalances are prevalent in existing CIR models, especially under hard negative settings. Building on the analyses, we further propose a CIR data augmentation workflow that facilitates existing CIR datasets with curated hard negatives designed to encourage balanced cross-modal reasoning. Extensive experiments across multiple CIR models demonstrate that the proposed augmentation consistently improves performance in challenging cases, while maintaining their capabilities on standard benchmarks. Together, our interpretation method and data augmentation workflow provide a new perspective on CIR model diagnosis and robustness improvements.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.11520">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.11520.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.11520.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Efficient Cross-View Localization in 6G Space-Air-Ground Integrated Network</span>
+        <span class="paper-authors">Min Hao, Yanbing Xu, Maoqiang Wu, Jinglin Huang, Chen Shang, Jiacheng Wang, Ruichen Zhang, Jiawen Kang, Dusit Niyato, Zhu Han, Wei Ni</span>
+        <span class="paper-meta">Updated 2026-03-12</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Recently, visual localization has become an important supplement to improve localization reliability, and cross-view approaches can greatly enhance coverage and adaptability. Meanwhile, future 6G will enable a globally covered mobile communication system, with a space-air-ground integrated network (SAGIN) serving as key supporting architecture. Inspired by this, we explore an integration of cross-view localization (CVL) with 6G SAGIN, thereby enhancing its performance in latency, energy consumption, and privacy protection. First, we provide a comprehensive review of CVL and SAGIN, highlighting their capabilities, integration opportunities, and potential applications. Benefiting from the fast and extensive image collection and transmission capabilities of the 6G SAGIN architecture, CVL achieves higher localization accuracy and faster processing speed. Then, we propose a split-inference framework for implementing CVL, which fully leverages the distributed communication and computing resources of the 6G SAGIN architecture. Subsequently, we conduct joint optimization of communication, computation, and confidentiality within the proposed split-inference framework, aiming to provide a paradigm and a direction for making CVL efficient. Experimental results validate the effectiveness of the proposed framework and provide solutions to the optimization problem. Finally, we discuss potential research directions for 6G SAGIN-enabled CVL.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.11398">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.11398.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.11398.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
   <article class="paper-card">
     <details class="paper-details">
       <summary>

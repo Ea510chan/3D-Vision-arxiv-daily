@@ -7,12 +7,222 @@ title: 3D Reconstruction
   <div>
     <p class="eyebrow">Topic</p>
     <h1>3D Reconstruction</h1>
-    <p class="topic-lede">Updated 2026.03.11 · 277 papers</p>
+    <p class="topic-lede">Updated 2026.03.16 · 287 papers</p>
   </div>
   <a class="btn ghost" href="../index.html#topics">← Back to topics</a>
 </section>
 
 <section class="paper-grid">
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Towards Spatio-Temporal World Scene Graph Generation from Monocular Videos</span>
+        <span class="paper-authors">Rohith Peddi, Saurabh, Shravan Shanmugam, Likhitha Pallapothula, Yu Xiang, Parag Singla, Vibhav Gogate</span>
+        <span class="paper-meta">Updated 2026-03-13</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Spatio-temporal scene graphs provide a principled representation for modeling evolving object interactions, yet existing methods remain fundamentally frame-centric: they reason only about currently visible objects, discard entities upon occlusion, and operate in 2D. To address this, we first introduce ActionGenome4D, a dataset that upgrades Action Genome videos into 4D scenes via feed-forward 3D reconstruction, world-frame oriented bounding boxes for every object involved in actions, and dense relationship annotations including for objects that are temporarily unobserved due to occlusion or camera motion. Building on this data, we formalize World Scene Graph Generation (WSGG), the task of constructing a world scene graph at each timestamp that encompasses all interacting objects in the scene, both observed and unobserved. We then propose three complementary methods, each exploring a different inductive bias for reasoning about unobserved objects: PWG (Persistent World Graph), which implements object permanence via a zero-order feature buffer; MWAE (Masked World Auto-Encoder), which reframes unobserved-object reasoning as masked completion with cross-view associative retrieval; and 4DST (4D Scene Transformer), which replaces the static buffer with differentiable per-object temporal attention enriched by 3D motion and camera-pose features. We further design and evaluate the performance of strong open-source Vision-Language Models on the WSGG task via a suite of Graph RAG-based approaches, establishing baselines for unlocalized relationship prediction. WSGG thus advances video scene understanding toward world-centric, temporally persistent, and interpretable scene reasoning.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.13185">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.13185.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.13185.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">3DTCR: A Physics-Based Generative Framework for Vortex-Following 3D Reconstruction to Improve Tropical Cyclone Intensity Forecasting</span>
+        <span class="paper-authors">Jun Liu, Xiaohui Zhong, Kai Zheng, Jiarui Li, Yifei Li, Tao Zhou, Wenxu Qian, Shun Dai, Ruian Tie, Yangyang Zhao, Hao Li</span>
+        <span class="paper-meta">Updated 2026-03-13</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Tropical cyclone (TC) intensity forecasting remains challenging as current numerical and AI-based weather models fail to satisfactorily represent extreme TC structure and intensity. Although intensity time-series forecasting has achieved significant advances, it outputs intensity sequences rather than the three-dimensional inner-core fine-scale structure and physical mechanisms governing TC evolution. High-resolution numerical simulations can capture these features but remain computationally expensive and inefficient for large-scale operational applications. Here we present 3DTCR, a physics-based generative framework combining physical constraints with generative AI efficiency for 3D TC structure reconstruction. Trained on a six-year, 3-km-resolution moving-domain WRF dataset, 3DTCR enables region-adaptive vortex-following reconstruction using conditional Flow Matching(CFM), optimized via latent domain adaptation and two-stage transfer learning. The framework mitigates limitations imposed by low-resolution targets and over-smoothed forecasts, improving the representation of TC inner-core structure and intensity while maintaining track stability. Results demonstrate that 3DTCR outperforms the ECMWF high-resolution forecasting system (ECMWF-HRES) in TC intensity prediction at nearly all lead times up to 5 days and reduces the RMSE of maximum WS10M by 36.5\% relative to its FuXi inputs. These findings highlight 3DTCR as a physics-based generative framework that efficiently resolves fine-scale structures at lower computational cost, which may offer a promising avenue for improving TC intensity forecasting.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.13049">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.13049.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.13049.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">CMHANet: A Cross-Modal Hybrid Attention Network for Point Cloud Registration</span>
+        <span class="paper-authors">Dongxu Zhang, Yingsen Wang, Yiding Sun, Haoran Xu, Peilin Fan, Jihua Zhu</span>
+        <span class="paper-meta">Updated 2026-03-13</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Robust point cloud registration is a fundamental task in 3D computer vision and geometric deep learning, essential for applications such as large-scale 3D reconstruction, augmented reality, and scene understanding. However, the performance of established learning-based methods often degrades in complex, real world scenarios characterized by incomplete data, sensor noise, and low overlap regions. To address these limitations, we propose CMHANet, a novel Cross-Modal Hybrid Attention Network. Our method integrates the fusion of rich contextual information from 2D images with the geometric detail of 3D point clouds, yielding a comprehensive and resilient feature representation. Furthermore, we introduce an innovative optimization function based on contrastive learning, which enforces geometric consistency and significantly improves the model&#x27;s robustness to noise and partial observations. We evaluated CMHANet on the 3DMatch and the challenging 3DLoMatch datasets. \rev{Additionally, zero-shot evaluations on the TUM RGB-D SLAM dataset verify the model&#x27;s generalization capability to unseen domains.} The experimental results demonstrate that our method achieves substantial improvements in both registration accuracy and overall robustness, outperforming current techniques. We also release our code in \href{https://github.com/DongXu-Zhang/CMHANet}{https://github.com/DongXu-Zhang/CMHANet}.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.12721">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.12721.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.12721.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Marker-Based 3D Reconstruction of Aggregates with a Comparative Analysis of 2D and 3D Morphologies</span>
+        <span class="paper-authors">Haohang Huang, Jiayi Luo, Issam Qamhia, Erol Tutumluer, John M. Hart, Andrew J. Stolba</span>
+        <span class="paper-meta">Updated 2026-03-13</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Aggregates, serving as the main skeleton in assemblies of construction materials, are important functional components in various building and transportation infrastructures. They can be used in unbound layer applications, e.g. pavement base and railroad ballast, bound applications of cement concrete and asphalt concrete, and as riprap and large-sized primary crushed rocks. Information on the size and shape or morphology of aggregates can greatly facilitate the Quality Assurance/Quality Control (QA/QC) process by providing insights of aggregate behavior during composition and packing. A full 3D characterization of aggregate particle morphology is difficult both during production in a quarry and at a construction site. Many aggregate imaging approaches have been developed to quantify the particle morphology by computer vision, including 2D image-based approaches that analyze particle silhouettes and 3D scanning-based methods that require expensive devices such as 3D laser scanners or X-Ray Computed Tomography (CT) equipment. This paper presents a flexible and cost-effective photogrammetry-based approach for the 3D reconstruction of aggregate particles. The proposed approach follows a marker-based design that enables background suppression, point cloud stitching, and scale referencing to obtain high-quality aggregate models. The accuracy of the reconstruction results was validated against ground-truth for selected aggregate samples. Comparative analyses were conducted on 2D and 3D morphological properties of the selected samples. Significant differences were found between the 2D and 3D statistics. Based on the presented approach, 3D shape information of aggregates can be obtained easily and at a low cost, thus allowing convenient aggregate inspection, data collection, and 3D morphological analysis.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.12667">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.12667.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.12667.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Single-View Rolling-Shutter SfM</span>
+        <span class="paper-authors">Sofía Errázuriz Muñoz, Kim Kiehn, Petr Hruby, Kathlén Kohn</span>
+        <span class="paper-meta">Updated 2026-03-12</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Rolling-shutter (RS) cameras are ubiquitous, but RS SfM (structure-from-motion) has not been fully solved yet. This work suggests an approach to remedy this: We characterize RS single-view geometry of observed world points or lines. Exploiting this geometry, we describe which motion and scene parameters can be recovered from a single RS image and systematically derive minimal reconstruction problems. We evaluate several representative cases with proof-of-concept solvers, highlighting both feasibility and practical limitations.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.11888">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.11888.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.11888.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">CEI-3D: Collaborative Explicit-Implicit 3D Reconstruction for Realistic and Fine-Grained Object Editing</span>
+        <span class="paper-authors">Yue Shi, Rui Shi, Yuxuan Xiong, Bingbing Ni, Wenjun Zhang</span>
+        <span class="paper-meta">Updated 2026-03-12</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Existing 3D editing methods often produce unrealistic and unrefined results due to the deeply integrated nature of their reconstruction networks. To address the challenge, this paper introduces CEI-3D, an editing-oriented reconstruction pipeline designed to facilitate realistic and fine-grained editing. Specifically, we propose a collaborative explicit-implicit reconstruction approach, which represents the target object using an implicit SDF network and a differentially sampled, locally controllable set of handler points. The implicit network provides a smooth and continuous geometry prior, while the explicit handler points offer localized control, enabling mutual guidance between the global 3D structure and user-specified local editing regions. To independently control each attribute of the handler points, we design a physical properties disentangling module to decouple the color of the handler points into separate physical properties. We also propose a dual-diffuse-albedo network in this module to process the edited and non-edited regions through separate branches, thereby preventing undesired interference from editing operations. Building on the reconstructed collaborative explicit-implicit representation with disentangled properties, we introduce a spatial-aware editing module that enables part-wise adjustment of relevant handler points. This module employs a cross-view propagation-based 3D segmentation strategy, which helps users to edit the specified physical attributes of a target part efficiently. Extensive experiments on both real and synthetic datasets demonstrate that our approach achieves more realistic and fine-grained editing results than the state-of-the-art (SOTA) methods while requiring less editing time. Our code is available on https://github.com/shiyue001/CEI-3D.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.11810">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.11810.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.11810.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">High-Precision 6DOF Pose Estimation via Global Phase Retrieval in Fringe Projection Profilometry for 3D Mapping</span>
+        <span class="paper-authors">Sehoon Tak, Keunhee Cho, Sangpil Kim, Jae-Sang Hyun</span>
+        <span class="paper-meta">Updated 2026-03-12</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Digital fringe projection (DFP) enables micrometer-level 3D reconstruction, yet extending it to large-scale mapping remains challenging because six-degree-of-freedom pose estimation often cannot match the reconstruction&#x27;s precision. Conventional iterative closest point (ICP) registration becomes inefficient on multi-million-point clouds and typically relies on downsampling or feature-based selection, which can reduce local detail and degrade pose precision. Drift-correction methods improve long-term consistency but do not resolve sampling sensitivity in dense DFP point clouds.We propose a high-precision pose estimation method that augments a moving DFP system with a fixed, intrinsically calibrated global projector. Using the global projector&#x27;s phase-derived pixel constraints and a PnP-style reprojection objective, the method estimates the DFP system pose in a fixed reference frame without relying on deterministic feature extraction, and we experimentally demonstrate sampling invariance under coordinate-preserving subsampling. Experiments demonstrate sub-millimeter pose accuracy against a reference with quantified uncertainty bounds, high repeatability under aggressive subsampling, robust operation on homogeneous surfaces and low-overlap views, and reduced error accumulation when used to correct ICP-based trajectories. The method extends DFP toward accurate 3D mapping in quasi-static scenarios such as inspection and metrology, with the trade-off of time-multiplexed acquisition for the additional projector measurements.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.11389">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.11389.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.11389.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">InstantHDR: Single-forward Gaussian Splatting for High Dynamic Range 3D Reconstruction</span>
+        <span class="paper-authors">Dingqiang Ye, Jiacong Xu, Jianglu Ping, Yuxiang Guo, Chao Fan, Vishal M. Patel</span>
+        <span class="paper-meta">Updated 2026-03-11</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">High dynamic range (HDR) novel view synthesis (NVS) aims to reconstruct HDR scenes from multi-exposure low dynamic range (LDR) images. Existing HDR pipelines heavily rely on known camera poses, well-initialized dense point clouds, and time-consuming per-scene optimization. Current feed-forward alternatives overlook the HDR problem by assuming exposure-invariant appearance. To bridge this gap, we propose InstantHDR, a feed-forward network that reconstructs 3D HDR scenes from uncalibrated multi-exposure LDR collections in a single forward pass. Specifically, we design a geometry-guided appearance modeling for multi-exposure fusion, and a meta-network for generalizable scene-specific tone mapping. Due to the lack of HDR scene data, we build a pre-training dataset, called HDR-Pretrain, for generalizable feed-forward HDR models, featuring 168 Blender-rendered scenes, diverse lighting types, and multiple camera response functions. Comprehensive experiments show that our InstantHDR delivers comparable synthesis performance to the state-of-the-art optimization-based HDR methods while enjoying $\sim700\times$ and $\sim20\times$ reconstruction speed improvement with our single-forward and post-optimization settings. All code, models, and datasets will be released after the review process.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.11298">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.11298.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.11298.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">GGPT: Geometry Grounded Point Transformer</span>
+        <span class="paper-authors">Yutong Chen, Yiming Wang, Xucong Zhang, Sergey Prokudin, Siyu Tang</span>
+        <span class="paper-meta">Updated 2026-03-11</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Recent feed-forward networks have achieved remarkable progress in sparse-view 3D reconstruction by predicting dense point maps directly from RGB images. However, they often suffer from geometric inconsistencies and limited fine-grained accuracy due to the absence of explicit multi-view constraints. We introduce the Geometry-Grounded Point Transformer (GGPT), a framework that augments feed-forward reconstruction with reliable sparse geometric guidance. We first propose an improved Structure-from-Motion pipeline based on dense feature matching and lightweight geometric optimisation to efficiently estimate accurate camera poses and partial 3D point clouds from sparse input views. Building on this foundation, we propose a geometry-guided 3D point transformer that refines dense point maps under explicit partial-geometry supervision using an optimised guidance encoding. Extensive experiments demonstrate that our method provides a principled mechanism for integrating geometric priors with dense feed-forward predictions, producing reconstructions that are both geometrically consistent and spatially complete, recovering fine structures and filling gaps in textureless areas. Trained solely on ScanNet++ with VGGT predictions, GGPT generalises across architectures and datasets, substantially outperforming state-of-the-art feed-forward 3D reconstruction models in both in-domain and out-of-domain settings.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.11174">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.11174.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.11174.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Neural Field Thermal Tomography: A Differentiable Physics Framework for Non-Destructive Evaluation</span>
+        <span class="paper-authors">Tao Zhong, Yixun Hu, Dongzhe Zheng, Aditya Sood, Christine Allen-Blanchette</span>
+        <span class="paper-meta">Updated 2026-03-11</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">We propose Neural Field Thermal Tomography (NeFTY), a differentiable physics framework for the quantitative 3D reconstruction of material properties from transient surface temperature measurements. While traditional thermography relies on pixel-wise 1D approximations that neglect lateral diffusion, and soft-constrained Physics-Informed Neural Networks (PINNs) often fail in transient diffusion scenarios due to gradient stiffness, NeFTY parameterizes the 3D diffusivity field as a continuous neural field optimized through a rigorous numerical solver. By leveraging a differentiable physics solver, our approach enforces thermodynamic laws as hard constraints while maintaining the memory efficiency required for high-resolution 3D tomography. Our discretize-then-optimize paradigm effectively mitigates the spectral bias and ill-posedness inherent in inverse heat conduction, enabling the recovery of subsurface defects at arbitrary scales. Experimental validation on synthetic data demonstrates that NeFTY significantly improves the accuracy of subsurface defect localization over baselines. Additional details at https://cab-lab-princeton.github.io/nefty/</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.11045">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.11045.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.11045.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
   <article class="paper-card">
     <details class="paper-details">
       <summary>

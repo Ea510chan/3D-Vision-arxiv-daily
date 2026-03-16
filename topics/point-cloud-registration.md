@@ -1,9 +1,12 @@
 # Point Cloud Registration
 
-> Updated on 2026.03.11
+> Updated on 2026.03.16
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-03-13**|**CMHANet: A Cross-Modal Hybrid Attention Network for Point Cloud Registration**|Dongxu Zhang et.al.|[2603.12721](https://arxiv.org/abs/2603.12721)|null|
+|**2026-03-13**|**IGASA: Integrated Geometry-Aware and Skip-Attention Modules for Enhanced Point Cloud Registration**|Dongxu Zhang et.al.|[2603.12719](https://arxiv.org/abs/2603.12719)|null|
+|**2026-03-11**|**TacLoc: Global Tactile Localization on Objects from a Registration Perspective**|Zirui Zhang et.al.|[2603.10565](https://arxiv.org/abs/2603.10565)|null|
 |**2026-03-05**|**SPIRIT: Perceptive Shared Autonomy for Robust Robotic Manipulation under Deep Learning Uncertainty**|Jongseok Lee et.al.|[2603.05111](https://arxiv.org/abs/2603.05111)|null|
 |**2026-02-11**|**End-to-End LiDAR optimization for 3D point cloud registration**|Siddhant Katyan et.al.|[2602.10492](https://arxiv.org/abs/2602.10492)|**[link](https://github.com/siddhantkatyan/e2e-lidar-registration)**|
 |**2026-02-03**|**Beyond the Vehicle: Cooperative Localization by Fusing Point Clouds for GPS-Challenged Urban Scenarios**|Kuo-Yi Chao et.al.|[2602.03908](https://arxiv.org/abs/2602.03908)|null|

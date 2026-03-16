@@ -1,9 +1,14 @@
 # Visual Localization
 
-> Updated on 2026.03.11
+> Updated on 2026.03.16
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-03-13**|**A Closed-Form Solution for Debiasing Vision-Language Models with Utility Guarantees Across Modalities and Tasks**|Tangzheng Lian et.al.|[2603.12998](https://arxiv.org/abs/2603.12998)|null|
+|**2026-03-13**|**Text-Phase Synergy Network with Dual Priors for Unsupervised Cross-Domain Image Retrieval**|Jing Yang et.al.|[2603.12711](https://arxiv.org/abs/2603.12711)|null|
+|**2026-03-13**|**CM-Bench: A Comprehensive Cross-Modal Feature Matching Benchmark Bridging Visible and Infrared Images**|Liangzheng Sun et.al.|[2603.12690](https://arxiv.org/abs/2603.12690)|null|
+|**2026-03-12**|**FBCIR: Balancing Cross-Modal Focuses in Composed Image Retrieval**|Chenchen Zhao et.al.|[2603.11520](https://arxiv.org/abs/2603.11520)|null|
+|**2026-03-12**|**Efficient Cross-View Localization in 6G Space-Air-Ground Integrated Network**|Min Hao et.al.|[2603.11398](https://arxiv.org/abs/2603.11398)|null|
 |**2026-03-10**|**Composed Vision-Language Retrieval for Skin Cancer Case Search via Joint Alignment of Global and Local Representations**|Yuheng Wang et.al.|[2603.09108](https://arxiv.org/abs/2603.09108)|null|
 |**2026-03-09**|**$L^3$ :Scene-agnostic Visual Localization in the Wild**|Yu Zhang et.al.|[2603.07937](https://arxiv.org/abs/2603.07937)|null|
 |**2026-03-08**|**QdaVPR: A novel query-based domain-agnostic model for visual place recognition**|Shanshan Wan et.al.|[2603.07414](https://arxiv.org/abs/2603.07414)|null|

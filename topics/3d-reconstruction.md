@@ -1,9 +1,19 @@
 # 3D Reconstruction
 
-> Updated on 2026.03.11
+> Updated on 2026.03.16
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-03-13**|**Towards Spatio-Temporal World Scene Graph Generation from Monocular Videos**|Rohith Peddi et.al.|[2603.13185](https://arxiv.org/abs/2603.13185)|null|
+|**2026-03-13**|**3DTCR: A Physics-Based Generative Framework for Vortex-Following 3D Reconstruction to Improve Tropical Cyclone Intensity Forecasting**|Jun Liu et.al.|[2603.13049](https://arxiv.org/abs/2603.13049)|null|
+|**2026-03-13**|**CMHANet: A Cross-Modal Hybrid Attention Network for Point Cloud Registration**|Dongxu Zhang et.al.|[2603.12721](https://arxiv.org/abs/2603.12721)|null|
+|**2026-03-13**|**Marker-Based 3D Reconstruction of Aggregates with a Comparative Analysis of 2D and 3D Morphologies**|Haohang Huang et.al.|[2603.12667](https://arxiv.org/abs/2603.12667)|null|
+|**2026-03-12**|**Single-View Rolling-Shutter SfM**|Sofía Errázuriz Muñoz et.al.|[2603.11888](https://arxiv.org/abs/2603.11888)|null|
+|**2026-03-12**|**CEI-3D: Collaborative Explicit-Implicit 3D Reconstruction for Realistic and Fine-Grained Object Editing**|Yue Shi et.al.|[2603.11810](https://arxiv.org/abs/2603.11810)|null|
+|**2026-03-12**|**High-Precision 6DOF Pose Estimation via Global Phase Retrieval in Fringe Projection Profilometry for 3D Mapping**|Sehoon Tak et.al.|[2603.11389](https://arxiv.org/abs/2603.11389)|null|
+|**2026-03-11**|**InstantHDR: Single-forward Gaussian Splatting for High Dynamic Range 3D Reconstruction**|Dingqiang Ye et.al.|[2603.11298](https://arxiv.org/abs/2603.11298)|null|
+|**2026-03-11**|**GGPT: Geometry Grounded Point Transformer**|Yutong Chen et.al.|[2603.11174](https://arxiv.org/abs/2603.11174)|null|
+|**2026-03-11**|**Neural Field Thermal Tomography: A Differentiable Physics Framework for Non-Destructive Evaluation**|Tao Zhong et.al.|[2603.11045](https://arxiv.org/abs/2603.11045)|null|
 |**2026-03-10**|**NLiPsCalib: An Efficient Calibration Framework for High-Fidelity 3D Reconstruction of Curved Visuotactile Sensors**|Xuhao Qin et.al.|[2603.09319](https://arxiv.org/abs/2603.09319)|null|
 |**2026-03-10**|**Implicit Geometry Representations for Vision-and-Language Navigation from Web Videos**|Mingfei Han et.al.|[2603.09259](https://arxiv.org/abs/2603.09259)|null|
 |**2026-03-09**|**OSCAR: Occupancy-based Shape Completion via Acoustic Neural Implicit Representations**|Magdalena Wysocki et.al.|[2603.08279](https://arxiv.org/abs/2603.08279)|null|

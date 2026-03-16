@@ -7,12 +7,75 @@ title: NeRF
   <div>
     <p class="eyebrow">Topic</p>
     <h1>NeRF</h1>
-    <p class="topic-lede">Updated 2026.03.11 · 312 papers</p>
+    <p class="topic-lede">Updated 2026.03.16 · 315 papers</p>
   </div>
   <a class="btn ghost" href="../index.html#topics">← Back to topics</a>
 </section>
 
 <section class="paper-grid">
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Spectral-Geometric Neural Fields for Pose-Free LiDAR View Synthesis</span>
+        <span class="paper-authors">Yinuo Jiang, Jun Cheng, Yiran Wang, Cheng Cheng</span>
+        <span class="paper-meta">Updated 2026-03-13</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Neural Radiance Fields (NeRF) have shown remarkable success in image novel view synthesis (NVS), inspiring extensions to LiDAR NVS. However, most methods heavily rely on accurate camera poses for scene reconstruction. The sparsity and textureless nature of LiDAR data also present distinct challenges, leading to geometric holes and discontinuous surfaces. To address these issues, we propose SG-NLF, a pose-free LiDAR NeRF framework that integrates spectral information with geometric consistency. Specifically, we design a hybrid representation based on spectral priors to reconstruct smooth geometry. For pose optimization, we construct a confidence-aware graph based on feature compatibility to achieve global alignment. In addition, an adversarial learning strategy is introduced to enforce cross-frame consistency, thereby enhancing reconstruction quality. Comprehensive experiments demonstrate the effectiveness of our framework, especially in challenging low-frequency scenarios. Compared to previous state-of-the-art methods, SG-NLF improves reconstruction quality and pose accuracy by over 35.8% and 68.8%. Our work can provide a novel perspective for LiDAR view synthesis.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.12903">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.12903.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.12903.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Catalyst4D: High-Fidelity 3D-to-4D Scene Editing via Dynamic Propagation</span>
+        <span class="paper-authors">Shifeng Chen, Yihui Li, Jun Liao, Hongyu Yang, Di Huang</span>
+        <span class="paper-meta">Updated 2026-03-13</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Recent advances in 3D scene editing using NeRF and 3DGS enable high-quality static scene editing. In contrast, dynamic scene editing remains challenging, as methods that directly extend 2D diffusion models to 4D often produce motion artifacts, temporal flickering, and inconsistent style propagation. We introduce Catalyst4D, a framework that transfers high-quality 3D edits to dynamic 4D Gaussian scenes while maintaining spatial and temporal coherence. At its core, Anchor-based Motion Guidance (AMG) builds a set of structurally stable and spatially representative anchors from both original and edited Gaussians. These anchors serve as robust region-level references, and their correspondences are established via optimal transport to enable consistent deformation propagation without cross-region interference or motion drift. Complementarily, Color Uncertainty-guided Appearance Refinement (CUAR) preserves temporal appearance consistency by estimating per-Gaussian color uncertainty and selectively refining regions prone to occlusion-induced artifacts. Extensive experiments demonstrate that Catalyst4D achieves temporally stable, high-fidelity dynamic scene editing and outperforms existing methods in both visual quality and motion coherence.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.12766">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.12766.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.12766.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Node-RF: Learning Generalized Continuous Space-Time Scene Dynamics with Neural ODE-based NeRFs</span>
+        <span class="paper-authors">Hiran Sarkar, Liming Kuang, Yordanka Velikova, Benjamin Busam</span>
+        <span class="paper-meta">Updated 2026-03-13</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Predicting scene dynamics from visual observations is challenging. Existing methods capture dynamics only within observed boundaries failing to extrapolate far beyond the training sequence. Node-RF (Neural ODE-based NeRF) overcomes this limitation by integrating Neural Ordinary Differential Equations (NODEs) with dynamic Neural Radiance Fields (NeRFs), enabling a continuous-time, spatiotemporal representation that generalizes beyond observed trajectories at constant memory cost. From visual input, Node-RF learns an implicit scene state that evolves over time via an ODE solver, propagating feature embeddings via differential calculus. A NeRF-based renderer interprets calculated embeddings to synthesize arbitrary views for long-range extrapolation. Training on multiple motion sequences with shared dynamics allows for generalization to unseen conditions. Our experiments demonstrate that Node-RF can characterize abstract system behavior without explicit model to identify critical points for future predictions.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.12078">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.12078.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.12078.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
   <article class="paper-card">
     <details class="paper-details">
       <summary>

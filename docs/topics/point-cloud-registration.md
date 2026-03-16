@@ -7,12 +7,75 @@ title: Point Cloud Registration
   <div>
     <p class="eyebrow">Topic</p>
     <h1>Point Cloud Registration</h1>
-    <p class="topic-lede">Updated 2026.03.11 · 123 papers</p>
+    <p class="topic-lede">Updated 2026.03.16 · 126 papers</p>
   </div>
   <a class="btn ghost" href="../index.html#topics">← Back to topics</a>
 </section>
 
 <section class="paper-grid">
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">CMHANet: A Cross-Modal Hybrid Attention Network for Point Cloud Registration</span>
+        <span class="paper-authors">Dongxu Zhang, Yingsen Wang, Yiding Sun, Haoran Xu, Peilin Fan, Jihua Zhu</span>
+        <span class="paper-meta">Updated 2026-03-13</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Robust point cloud registration is a fundamental task in 3D computer vision and geometric deep learning, essential for applications such as large-scale 3D reconstruction, augmented reality, and scene understanding. However, the performance of established learning-based methods often degrades in complex, real world scenarios characterized by incomplete data, sensor noise, and low overlap regions. To address these limitations, we propose CMHANet, a novel Cross-Modal Hybrid Attention Network. Our method integrates the fusion of rich contextual information from 2D images with the geometric detail of 3D point clouds, yielding a comprehensive and resilient feature representation. Furthermore, we introduce an innovative optimization function based on contrastive learning, which enforces geometric consistency and significantly improves the model&#x27;s robustness to noise and partial observations. We evaluated CMHANet on the 3DMatch and the challenging 3DLoMatch datasets. \rev{Additionally, zero-shot evaluations on the TUM RGB-D SLAM dataset verify the model&#x27;s generalization capability to unseen domains.} The experimental results demonstrate that our method achieves substantial improvements in both registration accuracy and overall robustness, outperforming current techniques. We also release our code in \href{https://github.com/DongXu-Zhang/CMHANet}{https://github.com/DongXu-Zhang/CMHANet}.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.12721">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.12721.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.12721.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">IGASA: Integrated Geometry-Aware and Skip-Attention Modules for Enhanced Point Cloud Registration</span>
+        <span class="paper-authors">Dongxu Zhang, Jihua Zhu, Shiqi Li, Wenbiao Yan, Haoran Xu, Peilin Fan, Huimin Lu</span>
+        <span class="paper-meta">Updated 2026-03-13</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Point cloud registration (PCR) is a fundamental task in 3D vision and provides essential support for applications such as autonomous driving, robotics, and environmental modeling. Despite its widespread use, existing methods often fail when facing real-world challenges like heavy noise, significant occlusions, and large-scale transformations. These limitations frequently result in compromised registration accuracy and insufficient robustness in complex environments. In this paper, we propose IGASA as a novel registration framework constructed upon a Hierarchical Pyramid Architecture (HPA) designed for robust multi-scale feature extraction and fusion. The framework integrates two pivotal components consisting of the Hierarchical Cross-Layer Attention (HCLA) module and the Iterative Geometry-Aware Refinement (IGAR) module. The HCLA module utilizes skip attention mechanisms to align multi-resolution features and enhance local geometric consistency. Simultaneously, the IGAR module is designed for the fine matching phase by leveraging reliable correspondences established during coarse matching. This synergistic integration within the architecture allows IGASA to adapt effectively to diverse point cloud structures and intricate transformations. We evaluate the performance of IGASA on four widely recognized benchmark datasets including 3D(Lo)Match, KITTI, and nuScenes. Our extensive experiments consistently demonstrate that IGASA significantly surpasses state-of-the-art methods and achieves notable improvements in registration accuracy. This work provides a robust foundation for advancing point cloud registration techniques while offering valuable insights for practical 3D vision applications. The code for IGASA is available in \href{https://github.com/DongXu-Zhang/IGASA}{https://github.com/DongXu-Zhang/IGASA}.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.12719">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.12719.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.12719.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">TacLoc: Global Tactile Localization on Objects from a Registration Perspective</span>
+        <span class="paper-authors">Zirui Zhang, Boyang Zhang, Fumin Zhang, Huan Yin</span>
+        <span class="paper-meta">Updated 2026-03-11</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Pose estimation is essential for robotic manipulation, particularly when visual perception is occluded during gripper-object interactions. Existing tactile-based methods generally rely on tactile simulation or pre-trained models, which limits their generalizability and efficiency. In this study, we propose TacLoc, a novel tactile localization framework that formulates the problem as a one-shot point cloud registration task. TacLoc introduces a graph-theoretic partial-to-full registration method, leveraging dense point clouds and surface normals from tactile sensing for efficient and accurate pose estimation. Without requiring rendered data or pre-trained models, TacLoc achieves improved performance through normal-guided graph pruning and a hypothesis-and-verification pipeline. TacLoc is evaluated extensively on the YCB dataset. We further demonstrate TacLoc on real-world objects across two different visual-tactile sensors.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.10565">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.10565.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.10565.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
   <article class="paper-card">
     <details class="paper-details">
       <summary>

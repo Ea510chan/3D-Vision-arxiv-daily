@@ -7,12 +7,54 @@ title: Image Matching
   <div>
     <p class="eyebrow">Topic</p>
     <h1>Image Matching</h1>
-    <p class="topic-lede">Updated 2026.03.11 · 151 papers</p>
+    <p class="topic-lede">Updated 2026.03.16 · 152 papers</p>
   </div>
   <a class="btn ghost" href="../index.html#topics">← Back to topics</a>
 </section>
 
 <section class="paper-grid">
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">CM-Bench: A Comprehensive Cross-Modal Feature Matching Benchmark Bridging Visible and Infrared Images</span>
+        <span class="paper-authors">Liangzheng Sun, Mengfan He, Xingyu Shao, Binbin Li, Zhiqiang Yan, Chunyu Li, Ziyang Meng, Fei Xing</span>
+        <span class="paper-meta">Updated 2026-03-13</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Infrared-visible (IR-VIS) feature matching plays an essential role in cross-modality visual localization, navigation and perception. Along with the rapid development of deep learning techniques, a number of representative image matching methods have been proposed. However, crossmodal feature matching is still a challenging task due to the significant appearance difference. A significant gap for cross-modal feature matching research lies in the absence of standardized benchmarks and metrics for evaluations. In this paper, we introduce a comprehensive cross-modal feature matching benchmark, CM-Bench, which encompasses 30 feature matching algorithms across diverse cross-modal datasets. Specifically, state-of-the-art traditional and deep learning-based methods are first summarized and categorized into sparse, semidense, and dense methods. These methods are evaluated by different tasks including homography estimation, relative pose estimation, and feature-matching-based geo-localization. In addition, we introduce a classification-network-based adaptive preprocessing front-end that automatically selects suitable enhancement strategies before matching. We also present a novel infrared-satellite cross-modal dataset with manually annotated ground-truth correspondences for practical geo-localization evaluation. The dataset and resource will be available at: https://github.com/SLZ98/CM-Bench.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.12690">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.12690.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.12690.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Understanding and Optimizing Attention-Based Sparse Matching for Diverse Local Features</span>
+        <span class="paper-authors">Qiang Wang</span>
+        <span class="paper-meta">Updated 2026-03-12</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">We revisit the problem of training attention-based sparse image matching models for various local features. We first identify one critical design choice that has been previously overlooked, which significantly impacts the performance of the LightGlue model. We then investigate the role of detectors and descriptors within the transformer-based matching framework, finding that detectors, rather than descriptors, are often the primary cause for performance difference. Finally, we propose a novel approach to fine-tune existing image matching models using keypoints from a diverse set of detectors, resulting in a universal, detector-agnostic model. When deployed as a zero-shot matcher for novel detectors, the resulting model achieves or exceeds the accuracy of models specifically trained for those features. Our findings offer valuable insights for the deployment of transformer-based matching models and the future design of local features.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2602.08430">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2602.08430.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.08430.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
   <article class="paper-card">
     <details class="paper-details">
       <summary>
@@ -154,27 +196,6 @@ title: Image Matching
           <span class="chip ghost">Code: N/A</span>
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.12515.pdf">
-          <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
-        </div>
-      </div>
-    </details>
-  </article>
-  <article class="paper-card">
-    <details class="paper-details">
-      <summary>
-        <span class="paper-title">Understanding and Optimizing Attention-Based Sparse Matching for Diverse Local Features</span>
-        <span class="paper-authors">Qiang Wang</span>
-        <span class="paper-meta">Updated 2026-02-09</span>
-      </summary>
-      <div class="paper-body">
-        <p class="paper-abstract">We revisit the problem of training attention-based sparse image matching models for various local features. We first identify one critical design choice that has been previously overlooked, which significantly impacts the performance of the LightGlue model. We then investigate the role of detectors and descriptors within the transformer-based matching framework, finding that detectors, rather than descriptors, are often the primary cause for performance difference. Finally, we propose a novel approach to fine-tune existing image matching models using keypoints from a diverse set of detectors, resulting in a universal, detector-agnostic model. When deployed as a zero-shot matcher for novel detectors, the resulting model achieves or exceeds the accuracy of models specifically trained for those features. Our findings offer valuable insights for the deployment of transformer-based matching models and the future design of local features.</p>
-        <div class="paper-links">
-          <a class="chip" href="https://arxiv.org/abs/2602.08430">arXiv</a>
-          <a class="chip" href="https://arxiv.org/pdf/2602.08430.pdf">PDF</a>
-          <span class="chip ghost">Code: N/A</span>
-        </div>
-        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.08430.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>

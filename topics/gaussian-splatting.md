@@ -1,9 +1,19 @@
 # Gaussian Splatting
 
-> Updated on 2026.03.11
+> Updated on 2026.03.16
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-03-13**|**Spectral Defense Against Resource-Targeting Attack in 3D Gaussian Splatting**|Yang Chen et.al.|[2603.12796](https://arxiv.org/abs/2603.12796)|null|
+|**2026-03-13**|**LR-SGS: Robust LiDAR-Reflectance-Guided Salient Gaussian Splatting for Self-Driving Scene Reconstruction**|Ziyu Chen et.al.|[2603.12647](https://arxiv.org/abs/2603.12647)|null|
+|**2026-03-12**|**AstroSplat: Physics-Based Gaussian Splatting for Rendering and Reconstruction of Small Celestial Bodies**|Jennifer Nolan et.al.|[2603.11969](https://arxiv.org/abs/2603.11969)|null|
+|**2026-03-12**|**Mango-GS: Enhancing Spatio-Temporal Consistency in Dynamic Scenes Reconstruction using Multi-Frame Node-Guided 4D Gaussian Splatting**|Tingxuan Huang et.al.|[2603.11543](https://arxiv.org/abs/2603.11543)|null|
+|**2026-03-12**|**Mobile-GS: Real-time Gaussian Splatting for Mobile Devices**|Xiaobiao Du et.al.|[2603.11531](https://arxiv.org/abs/2603.11531)|null|
+|**2026-03-11**|**InstantHDR: Single-forward Gaussian Splatting for High Dynamic Range 3D Reconstruction**|Dingqiang Ye et.al.|[2603.11298](https://arxiv.org/abs/2603.11298)|null|
+|**2026-03-11**|**S2D: Sparse to Dense Lifting for 3D Reconstruction with Minimal Inputs**|Yuzhou Ji et.al.|[2603.10893](https://arxiv.org/abs/2603.10893)|null|
+|**2026-03-11**|**PolGS++: Physically-Guided Polarimetric Gaussian Splatting for Fast Reflective Surface Reconstruction**|Yufei Han et.al.|[2603.10801](https://arxiv.org/abs/2603.10801)|null|
+|**2026-03-11**|**Splat2Real: Novel-view Scaling for Physical AI with 3D Gaussian Splatting**|Hansol Lim et.al.|[2603.10638](https://arxiv.org/abs/2603.10638)|null|
+|**2026-03-11**|**P-GSVC: Layered Progressive 2D Gaussian Splatting for Scalable Image and Video**|Longan Wang et.al.|[2603.10551](https://arxiv.org/abs/2603.10551)|null|
 |**2026-03-10**|**VarSplat: Uncertainty-aware 3D Gaussian Splatting for Robust RGB-D SLAM**|Anh Thuan Tran et.al.|[2603.09673](https://arxiv.org/abs/2603.09673)|null|
 |**2026-03-10**|**DiffWind: Physics-Informed Differentiable Modeling of Wind-Driven Object Dynamics**|Yuanhang Lei et.al.|[2603.09668](https://arxiv.org/abs/2603.09668)|null|
 |**2026-03-10**|**X-GS: An Extensible Open Framework Unifying 3DGS Architectures with Downstream Multimodal Models**|Yueen Ma et.al.|[2603.09632](https://arxiv.org/abs/2603.09632)|null|
