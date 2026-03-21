@@ -1,16 +1,19 @@
 # NeRF
 
-> Updated on 2026.03.16
+> Updated on 2026.03.21
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|2026-03-13|Spectral-Geometric Neural Fields for Pose-Free LiDAR View Synthesis|Yinuo Jiang et.al.|[2603.12903](https://arxiv.org/abs/2603.12903)|null|
-|2026-03-13|Catalyst4D: High-Fidelity 3D-to-4D Scene Editing via Dynamic Propagation|Shifeng Chen et.al.|[2603.12766](https://arxiv.org/abs/2603.12766)|null|
-|2026-03-13|Node-RF: Learning Generalized Continuous Space-Time Scene Dynamics with Neural ODE-based NeRFs|Hiran Sarkar et.al.|[2603.12078](https://arxiv.org/abs/2603.12078)|null|
-|2026-03-10|DenoiseSplat: Feed-Forward Gaussian Splatting for Noisy 3D Scene Reconstruction|Fuzhen Jiang et.al.|[2603.09291](https://arxiv.org/abs/2603.09291)|null|
-|2026-03-10|Speeding Up the Learning of 3D Gaussians with Much Shorter Gaussian Lists|Jiaqi Liu et.al.|[2603.09277](https://arxiv.org/abs/2603.09277)|null|
-|2026-03-09|SkipGS: Post-Densification Backward Skipping for Efficient 3DGS Training|Jingxing Li et.al.|[2603.08997](https://arxiv.org/abs/2603.08997)|null|
-|2026-03-09|Fast Low-light Enhancement and Deblurring for 3D Dark Scenes|Feng Zhang et.al.|[2603.08133](https://arxiv.org/abs/2603.08133)|null|
+|**2026-03-18**|**Fast and Generalizable NeRF Architecture Selection for Satellite Scene Reconstruction**|Devjyoti Chakraborty et.al.|[2603.18306](https://arxiv.org/abs/2603.18306)|null|
+|**2026-03-18**|**Neural Radiance Maps for Extraterrestrial Navigation and Path Planning**|Adam Dai et.al.|[2603.17236](https://arxiv.org/abs/2603.17236)|null|
+|**2026-03-16**|**E2EGS: Event-to-Edge Gaussian Splatting for Pose-Free 3D Reconstruction**|Yunsoo Kim et.al.|[2603.14684](https://arxiv.org/abs/2603.14684)|null|
+|**2026-03-13**|**Spectral-Geometric Neural Fields for Pose-Free LiDAR View Synthesis**|Yinuo Jiang et.al.|[2603.12903](https://arxiv.org/abs/2603.12903)|null|
+|**2026-03-13**|**Catalyst4D: High-Fidelity 3D-to-4D Scene Editing via Dynamic Propagation**|Shifeng Chen et.al.|[2603.12766](https://arxiv.org/abs/2603.12766)|null|
+|**2026-03-13**|**Node-RF: Learning Generalized Continuous Space-Time Scene Dynamics with Neural ODE-based NeRFs**|Hiran Sarkar et.al.|[2603.12078](https://arxiv.org/abs/2603.12078)|null|
+|**2026-03-10**|**DenoiseSplat: Feed-Forward Gaussian Splatting for Noisy 3D Scene Reconstruction**|Fuzhen Jiang et.al.|[2603.09291](https://arxiv.org/abs/2603.09291)|null|
+|**2026-03-10**|**Speeding Up the Learning of 3D Gaussians with Much Shorter Gaussian Lists**|Jiaqi Liu et.al.|[2603.09277](https://arxiv.org/abs/2603.09277)|null|
+|**2026-03-09**|**SkipGS: Post-Densification Backward Skipping for Efficient 3DGS Training**|Jingxing Li et.al.|[2603.08997](https://arxiv.org/abs/2603.08997)|null|
+|**2026-03-09**|**Fast Low-light Enhancement and Deblurring for 3D Dark Scenes**|Feng Zhang et.al.|[2603.08133](https://arxiv.org/abs/2603.08133)|null|
 |2026-03-07|Virtual Intraoperative CT (viCT): Sequential Anatomic Updates for Modeling Tissue Resection Throughout Endoscopic Sinus Surgery|Nicole M. Gunderson et.al.|[2603.06956](https://arxiv.org/abs/2603.06956)|null|
 |2026-03-06|FTSplat: Feed-forward Triangle Splatting Network|Xiong Jinlin et.al.|[2603.05932](https://arxiv.org/abs/2603.05932)|null|
 |2026-03-05|Towards 3D Scene Understanding of Gas Plumes in LWIR Hyperspectral Images Using Neural Radiance Fields|Scout Jarman et.al.|[2603.05473](https://arxiv.org/abs/2603.05473)|null|

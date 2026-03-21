@@ -7,12 +7,33 @@ title: Point Cloud Registration
   <div>
     <p class="eyebrow">Topic</p>
     <h1>Point Cloud Registration</h1>
-    <p class="topic-lede">Updated 2026.03.16 · 126 papers</p>
+    <p class="topic-lede">Updated 2026.03.21 · 127 papers</p>
   </div>
   <a class="btn ghost" href="../index.html#topics">← Back to topics</a>
 </section>
 
 <section class="paper-grid">
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">RegFormer++: An Efficient Large-Scale 3D LiDAR Point Registration Network with Projection-Aware 2D Transformer</span>
+        <span class="paper-authors">Jiuming Liu, Guangming Wang, Zhe Liu, Chaokang Jiang, Haoang Li, Mengmeng Liu, Tianchen Deng, Marc Pollefeys, Michael Ying Yang, Hesheng Wang</span>
+        <span class="paper-meta">Updated 2026-03-15</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Although point cloud registration has achieved remarkable advances in object-level and indoor scenes, large-scale LiDAR registration methods has been rarely explored before. Challenges mainly arise from the huge point scale, complex point distribution, and numerous outliers within outdoor LiDAR scans. In addition, most existing registration works generally adopt a two-stage paradigm: They first find correspondences by extracting discriminative local descriptors and then leverage robust estimators (e.g. RANSAC) to filter outliers, which are highly dependent on well-designed descriptors and post-processing choices. To address these problems, we propose a novel end-to-end differential transformer network, termed RegFormer++, for large-scale point cloud alignment without requiring any further post-processing. Specifically, a hierarchical projection-aware 2D transformer with linear complexity is proposed to project raw LiDAR points onto a cylindrical surface and extract global point features, which can improve resilience to outliers due to long-range dependencies. Because we fill original 3D coordinates into 2D projected positions, our designed transformer can benefit from both high efficiency in 2D processing and accuracy from 3D geometric information. Furthermore, to effectively reduce wrong point matching, a Bijective Association Transformer (BAT) is designed, combining both cross attention and all-to-all point gathering. To improve training stability and robustness, a feature-transformed optimal transport module is also designed for regressing the final pose transformation. Extensive experiments on KITTI, NuScenes, and Argoverse datasets demonstrate that our model achieves state-of-the-art performance in terms of both accuracy and efficiency.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.14290">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.14290.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.14290.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
   <article class="paper-card">
     <details class="paper-details">
       <summary>
