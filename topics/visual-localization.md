@@ -1,19 +1,19 @@
 # Visual Localization
 
-> Updated on 2026.03.21
+> Updated on 2026.03.23
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-03-18**|**MCoT-MVS: Multi-level Vision Selection by Multi-modal Chain-of-Thought Reasoning for Composed Image Retrieval**|Xuri Ge et.al.|[2603.17360](https://arxiv.org/abs/2603.17360)|null|
-|**2026-03-17**|**Visual Product Search Benchmark**|Karthik Sulthanpete Govindappa et.al.|[2603.17186](https://arxiv.org/abs/2603.17186)|null|
-|**2026-03-17**|**Retrieving Counterfactuals Improves Visual In-Context Learning**|Guangzhi Xiong et.al.|[2603.16737](https://arxiv.org/abs/2603.16737)|null|
-|**2026-03-17**|**HMAR: Hierarchical Modality-Aware Expert and Dynamic Routing Medical Image Retrieval Architecture**|Aojie Yuan et.al.|[2603.16679](https://arxiv.org/abs/2603.16679)|null|
-|**2026-03-17**|**Rethinking Pose Refinement in 3D Gaussian Splatting under Pose Prior and Geometric Uncertainty**|Mangyu Kong et.al.|[2603.16538](https://arxiv.org/abs/2603.16538)|null|
-|**2026-03-18**|**VisBrowse-Bench: Benchmarking Visual-Native Search for Multimodal Browsing Agents**|Zhengbo Zhang et.al.|[2603.16289](https://arxiv.org/abs/2603.16289)|null|
-|**2026-03-14**|**Evaluation of Visual Place Recognition Methods for Image Pair Retrieval in 3D Vision and Robotics**|Dennis Haitz et.al.|[2603.13917](https://arxiv.org/abs/2603.13917)|null|
-|**2026-03-14**|**Sky2Ground: A Benchmark for Site Modeling under Varying Altitude**|Zengyan Wang et.al.|[2603.13740](https://arxiv.org/abs/2603.13740)|null|
-|**2026-03-13**|**A Closed-Form Solution for Debiasing Vision-Language Models with Utility Guarantees Across Modalities and Tasks**|Tangzheng Lian et.al.|[2603.12998](https://arxiv.org/abs/2603.12998)|null|
-|**2026-03-13**|**Text-Phase Synergy Network with Dual Priors for Unsupervised Cross-Domain Image Retrieval**|Jing Yang et.al.|[2603.12711](https://arxiv.org/abs/2603.12711)|null|
+|2026-03-18|MCoT-MVS: Multi-level Vision Selection by Multi-modal Chain-of-Thought Reasoning for Composed Image Retrieval|Xuri Ge et.al.|[2603.17360](https://arxiv.org/abs/2603.17360)|null|
+|2026-03-17|Visual Product Search Benchmark|Karthik Sulthanpete Govindappa et.al.|[2603.17186](https://arxiv.org/abs/2603.17186)|null|
+|2026-03-17|Retrieving Counterfactuals Improves Visual In-Context Learning|Guangzhi Xiong et.al.|[2603.16737](https://arxiv.org/abs/2603.16737)|null|
+|2026-03-17|HMAR: Hierarchical Modality-Aware Expert and Dynamic Routing Medical Image Retrieval Architecture|Aojie Yuan et.al.|[2603.16679](https://arxiv.org/abs/2603.16679)|null|
+|2026-03-17|Rethinking Pose Refinement in 3D Gaussian Splatting under Pose Prior and Geometric Uncertainty|Mangyu Kong et.al.|[2603.16538](https://arxiv.org/abs/2603.16538)|null|
+|2026-03-18|VisBrowse-Bench: Benchmarking Visual-Native Search for Multimodal Browsing Agents|Zhengbo Zhang et.al.|[2603.16289](https://arxiv.org/abs/2603.16289)|null|
+|2026-03-14|Evaluation of Visual Place Recognition Methods for Image Pair Retrieval in 3D Vision and Robotics|Dennis Haitz et.al.|[2603.13917](https://arxiv.org/abs/2603.13917)|null|
+|2026-03-14|Sky2Ground: A Benchmark for Site Modeling under Varying Altitude|Zengyan Wang et.al.|[2603.13740](https://arxiv.org/abs/2603.13740)|null|
+|2026-03-13|A Closed-Form Solution for Debiasing Vision-Language Models with Utility Guarantees Across Modalities and Tasks|Tangzheng Lian et.al.|[2603.12998](https://arxiv.org/abs/2603.12998)|null|
+|2026-03-13|Text-Phase Synergy Network with Dual Priors for Unsupervised Cross-Domain Image Retrieval|Jing Yang et.al.|[2603.12711](https://arxiv.org/abs/2603.12711)|null|
 |2026-03-13|CM-Bench: A Comprehensive Cross-Modal Feature Matching Benchmark Bridging Visible and Infrared Images|Liangzheng Sun et.al.|[2603.12690](https://arxiv.org/abs/2603.12690)|null|
 |2026-03-12|FBCIR: Balancing Cross-Modal Focuses in Composed Image Retrieval|Chenchen Zhao et.al.|[2603.11520](https://arxiv.org/abs/2603.11520)|null|
 |2026-03-12|Efficient Cross-View Localization in 6G Space-Air-Ground Integrated Network|Min Hao et.al.|[2603.11398](https://arxiv.org/abs/2603.11398)|null|
@@ -204,7 +204,7 @@
 |2025-10-04|The Overlooked Value of Test-time Reference Sets in Visual Place Recognition|Mubariz Zaffar et.al.|[2510.03751](http://arxiv.org/abs/2510.03751)|null|
 |2025-10-03|Novel UWB Synthetic Aperture Radar Imaging for Mobile Robot Mapping|Charith Premachandra et.al.|[2510.02874](http://arxiv.org/abs/2510.02874)|null|
 |2025-10-03|Team Xiaomi EV-AD VLA: Caption-Guided Retrieval System for Cross-Modal Drone Navigation -- Technical Report for IROS 2025 RoboSense Challenge Track 4|Lingfeng Zhang et.al.|[2510.02728](http://arxiv.org/abs/2510.02728)|null|
-|2025-10-01|EvoWorld: Evolving Panoramic World Generation with Explicit 3D Memory|Jiahao Wang et.al.|[2510.01183](http://arxiv.org/abs/2510.01183)|**[link](https://github.com/JiahaoPlus/EvoWorld)**|
+|2025-10-01|EvoWorld: Evolving Panoramic World Generation with Explicit 3D Memory|Jiahao Wang et.al.|[2510.01183](http://arxiv.org/abs/2510.01183)|[link](https://github.com/JiahaoPlus/EvoWorld)|
 |2025-10-01|A Scene is Worth a Thousand Features: Feed-Forward Camera Localization from a Collection of Image Features|Axel Barroso-Laguna et.al.|[2510.00978](http://arxiv.org/abs/2510.00978)|null|
 |2025-10-01|Semantic Visual Simultaneous Localization and Mapping: A Survey on State of the Art, Challenges, and Future Directions|Thanh Nguyen Canh et.al.|[2510.00783](http://arxiv.org/abs/2510.00783)|null|
 |2025-09-30|Video Object Segmentation-Aware Audio Generation|Ilpo Viertola et.al.|[2509.26604](http://arxiv.org/abs/2509.26604)|null|
@@ -213,7 +213,7 @@
 |2025-09-30|SAGE: Spatial-visual Adaptive Graph Exploration for Visual Place Recognition|Shunpeng Chen et.al.|[2509.25723](http://arxiv.org/abs/2509.25723)|null|
 |2025-09-29|Robust Visual Localization in Compute-Constrained Environments by Salient Edge Rendering and Weighted Hamming Similarity|Tu-Hoa Pham et.al.|[2509.25520](http://arxiv.org/abs/2509.25520)|null|
 |2025-09-29|Performance-Efficiency Trade-off for Fashion Image Retrieval|Julio Hurtado et.al.|[2509.24477](http://arxiv.org/abs/2509.24477)|null|
-|2025-09-28|Prepare for Warp Speed: Sub-millisecond Visual Place Recognition Using Event Cameras|Vignesh Ramanathan et.al.|[2509.24094](http://arxiv.org/abs/2509.24094)|**[link](https://github.com/Vignesh-Ramanathan/flash)**|
+|2025-09-28|Prepare for Warp Speed: Sub-millisecond Visual Place Recognition Using Event Cameras|Vignesh Ramanathan et.al.|[2509.24094](http://arxiv.org/abs/2509.24094)|[link](https://github.com/Vignesh-Ramanathan/flash)|
 |2025-09-26|Johnson-Lindenstrauss Lemma Guided Network for Efficient 3D Medical Segmentation|Jinpeng Lu et.al.|[2509.22307](http://arxiv.org/abs/2509.22307)|null|
 |2025-09-23|SGAligner++: Cross-Modal Language-Aided 3D Scene Graph Alignment|Binod Singh et.al.|[2509.20401](http://arxiv.org/abs/2509.20401)|null|
 |2025-09-24|A Versatile Foundation Model for AI-enabled Mammogram Interpretation|Fuxiang Huang et.al.|[2509.20271](http://arxiv.org/abs/2509.20271)|null|

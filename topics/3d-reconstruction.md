@@ -1,19 +1,19 @@
 # 3D Reconstruction
 
-> Updated on 2026.03.21
+> Updated on 2026.03.23
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-03-19**|**MonoArt: Progressive Structural Reasoning for Monocular Articulated 3D Reconstruction**|Haitian Li et.al.|[2603.19231](https://arxiv.org/abs/2603.19231)|null|
-|**2026-03-19**|**Reconstruction Matters: Learning Geometry-Aligned BEV Representation through 3D Gaussian Splatting**|Yiren Lu et.al.|[2603.19193](https://arxiv.org/abs/2603.19193)|null|
-|**2026-03-19**|**VGGT-360: Geometry-Consistent Zero-Shot Panoramic Depth Estimation**|Jiayi Yuan et.al.|[2603.18943](https://arxiv.org/abs/2603.18943)|null|
-|**2026-03-19**|**GHOST: Fast Category-agnostic Hand-Object Interaction Reconstruction from RGB Videos using Gaussian Splatting**|Ahmed Tawfik Aboukhadra et.al.|[2603.18912](https://arxiv.org/abs/2603.18912)|null|
-|**2026-03-19**|**SEAR: Simple and Efficient Adaptation of Visual Geometric Transformers for RGB+Thermal 3D Reconstruction**|Vsevolod Skorokhodov et.al.|[2603.18774](https://arxiv.org/abs/2603.18774)|null|
-|**2026-03-19**|**SwiftGS: Episodic Priors for Immediate Satellite Surface Recovery**|Rong Fu et.al.|[2603.18634](https://arxiv.org/abs/2603.18634)|null|
-|**2026-03-19**|**FILT3R: Latent State Adaptive Kalman Filter for Streaming 3D Reconstruction**|Seonghyun Jin et.al.|[2603.18493](https://arxiv.org/abs/2603.18493)|null|
-|**2026-03-18**|**Fast and Generalizable NeRF Architecture Selection for Satellite Scene Reconstruction**|Devjyoti Chakraborty et.al.|[2603.18306](https://arxiv.org/abs/2603.18306)|null|
-|**2026-03-18**|**TAPESTRY: From Geometry to Appearance via Consistent Turntable Videos**|Yan Zeng et.al.|[2603.17735](https://arxiv.org/abs/2603.17735)|null|
-|**2026-03-18**|**PanoVGGT: Feed-Forward 3D Reconstruction from Panoramic Imagery**|Yijing Guo et.al.|[2603.17571](https://arxiv.org/abs/2603.17571)|null|
+|2026-03-19|MonoArt: Progressive Structural Reasoning for Monocular Articulated 3D Reconstruction|Haitian Li et.al.|[2603.19231](https://arxiv.org/abs/2603.19231)|null|
+|2026-03-19|Reconstruction Matters: Learning Geometry-Aligned BEV Representation through 3D Gaussian Splatting|Yiren Lu et.al.|[2603.19193](https://arxiv.org/abs/2603.19193)|null|
+|2026-03-19|VGGT-360: Geometry-Consistent Zero-Shot Panoramic Depth Estimation|Jiayi Yuan et.al.|[2603.18943](https://arxiv.org/abs/2603.18943)|null|
+|2026-03-19|GHOST: Fast Category-agnostic Hand-Object Interaction Reconstruction from RGB Videos using Gaussian Splatting|Ahmed Tawfik Aboukhadra et.al.|[2603.18912](https://arxiv.org/abs/2603.18912)|null|
+|2026-03-19|SEAR: Simple and Efficient Adaptation of Visual Geometric Transformers for RGB+Thermal 3D Reconstruction|Vsevolod Skorokhodov et.al.|[2603.18774](https://arxiv.org/abs/2603.18774)|null|
+|2026-03-19|SwiftGS: Episodic Priors for Immediate Satellite Surface Recovery|Rong Fu et.al.|[2603.18634](https://arxiv.org/abs/2603.18634)|null|
+|2026-03-19|FILT3R: Latent State Adaptive Kalman Filter for Streaming 3D Reconstruction|Seonghyun Jin et.al.|[2603.18493](https://arxiv.org/abs/2603.18493)|null|
+|2026-03-18|Fast and Generalizable NeRF Architecture Selection for Satellite Scene Reconstruction|Devjyoti Chakraborty et.al.|[2603.18306](https://arxiv.org/abs/2603.18306)|null|
+|2026-03-18|TAPESTRY: From Geometry to Appearance via Consistent Turntable Videos|Yan Zeng et.al.|[2603.17735](https://arxiv.org/abs/2603.17735)|null|
+|2026-03-18|PanoVGGT: Feed-Forward 3D Reconstruction from Panoramic Imagery|Yijing Guo et.al.|[2603.17571](https://arxiv.org/abs/2603.17571)|null|
 |2026-03-13|Towards Spatio-Temporal World Scene Graph Generation from Monocular Videos|Rohith Peddi et.al.|[2603.13185](https://arxiv.org/abs/2603.13185)|null|
 |2026-03-13|3DTCR: A Physics-Based Generative Framework for Vortex-Following 3D Reconstruction to Improve Tropical Cyclone Intensity Forecasting|Jun Liu et.al.|[2603.13049](https://arxiv.org/abs/2603.13049)|null|
 |2026-03-13|CMHANet: A Cross-Modal Hybrid Attention Network for Point Cloud Registration|Dongxu Zhang et.al.|[2603.12721](https://arxiv.org/abs/2603.12721)|null|
@@ -27,7 +27,7 @@
 |2026-03-10|NLiPsCalib: An Efficient Calibration Framework for High-Fidelity 3D Reconstruction of Curved Visuotactile Sensors|Xuhao Qin et.al.|[2603.09319](https://arxiv.org/abs/2603.09319)|null|
 |2026-03-10|Implicit Geometry Representations for Vision-and-Language Navigation from Web Videos|Mingfei Han et.al.|[2603.09259](https://arxiv.org/abs/2603.09259)|null|
 |2026-03-09|OSCAR: Occupancy-based Shape Completion via Acoustic Neural Implicit Representations|Magdalena Wysocki et.al.|[2603.08279](https://arxiv.org/abs/2603.08279)|null|
-|2026-03-09|Speed3R: Sparse Feed-forward 3D Reconstruction Models|Weining Ren et.al.|[2603.08055](https://arxiv.org/abs/2603.08055)|**[link](https://github.com/Visual-AI/speed3r)**|
+|2026-03-09|Speed3R: Sparse Feed-forward 3D Reconstruction Models|Weining Ren et.al.|[2603.08055](https://arxiv.org/abs/2603.08055)|[link](https://github.com/Visual-AI/speed3r)|
 |2026-03-09| $L^3$ :Scene-agnostic Visual Localization in the Wild|Yu Zhang et.al.|[2603.07937](https://arxiv.org/abs/2603.07937)|null|
 |2026-03-08|FrameVGGT: Frame Evidence Rolling Memory for streaming VGGT|Zhisong Xu et.al.|[2603.07690](https://arxiv.org/abs/2603.07690)|null|
 |2026-03-08|ACCURATE: Arbitrary-shaped Continuum Reconstruction Under Robust Adaptive Two-view Estimation|Yaozhi Zhang et.al.|[2603.07533](https://arxiv.org/abs/2603.07533)|null|
@@ -165,9 +165,9 @@
 |2025-11-19|MambaIO: Global-Coordinate Inertial Odometry for Pedestrians via Multi-Scale Frequency-Decoupled Modeling|Shanshan Zhang et.al.|[2511.15645](http://arxiv.org/abs/2511.15645)|null|
 |2025-11-19|Covariant Measures of Non-Markovianity in Curved Spacetime|Tushar Waghmare et.al.|[2511.15365](http://arxiv.org/abs/2511.15365)|null|
 |2025-11-19|Generating Natural-Language Surgical Feedback: From Structured Representation to Domain-Grounded Evaluation|Firdavs Nasriddinov et.al.|[2511.15159](http://arxiv.org/abs/2511.15159)|null|
-|2025-11-19|SceneEdited: A City-Scale Benchmark for 3D HD Map Updating via Image-Guided Change Detection|Chun-Jung Lin et.al.|[2511.15153](http://arxiv.org/abs/2511.15153)|null|
+|2025-11-19|SceneEdited: A City-Scale Benchmark for 3D HD Map Updating via Image-Guided Change Detection|Chun-Jung Lin et.al.|[2511.15153](http://arxiv.org/abs/2511.15153)|**[link](https://github.com/ChadLin9596/ScenePoint-ETK)**|
 |2025-11-18|Gaussian See, Gaussian Do: Semantic 3D Motion Transfer from Multiview Video|Yarin Bekor et.al.|[2511.14848](http://arxiv.org/abs/2511.14848)|null|
-|2025-11-18|Blur-Robust Detection via Feature Restoration: An End-to-End Framework for Prior-Guided Infrared UAV Target Detection|Xiaolin Wang et.al.|[2511.14371](http://arxiv.org/abs/2511.14371)|null|
+|2025-11-18|Blur-Robust Detection via Feature Restoration: An End-to-End Framework for Prior-Guided Infrared UAV Target Detection|Xiaolin Wang et.al.|[2511.14371](http://arxiv.org/abs/2511.14371)|**[link](https://github.com/IVPLabs/JFD3)**|
 |2025-11-18|Hubble Space Telescope proper motions of Large Magellanic Cloud star clusters -- II. Kinematic structure of young and intermediate-age clusters|F. Niederhofer et.al.|[2511.14351](http://arxiv.org/abs/2511.14351)|null|
 |2025-11-18|Vortex stability in pseudo-Hermitian theories|R. A. Battye et.al.|[2511.14300](http://arxiv.org/abs/2511.14300)|null|
 |2025-11-18|Model-Based Clustering of Football Event Sequences: A Marked Spatio-Temporal Point Process Mixture Approach|Koffi Amezouwui et.al.|[2511.14297](http://arxiv.org/abs/2511.14297)|null|
