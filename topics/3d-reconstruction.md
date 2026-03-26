@@ -1,9 +1,19 @@
 # 3D Reconstruction
 
-> Updated on 2026.03.23
+> Updated on 2026.03.26
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-03-25**|**SLAT-Phys: Fast Material Property Field Prediction from Structured 3D Latents**|Rocktim Jyoti Das et.al.|[2603.23973](https://arxiv.org/abs/2603.23973)|null|
+|**2026-03-24**|**AdvSplat: Adversarial Attacks on Feed-Forward Gaussian Splatting Models**|Yiran Qiao et.al.|[2603.23686](https://arxiv.org/abs/2603.23686)|null|
+|**2026-03-24**|**I3DM: Implicit 3D-aware Memory Retrieval and Injection for Consistent Video Scene Generation**|Jia Li et.al.|[2603.23413](https://arxiv.org/abs/2603.23413)|null|
+|**2026-03-24**|**GO-Renderer: Generative Object Rendering with 3D-aware Controllable Video Diffusion Models**|Zekai Gu et.al.|[2603.23246](https://arxiv.org/abs/2603.23246)|null|
+|**2026-03-24**|**GTLR-GS: Geometry-Texture Aware LiDAR-Regularized 3D Gaussian Splatting for Realistic Scene Reconstruction**|Yan Fang et.al.|[2603.23192](https://arxiv.org/abs/2603.23192)|null|
+|**2026-03-24**|**UniQueR: Unified Query-based Feedforward 3D Reconstruction**|Chensheng Peng et.al.|[2603.22851](https://arxiv.org/abs/2603.22851)|null|
+|**2026-03-23**|**CAM3R: Camera-Agnostic Model for 3D Reconstruction**|Namitha Guruprasad et.al.|[2603.22631](https://arxiv.org/abs/2603.22631)|null|
+|**2026-03-23**|**FullCircle: Effortless 3D Reconstruction from Casual 360 $^\circ$ Captures**|Yalda Foroutan et.al.|[2603.22572](https://arxiv.org/abs/2603.22572)|null|
+|**2026-03-23**|**UrbanVGGT: Scalable Sidewalk Width Estimation from Street View Images**|Kaizhen Tan et.al.|[2603.22531](https://arxiv.org/abs/2603.22531)|null|
+|**2026-03-23**|**Static Scene Reconstruction from Dynamic Egocentric Videos**|Qifei Cui et.al.|[2603.22450](https://arxiv.org/abs/2603.22450)|null|
 |2026-03-19|MonoArt: Progressive Structural Reasoning for Monocular Articulated 3D Reconstruction|Haitian Li et.al.|[2603.19231](https://arxiv.org/abs/2603.19231)|null|
 |2026-03-19|Reconstruction Matters: Learning Geometry-Aligned BEV Representation through 3D Gaussian Splatting|Yiren Lu et.al.|[2603.19193](https://arxiv.org/abs/2603.19193)|null|
 |2026-03-19|VGGT-360: Geometry-Consistent Zero-Shot Panoramic Depth Estimation|Jiayi Yuan et.al.|[2603.18943](https://arxiv.org/abs/2603.18943)|null|

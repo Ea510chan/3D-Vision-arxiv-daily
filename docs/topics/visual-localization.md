@@ -7,12 +7,222 @@ title: Visual Localization
   <div>
     <p class="eyebrow">Topic</p>
     <h1>Visual Localization</h1>
-    <p class="topic-lede">Updated 2026.03.23 · 383 papers</p>
+    <p class="topic-lede">Updated 2026.03.26 · 393 papers</p>
   </div>
   <a class="btn ghost" href="../index.html#topics">← Back to topics</a>
 </section>
 
 <section class="paper-grid">
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Sparse Autoencoders for Interpretable Medical Image Representation Learning</span>
+        <span class="paper-authors">Philipp Wesp, Robbie Holland, Vasiliki Sideri-Lampretsa, Sergios Gatidis</span>
+        <span class="paper-meta">Updated 2026-03-24</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Vision foundation models (FMs) achieve state-of-the-art performance in medical imaging. However, they encode information in abstract latent representations that clinicians cannot interrogate or verify. The goal of this study is to investigate Sparse Autoencoders (SAEs) for replacing opaque FM image representations with human-interpretable, sparse features. We train SAEs on embeddings from BiomedParse (biomedical) and DINOv3 (general-purpose) using 909,873 CT and MRI 2D image slices from the TotalSegmentator dataset. We find that learned sparse features: (a) reconstruct original embeddings with high fidelity (R2 up to 0.941) and recover up to 87.8% of downstream performance using only 10 features (99.4% dimensionality reduction), (b) preserve semantic fidelity in image retrieval tasks, (c) correspond to specific concepts that can be expressed in language using large language model (LLM)-based auto-interpretation. (d) bridge clinical language and abstract latent representations in zero-shot language-driven image retrieval. Our work indicates SAEs are a promising pathway towards interpretable, concept-driven medical vision systems. Code repository: https://github.com/pwesp/sail.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.23794">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.23794.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.23794.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">ARGENT: Adaptive Hierarchical Image-Text Representations</span>
+        <span class="paper-authors">Chuong Huynh, Hossein Souri, Abhinav Kumar, Vitali Petsiuk, Deen Dayal Mohan, Suren Kumar</span>
+        <span class="paper-meta">Updated 2026-03-24</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Large-scale Vision-Language Models (VLMs) such as CLIP learn powerful semantic representations but operate in Euclidean space, which fails to capture the inherent hierarchical structure of visual and linguistic concepts. Hyperbolic geometry, with its exponential volume growth, offers a principled alternative for embedding such hierarchies with low distortion. However, existing hyperbolic VLMs use entailment losses that are unstable: as parent embeddings contract toward the origin, their entailment cones widen toward a half-space, causing catastrophic cone collapse that destroys the intended hierarchy. Additionally, hierarchical evaluation of these models remains unreliable, being largely retrieval-based and correlation-based metrics and prone to taxonomy dependence and ambiguous negatives. To address these limitations, we propose an adaptive entailment loss paired with a norm regularizer that prevents cone collapse without heuristic aperture clipping. We further introduce an angle-based probabilistic entailment protocol (PEP) for evaluating hierarchical understanding, scored with AUC-ROC and Average Precision. This paper introduces a stronger hyperbolic VLM baseline ARGENT, Adaptive hieRarchical imaGe-tExt represeNTation. ARGENT improves the SOTA hyperbolic VLM by 0.7, 1.1, and 0.8 absolute points on image classification, text-to-image retrieval, and proposed hierarchical metrics, respectively.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.23311">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.23311.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.23311.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Retrieval-Guided Photovoltaic Inventory Estimation from Satellite Imagery for Distribution Grid Planning</span>
+        <span class="paper-authors">Muhao Guo, Lihao Mai, Erik Blasch, Jafarali Parol, Turki Rakan, Yang Weng</span>
+        <span class="paper-meta">Updated 2026-03-24</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">The rapid expansion of distributed rooftop photovoltaic (PV) systems introduces increasing uncertainty in distribution grid planning, hosting capacity assessment, and voltage regulation. Reliable estimation of rooftop PV deployment from satellite imagery is therefore essential for accurate modeling of distributed generation at feeder and service-territory scales. However, conventional computer vision approaches rely on fixed learned representations and globally averaged visual correlations. This makes them sensitive to geographic distribution shifts caused by differences in roof materials, urban morphology, and imaging conditions across regions. To address these challenges, this paper proposes Solar Retrieval-Augmented Generation (Solar-RAG), a context-grounded framework for photovoltaic assessment that integrates similarity-based image retrieval with multimodal vision-language reasoning. Instead of producing predictions solely from internal model parameters, the proposed approach retrieves visually similar rooftop scenes with verified annotations and performs comparative reasoning against these examples during inference. This retrieval-guided mechanism provides geographically contextualized references that improve robustness under heterogeneous urban environments without requiring model retraining. The method outperform both conventional deep vision models and standalone vision-language models. Furthermore, feeder-level case studies show that improved PV inventory estimation reduces errors in voltage deviation analysis and hosting capacity assessment. The results demonstrate that the proposed method provides a scalable and geographically robust approach for monitoring distributed PV deployment. This enables more reliable integration of remote sensing data into distribution grid planning and distributed energy resource management.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.22856">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.22856.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.22856.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">SOUPLE: Enhancing Audio-Visual Localization and Segmentation with Learnable Prompt Contexts</span>
+        <span class="paper-authors">Khanh Binh Nguyen, Chae Jung Park</span>
+        <span class="paper-meta">Updated 2026-03-24</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Large-scale pre-trained image-text models exhibit robust multimodal representations, yet applying the Contrastive Language-Image Pre-training (CLIP) model to audio-visual localization remains challenging. Replacing the classification token ([CLS]) with an audio-embedded token ([V_A]) struggles to capture semantic cues, and the prompt &quot;a photo of a [V_A]&quot; fails to establish meaningful connections between audio embeddings and context tokens. To address these issues, we propose Sound-aware Prompt Learning (SOUPLE), which replaces fixed prompts with learnable context tokens. These tokens incorporate visual features to generate conditional context for a mask decoder, effectively bridging semantic correspondence between audio and visual inputs. Experiments on VGGSound, SoundNet, and AVSBench demonstrate that SOUPLE improves localization and segmentation performance.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.22732">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.22732.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.22732.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">HyFI: Hyperbolic Feature Interpolation for Brain-Vision Alignment</span>
+        <span class="paper-authors">Sangmin Jo, Wootaek Jeong, Da-Woon Heo, Yoohwan Hwang, Heung-Il Suk</span>
+        <span class="paper-meta">Updated 2026-03-24</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Recent progress in artificial intelligence has encouraged numerous attempts to understand and decode human visual system from brain signals. These prior works typically align neural activity independently with semantic and perceptual features extracted from images using pre-trained vision models. However, they fail to account for two key challenges: (1) the modality gap arising from the natural difference in the information level of representation between brain signals and images, and (2) the fact that semantic and perceptual features are highly entangled within neural activity. To address these issues, we utilize hyperbolic space, which is well-suited for considering differences in the amount of information and has the geometric property that geodesics between two points naturally bend toward the origin, where the representational capacity is lower. Leveraging these properties, we propose a novel framework, Hyperbolic Feature Interpolation (HyFI), which interpolates between semantic and perceptual visual features along hyperbolic geodesics. This enables both the fusion and compression of perceptual and semantic information, effectively reflecting the limited expressiveness of brain signals and the entangled nature of these features. As a result, it facilitates better alignment between brain and visual features. We demonstrate that HyFI achieves state-of-the-art performance in zero-shot brain-to-image retrieval, outperforming prior methods with Top-1 accuracy improvements of up to +17.3% on THINGS-EEG and +9.1% on THINGS-MEG.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.22721">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.22721.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.22721.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">ADaFuSE: Adaptive Diffusion-generated Image and Text Fusion for Interactive Text-to-Image Retrieval</span>
+        <span class="paper-authors">Zhuocheng Zhang, Xingwu Zhang, Kangheng Liang, Guanxuan Li, Richard Mccreadie, Zijun Long</span>
+        <span class="paper-meta">Updated 2026-03-23</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Recent advances in interactive text-to-image retrieval (I-TIR) use diffusion models to bridge the modality gap between the textual information need and the images to be searched, resulting in increased effectiveness. However, existing frameworks fuse multi-modal views of user feedback by simple embedding addition. In this work, we show that this static and undifferentiated fusion indiscriminately incorporates generative noise produced by the diffusion model, leading to performance degradation for up to 55.62% samples. We further propose ADaFuSE (Adaptive Diffusion-Text Fusion with Semantic-aware Experts), a lightweight fusion model designed to align and calibrate multi-modal views for diffusion-augmented I-TIR, which can be plugged into existing frameworks without modifying the backbone encoder. Specifically, we introduce a dual-branch fusion mechanism that employs an adaptive gating branch to dynamically balance modality reliability, alongside a semantic-aware mixture-of-experts branch to capture fine-grained cross-modal nuances. Via thorough evaluation over four standard I-TIR benchmarks, ADaFuSE achieves state-of-the-art performance, surpassing DAR by up to 3.49% in Hits@10 with only a 5.29% parameter increase, while exhibiting stronger robustness to noisy and longer interactive queries. These results show that generative augmentation coupled with principled fusion provides a simple, generalizable alternative to fine-tuning for interactive retrieval.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.21886">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.21886.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.21886.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">SATTC: Structure-Aware Label-Free Test-Time Calibration for Cross-Subject EEG-to-Image Retrieval</span>
+        <span class="paper-authors">Qunjie Huang, Weina Zhu</span>
+        <span class="paper-meta">Updated 2026-03-21</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Cross-subject EEG-to-image retrieval for visual decoding is challenged by subject shift and hubness in the embedding space, which distort similarity geometry and destabilize top-k rankings, making small-k shortlists unreliable. We introduce SATTC (Structure-Aware Test-Time Calibration), a label-free calibration head that operates directly on the similarity matrix of frozen EEG and image encoders. SATTC combines a geometric expert, subject-adaptive whitening of EEG embeddings with an adaptive variant of Cross-domain Similarity Local Scaling (CSLS), and a structural expert built from mutual nearest neighbors, bidirectional top-k ranks, and class popularity, fused via a simple Product-of-Experts rule. On THINGS-EEG under a strict leave-one-subject-out protocol, standardized inference with cosine similarities, L2-normalized embeddings, and candidate whitening already yields a strong cross-subject baseline over the original ATM retrieval setup. Building on this baseline, SATTC further improves Top-1 and Top-5 accuracy, reduces hubness and per-class imbalance, and produces more reliable small-k shortlists. These gains transfer across multiple EEG encoders, supporting SATTC as an encoder-agnostic, label-free test-time calibration layer for cross-subject neural decoding.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.20738">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.20738.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.20738.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">A Multihead Continual Learning Framework for Fine-Grained Fashion Image Retrieval with Contrastive Learning and Exponential Moving Average Distillation</span>
+        <span class="paper-authors">Ling Xiao, Toshihiko Yamasaki</span>
+        <span class="paper-meta">Updated 2026-03-21</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Most fine-grained fashion image retrieval (FIR) methods assume a static setting, requiring full retraining when new attributes appear, which is costly and impractical for dynamic scenarios. Although pretrained models support zero-shot inference, their accuracy drops without supervision, and no prior work explores class-incremental learning (CIL) for fine-grained FIR. We propose a multihead continual learning framework for fine-grained fashion image retrieval with contrastive learning and exponential moving average (EMA) distillation (MCL-FIR). MCL-FIR adopts a multi-head design to accommodate evolving classes across increments, reformulates triplet inputs into doublets with InfoNCE for simpler and more effective training, and employs EMA distillation for efficient knowledge transfer. Experiments across four datasets demonstrate that, beyond its scalability, MCL-FIR achieves a strong balance between efficiency and accuracy. It significantly outperforms CIL baselines under similar training cost, and compared with static methods, it delivers comparable performance while using only about 30% of the training cost. The source code is publicly available in https://github.com/Dr-LingXiao/MCL-FIR.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.20648">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.20648.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.20648.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">IsoCLIP: Decomposing CLIP Projectors for Efficient Intra-modal Alignment</span>
+        <span class="paper-authors">Simone Magistri, Dipam Goswami, Marco Mistretta, Bartłomiej Twardowski, Joost van de Weijer, Andrew D. Bagdanov</span>
+        <span class="paper-meta">Updated 2026-03-20</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Vision-Language Models like CLIP are extensively used for inter-modal tasks which involve both visual and text modalities. However, when the individual modality encoders are applied to inherently intra-modal tasks like image-to-image retrieval, their performance suffers from the intra-modal misalignment. In this paper we study intra-modal misalignment in CLIP with a focus on the role of the projectors that map pre-projection image and text embeddings into the shared embedding space. By analyzing the form of the cosine similarity applied to projected features, and its interaction with the contrastive CLIP loss, we show that there is an inter-modal operator responsible for aligning the two modalities during training, and a second, intra-modal operator that only enforces intra-modal normalization but does nothing to promote intra-modal alignment. Via spectral analysis of the inter-modal operator, we identify an approximately isotropic subspace in which the two modalities are well-aligned, as well as anisotropic directions specific to each modality. We demonstrate that this aligned subspace can be directly obtained from the projector weights and that removing the anisotropic directions improves intra-modal alignment. Our experiments on intra-modal retrieval and classification benchmarks show that our training-free method reduces intra-modal misalignment, greatly lowers latency, and outperforms existing approaches across multiple pre-trained CLIP-like models. The code is publicly available at: https://github.com/simomagi/IsoCLIP.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.19862">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.19862.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.19862.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">IUP-Pose: Decoupled Iterative Uncertainty Propagation for Real-time Relative Pose Regression via Implicit Dense Alignment v1</span>
+        <span class="paper-authors">Jun Wang, Xiaoyan Huang</span>
+        <span class="paper-meta">Updated 2026-03-20</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Relative pose estimation is fundamental for SLAM, visual localization, and 3D reconstruction. Existing Relative Pose Regression (RPR) methods face a key trade-off: feature-matching pipelines achieve high accuracy but block gradient flow via non-differentiable RANSAC, while ViT-based regressors are end-to-end trainable but prohibitively expensive for real-time deployment. We identify the core bottlenecks as the coupling between rotation and translation estimation and insufficient cross-view feature alignment. We propose IUP-Pose, a geometry-driven decoupled iterative framework with implicit dense alignment. A lightweight Multi-Head Bi-Cross Attention (MHBC) module aligns cross-view features without explicit matching supervision. The aligned features are processed by a decoupled rotation-translation pipeline: two shared-parameter rotation stages iteratively refine rotation with uncertainty, and feature maps are realigned via rotational homography H_inf before translation prediction. IUP-Pose achieves 73.3% AUC@20deg on MegaDepth1500 with full end-to-end differentiability, 70 FPS throughput, and only 37M parameters, demonstrating a favorable accuracy-efficiency trade-off for real-time edge deployment.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.19625">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.19625.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.19625.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
   <article class="paper-card">
     <details class="paper-details">
       <summary>

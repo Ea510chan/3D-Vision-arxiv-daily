@@ -1,9 +1,19 @@
 # Visual Localization
 
-> Updated on 2026.03.23
+> Updated on 2026.03.26
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-03-24**|**Sparse Autoencoders for Interpretable Medical Image Representation Learning**|Philipp Wesp et.al.|[2603.23794](https://arxiv.org/abs/2603.23794)|null|
+|**2026-03-24**|**ARGENT: Adaptive Hierarchical Image-Text Representations**|Chuong Huynh et.al.|[2603.23311](https://arxiv.org/abs/2603.23311)|null|
+|**2026-03-24**|**Retrieval-Guided Photovoltaic Inventory Estimation from Satellite Imagery for Distribution Grid Planning**|Muhao Guo et.al.|[2603.22856](https://arxiv.org/abs/2603.22856)|null|
+|**2026-03-24**|**SOUPLE: Enhancing Audio-Visual Localization and Segmentation with Learnable Prompt Contexts**|Khanh Binh Nguyen et.al.|[2603.22732](https://arxiv.org/abs/2603.22732)|null|
+|**2026-03-24**|**HyFI: Hyperbolic Feature Interpolation for Brain-Vision Alignment**|Sangmin Jo et.al.|[2603.22721](https://arxiv.org/abs/2603.22721)|null|
+|**2026-03-23**|**ADaFuSE: Adaptive Diffusion-generated Image and Text Fusion for Interactive Text-to-Image Retrieval**|Zhuocheng Zhang et.al.|[2603.21886](https://arxiv.org/abs/2603.21886)|null|
+|**2026-03-21**|**SATTC: Structure-Aware Label-Free Test-Time Calibration for Cross-Subject EEG-to-Image Retrieval**|Qunjie Huang et.al.|[2603.20738](https://arxiv.org/abs/2603.20738)|null|
+|**2026-03-21**|**A Multihead Continual Learning Framework for Fine-Grained Fashion Image Retrieval with Contrastive Learning and Exponential Moving Average Distillation**|Ling Xiao et.al.|[2603.20648](https://arxiv.org/abs/2603.20648)|null|
+|**2026-03-20**|**IsoCLIP: Decomposing CLIP Projectors for Efficient Intra-modal Alignment**|Simone Magistri et.al.|[2603.19862](https://arxiv.org/abs/2603.19862)|null|
+|**2026-03-20**|**IUP-Pose: Decoupled Iterative Uncertainty Propagation for Real-time Relative Pose Regression via Implicit Dense Alignment v1**|Jun Wang et.al.|[2603.19625](https://arxiv.org/abs/2603.19625)|null|
 |2026-03-18|MCoT-MVS: Multi-level Vision Selection by Multi-modal Chain-of-Thought Reasoning for Composed Image Retrieval|Xuri Ge et.al.|[2603.17360](https://arxiv.org/abs/2603.17360)|null|
 |2026-03-17|Visual Product Search Benchmark|Karthik Sulthanpete Govindappa et.al.|[2603.17186](https://arxiv.org/abs/2603.17186)|null|
 |2026-03-17|Retrieving Counterfactuals Improves Visual In-Context Learning|Guangzhi Xiong et.al.|[2603.16737](https://arxiv.org/abs/2603.16737)|null|

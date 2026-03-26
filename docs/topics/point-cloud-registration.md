@@ -7,12 +7,33 @@ title: Point Cloud Registration
   <div>
     <p class="eyebrow">Topic</p>
     <h1>Point Cloud Registration</h1>
-    <p class="topic-lede">Updated 2026.03.23 · 127 papers</p>
+    <p class="topic-lede">Updated 2026.03.26 · 128 papers</p>
   </div>
   <a class="btn ghost" href="../index.html#topics">← Back to topics</a>
 </section>
 
 <section class="paper-grid">
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">PiLoT: Neural Pixel-to-3D Registration for UAV-based Ego and Target Geo-localization</span>
+        <span class="paper-authors">Xiaoya Cheng, Long Wang, Yan Liu, Xinyi Liu, Hanlin Tan, Yu Liu, Maojun Zhang, Shen Yan</span>
+        <span class="paper-meta">Updated 2026-03-24</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">We present PiLoT, a unified framework that tackles UAV-based ego and target geo-localization. Conventional approaches rely on decoupled pipelines that fuse GNSS and Visual-Inertial Odometry (VIO) for ego-pose estimation, and active sensors like laser rangefinders for target localization. However, these methods are susceptible to failure in GNSS-denied environments and incur substantial hardware costs and complexity. PiLoT breaks this paradigm by directly registering live video stream against a geo-referenced 3D map. To achieve robust, accurate, and real-time performance, we introduce three key contributions: 1) a Dual-Thread Engine that decouples map rendering from core localization thread, ensuring both low latency while maintaining drift-free accuracy; 2) a large-scale synthetic dataset with precise geometric annotations (camera pose, depth maps). This dataset enables the training of a lightweight network that generalizes in a zero-shot manner from simulation to real data; and 3) a Joint Neural-Guided Stochastic-Gradient Optimizer (JNGO) that achieves robust convergence even under aggressive motion. Evaluations on a comprehensive set of public and newly collected benchmarks show that PiLoT outperforms state-of-the-art methods while running over 25 FPS on NVIDIA Jetson Orin platform. Our code and dataset is available at: https://github.com/Choyaa/PiLoT.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.20778">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.20778.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.20778.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
   <article class="paper-card">
     <details class="paper-details">
       <summary>
@@ -151,7 +172,7 @@ title: Point Cloud Registration
         <div class="paper-links">
           <a class="chip" href="https://arxiv.org/abs/2602.10492">arXiv</a>
           <a class="chip" href="https://arxiv.org/pdf/2602.10492.pdf">PDF</a>
-          <a class="chip" href="https://github.com/siddhantkatyan/e2e-lidar-registration">Code</a>
+          <span class="chip ghost">Code: N/A</span>
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.10492.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
