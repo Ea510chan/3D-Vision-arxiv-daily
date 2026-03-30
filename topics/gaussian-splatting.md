@@ -1,19 +1,19 @@
 # Gaussian Splatting
 
-> Updated on 2026.03.26
+> Updated on 2026.03.30
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-03-25**|**SpectralSplats: Robust Differentiable Tracking via Spectral Moment Supervision**|Avigail Cohen Rimon et.al.|[2603.24036](https://arxiv.org/abs/2603.24036)|null|
-|**2026-03-25**|**FilterGS: Traversal-Free Parallel Filtering and Adaptive Shrinking for Large-Scale LoD 3D Gaussian Splatting**|Yixian Wang et.al.|[2603.23891](https://arxiv.org/abs/2603.23891)|null|
-|**2026-03-24**|**AdvSplat: Adversarial Attacks on Feed-Forward Gaussian Splatting Models**|Yiran Qiao et.al.|[2603.23686](https://arxiv.org/abs/2603.23686)|null|
-|**2026-03-24**|**Stochastic Ray Tracing for the Reconstruction of 3D Gaussian Splatting**|Peiyu Xu et.al.|[2603.23637](https://arxiv.org/abs/2603.23637)|null|
-|**2026-03-24**|**Pose-Free Omnidirectional Gaussian Splatting for 360-Degree Videos with Consistent Depth Priors**|Chuanqing Zhuang et.al.|[2603.23324](https://arxiv.org/abs/2603.23324)|null|
-|**2026-03-23**|**Drop-In Perceptual Optimization for 3D Gaussian Splatting**|Ezgi Ozyilkan et.al.|[2603.23297](https://arxiv.org/abs/2603.23297)|null|
-|**2026-03-24**|**GTLR-GS: Geometry-Texture Aware LiDAR-Regularized 3D Gaussian Splatting for Realistic Scene Reconstruction**|Yan Fang et.al.|[2603.23192](https://arxiv.org/abs/2603.23192)|null|
-|**2026-03-24**|**PhotoAgent: A Robotic Photographer with Spatial and Aesthetic Understanding**|Lirong Che et.al.|[2603.22796](https://arxiv.org/abs/2603.22796)|null|
-|**2026-03-25**|**Instrument-Splatting++: Towards Controllable Surgical Instrument Digital Twin Using Gaussian Splatting**|Shuojue Yang et.al.|[2603.22792](https://arxiv.org/abs/2603.22792)|null|
-|**2026-03-24**|**Predictive Photometric Uncertainty in Gaussian Splatting for Novel View Synthesis**|Chamuditha Jayanga Galappaththige et.al.|[2603.22786](https://arxiv.org/abs/2603.22786)|null|
+|2026-03-25|SpectralSplats: Robust Differentiable Tracking via Spectral Moment Supervision|Avigail Cohen Rimon et.al.|[2603.24036](https://arxiv.org/abs/2603.24036)|null|
+|2026-03-25|FilterGS: Traversal-Free Parallel Filtering and Adaptive Shrinking for Large-Scale LoD 3D Gaussian Splatting|Yixian Wang et.al.|[2603.23891](https://arxiv.org/abs/2603.23891)|null|
+|2026-03-24|AdvSplat: Adversarial Attacks on Feed-Forward Gaussian Splatting Models|Yiran Qiao et.al.|[2603.23686](https://arxiv.org/abs/2603.23686)|null|
+|2026-03-24|Stochastic Ray Tracing for the Reconstruction of 3D Gaussian Splatting|Peiyu Xu et.al.|[2603.23637](https://arxiv.org/abs/2603.23637)|null|
+|2026-03-24|Pose-Free Omnidirectional Gaussian Splatting for 360-Degree Videos with Consistent Depth Priors|Chuanqing Zhuang et.al.|[2603.23324](https://arxiv.org/abs/2603.23324)|null|
+|2026-03-23|Drop-In Perceptual Optimization for 3D Gaussian Splatting|Ezgi Ozyilkan et.al.|[2603.23297](https://arxiv.org/abs/2603.23297)|null|
+|2026-03-24|GTLR-GS: Geometry-Texture Aware LiDAR-Regularized 3D Gaussian Splatting for Realistic Scene Reconstruction|Yan Fang et.al.|[2603.23192](https://arxiv.org/abs/2603.23192)|null|
+|2026-03-24|PhotoAgent: A Robotic Photographer with Spatial and Aesthetic Understanding|Lirong Che et.al.|[2603.22796](https://arxiv.org/abs/2603.22796)|null|
+|2026-03-25|Instrument-Splatting++: Towards Controllable Surgical Instrument Digital Twin Using Gaussian Splatting|Shuojue Yang et.al.|[2603.22792](https://arxiv.org/abs/2603.22792)|null|
+|2026-03-24|Predictive Photometric Uncertainty in Gaussian Splatting for Novel View Synthesis|Chamuditha Jayanga Galappaththige et.al.|[2603.22786](https://arxiv.org/abs/2603.22786)|null|
 |2026-03-19|Matryoshka Gaussian Splatting|Zhilin Guo et.al.|[2603.19234](https://arxiv.org/abs/2603.19234)|[link](https://github.com/ZhilinGuo/matryoshka-gaussian-splatting)|
 |2026-03-19|Reconstruction Matters: Learning Geometry-Aligned BEV Representation through 3D Gaussian Splatting|Yiren Lu et.al.|[2603.19193](https://arxiv.org/abs/2603.19193)|null|
 |2026-03-19|GSMem: 3D Gaussian Splatting as Persistent Spatial Memory for Zero-Shot Embodied Exploration and Reasoning|Yiren Lu et.al.|[2603.19137](https://arxiv.org/abs/2603.19137)|null|
@@ -34,8 +34,8 @@
 |2026-03-11|PolGS++: Physically-Guided Polarimetric Gaussian Splatting for Fast Reflective Surface Reconstruction|Yufei Han et.al.|[2603.10801](https://arxiv.org/abs/2603.10801)|null|
 |2026-03-11|Splat2Real: Novel-view Scaling for Physical AI with 3D Gaussian Splatting|Hansol Lim et.al.|[2603.10638](https://arxiv.org/abs/2603.10638)|null|
 |2026-03-11|P-GSVC: Layered Progressive 2D Gaussian Splatting for Scalable Image and Video|Longan Wang et.al.|[2603.10551](https://arxiv.org/abs/2603.10551)|null|
-|2026-03-10|VarSplat: Uncertainty-aware 3D Gaussian Splatting for Robust RGB-D SLAM|Anh Thuan Tran et.al.|[2603.09673](https://arxiv.org/abs/2603.09673)|null|
-|2026-03-10|DiffWind: Physics-Informed Differentiable Modeling of Wind-Driven Object Dynamics|Yuanhang Lei et.al.|[2603.09668](https://arxiv.org/abs/2603.09668)|null|
+|2026-03-10|VarSplat: Uncertainty-aware 3D Gaussian Splatting for Robust RGB-D SLAM|Anh Thuan Tran et.al.|[2603.09673](https://arxiv.org/abs/2603.09673)|**[link](https://github.com/anhthuan1999/varsplat)**|
+|2026-03-10|DiffWind: Physics-Informed Differentiable Modeling of Wind-Driven Object Dynamics|Yuanhang Lei et.al.|[2603.09668](https://arxiv.org/abs/2603.09668)|**[link](https://github.com/zju3dv/DiffWind)**|
 |2026-03-10|X-GS: An Extensible Open Framework Unifying 3DGS Architectures with Downstream Multimodal Models|Yueen Ma et.al.|[2603.09632](https://arxiv.org/abs/2603.09632)|null|
 |2026-03-10|DenoiseSplat: Feed-Forward Gaussian Splatting for Noisy 3D Scene Reconstruction|Fuzhen Jiang et.al.|[2603.09291](https://arxiv.org/abs/2603.09291)|null|
 |2026-03-10|Learning Convex Decomposition via Feature Fields|Yuezhi Yang et.al.|[2603.09285](https://arxiv.org/abs/2603.09285)|null|
@@ -238,7 +238,7 @@
 |2025-11-07|4D3R: Motion-Aware Neural Reconstruction and Rendering of Dynamic Scenes from Monocular Videos|Mengqi Guo et.al.|[2511.05229](http://arxiv.org/abs/2511.05229)|null|
 |2025-11-07|Splatography: Sparse multi-view dynamic Gaussian Splatting for filmmaking challenges|Adrian Azzarelli et.al.|[2511.05152](http://arxiv.org/abs/2511.05152)|null|
 |2025-11-07|Efficient representation of 3D spatial data for defense-related applications|Benjamin Kahl et.al.|[2511.05109](http://arxiv.org/abs/2511.05109)|null|
-|2025-11-07|CLM: Removing the GPU Memory Barrier for 3D Gaussian Splatting|Hexu Zhao et.al.|[2511.04951](http://arxiv.org/abs/2511.04951)|**[link](https://github.com/nyu-systems/CLM-GS)**|
+|2025-11-07|CLM: Removing the GPU Memory Barrier for 3D Gaussian Splatting|Hexu Zhao et.al.|[2511.04951](http://arxiv.org/abs/2511.04951)|[link](https://github.com/nyu-systems/CLM-GS)|
 |2025-11-07|Channel Knowledge Map Construction: Recent Advances and Open Challenges|Zixiang Ren et.al.|[2511.04944](http://arxiv.org/abs/2511.04944)|null|
 |2025-11-06|3D Gaussian Point Encoders|Jim James et.al.|[2511.04797](http://arxiv.org/abs/2511.04797)|[link](https://github.com/asalarpour/Point_GN)|
 |2025-11-06|Real-to-Sim Robot Policy Evaluation with Gaussian Splatting Simulation of Soft-Body Interactions|Kaifeng Zhang et.al.|[2511.04665](http://arxiv.org/abs/2511.04665)|[link](https://github.com/kywind/real2sim-eval)|
@@ -401,7 +401,7 @@
 |2025-06-27|BézierGS: Dynamic Urban Scene Reconstruction with Bézier Curve Gaussian Splatting|Zipei Ma et.al.|[2506.22099](http://arxiv.org/abs/2506.22099)|[link](https://github.com/fudan-zvg/BezierGS)|
 |2025-06-26|MADrive: Memory-Augmented Driving Scene Modeling|Polina Karpikova et.al.|[2506.21520](http://arxiv.org/abs/2506.21520)|null|
 |2025-06-26|EndoFlow-SLAM: Real-Time Endoscopic SLAM with Flow-Constrained Gaussian Splatting|Taoyu Wu et.al.|[2506.21420](http://arxiv.org/abs/2506.21420)|null|
-|2025-06-28|Curve-Aware Gaussian Splatting for 3D Parametric Curve Reconstruction|Zhirui Gao et.al.|[2506.21401](http://arxiv.org/abs/2506.21401)|null|
+|2025-06-28|Curve-Aware Gaussian Splatting for 3D Parametric Curve Reconstruction|Zhirui Gao et.al.|[2506.21401](http://arxiv.org/abs/2506.21401)|**[link](https://github.com/zhirui-gao/Curve-Gaussian)**|
 |2025-06-26|Geometry and Perception Guided Gaussians for Multiview-consistent 3D Generation from a Single Image|Pufan Li et.al.|[2506.21152](http://arxiv.org/abs/2506.21152)|null|
 |2025-06-26|CL-Splats: Continual Learning of Gaussian Splatting with Local Optimization|Jan Ackermann et.al.|[2506.21117](http://arxiv.org/abs/2506.21117)|null|
 |2025-06-26|User-in-the-Loop View Sampling with Error Peaking Visualization|Ayaka Yasunaga et.al.|[2506.21009](http://arxiv.org/abs/2506.21009)|null|

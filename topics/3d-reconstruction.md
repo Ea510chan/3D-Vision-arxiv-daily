@@ -1,19 +1,19 @@
 # 3D Reconstruction
 
-> Updated on 2026.03.26
+> Updated on 2026.03.30
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-03-25**|**SLAT-Phys: Fast Material Property Field Prediction from Structured 3D Latents**|Rocktim Jyoti Das et.al.|[2603.23973](https://arxiv.org/abs/2603.23973)|null|
-|**2026-03-24**|**AdvSplat: Adversarial Attacks on Feed-Forward Gaussian Splatting Models**|Yiran Qiao et.al.|[2603.23686](https://arxiv.org/abs/2603.23686)|null|
-|**2026-03-24**|**I3DM: Implicit 3D-aware Memory Retrieval and Injection for Consistent Video Scene Generation**|Jia Li et.al.|[2603.23413](https://arxiv.org/abs/2603.23413)|null|
-|**2026-03-24**|**GO-Renderer: Generative Object Rendering with 3D-aware Controllable Video Diffusion Models**|Zekai Gu et.al.|[2603.23246](https://arxiv.org/abs/2603.23246)|null|
-|**2026-03-24**|**GTLR-GS: Geometry-Texture Aware LiDAR-Regularized 3D Gaussian Splatting for Realistic Scene Reconstruction**|Yan Fang et.al.|[2603.23192](https://arxiv.org/abs/2603.23192)|null|
-|**2026-03-24**|**UniQueR: Unified Query-based Feedforward 3D Reconstruction**|Chensheng Peng et.al.|[2603.22851](https://arxiv.org/abs/2603.22851)|null|
-|**2026-03-23**|**CAM3R: Camera-Agnostic Model for 3D Reconstruction**|Namitha Guruprasad et.al.|[2603.22631](https://arxiv.org/abs/2603.22631)|null|
-|**2026-03-23**|**FullCircle: Effortless 3D Reconstruction from Casual 360 $^\circ$ Captures**|Yalda Foroutan et.al.|[2603.22572](https://arxiv.org/abs/2603.22572)|null|
-|**2026-03-23**|**UrbanVGGT: Scalable Sidewalk Width Estimation from Street View Images**|Kaizhen Tan et.al.|[2603.22531](https://arxiv.org/abs/2603.22531)|null|
-|**2026-03-23**|**Static Scene Reconstruction from Dynamic Egocentric Videos**|Qifei Cui et.al.|[2603.22450](https://arxiv.org/abs/2603.22450)|null|
+|2026-03-25|SLAT-Phys: Fast Material Property Field Prediction from Structured 3D Latents|Rocktim Jyoti Das et.al.|[2603.23973](https://arxiv.org/abs/2603.23973)|null|
+|2026-03-24|AdvSplat: Adversarial Attacks on Feed-Forward Gaussian Splatting Models|Yiran Qiao et.al.|[2603.23686](https://arxiv.org/abs/2603.23686)|null|
+|2026-03-24|I3DM: Implicit 3D-aware Memory Retrieval and Injection for Consistent Video Scene Generation|Jia Li et.al.|[2603.23413](https://arxiv.org/abs/2603.23413)|null|
+|2026-03-24|GO-Renderer: Generative Object Rendering with 3D-aware Controllable Video Diffusion Models|Zekai Gu et.al.|[2603.23246](https://arxiv.org/abs/2603.23246)|null|
+|2026-03-24|GTLR-GS: Geometry-Texture Aware LiDAR-Regularized 3D Gaussian Splatting for Realistic Scene Reconstruction|Yan Fang et.al.|[2603.23192](https://arxiv.org/abs/2603.23192)|null|
+|2026-03-24|UniQueR: Unified Query-based Feedforward 3D Reconstruction|Chensheng Peng et.al.|[2603.22851](https://arxiv.org/abs/2603.22851)|null|
+|2026-03-23|CAM3R: Camera-Agnostic Model for 3D Reconstruction|Namitha Guruprasad et.al.|[2603.22631](https://arxiv.org/abs/2603.22631)|null|
+|2026-03-23|FullCircle: Effortless 3D Reconstruction from Casual 360 $^\circ$ Captures|Yalda Foroutan et.al.|[2603.22572](https://arxiv.org/abs/2603.22572)|null|
+|2026-03-23|UrbanVGGT: Scalable Sidewalk Width Estimation from Street View Images|Kaizhen Tan et.al.|[2603.22531](https://arxiv.org/abs/2603.22531)|null|
+|2026-03-23|Static Scene Reconstruction from Dynamic Egocentric Videos|Qifei Cui et.al.|[2603.22450](https://arxiv.org/abs/2603.22450)|null|
 |2026-03-19|MonoArt: Progressive Structural Reasoning for Monocular Articulated 3D Reconstruction|Haitian Li et.al.|[2603.19231](https://arxiv.org/abs/2603.19231)|null|
 |2026-03-19|Reconstruction Matters: Learning Geometry-Aligned BEV Representation through 3D Gaussian Splatting|Yiren Lu et.al.|[2603.19193](https://arxiv.org/abs/2603.19193)|null|
 |2026-03-19|VGGT-360: Geometry-Consistent Zero-Shot Panoramic Depth Estimation|Jiayi Yuan et.al.|[2603.18943](https://arxiv.org/abs/2603.18943)|null|
@@ -175,9 +175,9 @@
 |2025-11-19|MambaIO: Global-Coordinate Inertial Odometry for Pedestrians via Multi-Scale Frequency-Decoupled Modeling|Shanshan Zhang et.al.|[2511.15645](http://arxiv.org/abs/2511.15645)|null|
 |2025-11-19|Covariant Measures of Non-Markovianity in Curved Spacetime|Tushar Waghmare et.al.|[2511.15365](http://arxiv.org/abs/2511.15365)|null|
 |2025-11-19|Generating Natural-Language Surgical Feedback: From Structured Representation to Domain-Grounded Evaluation|Firdavs Nasriddinov et.al.|[2511.15159](http://arxiv.org/abs/2511.15159)|null|
-|2025-11-19|SceneEdited: A City-Scale Benchmark for 3D HD Map Updating via Image-Guided Change Detection|Chun-Jung Lin et.al.|[2511.15153](http://arxiv.org/abs/2511.15153)|**[link](https://github.com/ChadLin9596/ScenePoint-ETK)**|
+|2025-11-19|SceneEdited: A City-Scale Benchmark for 3D HD Map Updating via Image-Guided Change Detection|Chun-Jung Lin et.al.|[2511.15153](http://arxiv.org/abs/2511.15153)|[link](https://github.com/ChadLin9596/ScenePoint-ETK)|
 |2025-11-18|Gaussian See, Gaussian Do: Semantic 3D Motion Transfer from Multiview Video|Yarin Bekor et.al.|[2511.14848](http://arxiv.org/abs/2511.14848)|null|
-|2025-11-18|Blur-Robust Detection via Feature Restoration: An End-to-End Framework for Prior-Guided Infrared UAV Target Detection|Xiaolin Wang et.al.|[2511.14371](http://arxiv.org/abs/2511.14371)|**[link](https://github.com/IVPLabs/JFD3)**|
+|2025-11-18|Blur-Robust Detection via Feature Restoration: An End-to-End Framework for Prior-Guided Infrared UAV Target Detection|Xiaolin Wang et.al.|[2511.14371](http://arxiv.org/abs/2511.14371)|[link](https://github.com/IVPLabs/JFD3)|
 |2025-11-18|Hubble Space Telescope proper motions of Large Magellanic Cloud star clusters -- II. Kinematic structure of young and intermediate-age clusters|F. Niederhofer et.al.|[2511.14351](http://arxiv.org/abs/2511.14351)|null|
 |2025-11-18|Vortex stability in pseudo-Hermitian theories|R. A. Battye et.al.|[2511.14300](http://arxiv.org/abs/2511.14300)|null|
 |2025-11-18|Model-Based Clustering of Football Event Sequences: A Marked Spatio-Temporal Point Process Mixture Approach|Koffi Amezouwui et.al.|[2511.14297](http://arxiv.org/abs/2511.14297)|null|
@@ -198,7 +198,7 @@
 |2025-10-02|Non-Rigid Structure-from-Motion via Differential Geometry with Recoverable Conformal Scale|Yongbo Chen et.al.|[2510.01665](http://arxiv.org/abs/2510.01665)|null|
 |2025-10-08|VGGT-X: When VGGT Meets Dense Novel View Synthesis|Yang Liu et.al.|[2509.25191](http://arxiv.org/abs/2509.25191)|[link](https://github.com/Linketic/VGGT-X)|
 |2025-09-28|BOSfM: A View Planning Framework for Optimal 3D Reconstruction of Agricultural Scenes|Athanasios Bacharis et.al.|[2509.24126](http://arxiv.org/abs/2509.24126)|null|
-|2025-09-28|RPG360: Robust 360 Depth Estimation with Perspective Foundation Models and Graph Optimization|Dongki Jung et.al.|[2509.23991](http://arxiv.org/abs/2509.23991)|null|
+|2025-09-28|RPG360: Robust 360 Depth Estimation with Perspective Foundation Models and Graph Optimization|Dongki Jung et.al.|[2509.23991](http://arxiv.org/abs/2509.23991)|**[link](https://github.com/jdk9405/RPG360)**|
 |2025-09-28|CrashSplat: 2D to 3D Vehicle Damage Segmentation in Gaussian Splatting|Dragoş-Andrei Chileban et.al.|[2509.23947](http://arxiv.org/abs/2509.23947)|[link](https://github.com/DragosChileban/CrashSplat)|
 |2025-09-24|Aerial-Ground Image Feature Matching via 3D Gaussian Splatting-based Intermediate View Rendering|Jiangxue Yu et.al.|[2509.19898](http://arxiv.org/abs/2509.19898)|null|
 |2025-09-23|DeblurSplat: SfM-free 3D Gaussian Splatting with Event Camera for Robust Deblurring|Pengteng Li et.al.|[2509.18898](http://arxiv.org/abs/2509.18898)|null|

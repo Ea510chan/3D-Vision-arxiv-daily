@@ -7,7 +7,7 @@ title: Visual Localization
   <div>
     <p class="eyebrow">Topic</p>
     <h1>Visual Localization</h1>
-    <p class="topic-lede">Updated 2026.03.26 · 393 papers</p>
+    <p class="topic-lede">Updated 2026.03.30 · 393 papers</p>
   </div>
   <a class="btn ghost" href="../index.html#topics">← Back to topics</a>
 </section>
@@ -2545,7 +2545,7 @@ title: Visual Localization
         <div class="paper-links">
           <a class="chip" href="https://arxiv.org/abs/2512.07338">arXiv</a>
           <a class="chip" href="https://arxiv.org/pdf/2512.07338.pdf">PDF</a>
-          <span class="chip ghost">Code: N/A</span>
+          <a class="chip" href="https://github.com/luispl77/aerial-d">Code</a>
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.07338.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
@@ -2566,7 +2566,7 @@ title: Visual Localization
         <div class="paper-links">
           <a class="chip" href="https://arxiv.org/abs/2512.06865">arXiv</a>
           <a class="chip" href="https://arxiv.org/pdf/2512.06865.pdf">PDF</a>
-          <span class="chip ghost">Code: N/A</span>
+          <a class="chip" href="https://github.com/SpatialRetrievalAD/SpatialRetrievalAD-Dataset-Devkit">Code</a>
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.06865.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>

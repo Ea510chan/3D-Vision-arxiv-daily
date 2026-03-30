@@ -7,7 +7,7 @@ title: Gaussian Splatting
   <div>
     <p class="eyebrow">Topic</p>
     <h1>Gaussian Splatting</h1>
-    <p class="topic-lede">Updated 2026.03.26 · 617 papers</p>
+    <p class="topic-lede">Updated 2026.03.30 · 617 papers</p>
   </div>
   <a class="btn ghost" href="../index.html#topics">← Back to topics</a>
 </section>
@@ -4204,7 +4204,7 @@ title: Gaussian Splatting
         <div class="paper-links">
           <a class="chip" href="https://arxiv.org/abs/2512.04421">arXiv</a>
           <a class="chip" href="https://arxiv.org/pdf/2512.04421.pdf">PDF</a>
-          <span class="chip ghost">Code: N/A</span>
+          <a class="chip" href="https://github.com/waizui/UTrice">Code</a>
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.04421.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>

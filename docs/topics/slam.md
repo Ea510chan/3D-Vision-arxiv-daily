@@ -7,7 +7,7 @@ title: SLAM
   <div>
     <p class="eyebrow">Topic</p>
     <h1>SLAM</h1>
-    <p class="topic-lede">Updated 2026.03.26 · 230 papers</p>
+    <p class="topic-lede">Updated 2026.03.30 · 230 papers</p>
   </div>
   <a class="btn ghost" href="../index.html#topics">← Back to topics</a>
 </section>

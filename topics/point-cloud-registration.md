@@ -1,19 +1,19 @@
 # Point Cloud Registration
 
-> Updated on 2026.03.26
+> Updated on 2026.03.30
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-03-24**|**PiLoT: Neural Pixel-to-3D Registration for UAV-based Ego and Target Geo-localization**|Xiaoya Cheng et.al.|[2603.20778](https://arxiv.org/abs/2603.20778)|null|
-|**2026-03-15**|**RegFormer++: An Efficient Large-Scale 3D LiDAR Point Registration Network with Projection-Aware 2D Transformer**|Jiuming Liu et.al.|[2603.14290](https://arxiv.org/abs/2603.14290)|null|
-|**2026-03-13**|**CMHANet: A Cross-Modal Hybrid Attention Network for Point Cloud Registration**|Dongxu Zhang et.al.|[2603.12721](https://arxiv.org/abs/2603.12721)|null|
-|**2026-03-13**|**IGASA: Integrated Geometry-Aware and Skip-Attention Modules for Enhanced Point Cloud Registration**|Dongxu Zhang et.al.|[2603.12719](https://arxiv.org/abs/2603.12719)|null|
-|**2026-03-11**|**TacLoc: Global Tactile Localization on Objects from a Registration Perspective**|Zirui Zhang et.al.|[2603.10565](https://arxiv.org/abs/2603.10565)|null|
-|**2026-03-05**|**SPIRIT: Perceptive Shared Autonomy for Robust Robotic Manipulation under Deep Learning Uncertainty**|Jongseok Lee et.al.|[2603.05111](https://arxiv.org/abs/2603.05111)|null|
-|**2026-02-11**|**End-to-End LiDAR optimization for 3D point cloud registration**|Siddhant Katyan et.al.|[2602.10492](https://arxiv.org/abs/2602.10492)|null|
-|**2026-02-03**|**Beyond the Vehicle: Cooperative Localization by Fusing Point Clouds for GPS-Challenged Urban Scenarios**|Kuo-Yi Chao et.al.|[2602.03908](https://arxiv.org/abs/2602.03908)|null|
-|**2026-01-30**|**Parametric vector flows for registration fields in bounded domains with applications to nonlinear interpolation of shock-dominated flows**|Jon Labatut et.al.|[2601.22712](https://arxiv.org/abs/2601.22712)|null|
-|**2026-01-14**|**Iterative Differential Entropy Minimization (IDEM) method for fine rigid pairwise 3D Point Cloud Registration: A Focus on the Metric**|Emmanuele Barberi et.al.|[2601.09601](https://arxiv.org/abs/2601.09601)|null|
+|2026-03-24|PiLoT: Neural Pixel-to-3D Registration for UAV-based Ego and Target Geo-localization|Xiaoya Cheng et.al.|[2603.20778](https://arxiv.org/abs/2603.20778)|null|
+|2026-03-15|RegFormer++: An Efficient Large-Scale 3D LiDAR Point Registration Network with Projection-Aware 2D Transformer|Jiuming Liu et.al.|[2603.14290](https://arxiv.org/abs/2603.14290)|null|
+|2026-03-13|CMHANet: A Cross-Modal Hybrid Attention Network for Point Cloud Registration|Dongxu Zhang et.al.|[2603.12721](https://arxiv.org/abs/2603.12721)|null|
+|2026-03-13|IGASA: Integrated Geometry-Aware and Skip-Attention Modules for Enhanced Point Cloud Registration|Dongxu Zhang et.al.|[2603.12719](https://arxiv.org/abs/2603.12719)|null|
+|2026-03-11|TacLoc: Global Tactile Localization on Objects from a Registration Perspective|Zirui Zhang et.al.|[2603.10565](https://arxiv.org/abs/2603.10565)|null|
+|2026-03-05|SPIRIT: Perceptive Shared Autonomy for Robust Robotic Manipulation under Deep Learning Uncertainty|Jongseok Lee et.al.|[2603.05111](https://arxiv.org/abs/2603.05111)|null|
+|2026-02-11|End-to-End LiDAR optimization for 3D point cloud registration|Siddhant Katyan et.al.|[2602.10492](https://arxiv.org/abs/2602.10492)|null|
+|2026-02-03|Beyond the Vehicle: Cooperative Localization by Fusing Point Clouds for GPS-Challenged Urban Scenarios|Kuo-Yi Chao et.al.|[2602.03908](https://arxiv.org/abs/2602.03908)|null|
+|2026-01-30|Parametric vector flows for registration fields in bounded domains with applications to nonlinear interpolation of shock-dominated flows|Jon Labatut et.al.|[2601.22712](https://arxiv.org/abs/2601.22712)|null|
+|2026-01-14|Iterative Differential Entropy Minimization (IDEM) method for fine rigid pairwise 3D Point Cloud Registration: A Focus on the Metric|Emmanuele Barberi et.al.|[2601.09601](https://arxiv.org/abs/2601.09601)|null|
 |2026-01-06|Towards Zero-Shot Point Cloud Registration Across Diverse Scales, Scenes, and Sensor Setups|Hyungtae Lim et.al.|[2601.02759](https://arxiv.org/abs/2601.02759)|null|
 |2025-12-30|Subsecond 3D Mesh Generation for Robot Manipulation|Qian Wang et.al.|[2512.24428](https://arxiv.org/abs/2512.24428)|null|
 |2025-12-29|MCI-Net: A Robust Multi-Domain Context Integration Network for Point Cloud Registration|Shuyuan Lin et.al.|[2512.23472](https://arxiv.org/abs/2512.23472)|null|
