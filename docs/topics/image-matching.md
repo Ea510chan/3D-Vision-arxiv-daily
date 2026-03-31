@@ -7,12 +7,33 @@ title: Image Matching
   <div>
     <p class="eyebrow">Topic</p>
     <h1>Image Matching</h1>
-    <p class="topic-lede">Updated 2026.03.30 · 155 papers</p>
+    <p class="topic-lede">Updated 2026.03.31 · 155 papers</p>
   </div>
   <a class="btn ghost" href="../index.html#topics">← Back to topics</a>
 </section>
 
 <section class="paper-grid">
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Enhancing Cross-View UAV Geolocalization via LVLM-Driven Relational Modeling</span>
+        <span class="paper-authors">Bowen Liu, Pengyue Jia, Wanyu Wang, Derong Xu, Jiawei Cheng, Jiancheng Dong, Xiao Han, Zimo Zhao, Chao Zhang, Bowen Yu, Fangyu Hong, Xiangyu Zhao</span>
+        <span class="paper-meta">Updated 2026-03-26</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">The primary objective of cross-view UAV geolocalization is to identify the exact spatial coordinates of drone-captured imagery by aligning it with extensive, geo-referenced satellite databases. Current approaches typically extract features independently from each perspective and rely on basic heuristics to compute similarity, thereby failing to explicitly capture the essential interactions between different views. To address this limitation, we introduce a novel, plug-and-play ranking architecture designed to explicitly perform joint relational modeling for improved UAV-to-satellite image matching. By harnessing the capabilities of a Large Vision-Language Model (LVLM), our framework effectively learns the deep visual-semantic correlations linking UAV and satellite imagery. Furthermore, we present a novel relational-aware loss function to optimize the training phase. By employing soft labels, this loss provides fine-grained supervision that avoids overly penalizing near-positive matches, ultimately boosting both the model&#x27;s discriminative power and training stability. Comprehensive evaluations across various baseline architectures and standard benchmarks reveal that the proposed method substantially boosts the retrieval accuracy of existing models, yielding superior performance even under highly demanding conditions.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.08063">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.08063.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.08063.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
   <article class="paper-card">
     <details class="paper-details">
       <summary>
@@ -112,27 +133,6 @@ title: Image Matching
           <span class="chip ghost">Code: N/A</span>
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.08430.pdf">
-          <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
-        </div>
-      </div>
-    </details>
-  </article>
-  <article class="paper-card">
-    <details class="paper-details">
-      <summary>
-        <span class="paper-title">Enhancing Cross-View UAV Geolocalization via LVLM-Driven Relational Modeling</span>
-        <span class="paper-authors">Bowen Liu, Pengyue Jia, Wanyu Wang, Derong Xu, Jiawei Cheng, Jiancheng Dong, Xiao Han, Zimo Zhao, Chao Zhang, Bowen Yu, Fangyu Hong, Xiangyu Zhao</span>
-        <span class="paper-meta">Updated 2026-03-09</span>
-      </summary>
-      <div class="paper-body">
-        <p class="paper-abstract">The primary objective of cross-view UAV geolocalization is to identify the exact spatial coordinates of drone-captured imagery by aligning it with extensive, geo-referenced satellite databases. Current approaches typically extract features independently from each perspective and rely on basic heuristics to compute similarity, thereby failing to explicitly capture the essential interactions between different views. To address this limitation, we introduce a novel, plug-and-play ranking architecture designed to explicitly perform joint relational modeling for improved UAV-to-satellite image matching. By harnessing the capabilities of a Large Vision-Language Model (LVLM), our framework effectively learns the deep visual-semantic correlations linking UAV and satellite imagery. Furthermore, we present a novel relational-aware loss function to optimize the training phase. By employing soft labels, this loss provides fine-grained supervision that avoids overly penalizing near-positive matches, ultimately boosting both the model&#x27;s discriminative power and training stability. Comprehensive evaluations across various baseline architectures and standard benchmarks reveal that the proposed method substantially boosts the retrieval accuracy of existing models, yielding superior performance even under highly demanding conditions.</p>
-        <div class="paper-links">
-          <a class="chip" href="https://arxiv.org/abs/2603.08063">arXiv</a>
-          <a class="chip" href="https://arxiv.org/pdf/2603.08063.pdf">PDF</a>
-          <span class="chip ghost">Code: N/A</span>
-        </div>
-        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.08063.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>

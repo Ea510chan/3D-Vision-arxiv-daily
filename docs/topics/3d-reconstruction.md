@@ -7,12 +7,222 @@ title: 3D Reconstruction
   <div>
     <p class="eyebrow">Topic</p>
     <h1>3D Reconstruction</h1>
-    <p class="topic-lede">Updated 2026.03.30 · 307 papers</p>
+    <p class="topic-lede">Updated 2026.03.31 · 317 papers</p>
   </div>
   <a class="btn ghost" href="../index.html#topics">← Back to topics</a>
 </section>
 
 <section class="paper-grid">
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">TerraSky3D: Multi-View Reconstructions of European Landmarks in 4K</span>
+        <span class="paper-authors">Mattia D&#x27;Urso, Yuxi Hu, Christian Sormann, Mattia Rossi, Friedrich Fraundorfer</span>
+        <span class="paper-meta">Updated 2026-03-30</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Despite the growing need for data of more and more sophisticated 3D reconstruction pipelines, we can still observe a scarcity of suitable public datasets. Existing 3D datasets are either low resolution, limited to a small amount of scenes, based on images of varying quality because retrieved from the internet, or limited to specific capturing scenarios.   Motivated by this lack of suitable 3D datasets, we captured TerraSky3D, a high-resolution large-scale 3D reconstruction dataset comprising 50,000 images divided into 150 ground, aerial, and mixed scenes. The dataset focuses on European landmarks and comes with curated calibration data, camera poses, and depth maps. TerraSky3D tries to answer the need for challenging dataset that can be used to train and evaluate 3D reconstruction-related pipelines.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.28287">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.28287.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.28287.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">MV-RoMa: From Pairwise Matching into Multi-View Track Reconstruction</span>
+        <span class="paper-authors">Jongmin Lee, Seungyeop Kang, Sungjoo Yoo</span>
+        <span class="paper-meta">Updated 2026-03-29</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Establishing consistent correspondences across images is essential for 3D vision tasks such as structure-from-motion (SfM), yet most existing matchers operate in a pairwise manner, often producing fragmented and geometrically inconsistent tracks when their predictions are chained across views. We propose MV-RoMa, a multi-view dense matching model that jointly estimates dense correspondences from a source image to multiple co-visible targets. Specifically, we design an efficient model architecture which avoids high computational cost of full cross-attention for multi-view feature interaction: (i) multi-view encoder that leverages pair-wise matching results as a geometric prior, and (ii) multi-view matching refiner that refines correspondences using pixel-wise attention. Additionally, we propose a post-processing strategy that integrates our model&#x27;s consistent multi-view correspondences as high-quality tracks for SfM. Across diverse and challenging benchmarks, MV-RoMa produces more reliable correspondences and substantially denser, more accurate 3D reconstructions than existing sparse and dense matching methods. Project page: https://icetea-cv.github.io/mv-roma/.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.27542">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.27542.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.27542.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">From None to All: Self-Supervised 3D Reconstruction via Novel View Synthesis</span>
+        <span class="paper-authors">Ranran Huang, Weixun Luo, Ye Mao, Krystian Mikolajczyk</span>
+        <span class="paper-meta">Updated 2026-03-29</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">In this paper, we introduce NAS3R, a self-supervised feed-forward framework that jointly learns explicit 3D geometry and camera parameters with no ground-truth annotations and no pretrained priors. During training, NAS3R reconstructs 3D Gaussians from uncalibrated and unposed context views and renders target views using its self-predicted camera parameters, enabling self-supervised training from 2D photometric supervision. To ensure stable convergence, NAS3R integrates reconstruction and camera prediction within a shared transformer backbone regulated by masked attention, and adopts a depth-based Gaussian formulation that facilitates well-conditioned optimization. The framework is compatible with state-of-the-art supervised 3D reconstruction architectures and can incorporate pretrained priors or intrinsic information when available. Extensive experiments show that NAS3R achieves superior results to other self-supervised methods, establishing a scalable and geometry-aware paradigm for 3D reconstruction from unconstrained data. Code and models are publicly available at https://ranrhuang.github.io/nas3r/.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.27455">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.27455.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.27455.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">HD-VGGT: High-Resolution Visual Geometry Transformer</span>
+        <span class="paper-authors">Tianrun Chen, Yuanqi Hu, Yidong Han, Hanjie Xu, Deyi Ji, Qi Zhu, Chunan Yu, Xin Zhang, Cheng Chen, Chaotao Ding, Ying Zang, Xuanfu Li, Jin Ma, Lanyun Zhu</span>
+        <span class="paper-meta">Updated 2026-03-28</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">High-resolution imagery is essential for accurate 3D reconstruction, as many geometric details only emerge at fine spatial scales. Recent feed-forward approaches, such as the Visual Geometry Grounded Transformer (VGGT), have demonstrated the ability to infer scene geometry from large collections of images in a single forward pass. However, scaling these models to high-resolution inputs remains challenging: the number of tokens in transformer architectures grows rapidly with both image resolution and the number of views, leading to prohibitive computational and memory costs. Moreover, we observe that visually ambiguous regions, such as repetitive patterns, weak textures, or specular surfaces, often produce unstable feature tokens that degrade geometric inference, especially at higher resolutions. We introduce HD-VGGT, a dual-branch architecture for efficient and robust high-resolution 3D reconstruction. A low-resolution branch predicts a coarse, globally consistent geometry, while a high-resolution branch refines details via a learned feature upsampling module. To handle unstable tokens, we propose Feature Modulation, which suppresses unreliable features early in the transformer. HD-VGGT leverages high-resolution images and supervision without full-resolution transformer costs, achieving state-of-the-art reconstruction quality.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.27222">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.27222.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.27222.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">SceneExpander: Expanding 3D Scenes with Free-Form Inserted Views</span>
+        <span class="paper-authors">Zijian He, enjie Liu, Yihao Wang, Weizhi Zhong, Huan Yuan, Kun Gai, Guangrun Wang, Guanbin Li</span>
+        <span class="paper-meta">Updated 2026-03-28</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">World building with 3D scene representations is increasingly important for content creation, simulation, and interactive experiences, yet real workflows are inherently iterative: creators must repeatedly extend an existing scene under user control. Motivated by this research gap, we study 3D scene expansion in a user-centric workflow: starting from a real scene captured by multi-view images, we extend its coverage by inserting an additional view synthesized by a generative model. Unlike simple object editing or style transfer in a fixed scene, the inserted view is often 3D-misaligned with the original reconstruction, introducing geometry shifts, hallucinated content, or view-dependent artifacts that break global multi-view consistency. To address the challenge, we propose SceneExpander, which applies test-time adaptation to a parametric feed-forward 3D reconstruction model with two complementary distillation signals: anchor distillation stabilizes the original scene by distilling geometric cues from the captured views, while inserted-view self-distillation preserves observation-supported predictions yet adapts latent geometry and appearance to accommodate the misaligned inserted view. Experiments on ETH scenes and online data demonstrate improved expansion behavior and reconstruction quality under misalignment.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.27084">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.27084.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.27084.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Drive-Through 3D Vehicle Exterior Reconstruction via Dynamic-Scene SfM and Distortion-Aware Gaussian Splatting</span>
+        <span class="paper-authors">Nitin Kulkarni, Akhil Devarashetti, Charlie Cluss, Livio Forte, Philip Schneider, Chunming Qiao, Alina Vereshchaka</span>
+        <span class="paper-meta">Updated 2026-03-27</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">High-fidelity 3D reconstruction of vehicle exteriors improves buyer confidence in online automotive marketplaces, but generating these models in cluttered dealership drive-throughs presents severe technical challenges. Unlike static-scene photogrammetry, this setting features a dynamic vehicle moving against heavily cluttered, static backgrounds. This problem is further compounded by wide-angle lens distortion, specular automotive paint, and non-rigid wheel rotations that violate classical epipolar constraints. We propose an end-to-end pipeline utilizing a two-pillar camera rig. First, we resolve dynamic-scene ambiguities by coupling SAM 3 for instance segmentation with motion-gating to cleanly isolate the moving vehicle, explicitly masking out non-rigid wheels to enforce strict epipolar geometry. Second, we extract robust correspondences directly on raw, distorted 4K imagery using the RoMa v2 learned matcher guided by semantic confidence masks. Third, these matches are integrated into a rig-aware SfM optimization that utilizes CAD-derived relative pose priors to eliminate scale drift. Finally, we use a distortion-aware 3D Gaussian Splatting framework (3DGUT) coupled with a stochastic Markov Chain Monte Carlo (MCMC) densification strategy to render reflective surfaces. Evaluations on 25 real-world vehicles across 10 dealerships demonstrate that our full pipeline achieves a PSNR of 28.66 dB, an SSIM of 0.89, and an LPIPS of 0.21 on held-out views, representing a 3.85 dB improvement over standard 3D-GS, delivering inspection-grade interactive 3D models without controlled studio infrastructure.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.26638">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.26638.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.26638.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Scene Grounding In the Wild</span>
+        <span class="paper-authors">Tamir Cohen, Leo Segre, Shay Shomer-Chai, Shai Avidan, Hadar Averbuch-Elor</span>
+        <span class="paper-meta">Updated 2026-03-27</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Reconstructing accurate 3D models of large-scale real-world scenes from unstructured, in-the-wild imagery remains a core challenge in computer vision, especially when the input views have little or no overlap. In such cases, existing reconstruction pipelines often produce multiple disconnected partial reconstructions or erroneously merge non-overlapping regions into overlapping geometry. In this work, we propose a framework that grounds each partial reconstruction to a complete reference model of the scene, enabling globally consistent alignment even in the absence of visual overlap. We obtain reference models from dense, geospatially accurate pseudo-synthetic renderings derived from Google Earth Studio. These renderings provide full scene coverage but differ substantially in appearance from real-world photographs. Our key insight is that, despite this significant domain gap, both domains share the same underlying scene semantics. We represent the reference model using 3D Gaussian Splatting, augmenting each Gaussian with semantic features, and formulate alignment as an inverse feature-based optimization scheme that estimates a global 6DoF pose and scale while keeping the reference model fixed. Furthermore, we introduce the WikiEarth dataset, which registers existing partial 3D reconstructions with pseudo-synthetic reference models. We demonstrate that our approach consistently improves global alignment when initialized with various classical and learning-based pipelines, while mitigating failure modes of state-of-the-art end-to-end models. All code and data will be released.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.26584">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.26584.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.26584.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Conditional Diffusion for 3D CT Volume Reconstruction from 2D X-rays</span>
+        <span class="paper-authors">Martin Rath, Morteza Ghahremani, Yitong Li, Ashkan Taghipour, Marcus Makowski, Christian Wachinger</span>
+        <span class="paper-meta">Updated 2026-03-27</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Computed tomography (CT) provides rich 3D anatomical details but is often constrained by high radiation exposure, substantial costs, and limited availability. While standard chest X-rays are cost-effective and widely accessible, they only provide 2D projections with limited pathological information. Reconstructing 3D CT volumes from 2D X-rays offers a transformative solution to increase diagnostic accessibility, yet existing methods predominantly rely on synthetic X-ray projections, limiting clinical generalization. In this work, we propose AXON, a multi-stage diffusion-based framework that reconstructs high-fidelity 3D CT volumes directly from real X-rays. AXON employs a coarse-to-fine strategy, with a Brownian Bridge diffusion model-based initial stage for global structural synthesis, followed by a ControlNet-based refinement stage for local intensity optimization. It also supports bi-planar X-ray input to mitigate depth ambiguities inherent in 2D-to-3D reconstruction. A super-resolution network is integrated to upscale the generated volumes to achieve diagnostic-grade resolution. Evaluations on both public and external datasets demonstrate that AXON significantly outperforms state-of-the-art baselines, achieving a 11.9% improvement in PSNR and a 11.0% increase in SSIM with robust generalizability across disparate clinical distributions. Our code is available at https://github.com/ai-med/AXON.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.26509">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.26509.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.26509.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">FAST3DIS: Feed-forward Anchored Scene Transformer for 3D Instance Segmentation</span>
+        <span class="paper-authors">Changyang Li, Xueqing Huang, Shin-Fang Chng, Huangying Zhan, Qingan Yan, Yi Xu</span>
+        <span class="paper-meta">Updated 2026-03-27</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">While recent feed-forward 3D reconstruction models provide a strong geometric foundation for scene understanding, extending them to 3D instance segmentation typically relies on a disjointed &quot;lift-and-cluster&quot; paradigm. Grouping dense pixel-wise embeddings via non-differentiable clustering scales poorly with the number of views and disconnects representation learning from the final segmentation objective. In this paper, we present a Feed-forward Anchored Scene Transformer for 3D Instance Segmentation (FAST3DIS), an end-to-end approach that effectively bypasses post-hoc clustering. We introduce a 3D-anchored, query-based Transformer architecture built upon a foundational depth backbone, adapted efficiently to learn instance-specific semantics while retaining its zero-shot geometric priors. We formulate a learned 3D anchor generator coupled with an anchor-sampling cross-attention mechanism for view-consistent 3D instance segmentation. By projecting 3D object queries directly into multi-view feature maps, our method samples context efficiently. Furthermore, we introduce a dual-level regularization strategy, that couples multi-view contrastive learning with a dynamically scheduled spatial overlap penalty to explicitly prevent query collisions and ensure precise instance boundaries. Experiments on complex indoor 3D datasets demonstrate that our approach achieves competitive segmentation accuracy with significantly improved memory scalability and inference speed over state-of-the-art clustering-based methods.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.25993">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.25993.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.25993.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Geo$^\textbf{2}$: Geometry-Guided Cross-view Geo-Localization and Image Synthesis</span>
+        <span class="paper-authors">Yancheng Zhang, Xiaohan Zhang, Guangyu Sun, Zonglin Lyu, Safwan Wshah, Chen Chen</span>
+        <span class="paper-meta">Updated 2026-03-26</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Cross-view geo-spatial learning consists of two important tasks: Cross-View Geo-Localization (CVGL) and Cross-View Image Synthesis (CVIS), both of which rely on establishing geometric correspondences between ground and aerial views. Recent Geometric Foundation Models (GFMs) have demonstrated strong capabilities in extracting generalizable 3D geometric features from images, but their potential in cross-view geo-spatial tasks remains underexplored. In this work, we present Geo^2, a unified framework that leverages Geometric priors from GFMs (e.g., VGGT) to jointly perform geo-spatial tasks, CVGL and bidirectional CVIS. Despite the 3D reconstruction ability of GFMs, directly applying them to CVGL and CVIS remains challenging due to the large viewpoint gap between ground and aerial imagery. We propose GeoMap, which embeds ground and aerial features into a shared 3D-aware latent space, effectively reducing cross-view discrepancies for localization. This shared latent space naturally bridges cross-view image synthesis in both directions. To exploit this, we propose GeoFlow, a flow-matching model conditioned on geometry-aware latent embeddings. We further introduce a consistency loss to enforce latent alignment between the two synthesis directions, ensuring bidirectional coherence. Extensive experiments on standard benchmarks, including CVUSA, CVACT, and VIGOR, demonstrate that Geo^2 achieves state-of-the-art performance in both localization and synthesis, highlighting the effectiveness of 3D geometric priors for cross-view geo-spatial learning.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.25819">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.25819.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.25819.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
   <article class="paper-card">
     <details class="paper-details">
       <summary>

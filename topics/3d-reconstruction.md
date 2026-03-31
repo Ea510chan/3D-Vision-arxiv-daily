@@ -1,9 +1,19 @@
 # 3D Reconstruction
 
-> Updated on 2026.03.30
+> Updated on 2026.03.31
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-03-30**|**TerraSky3D: Multi-View Reconstructions of European Landmarks in 4K**|Mattia D'Urso et.al.|[2603.28287](https://arxiv.org/abs/2603.28287)|null|
+|**2026-03-29**|**MV-RoMa: From Pairwise Matching into Multi-View Track Reconstruction**|Jongmin Lee et.al.|[2603.27542](https://arxiv.org/abs/2603.27542)|null|
+|**2026-03-29**|**From None to All: Self-Supervised 3D Reconstruction via Novel View Synthesis**|Ranran Huang et.al.|[2603.27455](https://arxiv.org/abs/2603.27455)|null|
+|**2026-03-28**|**HD-VGGT: High-Resolution Visual Geometry Transformer**|Tianrun Chen et.al.|[2603.27222](https://arxiv.org/abs/2603.27222)|null|
+|**2026-03-28**|**SceneExpander: Expanding 3D Scenes with Free-Form Inserted Views**|Zijian He et.al.|[2603.27084](https://arxiv.org/abs/2603.27084)|null|
+|**2026-03-27**|**Drive-Through 3D Vehicle Exterior Reconstruction via Dynamic-Scene SfM and Distortion-Aware Gaussian Splatting**|Nitin Kulkarni et.al.|[2603.26638](https://arxiv.org/abs/2603.26638)|null|
+|**2026-03-27**|**Scene Grounding In the Wild**|Tamir Cohen et.al.|[2603.26584](https://arxiv.org/abs/2603.26584)|null|
+|**2026-03-27**|**Conditional Diffusion for 3D CT Volume Reconstruction from 2D X-rays**|Martin Rath et.al.|[2603.26509](https://arxiv.org/abs/2603.26509)|null|
+|**2026-03-27**|**FAST3DIS: Feed-forward Anchored Scene Transformer for 3D Instance Segmentation**|Changyang Li et.al.|[2603.25993](https://arxiv.org/abs/2603.25993)|null|
+|**2026-03-26**|**Geo $^\textbf{2}$ : Geometry-Guided Cross-view Geo-Localization and Image Synthesis**|Yancheng Zhang et.al.|[2603.25819](https://arxiv.org/abs/2603.25819)|null|
 |2026-03-25|SLAT-Phys: Fast Material Property Field Prediction from Structured 3D Latents|Rocktim Jyoti Das et.al.|[2603.23973](https://arxiv.org/abs/2603.23973)|null|
 |2026-03-24|AdvSplat: Adversarial Attacks on Feed-Forward Gaussian Splatting Models|Yiran Qiao et.al.|[2603.23686](https://arxiv.org/abs/2603.23686)|null|
 |2026-03-24|I3DM: Implicit 3D-aware Memory Retrieval and Injection for Consistent Video Scene Generation|Jia Li et.al.|[2603.23413](https://arxiv.org/abs/2603.23413)|null|

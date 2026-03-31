@@ -7,7 +7,7 @@ title: Point Cloud Registration
   <div>
     <p class="eyebrow">Topic</p>
     <h1>Point Cloud Registration</h1>
-    <p class="topic-lede">Updated 2026.03.30 · 128 papers</p>
+    <p class="topic-lede">Updated 2026.03.31 · 130 papers</p>
   </div>
   <a class="btn ghost" href="../index.html#topics">← Back to topics</a>
 </section>
@@ -16,18 +16,60 @@ title: Point Cloud Registration
   <article class="paper-card">
     <details class="paper-details">
       <summary>
+        <span class="paper-title">GLASS: Geometry-aware Local Alignment and Structure Synchronization Network for 2D-3D Registration</span>
+        <span class="paper-authors">Zhixin Cheng, Jiacheng Deng, Xinjun Li, Bohao Liao, Li Liu, Xiaotian Yin, Baoqun Yin, Tianzhu Zhang</span>
+        <span class="paper-meta">Updated 2026-03-27</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Image-to-point cloud registration methods typically follow a coarse-to-fine pipeline, extracting patch-level correspondences and refining them into dense pixel-to-point matches. However, in scenes with repetitive patterns, images often lack sufficient 3D structural cues and alignment with point clouds, leading to incorrect matches. Moreover, prior methods usually overlook structural consistency, limiting the full exploitation of correspondences. To address these issues, we propose two novel modules: the Local Geometry Enhancement (LGE) module and the Graph Distribution Consistency (GDC) module. LGE enhances both image and point cloud features with normal vectors, injecting geometric structure into image features to reduce mismatches. GDC constructs a graph from matched points to update features and explicitly constrain similarity distributions. Extensive experiments and ablations on two benchmarks, RGB-D Scenes v2 and 7-Scenes, demonstrate that our approach achieves state-of-the-art performance in image-to-point cloud registration.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.26262">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.26262.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.26262.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
         <span class="paper-title">PiLoT: Neural Pixel-to-3D Registration for UAV-based Ego and Target Geo-localization</span>
         <span class="paper-authors">Xiaoya Cheng, Long Wang, Yan Liu, Xinyi Liu, Hanlin Tan, Yu Liu, Maojun Zhang, Shen Yan</span>
-        <span class="paper-meta">Updated 2026-03-24</span>
+        <span class="paper-meta">Updated 2026-03-27</span>
       </summary>
       <div class="paper-body">
         <p class="paper-abstract">We present PiLoT, a unified framework that tackles UAV-based ego and target geo-localization. Conventional approaches rely on decoupled pipelines that fuse GNSS and Visual-Inertial Odometry (VIO) for ego-pose estimation, and active sensors like laser rangefinders for target localization. However, these methods are susceptible to failure in GNSS-denied environments and incur substantial hardware costs and complexity. PiLoT breaks this paradigm by directly registering live video stream against a geo-referenced 3D map. To achieve robust, accurate, and real-time performance, we introduce three key contributions: 1) a Dual-Thread Engine that decouples map rendering from core localization thread, ensuring both low latency while maintaining drift-free accuracy; 2) a large-scale synthetic dataset with precise geometric annotations (camera pose, depth maps). This dataset enables the training of a lightweight network that generalizes in a zero-shot manner from simulation to real data; and 3) a Joint Neural-Guided Stochastic-Gradient Optimizer (JNGO) that achieves robust convergence even under aggressive motion. Evaluations on a comprehensive set of public and newly collected benchmarks show that PiLoT outperforms state-of-the-art methods while running over 25 FPS on NVIDIA Jetson Orin platform. Our code and dataset is available at: https://github.com/Choyaa/PiLoT.</p>
         <div class="paper-links">
           <a class="chip" href="https://arxiv.org/abs/2603.20778">arXiv</a>
           <a class="chip" href="https://arxiv.org/pdf/2603.20778.pdf">PDF</a>
-          <span class="chip ghost">Code: N/A</span>
+          <a class="chip" href="https://github.com/nudt-sawlab/PiLoT">Code</a>
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.20778.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">DC-Reg: Globally Optimal Point Cloud Registration via Tight Bounding with Difference of Convex Programming</span>
+        <span class="paper-authors">Wei Lian, Fei Ma, Hang Pan, Zhesen Cui, Wangmeng Zuo</span>
+        <span class="paper-meta">Updated 2026-03-26</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Achieving globally optimal point cloud registration under partial overlaps and large misalignments remains a fundamental challenge. While simultaneous transformation ($\boldsymbolθ$) and correspondence ($\mathbf{P}$) estimation has the advantage of being robust to nonrigid deformation, its non-convex coupled objective often leads to local minima for heuristic methods and prohibitive convergence times for existing global solvers due to loose lower bounds. To address this, we propose DC-Reg, a robust globally optimal framework that significantly tightens the Branch-and-Bound (BnB) search. Our core innovation is the derivation of a holistic concave underestimator for the coupled transformation-assignment objective, grounded in the Difference of Convex (DC) programming paradigm. Unlike prior works that rely on term-wise relaxations (e.g., McCormick envelopes) which neglect variable interplay, our holistic DC decomposition captures the joint structural interaction between $\boldsymbolθ$ and $\mathbf{P}$. This formulation enables the computation of remarkably tight lower bounds via efficient Linear Assignment Problems (LAP) evaluated at the vertices of the search boxes. We validate our framework on 2D similarity and 3D rigid registration, utilizing rotation-invariant features for the latter to achieve high efficiency without sacrificing optimality. Experimental results on synthetic data and the 3DMatch benchmark demonstrate that DC-Reg achieves significantly faster convergence and superior robustness to extreme noise and outliers compared to state-of-the-art global techniques.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.25442">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.25442.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.25442.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>

@@ -1,11 +1,19 @@
 # Visual Localization
 
-> Updated on 2026.03.30
+> Updated on 2026.03.31
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|2026-03-24|Sparse Autoencoders for Interpretable Medical Image Representation Learning|Philipp Wesp et.al.|[2603.23794](https://arxiv.org/abs/2603.23794)|null|
-|2026-03-24|ARGENT: Adaptive Hierarchical Image-Text Representations|Chuong Huynh et.al.|[2603.23311](https://arxiv.org/abs/2603.23311)|null|
+|**2026-03-29**|**NeedleDB: A Generative-AI Based System for Accurate and Efficient Image Retrieval using Complex Natural Language Queries**|Mahdi Erfanian et.al.|[2603.27464](https://arxiv.org/abs/2603.27464)|null|
+|**2026-03-27**|**Beyond MACs: Hardware Efficient Architecture Design for Vision Backbones**|Moritz Nottebaum et.al.|[2603.26551](https://arxiv.org/abs/2603.26551)|null|
+|**2026-03-27**|**HINT: Composed Image Retrieval with Dual-path Compositional Contextualized Network**|Mingyu Zhang et.al.|[2603.26341](https://arxiv.org/abs/2603.26341)|null|
+|**2026-03-27**|**4DRaL: Bridging 4D Radar with LiDAR for Place Recognition using Knowledge Distillation**|Ningyuan Huang et.al.|[2603.26206](https://arxiv.org/abs/2603.26206)|null|
+|**2026-03-26**|**Few Shots Text to Image Retrieval: New Benchmarking Dataset and Optimization Methods**|Ofer Idan et.al.|[2603.25891](https://arxiv.org/abs/2603.25891)|null|
+|**2026-03-26**|**Just Zoom In: Cross-View Geo-Localization via Autoregressive Zooming**|Yunus Talha Erzurumlu et.al.|[2603.25686](https://arxiv.org/abs/2603.25686)|null|
+|**2026-03-26**|**On-Demand Instructional Material Providing Agent Based on MLLM for Tutoring Support**|Takumi Kato et.al.|[2603.25195](https://arxiv.org/abs/2603.25195)|null|
+|**2026-03-28**|**TIGeR: A Unified Framework for Time, Images and Geo-location Retrieval**|David G. Shatwell et.al.|[2603.24749](https://arxiv.org/abs/2603.24749)|null|
+|**2026-03-24**|**Sparse Autoencoders for Interpretable Medical Image Representation Learning**|Philipp Wesp et.al.|[2603.23794](https://arxiv.org/abs/2603.23794)|null|
+|**2026-03-24**|**ARGENT: Adaptive Hierarchical Image-Text Representations**|Chuong Huynh et.al.|[2603.23311](https://arxiv.org/abs/2603.23311)|null|
 |2026-03-24|Retrieval-Guided Photovoltaic Inventory Estimation from Satellite Imagery for Distribution Grid Planning|Muhao Guo et.al.|[2603.22856](https://arxiv.org/abs/2603.22856)|null|
 |2026-03-24|SOUPLE: Enhancing Audio-Visual Localization and Segmentation with Learnable Prompt Contexts|Khanh Binh Nguyen et.al.|[2603.22732](https://arxiv.org/abs/2603.22732)|null|
 |2026-03-24|HyFI: Hyperbolic Feature Interpolation for Brain-Vision Alignment|Sangmin Jo et.al.|[2603.22721](https://arxiv.org/abs/2603.22721)|null|

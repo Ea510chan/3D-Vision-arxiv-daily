@@ -1,18 +1,19 @@
 # NeRF
 
-> Updated on 2026.03.30
+> Updated on 2026.03.31
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|2026-03-24|UniQueR: Unified Query-based Feedforward 3D Reconstruction|Chensheng Peng et.al.|[2603.22851](https://arxiv.org/abs/2603.22851)|null|
-|2026-03-23|SatGeo-NeRF: Geometrically Regularized NeRF for Satellite Imagery|Valentin Wagner et.al.|[2603.21931](https://arxiv.org/abs/2603.21931)|null|
-|2026-03-23|RefracGS: Novel View Synthesis Through Refractive Water Surfaces with 3D Gaussian Ray Tracing|Yiming Shao et.al.|[2603.21695](https://arxiv.org/abs/2603.21695)|null|
-|2026-03-22|FluidGaussian: Propagating Simulation-Based Uncertainty Toward Functionally-Intelligent 3D Reconstruction|Yuqiu Liu et.al.|[2603.21356](https://arxiv.org/abs/2603.21356)|null|
-|2026-03-22|EmoTaG: Emotion-Aware Talking Head Synthesis on Gaussian Splatting with Few-Shot Personalization|Haolan Xu et.al.|[2603.21332](https://arxiv.org/abs/2603.21332)|null|
-|2026-03-21|GaussianPile: A Unified Sparse Gaussian Splatting Framework for Slice-based Volumetric Reconstruction|Di Kong et.al.|[2603.20611](https://arxiv.org/abs/2603.20611)|null|
-|2026-03-20|Benchmarking Efficient & Effective Camera Pose Estimation Strategies for Novel View Synthesis|Jhacson Meza et.al.|[2603.20428](https://arxiv.org/abs/2603.20428)|null|
-|2026-03-20|Generalizable NGP-SR: Generalizable Neural Radiance Fields Super-Resolution via Neural Graph Primitives|Wanqi Yuan et.al.|[2603.20128](https://arxiv.org/abs/2603.20128)|null|
-|2026-03-20|3D Gaussian Splatting with Self-Constrained Priors for High Fidelity Surface Reconstruction|Takeshi Noda et.al.|[2603.19682](https://arxiv.org/abs/2603.19682)|null|
+|**2026-03-27**|**Few TensoRF: Enhance the Few-shot on Tensorial Radiance Fields**|Thanh-Hai Le et.al.|[2603.25008](https://arxiv.org/abs/2603.25008)|null|
+|**2026-03-24**|**UniQueR: Unified Query-based Feedforward 3D Reconstruction**|Chensheng Peng et.al.|[2603.22851](https://arxiv.org/abs/2603.22851)|null|
+|**2026-03-23**|**SatGeo-NeRF: Geometrically Regularized NeRF for Satellite Imagery**|Valentin Wagner et.al.|[2603.21931](https://arxiv.org/abs/2603.21931)|null|
+|**2026-03-23**|**RefracGS: Novel View Synthesis Through Refractive Water Surfaces with 3D Gaussian Ray Tracing**|Yiming Shao et.al.|[2603.21695](https://arxiv.org/abs/2603.21695)|null|
+|**2026-03-27**|**FluidGaussian: Propagating Simulation-Based Uncertainty Toward Functionally-Intelligent 3D Reconstruction**|Yuqiu Liu et.al.|[2603.21356](https://arxiv.org/abs/2603.21356)|null|
+|**2026-03-28**|**EmoTaG: Emotion-Aware Talking Head Synthesis on Gaussian Splatting with Few-Shot Personalization**|Haolan Xu et.al.|[2603.21332](https://arxiv.org/abs/2603.21332)|null|
+|**2026-03-21**|**GaussianPile: A Unified Sparse Gaussian Splatting Framework for Slice-based Volumetric Reconstruction**|Di Kong et.al.|[2603.20611](https://arxiv.org/abs/2603.20611)|null|
+|**2026-03-20**|**Benchmarking Efficient & Effective Camera Pose Estimation Strategies for Novel View Synthesis**|Jhacson Meza et.al.|[2603.20428](https://arxiv.org/abs/2603.20428)|null|
+|**2026-03-20**|**Generalizable NGP-SR: Generalizable Neural Radiance Fields Super-Resolution via Neural Graph Primitives**|Wanqi Yuan et.al.|[2603.20128](https://arxiv.org/abs/2603.20128)|null|
+|**2026-03-26**|**3D Gaussian Splatting with Self-Constrained Priors for High Fidelity Surface Reconstruction**|Takeshi Noda et.al.|[2603.19682](https://arxiv.org/abs/2603.19682)|null|
 |2026-03-18|Fast and Generalizable NeRF Architecture Selection for Satellite Scene Reconstruction|Devjyoti Chakraborty et.al.|[2603.18306](https://arxiv.org/abs/2603.18306)|null|
 |2026-03-18|Neural Radiance Maps for Extraterrestrial Navigation and Path Planning|Adam Dai et.al.|[2603.17236](https://arxiv.org/abs/2603.17236)|null|
 |2026-03-16|E2EGS: Event-to-Edge Gaussian Splatting for Pose-Free 3D Reconstruction|Yunsoo Kim et.al.|[2603.14684](https://arxiv.org/abs/2603.14684)|null|

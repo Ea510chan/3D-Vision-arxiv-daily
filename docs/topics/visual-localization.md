@@ -7,12 +7,180 @@ title: Visual Localization
   <div>
     <p class="eyebrow">Topic</p>
     <h1>Visual Localization</h1>
-    <p class="topic-lede">Updated 2026.03.30 · 393 papers</p>
+    <p class="topic-lede">Updated 2026.03.31 · 401 papers</p>
   </div>
   <a class="btn ghost" href="../index.html#topics">← Back to topics</a>
 </section>
 
 <section class="paper-grid">
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">NeedleDB: A Generative-AI Based System for Accurate and Efficient Image Retrieval using Complex Natural Language Queries</span>
+        <span class="paper-authors">Mahdi Erfanian, Abolfazl Asudeh</span>
+        <span class="paper-meta">Updated 2026-03-29</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">We demonstrate NeedleDB, an open-source, deployment-ready database system for answering complex natural language queries over image data. Unlike existing approaches that rely on contrastive-learning embeddings (e.g., CLIP), which degrade on compositional or nuanced queries, NeedleDB leverages generative AI to synthesize guide images that represent the query in the visual domain, transforming the text-to-image retrieval problem into a more tractable image-to-image search. The system aggregates nearest-neighbor results across multiple vision embedders using a weighted rank-fusion strategy grounded in a Monte Carlo estimator with provable error bounds. NeedleDB ships with a full-featured command-line interface (needlectl), a browser-based Web UI, and a modular microservice architecture backed by PostgreSQL and Milvus. On challenging benchmarks, it improves Mean Average Precision by up to 93% over the strongest baseline while maintaining sub-second query latency. In our demonstration, attendees interact with NeedleDB through three hands-on scenarios that showcase its retrieval capabilities, data ingestion workflow, and pipeline configurability.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.27464">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.27464.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.27464.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">TIGeR: A Unified Framework for Time, Images and Geo-location Retrieval</span>
+        <span class="paper-authors">David G. Shatwell, Sirnam Swetha, Mubarak Shah</span>
+        <span class="paper-meta">Updated 2026-03-28</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Many real-world applications in digital forensics, urban monitoring, and environmental analysis require jointly reasoning about visual appearance, location, and time. Beyond standard geo-localization and time-of-capture prediction, these applications increasingly demand more complex capabilities, such as retrieving an image captured at the same location as a query image but at a specified target time. We formalize this problem as Geo-Time Aware Image Retrieval and propose TIGeR, a unified framework for Time, Images and Geo-location Retrieval. TIGeR supports flexible input configurations (single-modality and multi-modality queries) and uses the same representation to perform (i) geo-localization, (ii) time-of-capture prediction, and (iii) geo-time-aware retrieval. By preserving the underlying location identity despite large appearance changes, TIGeR enables retrieval based on where and when a scene was captured, rather than purely on visual similarity. To support this task, we design a multistage data curation pipeline and propose a new diverse dataset of 4.5M paired image-location-time triplets for training and 86k high-quality triplets for evaluation. Extensive experiments show that TIGeR consistently outperforms strong baselines and state-of-the-art methods by up to 16% on time-of-year, 8% time-of-day prediction, and 14% in geo-time aware retrieval recall, highlighting the benefits of unified geo-temporal modeling.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.24749">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.24749.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.24749.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Beyond MACs: Hardware Efficient Architecture Design for Vision Backbones</span>
+        <span class="paper-authors">Moritz Nottebaum, Matteo Dunnhofer, Christian Micheloni</span>
+        <span class="paper-meta">Updated 2026-03-27</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Vision backbone networks play a central role in modern computer vision. Enhancing their efficiency directly benefits a wide range of downstream applications. To measure efficiency, many publications rely on MACs (Multiply Accumulate operations) as a predictor of execution time. In this paper, we experimentally demonstrate the shortcomings of such a metric, especially in the context of edge devices. By contrasting the MAC count and execution time of common architectural design elements, we identify key factors for efficient execution and provide insights to optimize backbone design. Based on these insights, we present LowFormer, a novel vision backbone family. LowFormer features a streamlined macro and micro design that includes Lowtention, a lightweight alternative to Multi-Head Self-Attention. Lowtention not only proves more efficient, but also enables superior results on ImageNet. Additionally, we present an edge GPU version of LowFormer, that can further improve upon its baseline&#x27;s speed on edge GPU and desktop GPU. We demonstrate LowFormer&#x27;s wide applicability by evaluating it on smaller image classification datasets, as well as adapting it to several downstream tasks, such as object detection, semantic segmentation, image retrieval, and visual object tracking. LowFormer models consistently achieve remarkable speed-ups across various hardware platforms compared to recent state-of-the-art backbones. Code and models are available at https://github.com/altair199797/LowFormer/blob/main/Beyond_MACs.md.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.26551">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.26551.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.26551.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">HINT: Composed Image Retrieval with Dual-path Compositional Contextualized Network</span>
+        <span class="paper-authors">Mingyu Zhang, Zixu Li, Zhiwei Chen, Zhiheng Fu, Xiaowei Zhu, Jiajia Nie, Yinwei Wei, Yupeng Hu</span>
+        <span class="paper-meta">Updated 2026-03-27</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Composed Image Retrieval (CIR) is a challenging image retrieval paradigm. It aims to retrieve target images from large-scale image databases that are consistent with the modification semantics, based on a multimodal query composed of a reference image and modification text. Although existing methods have made significant progress in cross-modal alignment and feature fusion, a key flaw remains: the neglect of contextual information in discriminating matching samples. However, addressing this limitation is not an easy task due to two challenges: 1) implicit dependencies and 2) the lack of a differential amplification mechanism. To address these challenges, we propose a dual-patH composItional coNtextualized neTwork (HINT), which can perform contextualized encoding and amplify the similarity differences between matching and non-matching samples, thus improving the upper performance of CIR models in complex scenarios. Our HINT model achieves optimal performance on all metrics across two CIR benchmark datasets, demonstrating the superiority of our HINT model. Codes are available at https://github.com/zh-mingyu/HINT.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.26341">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.26341.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.26341.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">4DRaL: Bridging 4D Radar with LiDAR for Place Recognition using Knowledge Distillation</span>
+        <span class="paper-authors">Ningyuan Huang, Zhiheng Li, Zheng Fang</span>
+        <span class="paper-meta">Updated 2026-03-27</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Place recognition is crucial for loop closure detection and global localization in robotics. Although mainstream algorithms typically rely on cameras and LiDAR, these sensors are susceptible to adverse weather conditions. Fortunately, the recently developed 4D millimeter-wave radar (4D radar) offers a promising solution for all-weather place recognition. However, the inherent noise and sparsity in 4D radar data significantly limit its performance. Thus, in this paper, we propose a novel framework called 4DRaL that leverages knowledge distillation (KD) to enhance the place recognition performance of 4D radar. Its core is to adopt a high-performance LiDAR-to-LiDAR (L2L) place recognition model as a teacher to guide the training of a 4D radar-to-4D radar (R2R) place recognition model. 4DRaL comprises three key KD modules: a local image enhancement module to handle the sparsity of raw 4D radar points, a feature distribution distillation module that ensures the student model generates more discriminative features, and a response distillation module to maintain consistency in feature space between the teacher and student models. More importantly, 4DRaL can also be trained for 4D radar-to-LiDAR (R2L) place recognition through different module configurations. Experimental results prove that 4DRaL achieves state-of-the-art performance in both R2R and R2L tasks regardless of normal or adverse weather.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.26206">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.26206.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.26206.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Few Shots Text to Image Retrieval: New Benchmarking Dataset and Optimization Methods</span>
+        <span class="paper-authors">Ofer Idan, Vladi Vexler, Gil Lederman, Dima Sivov, Aviad Cohen Zada, Shir Niego Komforti</span>
+        <span class="paper-meta">Updated 2026-03-26</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Pre-trained vision-language models (VLMs) excel in multimodal tasks, commonly encoding images as embedding vectors for storage in databases and retrieval via approximate nearest neighbor search (ANNS). However, these models struggle with compositional queries and out-of-distribution (OOD) image-text pairs. Inspired by human cognition&#x27;s ability to learn from minimal examples, we address this performance gap through few-shot learning approaches specifically designed for image retrieval. We introduce the Few-Shot Text-to-Image Retrieval (FSIR) task and its accompanying benchmark dataset, FSIR-BD - the first to explicitly target image retrieval by text accompanied by reference examples, focusing on the challenging compositional and OOD queries. The compositional part is divided to urban scenes and nature species, both in specific situations or with distinctive features. FSIR-BD contains 38,353 images and 303 queries, with 82% comprising the test corpus (averaging per query 37 positives, ground truth matches, and significant number of hard negatives) and 18% forming the few-shot reference corpus (FSR) of exemplar positive and hard negative images. Additionally, we propose two novel retrieval optimization methods leveraging single shot or few shot reference examples in the FSR to improve performance. Both methods are compatible with any pre-trained image encoder, making them applicable to existing large-scale environments. Our experiments demonstrate that: (1) FSIR-BD provides a challenging benchmark for image retrieval; and (2) our optimization methods outperform existing baselines as measured by mean Average Precision (mAP). Further research into FSIR optimization methods will help narrow the gap between machine and human-level understanding, particularly for compositional reasoning from limited examples.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.25891">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.25891.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.25891.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Just Zoom In: Cross-View Geo-Localization via Autoregressive Zooming</span>
+        <span class="paper-authors">Yunus Talha Erzurumlu, Jiyong Kwag, Alper Yilmaz</span>
+        <span class="paper-meta">Updated 2026-03-26</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Cross-view geo-localization (CVGL) estimates a camera&#x27;s location by matching a street-view image to geo-referenced overhead imagery, enabling GPS-denied localization and navigation. Existing methods almost universally formulate CVGL as an image-retrieval problem in a contrastively trained embedding space. This ties performance to large batches and hard negative mining, and it ignores both the geometric structure of maps and the coverage mismatch between street-view and overhead imagery. In particular, salient landmarks visible from the street view can fall outside a fixed satellite crop, making retrieval targets ambiguous and limiting explicit spatial inference over the map. We propose Just Zoom In, an alternative formulation that performs CVGL via autoregressive zooming over a city-scale overhead map. Starting from a coarse satellite view, the model takes a short sequence of zoom-in decisions to select a terminal satellite cell at a target resolution, without contrastive losses or hard negative mining. We further introduce a realistic benchmark with crowd-sourced street views and high-resolution satellite imagery that reflects real capture conditions. On this benchmark, Just Zoom In achieves state-of-the-art performance, improving Recall@1 within 50 m by 5.5% and Recall@1 within 100 m by 9.6% over the strongest contrastive-retrieval baseline. These results demonstrate the effectiveness of sequential coarse-to-fine spatial reasoning for cross-view geo-localization.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.25686">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.25686.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.25686.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">On-Demand Instructional Material Providing Agent Based on MLLM for Tutoring Support</span>
+        <span class="paper-authors">Takumi Kato, Masato Kikuchi, Tadachika Ozono</span>
+        <span class="paper-meta">Updated 2026-03-26</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Effective instruction in tutoring requires promptly providing instructional materials that match the needs of each student (e.g., in response to questions). In this study, we introduce an agent that automatically delivers supplementary materials on demand during one-on-one tutoring sessions. Our agent uses a multimodal large language model to analyze spoken dialogue between the instructor and the student, automatically generate search queries, and retrieve relevant Web images. Evaluation experiments demonstrate that our agent reduces the average image retrieval time by 44.4 s compared to cases without support and successfully provides images of acceptable quality in 85.7% of trials. These results indicate that our agent effectively supports instructors during tutoring sessions.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.25195">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.25195.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.25195.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
   <article class="paper-card">
     <details class="paper-details">
       <summary>

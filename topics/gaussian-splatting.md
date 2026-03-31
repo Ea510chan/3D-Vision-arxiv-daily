@@ -1,9 +1,19 @@
 # Gaussian Splatting
 
-> Updated on 2026.03.30
+> Updated on 2026.03.31
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-03-29**|**SGS-Intrinsic: Semantic-Invariant Gaussian Splatting for Sparse-View Indoor Inverse Rendering**|Jiahao Niu et.al.|[2603.27516](https://arxiv.org/abs/2603.27516)|null|
+|**2026-03-28**|**DiffSoup: Direct Differentiable Rasterization of Triangle Soup for Extreme Radiance Field Simplification**|Kenji Tojo et.al.|[2603.27151](https://arxiv.org/abs/2603.27151)|null|
+|**2026-03-26**|**arg-VU: Affordance Reasoning with Physics-Aware 3D Geometry for Visual Understanding in Robotic Surgery**|Nan Xiao et.al.|[2603.26814](https://arxiv.org/abs/2603.26814)|null|
+|**2026-03-27**|**Detailed Geometry and Appearance from Opportunistic Motion**|Ryosuke Hirai et.al.|[2603.26665](https://arxiv.org/abs/2603.26665)|null|
+|**2026-03-27**|**Drive-Through 3D Vehicle Exterior Reconstruction via Dynamic-Scene SfM and Distortion-Aware Gaussian Splatting**|Nitin Kulkarni et.al.|[2603.26638](https://arxiv.org/abs/2603.26638)|null|
+|**2026-03-27**|**Scene Grounding In the Wild**|Tamir Cohen et.al.|[2603.26584](https://arxiv.org/abs/2603.26584)|null|
+|**2026-03-27**|**GLINT: Modeling Scene-Scale Transparency via Gaussian Radiance Transport**|Youngju Na et.al.|[2603.26181](https://arxiv.org/abs/2603.26181)|null|
+|**2026-03-27**|**R-PGA: Robust Physical Adversarial Camouflage Generation via Relightable 3D Gaussian Splatting**|Tianrui Lou et.al.|[2603.26067](https://arxiv.org/abs/2603.26067)|null|
+|**2026-03-26**|**Less Gaussians, Texture More: 4K Feed-Forward Textured Splatting**|Yixing Lao et.al.|[2603.25745](https://arxiv.org/abs/2603.25745)|null|
+|**2026-03-26**|**ViewSplat: View-Adaptive Dynamic Gaussian Splatting for Feed-Forward Synthesis**|Moonyeon Jeong et.al.|[2603.25265](https://arxiv.org/abs/2603.25265)|null|
 |2026-03-25|SpectralSplats: Robust Differentiable Tracking via Spectral Moment Supervision|Avigail Cohen Rimon et.al.|[2603.24036](https://arxiv.org/abs/2603.24036)|null|
 |2026-03-25|FilterGS: Traversal-Free Parallel Filtering and Adaptive Shrinking for Large-Scale LoD 3D Gaussian Splatting|Yixian Wang et.al.|[2603.23891](https://arxiv.org/abs/2603.23891)|null|
 |2026-03-24|AdvSplat: Adversarial Attacks on Feed-Forward Gaussian Splatting Models|Yiran Qiao et.al.|[2603.23686](https://arxiv.org/abs/2603.23686)|null|
