@@ -1,19 +1,19 @@
 # 3D Reconstruction
 
-> Updated on 2026.03.31
+> Updated on 2026.04.06
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-03-30**|**TerraSky3D: Multi-View Reconstructions of European Landmarks in 4K**|Mattia D'Urso et.al.|[2603.28287](https://arxiv.org/abs/2603.28287)|null|
-|**2026-03-29**|**MV-RoMa: From Pairwise Matching into Multi-View Track Reconstruction**|Jongmin Lee et.al.|[2603.27542](https://arxiv.org/abs/2603.27542)|null|
-|**2026-03-29**|**From None to All: Self-Supervised 3D Reconstruction via Novel View Synthesis**|Ranran Huang et.al.|[2603.27455](https://arxiv.org/abs/2603.27455)|null|
-|**2026-03-28**|**HD-VGGT: High-Resolution Visual Geometry Transformer**|Tianrun Chen et.al.|[2603.27222](https://arxiv.org/abs/2603.27222)|null|
-|**2026-03-28**|**SceneExpander: Expanding 3D Scenes with Free-Form Inserted Views**|Zijian He et.al.|[2603.27084](https://arxiv.org/abs/2603.27084)|null|
-|**2026-03-27**|**Drive-Through 3D Vehicle Exterior Reconstruction via Dynamic-Scene SfM and Distortion-Aware Gaussian Splatting**|Nitin Kulkarni et.al.|[2603.26638](https://arxiv.org/abs/2603.26638)|null|
-|**2026-03-27**|**Scene Grounding In the Wild**|Tamir Cohen et.al.|[2603.26584](https://arxiv.org/abs/2603.26584)|null|
-|**2026-03-27**|**Conditional Diffusion for 3D CT Volume Reconstruction from 2D X-rays**|Martin Rath et.al.|[2603.26509](https://arxiv.org/abs/2603.26509)|null|
-|**2026-03-27**|**FAST3DIS: Feed-forward Anchored Scene Transformer for 3D Instance Segmentation**|Changyang Li et.al.|[2603.25993](https://arxiv.org/abs/2603.25993)|null|
-|**2026-03-26**|**Geo $^\textbf{2}$ : Geometry-Guided Cross-view Geo-Localization and Image Synthesis**|Yancheng Zhang et.al.|[2603.25819](https://arxiv.org/abs/2603.25819)|null|
+|2026-03-30|TerraSky3D: Multi-View Reconstructions of European Landmarks in 4K|Mattia D'Urso et.al.|[2603.28287](https://arxiv.org/abs/2603.28287)|null|
+|2026-03-29|MV-RoMa: From Pairwise Matching into Multi-View Track Reconstruction|Jongmin Lee et.al.|[2603.27542](https://arxiv.org/abs/2603.27542)|null|
+|2026-03-29|From None to All: Self-Supervised 3D Reconstruction via Novel View Synthesis|Ranran Huang et.al.|[2603.27455](https://arxiv.org/abs/2603.27455)|**[link](https://github.com/ranrhuang/NAS3R)**|
+|2026-03-28|HD-VGGT: High-Resolution Visual Geometry Transformer|Tianrun Chen et.al.|[2603.27222](https://arxiv.org/abs/2603.27222)|null|
+|2026-03-28|SceneExpander: Expanding 3D Scenes with Free-Form Inserted Views|Zijian He et.al.|[2603.27084](https://arxiv.org/abs/2603.27084)|null|
+|2026-03-27|Drive-Through 3D Vehicle Exterior Reconstruction via Dynamic-Scene SfM and Distortion-Aware Gaussian Splatting|Nitin Kulkarni et.al.|[2603.26638](https://arxiv.org/abs/2603.26638)|null|
+|2026-03-27|Scene Grounding In the Wild|Tamir Cohen et.al.|[2603.26584](https://arxiv.org/abs/2603.26584)|null|
+|2026-03-27|Conditional Diffusion for 3D CT Volume Reconstruction from 2D X-rays|Martin Rath et.al.|[2603.26509](https://arxiv.org/abs/2603.26509)|**[link](https://github.com/ai-med/AXON)**|
+|2026-03-27|FAST3DIS: Feed-forward Anchored Scene Transformer for 3D Instance Segmentation|Changyang Li et.al.|[2603.25993](https://arxiv.org/abs/2603.25993)|null|
+|2026-03-26|Geo $^\textbf{2}$ : Geometry-Guided Cross-view Geo-Localization and Image Synthesis|Yancheng Zhang et.al.|[2603.25819](https://arxiv.org/abs/2603.25819)|null|
 |2026-03-25|SLAT-Phys: Fast Material Property Field Prediction from Structured 3D Latents|Rocktim Jyoti Das et.al.|[2603.23973](https://arxiv.org/abs/2603.23973)|null|
 |2026-03-24|AdvSplat: Adversarial Attacks on Feed-Forward Gaussian Splatting Models|Yiran Qiao et.al.|[2603.23686](https://arxiv.org/abs/2603.23686)|null|
 |2026-03-24|I3DM: Implicit 3D-aware Memory Retrieval and Injection for Consistent Video Scene Generation|Jia Li et.al.|[2603.23413](https://arxiv.org/abs/2603.23413)|null|
@@ -208,7 +208,7 @@
 |2025-10-02|Non-Rigid Structure-from-Motion via Differential Geometry with Recoverable Conformal Scale|Yongbo Chen et.al.|[2510.01665](http://arxiv.org/abs/2510.01665)|null|
 |2025-10-08|VGGT-X: When VGGT Meets Dense Novel View Synthesis|Yang Liu et.al.|[2509.25191](http://arxiv.org/abs/2509.25191)|[link](https://github.com/Linketic/VGGT-X)|
 |2025-09-28|BOSfM: A View Planning Framework for Optimal 3D Reconstruction of Agricultural Scenes|Athanasios Bacharis et.al.|[2509.24126](http://arxiv.org/abs/2509.24126)|null|
-|2025-09-28|RPG360: Robust 360 Depth Estimation with Perspective Foundation Models and Graph Optimization|Dongki Jung et.al.|[2509.23991](http://arxiv.org/abs/2509.23991)|**[link](https://github.com/jdk9405/RPG360)**|
+|2025-09-28|RPG360: Robust 360 Depth Estimation with Perspective Foundation Models and Graph Optimization|Dongki Jung et.al.|[2509.23991](http://arxiv.org/abs/2509.23991)|[link](https://github.com/jdk9405/RPG360)|
 |2025-09-28|CrashSplat: 2D to 3D Vehicle Damage Segmentation in Gaussian Splatting|Dragoş-Andrei Chileban et.al.|[2509.23947](http://arxiv.org/abs/2509.23947)|[link](https://github.com/DragosChileban/CrashSplat)|
 |2025-09-24|Aerial-Ground Image Feature Matching via 3D Gaussian Splatting-based Intermediate View Rendering|Jiangxue Yu et.al.|[2509.19898](http://arxiv.org/abs/2509.19898)|null|
 |2025-09-23|DeblurSplat: SfM-free 3D Gaussian Splatting with Event Camera for Robust Deblurring|Pengteng Li et.al.|[2509.18898](http://arxiv.org/abs/2509.18898)|null|

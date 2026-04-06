@@ -1,19 +1,19 @@
 # Visual Localization
 
-> Updated on 2026.03.31
+> Updated on 2026.04.06
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-03-29**|**NeedleDB: A Generative-AI Based System for Accurate and Efficient Image Retrieval using Complex Natural Language Queries**|Mahdi Erfanian et.al.|[2603.27464](https://arxiv.org/abs/2603.27464)|null|
-|**2026-03-27**|**Beyond MACs: Hardware Efficient Architecture Design for Vision Backbones**|Moritz Nottebaum et.al.|[2603.26551](https://arxiv.org/abs/2603.26551)|null|
-|**2026-03-27**|**HINT: Composed Image Retrieval with Dual-path Compositional Contextualized Network**|Mingyu Zhang et.al.|[2603.26341](https://arxiv.org/abs/2603.26341)|null|
-|**2026-03-27**|**4DRaL: Bridging 4D Radar with LiDAR for Place Recognition using Knowledge Distillation**|Ningyuan Huang et.al.|[2603.26206](https://arxiv.org/abs/2603.26206)|null|
-|**2026-03-26**|**Few Shots Text to Image Retrieval: New Benchmarking Dataset and Optimization Methods**|Ofer Idan et.al.|[2603.25891](https://arxiv.org/abs/2603.25891)|null|
-|**2026-03-26**|**Just Zoom In: Cross-View Geo-Localization via Autoregressive Zooming**|Yunus Talha Erzurumlu et.al.|[2603.25686](https://arxiv.org/abs/2603.25686)|null|
-|**2026-03-26**|**On-Demand Instructional Material Providing Agent Based on MLLM for Tutoring Support**|Takumi Kato et.al.|[2603.25195](https://arxiv.org/abs/2603.25195)|null|
-|**2026-03-28**|**TIGeR: A Unified Framework for Time, Images and Geo-location Retrieval**|David G. Shatwell et.al.|[2603.24749](https://arxiv.org/abs/2603.24749)|null|
-|**2026-03-24**|**Sparse Autoencoders for Interpretable Medical Image Representation Learning**|Philipp Wesp et.al.|[2603.23794](https://arxiv.org/abs/2603.23794)|null|
-|**2026-03-24**|**ARGENT: Adaptive Hierarchical Image-Text Representations**|Chuong Huynh et.al.|[2603.23311](https://arxiv.org/abs/2603.23311)|null|
+|2026-03-29|NeedleDB: A Generative-AI Based System for Accurate and Efficient Image Retrieval using Complex Natural Language Queries|Mahdi Erfanian et.al.|[2603.27464](https://arxiv.org/abs/2603.27464)|null|
+|2026-03-27|Beyond MACs: Hardware Efficient Architecture Design for Vision Backbones|Moritz Nottebaum et.al.|[2603.26551](https://arxiv.org/abs/2603.26551)|null|
+|2026-03-27|HINT: Composed Image Retrieval with Dual-path Compositional Contextualized Network|Mingyu Zhang et.al.|[2603.26341](https://arxiv.org/abs/2603.26341)|null|
+|2026-03-27|4DRaL: Bridging 4D Radar with LiDAR for Place Recognition using Knowledge Distillation|Ningyuan Huang et.al.|[2603.26206](https://arxiv.org/abs/2603.26206)|null|
+|2026-03-26|Few Shots Text to Image Retrieval: New Benchmarking Dataset and Optimization Methods|Ofer Idan et.al.|[2603.25891](https://arxiv.org/abs/2603.25891)|null|
+|2026-03-26|Just Zoom In: Cross-View Geo-Localization via Autoregressive Zooming|Yunus Talha Erzurumlu et.al.|[2603.25686](https://arxiv.org/abs/2603.25686)|null|
+|2026-03-26|On-Demand Instructional Material Providing Agent Based on MLLM for Tutoring Support|Takumi Kato et.al.|[2603.25195](https://arxiv.org/abs/2603.25195)|null|
+|2026-03-28|TIGeR: A Unified Framework for Time, Images and Geo-location Retrieval|David G. Shatwell et.al.|[2603.24749](https://arxiv.org/abs/2603.24749)|null|
+|2026-03-24|Sparse Autoencoders for Interpretable Medical Image Representation Learning|Philipp Wesp et.al.|[2603.23794](https://arxiv.org/abs/2603.23794)|**[link](https://github.com/pwesp/sail)**|
+|2026-03-24|ARGENT: Adaptive Hierarchical Image-Text Representations|Chuong Huynh et.al.|[2603.23311](https://arxiv.org/abs/2603.23311)|**[link](https://github.com/Ufere/Assingment_1)**|
 |2026-03-24|Retrieval-Guided Photovoltaic Inventory Estimation from Satellite Imagery for Distribution Grid Planning|Muhao Guo et.al.|[2603.22856](https://arxiv.org/abs/2603.22856)|null|
 |2026-03-24|SOUPLE: Enhancing Audio-Visual Localization and Segmentation with Learnable Prompt Contexts|Khanh Binh Nguyen et.al.|[2603.22732](https://arxiv.org/abs/2603.22732)|null|
 |2026-03-24|HyFI: Hyperbolic Feature Interpolation for Brain-Vision Alignment|Sangmin Jo et.al.|[2603.22721](https://arxiv.org/abs/2603.22721)|null|
@@ -27,9 +27,9 @@
 |2026-03-17|Retrieving Counterfactuals Improves Visual In-Context Learning|Guangzhi Xiong et.al.|[2603.16737](https://arxiv.org/abs/2603.16737)|null|
 |2026-03-17|HMAR: Hierarchical Modality-Aware Expert and Dynamic Routing Medical Image Retrieval Architecture|Aojie Yuan et.al.|[2603.16679](https://arxiv.org/abs/2603.16679)|null|
 |2026-03-17|Rethinking Pose Refinement in 3D Gaussian Splatting under Pose Prior and Geometric Uncertainty|Mangyu Kong et.al.|[2603.16538](https://arxiv.org/abs/2603.16538)|null|
-|2026-03-18|VisBrowse-Bench: Benchmarking Visual-Native Search for Multimodal Browsing Agents|Zhengbo Zhang et.al.|[2603.16289](https://arxiv.org/abs/2603.16289)|null|
+|2026-03-18|VisBrowse-Bench: Benchmarking Visual-Native Search for Multimodal Browsing Agents|Zhengbo Zhang et.al.|[2603.16289](https://arxiv.org/abs/2603.16289)|**[link](https://github.com/ZhengboZhang/VisBrowse-Bench)**|
 |2026-03-14|Evaluation of Visual Place Recognition Methods for Image Pair Retrieval in 3D Vision and Robotics|Dennis Haitz et.al.|[2603.13917](https://arxiv.org/abs/2603.13917)|null|
-|2026-03-14|Sky2Ground: A Benchmark for Site Modeling under Varying Altitude|Zengyan Wang et.al.|[2603.13740](https://arxiv.org/abs/2603.13740)|null|
+|2026-03-14|Sky2Ground: A Benchmark for Site Modeling under Varying Altitude|Zengyan Wang et.al.|[2603.13740](https://arxiv.org/abs/2603.13740)|**[link](https://github.com/zhyw86/Sky2Ground)**|
 |2026-03-13|A Closed-Form Solution for Debiasing Vision-Language Models with Utility Guarantees Across Modalities and Tasks|Tangzheng Lian et.al.|[2603.12998](https://arxiv.org/abs/2603.12998)|null|
 |2026-03-13|Text-Phase Synergy Network with Dual Priors for Unsupervised Cross-Domain Image Retrieval|Jing Yang et.al.|[2603.12711](https://arxiv.org/abs/2603.12711)|null|
 |2026-03-13|CM-Bench: A Comprehensive Cross-Modal Feature Matching Benchmark Bridging Visible and Infrared Images|Liangzheng Sun et.al.|[2603.12690](https://arxiv.org/abs/2603.12690)|null|
@@ -283,9 +283,9 @@
 |2025-07-07|Simultaneous Localization and Mapping Using Active mmWave Sensing in 5G NR|Tao Du et.al.|[2507.04662](http://arxiv.org/abs/2507.04662)|null|
 |2025-07-06|U-ViLAR: Uncertainty-Aware Visual Localization for Autonomous Driving via Differentiable Association and Registration|Xiaofan Li et.al.|[2507.04503](http://arxiv.org/abs/2507.04503)|null|
 |2025-07-04|Query-Based Adaptive Aggregation for Multi-Dataset Joint Training Toward Universal Visual Place Recognition|Jiuhong Xiao et.al.|[2507.03831](http://arxiv.org/abs/2507.03831)|null|
-|2025-07-01|LoD-Loc v2: Aerial Visual Localization over Low Level-of-Detail City Models using Explicit Silhouette Alignment|Juelin Zhu et.al.|[2507.00659](http://arxiv.org/abs/2507.00659)|null|
+|2025-07-01|LoD-Loc v2: Aerial Visual Localization over Low Level-of-Detail City Models using Explicit Silhouette Alignment|Juelin Zhu et.al.|[2507.00659](http://arxiv.org/abs/2507.00659)|**[link](https://github.com/VictorZoo/LoD-Loc-v2)**|
 |2025-06-28|Utilizing a Novel Deep Learning Method for Scene Categorization in Remote Sensing Data|Ghufran A. Omran et.al.|[2506.22939](http://arxiv.org/abs/2506.22939)|null|
-|2025-06-28|Mask-aware Text-to-Image Retrieval: Referring Expression Segmentation Meets Cross-modal Retrieval|Li-Cheng Shen et.al.|[2506.22864](http://arxiv.org/abs/2506.22864)|null|
+|2025-06-28|Mask-aware Text-to-Image Retrieval: Referring Expression Segmentation Meets Cross-modal Retrieval|Li-Cheng Shen et.al.|[2506.22864](http://arxiv.org/abs/2506.22864)|**[link](https://github.com/AI-Application-and-Integration-Lab/MaTIR)**|
 |2025-06-27|MatChA: Cross-Algorithm Matching with Feature Augmentation|Paula Carbó Cubero et.al.|[2506.22336](http://arxiv.org/abs/2506.22336)|null|
 |2025-06-26|OracleFusion: Assisting the Decipherment of Oracle Bone Script with Structurally Constrained Semantic Typography|Caoshuo Li et.al.|[2506.21101](http://arxiv.org/abs/2506.21101)|null|
 |2025-06-25|Visualizing intercalation effects in 2D materials using AFM based techniques|Karmen Kapustić et.al.|[2506.20467](http://arxiv.org/abs/2506.20467)|null|

@@ -7,7 +7,7 @@ title: Image Matching
   <div>
     <p class="eyebrow">Topic</p>
     <h1>Image Matching</h1>
-    <p class="topic-lede">Updated 2026.03.31 · 155 papers</p>
+    <p class="topic-lede">Updated 2026.04.06 · 155 papers</p>
   </div>
   <a class="btn ghost" href="../index.html#topics">← Back to topics</a>
 </section>
@@ -3217,7 +3217,7 @@ title: Image Matching
         <div class="paper-links">
           <a class="chip" href="https://arxiv.org/abs/2502.19955">arXiv</a>
           <a class="chip" href="https://arxiv.org/pdf/2502.19955.pdf">PDF</a>
-          <span class="chip ghost">Code: N/A</span>
+          <a class="chip" href="https://github.com/thibautloiseau/RUBIK">Code</a>
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2502.19955.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>

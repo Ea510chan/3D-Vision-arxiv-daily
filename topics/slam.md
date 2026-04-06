@@ -1,19 +1,19 @@
 # SLAM
 
-> Updated on 2026.03.31
+> Updated on 2026.04.06
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-03-23**|**Image-Conditioned Adaptive Parameter Tuning for Visual Odometry Frontends**|Simone Nascivera et.al.|[2603.21785](https://arxiv.org/abs/2603.21785)|null|
-|**2026-03-19**|**Benchmarking Visual Feature Representations for LiDAR-Inertial-Visual Odometry Under Challenging Conditions**|Eunseon Choi et.al.|[2603.18589](https://arxiv.org/abs/2603.18589)|null|
-|**2026-03-18**|**Full Stack Navigation, Mapping, and Planning for the Lunar Autonomy Challenge**|Adam Dai et.al.|[2603.17232](https://arxiv.org/abs/2603.17232)|null|
-|**2026-03-17**|**Industrial cuVSLAM Benchmark & Integration**|Charbel Abi Hana et.al.|[2603.16240](https://arxiv.org/abs/2603.16240)|null|
-|**2026-03-09**|**Edged USLAM: Edge-Aware Event-Based SLAM with Learning-Based Depth Priors**|Şebnem Sarıözkan et.al.|[2603.08150](https://arxiv.org/abs/2603.08150)|null|
-|**2026-02-27**|**Motion-aware Event Suppression for Event Cameras**|Roberto Pellerito et.al.|[2602.23204](https://arxiv.org/abs/2602.23204)|null|
-|**2026-02-26**|**FLIGHT: Fibonacci Lattice-based Inference for Geometric Heading in real-Time**|David Dirnfeld et.al.|[2602.23115](https://arxiv.org/abs/2602.23115)|null|
-|**2026-02-22**|**OpenVO: Open-World Visual Odometry with Temporal Dynamics Awareness**|Phuc D. A. Nguyen et.al.|[2602.19035](https://arxiv.org/abs/2602.19035)|**[link](https://github.com/Ufere/Assingment_1)**|
-|**2026-02-14**|**UAV-SEAD: State Estimation Anomaly Dataset for UAVs**|Aykut Kabaoglu et.al.|[2602.13900](https://arxiv.org/abs/2602.13900)|null|
-|**2026-02-12**|**GSO-SLAM: Bidirectionally Coupled Gaussian Splatting and Direct Visual Odometry**|Jiung Yeon et.al.|[2602.11714](https://arxiv.org/abs/2602.11714)|null|
+|2026-03-23|Image-Conditioned Adaptive Parameter Tuning for Visual Odometry Frontends|Simone Nascivera et.al.|[2603.21785](https://arxiv.org/abs/2603.21785)|null|
+|2026-03-19|Benchmarking Visual Feature Representations for LiDAR-Inertial-Visual Odometry Under Challenging Conditions|Eunseon Choi et.al.|[2603.18589](https://arxiv.org/abs/2603.18589)|null|
+|2026-03-18|Full Stack Navigation, Mapping, and Planning for the Lunar Autonomy Challenge|Adam Dai et.al.|[2603.17232](https://arxiv.org/abs/2603.17232)|null|
+|2026-03-17|Industrial cuVSLAM Benchmark & Integration|Charbel Abi Hana et.al.|[2603.16240](https://arxiv.org/abs/2603.16240)|null|
+|2026-03-09|Edged USLAM: Edge-Aware Event-Based SLAM with Learning-Based Depth Priors|Şebnem Sarıözkan et.al.|[2603.08150](https://arxiv.org/abs/2603.08150)|null|
+|2026-02-27|Motion-aware Event Suppression for Event Cameras|Roberto Pellerito et.al.|[2602.23204](https://arxiv.org/abs/2602.23204)|null|
+|2026-02-26|FLIGHT: Fibonacci Lattice-based Inference for Geometric Heading in real-Time|David Dirnfeld et.al.|[2602.23115](https://arxiv.org/abs/2602.23115)|null|
+|2026-02-22|OpenVO: Open-World Visual Odometry with Temporal Dynamics Awareness|Phuc D. A. Nguyen et.al.|[2602.19035](https://arxiv.org/abs/2602.19035)|[link](https://github.com/Ufere/Assingment_1)|
+|2026-02-14|UAV-SEAD: State Estimation Anomaly Dataset for UAVs|Aykut Kabaoglu et.al.|[2602.13900](https://arxiv.org/abs/2602.13900)|null|
+|2026-02-12|GSO-SLAM: Bidirectionally Coupled Gaussian Splatting and Direct Visual Odometry|Jiung Yeon et.al.|[2602.11714](https://arxiv.org/abs/2602.11714)|null|
 |2026-01-28|When Simultaneous Localization and Mapping Meets Wireless Communications: A Survey|Konstantinos Gounis et.al.|[2602.06995](https://arxiv.org/abs/2602.06995)|null|
 |2025-12-30|Learning to Anchor Visual Odometry: KAN-Based Pose Regression for Planetary Landing|Xubo Luo et.al.|[2602.06968](https://arxiv.org/abs/2602.06968)|null|
 |2026-02-05|Feature points evaluation on omnidirectional vision with a photorealistic fisheye sequence -- A report on experiments done in 2014|Julien Moreau et.al.|[2602.05487](https://arxiv.org/abs/2602.05487)|null|
@@ -38,14 +38,14 @@
 |2025-11-12|SMF-VO: Direct Ego-Motion Estimation via Sparse Motion Fields|Sangheon Yang et.al.|[2511.09072](http://arxiv.org/abs/2511.09072)|null|
 |2025-11-10|Integration of Visual SLAM into Consumer-Grade Automotive Localization|Luis Diener et.al.|[2511.06919](http://arxiv.org/abs/2511.06919)|null|
 |2025-11-10|Robust and High-Fidelity 3D Gaussian Splatting: Fusing Pose Priors and Geometry Constraints for Texture-Deficient Outdoor Scenes|Meijun Guo et.al.|[2511.06765](http://arxiv.org/abs/2511.06765)|null|
-|2025-11-03|LiDAR-VGGT: Cross-Modal Coarse-to-Fine Fusion for Globally Consistent and Metric-Scale Dense Mapping|Lijie Wang et.al.|[2511.01186](http://arxiv.org/abs/2511.01186)|null|
+|2025-11-03|LiDAR-VGGT: Cross-Modal Coarse-to-Fine Fusion for Globally Consistent and Metric-Scale Dense Mapping|Lijie Wang et.al.|[2511.01186](http://arxiv.org/abs/2511.01186)|**[link](https://github.com/NorwegianSmokedSalmon/LiDAR-VGGT)**|
 |2025-10-30|AgriGS-SLAM: Orchard Mapping Across Seasons via Multi-View Gaussian Splatting SLAM|Mirko Usuelli et.al.|[2510.26358](http://arxiv.org/abs/2510.26358)|null|
 |2025-10-29|EA3D: Online Open-World 3D Object Extraction from Streaming Videos|Xiaoyu Zhou et.al.|[2510.25146](http://arxiv.org/abs/2510.25146)|null|
 |2025-10-23|Degradation-Aware Cooperative Multi-Modal GNSS-Denied Localization Leveraging LiDAR-Based Robot Detections|Václav Pritzl et.al.|[2510.20480](http://arxiv.org/abs/2510.20480)|null|
-|2025-10-21|DeepDetect: Learning All-in-One Dense Keypoints|Shaharyar Ahmed Khan Tareen et.al.|[2510.17422](http://arxiv.org/abs/2510.17422)|null|
+|2025-10-21|DeepDetect: Learning All-in-One Dense Keypoints|Shaharyar Ahmed Khan Tareen et.al.|[2510.17422](http://arxiv.org/abs/2510.17422)|**[link](https://github.com/saktx/DeepDetect)**|
 |2025-10-14|SPORTS: Simultaneous Panoptic Odometry, Rendering, Tracking and Segmentation for Urban Scenes Understanding|Zhiliu Yang et.al.|[2510.12749](http://arxiv.org/abs/2510.12749)|null|
-|2025-10-14|PolygMap: A Perceptive Locomotion Framework for Humanoid Robot Stair Climbing|Bingquan Li et.al.|[2510.12346](http://arxiv.org/abs/2510.12346)|null|
-|2025-10-02|Visual Odometry with Transformers|Vlardimir Yugay et.al.|[2510.03348](http://arxiv.org/abs/2510.03348)|null|
+|2025-10-14|PolygMap: A Perceptive Locomotion Framework for Humanoid Robot Stair Climbing|Bingquan Li et.al.|[2510.12346](http://arxiv.org/abs/2510.12346)|**[link](https://github.com/wine3603/Polygmap)**|
+|2025-10-02|Visual Odometry with Transformers|Vlardimir Yugay et.al.|[2510.03348](http://arxiv.org/abs/2510.03348)|**[link](https://github.com/VladimirYugay/FVO)**|
 |2025-09-19|Omni-LIVO: Robust RGB-Colored Multi-Camera Visual-Inertial-LiDAR Odometry via Photometric Migration and ESIKF Fusion|Yinong Cao et.al.|[2509.15673](http://arxiv.org/abs/2509.15673)|null|
 |2025-09-18|BEV-ODOM2: Enhanced BEV-based Monocular Visual Odometry with PV-BEV Fusion and Dense Flow Supervision for Ground Robots|Yufei Wei et.al.|[2509.14636](http://arxiv.org/abs/2509.14636)|null|
 |2025-09-17|UM-Depth : Uncertainty Masked Self-Supervised Monocular Depth Estimation with Visual Odometry|Tae-Wook Um et.al.|[2509.13713](http://arxiv.org/abs/2509.13713)|null|

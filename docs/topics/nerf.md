@@ -7,7 +7,7 @@ title: NeRF
   <div>
     <p class="eyebrow">Topic</p>
     <h1>NeRF</h1>
-    <p class="topic-lede">Updated 2026.03.31 · 328 papers</p>
+    <p class="topic-lede">Updated 2026.04.06 · 328 papers</p>
   </div>
   <a class="btn ghost" href="../index.html#topics">← Back to topics</a>
 </section>
@@ -1915,7 +1915,7 @@ title: NeRF
         <div class="paper-links">
           <a class="chip" href="https://arxiv.org/abs/2512.02172">arXiv</a>
           <a class="chip" href="https://arxiv.org/pdf/2512.02172.pdf">PDF</a>
-          <span class="chip ghost">Code: N/A</span>
+          <a class="chip" href="https://github.com/pranav-asthana/SplatSuRe">Code</a>
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.02172.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
@@ -1936,7 +1936,7 @@ title: NeRF
         <div class="paper-links">
           <a class="chip" href="https://arxiv.org/abs/2512.01296">arXiv</a>
           <a class="chip" href="https://arxiv.org/pdf/2512.01296.pdf">PDF</a>
-          <span class="chip ghost">Code: N/A</span>
+          <a class="chip" href="https://github.com/panxkun/eggfusion">Code</a>
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.01296.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
@@ -6619,7 +6619,7 @@ title: NeRF
         <div class="paper-links">
           <a class="chip" href="https://arxiv.org/abs/2503.13347">arXiv</a>
           <a class="chip" href="https://arxiv.org/pdf/2503.13347.pdf">PDF</a>
-          <span class="chip ghost">Code: N/A</span>
+          <a class="chip" href="https://github.com/kanehub/TriDF">Code</a>
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.13347.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
@@ -6640,7 +6640,7 @@ title: NeRF
         <div class="paper-links">
           <a class="chip" href="https://arxiv.org/abs/2503.13176">arXiv</a>
           <a class="chip" href="https://arxiv.org/pdf/2503.13176.pdf">PDF</a>
-          <span class="chip ghost">Code: N/A</span>
+          <a class="chip" href="https://github.com/BatFaceWayne/DeGauss">Code</a>
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.13176.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
