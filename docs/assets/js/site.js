@@ -39,9 +39,11 @@
 
     detail.innerHTML =
       `<div class="detail-bar">` +
-        `<span class="detail-bar-title">${escape(p.title)}</span>` +
+        `<div class="detail-bar-top">` +
+          `<span class="detail-bar-title">${escape(p.title)}</span>` +
+          `<div class="detail-bar-links">${links}</div>` +
+        `</div>` +
         comment +
-        `<div class="detail-bar-links">${links}</div>` +
       `</div>` +
       viewer;
   };
