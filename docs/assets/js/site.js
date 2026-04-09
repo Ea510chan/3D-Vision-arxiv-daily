@@ -4,18 +4,13 @@
     if (!pdfUrl) return;
 
     const placeholder = preview.querySelector(".preview-placeholder");
-    if (placeholder) placeholder.textContent = "Loading preview…";
+    if (placeholder) placeholder.style.display = "none";
 
     const iframe = document.createElement("iframe");
     iframe.className = "preview-frame";
     iframe.loading = "lazy";
     iframe.title = "Paper PDF preview";
     iframe.src = pdfUrl;
-
-    iframe.addEventListener("load", () => {
-      iframe.classList.add("is-ready");
-      if (placeholder) placeholder.style.display = "none";
-    });
 
     preview.appendChild(iframe);
   };
