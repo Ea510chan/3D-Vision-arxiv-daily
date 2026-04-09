@@ -3,7 +3,7 @@ layout: default
 title: Point Cloud Registration
 ---
 
-<section class="topic-hero" style="--accent: #28d8ff;">
+<section class="topic-hero" style="--accent: #2563eb;">
   <div>
     <p class="eyebrow">Topic</p>
     <h1>Point Cloud Registration</h1>
@@ -92,7 +92,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.26262.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -113,7 +112,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.20778.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -134,7 +132,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.25442.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -155,7 +152,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.14290.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -176,7 +172,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.12721.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -197,7 +192,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.12719.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -218,7 +212,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.10565.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -239,7 +232,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.05111.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -260,7 +252,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.09407.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -281,7 +272,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.10492.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -302,7 +292,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.03908.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -323,7 +312,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.22712.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -344,7 +332,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.09601.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -365,7 +352,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.11354.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -386,7 +372,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.02759.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -407,7 +392,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.24428.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -428,7 +412,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.23472.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -449,7 +432,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.09373.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -470,7 +452,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.04996.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -491,7 +472,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.04966.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -512,7 +492,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.02341.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -533,7 +512,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.23227.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -554,7 +532,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.01850.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -575,7 +552,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.00927.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -596,7 +572,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.22908.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -617,7 +592,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.22267.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -638,7 +612,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.21575.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -659,7 +632,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.21422.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -680,7 +652,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.20292.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -701,7 +672,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.20041.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -722,7 +692,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.19741.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -743,7 +712,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.19075.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -764,7 +732,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.18680.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -785,7 +752,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.18553.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -806,7 +772,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.17883.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -827,7 +792,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.17392.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -848,7 +812,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.17262.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -869,7 +832,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.16868.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -890,7 +852,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.15795.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -911,7 +872,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.16807.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -932,7 +892,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.16349.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -953,7 +912,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.15600.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -974,7 +932,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.15308.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -995,7 +952,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.14919.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1016,7 +972,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.14343.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1037,7 +992,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.14315.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1058,7 +1012,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.14286.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1079,7 +1032,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.13609.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1100,7 +1052,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.13431.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1121,7 +1072,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.12829.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1142,7 +1092,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.11735.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1163,7 +1112,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.09866.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1184,7 +1132,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.09443.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1205,7 +1152,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.00635.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1226,7 +1172,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.00260.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1247,7 +1192,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.23416.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1268,7 +1212,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.22313.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1289,7 +1232,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.16865.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1310,7 +1252,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.06578.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1331,7 +1272,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.24370.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1352,7 +1292,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.24275.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1373,7 +1312,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.24273.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1394,7 +1332,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.23888.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1415,7 +1352,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.22058.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1436,7 +1372,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.20705.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1457,7 +1392,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.18786.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1478,7 +1412,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.15882.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1499,7 +1432,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.15648.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1520,7 +1452,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.12924.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1541,7 +1472,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.12595.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1562,7 +1492,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.08982.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1583,7 +1512,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.08799.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1604,7 +1532,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.06593.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1625,7 +1552,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.06456.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1646,7 +1572,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.06285.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1667,7 +1592,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.01873.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1688,7 +1612,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2508.20789.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1709,7 +1632,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2508.17427.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1730,7 +1652,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2508.16459.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1751,7 +1672,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2508.16138.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1772,7 +1692,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2508.15613.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1793,7 +1712,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2508.04286.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1814,7 +1732,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.11938.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1835,7 +1752,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.06651.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1856,7 +1772,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.04662.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1877,7 +1792,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.04321.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1898,7 +1812,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.01439.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1919,7 +1832,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.21364.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1940,7 +1852,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.18922.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1961,7 +1872,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.15279.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1982,7 +1892,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.13183.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2003,7 +1912,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.11530.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2024,7 +1932,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.09784.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2045,7 +1952,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.05282.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2066,7 +1972,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.02419.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2087,7 +1992,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.24348.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2108,7 +2012,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.18340.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2129,7 +2032,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.16726.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2150,7 +2052,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.13088.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2171,7 +2072,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.11868.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2192,7 +2092,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.09103.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2213,7 +2112,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.21619.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2234,7 +2132,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.04962.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2255,7 +2152,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.04485.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2276,7 +2172,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.04540.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2297,7 +2192,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.03692.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2318,7 +2212,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.02049.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2339,7 +2232,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.21467.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2360,7 +2252,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.15152.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2381,7 +2272,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.08154.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2402,7 +2292,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.04445.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2423,7 +2312,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.07231.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2444,7 +2332,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.06627.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2465,7 +2352,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.06464.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2486,7 +2372,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.24121.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2507,7 +2392,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.01641.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2528,7 +2412,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.17097.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2549,7 +2432,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.17093.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2570,7 +2452,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.14573.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2591,7 +2472,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.12833.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2612,7 +2492,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.10149.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2633,7 +2512,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.07940.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2654,7 +2532,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.07743.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2675,7 +2552,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.07019.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2696,7 +2572,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.04127.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2717,7 +2592,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.02195.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2738,7 +2612,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.00972.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2759,7 +2632,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2502.19242.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2780,7 +2652,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2502.10704.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2801,7 +2672,6 @@ title: Point Cloud Registration
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2502.08285.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>

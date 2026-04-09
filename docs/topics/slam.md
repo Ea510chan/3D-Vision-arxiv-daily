@@ -3,7 +3,7 @@ layout: default
 title: SLAM
 ---
 
-<section class="topic-hero" style="--accent: #ffb347;">
+<section class="topic-hero" style="--accent: #d97706;">
   <div>
     <p class="eyebrow">Topic</p>
     <h1>SLAM</h1>
@@ -113,7 +113,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.21785.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -134,7 +133,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.18589.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -155,7 +153,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.17232.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -176,7 +173,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.16240.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -197,7 +193,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.08150.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -218,7 +213,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.23204.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -239,7 +233,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.23115.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -260,7 +253,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.19035.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -281,7 +273,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.13900.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -302,7 +293,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.11714.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -323,7 +313,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.05487.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -344,7 +333,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.06995.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -365,7 +353,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.16020.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -386,7 +373,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.02309.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -407,7 +393,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.06968.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -428,7 +413,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.19110.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -449,7 +433,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.14189.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -470,7 +453,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.10128.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -491,7 +473,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.01889.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -512,7 +493,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.00327.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -533,7 +513,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.22860.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -554,7 +533,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.21083.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -575,7 +553,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.00080.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -596,7 +573,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.20865.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -617,7 +593,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.20496.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -638,7 +613,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.20343.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -659,7 +633,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.18857.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -680,7 +653,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.17384.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -701,7 +673,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.14919.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -722,7 +693,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.12653.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -743,7 +713,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.10699.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -764,7 +733,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.09072.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -785,7 +753,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.06919.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -806,7 +773,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.06765.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -827,7 +793,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.01186.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -848,7 +813,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.26358.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -869,7 +833,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.25146.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -890,7 +853,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.20480.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -911,7 +873,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.17422.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -932,7 +893,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.12749.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -953,7 +913,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.12346.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -974,7 +933,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.03348.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -995,7 +953,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.15673.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1016,7 +973,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.14636.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1037,7 +993,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.13713.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1058,7 +1013,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.13649.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1079,7 +1033,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.08333.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1100,7 +1053,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.08235.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1121,7 +1073,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.07362.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1142,7 +1093,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.04016.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1163,7 +1113,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2508.00568.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1184,7 +1133,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.18886.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1205,7 +1153,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.15716.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1226,7 +1173,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.15496.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1247,7 +1193,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.13145.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1268,7 +1213,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.12920.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1289,7 +1233,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.12273.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1310,7 +1253,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.12093.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1331,7 +1273,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.08364.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1352,7 +1293,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.07903.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1373,7 +1313,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.07752.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1394,7 +1333,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.07142.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1415,7 +1353,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.04004.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1436,7 +1373,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.06397.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1457,7 +1393,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.05718.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1478,7 +1413,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.04662.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1499,7 +1433,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.04321.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1520,7 +1453,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.03737.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1541,7 +1473,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.00937.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1562,7 +1493,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.00552.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1583,7 +1513,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.00243.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1604,7 +1533,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.23207.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1625,7 +1553,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.23078.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1646,7 +1573,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.21798.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1667,7 +1593,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.21420.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1688,7 +1613,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.21077.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1709,7 +1633,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.20394.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1730,7 +1653,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.20311.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1751,7 +1673,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.21628.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1772,7 +1693,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.19957.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1793,7 +1713,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.18204.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1814,7 +1733,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.15242.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1835,7 +1753,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.18885.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1856,7 +1773,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.18678.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1877,7 +1793,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.18016.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1898,7 +1813,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.17775.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1919,7 +1833,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.15402.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1940,7 +1853,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.15175.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1961,7 +1873,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.15126.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1982,7 +1893,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.13664.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2003,7 +1913,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.13149.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2024,7 +1933,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.13100.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2045,7 +1953,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.13089.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2066,7 +1973,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.10567.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2087,7 +1993,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.09583.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2108,7 +2013,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.09278.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2129,7 +2033,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.09035.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2150,7 +2053,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.08384.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2171,7 +2073,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.08005.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2192,7 +2093,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.07164.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2213,7 +2113,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.07013.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2234,7 +2133,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.06517.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2255,7 +2153,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.06476.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2276,7 +2173,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.05965.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2297,7 +2193,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.05866.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2318,7 +2213,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.05558.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2339,7 +2233,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.04619.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2360,7 +2253,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.04359.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2381,7 +2273,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.04224.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2402,7 +2293,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.03073.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2423,7 +2313,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.02932.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2444,7 +2333,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.02741.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2465,7 +2353,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.02736.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2486,7 +2373,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.02373.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2507,7 +2393,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.00970.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2528,7 +2413,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.24654.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2549,7 +2433,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.22880.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2570,7 +2453,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.22859.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2591,7 +2473,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.22335.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2612,7 +2493,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.20906.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2633,7 +2513,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.20858.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2654,7 +2533,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.19420.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2675,7 +2553,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.18992.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2696,7 +2573,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.17576.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2717,7 +2593,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.12549.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2738,7 +2613,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.16447.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2759,7 +2633,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.14068.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2780,7 +2653,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.14128.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2801,7 +2673,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.13309.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2822,7 +2693,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.12384.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2843,7 +2713,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.12337.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2864,7 +2733,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.11709.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2885,7 +2753,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.11620.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2906,7 +2773,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.10847.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2927,7 +2793,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.10696.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2948,7 +2813,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.10310.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2969,7 +2833,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.09915.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2990,7 +2853,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.09024.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3011,7 +2873,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.08388.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3032,7 +2893,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.08230.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3053,7 +2913,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.08013.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3074,7 +2933,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.07198.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3095,7 +2953,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.04095.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3116,7 +2973,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.03565.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3137,7 +2993,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.03448.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3158,7 +3013,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.03422.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3179,7 +3033,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.02598.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3200,7 +3053,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.02272.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3221,7 +3073,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.01956.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3242,7 +3093,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.01934.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3263,7 +3113,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.01017.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3284,7 +3133,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.21826.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3305,7 +3153,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.21562.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3326,7 +3173,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.20496.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3347,7 +3193,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.19654.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3368,7 +3213,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.19653.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3389,7 +3233,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.19409.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3410,7 +3253,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.19345.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3431,7 +3273,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.19195.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3452,7 +3293,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.19104.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3473,7 +3313,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.18713.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3494,7 +3333,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.18056.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3515,7 +3353,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.17880.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3536,7 +3373,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.17693.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3557,7 +3393,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.17582.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3578,7 +3413,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.17410.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3599,7 +3433,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.17280.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3620,7 +3453,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.16545.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3641,7 +3473,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.15305.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3662,7 +3493,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.15863.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3683,7 +3513,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.14516.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3704,7 +3533,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.14440.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3725,7 +3553,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.14135.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3746,7 +3573,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.11634.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3767,7 +3593,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.11698.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3788,7 +3613,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.10416.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3809,7 +3633,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.09778.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3830,7 +3653,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.08603.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3851,7 +3673,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.08280.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3872,7 +3693,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.08204.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3893,7 +3713,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.07658.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3914,7 +3733,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.07503.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3935,7 +3753,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.04844.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3956,7 +3773,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.04497.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3977,7 +3793,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.04457.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3998,7 +3813,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.04239.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4019,7 +3833,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.03886.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4040,7 +3853,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.03089.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4061,7 +3873,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.02477.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4082,7 +3893,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.02437.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4103,7 +3913,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.02086.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4124,7 +3933,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.01940.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4145,7 +3953,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.01451.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4166,7 +3973,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.01261.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4187,7 +3993,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.01997.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4208,7 +4013,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.00139.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4229,7 +4033,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.23429.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4250,7 +4053,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.23282.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4271,7 +4073,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.21778.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4292,7 +4093,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.21425.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4313,7 +4113,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.19543.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4334,7 +4133,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.19529.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4355,7 +4153,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.19506.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4376,7 +4173,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.19135.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4397,7 +4193,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.18275.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4418,7 +4213,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.17814.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4439,7 +4233,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.17005.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4460,7 +4253,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.16710.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4481,7 +4273,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.16307.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4502,7 +4293,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.16275.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4523,7 +4313,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.15286.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4544,7 +4333,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.14948.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4565,7 +4353,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.14346.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4586,7 +4373,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.14247.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4607,7 +4393,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.13982.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4628,7 +4413,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.13252.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4649,7 +4433,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.12768.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4670,7 +4453,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.12660.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4691,7 +4473,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.12572.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4712,7 +4493,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.12387.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4733,7 +4513,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.10331.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4754,7 +4533,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.09447.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4775,7 +4553,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.09296.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4796,7 +4573,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.08673.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4817,7 +4593,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.08071.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4838,7 +4613,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.07819.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4859,7 +4633,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.06890.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4880,7 +4653,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.07662.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4901,7 +4673,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.06010.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4922,7 +4693,6 @@ title: SLAM
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.05112.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>

@@ -296,16 +296,20 @@ TOPIC_EMOJI = {
     "Visual Localization": "🗺️",
     "NeRF": "🌫️",
     "Gaussian Splatting": "✨",
+    "World Model": "🌍",
+    "Flow Matching": "🌊",
 }
 
 TOPIC_ACCENTS = {
-    "Point Cloud Registration": "#28d8ff",
-    "Image Matching": "#39ff88",
-    "SLAM": "#ffb347",
-    "3D Reconstruction": "#ffd166",
-    "Visual Localization": "#9bfffc",
-    "NeRF": "#00ffa3",
-    "Gaussian Splatting": "#ff6ad5",
+    "Point Cloud Registration": "#2563eb",
+    "Image Matching": "#059669",
+    "SLAM": "#d97706",
+    "3D Reconstruction": "#7c3aed",
+    "Visual Localization": "#0891b2",
+    "NeRF": "#16a34a",
+    "Gaussian Splatting": "#db2777",
+    "World Model": "#9333ea",
+    "Flow Matching": "#e11d48",
 }
 
 ICON_SVG = (
@@ -478,7 +482,6 @@ def write_topic_page(topic: str, papers: dict, md_path: str, to_web: bool):
                 if pdf_link:
                     f.write(f"        <div class=\"paper-preview\" data-pdf=\"{pdf_link}\">\n")
                     f.write("          <div class=\"preview-placeholder\">Preview loads on expand</div>\n")
-                    f.write("          <canvas class=\"preview-canvas\" aria-hidden=\"true\"></canvas>\n")
                     f.write("        </div>\n")
                 f.write("      </div>\n")
                 f.write("    </details>\n")

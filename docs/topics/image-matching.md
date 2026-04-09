@@ -3,7 +3,7 @@ layout: default
 title: Image Matching
 ---
 
-<section class="topic-hero" style="--accent: #39ff88;">
+<section class="topic-hero" style="--accent: #059669;">
   <div>
     <p class="eyebrow">Topic</p>
     <h1>Image Matching</h1>
@@ -92,7 +92,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.08063.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -113,7 +112,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.21463.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -134,7 +132,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.20428.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -155,7 +152,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.18401.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -176,7 +172,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.12690.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -197,7 +192,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.08430.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -218,7 +212,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.08055.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -239,7 +232,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.05807.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -260,7 +252,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.23559.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -281,7 +272,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.21402.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -302,7 +292,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.19719.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -323,7 +312,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.12515.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -344,7 +332,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.05480.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -365,7 +352,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.04401.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -386,7 +372,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.12090.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -407,7 +392,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.07016.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -428,7 +412,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.13126.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -449,7 +432,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.12530.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -470,7 +452,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.11930.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -491,7 +472,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.09230.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -512,7 +492,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.08798.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -533,7 +512,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.08182.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -554,7 +532,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.05695.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -575,7 +552,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.01869.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -596,7 +572,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.24687.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -617,7 +592,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.17750.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -638,7 +612,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.21194.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -659,7 +632,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.18451.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -680,7 +652,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.15949.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -701,7 +672,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.10284.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -722,7 +692,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.10379.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -743,7 +712,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.05116.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -764,7 +732,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.05114.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -785,7 +752,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.05081.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -806,7 +772,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.05078.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -827,7 +792,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.05016.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -848,7 +812,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.04966.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -869,7 +832,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.04821.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -890,7 +852,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.04804.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -911,7 +872,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.04677.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -932,7 +892,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.04662.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -953,7 +912,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.03715.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -974,7 +932,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.21647.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -995,7 +952,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.21592.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1016,7 +972,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.21452.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1037,7 +992,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.21335.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1058,7 +1012,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.21265.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1079,7 +1032,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.21215.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1100,7 +1052,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.21203.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1121,7 +1072,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.21121.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1142,7 +1092,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.21097.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1163,7 +1112,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.21028.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1184,7 +1132,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.19434.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1205,7 +1152,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.19379.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1226,7 +1172,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.19365.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1247,7 +1192,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.19268.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1268,7 +1212,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.19071.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1289,7 +1232,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.19040.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1310,7 +1252,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.18942.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1331,7 +1272,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.18834.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1352,7 +1292,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.18831.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1373,7 +1312,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.18765.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1394,7 +1332,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.17309.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1415,7 +1352,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.15706.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1436,7 +1372,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.15316.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1457,7 +1392,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.15209.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1478,7 +1412,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.15066.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1499,7 +1432,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.15029.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1520,7 +1452,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.14963.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1541,7 +1472,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.14419.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1562,7 +1492,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.14411.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1583,7 +1512,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.14315.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1604,7 +1532,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.14286.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1625,7 +1552,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.13168.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1646,7 +1572,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.11435.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1667,7 +1592,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.05949.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1688,7 +1612,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.03416.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1709,7 +1632,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.02489.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1730,7 +1652,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.22900.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1751,7 +1672,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.22827.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1772,7 +1692,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.05051.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1793,7 +1712,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.06829.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1814,7 +1732,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.06827.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1835,7 +1752,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.06820.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1856,7 +1772,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.09792.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1877,7 +1792,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.17431.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1898,7 +1812,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.08805.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1919,7 +1832,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.16519.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1940,7 +1852,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.16017.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1961,7 +1872,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.14966.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1982,7 +1892,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.11255.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2003,7 +1912,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.09594.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2024,7 +1932,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2508.19742.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2045,7 +1952,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.06566.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2066,7 +1972,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.04273.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2087,7 +1992,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2508.10716.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2108,7 +2012,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2508.10294.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2129,7 +2032,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2508.09486.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2150,7 +2052,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2508.08521.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2171,7 +2072,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2508.07812.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2192,7 +2092,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2508.05187.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2213,7 +2112,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.06744.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2234,7 +2132,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.22139.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2255,7 +2152,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.03868.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2276,7 +2172,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.01667.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2297,7 +2192,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.23707.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2318,7 +2212,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.23077.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2339,7 +2232,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.22336.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2360,7 +2252,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.21923.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2381,7 +2272,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.20191.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2402,7 +2292,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.24305.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2423,7 +2312,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.15180.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2444,7 +2332,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.13133.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2465,7 +2352,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.10344.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2486,7 +2372,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.09748.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2507,7 +2392,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.09369.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2528,7 +2412,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.04917.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2549,7 +2432,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.04619.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2570,7 +2452,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.22458.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2591,7 +2472,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.17973.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2612,7 +2492,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.06302.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2633,7 +2512,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.11264.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2654,7 +2532,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.19458.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2675,7 +2552,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.07375.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2696,7 +2572,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.03422.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2717,7 +2592,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.03836.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2738,7 +2612,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.02161.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2759,7 +2632,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.19398.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2780,7 +2652,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.16346.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2801,7 +2672,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.06116.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2822,7 +2692,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.13836.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2843,7 +2712,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.08348.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2864,7 +2732,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.06604.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2885,7 +2752,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.04834.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2906,7 +2772,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.00812.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2927,7 +2792,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.23925.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2948,7 +2812,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.22881.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2969,7 +2832,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.20827.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2990,7 +2852,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.17715.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3011,7 +2872,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.16275.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3032,7 +2892,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.16185.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3053,7 +2912,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.15285.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3074,7 +2932,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.13433.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3095,7 +2952,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.12706.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3116,7 +2972,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.11148.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3137,7 +2992,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.10017.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3158,7 +3012,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.08673.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3179,7 +3032,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.04127.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3200,7 +3052,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.04205.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3221,7 +3072,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.03437.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3242,7 +3092,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.00132.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3263,7 +3112,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2502.20036.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3284,7 +3132,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2502.19955.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3305,7 +3152,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2502.19242.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3326,7 +3172,6 @@ title: Image Matching
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2502.18104.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>

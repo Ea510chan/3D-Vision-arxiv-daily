@@ -3,7 +3,7 @@ layout: default
 title: Visual Localization
 ---
 
-<section class="topic-hero" style="--accent: #9bfffc;">
+<section class="topic-hero" style="--accent: #0891b2;">
   <div>
     <p class="eyebrow">Topic</p>
     <h1>Visual Localization</h1>
@@ -239,7 +239,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.27464.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -260,7 +259,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.24749.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -281,7 +279,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.26551.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -302,7 +299,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.26341.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -323,7 +319,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.26206.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -344,7 +339,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.25891.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -365,7 +359,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.25686.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -386,7 +379,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.25195.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -407,7 +399,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.23794.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -428,7 +419,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.23311.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -449,7 +439,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.22856.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -470,7 +459,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.22732.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -491,7 +479,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.22721.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -512,7 +499,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.21886.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -533,7 +519,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.20738.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -554,7 +539,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.20648.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -575,7 +559,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.19862.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -596,7 +579,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.19625.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -617,7 +599,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.17360.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -638,7 +619,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.16289.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -659,7 +639,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.17186.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -680,7 +659,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.16737.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -701,7 +679,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.16679.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -722,7 +699,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.16538.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -743,7 +719,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.13917.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -764,7 +739,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.13740.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -785,7 +759,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.12998.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -806,7 +779,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.12711.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -827,7 +799,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.12690.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -848,7 +819,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.11520.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -869,7 +839,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.11398.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -890,7 +859,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.09108.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -911,7 +879,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.07937.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -932,7 +899,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.07414.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -953,7 +919,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.06918.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -974,7 +939,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.05807.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -995,7 +959,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.05781.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1016,7 +979,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.05397.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1037,7 +999,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.04598.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1058,7 +1019,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.04272.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1079,7 +1039,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.04056.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1100,7 +1059,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.23361.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1121,7 +1079,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.23029.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1142,7 +1099,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.22555.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1163,7 +1119,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.22510.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1184,7 +1139,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.21963.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1205,7 +1159,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.21473.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1226,7 +1179,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.21175.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1247,7 +1199,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.20925.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1268,7 +1219,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.20584.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1289,7 +1239,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.19961.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1310,7 +1259,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.19735.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1331,7 +1279,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.19641.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1352,7 +1299,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.19224.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1373,7 +1319,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.19217.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1394,7 +1339,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.18709.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1415,7 +1359,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.17814.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1436,7 +1379,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.11875.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1457,7 +1399,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.11494.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1478,7 +1419,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.10809.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1499,7 +1439,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.07872.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1520,7 +1459,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.08603.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1541,7 +1479,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.08411.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1562,7 +1499,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.08342.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1583,7 +1519,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.04451.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1604,7 +1539,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.04712.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1625,7 +1559,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.04401.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1646,7 +1579,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.04304.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1667,7 +1599,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.00841.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1688,7 +1619,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.03253.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1709,7 +1639,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.01753.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1730,7 +1659,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.01673.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1751,7 +1679,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.01639.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1772,7 +1699,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.01296.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1793,7 +1719,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.21450.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1814,7 +1739,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.20623.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1835,7 +1759,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.20391.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1856,7 +1779,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.19887.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1877,7 +1799,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.19060.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1898,7 +1819,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.16582.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1919,7 +1839,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.16125.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1940,7 +1859,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.11393.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1961,7 +1879,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.14714.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1982,7 +1899,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.14706.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2003,7 +1919,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.14245.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2024,7 +1939,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.14060.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2045,7 +1959,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.13942.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2066,7 +1979,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.12729.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2087,7 +1999,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.11930.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2108,7 +2019,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.11108.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2129,7 +2039,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.10096.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2150,7 +2059,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.09828.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2171,7 +2079,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.09248.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2192,7 +2099,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.08520.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2213,7 +2119,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.08311.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2234,7 +2139,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.06224.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2255,7 +2159,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.05399.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2276,7 +2179,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.04185.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2297,7 +2199,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.03728.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2318,7 +2219,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.03713.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2339,7 +2239,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.02730.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2360,7 +2259,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.02564.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2381,7 +2279,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.02723.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2402,7 +2299,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.00388.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2423,7 +2319,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.24552.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2444,7 +2339,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.24384.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2465,7 +2359,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.23864.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2486,7 +2379,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.23412.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2507,7 +2399,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.23227.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2528,7 +2419,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.21078.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2549,7 +2439,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.21883.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2570,7 +2459,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.21221.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2591,7 +2479,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.20781.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2612,7 +2499,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.20174.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2633,7 +2519,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.19663.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2654,7 +2539,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.19026.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2675,7 +2559,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.18613.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2696,7 +2579,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.18407.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2717,7 +2599,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.17226.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2738,7 +2619,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.17121.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2759,7 +2639,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.16294.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2780,7 +2659,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.14560.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2801,7 +2679,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.14102.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2822,7 +2699,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.13055.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2843,7 +2719,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.12610.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2864,7 +2739,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.10596.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2885,7 +2759,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.09903.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2906,7 +2779,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.09071.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2927,7 +2799,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.07338.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2948,7 +2819,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.06865.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2969,7 +2839,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.06255.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2990,7 +2859,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.06147.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3011,7 +2879,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.05111.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3032,7 +2899,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.05091.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3053,7 +2919,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.05039.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3074,7 +2939,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.05007.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3095,7 +2959,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.04989.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3116,7 +2979,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.04939.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3137,7 +2999,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.04783.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3158,7 +3019,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.04772.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3179,7 +3039,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.04763.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3200,7 +3059,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.04662.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3221,7 +3079,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.02792.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3242,7 +3099,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.02697.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3263,7 +3119,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.01636.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3284,7 +3139,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.01498.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3305,7 +3159,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.22860.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3326,7 +3179,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.22253.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3347,7 +3199,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.21663.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3368,7 +3219,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.21647.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3389,7 +3239,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.21631.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3410,7 +3259,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.21579.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3431,7 +3279,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.21389.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3452,7 +3299,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.21375.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3473,7 +3319,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.21317.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3494,7 +3339,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.21311.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3515,7 +3359,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.21271.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3536,7 +3379,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.21202.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3557,7 +3399,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.19400.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3578,7 +3419,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.19396.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3599,7 +3439,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.19226.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3620,7 +3459,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.19200.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3641,7 +3479,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.19149.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3662,7 +3499,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.19105.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3683,7 +3519,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.19080.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3704,7 +3539,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.19057.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3725,7 +3559,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.19031.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3746,7 +3579,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.19021.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3767,7 +3599,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.15705.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3788,7 +3619,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.15700.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3809,7 +3639,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.15633.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3830,7 +3659,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.15515.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3851,7 +3679,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.15464.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3872,7 +3699,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.15435.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3893,7 +3719,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.15370.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3914,7 +3739,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.15333.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3935,7 +3759,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.15201.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3956,7 +3779,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.15118.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3977,7 +3799,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.05404.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3998,7 +3819,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.05020.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4019,7 +3839,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.04384.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4040,7 +3859,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.04232.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4061,7 +3879,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.02489.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4082,7 +3899,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.02371.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4103,7 +3919,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.01390.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4124,7 +3939,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.26861.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4145,7 +3959,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.00925.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4166,7 +3979,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.00635.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4187,7 +3999,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.27243.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4208,7 +4019,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.26795.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4229,7 +4039,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.25387.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4250,7 +4059,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.24813.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4271,7 +4079,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.23224.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4292,7 +4099,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.22868.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4313,7 +4119,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.22754.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4334,7 +4139,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.22736.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4355,7 +4159,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.22571.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4376,7 +4179,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.22529.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4397,7 +4199,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.20095.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4418,7 +4219,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.18437.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4439,7 +4239,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.18433.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4460,7 +4259,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.18218.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4481,7 +4279,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.17739.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4502,7 +4299,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.18890.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4523,7 +4319,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.14535.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4544,7 +4339,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.13464.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4565,7 +4359,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.12014.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4586,7 +4379,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.08976.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4607,7 +4399,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.08094.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4628,7 +4419,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.08003.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4649,7 +4439,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.07703.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4670,7 +4459,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.06868.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4691,7 +4479,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.05586.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4712,7 +4499,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.05411.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4733,7 +4519,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.04282.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4754,7 +4539,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.03751.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4775,7 +4559,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.02874.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4796,7 +4579,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.02728.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4817,7 +4599,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.01183.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4838,7 +4619,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.00978.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4859,7 +4639,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.00783.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4880,7 +4659,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.26604.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4901,7 +4679,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.26330.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4922,7 +4699,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.26012.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4943,7 +4719,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.25723.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4964,7 +4739,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.25520.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4985,7 +4759,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.24477.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5006,7 +4779,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.24094.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5027,7 +4799,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.22307.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5048,7 +4819,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.15472.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5069,7 +4839,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.20271.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5090,7 +4859,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.20401.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5111,7 +4879,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.19203.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5132,7 +4899,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.18350.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5153,7 +4919,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.17049.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5174,7 +4939,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.15432.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5195,7 +4959,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.14985.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5216,7 +4979,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.14746.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5237,7 +4999,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.14565.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5258,7 +5019,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.14516.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5279,7 +5039,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.14427.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5300,7 +5059,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.14104.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5321,7 +5079,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.12824.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5342,7 +5099,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.13474.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5363,7 +5119,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.13414.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5384,7 +5139,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.11862.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5405,7 +5159,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.09306.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5426,7 +5179,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.07362.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5447,7 +5199,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.06566.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5468,7 +5219,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.04948.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5489,7 +5239,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.04772.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5510,7 +5259,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.04351.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5531,7 +5279,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.04193.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5552,7 +5299,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.02129.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5573,7 +5319,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.01968.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5594,7 +5339,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.01360.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5615,7 +5359,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.01259.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5636,7 +5379,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.12823.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5657,7 +5399,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.12819.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5678,7 +5419,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.12416.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5699,7 +5439,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.11834.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5720,7 +5459,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.10473.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5741,7 +5479,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.10403.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5762,7 +5499,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.10265.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5783,7 +5519,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.08546.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5804,7 +5539,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.08420.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5825,7 +5559,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.08404.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5846,7 +5579,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.07467.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5867,7 +5599,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.07384.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5888,7 +5619,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.07079.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5909,7 +5639,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.06654.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5930,7 +5659,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.05970.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5951,7 +5679,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.05631.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5972,7 +5699,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.04667.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5993,7 +5719,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.05513.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6014,7 +5739,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.04735.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6035,7 +5759,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.04662.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6056,7 +5779,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.04503.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6077,7 +5799,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.03831.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6098,7 +5819,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.00659.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6119,7 +5839,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.22939.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6140,7 +5859,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.22864.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6161,7 +5879,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.22336.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6182,7 +5899,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.21101.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6203,7 +5919,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.18246.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6224,7 +5939,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.20467.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6245,7 +5959,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.20312.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6266,7 +5979,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.18902.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6287,7 +5999,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.16745.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6308,7 +6019,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.16353.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6329,7 +6039,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.16273.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6350,7 +6059,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.15988.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6371,7 +6079,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.15851.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6392,7 +6099,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.15180.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6413,7 +6119,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.14707.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6434,7 +6139,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.14178.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6455,7 +6159,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.13496.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6476,7 +6179,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.13509.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6497,7 +6199,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.13133.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6518,7 +6219,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.13073.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6539,7 +6239,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.12401.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6560,7 +6259,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.11167.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6581,7 +6279,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.10182.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6602,7 +6299,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.09748.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6623,7 +6319,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.10030.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6644,7 +6339,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.08526.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6665,7 +6359,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.07045.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6686,7 +6379,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.06602.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6707,7 +6399,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.06220.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6728,7 +6419,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.06205.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6749,7 +6439,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.04764.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6770,7 +6459,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.04619.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6791,7 +6479,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.02291.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6812,7 +6499,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.00976.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6833,7 +6519,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.24441.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6854,7 +6539,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.23763.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6875,7 +6559,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.22859.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6896,7 +6579,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.22098.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6917,7 +6599,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.22089.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6938,7 +6619,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.21754.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6959,7 +6639,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.21647.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6980,7 +6659,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.20764.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7001,7 +6679,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.20291.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7022,7 +6699,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.19952.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7043,7 +6719,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.19944.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7064,7 +6739,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.16447.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7085,7 +6759,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.15877.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7106,7 +6779,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.15867.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7127,7 +6799,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.13828.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7148,7 +6819,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.12254.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7169,7 +6839,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.11620.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7190,7 +6859,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.11121.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7211,7 +6879,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.01956.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7232,7 +6899,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.03565.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7253,7 +6919,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.03422.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7274,7 +6939,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.03242.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7295,7 +6959,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.03836.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7316,7 +6979,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.01113.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7337,7 +6999,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.20379.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7358,7 +7019,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.17990.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7379,7 +7039,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.17636.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7400,7 +7059,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.16691.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7421,7 +7079,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.16323.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7442,7 +7099,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.14359.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7463,7 +7119,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.13172.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7484,7 +7139,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.12100.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7505,7 +7159,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.11134.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7526,7 +7179,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.10995.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7547,7 +7199,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.09881.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7568,7 +7219,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.09155.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7589,7 +7239,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.08901.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7610,7 +7259,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.08710.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7631,7 +7279,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.08368.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7652,7 +7299,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.08280.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7673,7 +7319,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.07718.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7694,7 +7339,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.07231.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7715,7 +7359,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.06666.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7736,7 +7379,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.06116.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7757,7 +7399,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.04339.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7778,7 +7419,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.02259.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7799,7 +7439,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.03169.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7820,7 +7459,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.02086.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7841,7 +7479,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.01348.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7862,7 +7499,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.00954.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7883,7 +7519,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.00812.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7904,7 +7539,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.24182.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7925,7 +7559,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.23664.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7946,7 +7579,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.23577.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7967,7 +7599,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.21772.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7988,7 +7619,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.21757.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8009,7 +7639,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.21338.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8030,7 +7659,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.21309.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8051,7 +7679,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.21236.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8072,7 +7699,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.19910.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8093,7 +7719,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.19543.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8114,7 +7739,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.19358.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8135,7 +7759,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.19296.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8156,7 +7779,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.18142.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8177,7 +7799,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.17938.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8198,7 +7819,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.17899.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8219,7 +7839,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.17871.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8240,7 +7859,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.17109.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8261,7 +7879,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.17005.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8282,7 +7899,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.16064.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8303,7 +7919,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.15997.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8324,7 +7939,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.14346.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8345,7 +7959,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.13982.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8366,7 +7979,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.13385.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8387,7 +7999,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.13090.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8408,7 +8019,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.13045.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8429,7 +8039,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.10166.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8450,7 +8059,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.10692.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8471,7 +8079,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.09370.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8492,7 +8099,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.08170.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8513,7 +8119,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.07038.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8534,7 +8139,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.07037.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8555,7 +8159,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.06840.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8576,7 +8179,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.06796.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8597,7 +8199,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.06601.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8618,7 +8219,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.06501.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8639,7 +8239,6 @@ title: Visual Localization
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.06117.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>

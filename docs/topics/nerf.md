@@ -3,7 +3,7 @@ layout: default
 title: NeRF
 ---
 
-<section class="topic-hero" style="--accent: #00ffa3;">
+<section class="topic-hero" style="--accent: #16a34a;">
   <div>
     <p class="eyebrow">Topic</p>
     <h1>NeRF</h1>
@@ -155,7 +155,26 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.21332.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Few TensoRF: Enhance the Few-shot on Tensorial Radiance Fields</span>
+        <span class="paper-authors">Thanh-Hai Le, Hoang-Hau Tran, Trong-Nghia Vu</span>
+        <span class="paper-meta">Updated 2026-03-27</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">This paper presents Few TensoRF, a 3D reconstruction framework that combines TensorRF&#x27;s efficient tensor based representation with FreeNeRF&#x27;s frequency driven few shot regularization. Using TensorRF to significantly accelerate rendering speed and introducing frequency and occlusion masks, the method improves stability and reconstruction quality under sparse input views. Experiments on the Synthesis NeRF benchmark show that Few TensoRF method improves the average PSNR from 21.45 dB (TensorRF) to 23.70 dB, with the fine tuned version reaching 24.52 dB, while maintaining TensorRF&#x27;s fast \(\approx10-15\) minute training time. Experiments on the THuman 2.0 dataset further demonstrate competitive performance in human body reconstruction, achieving 27.37 - 34.00 dB with only eight input images. These results highlight Few TensoRF as an efficient and data effective solution for real-time 3D reconstruction across diverse scenes.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.25008">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.25008.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.25008.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
         </div>
       </div>
     </details>
@@ -176,7 +195,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.21356.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -197,7 +215,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.19682.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -218,7 +235,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.22851.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -239,7 +255,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.21931.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -260,7 +275,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.21695.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -281,7 +295,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.20611.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -302,7 +315,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.20428.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -323,7 +335,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.20128.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -344,7 +355,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.18306.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -365,7 +375,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.17236.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -386,7 +395,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.14684.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -407,7 +415,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.12903.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -428,7 +435,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.12766.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -449,7 +455,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.12078.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -470,7 +475,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.09291.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -491,7 +495,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.09277.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -512,7 +515,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.08997.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -533,7 +535,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.08133.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -554,7 +555,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.06956.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -575,7 +575,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.05932.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -596,7 +595,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.05473.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -617,7 +615,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.04847.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -638,7 +635,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.02801.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -659,7 +655,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.02582.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -680,7 +675,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.22731.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -701,7 +695,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.21101.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -722,7 +715,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.21645.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -743,7 +735,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.20718.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -764,7 +755,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.20342.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -785,7 +775,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.19916.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -806,7 +795,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.18886.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -827,7 +815,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.18322.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -848,7 +835,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.16950.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -869,7 +855,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.16337.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -890,7 +875,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.13909.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -911,7 +895,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.13549.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -932,7 +915,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.21421.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -953,7 +935,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.08029.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -974,7 +955,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.07986.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -995,7 +975,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.05822.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1016,7 +995,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.05423.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1037,7 +1015,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.03123.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1058,7 +1035,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.22861.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1079,7 +1055,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.23065.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1100,7 +1075,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.22808.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1121,7 +1095,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.21269.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1142,7 +1115,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.19753.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1163,7 +1135,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.19216.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1184,7 +1155,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.18849.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1205,7 +1175,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.17866.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1226,7 +1195,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.17350.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1247,7 +1215,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.16487.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1268,7 +1235,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.15475.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1289,7 +1255,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.14875.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1310,7 +1275,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.14821.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1331,7 +1295,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.12823.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1352,7 +1315,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.03869.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1373,7 +1335,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.04382.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1394,7 +1355,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.07870.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1415,7 +1375,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.05250.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1436,7 +1395,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.04860.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1457,7 +1415,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.01431.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1478,7 +1435,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.00207.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1499,7 +1455,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.24763.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1520,7 +1475,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.21692.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1541,7 +1495,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.20129.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1562,7 +1515,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.00012.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1583,7 +1535,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.18237.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1604,7 +1555,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.16706.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1625,7 +1575,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.16397.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1646,7 +1595,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.15080.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1667,7 +1615,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.14406.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1688,7 +1635,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.14352.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1709,7 +1655,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.14095.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1730,7 +1675,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.12683.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1751,7 +1695,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.10293.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1772,7 +1715,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.09335.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1793,7 +1735,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.09375.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1814,7 +1755,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.06438.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1835,7 +1775,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.08334.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1856,7 +1795,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.08215.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1877,7 +1815,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.07527.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1898,7 +1835,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.07309.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1919,7 +1855,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.04542.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1940,7 +1875,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.04076.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1961,7 +1895,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.03422.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1982,7 +1915,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.03210.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2003,7 +1935,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.02664.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2024,7 +1955,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.02172.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2045,7 +1975,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.01296.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2066,7 +1995,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.00677.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2087,7 +2015,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.00413.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2108,7 +2035,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.23052.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2129,7 +2055,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.20804.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2150,7 +2075,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.19542.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2171,7 +2095,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.19527.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2192,7 +2115,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.18806.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2213,7 +2135,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.18441.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2234,7 +2155,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.18293.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2255,7 +2175,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.17322.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2276,7 +2195,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.16542.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2297,7 +2215,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.14149.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2318,7 +2235,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.12935.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2339,7 +2255,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.12614.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2360,7 +2275,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.12304.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2381,7 +2295,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.08545.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2402,7 +2315,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.07940.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2423,7 +2335,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.07122.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2444,7 +2355,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.06457.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2465,7 +2375,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.06408.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2486,7 +2395,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.05229.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2507,7 +2415,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.05109.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2528,7 +2435,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.04797.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2549,7 +2455,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.04283.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2570,7 +2475,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.02510.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2591,7 +2495,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.02207.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2612,7 +2515,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.14270.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2633,7 +2535,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.27318.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2654,7 +2555,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.25319.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2675,7 +2575,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.22161.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2696,7 +2595,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.20558.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2717,7 +2615,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.20027.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2738,7 +2635,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.19371.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2759,7 +2655,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.19255.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2780,7 +2675,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.12901.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2801,7 +2695,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.10993.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2822,7 +2715,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.10257.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2843,7 +2735,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.10097.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2864,7 +2755,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.09880.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2885,7 +2775,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.09586.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2906,7 +2795,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.09010.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2927,7 +2815,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.07667.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2948,7 +2835,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.25191.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2969,7 +2855,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.23258.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2990,7 +2875,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.03163.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3011,7 +2895,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.02314.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3032,7 +2915,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.25075.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3053,7 +2935,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.00592.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3074,7 +2955,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.23438.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3095,7 +2975,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.23555.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3116,7 +2995,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.19073.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3137,7 +3015,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.18956.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3158,7 +3035,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.17083.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3179,7 +3055,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.17789.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3200,7 +3075,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.15548.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3221,7 +3095,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.17232.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3242,7 +3115,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.16922.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3263,7 +3135,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.15123.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3284,7 +3155,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.14890.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3305,7 +3175,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.15242.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3326,7 +3195,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.13571.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3347,7 +3215,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.12836.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3368,7 +3235,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.12458.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3389,7 +3255,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.11275.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3410,7 +3275,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.11171.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3431,7 +3295,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.11169.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3452,7 +3315,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.07809.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3473,7 +3335,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.07493.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3494,7 +3355,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.00911.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3515,7 +3375,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.00800.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3536,7 +3395,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2508.20526.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3557,7 +3415,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2508.17645.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3578,7 +3435,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2508.18971.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3599,7 +3455,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2508.18540.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3620,7 +3475,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2508.16932.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3641,7 +3495,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2508.14563.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3662,7 +3515,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.12132.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3683,7 +3535,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.11971.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3704,7 +3555,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.09987.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3725,7 +3575,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.06269.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3746,7 +3595,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.09168.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3767,7 +3615,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.09005.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3788,7 +3635,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.07519.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3809,7 +3655,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.06103.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3830,7 +3675,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.05763.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3851,7 +3695,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.04408.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3872,7 +3715,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.01631.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3893,7 +3735,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.00969.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3914,7 +3755,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.00371.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3935,7 +3775,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.23611.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3956,7 +3795,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.23153.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3977,7 +3815,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.21884.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3998,7 +3835,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.21348.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4019,7 +3855,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.18575.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4040,7 +3875,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.20638.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4061,7 +3895,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.19615.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4082,7 +3915,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.21629.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4103,7 +3935,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.19742.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4124,7 +3955,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.19291.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4145,7 +3975,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.15242.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4166,7 +3995,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.18678.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4187,7 +4015,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.16262.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4208,7 +4035,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.18208.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4229,7 +4055,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.17636.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4250,7 +4075,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.12787.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4271,7 +4095,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.14856.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4292,7 +4115,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.12727.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4313,7 +4135,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.07497.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4334,7 +4155,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.10335.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4355,7 +4175,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.09885.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4376,7 +4195,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.08619.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4397,7 +4215,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.07917.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4418,7 +4235,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.06890.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4439,7 +4255,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.06462.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4460,7 +4275,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.06412.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4481,7 +4295,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.05965.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4502,7 +4315,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.05317.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4523,7 +4335,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.05280.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4544,7 +4355,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.04908.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4565,7 +4375,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.00083.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4586,7 +4395,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.19883.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4607,7 +4415,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.23481.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4628,7 +4435,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.23158.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4649,7 +4455,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.22441.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4670,7 +4475,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.22279.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4691,7 +4495,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.21890.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4712,7 +4515,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.21335.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4733,7 +4535,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.20126.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4754,7 +4555,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.19813.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4775,7 +4575,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.19793.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4796,7 +4595,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.16912.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4817,7 +4615,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.13633.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4838,7 +4635,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.12875.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4859,7 +4655,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.12384.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4880,7 +4675,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.11386.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4901,7 +4695,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.10787.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4922,7 +4715,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.09915.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4943,7 +4735,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.09413.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4964,7 +4755,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.09406.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4985,7 +4775,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.08510.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5006,7 +4795,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.07396.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5027,7 +4815,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.08811.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5048,7 +4835,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.07373.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5069,7 +4855,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.06894.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5090,7 +4875,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.06638.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5111,7 +4895,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.06504.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5132,7 +4915,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.05474.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5153,7 +4935,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.02079.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5174,7 +4955,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.02005.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5195,7 +4975,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.01799.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5216,7 +4995,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.01749.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5237,7 +5015,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.00378.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5258,7 +5035,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.20379.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5279,7 +5055,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.00737.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5300,7 +5075,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.21067.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5321,7 +5095,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.20496.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5342,7 +5115,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.20378.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5363,7 +5135,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.19165.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5384,7 +5155,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.19819.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5405,7 +5175,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.18468.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5426,7 +5195,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.19345.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5447,7 +5215,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.17728.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5468,7 +5235,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.16636.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5489,7 +5255,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.16557.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5510,7 +5275,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.16389.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5531,7 +5295,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.15776.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5552,7 +5315,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.15281.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5573,7 +5335,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.13713.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5594,7 +5355,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.13995.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5615,7 +5375,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.12999.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5636,7 +5395,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.11946.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5657,7 +5415,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.10331.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5678,7 +5435,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.09878.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5699,7 +5455,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.09868.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5720,7 +5475,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.08901.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5741,7 +5495,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.06978.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5762,7 +5515,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.06920.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5783,7 +5535,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.06815.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5804,7 +5555,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.05806.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5825,7 +5575,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.05803.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5846,7 +5595,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.05751.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5867,7 +5615,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.04679.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5888,7 +5635,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.04448.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5909,7 +5655,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.03415.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5930,7 +5675,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.02517.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5951,7 +5695,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.02337.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5972,7 +5715,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.01960.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5993,7 +5735,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.01844.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6014,7 +5755,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.01732.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6035,7 +5775,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.01559.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6056,7 +5795,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.01503.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6077,7 +5815,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.02007.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6098,7 +5835,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.00950.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6119,7 +5855,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.00859.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6140,7 +5875,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.22218.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6161,7 +5895,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.21364.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6182,7 +5915,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.21958.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6203,7 +5935,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.21886.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6224,7 +5955,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.21778.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6245,7 +5975,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.21442.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6266,7 +5995,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.21338.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6287,7 +6015,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.20654.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6308,7 +6035,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.20168.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6329,7 +6055,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.20998.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6350,7 +6075,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.20066.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6371,7 +6095,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.19673.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6392,7 +6115,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.18513.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6413,7 +6135,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.18794.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6434,7 +6155,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.18361.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6455,7 +6175,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.18123.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6476,7 +6195,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.18108.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6497,7 +6215,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.18073.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6518,7 +6235,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.17491.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6539,7 +6255,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.17095.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6560,7 +6275,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.16964.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6581,7 +6295,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.16742.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6602,7 +6315,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.15211.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6623,7 +6335,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.15070.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6644,7 +6355,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.14943.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6665,7 +6375,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.14845.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6686,7 +6395,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.14219.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6707,7 +6415,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.13710.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6728,7 +6435,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.13347.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6749,7 +6455,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.13176.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6770,7 +6475,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.12947.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6791,7 +6495,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.12086.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6812,7 +6515,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.10464.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6833,7 +6535,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.10031.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6854,7 +6555,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.09464.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6875,7 +6575,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.08483.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6896,7 +6595,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.08317.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6917,7 +6615,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.08071.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6938,7 +6635,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.07952.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6959,7 +6655,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.07828.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6980,7 +6675,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.07425.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7001,7 +6695,6 @@ title: NeRF
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.06161.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>

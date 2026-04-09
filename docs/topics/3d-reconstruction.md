@@ -3,7 +3,7 @@ layout: default
 title: 3D Reconstruction
 ---
 
-<section class="topic-hero" style="--accent: #ffd166;">
+<section class="topic-hero" style="--accent: #7c3aed;">
   <div>
     <p class="eyebrow">Topic</p>
     <h1>3D Reconstruction</h1>
@@ -239,7 +239,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.28287.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -260,7 +259,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.27542.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -281,7 +279,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.27455.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -302,7 +299,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.27222.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -323,7 +319,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.27084.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -344,7 +339,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.26638.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -365,7 +359,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.26584.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -386,7 +379,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.26509.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -407,7 +399,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.25993.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -428,7 +419,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.25819.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -449,7 +439,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.23973.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -470,7 +459,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.23686.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -491,7 +479,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.23413.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -512,7 +499,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.23246.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -533,7 +519,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.23192.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -554,7 +539,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.22851.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -575,7 +559,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.22631.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -596,7 +579,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.22572.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -617,7 +599,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.22531.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -638,7 +619,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.22450.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -659,7 +639,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.19231.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -680,7 +659,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.19193.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -701,7 +679,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.18943.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -722,7 +699,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.18912.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -743,7 +719,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.18774.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -764,7 +739,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.18634.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -785,7 +759,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.18493.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -806,7 +779,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.18306.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -827,7 +799,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.17735.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -848,7 +819,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.17571.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -869,7 +839,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.13185.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -890,7 +859,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.13049.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -911,7 +879,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.12721.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -932,7 +899,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.12667.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -953,7 +919,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.11888.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -974,7 +939,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.11810.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -995,7 +959,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.11389.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1016,7 +979,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.11298.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1037,7 +999,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.11174.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1058,7 +1019,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.11045.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1079,7 +1039,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.09319.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1100,7 +1059,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.09259.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1121,7 +1079,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.08279.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1142,7 +1099,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.08055.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1163,7 +1119,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.07937.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1184,7 +1139,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.07690.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1205,7 +1159,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.07533.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1226,7 +1179,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.07441.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1247,7 +1199,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.06971.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1268,7 +1219,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.06956.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1289,7 +1239,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.23361.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1310,7 +1259,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.23224.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1331,7 +1279,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.23115.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1352,7 +1299,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.22960.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1373,7 +1319,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.22731.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1394,7 +1339,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.22639.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1415,7 +1359,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.22571.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1436,7 +1379,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.22565.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1457,7 +1399,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.21963.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1478,7 +1419,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.21929.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1499,7 +1439,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.21101.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1520,7 +1459,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.20943.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1541,7 +1479,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.20807.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1562,7 +1499,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.20718.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1583,7 +1519,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.20630.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1604,7 +1539,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.20584.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1625,7 +1559,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.20539.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1646,7 +1579,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.20342.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1667,7 +1599,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.20160.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1688,7 +1619,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.19896.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1709,7 +1639,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.11440.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1730,7 +1659,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.11375.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1751,7 +1679,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.10278.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1772,7 +1699,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.10239.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1793,7 +1719,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.10101.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1814,7 +1739,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.09918.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1835,7 +1759,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.09407.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1856,7 +1779,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.08397.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1877,7 +1799,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.08029.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1898,7 +1819,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.07891.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1919,7 +1839,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.07860.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1940,7 +1859,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.07771.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1961,7 +1879,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.07444.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1982,7 +1899,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.06163.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2003,7 +1919,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.06158.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2024,7 +1939,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.06122.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2045,7 +1959,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.06032.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2066,7 +1979,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.04672.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2087,7 +1999,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.04517.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2108,7 +2019,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.04439.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2129,7 +2039,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.04162.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2150,7 +2059,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.04108.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2171,7 +2079,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.04043.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2192,7 +2099,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.03847.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2213,7 +2119,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.03327.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2234,7 +2139,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.03209.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2255,7 +2159,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.02430.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2276,7 +2179,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.22054.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2297,7 +2199,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.22046.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2318,7 +2219,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.22045.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2339,7 +2239,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.21786.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2360,7 +2259,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.21421.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2381,7 +2279,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.20317.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2402,7 +2299,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.19785.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2423,7 +2319,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.20051.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2444,7 +2339,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.19753.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2465,7 +2359,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.19048.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2486,7 +2379,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.15098.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2507,7 +2399,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.14208.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2528,7 +2419,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.13706.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2549,7 +2439,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.13692.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2570,7 +2459,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.13603.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2591,7 +2479,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.13029.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2612,7 +2499,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.12770.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2633,7 +2519,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.12481.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2654,7 +2539,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.12291.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2675,7 +2559,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.12257.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2696,7 +2579,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.11109.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2717,7 +2599,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.10814.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2738,7 +2619,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.10709.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2759,7 +2639,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.08414.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2780,7 +2659,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.09697.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2801,7 +2679,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.09665.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2822,7 +2699,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.09499.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2843,7 +2719,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.09211.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2864,7 +2739,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.08182.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2885,7 +2759,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.07540.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2906,7 +2779,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.07242.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2927,7 +2799,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.06839.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2948,7 +2819,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.06831.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2969,7 +2839,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.05208.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2990,7 +2859,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.04776.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3011,7 +2879,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.02102.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3032,7 +2899,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.01431.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3053,7 +2919,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.01386.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3074,7 +2939,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.00939.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3095,7 +2959,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.01144.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3116,7 +2979,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.25073.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3137,7 +2999,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.24593.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3158,7 +3019,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.24212.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3179,7 +3039,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.23437.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3200,7 +3059,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.23369.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3221,7 +3079,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.08930.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3242,7 +3099,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.15608.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3263,7 +3119,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.10517.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3284,7 +3139,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.05398.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3305,7 +3159,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.05362.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3326,7 +3179,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.05114.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3347,7 +3199,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.05049.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3368,7 +3219,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.05040.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3389,7 +3239,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.04972.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3410,7 +3259,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.04646.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3431,7 +3279,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.04534.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3452,7 +3299,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.04399.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3473,7 +3319,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.04303.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3494,7 +3339,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.04012.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3515,7 +3359,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.03981.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3536,7 +3379,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.22857.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3557,7 +3399,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.21690.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3578,7 +3419,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.21565.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3599,7 +3439,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.21428.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3620,7 +3459,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.21132.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3641,7 +3479,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.20788.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3662,7 +3499,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.20755.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3683,7 +3519,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.20647.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3704,7 +3539,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.20469.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3725,7 +3559,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.20343.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3746,7 +3579,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.20287.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3767,7 +3599,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.19275.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3788,7 +3619,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.19185.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3809,7 +3639,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.18975.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3830,7 +3659,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.18886.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3851,7 +3679,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.18786.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3872,7 +3699,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.18745.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3893,7 +3719,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.18559.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3914,7 +3739,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.18549.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3935,7 +3759,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.18537.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3956,7 +3779,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.18486.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3977,7 +3799,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.15645.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3998,7 +3819,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.15365.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4019,7 +3839,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.15159.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4040,7 +3859,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.15153.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4061,7 +3879,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.14848.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4082,7 +3899,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.14371.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4103,7 +3919,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.14351.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4124,7 +3939,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.14300.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4145,7 +3959,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.14297.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4166,7 +3979,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.14243.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4187,7 +3999,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.12415.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4208,7 +4019,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.02329.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4229,7 +4039,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.00362.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4250,7 +4059,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.20529.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4271,7 +4079,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.17422.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4292,7 +4099,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.17479.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4313,7 +4119,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.16438.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4334,7 +4139,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.15467.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4355,7 +4159,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.15271.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4376,7 +4179,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.13540.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4397,7 +4199,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.13310.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4418,7 +4219,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.12387.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4439,7 +4239,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.09489.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4460,7 +4259,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.25191.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4481,7 +4279,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.01665.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4502,7 +4299,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.24126.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4523,7 +4319,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.23991.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4544,7 +4339,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.23947.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4565,7 +4359,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.15548.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4586,7 +4379,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.19898.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4607,7 +4399,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.18898.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4628,7 +4419,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.13414.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4649,7 +4439,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.12458.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4670,7 +4459,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.11853.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4691,7 +4479,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.11097.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4712,7 +4499,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.06685.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4733,7 +4519,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.09720.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4754,7 +4539,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.01873.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4775,7 +4559,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2508.17972.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4796,7 +4579,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2508.16465.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4817,7 +4599,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2508.16026.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4838,7 +4619,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2508.15457.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4859,7 +4639,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2508.14682.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4880,7 +4659,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2508.07355.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4901,7 +4679,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2508.05205.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4922,7 +4699,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2508.05187.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4943,7 +4719,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.12595.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4964,7 +4739,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.12095.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4985,7 +4759,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.11893.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5006,7 +4779,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.10827.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5027,7 +4799,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.08448.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5048,7 +4819,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.21460.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5069,7 +4839,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.03306.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5090,7 +4859,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.23808.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5111,7 +4879,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.23611.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5132,7 +4899,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.22069.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5153,7 +4919,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.21629.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5174,7 +4939,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.19491.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5195,7 +4959,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.18792.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5216,7 +4979,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.18376.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5237,7 +4999,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.09448.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5258,7 +5019,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.05935.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5279,7 +5039,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.05558.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5300,7 +5059,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.04803.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5321,7 +5079,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.04225.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5342,7 +5099,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.03667.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5363,7 +5119,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.03265.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5384,7 +5139,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.24200.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5405,7 +5159,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.01940.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5426,7 +5179,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.22759.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5447,7 +5199,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.21356.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5468,7 +5219,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.23756.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5489,7 +5239,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.19854.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5510,7 +5259,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.22098.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5531,7 +5279,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.22089.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5552,7 +5299,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.20729.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5573,7 +5319,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.20477.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5594,7 +5339,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.19264.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5615,7 +5359,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.18484.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5636,7 +5379,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.16882.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5657,7 +5399,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.15814.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5678,7 +5419,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.04612.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5699,7 +5439,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.12226.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5720,7 +5459,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.10751.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5741,7 +5479,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.03093.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5762,7 +5499,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.08215.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5783,7 +5519,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.08013.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5804,7 +5539,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.07373.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5825,7 +5559,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.06868.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5846,7 +5579,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.06743.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5867,7 +5599,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.05473.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5888,7 +5619,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.01799.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5909,7 +5639,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.01729.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5930,7 +5659,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.00866.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5951,7 +5679,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.20496.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5972,7 +5699,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.20378.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5993,7 +5719,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.20040.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6014,7 +5739,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.17788.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6035,7 +5759,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.17280.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6056,7 +5779,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.16840.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6077,7 +5799,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.16499.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6098,7 +5819,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.15381.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6119,7 +5839,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.15376.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6140,7 +5859,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.14915.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6161,7 +5879,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.13339.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6182,7 +5899,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.13204.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6203,7 +5919,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.11416.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6224,7 +5939,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.09129.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6245,7 +5959,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.08252.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6266,7 +5979,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.01732.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6287,7 +5999,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.06464.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6308,7 +6019,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.05281.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6329,7 +6039,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.04294.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6350,7 +6059,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.03637.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6371,7 +6079,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.03198.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6392,7 +6099,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.02647.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6413,7 +6119,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.00219.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6434,7 +6139,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.23282.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6455,7 +6159,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.17486.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6476,7 +6179,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.18301.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6497,7 +6199,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.17668.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6518,7 +6219,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.15314.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6539,7 +6239,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.17093.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6560,7 +6259,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.16263.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6581,7 +6279,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.14483.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6602,7 +6299,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.13982.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6623,7 +6319,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.07204.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6644,7 +6339,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.13710.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6665,7 +6359,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.13086.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6686,7 +6379,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.12093.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6707,7 +6399,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.08142.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6728,7 +6419,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.07347.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6749,7 +6439,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.07135.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6770,7 +6459,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.06660.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6791,7 +6479,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.05425.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6812,7 +6499,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.04351.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6833,7 +6519,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.01202.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6854,7 +6539,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.01661.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6875,7 +6559,6 @@ title: 3D Reconstruction
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.01311.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>

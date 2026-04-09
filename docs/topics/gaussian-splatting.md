@@ -3,7 +3,7 @@ layout: default
 title: Gaussian Splatting
 ---
 
-<section class="topic-hero" style="--accent: #ff6ad5;">
+<section class="topic-hero" style="--accent: #db2777;">
   <div>
     <p class="eyebrow">Topic</p>
     <h1>Gaussian Splatting</h1>
@@ -239,7 +239,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.27516.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -260,7 +259,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.27151.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -281,7 +279,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.26665.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -302,7 +299,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.26638.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -323,7 +319,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.26584.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -344,7 +339,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.26181.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -365,7 +359,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.26067.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -386,7 +379,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.26814.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -407,7 +399,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.25745.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -428,7 +419,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.25265.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -449,7 +439,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.24036.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -470,7 +459,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.23891.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -491,7 +479,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.22792.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -512,7 +499,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.23686.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -533,7 +519,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.23637.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -554,7 +539,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.23324.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -575,7 +559,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.23192.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -596,7 +579,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.22796.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -617,7 +599,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.22786.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -638,7 +619,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.23297.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -659,7 +639,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.19234.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -680,7 +659,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.19193.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -701,7 +679,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.19137.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -722,7 +699,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.18912.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -743,7 +719,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.18707.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -764,7 +739,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.18510.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -785,7 +759,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.18402.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -806,7 +779,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.18218.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -827,7 +799,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.17975.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -848,7 +819,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.17779.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -869,7 +839,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.12796.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -890,7 +859,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.12647.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -911,7 +879,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.11969.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -932,7 +899,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.11543.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -953,7 +919,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.11531.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -974,7 +939,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.11298.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -995,7 +959,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.10893.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1016,7 +979,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.10801.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1037,7 +999,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.10638.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1058,7 +1019,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.10551.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1079,7 +1039,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.09673.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1100,7 +1059,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.09668.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1121,7 +1079,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.09632.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1142,7 +1099,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.09291.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1163,7 +1119,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.09285.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1184,7 +1139,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.09277.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1205,7 +1159,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.08997.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1226,7 +1179,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.08983.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1247,7 +1199,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.08809.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1268,7 +1219,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.08661.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1289,7 +1239,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.23172.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1310,7 +1259,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.23040.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1331,7 +1279,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.22800.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1352,7 +1299,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.22731.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1373,7 +1319,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.22666.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1394,7 +1339,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.22596.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1415,7 +1359,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.22571.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1436,7 +1379,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.22565.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1457,7 +1399,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.22376.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1478,7 +1419,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.21874.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1499,7 +1439,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.21105.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1520,7 +1459,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.20933.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1541,7 +1479,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.20807.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1562,7 +1499,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.20718.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1583,7 +1519,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.20556.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1604,7 +1539,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.20363.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1625,7 +1559,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.20342.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1646,7 +1579,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.20160.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1667,7 +1599,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.19916.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1688,7 +1619,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.19766.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1709,7 +1639,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.12159.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1730,7 +1659,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.11714.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1751,7 +1679,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.11705.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1772,7 +1699,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.11638.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1793,7 +1719,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.11577.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1814,7 +1739,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.11575.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1835,7 +1759,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.10278.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1856,7 +1779,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.10239.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1877,7 +1799,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.10173.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1898,7 +1819,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.09999.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1919,7 +1839,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.08958.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1940,7 +1859,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.08909.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1961,7 +1879,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.08784.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -1982,7 +1899,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.08724.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2003,7 +1919,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.08266.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2024,7 +1939,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.07493.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2045,7 +1959,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.07101.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2066,7 +1979,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.06846.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2087,7 +1999,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.06830.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2108,7 +2019,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.06343.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2129,7 +2039,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.04549.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2150,7 +2059,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.04349.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2171,7 +2079,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.04251.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2192,7 +2099,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.04043.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2213,7 +2119,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.03538.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2234,7 +2139,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.03327.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2255,7 +2159,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.03207.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2276,7 +2179,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.02989.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2297,7 +2199,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.03878.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2318,7 +2219,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2602.02402.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2339,7 +2239,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.22046.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2360,7 +2259,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.22026.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2381,7 +2279,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.20857.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2402,7 +2299,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.20429.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2423,7 +2319,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.20331.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2444,7 +2339,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.19489.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2465,7 +2359,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.19843.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2486,7 +2379,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.19753.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2507,7 +2399,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.19310.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2528,7 +2419,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.19247.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2549,7 +2439,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.15951.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2570,7 +2459,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.15897.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2591,7 +2479,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.15772.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2612,7 +2499,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.15766.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2633,7 +2519,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.14510.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2654,7 +2539,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.15431.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2675,7 +2559,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.15283.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2696,7 +2579,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.14821.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2717,7 +2599,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.14208.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2738,7 +2619,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.14161.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2759,7 +2639,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.10606.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2780,7 +2659,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.10075.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2801,7 +2679,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.09417.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2822,7 +2699,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.09291.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2843,7 +2719,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.09265.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2864,7 +2739,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.09243.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2885,7 +2759,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.07540.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2906,7 +2779,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.07963.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2927,7 +2799,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.07518.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2948,7 +2819,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.07484.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2969,7 +2839,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.06831.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -2990,7 +2859,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.06479.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3011,7 +2879,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.04984.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3032,7 +2899,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.04754.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3053,7 +2919,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.04348.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3074,7 +2939,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.03824.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3095,7 +2959,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.03510.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3116,7 +2979,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.03357.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3137,7 +2999,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.03319.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3158,7 +3019,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.03200.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3179,7 +3039,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.03024.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3200,7 +3059,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.02716.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3221,7 +3079,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.02103.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3242,7 +3099,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.02102.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3263,7 +3119,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.02098.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3284,7 +3139,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.02072.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3305,7 +3159,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.01847.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3326,7 +3179,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.01660.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3347,7 +3199,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.01386.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3368,7 +3219,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.00939.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3389,7 +3239,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.00913.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3410,7 +3259,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2601.00285.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3431,7 +3279,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.24986.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3452,7 +3299,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.24763.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3473,7 +3319,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.24742.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3494,7 +3339,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.24018.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3515,7 +3359,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.23998.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3536,7 +3379,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.23054.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3557,7 +3399,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.23255.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3578,7 +3419,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.23176.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3599,7 +3439,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.22882.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3620,7 +3459,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.22771.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3641,7 +3479,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.22706.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3662,7 +3499,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.22489.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3683,7 +3519,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.20943.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3704,7 +3539,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.20927.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3725,7 +3559,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.20495.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3746,7 +3579,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.20377.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3767,7 +3599,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.20148.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3788,7 +3619,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.20129.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3809,7 +3639,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.19678.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3830,7 +3659,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.19648.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3851,7 +3679,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.19108.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3872,7 +3699,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.18692.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3893,7 +3719,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.16893.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3914,7 +3739,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.16706.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3935,7 +3759,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.16397.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3956,7 +3779,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.15711.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3977,7 +3799,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.15508.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -3998,7 +3819,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.15258.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4019,7 +3839,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.15048.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4040,7 +3859,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.15034.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4061,7 +3879,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.14406.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4082,7 +3899,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.14352.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4103,7 +3919,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.11800.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4124,7 +3939,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.11356.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4145,7 +3959,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.11186.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4166,7 +3979,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.10939.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4187,7 +3999,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.10572.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4208,7 +4019,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.10424.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4229,7 +4039,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.10369.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4250,7 +4059,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.10293.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4271,7 +4079,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.10267.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4292,7 +4099,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.10095.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4313,7 +4119,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.08625.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4334,7 +4139,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.08498.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4355,7 +4159,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.08478.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4376,7 +4179,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.08334.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4397,7 +4199,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.08271.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4418,7 +4219,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.07806.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4439,7 +4239,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.07381.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4460,7 +4259,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.07345.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4481,7 +4279,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.07247.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4502,7 +4299,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.07230.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4523,7 +4319,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.05113.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4544,7 +4339,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.05060.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4565,7 +4359,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.04815.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4586,7 +4379,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.04731.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4607,7 +4399,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.04542.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4628,7 +4419,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.04421.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4649,7 +4439,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.04315.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4670,7 +4459,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.04313.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4691,7 +4479,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.04021.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4712,7 +4499,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2512.03601.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4733,7 +4519,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.21459.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4754,7 +4539,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.21367.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4775,7 +4559,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.21265.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4796,7 +4579,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.20354.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4817,7 +4599,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.20348.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4838,7 +4619,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.19861.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4859,7 +4639,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.19854.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4880,7 +4659,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.19294.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4901,7 +4679,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.19235.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4922,7 +4699,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.19202.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4943,7 +4719,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.19172.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4964,7 +4739,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.18873.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -4985,7 +4759,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.18755.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5006,7 +4779,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.18570.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5027,7 +4799,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.18525.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5048,7 +4819,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.18441.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5069,7 +4839,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.18386.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5090,7 +4859,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.15102.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5111,7 +4879,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.14270.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5132,7 +4899,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.14848.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5153,7 +4919,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.14633.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5174,7 +4939,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.14540.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5195,7 +4959,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.14477.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5216,7 +4979,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.14357.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5237,7 +4999,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.14343.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5258,7 +5019,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.14315.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5279,7 +5039,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.14291.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5300,7 +5059,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.05229.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5321,7 +5079,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.05152.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5342,7 +5099,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.05109.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5363,7 +5119,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.04951.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5384,7 +5139,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.04944.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5405,7 +5159,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.04797.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5426,7 +5179,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.04665.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5447,7 +5199,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.04283.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5468,7 +5219,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.03992.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5489,7 +5239,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.03099.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5510,7 +5259,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.02777.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5531,7 +5279,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.02207.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5552,7 +5299,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2511.00560.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5573,7 +5319,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.27318.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5594,7 +5339,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.27133.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5615,7 +5359,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.26921.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5636,7 +5379,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.26786.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5657,7 +5399,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.26694.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5678,7 +5419,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.26358.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5699,7 +5439,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.26166.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5720,7 +5459,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.26117.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5741,7 +5479,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.25173.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5762,7 +5499,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.25129.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5783,7 +5519,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.24335.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5804,7 +5539,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.24118.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5825,7 +5559,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.23988.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5846,7 +5579,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.23930.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5867,7 +5599,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.23521.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5888,7 +5619,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.23205.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5909,7 +5639,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.23087.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5930,7 +5659,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.22973.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5951,7 +5679,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.20813.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5972,7 +5699,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.20335.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -5993,7 +5719,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.20238.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6014,7 +5739,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.20027.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6035,7 +5759,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.19578.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6056,7 +5779,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.19255.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6077,7 +5799,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.19210.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6098,7 +5819,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.19200.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6119,7 +5839,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.19653.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6140,7 +5859,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.18739.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6161,7 +5879,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.15386.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6182,7 +5899,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.15352.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6203,7 +5919,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.14081.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6224,7 +5939,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.15072.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6245,7 +5959,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.14705.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6266,7 +5979,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.14564.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6287,7 +5999,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.14270.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6308,7 +6019,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.14179.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6329,7 +6039,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.13978.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6350,7 +6059,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.13454.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6371,7 +6079,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.12768.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6392,7 +6099,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.12493.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6413,7 +6119,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.12308.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6434,7 +6139,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.12282.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6455,7 +6159,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.12174.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6476,7 +6179,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.12099.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6497,7 +6199,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.11878.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6518,7 +6219,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.11717.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6539,7 +6239,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.11689.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6560,7 +6259,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.11473.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6581,7 +6279,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.08575.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6602,7 +6299,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.08566.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6623,7 +6319,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.08491.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6644,7 +6339,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.08096.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6665,7 +6359,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.07944.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6686,7 +6379,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.07830.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6707,7 +6399,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.07752.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6728,7 +6419,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.07729.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6749,7 +6439,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.06967.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6770,7 +6459,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.06802.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6791,7 +6479,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.02314.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6812,7 +6499,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.02248.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6833,7 +6519,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.02069.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6854,7 +6539,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.02034.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6875,7 +6559,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.01991.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6896,7 +6579,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.01978.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6917,7 +6599,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.01848.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6938,7 +6619,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.01767.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6959,7 +6639,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.01619.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -6980,7 +6659,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2510.01119.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7001,7 +6679,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.25122.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7022,7 +6699,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.25075.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7043,7 +6719,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.25001.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7064,7 +6739,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.24893.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7085,7 +6759,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.24758.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7106,7 +6779,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.24421.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7127,7 +6799,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.24308.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7148,7 +6819,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.23947.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7169,7 +6839,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.23555.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7190,7 +6859,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.23492.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7211,7 +6879,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.20251.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7232,7 +6899,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.19937.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7253,7 +6919,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.19898.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7274,7 +6939,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.19793.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7295,7 +6959,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.19726.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7316,7 +6979,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.19297.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7337,7 +6999,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.19296.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7358,7 +7019,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.19073.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7379,7 +7039,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.18956.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7400,7 +7059,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.18898.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7421,7 +7079,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.14739.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7442,7 +7099,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.14687.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7463,7 +7119,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.14421.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7484,7 +7139,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.14191.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7505,7 +7159,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.13938.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7526,7 +7179,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.13863.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7547,7 +7199,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.13536.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7568,7 +7219,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.13482.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7589,7 +7239,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.13013.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7610,7 +7259,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.12938.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7631,7 +7279,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.10241.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7652,7 +7299,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.06685.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7673,7 +7319,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.07809.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7694,7 +7339,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.07774.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7715,7 +7359,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.07493.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7736,7 +7379,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.07435.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7757,7 +7399,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.06433.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7778,7 +7419,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.06400.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7799,7 +7439,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.07021.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7820,7 +7459,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.05515.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7841,7 +7479,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2509.05216.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7862,7 +7499,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.12667.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7883,7 +7519,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.12621.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7904,7 +7539,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.12498.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7925,7 +7559,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.12137.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7946,7 +7579,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.12095.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7967,7 +7599,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.12027.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -7988,7 +7619,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.11931.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8009,7 +7639,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.11069.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8030,7 +7659,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.11321.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8051,7 +7679,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.11061.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8072,7 +7699,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.10542.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8093,7 +7719,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.09993.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8114,7 +7739,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.08726.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8135,7 +7759,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.08434.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8156,7 +7779,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.08137.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8177,7 +7799,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.08136.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8198,7 +7819,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.07733.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8219,7 +7839,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.07519.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8240,7 +7859,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.07465.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8261,7 +7879,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.07395.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8282,7 +7899,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.07000.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8303,7 +7919,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.06684.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8324,7 +7939,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.06671.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8345,7 +7959,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.06647.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8366,7 +7979,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.06109.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8387,7 +7999,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.06103.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8408,7 +8019,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.06060.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8429,7 +8039,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.05859.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8450,7 +8059,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.05763.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8471,7 +8079,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.05661.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8492,7 +8099,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.02803.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8513,7 +8119,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.02600.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8534,7 +8139,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.02363.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8555,7 +8159,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.02257.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8576,7 +8179,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.01367.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8597,7 +8199,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.01125.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8618,7 +8219,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.01110.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8639,7 +8239,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.00916.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8660,7 +8259,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.00886.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8681,7 +8279,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2507.00554.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8702,7 +8299,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.21401.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8723,7 +8319,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.22280.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8744,7 +8339,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.22099.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8765,7 +8359,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.21520.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8786,7 +8379,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.21420.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8807,7 +8399,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.21152.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8828,7 +8419,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.21117.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8849,7 +8439,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.21009.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8870,7 +8459,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.20998.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8891,7 +8479,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.20875.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8912,7 +8499,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.19842.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8933,7 +8519,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.19415.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8954,7 +8539,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.19291.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8975,7 +8559,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.18885.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -8996,7 +8579,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.18792.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -9017,7 +8599,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.18787.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -9038,7 +8619,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.18677.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -9059,7 +8639,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.16262.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -9080,7 +8659,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.17636.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -9101,7 +8679,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.17212.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -9122,7 +8699,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.15680.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -9143,7 +8719,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.15242.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -9164,7 +8739,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.14856.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -9185,7 +8759,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.14742.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -9206,7 +8779,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.14642.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -9227,7 +8799,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.14229.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -9248,7 +8819,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.14135.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -9269,7 +8839,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.14009.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -9290,7 +8859,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.13766.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -9311,7 +8879,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.13516.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -9332,7 +8899,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.10335.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -9353,7 +8919,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.09417.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -9374,7 +8939,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.09997.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -9395,7 +8959,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.09952.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -9416,7 +8979,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.09836.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -9437,7 +8999,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.09663.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -9458,7 +9019,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.09534.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -9479,7 +9039,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.09518.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -9500,7 +9059,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.09479.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -9521,7 +9079,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.09378.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -9542,7 +9099,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.07917.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -9563,7 +9119,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.07897.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -9584,7 +9139,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.07826.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -9605,7 +9159,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.07697.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -9626,7 +9179,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.07670.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -9647,7 +9199,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.07657.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -9668,7 +9219,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.07338.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -9689,7 +9239,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.07069.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -9710,7 +9259,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.06988.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -9731,7 +9279,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.06909.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -9752,7 +9299,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.04218.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -9773,7 +9319,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.04174.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -9794,7 +9339,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.04120.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -9815,7 +9359,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.03872.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -9836,7 +9379,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.03594.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -9857,7 +9399,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.03538.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -9878,7 +9419,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.02774.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -9899,7 +9439,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.03407.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -9920,7 +9459,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.03073.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -9941,7 +9479,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2506.02929.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -9962,7 +9499,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.23734.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -9983,7 +9519,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.23716.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -10004,7 +9539,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.23692.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -10025,7 +9559,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.23642.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -10046,7 +9579,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.23280.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -10067,7 +9599,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.23158.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -10088,7 +9619,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.22978.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -10109,7 +9639,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.22908.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -10130,7 +9659,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.22854.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -10151,7 +9679,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.22400.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -10172,7 +9699,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.16535.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -10193,7 +9719,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.16533.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -10214,7 +9739,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.15737.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -10235,7 +9759,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.15528.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -10256,7 +9779,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.15294.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -10277,7 +9799,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.15287.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -10298,7 +9819,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.15235.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -10319,7 +9839,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.15208.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -10340,7 +9859,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.15185.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -10361,7 +9879,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.14938.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -10382,7 +9899,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.13440.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -10403,7 +9919,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.13215.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -10424,7 +9939,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.12875.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -10445,7 +9959,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.12693.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -10466,7 +9979,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.12384.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -10487,7 +9999,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.11905.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -10508,7 +10019,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.11868.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -10529,7 +10039,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.11794.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -10550,7 +10059,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.11467.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -10571,7 +10079,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.10923.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -10592,7 +10099,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.09601.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -10613,7 +10119,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.09324.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -10634,7 +10139,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.08712.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -10655,7 +10159,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.08644.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -10676,7 +10179,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.08510.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -10697,7 +10199,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.08438.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -10718,7 +10219,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.08196.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -10739,7 +10239,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.07396.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -10760,7 +10259,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.08124.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -10781,7 +10279,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.07539.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -10802,7 +10299,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.05475.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -10823,7 +10319,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.05356.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -10844,7 +10339,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.04668.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -10865,7 +10359,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.04659.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -10886,7 +10379,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.04262.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -10907,7 +10399,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.03310.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -10928,7 +10419,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.02178.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -10949,7 +10439,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.02175.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -10970,7 +10459,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.02126.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -10991,7 +10479,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.02108.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -11012,7 +10499,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.01383.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -11033,7 +10519,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.01235.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -11054,7 +10539,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.00421.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -11075,7 +10559,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.20379.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -11096,7 +10579,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2505.00737.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -11117,7 +10599,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.21650.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -11138,7 +10619,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.18925.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -11159,7 +10639,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.21067.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -11180,7 +10659,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.20829.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -11201,7 +10679,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.20607.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -11222,7 +10699,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.20403.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -11243,7 +10719,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.20378.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -11264,7 +10739,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.19938.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -11285,7 +10759,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.19557.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -11306,7 +10779,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.19409.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -11327,7 +10799,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.19261.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -11348,7 +10819,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.17728.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -11369,7 +10839,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.16740.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -11390,7 +10859,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.16693.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -11411,7 +10879,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.16606.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -11432,7 +10899,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.16545.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -11453,7 +10919,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.15281.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -11474,7 +10939,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.15229.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -11495,7 +10959,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.15122.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -11516,7 +10979,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.14699.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -11537,7 +10999,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.14638.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -11558,7 +11019,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.13167.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -11579,7 +11039,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.13175.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -11600,7 +11059,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.13159.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -11621,7 +11079,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.13153.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -11642,7 +11099,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.13022.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -11663,7 +11119,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.12999.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -11684,7 +11139,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.12905.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -11705,7 +11159,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.12811.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -11726,7 +11179,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.12800.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -11747,7 +11199,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.12799.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -11768,7 +11219,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.10331.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -11789,7 +11239,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.10001.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -11810,7 +11259,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.10486.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -11831,7 +11279,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.10316.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -11852,7 +11299,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.10012.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -11873,7 +11319,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.09878.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -11894,7 +11339,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.09588.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -11915,7 +11359,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.09491.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -11936,7 +11379,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.09129.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -11957,7 +11399,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.09097.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -11978,7 +11419,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.06598.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -11999,7 +11439,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.06978.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -12020,7 +11459,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.06827.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -12041,7 +11479,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.06815.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -12062,7 +11499,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.06716.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -12083,7 +11519,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.06651.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -12104,7 +11539,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.05740.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -12125,7 +11559,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.05544.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -12146,7 +11579,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.05517.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -12167,7 +11599,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.05296.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -12188,7 +11619,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.02437.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -12209,7 +11639,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.02316.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -12230,7 +11659,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.02278.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -12251,7 +11679,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.01957.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -12272,7 +11699,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.02158.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -12293,7 +11719,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.02045.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -12314,7 +11739,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.01960.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -12335,7 +11759,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.01844.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -12356,7 +11779,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.01732.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -12377,7 +11799,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2504.01647.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -12398,7 +11819,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.22676.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -12419,7 +11839,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.22605.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -12440,7 +11859,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.22437.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -12461,7 +11879,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.22324.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -12482,7 +11899,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.22225.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -12503,7 +11919,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.22218.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -12524,7 +11939,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.22204.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -12545,7 +11959,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.22159.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -12566,7 +11979,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.21364.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -12587,7 +11999,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.20776.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -12608,7 +12019,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.21779.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -12629,7 +12039,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.21767.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -12650,7 +12059,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.21442.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -12671,7 +12079,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.21226.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -12692,7 +12099,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.21104.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -12713,7 +12119,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.20779.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -12734,7 +12139,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.20221.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -12755,7 +12159,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.20168.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -12776,7 +12179,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.18458.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -12797,7 +12199,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.18794.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -12818,7 +12219,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.18718.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -12839,7 +12239,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.18682.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -12860,7 +12259,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.18640.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -12881,7 +12279,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.18421.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -12902,7 +12299,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.18402.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -12923,7 +12319,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.18275.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -12944,7 +12339,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.18108.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -12965,7 +12359,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.18107.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -12986,7 +12379,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.14736.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -13007,7 +12399,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.14698.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -13028,7 +12419,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.14475.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -13049,7 +12439,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.14274.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -13070,7 +12459,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.14198.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -13091,7 +12479,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.14171.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -13112,7 +12499,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.14029.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -13133,7 +12519,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.13948.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -13154,7 +12539,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.13272.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -13175,7 +12559,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.13176.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -13196,7 +12579,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.10625.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -13217,7 +12599,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.10604.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -13238,7 +12619,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.10437.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -13259,7 +12639,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.10286.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -13280,7 +12659,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.10256.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -13301,7 +12679,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.10170.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -13322,7 +12699,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.10148.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -13343,7 +12719,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.10143.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -13364,7 +12739,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.09464.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>
@@ -13385,7 +12759,6 @@ title: Gaussian Splatting
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2503.09447.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
     </details>

@@ -1,77 +1,60 @@
 (() => {
-  const previews = document.querySelectorAll(".paper-preview[data-pdf]");
-  if (!previews.length) {
-    return;
-  }
-
-  let pdfjsPromise = null;
-
-  const loadPdfJs = () => {
-    if (pdfjsPromise) {
-      return pdfjsPromise;
-    }
-    pdfjsPromise = new Promise((resolve, reject) => {
-      const script = document.createElement("script");
-      script.src = "https://cdn.jsdelivr.net/npm/pdfjs-dist@4.2.67/build/pdf.min.js";
-      script.onload = () => {
-        if (!window.pdfjsLib) {
-          reject(new Error("PDF.js failed to load."));
-          return;
-        }
-        window.pdfjsLib.GlobalWorkerOptions.workerSrc =
-          "https://cdn.jsdelivr.net/npm/pdfjs-dist@4.2.67/build/pdf.worker.min.js";
-        resolve(window.pdfjsLib);
-      };
-      script.onerror = () => reject(new Error("PDF.js script error."));
-      document.head.appendChild(script);
-    });
-    return pdfjsPromise;
+  // Convert arxiv PDF URL to ar5iv HTML preview URL
+  // e.g. https://arxiv.org/pdf/2603.21785.pdf -> https://ar5iv.labs.arxiv.org/html/2603.21785
+  const toAr5ivUrl = (pdfUrl) => {
+    const match = pdfUrl.match(/arxiv\.org\/pdf\/([^/.]+(?:\.\d+)?)/);
+    if (!match) return null;
+    return `https://ar5iv.labs.arxiv.org/html/${match[1]}`;
   };
 
-  const renderPreview = async (preview) => {
+  const loadPreview = (preview) => {
     const pdfUrl = preview.dataset.pdf;
-    if (!pdfUrl) {
-      return;
-    }
+    if (!pdfUrl) return;
+
     const placeholder = preview.querySelector(".preview-placeholder");
-    const canvas = preview.querySelector(".preview-canvas");
-    if (!canvas) {
+    const ar5ivUrl = toAr5ivUrl(pdfUrl);
+
+    if (!ar5ivUrl) {
+      if (placeholder) placeholder.textContent = "Preview not available.";
       return;
     }
-    placeholder.textContent = "Rendering preview…";
-    try {
-      const pdfjsLib = await loadPdfJs();
-      const loadingTask = pdfjsLib.getDocument(pdfUrl);
-      const pdf = await loadingTask.promise;
-      const page = await pdf.getPage(1);
-      const viewport = page.getViewport({ scale: 1 });
-      const maxWidth = 360;
-      const scale = Math.min(1.4, maxWidth / viewport.width);
-      const scaled = page.getViewport({ scale });
-      canvas.width = scaled.width;
-      canvas.height = scaled.height;
-      const context = canvas.getContext("2d", { alpha: false });
-      await page.render({ canvasContext: context, viewport: scaled }).promise;
-      canvas.classList.add("is-ready");
-      placeholder.textContent = "";
-    } catch (error) {
-      placeholder.textContent = "Preview unavailable for this paper.";
-    }
+
+    if (placeholder) placeholder.textContent = "Loading paper preview…";
+
+    const iframe = document.createElement("iframe");
+    iframe.className = "preview-frame";
+    iframe.sandbox = "allow-scripts allow-same-origin";
+    iframe.loading = "lazy";
+    iframe.title = "Paper preview";
+    iframe.src = ar5ivUrl;
+
+    iframe.addEventListener("load", () => {
+      iframe.classList.add("is-ready");
+      if (placeholder) placeholder.style.display = "none";
+    });
+
+    iframe.addEventListener("error", () => {
+      if (placeholder) {
+        placeholder.textContent = "Preview unavailable — ";
+        const link = document.createElement("a");
+        link.href = pdfUrl;
+        link.textContent = "open PDF directly";
+        link.target = "_blank";
+        link.rel = "noopener";
+        placeholder.appendChild(link);
+      }
+    });
+
+    preview.appendChild(iframe);
   };
 
+  // Lazy-load on expand
   document.addEventListener("toggle", (event) => {
     const details = event.target;
-    if (!(details instanceof HTMLDetailsElement)) {
-      return;
-    }
-    if (!details.open) {
-      return;
-    }
+    if (!(details instanceof HTMLDetailsElement) || !details.open) return;
     const preview = details.querySelector(".paper-preview[data-pdf]");
-    if (!preview || preview.dataset.loaded === "true") {
-      return;
-    }
+    if (!preview || preview.dataset.loaded === "true") return;
     preview.dataset.loaded = "true";
-    renderPreview(preview);
-  });
+    loadPreview(preview);
+  }, true);
 })();
