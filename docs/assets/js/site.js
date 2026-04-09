@@ -1,46 +1,4 @@
 (() => {
-  /* ─── Resizable columns ─── */
-  const reader = document.querySelector(".reader");
-  if (reader) {
-    const handles = reader.querySelectorAll(".col-resize");
-    handles.forEach((handle, idx) => {
-      let startX, startWidths;
-
-      const onMouseMove = (e) => {
-        const dx = e.clientX - startX;
-        // cols: [sidebar, handle, list, handle, detail]
-        if (idx === 0) {
-          const sidebar = Math.max(120, Math.min(360, startWidths[0] + dx));
-          reader.style.gridTemplateColumns = `${sidebar}px 5px ${startWidths[2]}px 5px 1fr`;
-        } else {
-          const list = Math.max(200, Math.min(600, startWidths[2] + dx));
-          reader.style.gridTemplateColumns = `${startWidths[0]}px 5px ${list}px 5px 1fr`;
-        }
-      };
-
-      const onMouseUp = () => {
-        handle.classList.remove("dragging");
-        document.removeEventListener("mousemove", onMouseMove);
-        document.removeEventListener("mouseup", onMouseUp);
-        // re-enable iframe pointer events
-        reader.querySelectorAll("iframe").forEach((f) => (f.style.pointerEvents = ""));
-      };
-
-      handle.addEventListener("mousedown", (e) => {
-        e.preventDefault();
-        handle.classList.add("dragging");
-        startX = e.clientX;
-        const cols = getComputedStyle(reader).gridTemplateColumns.split(/\s+/);
-        startWidths = cols.map((c) => parseFloat(c));
-        // disable iframe pointer events during drag so mousemove works
-        reader.querySelectorAll("iframe").forEach((f) => (f.style.pointerEvents = "none"));
-        document.addEventListener("mousemove", onMouseMove);
-        document.addEventListener("mouseup", onMouseUp);
-      });
-    });
-  }
-
-  /* ─── Paper selection ─── */
   const dataEl = document.getElementById("papers-data");
   if (!dataEl) return;
 
@@ -72,6 +30,8 @@
     if (p.code_url) links += `<a class="chip" href="${escape(p.code_url)}" target="_blank" rel="noopener">Code</a>`;
     if (!p.code_url) links += `<span class="chip ghost">Code: N/A</span>`;
 
+    const comment = p.comments ? `<span class="detail-bar-comment">${escape(p.comments)}</span>` : "";
+
     const htmlUrl = toHtmlUrl(p.pdf_url);
     const viewer = htmlUrl
       ? `<div class="detail-viewer"><iframe src="${escape(htmlUrl)}" title="Paper HTML view"></iframe></div>`
@@ -80,6 +40,7 @@
     detail.innerHTML =
       `<div class="detail-bar">` +
         `<span class="detail-bar-title">${escape(p.title)}</span>` +
+        comment +
         `<div class="detail-bar-links">${links}</div>` +
       `</div>` +
       viewer;

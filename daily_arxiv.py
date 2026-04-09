@@ -471,9 +471,6 @@ def write_topic_page(topic: str, papers: dict, md_path: str, to_web: bool,
                 f.write(f"{escape_html(t)} <span class=\"sidebar-count\">{count}</span></a>\n")
             f.write("  </nav>\n")
 
-            # resize handle: sidebar | list
-            f.write("  <div class=\"col-resize\"></div>\n")
-
             # paper list
             f.write("  <section class=\"reader-list\">\n")
             f.write(f"    <div class=\"list-header\"><h2>{escape_html(topic)}</h2>")
@@ -498,9 +495,6 @@ def write_topic_page(topic: str, papers: dict, md_path: str, to_web: bool,
             f.write("    </div>\n")
             f.write("  </section>\n")
 
-            # resize handle: list | detail
-            f.write("  <div class=\"col-resize\"></div>\n")
-
             # detail panel (populated by JS)
             f.write("  <section class=\"reader-detail\" id=\"reader-detail\">\n")
             f.write("    <div class=\"detail-empty\">Select a paper to read</div>\n")
@@ -523,6 +517,7 @@ def write_topic_page(topic: str, papers: dict, md_path: str, to_web: bool,
                     "pdf_url": ensure_https(pd.get("pdf_url", "")),
                     "code_url": pd.get("code_url", ""),
                     "updated": pd.get("updated", ""),
+                    "comments": pd.get("comments", ""),
                 }
             f.write("<script id=\"papers-data\" type=\"application/json\">\n")
             f.write(json.dumps(papers_json, ensure_ascii=False))
