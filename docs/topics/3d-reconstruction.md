@@ -26,6 +26,7 @@ title: 3D Reconstruction
     <a class="sidebar-link" href="world-model.html">World Model <span class="sidebar-count">10</span></a>
     <a class="sidebar-link" href="flow-matching.html">Flow Matching <span class="sidebar-count">10</span></a>
   </nav>
+  <div class="col-resize"></div>
   <section class="reader-list">
     <div class="list-header"><h2>3D Reconstruction</h2><span>327 papers</span></div>
     <div class="list-items">
@@ -1339,6 +1340,7 @@ title: 3D Reconstruction
       </div>
     </div>
   </section>
+  <div class="col-resize"></div>
   <section class="reader-detail" id="reader-detail">
     <div class="detail-empty">Select a paper to read</div>
   </section>

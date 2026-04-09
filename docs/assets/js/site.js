@@ -1,4 +1,46 @@
 (() => {
+  /* ─── Resizable columns ─── */
+  const reader = document.querySelector(".reader");
+  if (reader) {
+    const handles = reader.querySelectorAll(".col-resize");
+    handles.forEach((handle, idx) => {
+      let startX, startWidths;
+
+      const onMouseMove = (e) => {
+        const dx = e.clientX - startX;
+        // cols: [sidebar, handle, list, handle, detail]
+        if (idx === 0) {
+          const sidebar = Math.max(120, Math.min(360, startWidths[0] + dx));
+          reader.style.gridTemplateColumns = `${sidebar}px 5px ${startWidths[2]}px 5px 1fr`;
+        } else {
+          const list = Math.max(200, Math.min(600, startWidths[2] + dx));
+          reader.style.gridTemplateColumns = `${startWidths[0]}px 5px ${list}px 5px 1fr`;
+        }
+      };
+
+      const onMouseUp = () => {
+        handle.classList.remove("dragging");
+        document.removeEventListener("mousemove", onMouseMove);
+        document.removeEventListener("mouseup", onMouseUp);
+        // re-enable iframe pointer events
+        reader.querySelectorAll("iframe").forEach((f) => (f.style.pointerEvents = ""));
+      };
+
+      handle.addEventListener("mousedown", (e) => {
+        e.preventDefault();
+        handle.classList.add("dragging");
+        startX = e.clientX;
+        const cols = getComputedStyle(reader).gridTemplateColumns.split(/\s+/);
+        startWidths = cols.map((c) => parseFloat(c));
+        // disable iframe pointer events during drag so mousemove works
+        reader.querySelectorAll("iframe").forEach((f) => (f.style.pointerEvents = "none"));
+        document.addEventListener("mousemove", onMouseMove);
+        document.addEventListener("mouseup", onMouseUp);
+      });
+    });
+  }
+
+  /* ─── Paper selection ─── */
   const dataEl = document.getElementById("papers-data");
   if (!dataEl) return;
 
@@ -12,8 +54,6 @@
     return d.innerHTML;
   };
 
-  // arxiv PDF url -> arxiv HTML url
-  // https://arxiv.org/pdf/2603.21785.pdf -> https://arxiv.org/html/2603.21785
   const toHtmlUrl = (pdfUrl) => {
     if (!pdfUrl) return "";
     const m = pdfUrl.match(/arxiv\.org\/pdf\/([^/.]+(?:\.\d+)?)/);
@@ -34,7 +74,7 @@
 
     const htmlUrl = toHtmlUrl(p.pdf_url);
     const viewer = htmlUrl
-      ? `<div class="detail-viewer"><iframe src="${escape(htmlUrl)}" title="Paper HTML view" loading="lazy"></iframe></div>`
+      ? `<div class="detail-viewer"><iframe src="${escape(htmlUrl)}" title="Paper HTML view"></iframe></div>`
       : `<div class="detail-empty">HTML version not available</div>`;
 
     detail.innerHTML =
@@ -49,7 +89,6 @@
     el.addEventListener("click", () => selectPaper(el.dataset.id));
   });
 
-  // auto-select first paper
   if (listItems.length > 0) {
     selectPaper(listItems[0].dataset.id);
   }
