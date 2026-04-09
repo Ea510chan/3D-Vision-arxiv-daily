@@ -429,64 +429,98 @@ def write_index_page(data: dict,
             f.write((f"[issues-url]: https://github.com/Vincentqyw/"
                      f"cv-arxiv-daily/issues\n\n"))
 
-def write_topic_page(topic: str, papers: dict, md_path: str, to_web: bool):
+def _first_author_display(authors: str) -> str:
+    if not authors:
+        return ""
+    first = authors.split(",")[0].strip()
+    return f"{first} et al." if "," in authors else first
+
+def write_topic_page(topic: str, papers: dict, md_path: str, to_web: bool,
+                     all_topics: dict = None):
     date_now = str(datetime.date.today()).replace("-", ".")
     with open(md_path, "w+") as f:
         if to_web:
-            accent = TOPIC_ACCENTS.get(topic, "#28d8ff")
-            f.write("---\nlayout: default\n")
+            f.write("---\nlayout: reader\n")
             f.write(f"title: {topic}\n---\n\n")
-            f.write(f"<section class=\"topic-hero\" style=\"--accent: {accent};\">\n")
-            f.write(f"  <div>\n")
-            f.write(f"    <p class=\"eyebrow\">Topic</p>\n")
-            f.write(f"    <h1>{escape_html(topic)}</h1>\n")
-            f.write(f"    <p class=\"topic-lede\">Updated {date_now} · {len(papers)} papers</p>\n")
-            f.write("  </div>\n")
-            f.write(f"  <a class=\"btn ghost\" href=\"../index.html#topics\">← Back to topics</a>\n")
-            f.write("</section>\n\n")
 
-            f.write("<section class=\"paper-grid\">\n")
-            for paper_id, paper in sort_papers_by_date(papers):
+            # --- reader layout ---
+            f.write("<div class=\"reader\">\n")
+
+            # header
+            f.write("  <header class=\"reader-header\">\n")
+            f.write("    <a class=\"brand\" href=\"../index.html\">\n")
+            f.write("      <span class=\"brand-mark\"></span>\n")
+            f.write("      <span>3D Vision arXiv Daily</span>\n")
+            f.write("    </a>\n")
+            f.write(f"    <span class=\"reader-title\">{escape_html(topic)}")
+            f.write(f" <span class=\"reader-count\">{len(papers)} papers</span></span>\n")
+            f.write("    <nav class=\"reader-nav\">\n")
+            f.write("      <a href=\"../index.html\">Dashboard</a>\n")
+            f.write("    </nav>\n")
+            f.write("  </header>\n")
+
+            # sidebar
+            f.write("  <nav class=\"reader-sidebar\">\n")
+            f.write("    <div class=\"sidebar-title\">Topics</div>\n")
+            topics_for_sidebar = all_topics if all_topics else {topic: papers}
+            for t, t_papers in topics_for_sidebar.items():
+                slug = slugify_topic(t)
+                active = " active" if t == topic else ""
+                count = len(t_papers) if t_papers else 0
+                f.write(f"    <a class=\"sidebar-link{active}\" href=\"{slug}.html\">")
+                f.write(f"{escape_html(t)} <span class=\"sidebar-count\">{count}</span></a>\n")
+            f.write("  </nav>\n")
+
+            # paper list
+            f.write("  <section class=\"reader-list\">\n")
+            f.write(f"    <div class=\"list-header\"><h2>{escape_html(topic)}</h2>")
+            f.write(f"<span>{len(papers)} papers</span></div>\n")
+            f.write("    <div class=\"list-items\">\n")
+            sorted_items = sort_papers_by_date(papers)
+            for paper_id, paper in sorted_items:
                 paper_data = paper_to_dict(paper_id, paper)
                 title = escape_html(paper_data.get("title", "Untitled"))
-                authors = escape_html(paper_data.get("authors", ""))
-                summary = (paper_data.get("summary", "") or "").strip()
-                if not summary:
-                    summary = "Abstract unavailable in cached data. It will appear after the next refresh."
-                summary = escape_html(summary)
-                arxiv_link = ensure_https(paper_data.get("arxiv_url", ""))
-                pdf_link = ensure_https(paper_data.get("pdf_url", ""))
-                code_link = paper_data.get("code_url", "")
+                authors_full = paper_data.get("authors", "")
+                first_author = escape_html(_first_author_display(authors_full))
                 updated = paper_data.get("updated", "")
-
-                f.write("  <article class=\"paper-card\">\n")
-                f.write("    <details class=\"paper-details\">\n")
-                f.write("      <summary>\n")
-                f.write(f"        <span class=\"paper-title\">{title}</span>\n")
-                f.write(f"        <span class=\"paper-authors\">{authors}</span>\n")
+                f.write(f"      <div class=\"list-item\" data-id=\"{escape_html(paper_id)}\">\n")
+                f.write(f"        <div class=\"list-item-title\">{title}</div>\n")
+                meta_parts = []
+                if first_author:
+                    meta_parts.append(first_author)
                 if updated:
-                    f.write(f"        <span class=\"paper-meta\">Updated {escape_html(updated)}</span>\n")
-                f.write("      </summary>\n")
-                f.write("      <div class=\"paper-body\">\n")
-                f.write(f"        <p class=\"paper-abstract\">{summary}</p>\n")
-                f.write("        <div class=\"paper-links\">\n")
-                if arxiv_link:
-                    f.write(f"          <a class=\"chip\" href=\"{arxiv_link}\">arXiv</a>\n")
-                if pdf_link:
-                    f.write(f"          <a class=\"chip\" href=\"{pdf_link}\">PDF</a>\n")
-                if code_link:
-                    f.write(f"          <a class=\"chip\" href=\"{code_link}\">Code</a>\n")
-                else:
-                    f.write("          <span class=\"chip ghost\">Code: N/A</span>\n")
-                f.write("        </div>\n")
-                if pdf_link:
-                    f.write(f"        <div class=\"paper-preview\" data-pdf=\"{pdf_link}\">\n")
-                    f.write("          <div class=\"preview-placeholder\">Preview loads on expand</div>\n")
-                    f.write("        </div>\n")
+                    meta_parts.append(updated)
+                f.write(f"        <div class=\"list-item-meta\">{' · '.join(meta_parts)}</div>\n")
                 f.write("      </div>\n")
-                f.write("    </details>\n")
-                f.write("  </article>\n")
-            f.write("</section>\n")
+            f.write("    </div>\n")
+            f.write("  </section>\n")
+
+            # detail panel (populated by JS)
+            f.write("  <section class=\"reader-detail\" id=\"reader-detail\">\n")
+            f.write("    <div class=\"detail-empty\">Select a paper to read</div>\n")
+            f.write("  </section>\n")
+
+            f.write("</div>\n\n")
+
+            # JSON data blob for JS
+            papers_json = {}
+            for paper_id, paper in sorted_items:
+                pd = paper_to_dict(paper_id, paper)
+                summary = (pd.get("summary", "") or "").strip()
+                if not summary:
+                    summary = "Abstract unavailable. It will appear after the next refresh."
+                papers_json[paper_id] = {
+                    "title": pd.get("title", ""),
+                    "authors": pd.get("authors", ""),
+                    "summary": summary,
+                    "arxiv_url": ensure_https(pd.get("arxiv_url", "")),
+                    "pdf_url": ensure_https(pd.get("pdf_url", "")),
+                    "code_url": pd.get("code_url", ""),
+                    "updated": pd.get("updated", ""),
+                }
+            f.write("<script id=\"papers-data\" type=\"application/json\">\n")
+            f.write(json.dumps(papers_json, ensure_ascii=False))
+            f.write("\n</script>\n")
             return
 
         f.write(f"# {topic}\n\n")
@@ -504,7 +538,7 @@ def write_topic_pages(data: dict, topics_dir: str, to_web: bool):
     for topic, papers in data.items():
         slug = slugify_topic(topic)
         md_path = os.path.join(topics_dir, f"{slug}.md")
-        write_topic_page(topic, papers, md_path, to_web)
+        write_topic_page(topic, papers, md_path, to_web, all_topics=data)
 
 def get_code_link(qword:str) -> str:
     """

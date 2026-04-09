@@ -10,24 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
   </head>
-  <body>
-    <div class="dash-page">
-      <header class="dash-header">
-        <a class="brand" href="{{ '/' | relative_url }}">
-          <span class="brand-mark"></span>
-          <span>3D Vision arXiv Daily</span>
-        </a>
-        <nav class="dash-nav">
-          <a href="{{ site.repo_url }}">GitHub</a>
-        </nav>
-      </header>
-      <main class="dash-main">
-        {{ content }}
-      </main>
-      <footer class="dash-footer">
-        <span>Updated daily by GitHub Actions</span>
-        <span><a href="{{ site.repo_url }}">Source</a></span>
-      </footer>
-    </div>
+  <body class="reader-page">
+    {{ content }}
+    <script src="{{ '/assets/js/site.js' | relative_url }}"></script>
   </body>
 </html>
