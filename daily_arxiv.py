@@ -232,7 +232,7 @@ def strip_arxiv_version(arxiv_id: str) -> str:
 def fetch_arxiv_metadata(id_list):
     if arxiv is None:
         raise RuntimeError("Missing dependency: install the 'arxiv' package to fetch papers.")
-    client = arxiv.Client()
+    client = arxiv.Client(delay_seconds=5.0, num_retries=5)
     search = arxiv.Search(id_list=id_list)
     results = {}
     for result in client.results(search):
@@ -528,19 +528,21 @@ def get_code_link(qword:str) -> str:
         logging.debug(f"GitHub search failed for {qword}: {e}")
         return None
   
-def get_daily_papers(topic, query="slam", max_results=2):
+def get_daily_papers(topic, query="slam", max_results=2, client=None):
     """
     @param topic: str
     @param query: str
+    @param client: arxiv.Client (optional, shared across calls to respect rate limits)
     @return paper_with_code: dict
     """
     if arxiv is None:
         raise RuntimeError("Missing dependency: install the 'arxiv' package to fetch papers.")
-    # output 
+    # output
     content = dict()
     content_to_web = dict()
     content_to_wechat = dict()
-    client = arxiv.Client()
+    if client is None:
+        client = arxiv.Client(delay_seconds=5.0, num_retries=5)
     search = arxiv.Search(
         query = query,
         max_results = max_results,
@@ -855,14 +857,17 @@ def demo(**config):
     logging.info(f'Update Paper Link = {b_update}')
     if config['update_paper_links'] == False:
         logging.info(f"GET daily papers begin")
+        shared_client = arxiv.Client(delay_seconds=5.0, num_retries=5) if arxiv else None
         for topic, keyword in keywords.items():
             logging.info(f"Keyword: {topic}")
             data, data_web, data_wechat = get_daily_papers(topic, query = keyword,
-                                                          max_results = max_results)
+                                                          max_results = max_results,
+                                                          client = shared_client)
             data_collector.append(data)
             data_collector_web.append(data_web)
             data_collector_wechat.append(data_wechat)
             print("\n")
+            time.sleep(5)
         logging.info(f"GET daily papers end")
 
     # 1. update README.md file

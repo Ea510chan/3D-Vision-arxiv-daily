@@ -47,6 +47,18 @@ keywords:
         filters: ["NeRF"]
     "Gaussian Splatting":
         filters: ["Gaussian Splatting"]
+    "World Model":
+        filters: ["World Model", "World Models",
+                  "Video Prediction Model", "Video Generation Model",
+                  "Neural World Simulator", "World Simulator",
+                  "Predictive World Model", "Action-Conditioned Video Prediction",
+                  "Autonomous Driving World Model", "Embodied World Model"]
+    "Flow Matching":
+        filters: ["Flow Matching", "Rectified Flow",
+                  "Conditional Flow Matching", "Flow-Based Policy",
+                  "Flow Matching for Video", "Flow-Based Generation",
+                  "Diffusion Bridge", "Stochastic Interpolant",
+                  "Flow Matching for 3D", "Flow Matching for Robot"]
 
 # topic maintenance
 topic_merge:
