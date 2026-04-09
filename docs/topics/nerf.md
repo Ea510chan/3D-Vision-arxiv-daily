@@ -7,12 +7,138 @@ title: NeRF
   <div>
     <p class="eyebrow">Topic</p>
     <h1>NeRF</h1>
-    <p class="topic-lede">Updated 2026.04.06 · 328 papers</p>
+    <p class="topic-lede">Updated 2026.04.09 · 333 papers</p>
   </div>
   <a class="btn ghost" href="../index.html#topics">← Back to topics</a>
 </section>
 
 <section class="paper-grid">
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">3DTurboQuant: Training-Free Near-Optimal Quantization for 3D Reconstruction Models</span>
+        <span class="paper-authors">Jae Joong Lee</span>
+        <span class="paper-meta">Updated 2026-04-07</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Every existing method for compressing 3D Gaussian Splatting, NeRF, or transformer-based 3D reconstructors requires learning a data-dependent codebook through per-scene fine-tuning. We show this is unnecessary. The parameter vectors that dominate storage in these models, 45-dimensional spherical harmonics in 3DGS and 1024-dimensional key-value vectors in DUSt3R, fall in a dimension range where a single random rotation transforms any input into coordinates with a known Beta distribution. This makes precomputed, data-independent Lloyd-Max quantization near-optimal, within a factor of 2.7 of the information-theoretic lower bound. We develop 3D, deriving (1) a dimension-dependent criterion that predicts which parameters can be quantized and at what bit-width before running any experiment, (2) norm-separation bounds connecting quantization MSE to rendering PSNR per scene, (3) an entry-grouping strategy extending rotation-based quantization to 2-dimensional hash grid features, and (4) a composable pruning-quantization pipeline with a closed-form compression ratio. On NeRF Synthetic, 3DTurboQuant compresses 3DGS by 3.5x with 0.02dB PSNR loss and DUSt3R KV caches by 7.9x with 39.7dB pointmap fidelity. No training, no codebook learning, no calibration data. Compression takes seconds. The code will be released (https://github.com/JaeLee18/3DTurboQuant)</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2604.05366">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2604.05366.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2604.05366.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">GEMM-GS: Accelerating 3D Gaussian Splatting on Tensor Cores with GEMM-Compatible Blending</span>
+        <span class="paper-authors">Haomin Li, Bowen Zhu, Fangxin Liu, Zongwu Wang, Xinran Liang, Li Jiang, Haibing Guan</span>
+        <span class="paper-meta">Updated 2026-04-06</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Neural Radiance Fields (NeRF) enables 3D scene reconstruction from several 2D images but incurs high rendering latency via its point-sampling design. 3D Gaussian Splatting (3DGS) improves on NeRF with explicit scene representation and an optimized pipeline yet still fails to meet practical real-time demands. Existing acceleration works overlook the evolving Tensor Cores of modern GPUs because 3DGS pipeline lacks General Matrix Multiplication (GEMM) operations. This paper proposes GEMM-GS, an acceleration approach utilizing tensor cores on GPUs via GEMM-friendly blending transformation. It equivalently reformulates the 3DGS blending process into a GEMM-compatible form to utilize Tensor Cores. A high-performance CUDA kernel is designed, integrating a three-stage double-buffered pipeline that overlaps computation and memory access. Extensive experiments show that GEMM-GS achieves $1.42\times$ speedup over vanilla 3DGS and provides an additional $1.47\times$ speedup on average when combining with existing acceleration approaches. Code is released at https://github.com/shieldforever/GEMM-GS.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2604.02120">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2604.02120.pdf">PDF</a>
+          <a class="chip" href="https://github.com/shieldforever/GEMM-GS">Code</a>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2604.02120.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Factorized Multi-Resolution HashGrid for Efficient Neural Radiance Fields: Execution on Edge-Devices</span>
+        <span class="paper-authors">Kim Jun-Seong, Mingyu Kim, GeonU Kim, Tae-Hyun Oh, Jin-Hwa Kim</span>
+        <span class="paper-meta">Updated 2026-04-03</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">We introduce Fact-Hash, a novel parameter-encoding method for training on-device neural radiance fields. Neural Radiance Fields (NeRF) have proven pivotal in 3D representations, but their applications are limited due to large computational resources. On-device training can open large application fields, providing strength in communication limitations, privacy concerns, and fast adaptation to a frequently changing scene. However, challenges such as limited resources (GPU memory, storage, and power) impede their deployment. To handle this, we introduce Fact-Hash, a novel parameter-encoding merging Tensor Factorization and Hash-encoding techniques. This integration offers two benefits: the use of rich high-resolution features and the few-shot robustness. In Fact-Hash, we project 3D coordinates into multiple lower-dimensional forms (2D or 1D) before applying the hash function and then aggregate them into a single feature. Comparative evaluations against state-of-the-art methods demonstrate Fact-Hash&#x27;s superior memory efficiency, preserving quality and rendering speed. Fact-Hash saves memory usage by over one-third while maintaining the PSNR values compared to previous encoding methods. The on-device experiment validates the superiority of Fact-Hash compared to alternative positional encoding methods in computational efficiency and energy consumption. These findings highlight Fact-Hash as a promising solution to improve feature grid representation, address memory constraints, and improve quality in various applications. Project page: https://facthash.github.io/</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2604.02836">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2604.02836.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2604.02836.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">SVGS: Single-View to 3D Object Editing via Gaussian Splatting</span>
+        <span class="paper-authors">Pengcheng Xue, Yan Tian, Qiutao Song, Ziyi Wang, Linyang He, Weiping Ding, Mahmoud Hassaballah, Karen Egiazarian, Wei-Fa Yang, Leszek Rutkowski</span>
+        <span class="paper-meta">Updated 2026-03-30</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Text-driven 3D scene editing has attracted considerable interest due to its convenience and user-friendliness. However, methods that rely on implicit 3D representations, such as Neural Radiance Fields (NeRF), while effective in rendering complex scenes, are hindered by slow processing speeds and limited control over specific regions of the scene. Moreover, existing approaches, including Instruct-NeRF2NeRF and GaussianEditor, which utilize multi-view editing strategies, frequently produce inconsistent results across different views when executing text instructions. This inconsistency can adversely affect the overall performance of the model, complicating the task of balancing the consistency of editing results with editing efficiency. To address these challenges, we propose a novel method termed Single-View to 3D Object Editing via Gaussian Splatting (SVGS), which is a single-view text-driven editing technique based on 3D Gaussian Splatting (3DGS). Specifically, in response to text instructions, we introduce a single-view editing strategy grounded in multi-view diffusion models, which reconstructs 3D scenes by leveraging only those views that yield consistent editing results. Additionally, we employ sparse 3D Gaussian Splatting as the 3D representation, which significantly enhances editing efficiency. We conducted a comparative analysis of SVGS against existing baseline methods across various scene settings, and the results indicate that SVGS outperforms its counterparts in both editing capability and processing speed, representing a significant advancement in 3D editing technology. For further details, please visit our project page at: https://amateurc.github.io/svgs.github.io.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.28126">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.28126.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.28126.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">To View Transform or Not to View Transform: NeRF-based Pre-training Perspective</span>
+        <span class="paper-authors">Hyeonjun Jeong, Juyeb Shin, Dongsuk Kum</span>
+        <span class="paper-meta">Updated 2026-03-30</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Neural radiance fields (NeRFs) have emerged as a prominent pre-training paradigm for vision-centric autonomous driving, which enhances 3D geometry and appearance understanding in a fully self-supervised manner. To apply NeRF-based pretraining to 3D perception models, recent approaches have simply applied NeRFs to volumetric features obtained from view transformation. However, coupling NeRFs with view transformation inherits conflicting priors; view transformation imposes discrete and rigid representations, whereas radiance fields assume continuous and adaptive functions. When these opposing assumptions are forced into a single pipeline, the misalignment surfaces as blurry and ambiguous 3D representations that ultimately limit 3D scene understanding. Moreover, the NeRF network for pre-training is discarded during downstream tasks, resulting in inefficient utilization of enhanced 3D representations through NeRF. In this paper, we propose a novel NeRF-Resembled Point-based 3D detector that can learn continuous 3D representation and thus avoid the misaligned priors from view transformation. NeRP3D preserves the pre-trained NeRF network regardless of the tasks, inheriting the principle of continuous 3D representation learning and leading to greater potentials for both scene reconstruction and detection tasks. Experiments on nuScenes dataset demonstrate that our proposed approach significantly improves previous state-of-the-art methods, outperforming not only pretext scene reconstruction tasks but also downstream detection tasks.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.28090">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.28090.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.28090.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">Few TensoRF: Enhance the Few-shot on Tensorial Radiance Fields</span>
+        <span class="paper-authors">Thanh-Hai Le, Hoang-Hau Tran, Trong-Nghia Vu</span>
+        <span class="paper-meta">Updated 2026-03-30</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">This paper presents Few TensoRF, a 3D reconstruction framework that combines TensorRF&#x27;s efficient tensor based representation with FreeNeRF&#x27;s frequency driven few shot regularization. Using TensorRF to significantly accelerate rendering speed and introducing frequency and occlusion masks, the method improves stability and reconstruction quality under sparse input views. Experiments on the Synthesis NeRF benchmark show that Few TensoRF method improves the average PSNR from 21.45 dB (TensorRF) to 23.70 dB, with the fine tuned version reaching 24.52 dB, while maintaining TensorRF&#x27;s fast \(\approx10-15\) minute training time. Experiments on the THuman 2.0 dataset further demonstrate competitive performance in human body reconstruction, achieving 27.37 - 34.00 dB with only eight input images. These results highlight Few TensoRF as an efficient and data effective solution for real-time 3D reconstruction across diverse scenes.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2603.25008">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2603.25008.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.25008.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
   <article class="paper-card">
     <details class="paper-details">
       <summary>
@@ -28,27 +154,6 @@ title: NeRF
           <span class="chip ghost">Code: N/A</span>
         </div>
         <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.21332.pdf">
-          <div class="preview-placeholder">Preview loads on expand</div>
-          <canvas class="preview-canvas" aria-hidden="true"></canvas>
-        </div>
-      </div>
-    </details>
-  </article>
-  <article class="paper-card">
-    <details class="paper-details">
-      <summary>
-        <span class="paper-title">Few TensoRF: Enhance the Few-shot on Tensorial Radiance Fields</span>
-        <span class="paper-authors">Thanh-Hai Le, Hoang-Hau Tran, Trong-Nghia Vu</span>
-        <span class="paper-meta">Updated 2026-03-27</span>
-      </summary>
-      <div class="paper-body">
-        <p class="paper-abstract">This paper presents Few TensoRF, a 3D reconstruction framework that combines TensorRF&#x27;s efficient tensor based representation with FreeNeRF&#x27;s frequency driven few shot regularization. Using TensorRF to significantly accelerate rendering speed and introducing frequency and occlusion masks, the method improves stability and reconstruction quality under sparse input views. Experiments on the Synthesis NeRF benchmark show that Few TensoRF method improves the average PSNR from 21.45 dB (TensorRF) to 23.70 dB, with the fine tuned version reaching 24.52 dB, while maintaining TensorRF&#x27;s fast \(\approx10-15\) minute training time. Experiments on the THuman 2.0 dataset further demonstrate competitive performance in human body reconstruction, achieving 27.37 - 34.00 dB with only eight input images. These results highlight Few TensoRF as an efficient and data effective solution for real-time 3D reconstruction across diverse scenes.</p>
-        <div class="paper-links">
-          <a class="chip" href="https://arxiv.org/abs/2603.25008">arXiv</a>
-          <a class="chip" href="https://arxiv.org/pdf/2603.25008.pdf">PDF</a>
-          <span class="chip ghost">Code: N/A</span>
-        </div>
-        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2603.25008.pdf">
           <div class="preview-placeholder">Preview loads on expand</div>
           <canvas class="preview-canvas" aria-hidden="true"></canvas>
         </div>

@@ -1,16 +1,19 @@
 # Point Cloud Registration
 
-> Updated on 2026.04.06
+> Updated on 2026.04.09
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|2026-03-27|GLASS: Geometry-aware Local Alignment and Structure Synchronization Network for 2D-3D Registration|Zhixin Cheng et.al.|[2603.26262](https://arxiv.org/abs/2603.26262)|null|
-|2026-03-26|DC-Reg: Globally Optimal Point Cloud Registration via Tight Bounding with Difference of Convex Programming|Wei Lian et.al.|[2603.25442](https://arxiv.org/abs/2603.25442)|null|
-|2026-03-27|PiLoT: Neural Pixel-to-3D Registration for UAV-based Ego and Target Geo-localization|Xiaoya Cheng et.al.|[2603.20778](https://arxiv.org/abs/2603.20778)|[link](https://github.com/nudt-sawlab/PiLoT)|
-|2026-03-15|RegFormer++: An Efficient Large-Scale 3D LiDAR Point Registration Network with Projection-Aware 2D Transformer|Jiuming Liu et.al.|[2603.14290](https://arxiv.org/abs/2603.14290)|null|
-|2026-03-13|CMHANet: A Cross-Modal Hybrid Attention Network for Point Cloud Registration|Dongxu Zhang et.al.|[2603.12721](https://arxiv.org/abs/2603.12721)|null|
-|2026-03-13|IGASA: Integrated Geometry-Aware and Skip-Attention Modules for Enhanced Point Cloud Registration|Dongxu Zhang et.al.|[2603.12719](https://arxiv.org/abs/2603.12719)|null|
-|2026-03-11|TacLoc: Global Tactile Localization on Objects from a Registration Perspective|Zirui Zhang et.al.|[2603.10565](https://arxiv.org/abs/2603.10565)|null|
+|**2026-04-08**|**Exploring 6D Object Pose Estimation with Deformation**|Zhiqiang Liu et.al.|[2604.06720](https://arxiv.org/abs/2604.06720)|null|
+|**2026-04-06**|**R3PM-Net: Real-time, Robust, Real-world Point Matching Network**|Yasaman Kashefbahrami et.al.|[2604.05060](https://arxiv.org/abs/2604.05060)|null|
+|**2026-03-30**|**Hg-I2P: Bridging Modalities for Generalizable Image-to-Point-Cloud Registration via Heterogeneous Graphs**|Pei An et.al.|[2603.27969](https://arxiv.org/abs/2603.27969)|null|
+|**2026-03-27**|**GLASS: Geometry-aware Local Alignment and Structure Synchronization Network for 2D-3D Registration**|Zhixin Cheng et.al.|[2603.26262](https://arxiv.org/abs/2603.26262)|null|
+|**2026-03-26**|**DC-Reg: Globally Optimal Point Cloud Registration via Tight Bounding with Difference of Convex Programming**|Wei Lian et.al.|[2603.25442](https://arxiv.org/abs/2603.25442)|null|
+|**2026-03-27**|**PiLoT: Neural Pixel-to-3D Registration for UAV-based Ego and Target Geo-localization**|Xiaoya Cheng et.al.|[2603.20778](https://arxiv.org/abs/2603.20778)|null|
+|**2026-03-15**|**RegFormer++: An Efficient Large-Scale 3D LiDAR Point Registration Network with Projection-Aware 2D Transformer**|Jiuming Liu et.al.|[2603.14290](https://arxiv.org/abs/2603.14290)|null|
+|**2026-03-13**|**CMHANet: A Cross-Modal Hybrid Attention Network for Point Cloud Registration**|Dongxu Zhang et.al.|[2603.12721](https://arxiv.org/abs/2603.12721)|null|
+|**2026-03-13**|**IGASA: Integrated Geometry-Aware and Skip-Attention Modules for Enhanced Point Cloud Registration**|Dongxu Zhang et.al.|[2603.12719](https://arxiv.org/abs/2603.12719)|null|
+|**2026-03-11**|**TacLoc: Global Tactile Localization on Objects from a Registration Perspective**|Zirui Zhang et.al.|[2603.10565](https://arxiv.org/abs/2603.10565)|null|
 |2026-03-05|SPIRIT: Perceptive Shared Autonomy for Robust Robotic Manipulation under Deep Learning Uncertainty|Jongseok Lee et.al.|[2603.05111](https://arxiv.org/abs/2603.05111)|null|
 |2026-02-11|End-to-End LiDAR optimization for 3D point cloud registration|Siddhant Katyan et.al.|[2602.10492](https://arxiv.org/abs/2602.10492)|null|
 |2026-02-03|Beyond the Vehicle: Cooperative Localization by Fusing Point Clouds for GPS-Challenged Urban Scenarios|Kuo-Yi Chao et.al.|[2602.03908](https://arxiv.org/abs/2602.03908)|null|

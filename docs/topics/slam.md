@@ -7,12 +7,96 @@ title: SLAM
   <div>
     <p class="eyebrow">Topic</p>
     <h1>SLAM</h1>
-    <p class="topic-lede">Updated 2026.04.06 · 230 papers</p>
+    <p class="topic-lede">Updated 2026.04.09 · 234 papers</p>
   </div>
   <a class="btn ghost" href="../index.html#topics">← Back to topics</a>
 </section>
 
 <section class="paper-grid">
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">VGGT-SLAM++</span>
+        <span class="paper-authors">Avilasha Mandal, Rajesh Kumar, Sudarshan Sunil Harithas, Chetan Arora</span>
+        <span class="paper-meta">Updated 2026-04-08</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">We introduce VGGT-SLAM++, a complete visual SLAM system that leverages the geometry-rich outputs of the Visual Geometry Grounded Transformer (VGGT). The system comprises a visual odometry (front-end) fusing the VGGT feed-forward transformer and a Sim(3) solution, a Digital Elevation Map (DEM)-based graph construction module, and a back-end that jointly enable accurate large-scale mapping with bounded memory. While prior transformer-based SLAM pipelines such as VGGT-SLAM rely primarily on sparse loop closures or global Sim(3) manifold constraints - allowing short-horizon pose drift - VGGT-SLAM++ restores high-cadence local bundle adjustment (LBA) through a spatially corrective back-end. For each VGGT submap, we construct a dense planar-canonical DEM, partition it into patches, and compute their DINOv2 embeddings to integrate the submap into a covisibility graph. Spatial neighbors are retrieved using a Visual Place Recognition (VPR) module within the covisibility window, triggering frequent local optimization that stabilizes trajectories. Across standard SLAM benchmarks, VGGT-SLAM++ achieves state-of-the-art accuracy, substantially reducing short-term drift, accelerating graph convergence, and maintaining global consistency with compact DEM tiles and sublinear retrieval.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2604.06830">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2604.06830.pdf">PDF</a>
+          <a class="chip" href="https://github.com/MIT-SPARK/VGGT-SLAM">Code</a>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2604.06830.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">DINO-VO: Learning Where to Focus for Enhanced State Estimation</span>
+        <span class="paper-authors">Qi Chen, Guanghao Li, Sijia Hu, Xin Gao, Junpeng Ma, Xiangyang Xue, Jian Pu</span>
+        <span class="paper-meta">Updated 2026-04-05</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">We present DINO Patch Visual Odometry (DINO-VO), an end-to-end monocular visual odometry system with strong scene generalization. Current Visual Odometry (VO) systems often rely on heuristic feature extraction strategies, which can degrade accuracy and robustness, particularly in large-scale outdoor environments. DINO-VO addresses these limitations by incorporating a differentiable adaptive patch selector into the end-to-end pipeline, improving the quality of extracted patches and enhancing generalization across diverse datasets. Additionally, our system integrates a multi-task feature extraction module with a differentiable bundle adjustment (BA) module that leverages inverse depth priors, enabling the system to learn and utilize appearance and geometric information effectively. This integration bridges the gap between feature learning and state estimation. Extensive experiments on the TartanAir, KITTI, Euroc, and TUM datasets demonstrate that DINO-VO exhibits strong generalization across synthetic, indoor, and outdoor environments, achieving state-of-the-art tracking accuracy.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2604.04055">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2604.04055.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2604.04055.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">ViBA: Implicit Bundle Adjustment with Geometric and Temporal Consistency for Robust Visual Matching</span>
+        <span class="paper-authors">Xiaoji Niu, Yuqing Wang, Yan Wang, Hailiang Tang, Tisheng Zhang</span>
+        <span class="paper-meta">Updated 2026-04-03</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Most existing image keypoint detection and description methods rely on datasets with accurate pose and depth annotations, limiting scalability and generalization, and often degrading navigation and localization performance. We propose ViBA, a sustainable learning framework that integrates geometric optimization with feature learning for continuous online training on unconstrained video streams. Embedded in a standard visual odometry pipeline, it consists of an implicitly differentiable geometric residual framework: (i) an initial tracking network for inter-frame correspondences, (ii) depth-based outlier filtering, and (iii) differentiable global bundle adjustment that jointly refines camera poses and feature positions by minimizing reprojection errors. By combining geometric consistency from BA with long-term temporal consistency across frames, ViBA enforces stable and accurate feature representations. We evaluate ViBA on EuRoC and UMA datasets. Compared with state-of-the-art methods such as SuperPoint+SuperGlue, ALIKED, and LightGlue, ViBA reduces mean absolute translation error (ATE) by 12-18% and absolute rotation error (ARE) by 5-10% across sequences, while maintaining real-time inference speeds (FPS 36-91). When evaluated on unseen sequences, it retains over 90% localization accuracy, demonstrating robust generalization. These results show that ViBA supports continuous online learning with geometric and temporal consistency, consistently improving navigation and localization in real-world scenarios.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2604.03377">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2604.03377.pdf">PDF</a>
+          <span class="chip ghost">Code: N/A</span>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2604.03377.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
+  <article class="paper-card">
+    <details class="paper-details">
+      <summary>
+        <span class="paper-title">HyVGGT-VO: Tightly Coupled Hybrid Dense Visual Odometry with Feed-Forward Models</span>
+        <span class="paper-authors">Junxiang Pan, Lipu Zhou, Baojie Chen</span>
+        <span class="paper-meta">Updated 2026-04-02</span>
+      </summary>
+      <div class="paper-body">
+        <p class="paper-abstract">Dense visual odometry (VO), which provides pose estimation and dense 3D reconstruction, serves as the cornerstone for applications ranging from robotics to augmented reality. Recently, feed-forward models have demonstrated remarkable capabilities in dense mapping. However, when these models are used in dense visual SLAM systems, their heavy computational burden restricts them to yielding sparse pose outputs at keyframes while still failing to achieve real-time pose estimation. In contrast, traditional sparse methods provide high computational efficiency and high-frequency pose outputs, but lack the capability for dense reconstruction. To address these limitations, we propose HyVGGT-VO, a novel framework that combines the computational efficiency of sparse VO with the dense reconstruction capabilities of feed-forward models. To the best of our knowledge, this is the first work to tightly couple a traditional VO framework with VGGT, a state-of-the-art feed-forward model. Specifically, we design an adaptive hybrid tracking frontend that dynamically switches between traditional optical flow and the VGGT tracking head to ensure robustness. Furthermore, we introduce a hierarchical optimization framework that jointly refines VO poses and the scale of VGGT predictions to ensure global scale consistency. Our approach achieves an approximately 5x processing speedup compared to existing VGGT-based methods, while reducing the average trajectory error by 85% on the indoor EuRoC dataset and 12% on the outdoor KITTI benchmark. Our code will be publicly available upon acceptance. Project page: https://geneta2580.github.io/HyVGGT-VO.io.</p>
+        <div class="paper-links">
+          <a class="chip" href="https://arxiv.org/abs/2604.02107">arXiv</a>
+          <a class="chip" href="https://arxiv.org/pdf/2604.02107.pdf">PDF</a>
+          <a class="chip" href="https://github.com/Geneta2580/HyVGGT-VO">Code</a>
+        </div>
+        <div class="paper-preview" data-pdf="https://arxiv.org/pdf/2604.02107.pdf">
+          <div class="preview-placeholder">Preview loads on expand</div>
+          <canvas class="preview-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </details>
+  </article>
   <article class="paper-card">
     <details class="paper-details">
       <summary>
