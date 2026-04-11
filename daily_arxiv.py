@@ -29,7 +29,14 @@ ARXIV_USER_AGENT = (
 
 def make_arxiv_client(delay_seconds: float = 5.0, num_retries: int = 5):
     """Create an arxiv.Client with a patched session that sends a browser-like
-    User-Agent and explicit Accept header so arxiv.org doesn't return HTTP 406."""
+    User-Agent and explicit Accept header so arxiv.org doesn't return HTTP 406.
+
+    Note: arxiv.py hard-codes a per-request ``user-agent: arxiv.py/<ver>`` header
+    when it calls ``self._session.get(url, headers=...)``. Because per-request
+    headers override session-level headers in ``requests``, simply updating
+    ``session.headers`` is not enough — we also wrap ``session.get`` to force
+    the browser User-Agent on every call.
+    """
     if arxiv is None:
         raise RuntimeError("Missing dependency: install the 'arxiv' package to fetch papers.")
     client = arxiv.Client(delay_seconds=delay_seconds, num_retries=num_retries)
@@ -39,6 +46,23 @@ def make_arxiv_client(delay_seconds: float = 5.0, num_retries: int = 5):
             "User-Agent": ARXIV_USER_AGENT,
             "Accept": "application/atom+xml,application/xml;q=0.9,*/*;q=0.8",
         })
+        original_get = session.get
+
+        def patched_get(url, **kwargs):
+            headers = dict(kwargs.pop("headers", None) or {})
+            # Strip any case variant of user-agent that arxiv.py injected,
+            # then force our browser-like one.
+            for key in list(headers.keys()):
+                if key.lower() == "user-agent":
+                    headers.pop(key)
+            headers["User-Agent"] = ARXIV_USER_AGENT
+            headers.setdefault(
+                "Accept",
+                "application/atom+xml,application/xml;q=0.9,*/*;q=0.8",
+            )
+            return original_get(url, headers=headers, **kwargs)
+
+        session.get = patched_get
     return client
 
 def load_config(config_file:str) -> dict:
