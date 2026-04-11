@@ -20,6 +20,27 @@ logging.basicConfig(format='[%(asctime)s %(levelname)s] %(message)s',
 github_url = "https://api.github.com/search/repositories"
 arxiv_url = "https://arxiv.org/"
 
+# arxiv.org's CDN rejects the default arxiv.py User-Agent with HTTP 406.
+# Using a browser-like UA + explicit Accept header works around it.
+ARXIV_USER_AGENT = (
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+)
+
+def make_arxiv_client(delay_seconds: float = 5.0, num_retries: int = 5):
+    """Create an arxiv.Client with a patched session that sends a browser-like
+    User-Agent and explicit Accept header so arxiv.org doesn't return HTTP 406."""
+    if arxiv is None:
+        raise RuntimeError("Missing dependency: install the 'arxiv' package to fetch papers.")
+    client = arxiv.Client(delay_seconds=delay_seconds, num_retries=num_retries)
+    session = getattr(client, "_session", None)
+    if session is not None:
+        session.headers.update({
+            "User-Agent": ARXIV_USER_AGENT,
+            "Accept": "application/atom+xml,application/xml;q=0.9,*/*;q=0.8",
+        })
+    return client
+
 def load_config(config_file:str) -> dict:
     '''
     config_file: input config file path
@@ -232,7 +253,7 @@ def strip_arxiv_version(arxiv_id: str) -> str:
 def fetch_arxiv_metadata(id_list):
     if arxiv is None:
         raise RuntimeError("Missing dependency: install the 'arxiv' package to fetch papers.")
-    client = arxiv.Client(delay_seconds=5.0, num_retries=5)
+    client = make_arxiv_client()
     search = arxiv.Search(id_list=id_list)
     results = {}
     for result in client.results(search):
@@ -580,7 +601,7 @@ def get_daily_papers(topic, query="slam", max_results=2, client=None):
     content_to_web = dict()
     content_to_wechat = dict()
     if client is None:
-        client = arxiv.Client(delay_seconds=5.0, num_retries=5)
+        client = make_arxiv_client()
     search = arxiv.Search(
         query = query,
         max_results = max_results,
@@ -895,7 +916,7 @@ def demo(**config):
     logging.info(f'Update Paper Link = {b_update}')
     if config['update_paper_links'] == False:
         logging.info(f"GET daily papers begin")
-        shared_client = arxiv.Client(delay_seconds=5.0, num_retries=5) if arxiv else None
+        shared_client = make_arxiv_client() if arxiv else None
         for topic, keyword in keywords.items():
             logging.info(f"Keyword: {topic}")
             data, data_web, data_wechat = get_daily_papers(topic, query = keyword,
