@@ -1,20 +1,20 @@
 # Image Matching
 
-> Updated on 2026.04.11
+> Updated on 2026.04.13
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-04-08**|**Mathematical Analysis of Image Matching Techniques**|Oleh Samoilenko et.al.|[2604.07574](https://arxiv.org/abs/2604.07574)|null|
-|**2026-04-08**|**Improving Local Feature Matching by Entropy-inspired Scale Adaptability and Flow-endowed Local Consistency**|Ke Jin et.al.|[2604.06713](https://arxiv.org/abs/2604.06713)|null|
-|**2026-04-06**|**LoMa: Local Feature Matching Revisited**|David Nordström et.al.|[2604.04931](https://arxiv.org/abs/2604.04931)|null|
-|**2026-03-30**|**AffordMatcher: Affordance Learning in 3D Scenes from Visual Signifiers**|Nghia Vu et.al.|[2603.27970](https://arxiv.org/abs/2603.27970)|null|
-|**2026-03-23**|**EpiMask: Leveraging Epipolar Distance Based Masks in Cross-Attention for Satellite Image Matching**|Rahul Deshmukh et.al.|[2603.21463](https://arxiv.org/abs/2603.21463)|null|
-|**2026-03-20**|**Benchmarking Efficient & Effective Camera Pose Estimation Strategies for Novel View Synthesis**|Jhacson Meza et.al.|[2603.20428](https://arxiv.org/abs/2603.20428)|null|
-|**2026-03-19**|**Pixel-Accurate Epipolar Guided Matching**|Oleksii Nasypanyi et.al.|[2603.18401](https://arxiv.org/abs/2603.18401)|null|
-|**2026-03-13**|**CM-Bench: A Comprehensive Cross-Modal Feature Matching Benchmark Bridging Visible and Infrared Images**|Liangzheng Sun et.al.|[2603.12690](https://arxiv.org/abs/2603.12690)|null|
-|**2026-03-26**|**Enhancing Cross-View UAV Geolocalization via LVLM-Driven Relational Modeling**|Bowen Liu et.al.|[2603.08063](https://arxiv.org/abs/2603.08063)|null|
-|**2026-03-09**|**Speed3R: Sparse Feed-forward 3D Reconstruction Models**|Weining Ren et.al.|[2603.08055](https://arxiv.org/abs/2603.08055)|null|
-|**2026-03-06**|**EventGeM: Global-to-Local Feature Matching for Event-Based Visual Place Recognition**|Adam D. Hines et.al.|[2603.05807](https://arxiv.org/abs/2603.05807)|null|
+|2026-04-08|Mathematical Analysis of Image Matching Techniques|Oleh Samoilenko et.al.|[2604.07574](https://arxiv.org/abs/2604.07574)|null|
+|2026-04-08|Improving Local Feature Matching by Entropy-inspired Scale Adaptability and Flow-endowed Local Consistency|Ke Jin et.al.|[2604.06713](https://arxiv.org/abs/2604.06713)|null|
+|2026-04-06|LoMa: Local Feature Matching Revisited|David Nordström et.al.|[2604.04931](https://arxiv.org/abs/2604.04931)|null|
+|2026-03-30|AffordMatcher: Affordance Learning in 3D Scenes from Visual Signifiers|Nghia Vu et.al.|[2603.27970](https://arxiv.org/abs/2603.27970)|null|
+|2026-03-23|EpiMask: Leveraging Epipolar Distance Based Masks in Cross-Attention for Satellite Image Matching|Rahul Deshmukh et.al.|[2603.21463](https://arxiv.org/abs/2603.21463)|null|
+|2026-03-20|Benchmarking Efficient & Effective Camera Pose Estimation Strategies for Novel View Synthesis|Jhacson Meza et.al.|[2603.20428](https://arxiv.org/abs/2603.20428)|null|
+|2026-03-19|Pixel-Accurate Epipolar Guided Matching|Oleksii Nasypanyi et.al.|[2603.18401](https://arxiv.org/abs/2603.18401)|null|
+|2026-03-13|CM-Bench: A Comprehensive Cross-Modal Feature Matching Benchmark Bridging Visible and Infrared Images|Liangzheng Sun et.al.|[2603.12690](https://arxiv.org/abs/2603.12690)|null|
+|2026-03-26|Enhancing Cross-View UAV Geolocalization via LVLM-Driven Relational Modeling|Bowen Liu et.al.|[2603.08063](https://arxiv.org/abs/2603.08063)|null|
+|2026-03-09|Speed3R: Sparse Feed-forward 3D Reconstruction Models|Weining Ren et.al.|[2603.08055](https://arxiv.org/abs/2603.08055)|null|
+|2026-03-06|EventGeM: Global-to-Local Feature Matching for Event-Based Visual Place Recognition|Adam D. Hines et.al.|[2603.05807](https://arxiv.org/abs/2603.05807)|null|
 |2026-02-27|No Calibration, No Depth, No Problem: Cross-Sensor View Synthesis with 3D Consistency|Cho-Ying Wu et.al.|[2602.23559](https://arxiv.org/abs/2602.23559)|null|
 |2026-02-26|FlowFixer: Towards Detail-Preserving Subject-Driven Generation|Jinyoung Jun et.al.|[2602.21402](https://arxiv.org/abs/2602.21402)|null|
 |2026-02-23|Generative 6D Pose Estimation via Conditional Flow Matching|Amir Hamza et.al.|[2602.19719](https://arxiv.org/abs/2602.19719)|null|

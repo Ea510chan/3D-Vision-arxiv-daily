@@ -1,19 +1,19 @@
 # NeRF
 
-> Updated on 2026.04.11
+> Updated on 2026.04.13
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-04-07**|**3DTurboQuant: Training-Free Near-Optimal Quantization for 3D Reconstruction Models**|Jae Joong Lee et.al.|[2604.05366](https://arxiv.org/abs/2604.05366)|null|
-|**2026-04-03**|**Factorized Multi-Resolution HashGrid for Efficient Neural Radiance Fields: Execution on Edge-Devices**|Kim Jun-Seong et.al.|[2604.02836](https://arxiv.org/abs/2604.02836)|null|
-|**2026-04-06**|**GEMM-GS: Accelerating 3D Gaussian Splatting on Tensor Cores with GEMM-Compatible Blending**|Haomin Li et.al.|[2604.02120](https://arxiv.org/abs/2604.02120)|null|
-|**2026-03-30**|**SVGS: Single-View to 3D Object Editing via Gaussian Splatting**|Pengcheng Xue et.al.|[2603.28126](https://arxiv.org/abs/2603.28126)|null|
-|**2026-03-30**|**To View Transform or Not to View Transform: NeRF-based Pre-training Perspective**|Hyeonjun Jeong et.al.|[2603.28090](https://arxiv.org/abs/2603.28090)|null|
-|**2026-03-30**|**Few TensoRF: Enhance the Few-shot on Tensorial Radiance Fields**|Thanh-Hai Le et.al.|[2603.25008](https://arxiv.org/abs/2603.25008)|null|
-|**2026-03-24**|**UniQueR: Unified Query-based Feedforward 3D Reconstruction**|Chensheng Peng et.al.|[2603.22851](https://arxiv.org/abs/2603.22851)|null|
-|**2026-03-23**|**SatGeo-NeRF: Geometrically Regularized NeRF for Satellite Imagery**|Valentin Wagner et.al.|[2603.21931](https://arxiv.org/abs/2603.21931)|null|
-|**2026-03-23**|**RefracGS: Novel View Synthesis Through Refractive Water Surfaces with 3D Gaussian Ray Tracing**|Yiming Shao et.al.|[2603.21695](https://arxiv.org/abs/2603.21695)|null|
-|**2026-03-27**|**FluidGaussian: Propagating Simulation-Based Uncertainty Toward Functionally-Intelligent 3D Reconstruction**|Yuqiu Liu et.al.|[2603.21356](https://arxiv.org/abs/2603.21356)|null|
+|2026-04-07|3DTurboQuant: Training-Free Near-Optimal Quantization for 3D Reconstruction Models|Jae Joong Lee et.al.|[2604.05366](https://arxiv.org/abs/2604.05366)|null|
+|2026-04-03|Factorized Multi-Resolution HashGrid for Efficient Neural Radiance Fields: Execution on Edge-Devices|Kim Jun-Seong et.al.|[2604.02836](https://arxiv.org/abs/2604.02836)|null|
+|2026-04-06|GEMM-GS: Accelerating 3D Gaussian Splatting on Tensor Cores with GEMM-Compatible Blending|Haomin Li et.al.|[2604.02120](https://arxiv.org/abs/2604.02120)|null|
+|2026-03-30|SVGS: Single-View to 3D Object Editing via Gaussian Splatting|Pengcheng Xue et.al.|[2603.28126](https://arxiv.org/abs/2603.28126)|null|
+|2026-03-30|To View Transform or Not to View Transform: NeRF-based Pre-training Perspective|Hyeonjun Jeong et.al.|[2603.28090](https://arxiv.org/abs/2603.28090)|null|
+|2026-03-30|Few TensoRF: Enhance the Few-shot on Tensorial Radiance Fields|Thanh-Hai Le et.al.|[2603.25008](https://arxiv.org/abs/2603.25008)|null|
+|2026-03-24|UniQueR: Unified Query-based Feedforward 3D Reconstruction|Chensheng Peng et.al.|[2603.22851](https://arxiv.org/abs/2603.22851)|null|
+|2026-03-23|SatGeo-NeRF: Geometrically Regularized NeRF for Satellite Imagery|Valentin Wagner et.al.|[2603.21931](https://arxiv.org/abs/2603.21931)|null|
+|2026-03-23|RefracGS: Novel View Synthesis Through Refractive Water Surfaces with 3D Gaussian Ray Tracing|Yiming Shao et.al.|[2603.21695](https://arxiv.org/abs/2603.21695)|null|
+|2026-03-27|FluidGaussian: Propagating Simulation-Based Uncertainty Toward Functionally-Intelligent 3D Reconstruction|Yuqiu Liu et.al.|[2603.21356](https://arxiv.org/abs/2603.21356)|null|
 |2026-03-28|EmoTaG: Emotion-Aware Talking Head Synthesis on Gaussian Splatting with Few-Shot Personalization|Haolan Xu et.al.|[2603.21332](https://arxiv.org/abs/2603.21332)|null|
 |2026-03-21|GaussianPile: A Unified Sparse Gaussian Splatting Framework for Slice-based Volumetric Reconstruction|Di Kong et.al.|[2603.20611](https://arxiv.org/abs/2603.20611)|null|
 |2026-03-20|Benchmarking Efficient & Effective Camera Pose Estimation Strategies for Novel View Synthesis|Jhacson Meza et.al.|[2603.20428](https://arxiv.org/abs/2603.20428)|null|
@@ -33,7 +33,7 @@
 |2026-03-06|FTSplat: Feed-forward Triangle Splatting Network|Xiong Jinlin et.al.|[2603.05932](https://arxiv.org/abs/2603.05932)|null|
 |2026-03-05|Towards 3D Scene Understanding of Gas Plumes in LWIR Hyperspectral Images Using Neural Radiance Fields|Scout Jarman et.al.|[2603.05473](https://arxiv.org/abs/2603.05473)|null|
 |2026-03-05|GloSplat: Joint Pose-Appearance Optimization for Faster and More Accurate 3D Reconstruction|Tianyu Xiong et.al.|[2603.04847](https://arxiv.org/abs/2603.04847)|null|
-|2026-03-03|R3GW: Relightable 3D Gaussians for Outdoor Scenes in the Wild|Margherita Lea Corona et.al.|[2603.02801](https://arxiv.org/abs/2603.02801)|**[link](https://github.com/fraunhoferhhi/R3GW)**|
+|2026-03-03|R3GW: Relightable 3D Gaussians for Outdoor Scenes in the Wild|Margherita Lea Corona et.al.|[2603.02801](https://arxiv.org/abs/2603.02801)|[link](https://github.com/fraunhoferhhi/R3GW)|
 |2026-03-03|Neural Electromagnetic Fields for High-Resolution Material Parameter Reconstruction|Zhe Chen et.al.|[2603.02582](https://arxiv.org/abs/2603.02582)|null|
 |2026-02-26|Sapling-NeRF: Geo-Localised Sapling Reconstruction in Forests for Ecological Monitoring|Miguel Ángel Muñoz-Bañón et.al.|[2602.22731](https://arxiv.org/abs/2602.22731)|null|
 |2026-02-25|Lie Flow: Video Dynamic Fields Modeling and Predicting with Lie Algebra as Geometric Physics Principle|Weidong Qiao et.al.|[2602.21645](https://arxiv.org/abs/2602.21645)|null|
@@ -215,7 +215,7 @@
 |2025-06-16|Genesis: Multimodal Driving Scene Generation with Spatio-Temporal and Cross-Modal Consistency|Xiangyu Guo et.al.|[2506.07497](http://arxiv.org/abs/2506.07497)|null|
 |2025-06-07|SPC to 3D: Novel View Synthesis from Binary SPC via I2I translation|Sumit Sharma et.al.|[2506.06890](http://arxiv.org/abs/2506.06890)|null|
 |2025-06-06|Splat and Replace: 3D Reconstruction with Repetitive Elements|Nicolás Violante et.al.|[2506.06462](http://arxiv.org/abs/2506.06462)|null|
-|2025-06-06|NeurNCD: Novel Class Discovery via Implicit Neural Representation|Junming Wang et.al.|[2506.06412](http://arxiv.org/abs/2506.06412)|null|
+|2025-06-06|NeurNCD: Novel Class Discovery via Implicit Neural Representation|Junming Wang et.al.|[2506.06412](http://arxiv.org/abs/2506.06412)|**[link](https://github.com/jmwang0117/NeurNCD)**|
 |2025-06-06|Dy3DGS-SLAM: Monocular 3D Gaussian Splatting SLAM for Dynamic Environments|Mingrui Li et.al.|[2506.05965](http://arxiv.org/abs/2506.05965)|null|
 |2025-06-06|ProJo4D: Progressive Joint Optimization for Sparse-View Inverse Physics Estimation|Daniel Rho et.al.|[2506.05317](http://arxiv.org/abs/2506.05317)|null|
 |2025-06-06|Unifying Appearance Codes and Bilateral Grids for Driving Scene Gaussian Splatting|Nan Wang et.al.|[2506.05280](http://arxiv.org/abs/2506.05280)|[link](https://github.com/bigcileng/bilateral-driving)|
@@ -233,7 +233,7 @@
 |2025-05-26|Depth-Guided Bundle Sampling for Efficient Generalizable Neural Radiance Field Reconstruction|Li Fang et.al.|[2505.19793](http://arxiv.org/abs/2505.19793)|[link](https://github.com/klmav-cuc/gdb-nerf)|
 |2025-05-22|UAV See, UGV Do: Aerial Imagery and Virtual Teach Enabling Zero-Shot Ground Vehicle Repeat|Desiree Fisker et.al.|[2505.16912](http://arxiv.org/abs/2505.16912)|null|
 |2025-05-19|IPENS:Interactive Unsupervised Framework for Rapid Plant Phenotyping Extraction via NeRF-SAM2 Fusion|Wentao Song et.al.|[2505.13633](http://arxiv.org/abs/2505.13633)|null|
-|2025-05-19|3D Gaussian Adaptive Reconstruction for Fourier Light-Field Microscopy|Chenyu Xu et.al.|[2505.12875](http://arxiv.org/abs/2505.12875)|**[link](https://github.com/Chaos1025/3DGAT)**|
+|2025-05-19|3D Gaussian Adaptive Reconstruction for Fourier Light-Field Microscopy|Chenyu Xu et.al.|[2505.12875](http://arxiv.org/abs/2505.12875)|[link](https://github.com/Chaos1025/3DGAT)|
 |2025-05-18|Is Semantic SLAM Ready for Embedded Systems ? A Comparative Survey|Calvin Galagain et.al.|[2505.12384](http://arxiv.org/abs/2505.12384)|null|
 |2025-05-16|MutualNeRF: Improve the Performance of NeRF under Limited Samples with Mutual Information Theory|Zifan Wang et.al.|[2505.11386](http://arxiv.org/abs/2505.11386)|null|
 |2025-05-16|EA-3DGS: Efficient and Adaptive 3D Gaussians with Highly Enhanced Quality for outdoor scenes|Jianlin Guo et.al.|[2505.10787](http://arxiv.org/abs/2505.10787)|[link](https://github.com/scut-bip-lab/ea-3dgs)|

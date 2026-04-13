@@ -1,21 +1,21 @@
 # Visual Localization
 
-> Updated on 2026.04.11
+> Updated on 2026.04.13
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-04-09**|**Bag of Bags: Adaptive Visual Vocabularies for Genizah Join Image Retrieval**|Sharva Gogawale et.al.|[2604.08138](https://arxiv.org/abs/2604.08138)|null|
-|**2026-04-09**|**SearchAD: Large-Scale Rare Image Retrieval Dataset for Autonomous Driving**|Felix Embacher et.al.|[2604.08008](https://arxiv.org/abs/2604.08008)|null|
-|**2026-04-09**|**Learning to Search: A Decision-Based Agent for Knowledge-Based Visual Question Answering**|Zhuohong Chen et.al.|[2604.07146](https://arxiv.org/abs/2604.07146)|null|
-|**2026-04-08**|**VGGT-SLAM++**|Avilasha Mandal et.al.|[2604.06830](https://arxiv.org/abs/2604.06830)|null|
-|**2026-04-06**|**CraterBench-R: Instance-Level Crater Retrieval for Planetary Scale**|Jichao Fang et.al.|[2604.06245](https://arxiv.org/abs/2604.06245)|null|
-|**2026-04-07**|**Stealthy and Adjustable Text-Guided Backdoor Attacks on Multimodal Pretrained Models**|Yiyang Zhang et.al.|[2604.05809](https://arxiv.org/abs/2604.05809)|null|
-|**2026-04-07**|**WRF4CIR: Weight-Regularized Fine-Tuning Network for Composed Image Retrieval**|Yizhuo Xu et.al.|[2604.05583](https://arxiv.org/abs/2604.05583)|null|
-|**2026-04-07**|**LSGS-Loc: Towards Robust 3DGS-Based Visual Localization for Large-Scale UAV Scenarios**|Xiang Zhang et.al.|[2604.05402](https://arxiv.org/abs/2604.05402)|null|
-|**2026-04-07**|**Beyond Semantic Search: Towards Referential Anchoring in Composed Image Retrieval**|Yuxin Yang et.al.|[2604.05393](https://arxiv.org/abs/2604.05393)|null|
-|**2026-04-06**|**MPTF-Net: Multi-view Pyramid Transformer Fusion Network for LiDAR-based Place Recognition**|Shuyuan Li et.al.|[2604.04513](https://arxiv.org/abs/2604.04513)|null|
-|**2026-03-31**|**MELT: Improve Composed Image Retrieval via the Modification Frequentation-Rarity Balance Network**|Guozhi Qiu et.al.|[2603.29291](https://arxiv.org/abs/2603.29291)|null|
-|**2026-03-29**|**RHO: Robust Holistic OSM-Based Metric Cross-View Geo-Localization**|Junwei Zheng et.al.|[2603.27758](https://arxiv.org/abs/2603.27758)|null|
+|2026-04-09|Bag of Bags: Adaptive Visual Vocabularies for Genizah Join Image Retrieval|Sharva Gogawale et.al.|[2604.08138](https://arxiv.org/abs/2604.08138)|null|
+|2026-04-09|SearchAD: Large-Scale Rare Image Retrieval Dataset for Autonomous Driving|Felix Embacher et.al.|[2604.08008](https://arxiv.org/abs/2604.08008)|null|
+|2026-04-09|Learning to Search: A Decision-Based Agent for Knowledge-Based Visual Question Answering|Zhuohong Chen et.al.|[2604.07146](https://arxiv.org/abs/2604.07146)|null|
+|2026-04-08|VGGT-SLAM++|Avilasha Mandal et.al.|[2604.06830](https://arxiv.org/abs/2604.06830)|null|
+|2026-04-06|CraterBench-R: Instance-Level Crater Retrieval for Planetary Scale|Jichao Fang et.al.|[2604.06245](https://arxiv.org/abs/2604.06245)|null|
+|2026-04-07|Stealthy and Adjustable Text-Guided Backdoor Attacks on Multimodal Pretrained Models|Yiyang Zhang et.al.|[2604.05809](https://arxiv.org/abs/2604.05809)|null|
+|2026-04-07|WRF4CIR: Weight-Regularized Fine-Tuning Network for Composed Image Retrieval|Yizhuo Xu et.al.|[2604.05583](https://arxiv.org/abs/2604.05583)|null|
+|2026-04-07|LSGS-Loc: Towards Robust 3DGS-Based Visual Localization for Large-Scale UAV Scenarios|Xiang Zhang et.al.|[2604.05402](https://arxiv.org/abs/2604.05402)|null|
+|2026-04-07|Beyond Semantic Search: Towards Referential Anchoring in Composed Image Retrieval|Yuxin Yang et.al.|[2604.05393](https://arxiv.org/abs/2604.05393)|null|
+|2026-04-06|MPTF-Net: Multi-view Pyramid Transformer Fusion Network for LiDAR-based Place Recognition|Shuyuan Li et.al.|[2604.04513](https://arxiv.org/abs/2604.04513)|null|
+|2026-03-31|MELT: Improve Composed Image Retrieval via the Modification Frequentation-Rarity Balance Network|Guozhi Qiu et.al.|[2603.29291](https://arxiv.org/abs/2603.29291)|null|
+|2026-03-29|RHO: Robust Holistic OSM-Based Metric Cross-View Geo-Localization|Junwei Zheng et.al.|[2603.27758](https://arxiv.org/abs/2603.27758)|null|
 |2026-03-29|NeedleDB: A Generative-AI Based System for Accurate and Efficient Image Retrieval using Complex Natural Language Queries|Mahdi Erfanian et.al.|[2603.27464](https://arxiv.org/abs/2603.27464)|null|
 |2026-03-27|Beyond MACs: Hardware Efficient Architecture Design for Vision Backbones|Moritz Nottebaum et.al.|[2603.26551](https://arxiv.org/abs/2603.26551)|null|
 |2026-03-27|HINT: Composed Image Retrieval with Dual-path Compositional Contextualized Network|Mingyu Zhang et.al.|[2603.26341](https://arxiv.org/abs/2603.26341)|null|
@@ -24,8 +24,8 @@
 |2026-03-26|Just Zoom In: Cross-View Geo-Localization via Autoregressive Zooming|Yunus Talha Erzurumlu et.al.|[2603.25686](https://arxiv.org/abs/2603.25686)|null|
 |2026-03-26|On-Demand Instructional Material Providing Agent Based on MLLM for Tutoring Support|Takumi Kato et.al.|[2603.25195](https://arxiv.org/abs/2603.25195)|null|
 |2026-03-28|TIGeR: A Unified Framework for Time, Images and Geo-location Retrieval|David G. Shatwell et.al.|[2603.24749](https://arxiv.org/abs/2603.24749)|null|
-|2026-03-24|Sparse Autoencoders for Interpretable Medical Image Representation Learning|Philipp Wesp et.al.|[2603.23794](https://arxiv.org/abs/2603.23794)|**[link](https://github.com/pwesp/sail)**|
-|2026-03-24|ARGENT: Adaptive Hierarchical Image-Text Representations|Chuong Huynh et.al.|[2603.23311](https://arxiv.org/abs/2603.23311)|**[link](https://github.com/Ufere/Assingment_1)**|
+|2026-03-24|Sparse Autoencoders for Interpretable Medical Image Representation Learning|Philipp Wesp et.al.|[2603.23794](https://arxiv.org/abs/2603.23794)|[link](https://github.com/pwesp/sail)|
+|2026-03-24|ARGENT: Adaptive Hierarchical Image-Text Representations|Chuong Huynh et.al.|[2603.23311](https://arxiv.org/abs/2603.23311)|[link](https://github.com/Ufere/Assingment_1)|
 |2026-03-24|Retrieval-Guided Photovoltaic Inventory Estimation from Satellite Imagery for Distribution Grid Planning|Muhao Guo et.al.|[2603.22856](https://arxiv.org/abs/2603.22856)|null|
 |2026-03-24|SOUPLE: Enhancing Audio-Visual Localization and Segmentation with Learnable Prompt Contexts|Khanh Binh Nguyen et.al.|[2603.22732](https://arxiv.org/abs/2603.22732)|null|
 |2026-03-24|HyFI: Hyperbolic Feature Interpolation for Brain-Vision Alignment|Sangmin Jo et.al.|[2603.22721](https://arxiv.org/abs/2603.22721)|null|
@@ -39,9 +39,9 @@
 |2026-03-17|Retrieving Counterfactuals Improves Visual In-Context Learning|Guangzhi Xiong et.al.|[2603.16737](https://arxiv.org/abs/2603.16737)|null|
 |2026-03-17|HMAR: Hierarchical Modality-Aware Expert and Dynamic Routing Medical Image Retrieval Architecture|Aojie Yuan et.al.|[2603.16679](https://arxiv.org/abs/2603.16679)|null|
 |2026-03-17|Rethinking Pose Refinement in 3D Gaussian Splatting under Pose Prior and Geometric Uncertainty|Mangyu Kong et.al.|[2603.16538](https://arxiv.org/abs/2603.16538)|null|
-|2026-03-18|VisBrowse-Bench: Benchmarking Visual-Native Search for Multimodal Browsing Agents|Zhengbo Zhang et.al.|[2603.16289](https://arxiv.org/abs/2603.16289)|**[link](https://github.com/ZhengboZhang/VisBrowse-Bench)**|
+|2026-03-18|VisBrowse-Bench: Benchmarking Visual-Native Search for Multimodal Browsing Agents|Zhengbo Zhang et.al.|[2603.16289](https://arxiv.org/abs/2603.16289)|[link](https://github.com/ZhengboZhang/VisBrowse-Bench)|
 |2026-03-14|Evaluation of Visual Place Recognition Methods for Image Pair Retrieval in 3D Vision and Robotics|Dennis Haitz et.al.|[2603.13917](https://arxiv.org/abs/2603.13917)|null|
-|2026-03-14|Sky2Ground: A Benchmark for Site Modeling under Varying Altitude|Zengyan Wang et.al.|[2603.13740](https://arxiv.org/abs/2603.13740)|**[link](https://github.com/zhyw86/Sky2Ground)**|
+|2026-03-14|Sky2Ground: A Benchmark for Site Modeling under Varying Altitude|Zengyan Wang et.al.|[2603.13740](https://arxiv.org/abs/2603.13740)|[link](https://github.com/zhyw86/Sky2Ground)|
 |2026-03-13|A Closed-Form Solution for Debiasing Vision-Language Models with Utility Guarantees Across Modalities and Tasks|Tangzheng Lian et.al.|[2603.12998](https://arxiv.org/abs/2603.12998)|null|
 |2026-03-13|Text-Phase Synergy Network with Dual Priors for Unsupervised Cross-Domain Image Retrieval|Jing Yang et.al.|[2603.12711](https://arxiv.org/abs/2603.12711)|null|
 |2026-03-13|CM-Bench: A Comprehensive Cross-Modal Feature Matching Benchmark Bridging Visible and Infrared Images|Liangzheng Sun et.al.|[2603.12690](https://arxiv.org/abs/2603.12690)|null|
@@ -295,15 +295,15 @@
 |2025-07-07|Simultaneous Localization and Mapping Using Active mmWave Sensing in 5G NR|Tao Du et.al.|[2507.04662](http://arxiv.org/abs/2507.04662)|null|
 |2025-07-06|U-ViLAR: Uncertainty-Aware Visual Localization for Autonomous Driving via Differentiable Association and Registration|Xiaofan Li et.al.|[2507.04503](http://arxiv.org/abs/2507.04503)|null|
 |2025-07-04|Query-Based Adaptive Aggregation for Multi-Dataset Joint Training Toward Universal Visual Place Recognition|Jiuhong Xiao et.al.|[2507.03831](http://arxiv.org/abs/2507.03831)|null|
-|2025-07-01|LoD-Loc v2: Aerial Visual Localization over Low Level-of-Detail City Models using Explicit Silhouette Alignment|Juelin Zhu et.al.|[2507.00659](http://arxiv.org/abs/2507.00659)|**[link](https://github.com/VictorZoo/LoD-Loc-v2)**|
+|2025-07-01|LoD-Loc v2: Aerial Visual Localization over Low Level-of-Detail City Models using Explicit Silhouette Alignment|Juelin Zhu et.al.|[2507.00659](http://arxiv.org/abs/2507.00659)|[link](https://github.com/VictorZoo/LoD-Loc-v2)|
 |2025-06-28|Utilizing a Novel Deep Learning Method for Scene Categorization in Remote Sensing Data|Ghufran A. Omran et.al.|[2506.22939](http://arxiv.org/abs/2506.22939)|null|
-|2025-06-28|Mask-aware Text-to-Image Retrieval: Referring Expression Segmentation Meets Cross-modal Retrieval|Li-Cheng Shen et.al.|[2506.22864](http://arxiv.org/abs/2506.22864)|**[link](https://github.com/AI-Application-and-Integration-Lab/MaTIR)**|
+|2025-06-28|Mask-aware Text-to-Image Retrieval: Referring Expression Segmentation Meets Cross-modal Retrieval|Li-Cheng Shen et.al.|[2506.22864](http://arxiv.org/abs/2506.22864)|[link](https://github.com/AI-Application-and-Integration-Lab/MaTIR)|
 |2025-06-27|MatChA: Cross-Algorithm Matching with Feature Augmentation|Paula Carbó Cubero et.al.|[2506.22336](http://arxiv.org/abs/2506.22336)|null|
-|2025-06-26|OracleFusion: Assisting the Decipherment of Oracle Bone Script with Structurally Constrained Semantic Typography|Caoshuo Li et.al.|[2506.21101](http://arxiv.org/abs/2506.21101)|null|
+|2025-06-26|OracleFusion: Assisting the Decipherment of Oracle Bone Script with Structurally Constrained Semantic Typography|Caoshuo Li et.al.|[2506.21101](http://arxiv.org/abs/2506.21101)|**[link](https://github.com/lcs0215/OracleFusion)**|
 |2025-06-25|Visualizing intercalation effects in 2D materials using AFM based techniques|Karmen Kapustić et.al.|[2506.20467](http://arxiv.org/abs/2506.20467)|null|
 |2025-06-25|On the Burstiness of Faces in Set|Jiong Wang et.al.|[2506.20312](http://arxiv.org/abs/2506.20312)|null|
 |2025-06-24|jina-embeddings-v4: Universal Embeddings for Multimodal Multilingual Retrieval|Michael Günther et.al.|[2506.18902](http://arxiv.org/abs/2506.18902)|null|
-|2025-06-26|Referring Expression Instance Retrieval and A Strong End-to-End Baseline|Xiangzhao Hao et.al.|[2506.18246](http://arxiv.org/abs/2506.18246)|null|
+|2025-06-26|Referring Expression Instance Retrieval and A Strong End-to-End Baseline|Xiangzhao Hao et.al.|[2506.18246](http://arxiv.org/abs/2506.18246)|**[link](https://github.com/haoxiangzhao12138/REIR)**|
 |2025-06-20|Class Agnostic Instance-level Descriptor for Visual Instance Search|Qi-Ying Sun et.al.|[2506.16745](http://arxiv.org/abs/2506.16745)|null|
 |2025-06-19|MambaHash: Visual State Space Deep Hashing Model for Large-Scale Image Retrieval|Chao He et.al.|[2506.16353](http://arxiv.org/abs/2506.16353)|[link](https://github.com/shuaichaochao/mambahash)|
 |2025-06-19|Fine-grained Image Retrieval via Dual-Vision Adaptation|Xin Jiang et.al.|[2506.16273](http://arxiv.org/abs/2506.16273)|null|
