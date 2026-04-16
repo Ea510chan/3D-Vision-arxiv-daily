@@ -1,9 +1,19 @@
 # World Model
 
-> Updated on 2026.04.13
+> Updated on 2026.04.16
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-04-15**|**Seedance 2.0: Advancing Video Generation for World Complexity**|Team Seedance et.al.|[2604.14148](https://arxiv.org/abs/2604.14148)|null|
+|**2026-04-15**|**Feed-Forward 3D Scene Modeling: A Problem-Driven Perspective**|Weijie Wang et.al.|[2604.14025](https://arxiv.org/abs/2604.14025)|null|
+|**2026-04-15**|**Beyond State Consistency: Behavior Consistency in Text-Based World Models**|Youling Huang et.al.|[2604.13824](https://arxiv.org/abs/2604.13824)|null|
+|**2026-04-15**|**Vision-and-Language Navigation for UAVs: Progress, Challenges, and a Research Roadmap**|Hanxuan Chen et.al.|[2604.13654](https://arxiv.org/abs/2604.13654)|null|
+|**2026-04-15**|**DiT as Real-Time Rerenderer: Streaming Video Stylization with Autoregressive Diffusion Transformer**|Hengye Lyu et.al.|[2604.13509](https://arxiv.org/abs/2604.13509)|null|
+|**2026-04-15**|**VibeFlow: Versatile Video Chroma-Lux Editing through Self-Supervised Learning**|Yifan Li et.al.|[2604.13425](https://arxiv.org/abs/2604.13425)|null|
+|**2026-04-14**|**Robotic Manipulation is Vision-to-Geometry Mapping ( $f(v) \rightarrow G$ ): Vision-Geometry Backbones over Language and Video Models**|Zijian Song et.al.|[2604.12908](https://arxiv.org/abs/2604.12908)|null|
+|**2026-04-14**|**A Dataset and Evaluation for Complex 4D Markerless Human Motion Capture**|Yeeun Park et.al.|[2604.12765](https://arxiv.org/abs/2604.12765)|null|
+|**2026-04-14**|**ArtifactWorld: Scaling 3D Gaussian Splatting Artifact Restoration via Video Generation Models**|Xinliang Wang et.al.|[2604.12251](https://arxiv.org/abs/2604.12251)|null|
+|**2026-04-13**|**Grounded World Model for Semantically Generalizable Planning**|Quanyi Li et.al.|[2604.11751](https://arxiv.org/abs/2604.11751)|null|
 |2026-04-09|Phantom: Physics-Infused Video Generation via Joint Modeling of Visual and Latent Physical Dynamics|Ying Shen et.al.|[2604.08503](https://arxiv.org/abs/2604.08503)|null|
 |2026-04-09|Grounding Clinical AI Competency in Human Cognition Through the Clinical World Model and Skill-Mix Framework|Seyed Amir Ahmad Safavi-Naini et.al.|[2604.08226](https://arxiv.org/abs/2604.08226)|null|
 |2026-04-09|Beyond Static Forecasting: Unleashing the Power of World Models for Mobile Traffic Extrapolation|Xiaoqian Qi et.al.|[2604.08199](https://arxiv.org/abs/2604.08199)|null|

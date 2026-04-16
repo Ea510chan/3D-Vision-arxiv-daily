@@ -1,9 +1,19 @@
 # Flow Matching
 
-> Updated on 2026.04.13
+> Updated on 2026.04.16
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-04-15**|**HiVLA: A Visual-Grounded-Centric Hierarchical Embodied Manipulation System**|Tianshuo Yang et.al.|[2604.14125](https://arxiv.org/abs/2604.14125)|null|
+|**2026-04-15**|**PRiMeFlow: Capturing Complex Expression Heterogeneity in Perturbation Response Modelling**|Zichao Yan et.al.|[2604.13986](https://arxiv.org/abs/2604.13986)|null|
+|**2026-04-15**|**Rethinking Image-to-3D Generation with Sparse Queries: Efficiency, Capacity, and Input-View Bias**|Zhiyuan Xu et.al.|[2604.13905](https://arxiv.org/abs/2604.13905)|null|
+|**2026-04-15**|**EMGFlow: Robust and Efficient Surface Electromyography Synthesis via Flow Matching**|Boxuan Jiang et.al.|[2604.13685](https://arxiv.org/abs/2604.13685)|null|
+|**2026-04-15**|**A Unified Conditional Flow for Motion Generation, Editing, and Intra-Structural Retargeting**|Junlin Li et.al.|[2604.13427](https://arxiv.org/abs/2604.13427)|null|
+|**2026-04-15**|**PianoFlow: Music-Aware Streaming Piano Motion Generation with Bimanual Coordination**|Xuan Wang et.al.|[2604.12856](https://arxiv.org/abs/2604.12856)|null|
+|**2026-04-14**|**CoSyncDiT: Cognitive Synchronous Diffusion Transformer for Movie Dubbing**|Gaoxiang Cong et.al.|[2604.12292](https://arxiv.org/abs/2604.12292)|null|
+|**2026-04-14**|**SubFlow: Sub-mode Conditioned Flow Matching for Diverse One-Step Generation**|Yexiong Lin et.al.|[2604.12273](https://arxiv.org/abs/2604.12273)|null|
+|**2026-04-14**|**SeisDiff-intp: a unified prompt-guided flow matching framework for multi-tasks seismic interpretation**|Donglin Zhu et.al.|[2604.12209](https://arxiv.org/abs/2604.12209)|null|
+|**2026-04-15**|**LangFlow: Continuous Diffusion Rivals Discrete in Language Modeling**|Yuxin Chen et.al.|[2604.11748](https://arxiv.org/abs/2604.11748)|null|
 |2026-04-09|RewardFlow: Generate Images by Optimizing What You Reward|Onkar Susladkar et.al.|[2604.08536](https://arxiv.org/abs/2604.08536)|null|
 |2026-04-09|Weakly-Supervised Lung Nodule Segmentation via Training-Free Guidance of 3D Rectified Flow|Richard Petersen et.al.|[2604.08313](https://arxiv.org/abs/2604.08313)|null|
 |2026-04-09|Equivariant Efficient Joint Discrete and Continuous MeanFlow for Molecular Graph Generation|Rongjian Xu et.al.|[2604.08189](https://arxiv.org/abs/2604.08189)|null|

@@ -1,9 +1,19 @@
 # 3D Reconstruction
 
-> Updated on 2026.04.13
+> Updated on 2026.04.16
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-04-15**|**Geometric Context Transformer for Streaming 3D Reconstruction**|Lin-Zhuo Chen et.al.|[2604.14141](https://arxiv.org/abs/2604.14141)|null|
+|**2026-04-15**|**Free Geometry: Refining 3D Reconstruction from Longer Versions of Itself**|Yuhang Dai et.al.|[2604.14048](https://arxiv.org/abs/2604.14048)|null|
+|**2026-04-15**|**Feed-Forward 3D Scene Modeling: A Problem-Driven Perspective**|Weijie Wang et.al.|[2604.14025](https://arxiv.org/abs/2604.14025)|null|
+|**2026-04-15**|**RobotPan: A 360 $^\circ$ Surround-View Robotic Vision System for Embodied Perception**|Jiahao Ma et.al.|[2604.13476](https://arxiv.org/abs/2604.13476)|null|
+|**2026-04-14**|**Neural 3D Reconstruction of Planetary Surfaces from Descent-Phase Wide-Angle Imagery**|Melonie de Almeida et.al.|[2604.13235](https://arxiv.org/abs/2604.13235)|null|
+|**2026-04-14**|**PatchPoison: Poisoning Multi-View Datasets to Degrade 3D Reconstruction**|Prajas Wadekar et.al.|[2604.13153](https://arxiv.org/abs/2604.13153)|null|
+|**2026-04-14**|**ELoG-GS: Dual-Branch Gaussian Splatting with Luminance-Guided Enhancement for Extreme Low-light 3D Reconstruction**|Yuhao Liu et.al.|[2604.12592](https://arxiv.org/abs/2604.12592)|null|
+|**2026-04-14**|**RIS-Aided Sensing: Experimental Validation of Radar 3D Imaging in the mmWave Band**|Sergio Micó-Rosa et.al.|[2604.12466](https://arxiv.org/abs/2604.12466)|null|
+|**2026-04-14**|**ArtifactWorld: Scaling 3D Gaussian Splatting Artifact Restoration via Video Generation Models**|Xinliang Wang et.al.|[2604.12251](https://arxiv.org/abs/2604.12251)|null|
+|**2026-04-13**|**ReefMapGS: Enabling Large-Scale Underwater Reconstruction by Closing the Loop Between Multimodal SLAM and Gaussian Splatting**|Daniel Yang et.al.|[2604.11992](https://arxiv.org/abs/2604.11992)|null|
 |2026-04-09|Scal3R: Scalable Test-Time Training for Large-Scale 3D Reconstruction|Tao Xie et.al.|[2604.08542](https://arxiv.org/abs/2604.08542)|null|
 |2026-04-09|Brain3D: EEG-to-3D Decoding of Visual Representations via Multimodal Reasoning|Emanuele Balloni et.al.|[2604.08068](https://arxiv.org/abs/2604.08068)|null|
 |2026-04-09|Sampling-Aware 3D Spatial Analysis in Multiplexed Imaging|Ido Harlev et.al.|[2604.07890](https://arxiv.org/abs/2604.07890)|null|

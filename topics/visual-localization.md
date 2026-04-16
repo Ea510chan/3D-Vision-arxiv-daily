@@ -1,9 +1,19 @@
 # Visual Localization
 
-> Updated on 2026.04.13
+> Updated on 2026.04.16
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-04-15**|**SceneGlue: Scene-Aware Transformer for Feature Matching without Scene-Level Annotation**|Songlin Du et.al.|[2604.13941](https://arxiv.org/abs/2604.13941)|null|
+|**2026-04-14**|**Indexing Multimodal Language Models for Large-scale Image Retrieval**|Bahey Tharwat et.al.|[2604.13268](https://arxiv.org/abs/2604.13268)|null|
+|**2026-04-14**|**A Sanity Check on Composed Image Retrieval**|Yikun Liu et.al.|[2604.12904](https://arxiv.org/abs/2604.12904)|null|
+|**2026-04-14**|**VidTAG: Temporally Aligned Video to GPS Geolocalization with Denoising Sequence Prediction at a Global Scale**|Parth Parag Kulkarni et.al.|[2604.12159](https://arxiv.org/abs/2604.12159)|null|
+|**2026-04-13**|**Human-Inspired Context-Selective Multimodal Memory for Social Robots**|Hangyeol Kang et.al.|[2604.12081](https://arxiv.org/abs/2604.12081)|null|
+|**2026-04-13**|**Privacy-Preserving Structureless Visual Localization via Image Obfuscation**|Vojtech Panek et.al.|[2604.12068](https://arxiv.org/abs/2604.12068)|null|
+|**2026-04-13**|**Seeing Through Touch: Tactile-Driven Visual Localization of Material Regions**|Seongyu Kim et.al.|[2604.11579](https://arxiv.org/abs/2604.11579)|null|
+|**2026-04-13**|**CLAY: Conditional Visual Similarity Modulation in Vision-Language Embedding Space**|Sohwi Lim et.al.|[2604.11539](https://arxiv.org/abs/2604.11539)|null|
+|**2026-04-11**|**FashionMV: Product-Level Composed Image Retrieval with Multi-View Fashion Data**|Peng Yuan et.al.|[2604.10297](https://arxiv.org/abs/2604.10297)|null|
+|**2026-04-10**|**AsymLoc: Towards Asymmetric Feature Matching for Efficient Visual Localization**|Mohammad Omama et.al.|[2604.09445](https://arxiv.org/abs/2604.09445)|null|
 |2026-04-09|Bag of Bags: Adaptive Visual Vocabularies for Genizah Join Image Retrieval|Sharva Gogawale et.al.|[2604.08138](https://arxiv.org/abs/2604.08138)|null|
 |2026-04-09|SearchAD: Large-Scale Rare Image Retrieval Dataset for Autonomous Driving|Felix Embacher et.al.|[2604.08008](https://arxiv.org/abs/2604.08008)|null|
 |2026-04-09|Learning to Search: A Decision-Based Agent for Knowledge-Based Visual Question Answering|Zhuohong Chen et.al.|[2604.07146](https://arxiv.org/abs/2604.07146)|null|
