@@ -1,19 +1,19 @@
 # Gaussian Splatting
 
-> Updated on 2026.04.16
+> Updated on 2026.04.20
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-04-15**|**ClipGStream: Clip-Stream Gaussian Splatting for Any Length and Any Motion Multi-View Dynamic Scene Reconstruction**|Jie Liang et.al.|[2604.13746](https://arxiv.org/abs/2604.13746)|null|
-|**2026-04-15**|**Dehaze-then-Splat: Generative Dehazing with Physics-Informed 3D Gaussian Splatting for Smoke-Free Novel View Synthesis**|Yuchao Chen et.al.|[2604.13589](https://arxiv.org/abs/2604.13589)|null|
-|**2026-04-15**|**RadarSplat-RIO: Indoor Radar-Inertial Odometry with Gaussian Splatting-Based Radar Bundle Adjustment**|Pou-Chun Kung et.al.|[2604.13492](https://arxiv.org/abs/2604.13492)|null|
-|**2026-04-15**|**DF3DV-1K: A Large-Scale Dataset and Benchmark for Distractor-Free Novel View Synthesis**|Cheng-You Lu et.al.|[2604.13416](https://arxiv.org/abs/2604.13416)|null|
-|**2026-04-14**|**MSGS: Multispectral 3D Gaussian Splatting**|Iris Zheng et.al.|[2604.13340](https://arxiv.org/abs/2604.13340)|null|
-|**2026-04-14**|**SSD-GS: Scattering and Shadow Decomposition for Relightable 3D Gaussian Splatting**|Iris Zheng et.al.|[2604.13333](https://arxiv.org/abs/2604.13333)|null|
-|**2026-04-14**|**PatchPoison: Poisoning Multi-View Datasets to Degrade 3D Reconstruction**|Prajas Wadekar et.al.|[2604.13153](https://arxiv.org/abs/2604.13153)|null|
-|**2026-04-14**|**RMGS-SLAM: Real-time Multi-sensor Gaussian Splatting SLAM**|Dongen Li et.al.|[2604.12942](https://arxiv.org/abs/2604.12942)|null|
-|**2026-04-14**|**GGD-SLAM: Monocular 3DGS SLAM Powered by Generalizable Motion Model for Dynamic Environments**|Yi Liu et.al.|[2604.12837](https://arxiv.org/abs/2604.12837)|null|
-|**2026-04-14**|**Habitat-GS: A High-Fidelity Navigation Simulator with Dynamic Gaussian Splatting**|Ziyuan Xia et.al.|[2604.12626](https://arxiv.org/abs/2604.12626)|null|
+|2026-04-15|ClipGStream: Clip-Stream Gaussian Splatting for Any Length and Any Motion Multi-View Dynamic Scene Reconstruction|Jie Liang et.al.|[2604.13746](https://arxiv.org/abs/2604.13746)|null|
+|2026-04-15|Dehaze-then-Splat: Generative Dehazing with Physics-Informed 3D Gaussian Splatting for Smoke-Free Novel View Synthesis|Yuchao Chen et.al.|[2604.13589](https://arxiv.org/abs/2604.13589)|null|
+|2026-04-15|RadarSplat-RIO: Indoor Radar-Inertial Odometry with Gaussian Splatting-Based Radar Bundle Adjustment|Pou-Chun Kung et.al.|[2604.13492](https://arxiv.org/abs/2604.13492)|null|
+|2026-04-15|DF3DV-1K: A Large-Scale Dataset and Benchmark for Distractor-Free Novel View Synthesis|Cheng-You Lu et.al.|[2604.13416](https://arxiv.org/abs/2604.13416)|null|
+|2026-04-14|MSGS: Multispectral 3D Gaussian Splatting|Iris Zheng et.al.|[2604.13340](https://arxiv.org/abs/2604.13340)|null|
+|2026-04-14|SSD-GS: Scattering and Shadow Decomposition for Relightable 3D Gaussian Splatting|Iris Zheng et.al.|[2604.13333](https://arxiv.org/abs/2604.13333)|null|
+|2026-04-14|PatchPoison: Poisoning Multi-View Datasets to Degrade 3D Reconstruction|Prajas Wadekar et.al.|[2604.13153](https://arxiv.org/abs/2604.13153)|null|
+|2026-04-14|RMGS-SLAM: Real-time Multi-sensor Gaussian Splatting SLAM|Dongen Li et.al.|[2604.12942](https://arxiv.org/abs/2604.12942)|null|
+|2026-04-14|GGD-SLAM: Monocular 3DGS SLAM Powered by Generalizable Motion Model for Dynamic Environments|Yi Liu et.al.|[2604.12837](https://arxiv.org/abs/2604.12837)|null|
+|2026-04-14|Habitat-GS: A High-Fidelity Navigation Simulator with Dynamic Gaussian Splatting|Ziyuan Xia et.al.|[2604.12626](https://arxiv.org/abs/2604.12626)|null|
 |2026-04-09|BLaDA: Bridging Language to Functional Dexterous Actions within 3DGS Fields|Fan Yang et.al.|[2604.08410](https://arxiv.org/abs/2604.08410)|null|
 |2026-04-09|SurfelSplat: Learning Efficient and Generalizable Gaussian Surfel Representations for Sparse-View Surface Reconstruction|Chensheng Dai et.al.|[2604.08370](https://arxiv.org/abs/2604.08370)|null|
 |2026-04-09|Generative 3D Gaussian Splatting for Arbitrary-ResolutionAtmospheric Downscaling and Forecasting|Tao Hana et.al.|[2604.07928](https://arxiv.org/abs/2604.07928)|null|
@@ -91,8 +91,8 @@
 |2026-02-25|AeroDGS: Physically Consistent Dynamic Gaussian Splatting for Single-Sequence Aerial 4D Reconstruction|Hanyang Liu et.al.|[2602.22376](https://arxiv.org/abs/2602.22376)|null|
 |2026-02-25|Interactive Augmented Reality-enabled Outdoor Scene Visualization For Enhanced Real-time Disaster Response|Dimitrios Apostolakis et.al.|[2602.21874](https://arxiv.org/abs/2602.21874)|null|
 |2026-02-24|BrepGaussian: CAD reconstruction from Multi-View Images with Gaussian Splatting|Jiaxing Yu et.al.|[2602.21105](https://arxiv.org/abs/2602.21105)|null|
-|2026-02-24|Dropping Anchor and Spherical Harmonics for Sparse-view Gaussian Splatting|Shuangkang Fang et.al.|[2602.20933](https://arxiv.org/abs/2602.20933)|null|
-|2026-02-24|RU4D-SLAM: Reweighting Uncertainty in Gaussian Splatting SLAM for 4D Scene Reconstruction|Yangfan Zhao et.al.|[2602.20807](https://arxiv.org/abs/2602.20807)|null|
+|2026-02-24|Dropping Anchor and Spherical Harmonics for Sparse-view Gaussian Splatting|Shuangkang Fang et.al.|[2602.20933](https://arxiv.org/abs/2602.20933)|**[link](https://github.com/Fangkang515/DropAnSH-GS)**|
+|2026-02-24|RU4D-SLAM: Reweighting Uncertainty in Gaussian Splatting SLAM for 4D Scene Reconstruction|Yangfan Zhao et.al.|[2602.20807](https://arxiv.org/abs/2602.20807)|**[link](https://github.com/CNU-Bot-Group/ru4dslam)**|
 |2026-02-24|Monocular Endoscopic Tissue 3D Reconstruction with Multi-Level Geometry Regularization|Yangsen Chen et.al.|[2602.20718](https://arxiv.org/abs/2602.20718)|null|
 |2026-02-24|WildGHand: Learning Anti-Perturbation Gaussian Hand Avatars from Monocular In-the-Wild Videos|Hanhui Li et.al.|[2602.20556](https://arxiv.org/abs/2602.20556)|null|
 |2026-02-23|Aesthetic Camera Viewpoint Suggestion with 3D Aesthetic Field|Sheyang Tang et.al.|[2602.20363](https://arxiv.org/abs/2602.20363)|null|
@@ -104,7 +104,7 @@
 |2026-02-12|GSO-SLAM: Bidirectionally Coupled Gaussian Splatting and Direct Visual Odometry|Jiung Yeon et.al.|[2602.11714](https://arxiv.org/abs/2602.11714)|null|
 |2026-02-12|TG-Field: Geometry-Aware Radiative Gaussian Fields for Tomographic Reconstruction|Yuxiang Zhong et.al.|[2602.11705](https://arxiv.org/abs/2602.11705)|null|
 |2026-02-12|Variation-aware Flexible 3D Gaussian Editing|Hao Qin et.al.|[2602.11638](https://arxiv.org/abs/2602.11638)|null|
-|2026-02-12|LeafFit: Plant Assets Creation from 3D Gaussian Splatting|Chang Luo et.al.|[2602.11577](https://arxiv.org/abs/2602.11577)|**[link](https://github.com/netbeifeng/leaf_fit)**|
+|2026-02-12|LeafFit: Plant Assets Creation from 3D Gaussian Splatting|Chang Luo et.al.|[2602.11577](https://arxiv.org/abs/2602.11577)|[link](https://github.com/netbeifeng/leaf_fit)|
 |2026-02-12|ReaDy-Go: Real-to-Sim Dynamic 3D Gaussian Splatting Simulation for Environment-Specific Visual Navigation with Moving Obstacles|Seungyeon Yoo et.al.|[2602.11575](https://arxiv.org/abs/2602.11575)|null|
 |2026-02-10|ERGO: Excess-Risk-Guided Optimization for High-Fidelity Monocular 3D Gaussian Splatting|Zehua Ma et.al.|[2602.10278](https://arxiv.org/abs/2602.10278)|null|
 |2026-02-10|XSPLAIN: XAI-enabling Splat-based Prototype Learning for Attribute-aware INterpretability|Dominik Galus et.al.|[2602.10239](https://arxiv.org/abs/2602.10239)|null|
@@ -190,7 +190,7 @@
 |2025-12-29|Contour Information Aware 2D Gaussian Splatting for Image Representation|Masaya Takabe et.al.|[2512.23255](http://arxiv.org/abs/2512.23255)|null|
 |2025-12-29|GVSynergy-Det: Synergistic Gaussian-Voxel Representations for Multi-View 3D Object Detection|Yi Zhang et.al.|[2512.23176](http://arxiv.org/abs/2512.23176)|null|
 |2025-12-30|Differentiable Physics-Driven Human Representation for Millimeter-Wave Based Pose Estimation|Shuntian Zheng et.al.|[2512.23054](http://arxiv.org/abs/2512.23054)|null|
-|2025-12-28|Hash Grid Feature Pruning|Yangzhi Ma et.al.|[2512.22882](http://arxiv.org/abs/2512.22882)|**[link](https://github.com/jgamble77/REST-API)**|
+|2025-12-28|Hash Grid Feature Pruning|Yangzhi Ma et.al.|[2512.22882](http://arxiv.org/abs/2512.22882)|[link](https://github.com/jgamble77/REST-API)|
 |2025-12-28|Next Best View Selections for Semantic and Dynamic 3D Gaussian Splatting|Yiqian Li et.al.|[2512.22771](http://arxiv.org/abs/2512.22771)|null|
 |2025-12-27|SCPainter: A Unified Framework for Realistic 3D Asset Insertion and Novel View Synthesis|Paul Dobre et.al.|[2512.22706](http://arxiv.org/abs/2512.22706)|null|
 |2025-12-27|Tracking by Predicting 3-D Gaussians Over Time|Tanish Baranwal et.al.|[2512.22489](http://arxiv.org/abs/2512.22489)|null|
@@ -295,9 +295,9 @@
 |2025-10-29| $D^2GS$ : Dense Depth Regularization for LiDAR-free Urban Scene Reconstruction|Kejing Xia et.al.|[2510.25173](http://arxiv.org/abs/2510.25173)|null|
 |2025-10-29|AtlasGS: Atlanta-world Guided Surface Reconstruction with Implicit Structured Gaussians|Xiyu Zhang et.al.|[2510.25129](http://arxiv.org/abs/2510.25129)|null|
 |2025-10-28|NVSim: Novel View Synthesis Simulator for Large Scale Indoor Navigation|Mingyu Jeong et.al.|[2510.24335](http://arxiv.org/abs/2510.24335)|null|
-|2025-10-28|LagMemo: Language 3D Gaussian Splatting Memory for Multi-modal Open-vocabulary Multi-goal Visual Navigation|Haotian Zhou et.al.|[2510.24118](http://arxiv.org/abs/2510.24118)|null|
+|2025-10-28|LagMemo: Language 3D Gaussian Splatting Memory for Multi-modal Open-vocabulary Multi-goal Visual Navigation|Haotian Zhou et.al.|[2510.24118](http://arxiv.org/abs/2510.24118)|**[link](https://github.com/weekgoodday/LagMemo)**|
 |2025-10-28|A Survey on Collaborative SLAM with 3D Gaussian Splatting|Phuc Nguyen Xuan et.al.|[2510.23988](http://arxiv.org/abs/2510.23988)|null|
-|2025-10-27|PlanarGS: High-Fidelity Indoor 3D Gaussian Splatting Guided by Vision-Language Planar Priors|Xirui Jin et.al.|[2510.23930](http://arxiv.org/abs/2510.23930)|null|
+|2025-10-27|PlanarGS: High-Fidelity Indoor 3D Gaussian Splatting Guided by Vision-Language Planar Priors|Xirui Jin et.al.|[2510.23930](http://arxiv.org/abs/2510.23930)|**[link](https://github.com/SJTU-ViSYS-team/PlanarGS)**|
 |2025-10-27|Explicit Memory through Online 3D Gaussian Splatting Improves Class-Agnostic Video Segmentation|Anthony Opipari et.al.|[2510.23521](http://arxiv.org/abs/2510.23521)|null|
 |2025-10-27|VR-Drive: Viewpoint-Robust End-to-End Driving with Feed-Forward 3D Gaussian Splatting|Hoonhee Cho et.al.|[2510.23205](http://arxiv.org/abs/2510.23205)|[link](https://github.com/mickeykang16/VR-Drive)|
 |2025-10-27|EndoWave: Rational-Wavelet 4D Gaussian Splatting for Endoscopic Reconstruction|Taoyu Wu et.al.|[2510.23087](http://arxiv.org/abs/2510.23087)|null|
@@ -439,7 +439,7 @@
 |2025-06-26|EndoFlow-SLAM: Real-Time Endoscopic SLAM with Flow-Constrained Gaussian Splatting|Taoyu Wu et.al.|[2506.21420](http://arxiv.org/abs/2506.21420)|null|
 |2025-06-28|Curve-Aware Gaussian Splatting for 3D Parametric Curve Reconstruction|Zhirui Gao et.al.|[2506.21401](http://arxiv.org/abs/2506.21401)|[link](https://github.com/zhirui-gao/Curve-Gaussian)|
 |2025-06-26|Geometry and Perception Guided Gaussians for Multiview-consistent 3D Generation from a Single Image|Pufan Li et.al.|[2506.21152](http://arxiv.org/abs/2506.21152)|null|
-|2025-06-26|CL-Splats: Continual Learning of Gaussian Splatting with Local Optimization|Jan Ackermann et.al.|[2506.21117](http://arxiv.org/abs/2506.21117)|null|
+|2025-06-26|CL-Splats: Continual Learning of Gaussian Splatting with Local Optimization|Jan Ackermann et.al.|[2506.21117](http://arxiv.org/abs/2506.21117)|**[link](https://github.com/jan-ackermann/cl-splats)**|
 |2025-06-26|User-in-the-Loop View Sampling with Error Peaking Visualization|Ayaka Yasunaga et.al.|[2506.21009](http://arxiv.org/abs/2506.21009)|null|
 |2025-06-26|DBMovi-GS: Dynamic View Synthesis from Blurry Monocular Video via Sparse-Controlled Gaussian Splatting|Yeon-Ji Song et.al.|[2506.20998](http://arxiv.org/abs/2506.20998)|null|
 |2025-06-25|3DGH: 3D Head Generation with Composable Hair and Face|Chengan He et.al.|[2506.20875](http://arxiv.org/abs/2506.20875)|null|
@@ -506,7 +506,7 @@
 |2025-05-22|SHaDe: Compact and Consistent Dynamic 3D Reconstruction via Tri-Plane Deformation and Latent Diffusion|Asrar Alruwayqi et.al.|[2505.16535](http://arxiv.org/abs/2505.16535)|null|
 |2025-05-22|Motion Matters: Compact Gaussian Streaming for Free-Viewpoint Video Reconstruction|Jiacong Chen et.al.|[2505.16533](http://arxiv.org/abs/2505.16533)|null|
 |2025-05-21|RUSplatting: Robust 3D Gaussian Splatting for Sparse-View Underwater Scene Reconstruction|Zhuodong Jiang et.al.|[2505.15737](http://arxiv.org/abs/2505.15737)|null|
-|2025-05-21|PlantDreamer: Achieving Realistic 3D Plant Models with Diffusion-Guided Gaussian Splatting|Zane K J Hartley et.al.|[2505.15528](http://arxiv.org/abs/2505.15528)|**[link](https://github.com/Lewis-Stuart-11/PlantDreamer)**|
+|2025-05-21|PlantDreamer: Achieving Realistic 3D Plant Models with Diffusion-Guided Gaussian Splatting|Zane K J Hartley et.al.|[2505.15528](http://arxiv.org/abs/2505.15528)|[link](https://github.com/Lewis-Stuart-11/PlantDreamer)|
 |2025-05-21|R3GS: Gaussian Splatting for Robust Reconstruction and Relocalization in Unconstrained Image Collections|Xu yan et.al.|[2505.15294](http://arxiv.org/abs/2505.15294)|null|
 |2025-05-21|GS2E: Gaussian Splatting is an Effective Data Generator for Event Stream Generation|Yuchen Li et.al.|[2505.15287](http://arxiv.org/abs/2505.15287)|[link](https://github.com/PKU-YuanGroup/GS2E)|
 |2025-05-21|X-GRM: Large Gaussian Reconstruction Model for Sparse-view X-rays to Computed Tomography|Yifan Liu et.al.|[2505.15235](http://arxiv.org/abs/2505.15235)|[link](https://github.com/cuhk-aim-group/x-grm)|

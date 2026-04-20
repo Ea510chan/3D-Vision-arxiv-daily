@@ -1,19 +1,19 @@
 # SLAM
 
-> Updated on 2026.04.16
+> Updated on 2026.04.20
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-04-15**|**RadarSplat-RIO: Indoor Radar-Inertial Odometry with Gaussian Splatting-Based Radar Bundle Adjustment**|Pou-Chun Kung et.al.|[2604.13492](https://arxiv.org/abs/2604.13492)|null|
-|**2026-04-09**|**TinyDEVO: Deep Event-based Visual Odometry on Ultra-low-power Multi-core Microcontrollers**|Alessandro Marchei et.al.|[2604.08060](https://arxiv.org/abs/2604.08060)|null|
-|**2026-04-08**|**VGGT-SLAM++**|Avilasha Mandal et.al.|[2604.06830](https://arxiv.org/abs/2604.06830)|null|
-|**2026-04-05**|**DINO-VO: Learning Where to Focus for Enhanced State Estimation**|Qi Chen et.al.|[2604.04055](https://arxiv.org/abs/2604.04055)|null|
-|**2026-04-03**|**ViBA: Implicit Bundle Adjustment with Geometric and Temporal Consistency for Robust Visual Matching**|Xiaoji Niu et.al.|[2604.03377](https://arxiv.org/abs/2604.03377)|null|
-|**2026-04-02**|**HyVGGT-VO: Tightly Coupled Hybrid Dense Visual Odometry with Feed-Forward Models**|Junxiang Pan et.al.|[2604.02107](https://arxiv.org/abs/2604.02107)|null|
-|**2026-03-23**|**Image-Conditioned Adaptive Parameter Tuning for Visual Odometry Frontends**|Simone Nascivera et.al.|[2603.21785](https://arxiv.org/abs/2603.21785)|null|
-|**2026-03-19**|**Benchmarking Visual Feature Representations for LiDAR-Inertial-Visual Odometry Under Challenging Conditions**|Eunseon Choi et.al.|[2603.18589](https://arxiv.org/abs/2603.18589)|null|
-|**2026-03-18**|**Full Stack Navigation, Mapping, and Planning for the Lunar Autonomy Challenge**|Adam Dai et.al.|[2603.17232](https://arxiv.org/abs/2603.17232)|null|
-|**2026-03-17**|**Industrial cuVSLAM Benchmark & Integration**|Charbel Abi Hana et.al.|[2603.16240](https://arxiv.org/abs/2603.16240)|null|
+|2026-04-15|RadarSplat-RIO: Indoor Radar-Inertial Odometry with Gaussian Splatting-Based Radar Bundle Adjustment|Pou-Chun Kung et.al.|[2604.13492](https://arxiv.org/abs/2604.13492)|null|
+|2026-04-09|TinyDEVO: Deep Event-based Visual Odometry on Ultra-low-power Multi-core Microcontrollers|Alessandro Marchei et.al.|[2604.08060](https://arxiv.org/abs/2604.08060)|null|
+|2026-04-08|VGGT-SLAM++|Avilasha Mandal et.al.|[2604.06830](https://arxiv.org/abs/2604.06830)|null|
+|2026-04-05|DINO-VO: Learning Where to Focus for Enhanced State Estimation|Qi Chen et.al.|[2604.04055](https://arxiv.org/abs/2604.04055)|null|
+|2026-04-03|ViBA: Implicit Bundle Adjustment with Geometric and Temporal Consistency for Robust Visual Matching|Xiaoji Niu et.al.|[2604.03377](https://arxiv.org/abs/2604.03377)|null|
+|2026-04-02|HyVGGT-VO: Tightly Coupled Hybrid Dense Visual Odometry with Feed-Forward Models|Junxiang Pan et.al.|[2604.02107](https://arxiv.org/abs/2604.02107)|null|
+|2026-03-23|Image-Conditioned Adaptive Parameter Tuning for Visual Odometry Frontends|Simone Nascivera et.al.|[2603.21785](https://arxiv.org/abs/2603.21785)|null|
+|2026-03-19|Benchmarking Visual Feature Representations for LiDAR-Inertial-Visual Odometry Under Challenging Conditions|Eunseon Choi et.al.|[2603.18589](https://arxiv.org/abs/2603.18589)|null|
+|2026-03-18|Full Stack Navigation, Mapping, and Planning for the Lunar Autonomy Challenge|Adam Dai et.al.|[2603.17232](https://arxiv.org/abs/2603.17232)|null|
+|2026-03-17|Industrial cuVSLAM Benchmark & Integration|Charbel Abi Hana et.al.|[2603.16240](https://arxiv.org/abs/2603.16240)|null|
 |2026-03-09|Edged USLAM: Edge-Aware Event-Based SLAM with Learning-Based Depth Priors|Şebnem Sarıözkan et.al.|[2603.08150](https://arxiv.org/abs/2603.08150)|null|
 |2026-02-27|Motion-aware Event Suppression for Event Cameras|Roberto Pellerito et.al.|[2602.23204](https://arxiv.org/abs/2602.23204)|null|
 |2026-02-26|FLIGHT: Fibonacci Lattice-based Inference for Geometric Heading in real-Time|David Dirnfeld et.al.|[2602.23115](https://arxiv.org/abs/2602.23115)|null|
@@ -178,9 +178,9 @@
 |2025-04-24|Bias-Eliminated PnP for Stereo Visual Odometry: Provably Consistent and Large-Scale Localization|Guangyang Zeng et.al.|[2504.17410](http://arxiv.org/abs/2504.17410)|null|
 |2025-04-24|EdgePoint2: Compact Descriptors for Superior Efficiency and Accuracy|Haodi Yao et.al.|[2504.17280](http://arxiv.org/abs/2504.17280)|null|
 |2025-04-23|ToF-Splatting: Dense SLAM using Sparse Time-of-Flight Depth and Multi-Frame Integration|Andrea Conti et.al.|[2504.16545](http://arxiv.org/abs/2504.16545)|null|
-|2025-04-22|DERD-Net: Learning Depth from Event-based Ray Densities|Diego de Oliveira Hitzges et.al.|[2504.15863](http://arxiv.org/abs/2504.15863)|null|
+|2025-04-22|DERD-Net: Learning Depth from Event-based Ray Densities|Diego de Oliveira Hitzges et.al.|[2504.15863](http://arxiv.org/abs/2504.15863)|**[link](https://github.com/tub-rip/DERD-Net)**|
 |2025-04-23|SLAM-Based Navigation and Fault Resilience in a Surveillance Quadcopter with Embedded Vision Systems|Abhishek Tyagi et.al.|[2504.15305](http://arxiv.org/abs/2504.15305)|null|
-|2025-04-20|Back on Track: Bundle Adjustment for Dynamic Scene Reconstruction|Weirong Chen et.al.|[2504.14516](http://arxiv.org/abs/2504.14516)|null|
+|2025-04-20|Back on Track: Bundle Adjustment for Dynamic Scene Reconstruction|Weirong Chen et.al.|[2504.14516](http://arxiv.org/abs/2504.14516)|**[link](https://github.com/wrchen530/batrack)**|
 |2025-04-20|SG-Reg: Generalizable and Efficient Scene Graph Registration|Chuhao Liu et.al.|[2504.14440](http://arxiv.org/abs/2504.14440)|[link](https://github.com/hkust-aerial-robotics/sg-reg)|
 |2025-04-19|Unreal Robotics Lab: A High-Fidelity Robotics Simulator with Advanced Physics and Rendering|Jonathan Embley-Riches et.al.|[2504.14135](http://arxiv.org/abs/2504.14135)|null|
 |2025-04-16|An Online Adaptation Method for Robust Depth Estimation and Visual Odometry in the Open World|Xingwu Ji et.al.|[2504.11698](http://arxiv.org/abs/2504.11698)|[link](https://github.com/jixingwu/sol-slam)|

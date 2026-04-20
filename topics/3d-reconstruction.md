@@ -1,19 +1,19 @@
 # 3D Reconstruction
 
-> Updated on 2026.04.16
+> Updated on 2026.04.20
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-04-15**|**Geometric Context Transformer for Streaming 3D Reconstruction**|Lin-Zhuo Chen et.al.|[2604.14141](https://arxiv.org/abs/2604.14141)|null|
-|**2026-04-15**|**Free Geometry: Refining 3D Reconstruction from Longer Versions of Itself**|Yuhang Dai et.al.|[2604.14048](https://arxiv.org/abs/2604.14048)|null|
-|**2026-04-15**|**Feed-Forward 3D Scene Modeling: A Problem-Driven Perspective**|Weijie Wang et.al.|[2604.14025](https://arxiv.org/abs/2604.14025)|null|
-|**2026-04-15**|**RobotPan: A 360 $^\circ$ Surround-View Robotic Vision System for Embodied Perception**|Jiahao Ma et.al.|[2604.13476](https://arxiv.org/abs/2604.13476)|null|
-|**2026-04-14**|**Neural 3D Reconstruction of Planetary Surfaces from Descent-Phase Wide-Angle Imagery**|Melonie de Almeida et.al.|[2604.13235](https://arxiv.org/abs/2604.13235)|null|
-|**2026-04-14**|**PatchPoison: Poisoning Multi-View Datasets to Degrade 3D Reconstruction**|Prajas Wadekar et.al.|[2604.13153](https://arxiv.org/abs/2604.13153)|null|
-|**2026-04-14**|**ELoG-GS: Dual-Branch Gaussian Splatting with Luminance-Guided Enhancement for Extreme Low-light 3D Reconstruction**|Yuhao Liu et.al.|[2604.12592](https://arxiv.org/abs/2604.12592)|null|
-|**2026-04-14**|**RIS-Aided Sensing: Experimental Validation of Radar 3D Imaging in the mmWave Band**|Sergio Micó-Rosa et.al.|[2604.12466](https://arxiv.org/abs/2604.12466)|null|
-|**2026-04-14**|**ArtifactWorld: Scaling 3D Gaussian Splatting Artifact Restoration via Video Generation Models**|Xinliang Wang et.al.|[2604.12251](https://arxiv.org/abs/2604.12251)|null|
-|**2026-04-13**|**ReefMapGS: Enabling Large-Scale Underwater Reconstruction by Closing the Loop Between Multimodal SLAM and Gaussian Splatting**|Daniel Yang et.al.|[2604.11992](https://arxiv.org/abs/2604.11992)|null|
+|2026-04-15|Geometric Context Transformer for Streaming 3D Reconstruction|Lin-Zhuo Chen et.al.|[2604.14141](https://arxiv.org/abs/2604.14141)|null|
+|2026-04-15|Free Geometry: Refining 3D Reconstruction from Longer Versions of Itself|Yuhang Dai et.al.|[2604.14048](https://arxiv.org/abs/2604.14048)|null|
+|2026-04-15|Feed-Forward 3D Scene Modeling: A Problem-Driven Perspective|Weijie Wang et.al.|[2604.14025](https://arxiv.org/abs/2604.14025)|null|
+|2026-04-15|RobotPan: A 360 $^\circ$ Surround-View Robotic Vision System for Embodied Perception|Jiahao Ma et.al.|[2604.13476](https://arxiv.org/abs/2604.13476)|null|
+|2026-04-14|Neural 3D Reconstruction of Planetary Surfaces from Descent-Phase Wide-Angle Imagery|Melonie de Almeida et.al.|[2604.13235](https://arxiv.org/abs/2604.13235)|null|
+|2026-04-14|PatchPoison: Poisoning Multi-View Datasets to Degrade 3D Reconstruction|Prajas Wadekar et.al.|[2604.13153](https://arxiv.org/abs/2604.13153)|null|
+|2026-04-14|ELoG-GS: Dual-Branch Gaussian Splatting with Luminance-Guided Enhancement for Extreme Low-light 3D Reconstruction|Yuhao Liu et.al.|[2604.12592](https://arxiv.org/abs/2604.12592)|null|
+|2026-04-14|RIS-Aided Sensing: Experimental Validation of Radar 3D Imaging in the mmWave Band|Sergio Micó-Rosa et.al.|[2604.12466](https://arxiv.org/abs/2604.12466)|null|
+|2026-04-14|ArtifactWorld: Scaling 3D Gaussian Splatting Artifact Restoration via Video Generation Models|Xinliang Wang et.al.|[2604.12251](https://arxiv.org/abs/2604.12251)|null|
+|2026-04-13|ReefMapGS: Enabling Large-Scale Underwater Reconstruction by Closing the Loop Between Multimodal SLAM and Gaussian Splatting|Daniel Yang et.al.|[2604.11992](https://arxiv.org/abs/2604.11992)|null|
 |2026-04-09|Scal3R: Scalable Test-Time Training for Large-Scale 3D Reconstruction|Tao Xie et.al.|[2604.08542](https://arxiv.org/abs/2604.08542)|null|
 |2026-04-09|Brain3D: EEG-to-3D Decoding of Visual Representations via Multimodal Reasoning|Emanuele Balloni et.al.|[2604.08068](https://arxiv.org/abs/2604.08068)|null|
 |2026-04-09|Sampling-Aware 3D Spatial Analysis in Multiplexed Imaging|Ido Harlev et.al.|[2604.07890](https://arxiv.org/abs/2604.07890)|null|
@@ -80,7 +80,7 @@
 |2026-02-26|VGG-T $^3$ : Offline Feed-Forward 3D Reconstruction at Scale|Sven Elflein et.al.|[2602.23361](https://arxiv.org/abs/2602.23361)|null|
 |2026-02-26|UniScale: Unified Scale-Aware 3D Reconstruction for Multi-View Understanding via Prior Injection for Robotic Perception|Mohammad Mahdavian et.al.|[2602.23224](https://arxiv.org/abs/2602.23224)|null|
 |2026-02-26|FLIGHT: Fibonacci Lattice-based Inference for Geometric Heading in real-Time|David Dirnfeld et.al.|[2602.23115](https://arxiv.org/abs/2602.23115)|null|
-|2026-02-26|UCM: Unifying Camera Control and Memory with Time-aware Positional Encoding Warping for World Models|Tianxing Xu et.al.|[2602.22960](https://arxiv.org/abs/2602.22960)|null|
+|2026-02-26|UCM: Unifying Camera Control and Memory with Time-aware Positional Encoding Warping for World Models|Tianxing Xu et.al.|[2602.22960](https://arxiv.org/abs/2602.22960)|**[link](https://github.com/HumanAIGC/ucm-webpage)**|
 |2026-02-26|Sapling-NeRF: Geo-Localised Sapling Reconstruction in Forests for Ecological Monitoring|Miguel Ángel Muñoz-Bañón et.al.|[2602.22731](https://arxiv.org/abs/2602.22731)|null|
 |2026-02-26|QuadSync: Quadrifocal Tensor Synchronization via Tucker Decomposition|Daniel Miao et.al.|[2602.22639](https://arxiv.org/abs/2602.22639)|null|
 |2026-02-26|GIFSplat: Generative Prior-Guided Iterative Feed-Forward 3D Gaussian Splatting from Sparse Views|Tianyu Chen et.al.|[2602.22571](https://arxiv.org/abs/2602.22571)|null|
@@ -95,8 +95,8 @@
 |2026-02-24|Long-Term Multi-Session 3D Reconstruction Under Substantial Appearance Change|Beverley Gorry et.al.|[2602.20584](https://arxiv.org/abs/2602.20584)|null|
 |2026-02-24|Progressive Per-Branch Depth Optimization for DEFOM-Stereo and SAM3 Joint Analysis in UAV Forestry Applications|Yida Lin et.al.|[2602.20539](https://arxiv.org/abs/2602.20539)|null|
 |2026-02-23|Large-scale Photorealistic Outdoor 3D Scene Reconstruction from UAV Imagery Using Gaussian Splatting Techniques|Christos Maikos et.al.|[2602.20342](https://arxiv.org/abs/2602.20342)|null|
-|2026-02-23|tttLRM: Test-Time Training for Long Context and Autoregressive 3D Reconstruction|Chen Wang et.al.|[2602.20160](https://arxiv.org/abs/2602.20160)|null|
-|2026-02-23|Monocular Mesh Recovery and Body Measurement of Female Saanen Goats|Bo Jin et.al.|[2602.19896](https://arxiv.org/abs/2602.19896)|null|
+|2026-02-23|tttLRM: Test-Time Training for Long Context and Autoregressive 3D Reconstruction|Chen Wang et.al.|[2602.20160](https://arxiv.org/abs/2602.20160)|**[link](https://github.com/cwchenwang/tttLRM)**|
+|2026-02-23|Monocular Mesh Recovery and Body Measurement of Female Saanen Goats|Bo Jin et.al.|[2602.19896](https://arxiv.org/abs/2602.19896)|**[link](https://github.com/bojin-nwafu/Female-Saanen-Goats)**|
 |2026-02-11|Ctrl&Shift: High-Quality Geometry-Aware Object Manipulation in Visual Generation|Penghui Ruan et.al.|[2602.11440](https://arxiv.org/abs/2602.11440)|null|
 |2026-02-11|Using a 4-megapixel hybrid photon counting detector for fast, lab-based nanoscale x-ray tomography|Jordan Fonseca et.al.|[2602.11375](https://arxiv.org/abs/2602.11375)|null|
 |2026-02-10|ERGO: Excess-Risk-Guided Optimization for High-Fidelity Monocular 3D Gaussian Splatting|Zehua Ma et.al.|[2602.10278](https://arxiv.org/abs/2602.10278)|null|
@@ -155,8 +155,8 @@
 |2026-01-13|Second-order Gaussian directional derivative representations for image high-resolution corner detection|Dongbo Xie et.al.|[2601.08182](https://arxiv.org/abs/2601.08182)|null|
 |2026-01-13|ViewMorpher3D: A 3D-aware Diffusion Framework for Multi-Camera Novel View Synthesis in Autonomous Driving|Farhad G. Zanjani et.al.|[2601.07540](https://arxiv.org/abs/2601.07540)|null|
 |2026-01-12|HERE: Hierarchical Active Exploration of Radiance Field with Epistemic Uncertainty Minimization|Taekbeom Lee et.al.|[2601.07242](https://arxiv.org/abs/2601.07242)|null|
-|2026-01-11|PRISM: Color-Stratified Point Cloud Sampling|Hansol Lim et.al.|[2601.06839](https://arxiv.org/abs/2601.06839)|**[link](https://github.com/SUNY-MEC-MEIC-Lab/PRISM)**|
-|2026-01-11|SARA: Scene-Aware Reconstruction Accelerator|Jee Won Lee et.al.|[2601.06831](https://arxiv.org/abs/2601.06831)|**[link](https://github.com/SUNY-MEC-MEIC-Lab/SARA)**|
+|2026-01-11|PRISM: Color-Stratified Point Cloud Sampling|Hansol Lim et.al.|[2601.06839](https://arxiv.org/abs/2601.06839)|[link](https://github.com/SUNY-MEC-MEIC-Lab/PRISM)|
+|2026-01-11|SARA: Scene-Aware Reconstruction Accelerator|Jee Won Lee et.al.|[2601.06831](https://arxiv.org/abs/2601.06831)|[link](https://github.com/SUNY-MEC-MEIC-Lab/SARA)|
 |2026-01-08|MoE3D: A Mixture-of-Experts Module for 3D Reconstruction|Zichen Wang et.al.|[2601.05208](https://arxiv.org/abs/2601.05208)|null|
 |2026-01-08|Segmentation-Driven Monocular Shape from Polarization based on Physical Model|Jinyu Zhang et.al.|[2601.04776](https://arxiv.org/abs/2601.04776)|null|
 |2026-01-05|360-GeoGS: Geometrically Consistent Feed-Forward 3D Gaussian Splatting Reconstruction for 360 Images|Jiaqi Yao et.al.|[2601.02102](https://arxiv.org/abs/2601.02102)|null|

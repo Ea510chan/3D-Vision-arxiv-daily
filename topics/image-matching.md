@@ -1,19 +1,19 @@
 # Image Matching
 
-> Updated on 2026.04.16
+> Updated on 2026.04.20
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-04-15**|**SceneGlue: Scene-Aware Transformer for Feature Matching without Scene-Level Annotation**|Songlin Du et.al.|[2604.13941](https://arxiv.org/abs/2604.13941)|null|
-|**2026-04-13**|**Who Handles Orientation? Investigating Invariance in Feature Matching**|David Nordström et.al.|[2604.11809](https://arxiv.org/abs/2604.11809)|null|
-|**2026-04-11**|**DeepShapeMatchingKit: Accelerated Functional Map Solver and Shape Matching Pipelines Revisited**|Yizheng Xie et.al.|[2604.10377](https://arxiv.org/abs/2604.10377)|null|
-|**2026-04-14**|**Are Pretrained Image Matchers Good Enough for SAR-Optical Satellite Registration?**|Isaac Corley et.al.|[2604.10217](https://arxiv.org/abs/2604.10217)|null|
-|**2026-04-08**|**Mathematical Analysis of Image Matching Techniques**|Oleh Samoilenko et.al.|[2604.07574](https://arxiv.org/abs/2604.07574)|null|
-|**2026-04-08**|**Improving Local Feature Matching by Entropy-inspired Scale Adaptability and Flow-endowed Local Consistency**|Ke Jin et.al.|[2604.06713](https://arxiv.org/abs/2604.06713)|null|
-|**2026-04-06**|**LoMa: Local Feature Matching Revisited**|David Nordström et.al.|[2604.04931](https://arxiv.org/abs/2604.04931)|null|
-|**2026-03-30**|**AffordMatcher: Affordance Learning in 3D Scenes from Visual Signifiers**|Nghia Vu et.al.|[2603.27970](https://arxiv.org/abs/2603.27970)|null|
-|**2026-03-23**|**EpiMask: Leveraging Epipolar Distance Based Masks in Cross-Attention for Satellite Image Matching**|Rahul Deshmukh et.al.|[2603.21463](https://arxiv.org/abs/2603.21463)|null|
-|**2026-03-20**|**Benchmarking Efficient & Effective Camera Pose Estimation Strategies for Novel View Synthesis**|Jhacson Meza et.al.|[2603.20428](https://arxiv.org/abs/2603.20428)|null|
+|2026-04-15|SceneGlue: Scene-Aware Transformer for Feature Matching without Scene-Level Annotation|Songlin Du et.al.|[2604.13941](https://arxiv.org/abs/2604.13941)|null|
+|2026-04-13|Who Handles Orientation? Investigating Invariance in Feature Matching|David Nordström et.al.|[2604.11809](https://arxiv.org/abs/2604.11809)|null|
+|2026-04-11|DeepShapeMatchingKit: Accelerated Functional Map Solver and Shape Matching Pipelines Revisited|Yizheng Xie et.al.|[2604.10377](https://arxiv.org/abs/2604.10377)|null|
+|2026-04-14|Are Pretrained Image Matchers Good Enough for SAR-Optical Satellite Registration?|Isaac Corley et.al.|[2604.10217](https://arxiv.org/abs/2604.10217)|null|
+|2026-04-08|Mathematical Analysis of Image Matching Techniques|Oleh Samoilenko et.al.|[2604.07574](https://arxiv.org/abs/2604.07574)|null|
+|2026-04-08|Improving Local Feature Matching by Entropy-inspired Scale Adaptability and Flow-endowed Local Consistency|Ke Jin et.al.|[2604.06713](https://arxiv.org/abs/2604.06713)|null|
+|2026-04-06|LoMa: Local Feature Matching Revisited|David Nordström et.al.|[2604.04931](https://arxiv.org/abs/2604.04931)|null|
+|2026-03-30|AffordMatcher: Affordance Learning in 3D Scenes from Visual Signifiers|Nghia Vu et.al.|[2603.27970](https://arxiv.org/abs/2603.27970)|null|
+|2026-03-23|EpiMask: Leveraging Epipolar Distance Based Masks in Cross-Attention for Satellite Image Matching|Rahul Deshmukh et.al.|[2603.21463](https://arxiv.org/abs/2603.21463)|null|
+|2026-03-20|Benchmarking Efficient & Effective Camera Pose Estimation Strategies for Novel View Synthesis|Jhacson Meza et.al.|[2603.20428](https://arxiv.org/abs/2603.20428)|null|
 |2026-03-19|Pixel-Accurate Epipolar Guided Matching|Oleksii Nasypanyi et.al.|[2603.18401](https://arxiv.org/abs/2603.18401)|null|
 |2026-03-13|CM-Bench: A Comprehensive Cross-Modal Feature Matching Benchmark Bridging Visible and Infrared Images|Liangzheng Sun et.al.|[2603.12690](https://arxiv.org/abs/2603.12690)|null|
 |2026-03-26|Enhancing Cross-View UAV Geolocalization via LVLM-Driven Relational Modeling|Bowen Liu et.al.|[2603.08063](https://arxiv.org/abs/2603.08063)|null|
@@ -56,7 +56,7 @@
 |2025-11-26|Fast 3D Ultrasound Localization Microscopy via Projection-based Processing Framework|Jingke Zhang et.al.|[2511.21647](http://arxiv.org/abs/2511.21647)|null|
 |2025-11-26|MoGAN: Improving Motion Quality in Video Diffusion via Few-Step Motion Adversarial Post-Training|Haotian Xue et.al.|[2511.21592](http://arxiv.org/abs/2511.21592)|null|
 |2025-11-26|Semantic-Enhanced Feature Matching with Learnable Geometric Verification for Cross-Modal Neuron Registration|Wenwei Li et.al.|[2511.21452](http://arxiv.org/abs/2511.21452)|null|
-|2025-11-26|TSGM: Regular and Irregular Time-series Generation using Score-based Generative Models|Haksoo Lim et.al.|[2511.21335](http://arxiv.org/abs/2511.21335)|null|
+|2025-11-26|TSGM: Regular and Irregular Time-series Generation using Score-based Generative Models|Haksoo Lim et.al.|[2511.21335](http://arxiv.org/abs/2511.21335)|**[link](https://github.com/LimHaksoo/TSGM)**|
 |2025-11-26|Unlocking Zero-shot Potential of Semi-dense Image Matching via Gaussian Splatting|Juncheng Chen et.al.|[2511.21265](https://arxiv.org/abs/2511.21265)|null|
 |2025-11-26|From Diffusion to One-Step Generation: A Comparative Study of Flow-Based Models with Application to Image Inpainting|Umang Agarwal et.al.|[2511.21215](http://arxiv.org/abs/2511.21215)|null|
 |2025-11-26|Transformer Driven Visual Servoing and Dual Arm Impedance Control for Fabric Texture Matching|Fuyuki Tokuda et.al.|[2511.21203](http://arxiv.org/abs/2511.21203)|null|
@@ -72,7 +72,7 @@
 |2025-11-24|VeCoR - Velocity Contrastive Regularization for Flow Matching|Zong-Wei Hong et.al.|[2511.18942](http://arxiv.org/abs/2511.18942)|null|
 |2025-11-24|FlowSteer: Guiding Few-Step Image Synthesis with Authentic Trajectories|Lei Ke et.al.|[2511.18834](http://arxiv.org/abs/2511.18834)|null|
 |2025-11-24|VideoCompressa: Data-Efficient Video Understanding via Joint Temporal Compression and Spatial Reconstruction|Shaobo Wang et.al.|[2511.18831](http://arxiv.org/abs/2511.18831)|null|
-|2025-11-24|NI-Tex: Non-isometric Image-based Garment Texture Generation|Hui Shan et.al.|[2511.18765](http://arxiv.org/abs/2511.18765)|null|
+|2025-11-24|NI-Tex: Non-isometric Image-based Garment Texture Generation|Hui Shan et.al.|[2511.18765](http://arxiv.org/abs/2511.18765)|**[link](https://github.com/SII-Hui/NI-Tex)**|
 |2025-12-26|SPIDER: Spatial Image CorresponDence Estimator for Robust Calibration|Zhimin Shao et.al.|[2511.17750](https://arxiv.org/abs/2511.17750)|null|
 |2025-11-21|MuM: Multi-View Masked Image Modeling for 3D Vision|David Nordström et.al.|[2511.17309](http://arxiv.org/abs/2511.17309)|null|
 |2025-11-19|RoMa v2: Harder Better Faster Denser Feature Matching|Johan Edstedt et.al.|[2511.15706](http://arxiv.org/abs/2511.15706)|null|

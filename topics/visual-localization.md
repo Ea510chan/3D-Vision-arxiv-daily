@@ -1,19 +1,19 @@
 # Visual Localization
 
-> Updated on 2026.04.16
+> Updated on 2026.04.20
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-04-15**|**SceneGlue: Scene-Aware Transformer for Feature Matching without Scene-Level Annotation**|Songlin Du et.al.|[2604.13941](https://arxiv.org/abs/2604.13941)|null|
-|**2026-04-14**|**Indexing Multimodal Language Models for Large-scale Image Retrieval**|Bahey Tharwat et.al.|[2604.13268](https://arxiv.org/abs/2604.13268)|null|
-|**2026-04-14**|**A Sanity Check on Composed Image Retrieval**|Yikun Liu et.al.|[2604.12904](https://arxiv.org/abs/2604.12904)|null|
-|**2026-04-14**|**VidTAG: Temporally Aligned Video to GPS Geolocalization with Denoising Sequence Prediction at a Global Scale**|Parth Parag Kulkarni et.al.|[2604.12159](https://arxiv.org/abs/2604.12159)|null|
-|**2026-04-13**|**Human-Inspired Context-Selective Multimodal Memory for Social Robots**|Hangyeol Kang et.al.|[2604.12081](https://arxiv.org/abs/2604.12081)|null|
-|**2026-04-13**|**Privacy-Preserving Structureless Visual Localization via Image Obfuscation**|Vojtech Panek et.al.|[2604.12068](https://arxiv.org/abs/2604.12068)|null|
-|**2026-04-13**|**Seeing Through Touch: Tactile-Driven Visual Localization of Material Regions**|Seongyu Kim et.al.|[2604.11579](https://arxiv.org/abs/2604.11579)|null|
-|**2026-04-13**|**CLAY: Conditional Visual Similarity Modulation in Vision-Language Embedding Space**|Sohwi Lim et.al.|[2604.11539](https://arxiv.org/abs/2604.11539)|null|
-|**2026-04-11**|**FashionMV: Product-Level Composed Image Retrieval with Multi-View Fashion Data**|Peng Yuan et.al.|[2604.10297](https://arxiv.org/abs/2604.10297)|null|
-|**2026-04-10**|**AsymLoc: Towards Asymmetric Feature Matching for Efficient Visual Localization**|Mohammad Omama et.al.|[2604.09445](https://arxiv.org/abs/2604.09445)|null|
+|2026-04-15|SceneGlue: Scene-Aware Transformer for Feature Matching without Scene-Level Annotation|Songlin Du et.al.|[2604.13941](https://arxiv.org/abs/2604.13941)|null|
+|2026-04-14|Indexing Multimodal Language Models for Large-scale Image Retrieval|Bahey Tharwat et.al.|[2604.13268](https://arxiv.org/abs/2604.13268)|null|
+|2026-04-14|A Sanity Check on Composed Image Retrieval|Yikun Liu et.al.|[2604.12904](https://arxiv.org/abs/2604.12904)|null|
+|2026-04-14|VidTAG: Temporally Aligned Video to GPS Geolocalization with Denoising Sequence Prediction at a Global Scale|Parth Parag Kulkarni et.al.|[2604.12159](https://arxiv.org/abs/2604.12159)|null|
+|2026-04-13|Human-Inspired Context-Selective Multimodal Memory for Social Robots|Hangyeol Kang et.al.|[2604.12081](https://arxiv.org/abs/2604.12081)|null|
+|2026-04-13|Privacy-Preserving Structureless Visual Localization via Image Obfuscation|Vojtech Panek et.al.|[2604.12068](https://arxiv.org/abs/2604.12068)|null|
+|2026-04-13|Seeing Through Touch: Tactile-Driven Visual Localization of Material Regions|Seongyu Kim et.al.|[2604.11579](https://arxiv.org/abs/2604.11579)|null|
+|2026-04-13|CLAY: Conditional Visual Similarity Modulation in Vision-Language Embedding Space|Sohwi Lim et.al.|[2604.11539](https://arxiv.org/abs/2604.11539)|null|
+|2026-04-11|FashionMV: Product-Level Composed Image Retrieval with Multi-View Fashion Data|Peng Yuan et.al.|[2604.10297](https://arxiv.org/abs/2604.10297)|null|
+|2026-04-10|AsymLoc: Towards Asymmetric Feature Matching for Efficient Visual Localization|Mohammad Omama et.al.|[2604.09445](https://arxiv.org/abs/2604.09445)|null|
 |2026-04-09|Bag of Bags: Adaptive Visual Vocabularies for Genizah Join Image Retrieval|Sharva Gogawale et.al.|[2604.08138](https://arxiv.org/abs/2604.08138)|null|
 |2026-04-09|SearchAD: Large-Scale Rare Image Retrieval Dataset for Autonomous Driving|Felix Embacher et.al.|[2604.08008](https://arxiv.org/abs/2604.08008)|null|
 |2026-04-09|Learning to Search: A Decision-Based Agent for Knowledge-Based Visual Question Answering|Zhuohong Chen et.al.|[2604.07146](https://arxiv.org/abs/2604.07146)|null|
@@ -46,9 +46,9 @@
 |2026-03-20|IUP-Pose: Decoupled Iterative Uncertainty Propagation for Real-time Relative Pose Regression via Implicit Dense Alignment v1|Jun Wang et.al.|[2603.19625](https://arxiv.org/abs/2603.19625)|null|
 |2026-03-18|MCoT-MVS: Multi-level Vision Selection by Multi-modal Chain-of-Thought Reasoning for Composed Image Retrieval|Xuri Ge et.al.|[2603.17360](https://arxiv.org/abs/2603.17360)|null|
 |2026-03-17|Visual Product Search Benchmark|Karthik Sulthanpete Govindappa et.al.|[2603.17186](https://arxiv.org/abs/2603.17186)|null|
-|2026-03-17|Retrieving Counterfactuals Improves Visual In-Context Learning|Guangzhi Xiong et.al.|[2603.16737](https://arxiv.org/abs/2603.16737)|null|
+|2026-03-17|Retrieving Counterfactuals Improves Visual In-Context Learning|Guangzhi Xiong et.al.|[2603.16737](https://arxiv.org/abs/2603.16737)|**[link](https://github.com/gzxiong/CIRCLES)**|
 |2026-03-17|HMAR: Hierarchical Modality-Aware Expert and Dynamic Routing Medical Image Retrieval Architecture|Aojie Yuan et.al.|[2603.16679](https://arxiv.org/abs/2603.16679)|null|
-|2026-03-17|Rethinking Pose Refinement in 3D Gaussian Splatting under Pose Prior and Geometric Uncertainty|Mangyu Kong et.al.|[2603.16538](https://arxiv.org/abs/2603.16538)|null|
+|2026-03-17|Rethinking Pose Refinement in 3D Gaussian Splatting under Pose Prior and Geometric Uncertainty|Mangyu Kong et.al.|[2603.16538](https://arxiv.org/abs/2603.16538)|**[link](https://github.com/kmk97/UGSLoc)**|
 |2026-03-18|VisBrowse-Bench: Benchmarking Visual-Native Search for Multimodal Browsing Agents|Zhengbo Zhang et.al.|[2603.16289](https://arxiv.org/abs/2603.16289)|[link](https://github.com/ZhengboZhang/VisBrowse-Bench)|
 |2026-03-14|Evaluation of Visual Place Recognition Methods for Image Pair Retrieval in 3D Vision and Robotics|Dennis Haitz et.al.|[2603.13917](https://arxiv.org/abs/2603.13917)|null|
 |2026-03-14|Sky2Ground: A Benchmark for Site Modeling under Varying Altitude|Zengyan Wang et.al.|[2603.13740](https://arxiv.org/abs/2603.13740)|[link](https://github.com/zhyw86/Sky2Ground)|
@@ -94,11 +94,11 @@
 |2026-02-05|SDR-CIR: Semantic Debias Retrieval Framework for Training-Free Zero-Shot Composed Image Retrieval|Yi Sun et.al.|[2602.04451](https://arxiv.org/abs/2602.04451)|null|
 |2026-02-04|Quantile Transfer for Reliable Operating Point Selection in Visual Place Recognition|Dhyey Manish Rajani et.al.|[2602.04401](https://arxiv.org/abs/2602.04401)|null|
 |2026-02-04|Beyond Static Cropping: Layer-Adaptive Visual Localization and Decoding Enhancement|Zipeng Zhu et.al.|[2602.04304](https://arxiv.org/abs/2602.04304)|null|
-|2026-02-03|LaVPR: Benchmarking Language and Vision for Place Recognition|Ofer Idan et.al.|[2602.03253](https://arxiv.org/abs/2602.03253)|null|
-|2026-02-03|ObjEmbed: Towards Universal Multimodal Object Embeddings|Shenghao Fu et.al.|[2602.01753](https://arxiv.org/abs/2602.01753)|null|
+|2026-02-03|LaVPR: Benchmarking Language and Vision for Place Recognition|Ofer Idan et.al.|[2602.03253](https://arxiv.org/abs/2602.03253)|**[link](https://github.com/oferidan1/LaVPR)**|
+|2026-02-03|ObjEmbed: Towards Universal Multimodal Object Embeddings|Shenghao Fu et.al.|[2602.01753](https://arxiv.org/abs/2602.01753)|**[link](https://github.com/WeChatCV/ObjEmbed)**|
 |2026-02-02|Real-Time Loop Closure Detection in Visual SLAM via NetVLAD and Faiss|Enguang Fan et.al.|[2602.01673](https://arxiv.org/abs/2602.01673)|null|
 |2026-02-02|ReCALL: Recalibrating Capability Degradation for MLLM-based Composed Image Retrieval|Tianyu Yang et.al.|[2602.01639](https://arxiv.org/abs/2602.01639)|null|
-|2026-02-01|Interacted Planes Reveal 3D Line Mapping|Zeran Ke et.al.|[2602.01296](https://arxiv.org/abs/2602.01296)|null|
+|2026-02-01|Interacted Planes Reveal 3D Line Mapping|Zeran Ke et.al.|[2602.01296](https://arxiv.org/abs/2602.01296)|**[link](https://github.com/calmke/LiPMAP)**|
 |2026-02-04|Invariance on Manifolds: Understanding Robust Visual Representations for Place Recognition|Jintao Cheng et.al.|[2602.00841](https://arxiv.org/abs/2602.00841)|null|
 |2026-01-29|Variance & Greediness: A comparative study of metric-learning losses|Donghuo Zeng et.al.|[2601.21450](https://arxiv.org/abs/2601.21450)|null|
 |2026-01-28|When Vision Meets Texts in Listwise Reranking|Hongyi Cai et.al.|[2601.20623](https://arxiv.org/abs/2601.20623)|null|
@@ -285,7 +285,7 @@
 |2025-09-01|ReCap: Event-Aware Image Captioning with Article Retrieval and Semantic Gaussian Normalization|Thinh-Phuc Nguyen et.al.|[2509.01259](http://arxiv.org/abs/2509.01259)|null|
 |2025-07-17|FAR-Net: Multi-Stage Fusion Network with Enhanced Semantic Alignment and Adaptive Reconciliation for Composed Image Retrieval|Jeong-Woo Park et.al.|[2507.12823](http://arxiv.org/abs/2507.12823)|null|
 |2025-07-17|MCoT-RE: Multi-Faceted Chain-of-Thought and Re-Ranking for Training-Free Zero-Shot Composed Image Retrieval|Jeong-Woo Park et.al.|[2507.12819](http://arxiv.org/abs/2507.12819)|null|
-|2025-07-16|QuRe: Query-Relevant Retrieval through Hard Negative Sampling in Composed Image Retrieval|Jaehyun Kwak et.al.|[2507.12416](http://arxiv.org/abs/2507.12416)|null|
+|2025-07-16|QuRe: Query-Relevant Retrieval through Hard Negative Sampling in Composed Image Retrieval|Jaehyun Kwak et.al.|[2507.12416](http://arxiv.org/abs/2507.12416)|**[link](https://github.com/jackwaky/QuRe)**|
 |2025-07-16|CorrMoE: Mixture of Experts with De-stylization Learning for Cross-Scene and Cross-Domain Correspondence Pruning|Peiwen Xia et.al.|[2507.11834](http://arxiv.org/abs/2507.11834)|null|
 |2025-07-14|GT-Loc: Unifying When and Where in Images Through a Joint Embedding Space|David G. Shatwell et.al.|[2507.10473](http://arxiv.org/abs/2507.10473)|null|
 |2025-07-14|Text-to-Remote-Sensing-Image Retrieval beyond RGB Sources|Daniele Rege Cambrin et.al.|[2507.10403](http://arxiv.org/abs/2507.10403)|null|
@@ -309,11 +309,11 @@
 |2025-06-28|Utilizing a Novel Deep Learning Method for Scene Categorization in Remote Sensing Data|Ghufran A. Omran et.al.|[2506.22939](http://arxiv.org/abs/2506.22939)|null|
 |2025-06-28|Mask-aware Text-to-Image Retrieval: Referring Expression Segmentation Meets Cross-modal Retrieval|Li-Cheng Shen et.al.|[2506.22864](http://arxiv.org/abs/2506.22864)|[link](https://github.com/AI-Application-and-Integration-Lab/MaTIR)|
 |2025-06-27|MatChA: Cross-Algorithm Matching with Feature Augmentation|Paula Carbó Cubero et.al.|[2506.22336](http://arxiv.org/abs/2506.22336)|null|
-|2025-06-26|OracleFusion: Assisting the Decipherment of Oracle Bone Script with Structurally Constrained Semantic Typography|Caoshuo Li et.al.|[2506.21101](http://arxiv.org/abs/2506.21101)|**[link](https://github.com/lcs0215/OracleFusion)**|
+|2025-06-26|OracleFusion: Assisting the Decipherment of Oracle Bone Script with Structurally Constrained Semantic Typography|Caoshuo Li et.al.|[2506.21101](http://arxiv.org/abs/2506.21101)|[link](https://github.com/lcs0215/OracleFusion)|
 |2025-06-25|Visualizing intercalation effects in 2D materials using AFM based techniques|Karmen Kapustić et.al.|[2506.20467](http://arxiv.org/abs/2506.20467)|null|
 |2025-06-25|On the Burstiness of Faces in Set|Jiong Wang et.al.|[2506.20312](http://arxiv.org/abs/2506.20312)|null|
 |2025-06-24|jina-embeddings-v4: Universal Embeddings for Multimodal Multilingual Retrieval|Michael Günther et.al.|[2506.18902](http://arxiv.org/abs/2506.18902)|null|
-|2025-06-26|Referring Expression Instance Retrieval and A Strong End-to-End Baseline|Xiangzhao Hao et.al.|[2506.18246](http://arxiv.org/abs/2506.18246)|**[link](https://github.com/haoxiangzhao12138/REIR)**|
+|2025-06-26|Referring Expression Instance Retrieval and A Strong End-to-End Baseline|Xiangzhao Hao et.al.|[2506.18246](http://arxiv.org/abs/2506.18246)|[link](https://github.com/haoxiangzhao12138/REIR)|
 |2025-06-20|Class Agnostic Instance-level Descriptor for Visual Instance Search|Qi-Ying Sun et.al.|[2506.16745](http://arxiv.org/abs/2506.16745)|null|
 |2025-06-19|MambaHash: Visual State Space Deep Hashing Model for Large-Scale Image Retrieval|Chao He et.al.|[2506.16353](http://arxiv.org/abs/2506.16353)|[link](https://github.com/shuaichaochao/mambahash)|
 |2025-06-19|Fine-grained Image Retrieval via Dual-Vision Adaptation|Xin Jiang et.al.|[2506.16273](http://arxiv.org/abs/2506.16273)|null|
