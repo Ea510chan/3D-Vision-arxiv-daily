@@ -1,9 +1,19 @@
 # Flow Matching
 
-> Updated on 2026.04.20
+> Updated on 2026.04.21
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-04-20**|**Complex normalizing flows can be information Kähler-Ricci flows**|Andrew Gracyk et.al.|[2604.17954](https://arxiv.org/abs/2604.17954)|null|
+|**2026-04-20**|**Fisher Decorator: Refining Flow Policy via A Local Transport Map**|Xiaoyuan Cheng et.al.|[2604.17919](https://arxiv.org/abs/2604.17919)|null|
+|**2026-04-20**|**OFlow: Injecting Object-Aware Temporal Flow Matching for Robust Robotic Manipulation**|Kuanning Wang et.al.|[2604.17876](https://arxiv.org/abs/2604.17876)|null|
+|**2026-04-20**|**OmniVLA-RL: A Vision-Language-Action Model with Spatial Understanding and Online RL**|Haoxiang Jie et.al.|[2604.17706](https://arxiv.org/abs/2604.17706)|null|
+|**2026-04-20**|**Grokking of Diffusion Models: Case Study on Modular Addition**|Joon Hyeok Kim et.al.|[2604.17673](https://arxiv.org/abs/2604.17673)|null|
+|**2026-04-19**|**Reward Score Matching: Unifying Reward-based Fine-tuning for Flow and Diffusion Models**|Jeongjae Lee et.al.|[2604.17415](https://arxiv.org/abs/2604.17415)|null|
+|**2026-04-19**|**EmbodiedHead: Real-Time Listening and Speaking Avatar for Conversational Agents**|Yu Zhang et.al.|[2604.17211](https://arxiv.org/abs/2604.17211)|null|
+|**2026-04-18**|**FlowRefiner: Flow Matching-Based Iterative Refinement for 3D Turbulent Flow Simulation**|Yilong Dai et.al.|[2604.17149](https://arxiv.org/abs/2604.17149)|null|
+|**2026-04-18**|**Anonymization, Not Elimination: Utility-Preserved Speech Anonymization**|Yunchong Xiao et.al.|[2604.17000](https://arxiv.org/abs/2604.17000)|null|
+|**2026-04-18**|**CrossFlowDG: Bridging the Modality Gap with Cross-modal Flow Matching for Domain Generalization**|Antonios Kritikos et.al.|[2604.16892](https://arxiv.org/abs/2604.16892)|null|
 |2026-04-15|HiVLA: A Visual-Grounded-Centric Hierarchical Embodied Manipulation System|Tianshuo Yang et.al.|[2604.14125](https://arxiv.org/abs/2604.14125)|null|
 |2026-04-15|PRiMeFlow: Capturing Complex Expression Heterogeneity in Perturbation Response Modelling|Zichao Yan et.al.|[2604.13986](https://arxiv.org/abs/2604.13986)|null|
 |2026-04-15|Rethinking Image-to-3D Generation with Sparse Queries: Efficiency, Capacity, and Input-View Bias|Zhiyuan Xu et.al.|[2604.13905](https://arxiv.org/abs/2604.13905)|null|

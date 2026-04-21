@@ -1,14 +1,19 @@
 # NeRF
 
-> Updated on 2026.04.20
+> Updated on 2026.04.21
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|2026-04-14|PatchPoison: Poisoning Multi-View Datasets to Degrade 3D Reconstruction|Prajas Wadekar et.al.|[2604.13153](https://arxiv.org/abs/2604.13153)|null|
-|2026-04-13|A Geometric Algebra-informed NeRF Framework for Generalizable Wireless Channel Prediction|Jingzhou Shen et.al.|[2604.11983](https://arxiv.org/abs/2604.11983)|null|
-|2026-04-13|Fast-SegSim: Real-Time Open-Vocabulary Segmentation for Robotics in Simulation|Xuan Yu et.al.|[2604.10951](https://arxiv.org/abs/2604.10951)|null|
-|2026-04-07|3DTurboQuant: Training-Free Near-Optimal Quantization for 3D Reconstruction Models|Jae Joong Lee et.al.|[2604.05366](https://arxiv.org/abs/2604.05366)|null|
-|2026-04-03|Factorized Multi-Resolution HashGrid for Efficient Neural Radiance Fields: Execution on Edge-Devices|Kim Jun-Seong et.al.|[2604.02836](https://arxiv.org/abs/2604.02836)|null|
+|**2026-04-17**|**Incoherent Deformation, Not Capacity: Diagnosing and Mitigating Overfitting in Dynamic Gaussian Splatting**|Ahmad Droby et.al.|[2604.16747](https://arxiv.org/abs/2604.16747)|null|
+|**2026-04-17**|**PoInit-of-View: Poisoning Initialization of Views Transfers Across Multiple 3D Reconstruction Systems**|Weijie Wang et.al.|[2604.16540](https://arxiv.org/abs/2604.16540)|null|
+|**2026-04-12**|**Positioning radiata pine branches requiring pruning by drone stereo vision**|Yida Lin et.al.|[2604.16480](https://arxiv.org/abs/2604.16480)|null|
+|**2026-04-17**|**Hybrid Latents: Geometry-Appearance-Aware Surfel Splatting**|Neel Kelkar et.al.|[2604.14928](https://arxiv.org/abs/2604.14928)|null|
+|**2026-04-16**|**NG-GS: NeRF-Guided 3D Gaussian Splatting Segmentation**|Yi He et.al.|[2604.14706](https://arxiv.org/abs/2604.14706)|null|
+|**2026-04-14**|**PatchPoison: Poisoning Multi-View Datasets to Degrade 3D Reconstruction**|Prajas Wadekar et.al.|[2604.13153](https://arxiv.org/abs/2604.13153)|null|
+|**2026-04-13**|**A Geometric Algebra-informed NeRF Framework for Generalizable Wireless Channel Prediction**|Jingzhou Shen et.al.|[2604.11983](https://arxiv.org/abs/2604.11983)|null|
+|**2026-04-13**|**Fast-SegSim: Real-Time Open-Vocabulary Segmentation for Robotics in Simulation**|Xuan Yu et.al.|[2604.10951](https://arxiv.org/abs/2604.10951)|null|
+|**2026-04-07**|**3DTurboQuant: Training-Free Near-Optimal Quantization for 3D Reconstruction Models**|Jae Joong Lee et.al.|[2604.05366](https://arxiv.org/abs/2604.05366)|null|
+|**2026-04-03**|**Factorized Multi-Resolution HashGrid for Efficient Neural Radiance Fields: Execution on Edge-Devices**|Kim Jun-Seong et.al.|[2604.02836](https://arxiv.org/abs/2604.02836)|null|
 |2026-04-06|GEMM-GS: Accelerating 3D Gaussian Splatting on Tensor Cores with GEMM-Compatible Blending|Haomin Li et.al.|[2604.02120](https://arxiv.org/abs/2604.02120)|null|
 |2026-03-30|SVGS: Single-View to 3D Object Editing via Gaussian Splatting|Pengcheng Xue et.al.|[2603.28126](https://arxiv.org/abs/2603.28126)|null|
 |2026-03-30|To View Transform or Not to View Transform: NeRF-based Pre-training Perspective|Hyeonjun Jeong et.al.|[2603.28090](https://arxiv.org/abs/2603.28090)|null|
