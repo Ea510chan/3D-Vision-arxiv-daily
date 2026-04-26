@@ -1,9 +1,14 @@
 # NeRF
 
-> Updated on 2026.04.21
+> Updated on 2026.04.26
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-04-23**|**DualSplat: Robust 3D Gaussian Splatting via Pseudo-Mask Bootstrapping from Reconstruction Failures**|Xu Wang et.al.|[2604.21631](https://arxiv.org/abs/2604.21631)|null|
+|**2026-04-21**|**OT-UVGS: Revisiting UV Mapping for Gaussian Splatting as a Capacity Allocation Problem**|Byunghyun Kim et.al.|[2604.19127](https://arxiv.org/abs/2604.19127)|null|
+|**2026-04-20**|**A Comparative Evaluation of Geometric Accuracy in NeRF and Gaussian Splatting**|Mikolaj Zielinski et.al.|[2604.18205](https://arxiv.org/abs/2604.18205)|null|
+|**2026-04-20**|**MU-GeNeRF: Multi-view Uncertainty-guided Generalizable Neural Radiance Fields for Distractor-aware Scene**|Wenjie Mu et.al.|[2604.17965](https://arxiv.org/abs/2604.17965)|null|
+|**2026-04-20**|**PCM-NeRF: Probabilistic Camera Modeling for Neural Radiance Fields under Pose Uncertainty**|Shravan Venkatraman et.al.|[2604.17831](https://arxiv.org/abs/2604.17831)|null|
 |**2026-04-17**|**Incoherent Deformation, Not Capacity: Diagnosing and Mitigating Overfitting in Dynamic Gaussian Splatting**|Ahmad Droby et.al.|[2604.16747](https://arxiv.org/abs/2604.16747)|null|
 |**2026-04-17**|**PoInit-of-View: Poisoning Initialization of Views Transfers Across Multiple 3D Reconstruction Systems**|Weijie Wang et.al.|[2604.16540](https://arxiv.org/abs/2604.16540)|null|
 |**2026-04-12**|**Positioning radiata pine branches requiring pruning by drone stereo vision**|Yida Lin et.al.|[2604.16480](https://arxiv.org/abs/2604.16480)|null|

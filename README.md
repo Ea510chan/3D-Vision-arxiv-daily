@@ -1,8 +1,8 @@
 # 3D Vision arXiv Daily 🚀
 
 > 🌐 Start here: **[GitHub Pages](https://ea510chan.github.io/3D-Vision-arxiv-daily/)**
-> Updated on 2026.04.21
-> Topics: 9 | Total papers: 2402
+> Updated on 2026.04.26
+> Topics: 9 | Total papers: 2455
 > Usage instructions: [here](./docs/README.md#usage)
 > This page is modified from [here](https://github.com/Vincentqyw/cv-arxiv-daily)
 
@@ -16,15 +16,15 @@
 
 | | Topic | Latest Update | Papers | Link |
 |---|---|---|---|---|
-| 🧭 | Point Cloud Registration | 2026-04-20 | 138 | [Point Cloud Registration](topics/point-cloud-registration.md) |
-| 🧩 | Image Matching | 2026-04-17 | 164 | [Image Matching](topics/image-matching.md) |
+| 🧭 | Point Cloud Registration | 2026-04-23 | 139 | [Point Cloud Registration](topics/point-cloud-registration.md) |
+| 🧩 | Image Matching | 2026-04-22 | 165 | [Image Matching](topics/image-matching.md) |
 | 🛰️ | SLAM | 2026-04-15 | 236 | [SLAM](topics/slam.md) |
-| 🧱 | 3D Reconstruction | 2026-04-20 | 350 | [3D Reconstruction](topics/3d-reconstruction.md) |
-| 🗺️ | Visual Localization | 2026-04-20 | 433 | [Visual Localization](topics/visual-localization.md) |
-| 🌫️ | NeRF | 2026-04-17 | 341 | [NeRF](topics/nerf.md) |
-| ✨ | Gaussian Splatting | 2026-04-20 | 663 | [Gaussian Splatting](topics/gaussian-splatting.md) |
-| 🌍 | World Model | 2026-04-20 | 40 | [World Model](topics/world-model.md) |
-| 🌊 | Flow Matching | 2026-04-20 | 37 | [Flow Matching](topics/flow-matching.md) |
+| 🧱 | 3D Reconstruction | 2026-04-23 | 360 | [3D Reconstruction](topics/3d-reconstruction.md) |
+| 🗺️ | Visual Localization | 2026-04-23 | 439 | [Visual Localization](topics/visual-localization.md) |
+| 🌫️ | NeRF | 2026-04-23 | 346 | [NeRF](topics/nerf.md) |
+| ✨ | Gaussian Splatting | 2026-04-23 | 673 | [Gaussian Splatting](topics/gaussian-splatting.md) |
+| 🌍 | World Model | 2026-04-23 | 50 | [World Model](topics/world-model.md) |
+| 🌊 | Flow Matching | 2026-04-23 | 47 | [Flow Matching](topics/flow-matching.md) |
 
 ## How It Works
 

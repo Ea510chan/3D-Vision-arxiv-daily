@@ -16,15 +16,15 @@ title: SLAM
   </header>
   <nav class="reader-sidebar">
     <div class="sidebar-title">Topics</div>
-    <a class="sidebar-link" href="point-cloud-registration.html">Point Cloud Registration <span class="sidebar-count">138</span></a>
-    <a class="sidebar-link" href="image-matching.html">Image Matching <span class="sidebar-count">164</span></a>
+    <a class="sidebar-link" href="point-cloud-registration.html">Point Cloud Registration <span class="sidebar-count">139</span></a>
+    <a class="sidebar-link" href="image-matching.html">Image Matching <span class="sidebar-count">165</span></a>
     <a class="sidebar-link active" href="slam.html">SLAM <span class="sidebar-count">236</span></a>
-    <a class="sidebar-link" href="3d-reconstruction.html">3D Reconstruction <span class="sidebar-count">350</span></a>
-    <a class="sidebar-link" href="visual-localization.html">Visual Localization <span class="sidebar-count">433</span></a>
-    <a class="sidebar-link" href="nerf.html">NeRF <span class="sidebar-count">341</span></a>
-    <a class="sidebar-link" href="gaussian-splatting.html">Gaussian Splatting <span class="sidebar-count">663</span></a>
-    <a class="sidebar-link" href="world-model.html">World Model <span class="sidebar-count">40</span></a>
-    <a class="sidebar-link" href="flow-matching.html">Flow Matching <span class="sidebar-count">37</span></a>
+    <a class="sidebar-link" href="3d-reconstruction.html">3D Reconstruction <span class="sidebar-count">360</span></a>
+    <a class="sidebar-link" href="visual-localization.html">Visual Localization <span class="sidebar-count">439</span></a>
+    <a class="sidebar-link" href="nerf.html">NeRF <span class="sidebar-count">346</span></a>
+    <a class="sidebar-link" href="gaussian-splatting.html">Gaussian Splatting <span class="sidebar-count">673</span></a>
+    <a class="sidebar-link" href="world-model.html">World Model <span class="sidebar-count">50</span></a>
+    <a class="sidebar-link" href="flow-matching.html">Flow Matching <span class="sidebar-count">47</span></a>
   </nav>
   <section class="reader-list">
     <div class="list-header"><h2>SLAM</h2><span>236 papers</span></div>

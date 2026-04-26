@@ -1,9 +1,19 @@
 # 3D Reconstruction
 
-> Updated on 2026.04.21
+> Updated on 2026.04.26
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-04-23**|**CuRast: Cuda-Based Software Rasterization for Billions of Triangles**|Markus Schütz et.al.|[2604.21749](https://arxiv.org/abs/2604.21749)|null|
+|**2026-04-22**|**GeoRect4D: Geometry-Compatible Generative Rectification for Dynamic Sparse-View 3D Reconstruction**|Zhenlong Wu et.al.|[2604.20784](https://arxiv.org/abs/2604.20784)|null|
+|**2026-04-21**|**FluSplat: Sparse-View 3D Editing without Test-Time Optimization**|Haitao Huang et.al.|[2604.20038](https://arxiv.org/abs/2604.20038)|null|
+|**2026-04-21**|**UniCon3R: Contact-aware 3D Human-Scene Reconstruction from Monocular Video**|Tanuj Sur et.al.|[2604.19923](https://arxiv.org/abs/2604.19923)|null|
+|**2026-04-21**|**AnyRecon: Arbitrary-View 3D Reconstruction with Video Diffusion Model**|Yutian Chen et.al.|[2604.19747](https://arxiv.org/abs/2604.19747)|null|
+|**2026-04-21**|**Paparazzo: Active Mapping of Moving 3D Objects**|Davide Allegro et.al.|[2604.19556](https://arxiv.org/abs/2604.19556)|null|
+|**2026-04-21**|**Unposed-to-3D: Learning Simulation-Ready Vehicles from Real-World Images**|Hongyuan Liu et.al.|[2604.19257](https://arxiv.org/abs/2604.19257)|null|
+|**2026-04-21**|**BALTIC: A Benchmark and Cross-Domain Strategy for 3D Reconstruction Across Air and Underwater Domains Under Varying Illumination**|Michele Grimaldi et.al.|[2604.19133](https://arxiv.org/abs/2604.19133)|null|
+|**2026-04-21**|**RoomRecon: High-Quality Textured Room Layout Reconstruction on Mobile Devices**|Seok Joon Kim et.al.|[2604.19025](https://arxiv.org/abs/2604.19025)|null|
+|**2026-04-20**|**ToFiE, a Topology-aware Fiber Extraction workflow for 3D reconstruction of dense and heterogeneous biological fiber networks from microscopy images**|Risa Togo et.al.|[2604.18230](https://arxiv.org/abs/2604.18230)|null|
 |**2026-04-20**|**AI Approach for MRI-only Full-Spine Vertebral Segmentation and 3D Reconstruction in Paediatric Scoliosis**|Nathasha Naranpanawa et.al.|[2604.17846](https://arxiv.org/abs/2604.17846)|null|
 |**2026-04-20**|**PCM-NeRF: Probabilistic Camera Modeling for Neural Radiance Fields under Pose Uncertainty**|Shravan Venkatraman et.al.|[2604.17831](https://arxiv.org/abs/2604.17831)|null|
 |**2026-04-20**|**Score-Based Matching with Target Guidance for Cryo-EM Denoising**|Xiaoqi Wu et.al.|[2604.17734](https://arxiv.org/abs/2604.17734)|null|

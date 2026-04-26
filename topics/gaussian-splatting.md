@@ -1,9 +1,19 @@
 # Gaussian Splatting
 
-> Updated on 2026.04.21
+> Updated on 2026.04.26
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-04-23**|**DualSplat: Robust 3D Gaussian Splatting via Pseudo-Mask Bootstrapping from Reconstruction Failures**|Xu Wang et.al.|[2604.21631](https://arxiv.org/abs/2604.21631)|null|
+|**2026-04-23**|**You Only Gaussian Once: Controllable 3D Gaussian Splatting for Ultra-Densely Sampled Scenes**|Jinrang Jia et.al.|[2604.21400](https://arxiv.org/abs/2604.21400)|null|
+|**2026-04-23**|**WildSplatter: Feed-forward 3D Gaussian Splatting with Appearance Control from Unconstrained Images**|Yuki Fujimura et.al.|[2604.21182](https://arxiv.org/abs/2604.21182)|null|
+|**2026-04-22**|**GSCompleter: A Distillation-Free Plugin for Metric-Aware 3D Gaussian Splatting Completion in Seconds**|Ao Gao et.al.|[2604.20155](https://arxiv.org/abs/2604.20155)|null|
+|**2026-04-21**|**Gaussians on a Diet: High-Quality Memory-Bounded 3D Gaussian Splatting Training**|Yangming Zhang et.al.|[2604.20046](https://arxiv.org/abs/2604.20046)|null|
+|**2026-04-21**|**FluSplat: Sparse-View 3D Editing without Test-Time Optimization**|Haitao Huang et.al.|[2604.20038](https://arxiv.org/abs/2604.20038)|null|
+|**2026-04-21**|**TransSplat: Unbalanced Semantic Transport for Language-Driven 3DGS Editing**|Yanhui Chen et.al.|[2604.19571](https://arxiv.org/abs/2604.19571)|null|
+|**2026-04-21**|**An Object-Centered Data Acquisition Method for 3D Gaussian Splatting using Mobile Phones**|Yuezhe Zhang et.al.|[2604.19216](https://arxiv.org/abs/2604.19216)|null|
+|**2026-04-21**|**SketchFaceGS: Real-Time Sketch-Driven Face Editing and Generation with Gaussian Splatting**|Bo Li et.al.|[2604.19202](https://arxiv.org/abs/2604.19202)|null|
+|**2026-04-21**|**BALTIC: A Benchmark and Cross-Domain Strategy for 3D Reconstruction Across Air and Underwater Domains Under Varying Illumination**|Michele Grimaldi et.al.|[2604.19133](https://arxiv.org/abs/2604.19133)|null|
 |**2026-04-20**|**GS-STVSR: Ultra-Efficient Continuous Spatio-Temporal Video Super-Resolution via 2D Gaussian Splatting**|Mingyu Shi et.al.|[2604.18047](https://arxiv.org/abs/2604.18047)|null|
 |**2026-04-20**|**E3VS-Bench: A Benchmark for Viewpoint-Dependent Active Perception in 3D Gaussian Splatting Scenes**|Koya Sakamoto et.al.|[2604.17969](https://arxiv.org/abs/2604.17969)|null|
 |**2026-04-20**|**Voronoi-guided Bilateral 2D Gaussian Splatting for Arbitrary-Scale Hyperspectral Image Super-Resolution**|Jie Zhang et.al.|[2604.17727](https://arxiv.org/abs/2604.17727)|null|

@@ -1,9 +1,15 @@
 # Visual Localization
 
-> Updated on 2026.04.21
+> Updated on 2026.04.26
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-04-23**|**TEMA: Anchor the Image, Follow the Text for Multi-Modification Composed Image Retrieval**|Zixu Li et.al.|[2604.21806](https://arxiv.org/abs/2604.21806)|null|
+|**2026-04-22**|**ConeSep: Cone-based Robust Noise-Unlearning Compositional Network for Composed Image Retrieval**|Zixu Li et.al.|[2604.20358](https://arxiv.org/abs/2604.20358)|null|
+|**2026-04-22**|**UniCVR: From Alignment to Reranking for Unified Zero-Shot Composed Visual Retrieval**|Haokun Wen et.al.|[2604.20318](https://arxiv.org/abs/2604.20318)|null|
+|**2026-04-21**|**SL(C)AMma: Simultaneous Localisation, (Calibration) and Mapping With a Magnetometer Array**|Thomas Edridge et.al.|[2604.19946](https://arxiv.org/abs/2604.19946)|null|
+|**2026-04-22**|**Air-Know: Arbiter-Calibrated Knowledge-Internalizing Robust Network for Composed Image Retrieval**|Zhiheng Fu et.al.|[2604.19386](https://arxiv.org/abs/2604.19386)|null|
+|**2026-04-20**|**T-REN: Learning Text-Aligned Region Tokens Improves Dense Vision-Language Alignment and Scalability**|Savya Khosla et.al.|[2604.18573](https://arxiv.org/abs/2604.18573)|null|
 |**2026-04-20**|**INTENT: Invariance and Discrimination-aware Noise Mitigation for Robust Composed Image Retrieval**|Zhiwei Chen et.al.|[2604.18051](https://arxiv.org/abs/2604.18051)|null|
 |**2026-04-20**|**HABIT: Chrono-Synergia Robust Progressive Learning Framework for Composed Image Retrieval**|Zixu Li et.al.|[2604.18037](https://arxiv.org/abs/2604.18037)|null|
 |**2026-04-20**|**Brain-Inspired Capture: Evidence-Driven Neuromimetic Perceptual Simulation for Visual Decoding**|Feixue Shao et.al.|[2604.17927](https://arxiv.org/abs/2604.17927)|null|

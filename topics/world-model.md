@@ -1,9 +1,19 @@
 # World Model
 
-> Updated on 2026.04.21
+> Updated on 2026.04.26
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-04-23**|**Seeing Fast and Slow: Learning the Flow of Time in Videos**|Yen-Siang Wu et.al.|[2604.21931](https://arxiv.org/abs/2604.21931)|null|
+|**2026-04-23**|**Machine Behavior in Relational Moral Dilemmas: Moral Rightness, Predicted Human Behavior, and Model Decisions**|Jiseon Kim et.al.|[2604.21871](https://arxiv.org/abs/2604.21871)|null|
+|**2026-04-23**|**Hi-WM: Human-in-the-World-Model for Scalable Robot Post-Training**|Yaxuan Li et.al.|[2604.21741](https://arxiv.org/abs/2604.21741)|null|
+|**2026-04-22**|**Building a Precise Video Language with Human-AI Oversight**|Zhiqiu Lin et.al.|[2604.21718](https://arxiv.org/abs/2604.21718)|null|
+|**2026-04-23**|**WorldMark: A Unified Benchmark Suite for Interactive Video World Models**|Xiaojie Xu et.al.|[2604.21686](https://arxiv.org/abs/2604.21686)|**[link](https://github.com/alaya-studio/WorldMark)**|
+|**2026-04-22**|**Agentic AI for Personalized Physiotherapy: A Multi-Agent Framework for Generative Video Training and Real-Time Pose Correction**|Abhishek Dharmaratnakar et.al.|[2604.21154](https://arxiv.org/abs/2604.21154)|null|
+|**2026-04-22**|**Open-H-Embodiment: A Large-Scale Dataset for Enabling Foundation Models in Medical Robotics**|Open-H-Embodiment Consortium et.al.|[2604.21017](https://arxiv.org/abs/2604.21017)|null|
+|**2026-04-22**|**DeVI: Physics-based Dexterous Human-Object Interaction via Synthetic Video Imitation**|Hyeonwoo Kim et.al.|[2604.20841](https://arxiv.org/abs/2604.20841)|null|
+|**2026-04-22**|**Occupancy Reward Shaping: Improving Credit Assignment for Offline Goal-Conditioned Reinforcement Learning**|Aravind Venugopal et.al.|[2604.20627](https://arxiv.org/abs/2604.20627)|null|
+|**2026-04-22**|**CCTVBench: Contrastive Consistency Traffic VideoQA Benchmark for Multimodal LLMs**|Xingcheng Zhou et.al.|[2604.20460](https://arxiv.org/abs/2604.20460)|null|
 |**2026-04-20**|**Sonata: A Hybrid World Model for Inertial Kinematics under Clinical Data Scarcity**|Blaise Delaney et.al.|[2604.18058](https://arxiv.org/abs/2604.18058)|null|
 |**2026-04-20**|**The Umwelt Representation Hypothesis: Rethinking Universality**|Victoria Bosch et.al.|[2604.17960](https://arxiv.org/abs/2604.17960)|null|
 |**2026-04-20**|**Scaling Human-AI Coding Collaboration Requires a Governable Consensus Layer**|Tianfu Wang et.al.|[2604.17883](https://arxiv.org/abs/2604.17883)|null|

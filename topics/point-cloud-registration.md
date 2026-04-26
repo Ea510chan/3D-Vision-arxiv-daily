@@ -1,12 +1,13 @@
 # Point Cloud Registration
 
-> Updated on 2026.04.21
+> Updated on 2026.04.26
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-04-23**|**PC2Model: ISPRS benchmark on 3D point cloud to model registration**|Mehdi Maboudi et.al.|[2604.19596](https://arxiv.org/abs/2604.19596)|null|
 |**2026-04-20**|**GeGS-PCR: Effective and Robust 3D Point Cloud Registration with Two-Stage Color-Enhanced Geometric-3DGS Fusion**|Jiayi Tian et.al.|[2604.17721](https://arxiv.org/abs/2604.17721)|null|
 |**2026-04-19**|**Deep learning based Non-Rigid Volume-to-Surface Registration for Brain Shift compensation Using Point Cloud**|Eashrat Jahan Muniya et.al.|[2604.17389](https://arxiv.org/abs/2604.17389)|null|
-|**2026-04-17**|**C-GenReg: Training-Free 3D Point Cloud Registration by Multi-View-Consistent Geometry-to-Image Generation with Probabilistic Modalities Fusion**|Yuval Haitman et.al.|[2604.16680](https://arxiv.org/abs/2604.16680)|null|
+|**2026-04-17**|**C-GenReg: Training-Free 3D Point Cloud Registration by Multi-View-Consistent Geometry-to-Image Generation with Probabilistic Modalities Fusion**|Yuval Haitman et.al.|[2604.16680](https://arxiv.org/abs/2604.16680)|**[link](https://github.com/yuvalH9/CGenReg)**|
 |**2026-04-15**|**BIEVR-LIO: Robust LiDAR-Inertial Odometry through Bump-Image-Enhanced Voxel Maps**|Patrick Pfreundschuh et.al.|[2604.14421](https://arxiv.org/abs/2604.14421)|null|
 |**2026-04-14**|**Towards Patient-Specific Deformable Registration in Laparoscopic Surgery**|Alberto Neri et.al.|[2604.13186](https://arxiv.org/abs/2604.13186)|null|
 |**2026-04-08**|**Exploring 6D Object Pose Estimation with Deformation**|Zhiqiang Liu et.al.|[2604.06720](https://arxiv.org/abs/2604.06720)|null|

@@ -1,9 +1,19 @@
 # Flow Matching
 
-> Updated on 2026.04.21
+> Updated on 2026.04.26
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-04-23**|**StyleID: A Perception-Aware Dataset and Metric for Stylization-Agnostic Facial Identity Recognition**|Kwan Yun et.al.|[2604.21689](https://arxiv.org/abs/2604.21689)|null|
+|**2026-04-23**|**From Noise to Intent: Anchoring Generative VLA Policies with Residual Bridges**|Yiming Zhong et.al.|[2604.21391](https://arxiv.org/abs/2604.21391)|null|
+|**2026-04-23**|**CorridorVLA: Explicit Spatial Constraints for Generative Action Heads via Sparse Anchors**|Dachong Li et.al.|[2604.21241](https://arxiv.org/abs/2604.21241)|null|
+|**2026-04-22**|**WFM: 3D Wavelet Flow Matching for Ultrafast Multi-Modal MRI Synthesis**|Yalcin Tur et.al.|[2604.21146](https://arxiv.org/abs/2604.21146)|null|
+|**2026-04-22**|**Linear Image Generation by Synthesizing Exposure Brackets**|Yuekun Dai et.al.|[2604.21008](https://arxiv.org/abs/2604.21008)|null|
+|**2026-04-22**|**ParetoSlider: Diffusion Models Post-Training for Continuous Reward Control**|Shelly Golan et.al.|[2604.20816](https://arxiv.org/abs/2604.20816)|null|
+|**2026-04-22**|**Tokenised Flow Matching for Hierarchical Simulation Based Inference**|Giovanni Charles et.al.|[2604.20723](https://arxiv.org/abs/2604.20723)|null|
+|**2026-04-22**|**Stability-Driven Motion Generation for Object-Guided Human-Human Co-Manipulation**|Jiahao Xu et.al.|[2604.20336](https://arxiv.org/abs/2604.20336)|null|
+|**2026-04-22**|**Semi-Supervised Flow Matching for Mosaiced and Panchromatic Fusion Imaging**|Peiming Luo et.al.|[2604.20128](https://arxiv.org/abs/2604.20128)|null|
+|**2026-04-21**|**Annealed Langevin Monte Carlo for Flow ODE Sampling**|Hanwen Huang et.al.|[2604.20052](https://arxiv.org/abs/2604.20052)|null|
 |**2026-04-20**|**Complex normalizing flows can be information Kähler-Ricci flows**|Andrew Gracyk et.al.|[2604.17954](https://arxiv.org/abs/2604.17954)|null|
 |**2026-04-20**|**Fisher Decorator: Refining Flow Policy via A Local Transport Map**|Xiaoyuan Cheng et.al.|[2604.17919](https://arxiv.org/abs/2604.17919)|null|
 |**2026-04-20**|**OFlow: Injecting Object-Aware Temporal Flow Matching for Robust Robotic Manipulation**|Kuanning Wang et.al.|[2604.17876](https://arxiv.org/abs/2604.17876)|null|
