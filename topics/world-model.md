@@ -1,29 +1,29 @@
 # World Model
 
-> Updated on 2026.04.26
+> Updated on 2026.04.27
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-04-23**|**Seeing Fast and Slow: Learning the Flow of Time in Videos**|Yen-Siang Wu et.al.|[2604.21931](https://arxiv.org/abs/2604.21931)|null|
-|**2026-04-23**|**Machine Behavior in Relational Moral Dilemmas: Moral Rightness, Predicted Human Behavior, and Model Decisions**|Jiseon Kim et.al.|[2604.21871](https://arxiv.org/abs/2604.21871)|null|
-|**2026-04-23**|**Hi-WM: Human-in-the-World-Model for Scalable Robot Post-Training**|Yaxuan Li et.al.|[2604.21741](https://arxiv.org/abs/2604.21741)|null|
-|**2026-04-22**|**Building a Precise Video Language with Human-AI Oversight**|Zhiqiu Lin et.al.|[2604.21718](https://arxiv.org/abs/2604.21718)|null|
-|**2026-04-23**|**WorldMark: A Unified Benchmark Suite for Interactive Video World Models**|Xiaojie Xu et.al.|[2604.21686](https://arxiv.org/abs/2604.21686)|**[link](https://github.com/alaya-studio/WorldMark)**|
-|**2026-04-22**|**Agentic AI for Personalized Physiotherapy: A Multi-Agent Framework for Generative Video Training and Real-Time Pose Correction**|Abhishek Dharmaratnakar et.al.|[2604.21154](https://arxiv.org/abs/2604.21154)|null|
-|**2026-04-22**|**Open-H-Embodiment: A Large-Scale Dataset for Enabling Foundation Models in Medical Robotics**|Open-H-Embodiment Consortium et.al.|[2604.21017](https://arxiv.org/abs/2604.21017)|null|
-|**2026-04-22**|**DeVI: Physics-based Dexterous Human-Object Interaction via Synthetic Video Imitation**|Hyeonwoo Kim et.al.|[2604.20841](https://arxiv.org/abs/2604.20841)|null|
-|**2026-04-22**|**Occupancy Reward Shaping: Improving Credit Assignment for Offline Goal-Conditioned Reinforcement Learning**|Aravind Venugopal et.al.|[2604.20627](https://arxiv.org/abs/2604.20627)|null|
-|**2026-04-22**|**CCTVBench: Contrastive Consistency Traffic VideoQA Benchmark for Multimodal LLMs**|Xingcheng Zhou et.al.|[2604.20460](https://arxiv.org/abs/2604.20460)|null|
-|**2026-04-20**|**Sonata: A Hybrid World Model for Inertial Kinematics under Clinical Data Scarcity**|Blaise Delaney et.al.|[2604.18058](https://arxiv.org/abs/2604.18058)|null|
-|**2026-04-20**|**The Umwelt Representation Hypothesis: Rethinking Universality**|Victoria Bosch et.al.|[2604.17960](https://arxiv.org/abs/2604.17960)|null|
-|**2026-04-20**|**Scaling Human-AI Coding Collaboration Requires a Governable Consensus Layer**|Tianfu Wang et.al.|[2604.17883](https://arxiv.org/abs/2604.17883)|null|
-|**2026-04-19**|**Infrastructure-Centric World Models: Bridging Temporal Depth and Spatial Breadth for Roadside Perception**|Siyuan Meng et.al.|[2604.17651](https://arxiv.org/abs/2604.17651)|null|
-|**2026-04-19**|**Dual-Anchoring: Addressing State Drift in Vision-Language Navigation**|Kangyi Wu et.al.|[2604.17473](https://arxiv.org/abs/2604.17473)|null|
-|**2026-04-19**|**Long-CODE: Isolating Pure Long-Context as an Orthogonal Dimension in Video Evaluation**|Zhijiang Tang et.al.|[2604.17428](https://arxiv.org/abs/2604.17428)|null|
-|**2026-04-19**|**DreamShot: Personalized Storyboard Synthesis with Video Diffusion Prior**|Junjia Huang et.al.|[2604.17195](https://arxiv.org/abs/2604.17195)|null|
-|**2026-04-18**|**TensorHub: Rethinking AI Model Hub with Tensor-Centric Compression**|Tingfeng Lan et.al.|[2604.17104](https://arxiv.org/abs/2604.17104)|null|
-|**2026-04-18**|**LIVE: Leveraging Image Manipulation Priors for Instruction-based Video Editing**|Weicheng Wang et.al.|[2604.17021](https://arxiv.org/abs/2604.17021)|null|
-|**2026-04-18**|**SafeDream: Safety World Model for Proactive Early Jailbreak Detection**|Bo Yan et.al.|[2604.16824](https://arxiv.org/abs/2604.16824)|null|
+|2026-04-23|Seeing Fast and Slow: Learning the Flow of Time in Videos|Yen-Siang Wu et.al.|[2604.21931](https://arxiv.org/abs/2604.21931)|null|
+|2026-04-23|Machine Behavior in Relational Moral Dilemmas: Moral Rightness, Predicted Human Behavior, and Model Decisions|Jiseon Kim et.al.|[2604.21871](https://arxiv.org/abs/2604.21871)|null|
+|2026-04-23|Hi-WM: Human-in-the-World-Model for Scalable Robot Post-Training|Yaxuan Li et.al.|[2604.21741](https://arxiv.org/abs/2604.21741)|null|
+|2026-04-22|Building a Precise Video Language with Human-AI Oversight|Zhiqiu Lin et.al.|[2604.21718](https://arxiv.org/abs/2604.21718)|null|
+|2026-04-23|WorldMark: A Unified Benchmark Suite for Interactive Video World Models|Xiaojie Xu et.al.|[2604.21686](https://arxiv.org/abs/2604.21686)|[link](https://github.com/alaya-studio/WorldMark)|
+|2026-04-22|Agentic AI for Personalized Physiotherapy: A Multi-Agent Framework for Generative Video Training and Real-Time Pose Correction|Abhishek Dharmaratnakar et.al.|[2604.21154](https://arxiv.org/abs/2604.21154)|null|
+|2026-04-22|Open-H-Embodiment: A Large-Scale Dataset for Enabling Foundation Models in Medical Robotics|Open-H-Embodiment Consortium et.al.|[2604.21017](https://arxiv.org/abs/2604.21017)|null|
+|2026-04-22|DeVI: Physics-based Dexterous Human-Object Interaction via Synthetic Video Imitation|Hyeonwoo Kim et.al.|[2604.20841](https://arxiv.org/abs/2604.20841)|null|
+|2026-04-22|Occupancy Reward Shaping: Improving Credit Assignment for Offline Goal-Conditioned Reinforcement Learning|Aravind Venugopal et.al.|[2604.20627](https://arxiv.org/abs/2604.20627)|null|
+|2026-04-22|CCTVBench: Contrastive Consistency Traffic VideoQA Benchmark for Multimodal LLMs|Xingcheng Zhou et.al.|[2604.20460](https://arxiv.org/abs/2604.20460)|null|
+|2026-04-20|Sonata: A Hybrid World Model for Inertial Kinematics under Clinical Data Scarcity|Blaise Delaney et.al.|[2604.18058](https://arxiv.org/abs/2604.18058)|null|
+|2026-04-20|The Umwelt Representation Hypothesis: Rethinking Universality|Victoria Bosch et.al.|[2604.17960](https://arxiv.org/abs/2604.17960)|null|
+|2026-04-20|Scaling Human-AI Coding Collaboration Requires a Governable Consensus Layer|Tianfu Wang et.al.|[2604.17883](https://arxiv.org/abs/2604.17883)|null|
+|2026-04-19|Infrastructure-Centric World Models: Bridging Temporal Depth and Spatial Breadth for Roadside Perception|Siyuan Meng et.al.|[2604.17651](https://arxiv.org/abs/2604.17651)|null|
+|2026-04-19|Dual-Anchoring: Addressing State Drift in Vision-Language Navigation|Kangyi Wu et.al.|[2604.17473](https://arxiv.org/abs/2604.17473)|null|
+|2026-04-19|Long-CODE: Isolating Pure Long-Context as an Orthogonal Dimension in Video Evaluation|Zhijiang Tang et.al.|[2604.17428](https://arxiv.org/abs/2604.17428)|null|
+|2026-04-19|DreamShot: Personalized Storyboard Synthesis with Video Diffusion Prior|Junjia Huang et.al.|[2604.17195](https://arxiv.org/abs/2604.17195)|null|
+|2026-04-18|TensorHub: Rethinking AI Model Hub with Tensor-Centric Compression|Tingfeng Lan et.al.|[2604.17104](https://arxiv.org/abs/2604.17104)|null|
+|2026-04-18|LIVE: Leveraging Image Manipulation Priors for Instruction-based Video Editing|Weicheng Wang et.al.|[2604.17021](https://arxiv.org/abs/2604.17021)|null|
+|2026-04-18|SafeDream: Safety World Model for Proactive Early Jailbreak Detection|Bo Yan et.al.|[2604.16824](https://arxiv.org/abs/2604.16824)|null|
 |2026-04-15|Seedance 2.0: Advancing Video Generation for World Complexity|Team Seedance et.al.|[2604.14148](https://arxiv.org/abs/2604.14148)|null|
 |2026-04-15|Feed-Forward 3D Scene Modeling: A Problem-Driven Perspective|Weijie Wang et.al.|[2604.14025](https://arxiv.org/abs/2604.14025)|null|
 |2026-04-15|Beyond State Consistency: Behavior Consistency in Text-Based World Models|Youling Huang et.al.|[2604.13824](https://arxiv.org/abs/2604.13824)|null|
@@ -45,7 +45,7 @@
 |2026-04-08|Grasp as You Dream: Imitating Functional Grasping from Generated Human Demonstrations|Chao Tang et.al.|[2604.07517](https://arxiv.org/abs/2604.07517)|null|
 |2026-04-08|GIRL: Generative Imagination Reinforcement Learning via Information-Theoretic Hallucination Control|Prakul Sunil Hiremath et.al.|[2604.07426](https://arxiv.org/abs/2604.07426)|null|
 |2026-04-08|How Much LLM Does a Self-Revising Agent Actually Need?|Seongwoo Jeong et.al.|[2604.07236](https://arxiv.org/abs/2604.07236)|null|
-|2026-04-08|PhyEdit: Towards Real-World Object Manipulation via Physically-Grounded Image Editing|Ruihang Xu et.al.|[2604.07230](https://arxiv.org/abs/2604.07230)|**[link](https://github.com/nenhang/PhyEdit)**|
+|2026-04-08|PhyEdit: Towards Real-World Object Manipulation via Physically-Grounded Image Editing|Ruihang Xu et.al.|[2604.07230](https://arxiv.org/abs/2604.07230)|[link](https://github.com/nenhang/PhyEdit)|
 |2026-04-08|INSPATIO-WORLD: A Real-Time 4D World Simulator via Spatiotemporal Autoregressive Modeling|InSpatio Team et.al.|[2604.07209](https://arxiv.org/abs/2604.07209)|null|
 |2026-04-08|Radio-Frequency Inverse Rendering for Wireless Environment Modeling|Fuhai Wang et.al.|[2604.07086](https://arxiv.org/abs/2604.07086)|null|
 |2026-04-08|Telecom World Models: Unifying Digital Twins, Foundation Models, and Predictive Planning for 6G|Hang Zou et.al.|[2604.06882](https://arxiv.org/abs/2604.06882)|null|

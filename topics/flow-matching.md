@@ -1,29 +1,29 @@
 # Flow Matching
 
-> Updated on 2026.04.26
+> Updated on 2026.04.27
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-04-23**|**StyleID: A Perception-Aware Dataset and Metric for Stylization-Agnostic Facial Identity Recognition**|Kwan Yun et.al.|[2604.21689](https://arxiv.org/abs/2604.21689)|null|
-|**2026-04-23**|**From Noise to Intent: Anchoring Generative VLA Policies with Residual Bridges**|Yiming Zhong et.al.|[2604.21391](https://arxiv.org/abs/2604.21391)|null|
-|**2026-04-23**|**CorridorVLA: Explicit Spatial Constraints for Generative Action Heads via Sparse Anchors**|Dachong Li et.al.|[2604.21241](https://arxiv.org/abs/2604.21241)|null|
-|**2026-04-22**|**WFM: 3D Wavelet Flow Matching for Ultrafast Multi-Modal MRI Synthesis**|Yalcin Tur et.al.|[2604.21146](https://arxiv.org/abs/2604.21146)|null|
-|**2026-04-22**|**Linear Image Generation by Synthesizing Exposure Brackets**|Yuekun Dai et.al.|[2604.21008](https://arxiv.org/abs/2604.21008)|null|
-|**2026-04-22**|**ParetoSlider: Diffusion Models Post-Training for Continuous Reward Control**|Shelly Golan et.al.|[2604.20816](https://arxiv.org/abs/2604.20816)|null|
-|**2026-04-22**|**Tokenised Flow Matching for Hierarchical Simulation Based Inference**|Giovanni Charles et.al.|[2604.20723](https://arxiv.org/abs/2604.20723)|null|
-|**2026-04-22**|**Stability-Driven Motion Generation for Object-Guided Human-Human Co-Manipulation**|Jiahao Xu et.al.|[2604.20336](https://arxiv.org/abs/2604.20336)|null|
-|**2026-04-22**|**Semi-Supervised Flow Matching for Mosaiced and Panchromatic Fusion Imaging**|Peiming Luo et.al.|[2604.20128](https://arxiv.org/abs/2604.20128)|null|
-|**2026-04-21**|**Annealed Langevin Monte Carlo for Flow ODE Sampling**|Hanwen Huang et.al.|[2604.20052](https://arxiv.org/abs/2604.20052)|null|
-|**2026-04-20**|**Complex normalizing flows can be information Kähler-Ricci flows**|Andrew Gracyk et.al.|[2604.17954](https://arxiv.org/abs/2604.17954)|null|
-|**2026-04-20**|**Fisher Decorator: Refining Flow Policy via A Local Transport Map**|Xiaoyuan Cheng et.al.|[2604.17919](https://arxiv.org/abs/2604.17919)|null|
-|**2026-04-20**|**OFlow: Injecting Object-Aware Temporal Flow Matching for Robust Robotic Manipulation**|Kuanning Wang et.al.|[2604.17876](https://arxiv.org/abs/2604.17876)|null|
-|**2026-04-20**|**OmniVLA-RL: A Vision-Language-Action Model with Spatial Understanding and Online RL**|Haoxiang Jie et.al.|[2604.17706](https://arxiv.org/abs/2604.17706)|null|
-|**2026-04-20**|**Grokking of Diffusion Models: Case Study on Modular Addition**|Joon Hyeok Kim et.al.|[2604.17673](https://arxiv.org/abs/2604.17673)|null|
-|**2026-04-19**|**Reward Score Matching: Unifying Reward-based Fine-tuning for Flow and Diffusion Models**|Jeongjae Lee et.al.|[2604.17415](https://arxiv.org/abs/2604.17415)|null|
-|**2026-04-19**|**EmbodiedHead: Real-Time Listening and Speaking Avatar for Conversational Agents**|Yu Zhang et.al.|[2604.17211](https://arxiv.org/abs/2604.17211)|null|
-|**2026-04-18**|**FlowRefiner: Flow Matching-Based Iterative Refinement for 3D Turbulent Flow Simulation**|Yilong Dai et.al.|[2604.17149](https://arxiv.org/abs/2604.17149)|null|
-|**2026-04-18**|**Anonymization, Not Elimination: Utility-Preserved Speech Anonymization**|Yunchong Xiao et.al.|[2604.17000](https://arxiv.org/abs/2604.17000)|null|
-|**2026-04-18**|**CrossFlowDG: Bridging the Modality Gap with Cross-modal Flow Matching for Domain Generalization**|Antonios Kritikos et.al.|[2604.16892](https://arxiv.org/abs/2604.16892)|null|
+|2026-04-23|StyleID: A Perception-Aware Dataset and Metric for Stylization-Agnostic Facial Identity Recognition|Kwan Yun et.al.|[2604.21689](https://arxiv.org/abs/2604.21689)|null|
+|2026-04-23|From Noise to Intent: Anchoring Generative VLA Policies with Residual Bridges|Yiming Zhong et.al.|[2604.21391](https://arxiv.org/abs/2604.21391)|null|
+|2026-04-23|CorridorVLA: Explicit Spatial Constraints for Generative Action Heads via Sparse Anchors|Dachong Li et.al.|[2604.21241](https://arxiv.org/abs/2604.21241)|null|
+|2026-04-22|WFM: 3D Wavelet Flow Matching for Ultrafast Multi-Modal MRI Synthesis|Yalcin Tur et.al.|[2604.21146](https://arxiv.org/abs/2604.21146)|null|
+|2026-04-22|Linear Image Generation by Synthesizing Exposure Brackets|Yuekun Dai et.al.|[2604.21008](https://arxiv.org/abs/2604.21008)|**[link](https://github.com/ykdai/LinearGen)**|
+|2026-04-22|ParetoSlider: Diffusion Models Post-Training for Continuous Reward Control|Shelly Golan et.al.|[2604.20816](https://arxiv.org/abs/2604.20816)|null|
+|2026-04-22|Tokenised Flow Matching for Hierarchical Simulation Based Inference|Giovanni Charles et.al.|[2604.20723](https://arxiv.org/abs/2604.20723)|null|
+|2026-04-22|Stability-Driven Motion Generation for Object-Guided Human-Human Co-Manipulation|Jiahao Xu et.al.|[2604.20336](https://arxiv.org/abs/2604.20336)|null|
+|2026-04-22|Semi-Supervised Flow Matching for Mosaiced and Panchromatic Fusion Imaging|Peiming Luo et.al.|[2604.20128](https://arxiv.org/abs/2604.20128)|null|
+|2026-04-21|Annealed Langevin Monte Carlo for Flow ODE Sampling|Hanwen Huang et.al.|[2604.20052](https://arxiv.org/abs/2604.20052)|null|
+|2026-04-20|Complex normalizing flows can be information Kähler-Ricci flows|Andrew Gracyk et.al.|[2604.17954](https://arxiv.org/abs/2604.17954)|null|
+|2026-04-20|Fisher Decorator: Refining Flow Policy via A Local Transport Map|Xiaoyuan Cheng et.al.|[2604.17919](https://arxiv.org/abs/2604.17919)|null|
+|2026-04-20|OFlow: Injecting Object-Aware Temporal Flow Matching for Robust Robotic Manipulation|Kuanning Wang et.al.|[2604.17876](https://arxiv.org/abs/2604.17876)|null|
+|2026-04-20|OmniVLA-RL: A Vision-Language-Action Model with Spatial Understanding and Online RL|Haoxiang Jie et.al.|[2604.17706](https://arxiv.org/abs/2604.17706)|null|
+|2026-04-20|Grokking of Diffusion Models: Case Study on Modular Addition|Joon Hyeok Kim et.al.|[2604.17673](https://arxiv.org/abs/2604.17673)|null|
+|2026-04-19|Reward Score Matching: Unifying Reward-based Fine-tuning for Flow and Diffusion Models|Jeongjae Lee et.al.|[2604.17415](https://arxiv.org/abs/2604.17415)|null|
+|2026-04-19|EmbodiedHead: Real-Time Listening and Speaking Avatar for Conversational Agents|Yu Zhang et.al.|[2604.17211](https://arxiv.org/abs/2604.17211)|null|
+|2026-04-18|FlowRefiner: Flow Matching-Based Iterative Refinement for 3D Turbulent Flow Simulation|Yilong Dai et.al.|[2604.17149](https://arxiv.org/abs/2604.17149)|null|
+|2026-04-18|Anonymization, Not Elimination: Utility-Preserved Speech Anonymization|Yunchong Xiao et.al.|[2604.17000](https://arxiv.org/abs/2604.17000)|null|
+|2026-04-18|CrossFlowDG: Bridging the Modality Gap with Cross-modal Flow Matching for Domain Generalization|Antonios Kritikos et.al.|[2604.16892](https://arxiv.org/abs/2604.16892)|null|
 |2026-04-15|HiVLA: A Visual-Grounded-Centric Hierarchical Embodied Manipulation System|Tianshuo Yang et.al.|[2604.14125](https://arxiv.org/abs/2604.14125)|null|
 |2026-04-15|PRiMeFlow: Capturing Complex Expression Heterogeneity in Perturbation Response Modelling|Zichao Yan et.al.|[2604.13986](https://arxiv.org/abs/2604.13986)|null|
 |2026-04-15|Rethinking Image-to-3D Generation with Sparse Queries: Efficiency, Capacity, and Input-View Bias|Zhiyuan Xu et.al.|[2604.13905](https://arxiv.org/abs/2604.13905)|null|

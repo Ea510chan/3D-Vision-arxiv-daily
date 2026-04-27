@@ -1,29 +1,29 @@
 # 3D Reconstruction
 
-> Updated on 2026.04.26
+> Updated on 2026.04.27
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-04-23**|**CuRast: Cuda-Based Software Rasterization for Billions of Triangles**|Markus Schütz et.al.|[2604.21749](https://arxiv.org/abs/2604.21749)|null|
-|**2026-04-22**|**GeoRect4D: Geometry-Compatible Generative Rectification for Dynamic Sparse-View 3D Reconstruction**|Zhenlong Wu et.al.|[2604.20784](https://arxiv.org/abs/2604.20784)|null|
-|**2026-04-21**|**FluSplat: Sparse-View 3D Editing without Test-Time Optimization**|Haitao Huang et.al.|[2604.20038](https://arxiv.org/abs/2604.20038)|null|
-|**2026-04-21**|**UniCon3R: Contact-aware 3D Human-Scene Reconstruction from Monocular Video**|Tanuj Sur et.al.|[2604.19923](https://arxiv.org/abs/2604.19923)|null|
-|**2026-04-21**|**AnyRecon: Arbitrary-View 3D Reconstruction with Video Diffusion Model**|Yutian Chen et.al.|[2604.19747](https://arxiv.org/abs/2604.19747)|null|
-|**2026-04-21**|**Paparazzo: Active Mapping of Moving 3D Objects**|Davide Allegro et.al.|[2604.19556](https://arxiv.org/abs/2604.19556)|null|
-|**2026-04-21**|**Unposed-to-3D: Learning Simulation-Ready Vehicles from Real-World Images**|Hongyuan Liu et.al.|[2604.19257](https://arxiv.org/abs/2604.19257)|null|
-|**2026-04-21**|**BALTIC: A Benchmark and Cross-Domain Strategy for 3D Reconstruction Across Air and Underwater Domains Under Varying Illumination**|Michele Grimaldi et.al.|[2604.19133](https://arxiv.org/abs/2604.19133)|null|
-|**2026-04-21**|**RoomRecon: High-Quality Textured Room Layout Reconstruction on Mobile Devices**|Seok Joon Kim et.al.|[2604.19025](https://arxiv.org/abs/2604.19025)|null|
-|**2026-04-20**|**ToFiE, a Topology-aware Fiber Extraction workflow for 3D reconstruction of dense and heterogeneous biological fiber networks from microscopy images**|Risa Togo et.al.|[2604.18230](https://arxiv.org/abs/2604.18230)|null|
-|**2026-04-20**|**AI Approach for MRI-only Full-Spine Vertebral Segmentation and 3D Reconstruction in Paediatric Scoliosis**|Nathasha Naranpanawa et.al.|[2604.17846](https://arxiv.org/abs/2604.17846)|null|
-|**2026-04-20**|**PCM-NeRF: Probabilistic Camera Modeling for Neural Radiance Fields under Pose Uncertainty**|Shravan Venkatraman et.al.|[2604.17831](https://arxiv.org/abs/2604.17831)|null|
-|**2026-04-20**|**Score-Based Matching with Target Guidance for Cryo-EM Denoising**|Xiaoqi Wu et.al.|[2604.17734](https://arxiv.org/abs/2604.17734)|null|
-|**2026-04-19**|**HyKey: Hyperspectral Keypoint Detection and Matching in Minimally Invasive Surgery**|Alexander Saikia et.al.|[2604.17446](https://arxiv.org/abs/2604.17446)|null|
-|**2026-04-19**|**A Rapid Deployment Pipeline for Autonomous Humanoid Grasping Based on Foundation Models**|Yifei Yan et.al.|[2604.17258](https://arxiv.org/abs/2604.17258)|null|
-|**2026-04-17**|**PoInit-of-View: Poisoning Initialization of Views Transfers Across Multiple 3D Reconstruction Systems**|Weijie Wang et.al.|[2604.16540](https://arxiv.org/abs/2604.16540)|null|
-|**2026-04-17**|**Neural Gabor Splatting: Enhanced Gaussian Splatting with Neural Gabor for High-frequency Surface Reconstruction**|Haato Watanabe et.al.|[2604.15941](https://arxiv.org/abs/2604.15941)|null|
-|**2026-04-17**|**Splats in Splats++: Robust and Generalizable 3D Gaussian Splatting Steganography**|Yijia Guo et.al.|[2604.15862](https://arxiv.org/abs/2604.15862)|null|
-|**2026-04-16**|**CAVERS: Multimodal SLAM Data from a Natural Karstic Cave with Ground Truth Motion Capture**|Giacomo Franchini et.al.|[2604.15052](https://arxiv.org/abs/2604.15052)|null|
-|**2026-04-16**|**M3D-Net: Multi-Modal 3D Facial Feature Reconstruction Network for Deepfake Detection**|Haotian Wu et.al.|[2604.14574](https://arxiv.org/abs/2604.14574)|null|
+|2026-04-23|CuRast: Cuda-Based Software Rasterization for Billions of Triangles|Markus Schütz et.al.|[2604.21749](https://arxiv.org/abs/2604.21749)|null|
+|2026-04-22|GeoRect4D: Geometry-Compatible Generative Rectification for Dynamic Sparse-View 3D Reconstruction|Zhenlong Wu et.al.|[2604.20784](https://arxiv.org/abs/2604.20784)|null|
+|2026-04-21|FluSplat: Sparse-View 3D Editing without Test-Time Optimization|Haitao Huang et.al.|[2604.20038](https://arxiv.org/abs/2604.20038)|null|
+|2026-04-21|UniCon3R: Contact-aware 3D Human-Scene Reconstruction from Monocular Video|Tanuj Sur et.al.|[2604.19923](https://arxiv.org/abs/2604.19923)|null|
+|2026-04-21|AnyRecon: Arbitrary-View 3D Reconstruction with Video Diffusion Model|Yutian Chen et.al.|[2604.19747](https://arxiv.org/abs/2604.19747)|null|
+|2026-04-21|Paparazzo: Active Mapping of Moving 3D Objects|Davide Allegro et.al.|[2604.19556](https://arxiv.org/abs/2604.19556)|null|
+|2026-04-21|Unposed-to-3D: Learning Simulation-Ready Vehicles from Real-World Images|Hongyuan Liu et.al.|[2604.19257](https://arxiv.org/abs/2604.19257)|null|
+|2026-04-21|BALTIC: A Benchmark and Cross-Domain Strategy for 3D Reconstruction Across Air and Underwater Domains Under Varying Illumination|Michele Grimaldi et.al.|[2604.19133](https://arxiv.org/abs/2604.19133)|null|
+|2026-04-21|RoomRecon: High-Quality Textured Room Layout Reconstruction on Mobile Devices|Seok Joon Kim et.al.|[2604.19025](https://arxiv.org/abs/2604.19025)|null|
+|2026-04-20|ToFiE, a Topology-aware Fiber Extraction workflow for 3D reconstruction of dense and heterogeneous biological fiber networks from microscopy images|Risa Togo et.al.|[2604.18230](https://arxiv.org/abs/2604.18230)|null|
+|2026-04-20|AI Approach for MRI-only Full-Spine Vertebral Segmentation and 3D Reconstruction in Paediatric Scoliosis|Nathasha Naranpanawa et.al.|[2604.17846](https://arxiv.org/abs/2604.17846)|null|
+|2026-04-20|PCM-NeRF: Probabilistic Camera Modeling for Neural Radiance Fields under Pose Uncertainty|Shravan Venkatraman et.al.|[2604.17831](https://arxiv.org/abs/2604.17831)|null|
+|2026-04-20|Score-Based Matching with Target Guidance for Cryo-EM Denoising|Xiaoqi Wu et.al.|[2604.17734](https://arxiv.org/abs/2604.17734)|null|
+|2026-04-19|HyKey: Hyperspectral Keypoint Detection and Matching in Minimally Invasive Surgery|Alexander Saikia et.al.|[2604.17446](https://arxiv.org/abs/2604.17446)|null|
+|2026-04-19|A Rapid Deployment Pipeline for Autonomous Humanoid Grasping Based on Foundation Models|Yifei Yan et.al.|[2604.17258](https://arxiv.org/abs/2604.17258)|null|
+|2026-04-17|PoInit-of-View: Poisoning Initialization of Views Transfers Across Multiple 3D Reconstruction Systems|Weijie Wang et.al.|[2604.16540](https://arxiv.org/abs/2604.16540)|null|
+|2026-04-17|Neural Gabor Splatting: Enhanced Gaussian Splatting with Neural Gabor for High-frequency Surface Reconstruction|Haato Watanabe et.al.|[2604.15941](https://arxiv.org/abs/2604.15941)|null|
+|2026-04-17|Splats in Splats++: Robust and Generalizable 3D Gaussian Splatting Steganography|Yijia Guo et.al.|[2604.15862](https://arxiv.org/abs/2604.15862)|null|
+|2026-04-16|CAVERS: Multimodal SLAM Data from a Natural Karstic Cave with Ground Truth Motion Capture|Giacomo Franchini et.al.|[2604.15052](https://arxiv.org/abs/2604.15052)|null|
+|2026-04-16|M3D-Net: Multi-Modal 3D Facial Feature Reconstruction Network for Deepfake Detection|Haotian Wu et.al.|[2604.14574](https://arxiv.org/abs/2604.14574)|null|
 |2026-04-15|Geometric Context Transformer for Streaming 3D Reconstruction|Lin-Zhuo Chen et.al.|[2604.14141](https://arxiv.org/abs/2604.14141)|null|
 |2026-04-15|Free Geometry: Refining 3D Reconstruction from Longer Versions of Itself|Yuhang Dai et.al.|[2604.14048](https://arxiv.org/abs/2604.14048)|null|
 |2026-04-15|Feed-Forward 3D Scene Modeling: A Problem-Driven Perspective|Weijie Wang et.al.|[2604.14025](https://arxiv.org/abs/2604.14025)|null|
@@ -100,7 +100,7 @@
 |2026-02-26|VGG-T $^3$ : Offline Feed-Forward 3D Reconstruction at Scale|Sven Elflein et.al.|[2602.23361](https://arxiv.org/abs/2602.23361)|null|
 |2026-02-26|UniScale: Unified Scale-Aware 3D Reconstruction for Multi-View Understanding via Prior Injection for Robotic Perception|Mohammad Mahdavian et.al.|[2602.23224](https://arxiv.org/abs/2602.23224)|null|
 |2026-02-26|FLIGHT: Fibonacci Lattice-based Inference for Geometric Heading in real-Time|David Dirnfeld et.al.|[2602.23115](https://arxiv.org/abs/2602.23115)|null|
-|2026-02-26|UCM: Unifying Camera Control and Memory with Time-aware Positional Encoding Warping for World Models|Tianxing Xu et.al.|[2602.22960](https://arxiv.org/abs/2602.22960)|**[link](https://github.com/HumanAIGC/ucm-webpage)**|
+|2026-02-26|UCM: Unifying Camera Control and Memory with Time-aware Positional Encoding Warping for World Models|Tianxing Xu et.al.|[2602.22960](https://arxiv.org/abs/2602.22960)|[link](https://github.com/HumanAIGC/ucm-webpage)|
 |2026-02-26|Sapling-NeRF: Geo-Localised Sapling Reconstruction in Forests for Ecological Monitoring|Miguel Ángel Muñoz-Bañón et.al.|[2602.22731](https://arxiv.org/abs/2602.22731)|null|
 |2026-02-26|QuadSync: Quadrifocal Tensor Synchronization via Tucker Decomposition|Daniel Miao et.al.|[2602.22639](https://arxiv.org/abs/2602.22639)|null|
 |2026-02-26|GIFSplat: Generative Prior-Guided Iterative Feed-Forward 3D Gaussian Splatting from Sparse Views|Tianyu Chen et.al.|[2602.22571](https://arxiv.org/abs/2602.22571)|null|
@@ -115,8 +115,8 @@
 |2026-02-24|Long-Term Multi-Session 3D Reconstruction Under Substantial Appearance Change|Beverley Gorry et.al.|[2602.20584](https://arxiv.org/abs/2602.20584)|null|
 |2026-02-24|Progressive Per-Branch Depth Optimization for DEFOM-Stereo and SAM3 Joint Analysis in UAV Forestry Applications|Yida Lin et.al.|[2602.20539](https://arxiv.org/abs/2602.20539)|null|
 |2026-02-23|Large-scale Photorealistic Outdoor 3D Scene Reconstruction from UAV Imagery Using Gaussian Splatting Techniques|Christos Maikos et.al.|[2602.20342](https://arxiv.org/abs/2602.20342)|null|
-|2026-02-23|tttLRM: Test-Time Training for Long Context and Autoregressive 3D Reconstruction|Chen Wang et.al.|[2602.20160](https://arxiv.org/abs/2602.20160)|**[link](https://github.com/cwchenwang/tttLRM)**|
-|2026-02-23|Monocular Mesh Recovery and Body Measurement of Female Saanen Goats|Bo Jin et.al.|[2602.19896](https://arxiv.org/abs/2602.19896)|**[link](https://github.com/bojin-nwafu/Female-Saanen-Goats)**|
+|2026-02-23|tttLRM: Test-Time Training for Long Context and Autoregressive 3D Reconstruction|Chen Wang et.al.|[2602.20160](https://arxiv.org/abs/2602.20160)|[link](https://github.com/cwchenwang/tttLRM)|
+|2026-02-23|Monocular Mesh Recovery and Body Measurement of Female Saanen Goats|Bo Jin et.al.|[2602.19896](https://arxiv.org/abs/2602.19896)|[link](https://github.com/bojin-nwafu/Female-Saanen-Goats)|
 |2026-02-11|Ctrl&Shift: High-Quality Geometry-Aware Object Manipulation in Visual Generation|Penghui Ruan et.al.|[2602.11440](https://arxiv.org/abs/2602.11440)|null|
 |2026-02-11|Using a 4-megapixel hybrid photon counting detector for fast, lab-based nanoscale x-ray tomography|Jordan Fonseca et.al.|[2602.11375](https://arxiv.org/abs/2602.11375)|null|
 |2026-02-10|ERGO: Excess-Risk-Guided Optimization for High-Fidelity Monocular 3D Gaussian Splatting|Zehua Ma et.al.|[2602.10278](https://arxiv.org/abs/2602.10278)|null|

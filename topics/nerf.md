@@ -1,24 +1,24 @@
 # NeRF
 
-> Updated on 2026.04.26
+> Updated on 2026.04.27
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-04-23**|**DualSplat: Robust 3D Gaussian Splatting via Pseudo-Mask Bootstrapping from Reconstruction Failures**|Xu Wang et.al.|[2604.21631](https://arxiv.org/abs/2604.21631)|null|
-|**2026-04-21**|**OT-UVGS: Revisiting UV Mapping for Gaussian Splatting as a Capacity Allocation Problem**|Byunghyun Kim et.al.|[2604.19127](https://arxiv.org/abs/2604.19127)|null|
-|**2026-04-20**|**A Comparative Evaluation of Geometric Accuracy in NeRF and Gaussian Splatting**|Mikolaj Zielinski et.al.|[2604.18205](https://arxiv.org/abs/2604.18205)|null|
-|**2026-04-20**|**MU-GeNeRF: Multi-view Uncertainty-guided Generalizable Neural Radiance Fields for Distractor-aware Scene**|Wenjie Mu et.al.|[2604.17965](https://arxiv.org/abs/2604.17965)|null|
-|**2026-04-20**|**PCM-NeRF: Probabilistic Camera Modeling for Neural Radiance Fields under Pose Uncertainty**|Shravan Venkatraman et.al.|[2604.17831](https://arxiv.org/abs/2604.17831)|null|
-|**2026-04-17**|**Incoherent Deformation, Not Capacity: Diagnosing and Mitigating Overfitting in Dynamic Gaussian Splatting**|Ahmad Droby et.al.|[2604.16747](https://arxiv.org/abs/2604.16747)|null|
-|**2026-04-17**|**PoInit-of-View: Poisoning Initialization of Views Transfers Across Multiple 3D Reconstruction Systems**|Weijie Wang et.al.|[2604.16540](https://arxiv.org/abs/2604.16540)|null|
-|**2026-04-12**|**Positioning radiata pine branches requiring pruning by drone stereo vision**|Yida Lin et.al.|[2604.16480](https://arxiv.org/abs/2604.16480)|null|
-|**2026-04-17**|**Hybrid Latents: Geometry-Appearance-Aware Surfel Splatting**|Neel Kelkar et.al.|[2604.14928](https://arxiv.org/abs/2604.14928)|null|
-|**2026-04-16**|**NG-GS: NeRF-Guided 3D Gaussian Splatting Segmentation**|Yi He et.al.|[2604.14706](https://arxiv.org/abs/2604.14706)|null|
-|**2026-04-14**|**PatchPoison: Poisoning Multi-View Datasets to Degrade 3D Reconstruction**|Prajas Wadekar et.al.|[2604.13153](https://arxiv.org/abs/2604.13153)|null|
-|**2026-04-13**|**A Geometric Algebra-informed NeRF Framework for Generalizable Wireless Channel Prediction**|Jingzhou Shen et.al.|[2604.11983](https://arxiv.org/abs/2604.11983)|null|
-|**2026-04-13**|**Fast-SegSim: Real-Time Open-Vocabulary Segmentation for Robotics in Simulation**|Xuan Yu et.al.|[2604.10951](https://arxiv.org/abs/2604.10951)|null|
-|**2026-04-07**|**3DTurboQuant: Training-Free Near-Optimal Quantization for 3D Reconstruction Models**|Jae Joong Lee et.al.|[2604.05366](https://arxiv.org/abs/2604.05366)|null|
-|**2026-04-03**|**Factorized Multi-Resolution HashGrid for Efficient Neural Radiance Fields: Execution on Edge-Devices**|Kim Jun-Seong et.al.|[2604.02836](https://arxiv.org/abs/2604.02836)|null|
+|2026-04-23|DualSplat: Robust 3D Gaussian Splatting via Pseudo-Mask Bootstrapping from Reconstruction Failures|Xu Wang et.al.|[2604.21631](https://arxiv.org/abs/2604.21631)|null|
+|2026-04-21|OT-UVGS: Revisiting UV Mapping for Gaussian Splatting as a Capacity Allocation Problem|Byunghyun Kim et.al.|[2604.19127](https://arxiv.org/abs/2604.19127)|null|
+|2026-04-20|A Comparative Evaluation of Geometric Accuracy in NeRF and Gaussian Splatting|Mikolaj Zielinski et.al.|[2604.18205](https://arxiv.org/abs/2604.18205)|null|
+|2026-04-20|MU-GeNeRF: Multi-view Uncertainty-guided Generalizable Neural Radiance Fields for Distractor-aware Scene|Wenjie Mu et.al.|[2604.17965](https://arxiv.org/abs/2604.17965)|null|
+|2026-04-20|PCM-NeRF: Probabilistic Camera Modeling for Neural Radiance Fields under Pose Uncertainty|Shravan Venkatraman et.al.|[2604.17831](https://arxiv.org/abs/2604.17831)|null|
+|2026-04-17|Incoherent Deformation, Not Capacity: Diagnosing and Mitigating Overfitting in Dynamic Gaussian Splatting|Ahmad Droby et.al.|[2604.16747](https://arxiv.org/abs/2604.16747)|null|
+|2026-04-17|PoInit-of-View: Poisoning Initialization of Views Transfers Across Multiple 3D Reconstruction Systems|Weijie Wang et.al.|[2604.16540](https://arxiv.org/abs/2604.16540)|null|
+|2026-04-12|Positioning radiata pine branches requiring pruning by drone stereo vision|Yida Lin et.al.|[2604.16480](https://arxiv.org/abs/2604.16480)|null|
+|2026-04-17|Hybrid Latents: Geometry-Appearance-Aware Surfel Splatting|Neel Kelkar et.al.|[2604.14928](https://arxiv.org/abs/2604.14928)|null|
+|2026-04-16|NG-GS: NeRF-Guided 3D Gaussian Splatting Segmentation|Yi He et.al.|[2604.14706](https://arxiv.org/abs/2604.14706)|null|
+|2026-04-14|PatchPoison: Poisoning Multi-View Datasets to Degrade 3D Reconstruction|Prajas Wadekar et.al.|[2604.13153](https://arxiv.org/abs/2604.13153)|null|
+|2026-04-13|A Geometric Algebra-informed NeRF Framework for Generalizable Wireless Channel Prediction|Jingzhou Shen et.al.|[2604.11983](https://arxiv.org/abs/2604.11983)|null|
+|2026-04-13|Fast-SegSim: Real-Time Open-Vocabulary Segmentation for Robotics in Simulation|Xuan Yu et.al.|[2604.10951](https://arxiv.org/abs/2604.10951)|null|
+|2026-04-07|3DTurboQuant: Training-Free Near-Optimal Quantization for 3D Reconstruction Models|Jae Joong Lee et.al.|[2604.05366](https://arxiv.org/abs/2604.05366)|null|
+|2026-04-03|Factorized Multi-Resolution HashGrid for Efficient Neural Radiance Fields: Execution on Edge-Devices|Kim Jun-Seong et.al.|[2604.02836](https://arxiv.org/abs/2604.02836)|null|
 |2026-04-06|GEMM-GS: Accelerating 3D Gaussian Splatting on Tensor Cores with GEMM-Compatible Blending|Haomin Li et.al.|[2604.02120](https://arxiv.org/abs/2604.02120)|null|
 |2026-03-30|SVGS: Single-View to 3D Object Editing via Gaussian Splatting|Pengcheng Xue et.al.|[2603.28126](https://arxiv.org/abs/2603.28126)|null|
 |2026-03-30|To View Transform or Not to View Transform: NeRF-based Pre-training Perspective|Hyeonjun Jeong et.al.|[2603.28090](https://arxiv.org/abs/2603.28090)|null|
@@ -39,7 +39,7 @@
 |2026-03-13|Catalyst4D: High-Fidelity 3D-to-4D Scene Editing via Dynamic Propagation|Shifeng Chen et.al.|[2603.12766](https://arxiv.org/abs/2603.12766)|null|
 |2026-03-13|Node-RF: Learning Generalized Continuous Space-Time Scene Dynamics with Neural ODE-based NeRFs|Hiran Sarkar et.al.|[2603.12078](https://arxiv.org/abs/2603.12078)|null|
 |2026-03-10|DenoiseSplat: Feed-Forward Gaussian Splatting for Noisy 3D Scene Reconstruction|Fuzhen Jiang et.al.|[2603.09291](https://arxiv.org/abs/2603.09291)|null|
-|2026-03-10|Speeding Up the Learning of 3D Gaussians with Much Shorter Gaussian Lists|Jiaqi Liu et.al.|[2603.09277](https://arxiv.org/abs/2603.09277)|**[link](https://github.com/MachinePerceptionLab/ShorterSplatting)**|
+|2026-03-10|Speeding Up the Learning of 3D Gaussians with Much Shorter Gaussian Lists|Jiaqi Liu et.al.|[2603.09277](https://arxiv.org/abs/2603.09277)|[link](https://github.com/MachinePerceptionLab/ShorterSplatting)|
 |2026-03-09|SkipGS: Post-Densification Backward Skipping for Efficient 3DGS Training|Jingxing Li et.al.|[2603.08997](https://arxiv.org/abs/2603.08997)|null|
 |2026-03-09|Fast Low-light Enhancement and Deblurring for 3D Dark Scenes|Feng Zhang et.al.|[2603.08133](https://arxiv.org/abs/2603.08133)|null|
 |2026-03-07|Virtual Intraoperative CT (viCT): Sequential Anatomic Updates for Modeling Tissue Resection Throughout Endoscopic Sinus Surgery|Nicole M. Gunderson et.al.|[2603.06956](https://arxiv.org/abs/2603.06956)|null|
@@ -108,7 +108,7 @@
 |2025-12-08|Radiance-Field Reinforced Pretraining: Scaling Localization Models with Unlabeled Wireless Signals|Guosheng Wang et.al.|[2512.07309](http://arxiv.org/abs/2512.07309)|null|
 |2025-12-10|AGORA: Adversarial Generation Of Real-time Animatable 3D Gaussian Head Avatars|Ramazan Fazylov et.al.|[2512.06438](http://arxiv.org/abs/2512.06438)|null|
 |2025-12-04|Gaussian Entropy Fields: Driving Adaptive Sparsity in 3D Gaussian Optimization|Hong Kuang et.al.|[2512.04542](http://arxiv.org/abs/2512.04542)|null|
-|2025-12-03|Radiance Meshes for Volumetric Reconstruction|Alexander Mai et.al.|[2512.04076](http://arxiv.org/abs/2512.04076)|**[link](https://github.com/half-potato/radiance_meshes)**|
+|2025-12-03|Radiance Meshes for Volumetric Reconstruction|Alexander Mai et.al.|[2512.04076](http://arxiv.org/abs/2512.04076)|[link](https://github.com/half-potato/radiance_meshes)|
 |2025-12-03|What Is The Best 3D Scene Representation for Robotics? From Geometric to Foundation Models|Tianchen Deng et.al.|[2512.03422](http://arxiv.org/abs/2512.03422)|null|
 |2025-12-02|Flux4D: Flow-based Unsupervised 4D Reconstruction|Jingkang Wang et.al.|[2512.03210](http://arxiv.org/abs/2512.03210)|null|
 |2025-12-02|PolarGuide-GSDR: 3D Gaussian Splatting Driven by Polarization Priors and Deferred Reflection for Real-World Reflective Scenes|Derui Shan et.al.|[2512.02664](http://arxiv.org/abs/2512.02664)|null|
