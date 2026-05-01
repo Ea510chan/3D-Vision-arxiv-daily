@@ -1,13 +1,19 @@
 # Visual Localization
 
-> Updated on 2026.04.27
+> Updated on 2026.05.01
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|2026-04-23|TEMA: Anchor the Image, Follow the Text for Multi-Modification Composed Image Retrieval|Zixu Li et.al.|[2604.21806](https://arxiv.org/abs/2604.21806)|null|
-|2026-04-22|ConeSep: Cone-based Robust Noise-Unlearning Compositional Network for Composed Image Retrieval|Zixu Li et.al.|[2604.20358](https://arxiv.org/abs/2604.20358)|null|
-|2026-04-22|UniCVR: From Alignment to Reranking for Unified Zero-Shot Composed Visual Retrieval|Haokun Wen et.al.|[2604.20318](https://arxiv.org/abs/2604.20318)|null|
-|2026-04-21|SL(C)AMma: Simultaneous Localisation, (Calibration) and Mapping With a Magnetometer Array|Thomas Edridge et.al.|[2604.19946](https://arxiv.org/abs/2604.19946)|null|
+|**2026-04-29**|**AirZoo: A Unified Large-Scale Dataset for Grounding Aerial Geometric 3D Vision**|Xiaoya Cheng et.al.|[2604.26567](https://arxiv.org/abs/2604.26567)|null|
+|**2026-04-29**|**3D-LENS: A 3D Lifting-based Elevated Novel-view Synthesis method for Single-View Aerial-Ground Re-Identification**|William Grolleau et.al.|[2604.26520](https://arxiv.org/abs/2604.26520)|null|
+|**2026-04-28**|**COMPASS: COmpact Multi-channel Prior-map And Scene Signature for Floor-Plan-Based Visual Localization**|Muhammad Shaheer et.al.|[2604.25388](https://arxiv.org/abs/2604.25388)|null|
+|**2026-04-27**|**Geometric Analysis of Self-Supervised Vision Representations for Semantic Image Retrieval**|Esteban Rodríguez-Betancourt et.al.|[2604.24469](https://arxiv.org/abs/2604.24469)|null|
+|**2026-04-24**|**Region Matters: Efficient and Reliable Region-Aware Visual Place Recognition**|Shunpeng Chen et.al.|[2604.22390](https://arxiv.org/abs/2604.22390)|null|
+|**2026-04-24**|**Revisiting Geometric Obfuscation with Dual Convergent Lines for Privacy-Preserving Image Queries in Visual Localization**|Jeonggon Kim et.al.|[2604.22310](https://arxiv.org/abs/2604.22310)|null|
+|**2026-04-24**|**TEMA: Anchor the Image, Follow the Text for Multi-Modification Composed Image Retrieval**|Zixu Li et.al.|[2604.21806](https://arxiv.org/abs/2604.21806)|null|
+|**2026-04-22**|**ConeSep: Cone-based Robust Noise-Unlearning Compositional Network for Composed Image Retrieval**|Zixu Li et.al.|[2604.20358](https://arxiv.org/abs/2604.20358)|null|
+|**2026-04-22**|**UniCVR: From Alignment to Reranking for Unified Zero-Shot Composed Visual Retrieval**|Haokun Wen et.al.|[2604.20318](https://arxiv.org/abs/2604.20318)|null|
+|**2026-04-21**|**SL(C)AMma: Simultaneous Localisation, (Calibration) and Mapping With a Magnetometer Array**|Thomas Edridge et.al.|[2604.19946](https://arxiv.org/abs/2604.19946)|null|
 |2026-04-22|Air-Know: Arbiter-Calibrated Knowledge-Internalizing Robust Network for Composed Image Retrieval|Zhiheng Fu et.al.|[2604.19386](https://arxiv.org/abs/2604.19386)|null|
 |2026-04-20|T-REN: Learning Text-Aligned Region Tokens Improves Dense Vision-Language Alignment and Scalability|Savya Khosla et.al.|[2604.18573](https://arxiv.org/abs/2604.18573)|null|
 |2026-04-20|INTENT: Invariance and Discrimination-aware Noise Mitigation for Robust Composed Image Retrieval|Zhiwei Chen et.al.|[2604.18051](https://arxiv.org/abs/2604.18051)|null|

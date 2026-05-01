@@ -1,9 +1,19 @@
 # Gaussian Splatting
 
-> Updated on 2026.04.27
+> Updated on 2026.05.01
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-04-30**|**Stop Holding Your Breath: CT-Informed Gaussian Splatting for Dynamic Bronchoscopy**|Andrea Dunn Beltran et.al.|[2604.28179](https://arxiv.org/abs/2604.28179)|null|
+|**2026-04-30**|**GSDrive: Reinforcing Driving Policies by Multi-mode Trajectory Probing with 3D Gaussian Splatting Environment**|Ziang Guo et.al.|[2604.28111](https://arxiv.org/abs/2604.28111)|null|
+|**2026-04-30**|**Faster 3D Gaussian Splatting Convergence via Structure-Aware Densification**|Linjie Lyu et.al.|[2604.28016](https://arxiv.org/abs/2604.28016)|null|
+|**2026-04-30**|**Fake3DGS: A Benchmark for 3D Manipulation Detection in Neural Rendering**|Davide Di Nucci et.al.|[2604.27590](https://arxiv.org/abs/2604.27590)|null|
+|**2026-04-30**|**SandSim: Curve-Guided Gaussian Splatting for Reconstructing Sand Painting Processes**|Yilin Wang et.al.|[2604.27572](https://arxiv.org/abs/2604.27572)|null|
+|**2026-04-30**|**Residual Gaussian Splatting for Ultra Sparse-View CBCT Reconstruction**|Jian Lin et.al.|[2604.27552](https://arxiv.org/abs/2604.27552)|**[link](https://github.com/yqx7150/RGS)**|
+|**2026-04-30**|**Softmax-GS: Generalized Gaussians Learning When to Blend or Bound**|Chen Ziwen et.al.|[2604.27437](https://arxiv.org/abs/2604.27437)|null|
+|**2026-04-30**|**Sparse-View 3D Gaussian Splatting in the Wild**|Wongi Park et.al.|[2604.27422](https://arxiv.org/abs/2604.27422)|**[link](https://github.com/MabeNice/SparseGS-W)**|
+|**2026-04-29**|**Color-Encoded Illumination for High-Speed Volumetric Scene Reconstruction**|David Novikov et.al.|[2604.26920](https://arxiv.org/abs/2604.26920)|null|
+|**2026-04-29**|**MesonGS++: Post-training Compression of 3D Gaussian Splatting with Hyperparameter Searching**|Shuzhao Xie et.al.|[2604.26799](https://arxiv.org/abs/2604.26799)|null|
 |2026-04-23|DualSplat: Robust 3D Gaussian Splatting via Pseudo-Mask Bootstrapping from Reconstruction Failures|Xu Wang et.al.|[2604.21631](https://arxiv.org/abs/2604.21631)|null|
 |2026-04-23|You Only Gaussian Once: Controllable 3D Gaussian Splatting for Ultra-Densely Sampled Scenes|Jinrang Jia et.al.|[2604.21400](https://arxiv.org/abs/2604.21400)|null|
 |2026-04-23|WildSplatter: Feed-forward 3D Gaussian Splatting with Appearance Control from Unconstrained Images|Yuki Fujimura et.al.|[2604.21182](https://arxiv.org/abs/2604.21182)|null|

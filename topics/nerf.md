@@ -1,15 +1,19 @@
 # NeRF
 
-> Updated on 2026.04.27
+> Updated on 2026.05.01
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|2026-04-23|DualSplat: Robust 3D Gaussian Splatting via Pseudo-Mask Bootstrapping from Reconstruction Failures|Xu Wang et.al.|[2604.21631](https://arxiv.org/abs/2604.21631)|null|
-|2026-04-21|OT-UVGS: Revisiting UV Mapping for Gaussian Splatting as a Capacity Allocation Problem|Byunghyun Kim et.al.|[2604.19127](https://arxiv.org/abs/2604.19127)|null|
-|2026-04-20|A Comparative Evaluation of Geometric Accuracy in NeRF and Gaussian Splatting|Mikolaj Zielinski et.al.|[2604.18205](https://arxiv.org/abs/2604.18205)|null|
-|2026-04-20|MU-GeNeRF: Multi-view Uncertainty-guided Generalizable Neural Radiance Fields for Distractor-aware Scene|Wenjie Mu et.al.|[2604.17965](https://arxiv.org/abs/2604.17965)|null|
-|2026-04-20|PCM-NeRF: Probabilistic Camera Modeling for Neural Radiance Fields under Pose Uncertainty|Shravan Venkatraman et.al.|[2604.17831](https://arxiv.org/abs/2604.17831)|null|
-|2026-04-17|Incoherent Deformation, Not Capacity: Diagnosing and Mitigating Overfitting in Dynamic Gaussian Splatting|Ahmad Droby et.al.|[2604.16747](https://arxiv.org/abs/2604.16747)|null|
+|**2026-04-30**|**RayFormer: Modeling Inter- and Intra-Ray Similarity for NeRF-Based Video Snapshot Compressive Imaging**|Yubo Dong et.al.|[2604.27702](https://arxiv.org/abs/2604.27702)|null|
+|**2026-04-29**|**Safe Navigation using Neural Radiance Fields via Reachable Sets**|Omanshu Thapliyal et.al.|[2604.26899](https://arxiv.org/abs/2604.26899)|null|
+|**2026-04-17**|**Planar Gaussian Splatting with Bilinear Spatial Transformer for Wireless Radiance Field Reconstruction**|Jinghan Zhang et.al.|[2604.25945](https://arxiv.org/abs/2604.25945)|null|
+|**2026-04-27**|**Multivariate Gaussian NeRF for Wide Field-of-View Ultrasound Reconstruction**|Patris Valera et.al.|[2604.24187](https://arxiv.org/abs/2604.24187)|null|
+|**2026-04-23**|**DualSplat: Robust 3D Gaussian Splatting via Pseudo-Mask Bootstrapping from Reconstruction Failures**|Xu Wang et.al.|[2604.21631](https://arxiv.org/abs/2604.21631)|null|
+|**2026-04-21**|**OT-UVGS: Revisiting UV Mapping for Gaussian Splatting as a Capacity Allocation Problem**|Byunghyun Kim et.al.|[2604.19127](https://arxiv.org/abs/2604.19127)|null|
+|**2026-04-20**|**A Comparative Evaluation of Geometric Accuracy in NeRF and Gaussian Splatting**|Mikolaj Zielinski et.al.|[2604.18205](https://arxiv.org/abs/2604.18205)|null|
+|**2026-04-20**|**MU-GeNeRF: Multi-view Uncertainty-guided Generalizable Neural Radiance Fields for Distractor-aware Scene**|Wenjie Mu et.al.|[2604.17965](https://arxiv.org/abs/2604.17965)|null|
+|**2026-04-20**|**PCM-NeRF: Probabilistic Camera Modeling for Neural Radiance Fields under Pose Uncertainty**|Shravan Venkatraman et.al.|[2604.17831](https://arxiv.org/abs/2604.17831)|null|
+|**2026-04-29**|**Incoherent Deformation, Not Capacity: Diagnosing and Mitigating Overfitting in Dynamic Gaussian Splatting**|Ahmad Droby et.al.|[2604.16747](https://arxiv.org/abs/2604.16747)|null|
 |2026-04-17|PoInit-of-View: Poisoning Initialization of Views Transfers Across Multiple 3D Reconstruction Systems|Weijie Wang et.al.|[2604.16540](https://arxiv.org/abs/2604.16540)|null|
 |2026-04-12|Positioning radiata pine branches requiring pruning by drone stereo vision|Yida Lin et.al.|[2604.16480](https://arxiv.org/abs/2604.16480)|null|
 |2026-04-17|Hybrid Latents: Geometry-Appearance-Aware Surfel Splatting|Neel Kelkar et.al.|[2604.14928](https://arxiv.org/abs/2604.14928)|null|

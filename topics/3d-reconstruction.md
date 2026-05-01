@@ -1,9 +1,19 @@
 # 3D Reconstruction
 
-> Updated on 2026.04.27
+> Updated on 2026.05.01
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-04-30**|**Generalizable Sparse-View 3D Reconstruction from Unconstrained Images**|Vinayak Gupta et.al.|[2604.28193](https://arxiv.org/abs/2604.28193)|null|
+|**2026-04-30**|**3D Reconstruction Techniques in the Manufacturing Domain: Applications, Research Opportunities and Use Cases**|Chialoon Cheng et.al.|[2604.28064](https://arxiv.org/abs/2604.28064)|null|
+|**2026-04-30**|**Fake3DGS: A Benchmark for 3D Manipulation Detection in Neural Rendering**|Davide Di Nucci et.al.|[2604.27590](https://arxiv.org/abs/2604.27590)|null|
+|**2026-04-29**|**Validating the Clinical Utility of CineECG 3D Reconstructions through Cross-Modal Feature Attribution**|Karol Dobiczek et.al.|[2604.27017](https://arxiv.org/abs/2604.27017)|null|
+|**2026-04-29**|**Unified 4D World Action Modeling from Video Priors with Asynchronous Denoising**|Jun Guo et.al.|[2604.26694](https://arxiv.org/abs/2604.26694)|null|
+|**2026-04-29**|**AirZoo: A Unified Large-Scale Dataset for Grounding Aerial Geometric 3D Vision**|Xiaoya Cheng et.al.|[2604.26567](https://arxiv.org/abs/2604.26567)|null|
+|**2026-04-29**|**DepthPilot: From Controllability to Interpretability in Colonoscopy Video Generation**|Junhu Fu et.al.|[2604.26232](https://arxiv.org/abs/2604.26232)|null|
+|**2026-04-28**|**Generalizable 3D Gaussian Splatting enabled Semantic Coding for Real-Time Immersive Video Communications**|Dingxi Yang et.al.|[2604.25330](https://arxiv.org/abs/2604.25330)|null|
+|**2026-04-27**|**Large-Scale Photogrammetric Documentation of St. John's Co-Cathedral: A Workflow for Cultural Heritage Preservation**|Matthew Kenely et.al.|[2604.24316](https://arxiv.org/abs/2604.24316)|null|
+|**2026-04-26**|**Bringing a Personal Point of View: Evaluating Dynamic 3D Gaussian Splatting for Egocentric Scene Reconstruction**|Jan Warchocki et.al.|[2604.23803](https://arxiv.org/abs/2604.23803)|null|
 |2026-04-23|CuRast: Cuda-Based Software Rasterization for Billions of Triangles|Markus Schütz et.al.|[2604.21749](https://arxiv.org/abs/2604.21749)|null|
 |2026-04-22|GeoRect4D: Geometry-Compatible Generative Rectification for Dynamic Sparse-View 3D Reconstruction|Zhenlong Wu et.al.|[2604.20784](https://arxiv.org/abs/2604.20784)|null|
 |2026-04-21|FluSplat: Sparse-View 3D Editing without Test-Time Optimization|Haitao Huang et.al.|[2604.20038](https://arxiv.org/abs/2604.20038)|null|
