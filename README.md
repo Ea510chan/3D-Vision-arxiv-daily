@@ -1,8 +1,8 @@
 # 3D Vision arXiv Daily 🚀
 
 > 🌐 Start here: **[GitHub Pages](https://ea510chan.github.io/3D-Vision-arxiv-daily/)**
-> Updated on 2026.05.01
-> Topics: 9 | Total papers: 2514
+> Updated on 2026.05.02
+> Topics: 9 | Total papers: 1481
 > Usage instructions: [here](./docs/README.md#usage)
 > This page is modified from [here](https://github.com/Vincentqyw/cv-arxiv-daily)
 
@@ -20,9 +20,9 @@
 | 🧩 | Image Matching | 2026-04-28 | 168 | [Image Matching](topics/image-matching.md) |
 | 🛰️ | SLAM | 2026-04-27 | 239 | [SLAM](topics/slam.md) |
 | 🧱 | 3D Reconstruction | 2026-04-30 | 370 | [3D Reconstruction](topics/3d-reconstruction.md) |
+| 🎥 | Novel View Synthesis | - | 0 | [Novel View Synthesis](topics/novel-view-synthesis.md) |
 | 🗺️ | Visual Localization | 2026-04-29 | 445 | [Visual Localization](topics/visual-localization.md) |
-| 🌫️ | NeRF | 2026-04-30 | 350 | [NeRF](topics/nerf.md) |
-| ✨ | Gaussian Splatting | 2026-04-30 | 683 | [Gaussian Splatting](topics/gaussian-splatting.md) |
+| 📍 | 3D Localization | - | 0 | [3D Localization](topics/3d-localization.md) |
 | 🌍 | World Model | 2026-04-30 | 60 | [World Model](topics/world-model.md) |
 | 🌊 | Flow Matching | 2026-04-30 | 57 | [Flow Matching](topics/flow-matching.md) |
 

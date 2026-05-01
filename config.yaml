@@ -38,15 +38,34 @@ keywords:
     "SLAM":
         filters: ["SLAM", "Visual Odometry"]
     "3D Reconstruction":
-        filters: ["3D Reconstruction", "SFM", "Structure from Motion"]
+        filters: ["3D Reconstruction", "Scene Reconstruction",
+                  "SFM", "Structure from Motion",
+                  "Multi-View Stereo", "MVS",
+                  "Surface Reconstruction", "Mesh Reconstruction",
+                  "Dense Reconstruction", "Geometry Reconstruction"]
+    "Novel View Synthesis":
+        filters: ["Novel View Synthesis", "View Synthesis",
+                  "Feed-forward Novel View Synthesis",
+                  "Generalizable Novel View Synthesis",
+                  "Sparse-View Synthesis", "Few-Shot View Synthesis",
+                  "Dynamic View Synthesis", "Neural Rendering",
+                  "Radiance Field Rendering", "NeRF Rendering",
+                  "Gaussian Splatting Rendering",
+                  "Gaussian Splatting View Synthesis",
+                  "3DGS View Synthesis"]
     "Visual Localization":
         filters: ["Visual Localization","Camera Localization",
                   "Camera Re-localisation","Loop Closure Detection",
-                  "visual place recognition","image retrieval"]
-    "NeRF":
-        filters: ["NeRF"]
-    "Gaussian Splatting":
-        filters: ["Gaussian Splatting"]
+                  "visual place recognition"]
+    "3D Localization":
+        filters: ["3D Localization", "3D Relocalization",
+                  "3D Scene Localization", "Structure-Based Localization",
+                  "Map-Based Localization", "Scene Coordinate Regression",
+                  "Point Cloud Localization", "LiDAR Localization",
+                  "NeRF Localization", "Neural Radiance Field Localization",
+                  "Gaussian Splatting Localization", "3D Gaussian Localization",
+                  "3DGS Localization", "Camera Pose Refinement",
+                  "VGGT Localization", "VGGT Pose"]
     "World Model":
         filters: ["World Model", "World Models",
                   "Video Prediction Model", "Video Generation Model",
@@ -66,3 +85,5 @@ topic_merge:
     "SFM": "3D Reconstruction"
 topic_drop:
     - "Keypoint Detection"
+    - "NeRF"
+    - "Gaussian Splatting"

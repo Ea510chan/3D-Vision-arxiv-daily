@@ -65,6 +65,16 @@ def make_arxiv_client(delay_seconds: float = 5.0, num_retries: int = 5):
         session.get = patched_get
     return client
 
+def build_arxiv_query(filters: list, field: str = "all") -> str:
+    terms = []
+    for filter_term in filters:
+        if len(filter_term.split()) > 1:
+            term = f'{field}:"{filter_term}"'
+        else:
+            term = f"{field}:{filter_term}"
+        terms.append(term)
+    return "(" + " OR ".join(terms) + ")"
+
 def load_config(config_file:str) -> dict:
     '''
     config_file: input config file path
@@ -73,22 +83,8 @@ def load_config(config_file:str) -> dict:
     # make filters pretty
     def pretty_filters(**config) -> dict:
         keywords = dict()
-        EXCAPE = '\"'
-        QUOTA = '' # NO-USE
-        OR = 'OR' # TODO
-        def parse_filters(filters:list):
-            ret = ''
-            for idx in range(0,len(filters)):
-                filter = filters[idx]
-                if len(filter.split()) > 1:
-                    ret += (EXCAPE + filter + EXCAPE)  
-                else:
-                    ret += (QUOTA + filter + QUOTA)   
-                if idx != len(filters) - 1:
-                    ret += OR
-            return ret
         for k,v in config['keywords'].items():
-            keywords[k] = parse_filters(v['filters'])
+            keywords[k] = build_arxiv_query(v['filters'])
         return keywords
     with open(config_file,'r') as f:
         config = yaml.load(f,Loader=yaml.FullLoader) 
@@ -338,9 +334,9 @@ TOPIC_EMOJI = {
     "Image Matching": "🧩",
     "SLAM": "🛰️",
     "3D Reconstruction": "🧱",
+    "Novel View Synthesis": "🎥",
     "Visual Localization": "🗺️",
-    "NeRF": "🌫️",
-    "Gaussian Splatting": "✨",
+    "3D Localization": "📍",
     "World Model": "🌍",
     "Flow Matching": "🌊",
 }
@@ -350,9 +346,9 @@ TOPIC_ACCENTS = {
     "Image Matching": "#059669",
     "SLAM": "#d97706",
     "3D Reconstruction": "#7c3aed",
+    "Novel View Synthesis": "#db2777",
     "Visual Localization": "#0891b2",
-    "NeRF": "#16a34a",
-    "Gaussian Splatting": "#db2777",
+    "3D Localization": "#dc2626",
     "World Model": "#9333ea",
     "Flow Matching": "#e11d48",
 }

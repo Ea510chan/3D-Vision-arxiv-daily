@@ -13,9 +13,9 @@ layout: default
     </div>
   </div>
   <div class="hero-panel">
-    <div class="stat"><span>Updated</span><strong>2026.05.01</strong></div>
+    <div class="stat"><span>Updated</span><strong>2026.05.02</strong></div>
     <div class="stat"><span>Topics</span><strong>9</strong></div>
-    <div class="stat"><span>Total papers</span><strong>2514</strong></div>
+    <div class="stat"><span>Total papers</span><strong>1481</strong></div>
   </div>
 </section>
 
@@ -49,22 +49,22 @@ layout: default
       <p>Latest: 2026-04-30 · Papers: 370</p>
       <span class="topic-cta">View papers →</span>
     </a>
+    <a class="topic-card" href="topics/novel-view-synthesis.html" style="--accent: #db2777;">
+      <span class="topic-icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2.5 20.5 7v10L12 21.5 3.5 17V7z" fill="currentColor" opacity="0.25"/><path d="M12 4.2 18.7 8v8L12 19.8 5.3 16V8z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></span>
+      <h3>Novel View Synthesis</h3>
+      <p>Latest: - · Papers: 0</p>
+      <span class="topic-cta">View papers →</span>
+    </a>
     <a class="topic-card" href="topics/visual-localization.html" style="--accent: #0891b2;">
       <span class="topic-icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2.5 20.5 7v10L12 21.5 3.5 17V7z" fill="currentColor" opacity="0.25"/><path d="M12 4.2 18.7 8v8L12 19.8 5.3 16V8z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></span>
       <h3>Visual Localization</h3>
       <p>Latest: 2026-04-29 · Papers: 445</p>
       <span class="topic-cta">View papers →</span>
     </a>
-    <a class="topic-card" href="topics/nerf.html" style="--accent: #16a34a;">
+    <a class="topic-card" href="topics/3d-localization.html" style="--accent: #dc2626;">
       <span class="topic-icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2.5 20.5 7v10L12 21.5 3.5 17V7z" fill="currentColor" opacity="0.25"/><path d="M12 4.2 18.7 8v8L12 19.8 5.3 16V8z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></span>
-      <h3>NeRF</h3>
-      <p>Latest: 2026-04-30 · Papers: 350</p>
-      <span class="topic-cta">View papers →</span>
-    </a>
-    <a class="topic-card" href="topics/gaussian-splatting.html" style="--accent: #db2777;">
-      <span class="topic-icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2.5 20.5 7v10L12 21.5 3.5 17V7z" fill="currentColor" opacity="0.25"/><path d="M12 4.2 18.7 8v8L12 19.8 5.3 16V8z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></span>
-      <h3>Gaussian Splatting</h3>
-      <p>Latest: 2026-04-30 · Papers: 683</p>
+      <h3>3D Localization</h3>
+      <p>Latest: - · Papers: 0</p>
       <span class="topic-cta">View papers →</span>
     </a>
     <a class="topic-card" href="topics/world-model.html" style="--accent: #9333ea;">

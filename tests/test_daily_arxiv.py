@@ -9,6 +9,10 @@ SAMPLE_ROW_2 = "|**2025-03-04**|**Title B**|Author B et.al.|[2345.6789](http://a
 
 
 class DailyArxivTest(unittest.TestCase):
+    def test_build_arxiv_query_uses_fielded_or_terms(self):
+        query = da.build_arxiv_query(["SLAM", "visual place recognition"])
+        self.assertEqual(query, '(all:SLAM OR all:"visual place recognition")')
+
     def test_slugify_topic(self):
         self.assertEqual(da.slugify_topic("3D Reconstruction"), "3d-reconstruction")
         self.assertEqual(da.slugify_topic("Point Cloud Registration"), "point-cloud-registration")
@@ -17,6 +21,8 @@ class DailyArxivTest(unittest.TestCase):
         data = {
             "3D Registration": {"id1": SAMPLE_ROW_1},
             "SFM": {"id2": SAMPLE_ROW_2},
+            "NeRF": {"id5": SAMPLE_ROW_1},
+            "Gaussian Splatting": {"id6": SAMPLE_ROW_2},
             "Keypoint Detection": {"id3": SAMPLE_ROW_1},
             "SLAM": {"id4": SAMPLE_ROW_1},
         }
@@ -24,17 +30,21 @@ class DailyArxivTest(unittest.TestCase):
             "3D Registration": "Point Cloud Registration",
             "SFM": "3D Reconstruction",
         }
-        topic_drop = ["Keypoint Detection"]
-        allowed = ["Point Cloud Registration", "3D Reconstruction", "SLAM"]
+        topic_drop = ["Keypoint Detection", "NeRF", "Gaussian Splatting"]
+        allowed = ["Point Cloud Registration", "3D Reconstruction", "Novel View Synthesis", "SLAM"]
 
         normalized = da.normalize_topics(data, topic_merge, topic_drop, allowed)
 
         self.assertIn("Point Cloud Registration", normalized)
         self.assertIn("3D Reconstruction", normalized)
+        self.assertIn("Novel View Synthesis", normalized)
         self.assertIn("SLAM", normalized)
         self.assertNotIn("Keypoint Detection", normalized)
+        self.assertNotIn("NeRF", normalized)
+        self.assertNotIn("Gaussian Splatting", normalized)
         self.assertEqual(len(normalized["Point Cloud Registration"]), 1)
         self.assertEqual(len(normalized["3D Reconstruction"]), 1)
+        self.assertEqual(len(normalized["Novel View Synthesis"]), 0)
 
     def test_paper_to_dict_from_row(self):
         data = da.paper_to_dict("1234.5678", SAMPLE_ROW_1)

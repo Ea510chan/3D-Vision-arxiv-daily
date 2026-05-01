@@ -20,9 +20,9 @@ title: Visual Localization
     <a class="sidebar-link" href="image-matching.html">Image Matching <span class="sidebar-count">168</span></a>
     <a class="sidebar-link" href="slam.html">SLAM <span class="sidebar-count">239</span></a>
     <a class="sidebar-link" href="3d-reconstruction.html">3D Reconstruction <span class="sidebar-count">370</span></a>
+    <a class="sidebar-link" href="novel-view-synthesis.html">Novel View Synthesis <span class="sidebar-count">0</span></a>
     <a class="sidebar-link active" href="visual-localization.html">Visual Localization <span class="sidebar-count">445</span></a>
-    <a class="sidebar-link" href="nerf.html">NeRF <span class="sidebar-count">350</span></a>
-    <a class="sidebar-link" href="gaussian-splatting.html">Gaussian Splatting <span class="sidebar-count">683</span></a>
+    <a class="sidebar-link" href="3d-localization.html">3D Localization <span class="sidebar-count">0</span></a>
     <a class="sidebar-link" href="world-model.html">World Model <span class="sidebar-count">60</span></a>
     <a class="sidebar-link" href="flow-matching.html">Flow Matching <span class="sidebar-count">57</span></a>
   </nav>
