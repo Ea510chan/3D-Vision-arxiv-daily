@@ -13,9 +13,9 @@ layout: default
     </div>
   </div>
   <div class="hero-panel">
-    <div class="stat"><span>Updated</span><strong>2026.05.02</strong></div>
+    <div class="stat"><span>Updated</span><strong>2026.05.01</strong></div>
     <div class="stat"><span>Topics</span><strong>9</strong></div>
-    <div class="stat"><span>Total papers</span><strong>1481</strong></div>
+    <div class="stat"><span>Total papers</span><strong>1514</strong></div>
   </div>
 </section>
 
@@ -40,19 +40,19 @@ layout: default
     <a class="topic-card" href="topics/slam.html" style="--accent: #d97706;">
       <span class="topic-icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2.5 20.5 7v10L12 21.5 3.5 17V7z" fill="currentColor" opacity="0.25"/><path d="M12 4.2 18.7 8v8L12 19.8 5.3 16V8z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></span>
       <h3>SLAM</h3>
-      <p>Latest: 2026-04-27 · Papers: 239</p>
+      <p>Latest: 2026-04-30 · Papers: 247</p>
       <span class="topic-cta">View papers →</span>
     </a>
     <a class="topic-card" href="topics/3d-reconstruction.html" style="--accent: #7c3aed;">
       <span class="topic-icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2.5 20.5 7v10L12 21.5 3.5 17V7z" fill="currentColor" opacity="0.25"/><path d="M12 4.2 18.7 8v8L12 19.8 5.3 16V8z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></span>
       <h3>3D Reconstruction</h3>
-      <p>Latest: 2026-04-30 · Papers: 370</p>
+      <p>Latest: 2026-04-30 · Papers: 375</p>
       <span class="topic-cta">View papers →</span>
     </a>
     <a class="topic-card" href="topics/novel-view-synthesis.html" style="--accent: #db2777;">
       <span class="topic-icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2.5 20.5 7v10L12 21.5 3.5 17V7z" fill="currentColor" opacity="0.25"/><path d="M12 4.2 18.7 8v8L12 19.8 5.3 16V8z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></span>
       <h3>Novel View Synthesis</h3>
-      <p>Latest: - · Papers: 0</p>
+      <p>Latest: 2026-04-30 · Papers: 10</p>
       <span class="topic-cta">View papers →</span>
     </a>
     <a class="topic-card" href="topics/visual-localization.html" style="--accent: #0891b2;">
@@ -64,7 +64,7 @@ layout: default
     <a class="topic-card" href="topics/3d-localization.html" style="--accent: #dc2626;">
       <span class="topic-icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2.5 20.5 7v10L12 21.5 3.5 17V7z" fill="currentColor" opacity="0.25"/><path d="M12 4.2 18.7 8v8L12 19.8 5.3 16V8z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></span>
       <h3>3D Localization</h3>
-      <p>Latest: - · Papers: 0</p>
+      <p>Latest: 2026-04-24 · Papers: 10</p>
       <span class="topic-cta">View papers →</span>
     </a>
     <a class="topic-card" href="topics/world-model.html" style="--accent: #9333ea;">

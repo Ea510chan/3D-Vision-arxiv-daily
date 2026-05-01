@@ -18,11 +18,11 @@ title: Visual Localization
     <div class="sidebar-title">Topics</div>
     <a class="sidebar-link" href="point-cloud-registration.html">Point Cloud Registration <span class="sidebar-count">142</span></a>
     <a class="sidebar-link" href="image-matching.html">Image Matching <span class="sidebar-count">168</span></a>
-    <a class="sidebar-link" href="slam.html">SLAM <span class="sidebar-count">239</span></a>
-    <a class="sidebar-link" href="3d-reconstruction.html">3D Reconstruction <span class="sidebar-count">370</span></a>
-    <a class="sidebar-link" href="novel-view-synthesis.html">Novel View Synthesis <span class="sidebar-count">0</span></a>
+    <a class="sidebar-link" href="slam.html">SLAM <span class="sidebar-count">247</span></a>
+    <a class="sidebar-link" href="3d-reconstruction.html">3D Reconstruction <span class="sidebar-count">375</span></a>
+    <a class="sidebar-link" href="novel-view-synthesis.html">Novel View Synthesis <span class="sidebar-count">10</span></a>
     <a class="sidebar-link active" href="visual-localization.html">Visual Localization <span class="sidebar-count">445</span></a>
-    <a class="sidebar-link" href="3d-localization.html">3D Localization <span class="sidebar-count">0</span></a>
+    <a class="sidebar-link" href="3d-localization.html">3D Localization <span class="sidebar-count">10</span></a>
     <a class="sidebar-link" href="world-model.html">World Model <span class="sidebar-count">60</span></a>
     <a class="sidebar-link" href="flow-matching.html">Flow Matching <span class="sidebar-count">57</span></a>
   </nav>
