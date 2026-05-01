@@ -54,13 +54,9 @@ keywords:
                   "visual place recognition"]
     "3D Localization":
         filters: ["3D Localization", "3D Relocalization",
-                  "3D Scene Localization", "Structure-Based Localization",
-                  "Map-Based Localization", "Scene Coordinate Regression",
-                  "Point Cloud Localization", "LiDAR Localization",
-                  "NeRF Localization", "Neural Radiance Field Localization",
-                  "Gaussian Splatting Localization", "3D Gaussian Localization",
-                  "3DGS Localization", "Camera Pose Refinement",
-                  "VGGT Localization", "VGGT Pose"]
+                  "Structure-Based Localization", "Map-Based Localization",
+                  "Scene Coordinate Regression", "Point Cloud Localization",
+                  "LiDAR Localization", "VGGT Localization"]
     "World Model":
         filters: ["World Model", "World Models",
                   "Video Prediction Model", "Video Generation Model",
