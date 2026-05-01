@@ -27,7 +27,7 @@ ARXIV_USER_AGENT = (
     "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
 )
 
-def make_arxiv_client(delay_seconds: float = 5.0, num_retries: int = 5):
+def make_arxiv_client(delay_seconds: float = 10.0, num_retries: int = 8, page_size: int = 10):
     """Create an arxiv.Client with a patched session that sends a browser-like
     User-Agent and explicit Accept header so arxiv.org doesn't return HTTP 406.
 
@@ -39,7 +39,11 @@ def make_arxiv_client(delay_seconds: float = 5.0, num_retries: int = 5):
     """
     if arxiv is None:
         raise RuntimeError("Missing dependency: install the 'arxiv' package to fetch papers.")
-    client = arxiv.Client(delay_seconds=delay_seconds, num_retries=num_retries)
+    client = arxiv.Client(
+        page_size=page_size,
+        delay_seconds=delay_seconds,
+        num_retries=num_retries,
+    )
     session = getattr(client, "_session", None)
     if session is not None:
         session.headers.update({
@@ -628,65 +632,69 @@ def get_daily_papers(topic, query="slam", max_results=2, client=None):
         sort_by = arxiv.SortCriterion.SubmittedDate
     )
 
-    for result in client.results(search):
+    try:
+        results = client.results(search)
+        for result in results:
 
-        paper_id            = result.get_short_id()
-        paper_title         = result.title
-        paper_url           = result.entry_id
-        paper_abstract      = result.summary.replace("\n"," ")
-        paper_authors       = get_authors(result.authors)
-        paper_first_author  = get_authors(result.authors,first_author = True)
-        primary_category    = result.primary_category
-        publish_time        = result.published.date()
-        update_time         = result.updated.date()
-        comments            = result.comment
+            paper_id            = result.get_short_id()
+            paper_title         = result.title
+            paper_url           = result.entry_id
+            paper_abstract      = result.summary.replace("\n"," ")
+            paper_authors       = get_authors(result.authors)
+            paper_first_author  = get_authors(result.authors,first_author = True)
+            primary_category    = result.primary_category
+            publish_time        = result.published.date()
+            update_time         = result.updated.date()
+            comments            = result.comment
 
-        logging.info(f"Time = {update_time} title = {paper_title} author = {paper_first_author}")
+            logging.info(f"Time = {update_time} title = {paper_title} author = {paper_first_author}")
 
-        # eg: 2108.09112v1 -> 2108.09112
-        ver_pos = paper_id.find('v')
-        if ver_pos == -1:
-            paper_key = paper_id
-        else:
-            paper_key = paper_id[0:ver_pos]    
-        paper_url = arxiv_url + 'abs/' + paper_key
-        
-        # Try to find code link from GitHub search
-        repo_url = get_code_link(paper_title)
-        if repo_url is None:
-            repo_url = get_code_link(paper_key)
-        
-        if repo_url is not None:
-            content[paper_key] = "|**{}**|**{}**|{} et.al.|[{}]({})|**[link]({})**|\n".format(
-                   update_time, paper_title, paper_first_author, paper_key, paper_url, repo_url)
-            content_to_wechat[paper_key] = "- {}, **{}**, {} et.al., Paper: [{}]({}), Code: **[{}]({})**".format(
-                   update_time, paper_title, paper_first_author, paper_url, paper_url, repo_url, repo_url)
-        else:
-            content[paper_key] = "|**{}**|**{}**|{} et.al.|[{}]({})|null|\n".format(
-                   update_time, paper_title, paper_first_author, paper_key, paper_url)
-            content_to_wechat[paper_key] = "- {}, **{}**, {} et.al., Paper: [{}]({})".format(
-                   update_time, paper_title, paper_first_author, paper_url, paper_url)
+            # eg: 2108.09112v1 -> 2108.09112
+            ver_pos = paper_id.find('v')
+            if ver_pos == -1:
+                paper_key = paper_id
+            else:
+                paper_key = paper_id[0:ver_pos]
+            paper_url = arxiv_url + 'abs/' + paper_key
 
-        content_to_web[paper_key] = {
-            "title": paper_title,
-            "authors": paper_authors,
-            "summary": paper_abstract,
-            "arxiv_id": paper_key,
-            "arxiv_url": paper_url,
-            "pdf_url": f"{arxiv_url}pdf/{paper_key}.pdf",
-            "code_url": repo_url or "",
-            "updated": str(update_time),
-            "published": str(publish_time),
-            "primary_category": primary_category,
-            "comments": comments or "",
-        }
+            # Try to find code link from GitHub search
+            repo_url = get_code_link(paper_title)
+            if repo_url is None:
+                repo_url = get_code_link(paper_key)
 
-        # TODO: select useful comments
-        comments = None
-        if comments != None:
-            content_to_wechat[paper_key] += f", {comments}\n"
-        else:
-            content_to_wechat[paper_key] += f"\n"
+            if repo_url is not None:
+                content[paper_key] = "|**{}**|**{}**|{} et.al.|[{}]({})|**[link]({})**|\n".format(
+                       update_time, paper_title, paper_first_author, paper_key, paper_url, repo_url)
+                content_to_wechat[paper_key] = "- {}, **{}**, {} et.al., Paper: [{}]({}), Code: **[{}]({})**".format(
+                       update_time, paper_title, paper_first_author, paper_url, paper_url, repo_url, repo_url)
+            else:
+                content[paper_key] = "|**{}**|**{}**|{} et.al.|[{}]({})|null|\n".format(
+                       update_time, paper_title, paper_first_author, paper_key, paper_url)
+                content_to_wechat[paper_key] = "- {}, **{}**, {} et.al., Paper: [{}]({})".format(
+                       update_time, paper_title, paper_first_author, paper_url, paper_url)
+
+            content_to_web[paper_key] = {
+                "title": paper_title,
+                "authors": paper_authors,
+                "summary": paper_abstract,
+                "arxiv_id": paper_key,
+                "arxiv_url": paper_url,
+                "pdf_url": f"{arxiv_url}pdf/{paper_key}.pdf",
+                "code_url": repo_url or "",
+                "updated": str(update_time),
+                "published": str(publish_time),
+                "primary_category": primary_category,
+                "comments": comments or "",
+            }
+
+            # TODO: select useful comments
+            comments = None
+            if comments != None:
+                content_to_wechat[paper_key] += f", {comments}\n"
+            else:
+                content_to_wechat[paper_key] += f"\n"
+    except arxiv.HTTPError as exc:
+        logging.warning(f"Skipping topic '{topic}' because arXiv request failed: {exc}")
 
     data = {topic: content}
     data_web = {topic: content_to_web}
@@ -936,7 +944,7 @@ def demo(**config):
     logging.info(f'Update Paper Link = {b_update}')
     if config['update_paper_links'] == False:
         logging.info(f"GET daily papers begin")
-        shared_client = make_arxiv_client() if arxiv else None
+        shared_client = make_arxiv_client(page_size=max_results) if arxiv else None
         for topic, keyword in keywords.items():
             logging.info(f"Keyword: {topic}")
             data, data_web, data_wechat = get_daily_papers(topic, query = keyword,

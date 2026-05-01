@@ -47,12 +47,7 @@ keywords:
         filters: ["Novel View Synthesis", "View Synthesis",
                   "Feed-forward Novel View Synthesis",
                   "Generalizable Novel View Synthesis",
-                  "Sparse-View Synthesis", "Few-Shot View Synthesis",
-                  "Dynamic View Synthesis", "Neural Rendering",
-                  "Radiance Field Rendering", "NeRF Rendering",
-                  "Gaussian Splatting Rendering",
-                  "Gaussian Splatting View Synthesis",
-                  "3DGS View Synthesis"]
+                  "Sparse-View Synthesis", "Neural Rendering"]
     "Visual Localization":
         filters: ["Visual Localization","Camera Localization",
                   "Camera Re-localisation","Loop Closure Detection",
