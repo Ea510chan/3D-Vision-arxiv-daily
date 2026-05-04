@@ -1,19 +1,19 @@
 # Image Matching
 
-> Updated on 2026.05.01
+> Updated on 2026.05.04
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-04-28**|**GeoSearch: Augmenting Worldwide Geolocalization with Web-Scale Reverse Image Search and Image Matching**|Tung-Duong Le-Duc et.al.|[2604.25390](https://arxiv.org/abs/2604.25390)|null|
-|**2026-04-26**|**Deploy DINO with Many-to-Many Association**|Haodong Jiang et.al.|[2604.23670](https://arxiv.org/abs/2604.23670)|null|
-|**2026-04-24**|**ArchSym: Detecting 3D-Grounded Architectural Symmetries in the Wild**|Hanyu Chen et.al.|[2604.22202](https://arxiv.org/abs/2604.22202)|null|
-|**2026-04-22**|**MAPRPose: Mask-Aware Proposal and Amodal Refinement for Multi-Object 6D Pose Estimation**|Yang Luo et.al.|[2604.20650](https://arxiv.org/abs/2604.20650)|null|
-|**2026-04-17**|**Where Do Vision-Language Models Fail? World Scale Analysis for Image Geolocalization**|Siddhant Bharadwaj et.al.|[2604.16248](https://arxiv.org/abs/2604.16248)|null|
-|**2026-04-15**|**SceneGlue: Scene-Aware Transformer for Feature Matching without Scene-Level Annotation**|Songlin Du et.al.|[2604.13941](https://arxiv.org/abs/2604.13941)|null|
-|**2026-04-13**|**Who Handles Orientation? Investigating Invariance in Feature Matching**|David Nordström et.al.|[2604.11809](https://arxiv.org/abs/2604.11809)|null|
-|**2026-04-11**|**DeepShapeMatchingKit: Accelerated Functional Map Solver and Shape Matching Pipelines Revisited**|Yizheng Xie et.al.|[2604.10377](https://arxiv.org/abs/2604.10377)|null|
-|**2026-04-14**|**Are Pretrained Image Matchers Good Enough for SAR-Optical Satellite Registration?**|Isaac Corley et.al.|[2604.10217](https://arxiv.org/abs/2604.10217)|null|
-|**2026-04-08**|**Mathematical Analysis of Image Matching Techniques**|Oleh Samoilenko et.al.|[2604.07574](https://arxiv.org/abs/2604.07574)|null|
+|2026-04-28|GeoSearch: Augmenting Worldwide Geolocalization with Web-Scale Reverse Image Search and Image Matching|Tung-Duong Le-Duc et.al.|[2604.25390](https://arxiv.org/abs/2604.25390)|null|
+|2026-04-26|Deploy DINO with Many-to-Many Association|Haodong Jiang et.al.|[2604.23670](https://arxiv.org/abs/2604.23670)|null|
+|2026-04-24|ArchSym: Detecting 3D-Grounded Architectural Symmetries in the Wild|Hanyu Chen et.al.|[2604.22202](https://arxiv.org/abs/2604.22202)|null|
+|2026-04-22|MAPRPose: Mask-Aware Proposal and Amodal Refinement for Multi-Object 6D Pose Estimation|Yang Luo et.al.|[2604.20650](https://arxiv.org/abs/2604.20650)|null|
+|2026-04-17|Where Do Vision-Language Models Fail? World Scale Analysis for Image Geolocalization|Siddhant Bharadwaj et.al.|[2604.16248](https://arxiv.org/abs/2604.16248)|null|
+|2026-04-15|SceneGlue: Scene-Aware Transformer for Feature Matching without Scene-Level Annotation|Songlin Du et.al.|[2604.13941](https://arxiv.org/abs/2604.13941)|null|
+|2026-04-13|Who Handles Orientation? Investigating Invariance in Feature Matching|David Nordström et.al.|[2604.11809](https://arxiv.org/abs/2604.11809)|null|
+|2026-04-11|DeepShapeMatchingKit: Accelerated Functional Map Solver and Shape Matching Pipelines Revisited|Yizheng Xie et.al.|[2604.10377](https://arxiv.org/abs/2604.10377)|null|
+|2026-04-14|Are Pretrained Image Matchers Good Enough for SAR-Optical Satellite Registration?|Isaac Corley et.al.|[2604.10217](https://arxiv.org/abs/2604.10217)|null|
+|2026-04-08|Mathematical Analysis of Image Matching Techniques|Oleh Samoilenko et.al.|[2604.07574](https://arxiv.org/abs/2604.07574)|null|
 |2026-04-08|Improving Local Feature Matching by Entropy-inspired Scale Adaptability and Flow-endowed Local Consistency|Ke Jin et.al.|[2604.06713](https://arxiv.org/abs/2604.06713)|null|
 |2026-04-06|LoMa: Local Feature Matching Revisited|David Nordström et.al.|[2604.04931](https://arxiv.org/abs/2604.04931)|null|
 |2026-03-30|AffordMatcher: Affordance Learning in 3D Scenes from Visual Signifiers|Nghia Vu et.al.|[2603.27970](https://arxiv.org/abs/2603.27970)|null|
@@ -55,7 +55,7 @@
 |2025-12-04|Environment-Aware Channel Inference via Cross-Modal Flow: From Multimodal Sensing to Wireless Channels|Guangming Liang et.al.|[2512.04966](http://arxiv.org/abs/2512.04966)|null|
 |2025-12-04|LatentFM: A Latent Flow Matching Approach for Generative Medical Image Segmentation|Huynh Trinh Ngoc et.al.|[2512.04821](http://arxiv.org/abs/2512.04821)|null|
 |2025-12-04|Unveiling gravitational waves from core-collapse supernovae with MUSE|Alessandro Veutro et.al.|[2512.04804](http://arxiv.org/abs/2512.04804)|null|
-|2025-12-04|Live Avatar: Streaming Real-time Audio-Driven Avatar Generation with Infinite Length|Yubo Huang et.al.|[2512.04677](http://arxiv.org/abs/2512.04677)|null|
+|2025-12-04|Live Avatar: Streaming Real-time Audio-Driven Avatar Generation with Infinite Length|Yubo Huang et.al.|[2512.04677](http://arxiv.org/abs/2512.04677)|**[link](https://github.com/Alibaba-Quark/LiveAvatar)**|
 |2025-12-04|Spectral micro-CT for quantitative analysis of calcification in fibrocartilage|Vittoria Mazzini et.al.|[2512.04662](http://arxiv.org/abs/2512.04662)|null|
 |2025-12-03|DINO-RotateMatch: A Rotation-Aware Deep Framework for Robust Image Matching in Large-Scale 3D Reconstruction|Kaichen Zhang et.al.|[2512.03715](https://arxiv.org/abs/2512.03715)|null|
 |2025-11-26|Fast 3D Ultrasound Localization Microscopy via Projection-based Processing Framework|Jingke Zhang et.al.|[2511.21647](http://arxiv.org/abs/2511.21647)|null|

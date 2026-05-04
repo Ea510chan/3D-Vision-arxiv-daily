@@ -1,19 +1,19 @@
 # World Model
 
-> Updated on 2026.05.01
+> Updated on 2026.05.04
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-04-30**|**HERMES++: Toward a Unified Driving World Model for 3D Scene Understanding and Generation**|Xin Zhou et.al.|[2604.28196](https://arxiv.org/abs/2604.28196)|null|
-|**2026-04-30**|**LaST-R1: Reinforcing Action via Adaptive Physical Latent Reasoning for VLA Models**|Hao Chen et.al.|[2604.28192](https://arxiv.org/abs/2604.28192)|null|
-|**2026-04-30**|**Visual Generation in the New Era: An Evolution from Atomic Mapping to Agentic World Modeling**|Keming Wu et.al.|[2604.28185](https://arxiv.org/abs/2604.28185)|null|
-|**2026-04-30**|**Beyond Gaussian Bottlenecks: Topologically Aligned Encoding of Vision-Transformer Feature Spaces**|Andrew Bond et.al.|[2604.28122](https://arxiv.org/abs/2604.28122)|null|
-|**2026-04-30**|**Dreaming Across Towns: Semantic Rollout and Town-Adversarial Regularization for Zero-Shot Held-Out-Town Fixed-Route Driving in CARLA**|Feeza Khan Khanzada et.al.|[2604.27994](https://arxiv.org/abs/2604.27994)|null|
-|**2026-04-30**|**GUI Agents with Reinforcement Learning: Toward Digital Inhabitants**|Junan Hu et.al.|[2604.27955](https://arxiv.org/abs/2604.27955)|null|
-|**2026-04-30**|**Flying by Inference: Active Inference World Models for Adaptive UAV Swarms**|Kaleem Arshid et.al.|[2604.27935](https://arxiv.org/abs/2604.27935)|null|
-|**2026-04-30**|**Simulating clinical interventions with a generative multimodal model of human physiology**|Guy Lutsker et.al.|[2604.27899](https://arxiv.org/abs/2604.27899)|null|
-|**2026-04-30**|**Graph World Models: Concepts, Taxonomy, and Future Directions**|Jiawei Liu et.al.|[2604.27895](https://arxiv.org/abs/2604.27895)|null|
-|**2026-04-30**|**MotuBrain: An Advanced World Action Model for Robot Control**|MotuBrain Team et.al.|[2604.27792](https://arxiv.org/abs/2604.27792)|null|
+|2026-04-30|HERMES++: Toward a Unified Driving World Model for 3D Scene Understanding and Generation|Xin Zhou et.al.|[2604.28196](https://arxiv.org/abs/2604.28196)|null|
+|2026-04-30|LaST-R1: Reinforcing Action via Adaptive Physical Latent Reasoning for VLA Models|Hao Chen et.al.|[2604.28192](https://arxiv.org/abs/2604.28192)|null|
+|2026-04-30|Visual Generation in the New Era: An Evolution from Atomic Mapping to Agentic World Modeling|Keming Wu et.al.|[2604.28185](https://arxiv.org/abs/2604.28185)|null|
+|2026-04-30|Beyond Gaussian Bottlenecks: Topologically Aligned Encoding of Vision-Transformer Feature Spaces|Andrew Bond et.al.|[2604.28122](https://arxiv.org/abs/2604.28122)|null|
+|2026-04-30|Dreaming Across Towns: Semantic Rollout and Town-Adversarial Regularization for Zero-Shot Held-Out-Town Fixed-Route Driving in CARLA|Feeza Khan Khanzada et.al.|[2604.27994](https://arxiv.org/abs/2604.27994)|null|
+|2026-04-30|GUI Agents with Reinforcement Learning: Toward Digital Inhabitants|Junan Hu et.al.|[2604.27955](https://arxiv.org/abs/2604.27955)|null|
+|2026-04-30|Flying by Inference: Active Inference World Models for Adaptive UAV Swarms|Kaleem Arshid et.al.|[2604.27935](https://arxiv.org/abs/2604.27935)|null|
+|2026-04-30|Simulating clinical interventions with a generative multimodal model of human physiology|Guy Lutsker et.al.|[2604.27899](https://arxiv.org/abs/2604.27899)|null|
+|2026-04-30|Graph World Models: Concepts, Taxonomy, and Future Directions|Jiawei Liu et.al.|[2604.27895](https://arxiv.org/abs/2604.27895)|null|
+|2026-04-30|MotuBrain: An Advanced World Action Model for Robot Control|MotuBrain Team et.al.|[2604.27792](https://arxiv.org/abs/2604.27792)|null|
 |2026-04-23|Seeing Fast and Slow: Learning the Flow of Time in Videos|Yen-Siang Wu et.al.|[2604.21931](https://arxiv.org/abs/2604.21931)|null|
 |2026-04-23|Machine Behavior in Relational Moral Dilemmas: Moral Rightness, Predicted Human Behavior, and Model Decisions|Jiseon Kim et.al.|[2604.21871](https://arxiv.org/abs/2604.21871)|null|
 |2026-04-23|Hi-WM: Human-in-the-World-Model for Scalable Robot Post-Training|Yaxuan Li et.al.|[2604.21741](https://arxiv.org/abs/2604.21741)|null|

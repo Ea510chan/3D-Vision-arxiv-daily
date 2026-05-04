@@ -1,24 +1,24 @@
 # Flow Matching
 
-> Updated on 2026.05.01
+> Updated on 2026.05.04
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-04-30**|**Visual Generation in the New Era: An Evolution from Atomic Mapping to Agentic World Modeling**|Keming Wu et.al.|[2604.28185](https://arxiv.org/abs/2604.28185)|null|
-|**2026-04-30**|**GSDrive: Reinforcing Driving Policies by Multi-mode Trajectory Probing with 3D Gaussian Splatting Environment**|Ziang Guo et.al.|[2604.28111](https://arxiv.org/abs/2604.28111)|null|
-|**2026-04-30**|**Martingale Posteriors for Discretely Observed Diffusions**|Jingning Yao et.al.|[2604.27603](https://arxiv.org/abs/2604.27603)|null|
-|**2026-04-30**|**ABC: Any-Subset Autoregression via Non-Markovian Diffusion Bridges in Continuous Time and Space**|Gabe Guo et.al.|[2604.27443](https://arxiv.org/abs/2604.27443)|null|
-|**2026-04-29**|**AnimateAnyMesh++: A Flexible 4D Foundation Model for High-Fidelity Text-Driven Mesh Animation**|Zijie Wu et.al.|[2604.26917](https://arxiv.org/abs/2604.26917)|null|
-|**2026-04-28**|**FlowS: One-Step Motion Prediction via Local Transport Conditioning**|Leandro Di Bella et.al.|[2604.26065](https://arxiv.org/abs/2604.26065)|null|
-|**2026-04-28**|**PhyloSDF: Phylogenetically-Conditioned Neural Generation of 3D Skull Morphology via Residual Flow Matching**|Kaikwan Lau et.al.|[2604.25371](https://arxiv.org/abs/2604.25371)|null|
-|**2026-04-28**|**Exploring Time Conditioning in Diffusion Generative Models from Disjoint Noisy Data Manifolds**|Liuzhuozheng Li et.al.|[2604.25289](https://arxiv.org/abs/2604.25289)|null|
-|**2026-04-28**|**Conditional Flow Matching for Probabilistic Downscaling of Maximum 3-day Snowfall in Alaska**|Douglas Brinkerhoff et.al.|[2604.25172](https://arxiv.org/abs/2604.25172)|null|
-|**2026-04-27**|**Learning biophysical models of gene regulation with probability flow matching**|Suryanarayana Maddu et.al.|[2604.25062](https://arxiv.org/abs/2604.25062)|null|
+|2026-04-30|Visual Generation in the New Era: An Evolution from Atomic Mapping to Agentic World Modeling|Keming Wu et.al.|[2604.28185](https://arxiv.org/abs/2604.28185)|null|
+|2026-04-30|GSDrive: Reinforcing Driving Policies by Multi-mode Trajectory Probing with 3D Gaussian Splatting Environment|Ziang Guo et.al.|[2604.28111](https://arxiv.org/abs/2604.28111)|null|
+|2026-04-30|Martingale Posteriors for Discretely Observed Diffusions|Jingning Yao et.al.|[2604.27603](https://arxiv.org/abs/2604.27603)|null|
+|2026-04-30|ABC: Any-Subset Autoregression via Non-Markovian Diffusion Bridges in Continuous Time and Space|Gabe Guo et.al.|[2604.27443](https://arxiv.org/abs/2604.27443)|null|
+|2026-04-29|AnimateAnyMesh++: A Flexible 4D Foundation Model for High-Fidelity Text-Driven Mesh Animation|Zijie Wu et.al.|[2604.26917](https://arxiv.org/abs/2604.26917)|null|
+|2026-04-28|FlowS: One-Step Motion Prediction via Local Transport Conditioning|Leandro Di Bella et.al.|[2604.26065](https://arxiv.org/abs/2604.26065)|null|
+|2026-04-28|PhyloSDF: Phylogenetically-Conditioned Neural Generation of 3D Skull Morphology via Residual Flow Matching|Kaikwan Lau et.al.|[2604.25371](https://arxiv.org/abs/2604.25371)|null|
+|2026-04-28|Exploring Time Conditioning in Diffusion Generative Models from Disjoint Noisy Data Manifolds|Liuzhuozheng Li et.al.|[2604.25289](https://arxiv.org/abs/2604.25289)|null|
+|2026-04-28|Conditional Flow Matching for Probabilistic Downscaling of Maximum 3-day Snowfall in Alaska|Douglas Brinkerhoff et.al.|[2604.25172](https://arxiv.org/abs/2604.25172)|null|
+|2026-04-27|Learning biophysical models of gene regulation with probability flow matching|Suryanarayana Maddu et.al.|[2604.25062](https://arxiv.org/abs/2604.25062)|null|
 |2026-04-23|StyleID: A Perception-Aware Dataset and Metric for Stylization-Agnostic Facial Identity Recognition|Kwan Yun et.al.|[2604.21689](https://arxiv.org/abs/2604.21689)|null|
 |2026-04-23|From Noise to Intent: Anchoring Generative VLA Policies with Residual Bridges|Yiming Zhong et.al.|[2604.21391](https://arxiv.org/abs/2604.21391)|null|
 |2026-04-23|CorridorVLA: Explicit Spatial Constraints for Generative Action Heads via Sparse Anchors|Dachong Li et.al.|[2604.21241](https://arxiv.org/abs/2604.21241)|null|
 |2026-04-22|WFM: 3D Wavelet Flow Matching for Ultrafast Multi-Modal MRI Synthesis|Yalcin Tur et.al.|[2604.21146](https://arxiv.org/abs/2604.21146)|null|
-|2026-04-22|Linear Image Generation by Synthesizing Exposure Brackets|Yuekun Dai et.al.|[2604.21008](https://arxiv.org/abs/2604.21008)|**[link](https://github.com/ykdai/LinearGen)**|
+|2026-04-22|Linear Image Generation by Synthesizing Exposure Brackets|Yuekun Dai et.al.|[2604.21008](https://arxiv.org/abs/2604.21008)|[link](https://github.com/ykdai/LinearGen)|
 |2026-04-22|ParetoSlider: Diffusion Models Post-Training for Continuous Reward Control|Shelly Golan et.al.|[2604.20816](https://arxiv.org/abs/2604.20816)|null|
 |2026-04-22|Tokenised Flow Matching for Hierarchical Simulation Based Inference|Giovanni Charles et.al.|[2604.20723](https://arxiv.org/abs/2604.20723)|null|
 |2026-04-22|Stability-Driven Motion Generation for Object-Guided Human-Human Co-Manipulation|Jiahao Xu et.al.|[2604.20336](https://arxiv.org/abs/2604.20336)|null|
