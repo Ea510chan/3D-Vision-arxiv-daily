@@ -1,9 +1,19 @@
 # 3D Reconstruction
 
-> Updated on 2026.05.04
+> Updated on 2026.05.05
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-05-04**|**A study of the kinematic and volumetric co-evolution of Earth-directed CMEs**|Ashutosh Pattnaik et.al.|[2605.02828](https://arxiv.org/abs/2605.02828)|null|
+|**2026-05-04**|**HumanSplatHMR: Closing the Loop Between Human Mesh Recovery and Gaussian Splatting Avatar**|Yeheng Zong et.al.|[2605.02784](https://arxiv.org/abs/2605.02784)|null|
+|**2026-05-04**|**Thin-film lithium tantalate for ultraviolet integrated electro-optic modulator**|Chupao Lin et.al.|[2605.02758](https://arxiv.org/abs/2605.02758)|null|
+|**2026-05-04**|**Pareto frontier of portfolio investment under volatility uncertainty and short-sale constraints market**|Jing He et.al.|[2605.02666](https://arxiv.org/abs/2605.02666)|null|
+|**2026-05-04**|**Permutation Routing on Ramanujan Hypergraphs with Applications to Neutral Atom Quantum Architectures**|Joshua M. Courtney et.al.|[2605.02498](https://arxiv.org/abs/2605.02498)|null|
+|**2026-05-04**|**From Diaz's Enriques Product to an $n$ -Fold Cup-Product Bockstein Family of Integral Hodge Counterexamples**|Abdul Rahman et.al.|[2605.02129](https://arxiv.org/abs/2605.02129)|null|
+|**2026-05-03**|**Greed for the Spheres: A Signed Distance Interpolation Method**|Letao Chen et.al.|[2605.01919](https://arxiv.org/abs/2605.01919)|null|
+|**2026-05-03**|**DP-SfM: Dual-Pixel Structure-from-Motion without Scale Ambiguity**|Lilika Makabe et.al.|[2605.01852](https://arxiv.org/abs/2605.01852)|null|
+|**2026-05-03**|**Profile-Specific 3DMM Regression from a Single Lateral Face Image**|Taiki Kanaya et.al.|[2605.01746](https://arxiv.org/abs/2605.01746)|null|
+|**2026-05-02**|**CADFit: Precise Mesh-to-CAD Program Generation with Hybrid Optimization**|Ghadi Nehme et.al.|[2605.01171](https://arxiv.org/abs/2605.01171)|null|
 |2026-04-30|Generalizable Sparse-View 3D Reconstruction from Unconstrained Images|Vinayak Gupta et.al.|[2604.28193](https://arxiv.org/abs/2604.28193)|null|
 |2026-04-30|PhyCo: Learning Controllable Physical Priors for Generative Motion|Sriram Narayanan et.al.|[2604.28169](https://arxiv.org/abs/2604.28169)|null|
 |2026-04-30|3D Reconstruction Techniques in the Manufacturing Domain: Applications, Research Opportunities and Use Cases|Chialoon Cheng et.al.|[2604.28064](https://arxiv.org/abs/2604.28064)|null|

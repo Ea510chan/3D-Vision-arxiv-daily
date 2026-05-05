@@ -13,9 +13,9 @@ layout: default
     </div>
   </div>
   <div class="hero-panel">
-    <div class="stat"><span>Updated</span><strong>2026.05.04</strong></div>
+    <div class="stat"><span>Updated</span><strong>2026.05.05</strong></div>
     <div class="stat"><span>Topics</span><strong>9</strong></div>
-    <div class="stat"><span>Total papers</span><strong>1514</strong></div>
+    <div class="stat"><span>Total papers</span><strong>1546</strong></div>
   </div>
 </section>
 
@@ -34,37 +34,37 @@ layout: default
     <a class="topic-card" href="topics/image-matching.html" style="--accent: #059669;">
       <span class="topic-icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2.5 20.5 7v10L12 21.5 3.5 17V7z" fill="currentColor" opacity="0.25"/><path d="M12 4.2 18.7 8v8L12 19.8 5.3 16V8z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></span>
       <h3>Image Matching</h3>
-      <p>Latest: 2026-04-28 · Papers: 168</p>
+      <p>Latest: 2026-05-02 · Papers: 170</p>
       <span class="topic-cta">View papers →</span>
     </a>
     <a class="topic-card" href="topics/slam.html" style="--accent: #d97706;">
       <span class="topic-icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2.5 20.5 7v10L12 21.5 3.5 17V7z" fill="currentColor" opacity="0.25"/><path d="M12 4.2 18.7 8v8L12 19.8 5.3 16V8z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></span>
       <h3>SLAM</h3>
-      <p>Latest: 2026-04-30 · Papers: 247</p>
+      <p>Latest: 2026-05-04 · Papers: 250</p>
       <span class="topic-cta">View papers →</span>
     </a>
     <a class="topic-card" href="topics/3d-reconstruction.html" style="--accent: #7c3aed;">
       <span class="topic-icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2.5 20.5 7v10L12 21.5 3.5 17V7z" fill="currentColor" opacity="0.25"/><path d="M12 4.2 18.7 8v8L12 19.8 5.3 16V8z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></span>
       <h3>3D Reconstruction</h3>
-      <p>Latest: 2026-04-30 · Papers: 375</p>
+      <p>Latest: 2026-05-04 · Papers: 385</p>
       <span class="topic-cta">View papers →</span>
     </a>
     <a class="topic-card" href="topics/novel-view-synthesis.html" style="--accent: #db2777;">
       <span class="topic-icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2.5 20.5 7v10L12 21.5 3.5 17V7z" fill="currentColor" opacity="0.25"/><path d="M12 4.2 18.7 8v8L12 19.8 5.3 16V8z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></span>
       <h3>Novel View Synthesis</h3>
-      <p>Latest: 2026-04-30 · Papers: 10</p>
+      <p>Latest: 2026-05-03 · Papers: 14</p>
       <span class="topic-cta">View papers →</span>
     </a>
     <a class="topic-card" href="topics/visual-localization.html" style="--accent: #0891b2;">
       <span class="topic-icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2.5 20.5 7v10L12 21.5 3.5 17V7z" fill="currentColor" opacity="0.25"/><path d="M12 4.2 18.7 8v8L12 19.8 5.3 16V8z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></span>
       <h3>Visual Localization</h3>
-      <p>Latest: 2026-04-29 · Papers: 445</p>
+      <p>Latest: 2026-05-01 · Papers: 447</p>
       <span class="topic-cta">View papers →</span>
     </a>
     <a class="topic-card" href="topics/3d-localization.html" style="--accent: #dc2626;">
       <span class="topic-icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2.5 20.5 7v10L12 21.5 3.5 17V7z" fill="currentColor" opacity="0.25"/><path d="M12 4.2 18.7 8v8L12 19.8 5.3 16V8z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></span>
       <h3>3D Localization</h3>
-      <p>Latest: 2026-04-24 · Papers: 10</p>
+      <p>Latest: 2026-05-02 · Papers: 11</p>
       <span class="topic-cta">View papers →</span>
     </a>
     <a class="topic-card" href="topics/world-model.html" style="--accent: #9333ea;">
@@ -76,7 +76,7 @@ layout: default
     <a class="topic-card" href="topics/flow-matching.html" style="--accent: #e11d48;">
       <span class="topic-icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2.5 20.5 7v10L12 21.5 3.5 17V7z" fill="currentColor" opacity="0.25"/><path d="M12 4.2 18.7 8v8L12 19.8 5.3 16V8z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></span>
       <h3>Flow Matching</h3>
-      <p>Latest: 2026-04-30 · Papers: 57</p>
+      <p>Latest: 2026-05-04 · Papers: 67</p>
       <span class="topic-cta">View papers →</span>
     </a>
   </div>

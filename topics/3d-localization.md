@@ -1,17 +1,18 @@
 # 3D Localization
 
-> Updated on 2026.05.04
+> Updated on 2026.05.05
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|2026-04-24|3D modelling of thermal loads during unmitigated vertical displacement events in ITER and JET|F. J. Artola et.al.|[2604.22516](https://arxiv.org/abs/2604.22516)|null|
-|2026-04-22|StarLoc: Pinpointing Transmitting LEO Satellites from a Single Passive Array|Ishani Janveja et.al.|[2604.21147](https://arxiv.org/abs/2604.21147)|null|
-|2026-04-10|Characterizing Lidar Range-Measurement Ambiguity due to Multiple Returns|Jason H. Rife et.al.|[2604.09282](https://arxiv.org/abs/2604.09282)|null|
-|2026-04-02|Evaluation of gNB Monostatic Sensing for UAV Use Case|Steve Blandino et.al.|[2604.02205](https://arxiv.org/abs/2604.02205)|null|
-|2026-04-02|Riemannian and Symplectic Geometry for Hierarchical Text-Driven Place Recognition|Tianyi Shang et.al.|[2604.01598](https://arxiv.org/abs/2604.01598)|null|
-|2026-03-31|Sensor array and camera fusion via unbalanced optimal transport for 3D source localization|Ilyes Jaouedi et.al.|[2603.29940](https://arxiv.org/abs/2603.29940)|null|
-|2026-03-31|Adaptive High-Speed Radar Signal Processing Architecture for 3D Localization of Multiple Targets on System on Chip|Aakanksha Tewari et.al.|[2603.29487](https://arxiv.org/abs/2603.29487)|null|
-|2026-03-31|Model-Based Beam-Steered Optical Wireless Positioning with Single-LED Single-Photodiode for 3D Localization|Kevin Acuna-Condori et.al.|[2603.29400](https://arxiv.org/abs/2603.29400)|null|
-|2026-03-30|AGN Disks as Supernova Mufflers I: 3D Local Hydrodynamic Models|Harrison E. Cook et.al.|[2603.29049](https://arxiv.org/abs/2603.29049)|null|
+|**2026-05-02**|**VoxAfford: Multi-Scale Voxel-Token Fusion for Open-Vocabulary 3D Affordance Detection**|Haowen Sun et.al.|[2605.01365](https://arxiv.org/abs/2605.01365)|null|
+|**2026-04-24**|**3D modelling of thermal loads during unmitigated vertical displacement events in ITER and JET**|F. J. Artola et.al.|[2604.22516](https://arxiv.org/abs/2604.22516)|null|
+|**2026-04-22**|**StarLoc: Pinpointing Transmitting LEO Satellites from a Single Passive Array**|Ishani Janveja et.al.|[2604.21147](https://arxiv.org/abs/2604.21147)|null|
+|**2026-04-10**|**Characterizing Lidar Range-Measurement Ambiguity due to Multiple Returns**|Jason H. Rife et.al.|[2604.09282](https://arxiv.org/abs/2604.09282)|null|
+|**2026-04-02**|**Evaluation of gNB Monostatic Sensing for UAV Use Case**|Steve Blandino et.al.|[2604.02205](https://arxiv.org/abs/2604.02205)|null|
+|**2026-04-02**|**Riemannian and Symplectic Geometry for Hierarchical Text-Driven Place Recognition**|Tianyi Shang et.al.|[2604.01598](https://arxiv.org/abs/2604.01598)|null|
+|**2026-03-31**|**Sensor array and camera fusion via unbalanced optimal transport for 3D source localization**|Ilyes Jaouedi et.al.|[2603.29940](https://arxiv.org/abs/2603.29940)|null|
+|**2026-03-31**|**Adaptive High-Speed Radar Signal Processing Architecture for 3D Localization of Multiple Targets on System on Chip**|Aakanksha Tewari et.al.|[2603.29487](https://arxiv.org/abs/2603.29487)|null|
+|**2026-03-31**|**Model-Based Beam-Steered Optical Wireless Positioning with Single-LED Single-Photodiode for 3D Localization**|Kevin Acuna-Condori et.al.|[2603.29400](https://arxiv.org/abs/2603.29400)|null|
+|**2026-03-30**|**AGN Disks as Supernova Mufflers I: 3D Local Hydrodynamic Models**|Harrison E. Cook et.al.|[2603.29049](https://arxiv.org/abs/2603.29049)|null|
 |2026-03-30|osmAG-Nav: A Hierarchical Semantic Topometric Navigation Stack for Robust Lifelong Indoor Autonomy|Yongqi Zhang et.al.|[2603.28271](https://arxiv.org/abs/2603.28271)|null|
 

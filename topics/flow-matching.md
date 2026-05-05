@@ -1,9 +1,19 @@
 # Flow Matching
 
-> Updated on 2026.05.04
+> Updated on 2026.05.05
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-05-04**|**MolmoAct2: Action Reasoning Models for Real-world Deployment**|Haoquan Fang et.al.|[2605.02881](https://arxiv.org/abs/2605.02881)|null|
+|**2026-05-04**|**Mixture Prototype Flow Matching for Open-Set Supervised Anomaly Detection**|Fuyun Wang et.al.|[2605.02438](https://arxiv.org/abs/2605.02438)|**[link](https://github.com/fuyunwang/MPFM-OSAD)**|
+|**2026-05-04**|**DriftDecode: One-Step Wireless Image Decoding via Drifting-Inspired Detail Recovery**|Jingwen Fu et.al.|[2605.02325](https://arxiv.org/abs/2605.02325)|null|
+|**2026-05-04**|**Generative Modeling with Orbit-Space Particle Flow Matching**|Sinan Wang et.al.|[2605.02222](https://arxiv.org/abs/2605.02222)|null|
+|**2026-05-03**|**Cardiac Mesh Flow: One-Step Generation of 3D+t Cardiac Four-Chamber Meshes via Flow Matching**|Qiang Ma et.al.|[2605.01884](https://arxiv.org/abs/2605.01884)|**[link](https://github.com/m-qiang/CardiacMeshFlow)**|
+|**2026-05-02**|**Unifying Deep Stochastic Processes for Image Enhancement**|Wojciech Kozłowski et.al.|[2605.01568](https://arxiv.org/abs/2605.01568)|null|
+|**2026-05-02**|**SixthSense: Task-Agnostic Proprioception-Only Whole-Body Wrench Estimation for Humanoids**|Xingzhou Chen et.al.|[2605.01427](https://arxiv.org/abs/2605.01427)|null|
+|**2026-05-02**|**Arbitrarily Conditioned Hierarchical Flows for Spatiotemporal Events**|Keyan Chen et.al.|[2605.01226](https://arxiv.org/abs/2605.01226)|null|
+|**2026-05-02**|**TAIL-Safe: Task-Agnostic Safety Monitoring for Imitation Learning Policies**|Riad Ahmed et.al.|[2605.01195](https://arxiv.org/abs/2605.01195)|null|
+|**2026-05-01**|**Posterior Augmented Flow Matching**|George Stoica et.al.|[2605.00825](https://arxiv.org/abs/2605.00825)|null|
 |2026-04-30|Visual Generation in the New Era: An Evolution from Atomic Mapping to Agentic World Modeling|Keming Wu et.al.|[2604.28185](https://arxiv.org/abs/2604.28185)|null|
 |2026-04-30|GSDrive: Reinforcing Driving Policies by Multi-mode Trajectory Probing with 3D Gaussian Splatting Environment|Ziang Guo et.al.|[2604.28111](https://arxiv.org/abs/2604.28111)|null|
 |2026-04-30|Martingale Posteriors for Discretely Observed Diffusions|Jingning Yao et.al.|[2604.27603](https://arxiv.org/abs/2604.27603)|null|

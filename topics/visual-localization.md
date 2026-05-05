@@ -1,19 +1,21 @@
 # Visual Localization
 
-> Updated on 2026.05.04
+> Updated on 2026.05.05
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-05-01**|**Depth-Guided Privacy-Preserving Visual Localization Using 3D Sphere Clouds**|Heejoon Moon et.al.|[2605.00562](https://arxiv.org/abs/2605.00562)|**[link](https://github.com/PHANTOM0122/Sphere-cloud)**|
+|**2026-05-01**|**MSACT: Multistage Spatial Alignment for Stable Low-Latency Fine Manipulation**|Xianbo Cai et.al.|[2605.00475](https://arxiv.org/abs/2605.00475)|null|
 |2026-04-29|AirZoo: A Unified Large-Scale Dataset for Grounding Aerial Geometric 3D Vision|Xiaoya Cheng et.al.|[2604.26567](https://arxiv.org/abs/2604.26567)|null|
 |2026-04-29|3D-LENS: A 3D Lifting-based Elevated Novel-view Synthesis method for Single-View Aerial-Ground Re-Identification|William Grolleau et.al.|[2604.26520](https://arxiv.org/abs/2604.26520)|null|
-|2026-04-28|COMPASS: COmpact Multi-channel Prior-map And Scene Signature for Floor-Plan-Based Visual Localization|Muhammad Shaheer et.al.|[2604.25388](https://arxiv.org/abs/2604.25388)|null|
+|**2026-04-28**|**COMPASS: COmpact Multi-channel Prior-map And Scene Signature for Floor-Plan-Based Visual Localization**|Muhammad Shaheer et.al.|[2604.25388](https://arxiv.org/abs/2604.25388)|null|
 |2026-04-27|Geometric Analysis of Self-Supervised Vision Representations for Semantic Image Retrieval|Esteban Rodríguez-Betancourt et.al.|[2604.24469](https://arxiv.org/abs/2604.24469)|null|
-|2026-04-24|Region Matters: Efficient and Reliable Region-Aware Visual Place Recognition|Shunpeng Chen et.al.|[2604.22390](https://arxiv.org/abs/2604.22390)|null|
-|2026-04-24|Revisiting Geometric Obfuscation with Dual Convergent Lines for Privacy-Preserving Image Queries in Visual Localization|Jeonggon Kim et.al.|[2604.22310](https://arxiv.org/abs/2604.22310)|null|
+|**2026-04-24**|**Region Matters: Efficient and Reliable Region-Aware Visual Place Recognition**|Shunpeng Chen et.al.|[2604.22390](https://arxiv.org/abs/2604.22390)|null|
+|**2026-04-24**|**Revisiting Geometric Obfuscation with Dual Convergent Lines for Privacy-Preserving Image Queries in Visual Localization**|Jeonggon Kim et.al.|[2604.22310](https://arxiv.org/abs/2604.22310)|null|
 |2026-04-24|TEMA: Anchor the Image, Follow the Text for Multi-Modification Composed Image Retrieval|Zixu Li et.al.|[2604.21806](https://arxiv.org/abs/2604.21806)|null|
 |2026-04-22|ConeSep: Cone-based Robust Noise-Unlearning Compositional Network for Composed Image Retrieval|Zixu Li et.al.|[2604.20358](https://arxiv.org/abs/2604.20358)|null|
 |2026-04-22|UniCVR: From Alignment to Reranking for Unified Zero-Shot Composed Visual Retrieval|Haokun Wen et.al.|[2604.20318](https://arxiv.org/abs/2604.20318)|null|
-|2026-04-21|SL(C)AMma: Simultaneous Localisation, (Calibration) and Mapping With a Magnetometer Array|Thomas Edridge et.al.|[2604.19946](https://arxiv.org/abs/2604.19946)|null|
+|**2026-04-21**|**SL(C)AMma: Simultaneous Localisation, (Calibration) and Mapping With a Magnetometer Array**|Thomas Edridge et.al.|[2604.19946](https://arxiv.org/abs/2604.19946)|null|
 |2026-04-22|Air-Know: Arbiter-Calibrated Knowledge-Internalizing Robust Network for Composed Image Retrieval|Zhiheng Fu et.al.|[2604.19386](https://arxiv.org/abs/2604.19386)|null|
 |2026-04-20|T-REN: Learning Text-Aligned Region Tokens Improves Dense Vision-Language Alignment and Scalability|Savya Khosla et.al.|[2604.18573](https://arxiv.org/abs/2604.18573)|null|
 |2026-04-20|INTENT: Invariance and Discrimination-aware Noise Mitigation for Robust Composed Image Retrieval|Zhiwei Chen et.al.|[2604.18051](https://arxiv.org/abs/2604.18051)|null|
@@ -23,15 +25,15 @@
 |2026-04-20|Subject-Aware Multi-Granularity Alignment for Zero-Shot EEG-to-Image Retrieval|Lin Jiang et.al.|[2604.17782](https://arxiv.org/abs/2604.17782)|null|
 |2026-04-18|mEOL: Training-Free Instruction-Guided Multimodal Embedder for Vector Graphics and Image Retrieval|Kyeong Seon Kim et.al.|[2604.17054](https://arxiv.org/abs/2604.17054)|null|
 |2026-04-18|KIRA: Knowledge-Intensive Image Retrieval and Reasoning Architecture for Specialized Visual Domains|Parthaw Goswami et.al.|[2604.16915](https://arxiv.org/abs/2604.16915)|null|
-|2026-04-17|Where Do Vision-Language Models Fail? World Scale Analysis for Image Geolocalization|Siddhant Bharadwaj et.al.|[2604.16248](https://arxiv.org/abs/2604.16248)|null|
-|2026-04-17|Continual Hand-Eye Calibration for Open-world Robotic Manipulation|Fazeng Li et.al.|[2604.15814](https://arxiv.org/abs/2604.15814)|null|
+|**2026-04-17**|**Where Do Vision-Language Models Fail? World Scale Analysis for Image Geolocalization**|Siddhant Bharadwaj et.al.|[2604.16248](https://arxiv.org/abs/2604.16248)|null|
+|**2026-04-17**|**Continual Hand-Eye Calibration for Open-world Robotic Manipulation**|Fazeng Li et.al.|[2604.15814](https://arxiv.org/abs/2604.15814)|null|
 |2026-04-17|Sketch and Text Synergy: Fusing Structural Contours and Descriptive Attributes for Fine-Grained Image Retrieval|Siyuan Wang et.al.|[2604.15735](https://arxiv.org/abs/2604.15735)|null|
-|2026-04-15|SceneGlue: Scene-Aware Transformer for Feature Matching without Scene-Level Annotation|Songlin Du et.al.|[2604.13941](https://arxiv.org/abs/2604.13941)|null|
+|**2026-04-15**|**SceneGlue: Scene-Aware Transformer for Feature Matching without Scene-Level Annotation**|Songlin Du et.al.|[2604.13941](https://arxiv.org/abs/2604.13941)|null|
 |2026-04-14|Indexing Multimodal Language Models for Large-scale Image Retrieval|Bahey Tharwat et.al.|[2604.13268](https://arxiv.org/abs/2604.13268)|null|
 |2026-04-14|A Sanity Check on Composed Image Retrieval|Yikun Liu et.al.|[2604.12904](https://arxiv.org/abs/2604.12904)|null|
 |2026-04-14|VidTAG: Temporally Aligned Video to GPS Geolocalization with Denoising Sequence Prediction at a Global Scale|Parth Parag Kulkarni et.al.|[2604.12159](https://arxiv.org/abs/2604.12159)|null|
 |2026-04-13|Human-Inspired Context-Selective Multimodal Memory for Social Robots|Hangyeol Kang et.al.|[2604.12081](https://arxiv.org/abs/2604.12081)|null|
-|2026-04-13|Privacy-Preserving Structureless Visual Localization via Image Obfuscation|Vojtech Panek et.al.|[2604.12068](https://arxiv.org/abs/2604.12068)|null|
+|**2026-04-13**|**Privacy-Preserving Structureless Visual Localization via Image Obfuscation**|Vojtech Panek et.al.|[2604.12068](https://arxiv.org/abs/2604.12068)|null|
 |2026-04-13|Seeing Through Touch: Tactile-Driven Visual Localization of Material Regions|Seongyu Kim et.al.|[2604.11579](https://arxiv.org/abs/2604.11579)|null|
 |2026-04-13|CLAY: Conditional Visual Similarity Modulation in Vision-Language Embedding Space|Sohwi Lim et.al.|[2604.11539](https://arxiv.org/abs/2604.11539)|null|
 |2026-04-11|FashionMV: Product-Level Composed Image Retrieval with Multi-View Fashion Data|Peng Yuan et.al.|[2604.10297](https://arxiv.org/abs/2604.10297)|null|

@@ -1,6 +1,6 @@
 # World Model
 
-> Updated on 2026.05.04
+> Updated on 2026.05.05
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
