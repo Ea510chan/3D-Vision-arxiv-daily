@@ -1,9 +1,19 @@
 # World Model
 
-> Updated on 2026.05.05
+> Updated on 2026.05.06
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-05-05**|**Implementing True MPI Sessions and Evaluating MPI Initialization Scalability**|Hui Zhou et.al.|[2605.03983](https://arxiv.org/abs/2605.03983)|null|
+|**2026-05-05**|**A Benchmark for Interactive World Models with a Unified Action Generation Framework**|Jianjie Fang et.al.|[2605.03941](https://arxiv.org/abs/2605.03941)|null|
+|**2026-05-05**|**RoboAlign-R1: Distilled Multimodal Reward Alignment for Robot Video World Models**|Hao Wu et.al.|[2605.03821](https://arxiv.org/abs/2605.03821)|null|
+|**2026-05-05**|**What You Think is What You See: Driving Exploration in VLM Agents via Visual-Linguistic Curiosity**|Haoxi Li et.al.|[2605.03782](https://arxiv.org/abs/2605.03782)|null|
+|**2026-05-05**|**AniMatrix: An Anime Video Generation Model that Thinks in Art, Not Physics**|Tencent HY Team et.al.|[2605.03652](https://arxiv.org/abs/2605.03652)|null|
+|**2026-05-05**|**Learning to Theorize the World from Observation**|Doojin Baek et.al.|[2605.03413](https://arxiv.org/abs/2605.03413)|null|
+|**2026-05-04**|**High-Fidelity Full-Sky Video Prediction for Photovoltaic Ramp Event Forecasting**|Siyuan Wang et.al.|[2605.03165](https://arxiv.org/abs/2605.03165)|null|
+|**2026-05-04**|**Existence, Asymptotic Behavior, and Numerical Analysis of a Generalized Abel Differential Equation with Applications in Financial Modeling**|Dragos-Patru Covei et.al.|[2605.02831](https://arxiv.org/abs/2605.02831)|null|
+|**2026-05-04**|**DynoSLAM: Dynamic SLAM with Generative Graph Neural Networks for Real-World Social Navigation**|Danil Tokhchukov et.al.|[2605.02759](https://arxiv.org/abs/2605.02759)|null|
+|**2026-05-04**|**Shadow-Loom: Causal Reasoning over Graphical World Model of Narratives**|David Wilmot et.al.|[2605.02475](https://arxiv.org/abs/2605.02475)|null|
 |2026-04-30|HERMES++: Toward a Unified Driving World Model for 3D Scene Understanding and Generation|Xin Zhou et.al.|[2604.28196](https://arxiv.org/abs/2604.28196)|null|
 |2026-04-30|LaST-R1: Reinforcing Action via Adaptive Physical Latent Reasoning for VLA Models|Hao Chen et.al.|[2604.28192](https://arxiv.org/abs/2604.28192)|null|
 |2026-04-30|Visual Generation in the New Era: An Evolution from Atomic Mapping to Agentic World Modeling|Keming Wu et.al.|[2604.28185](https://arxiv.org/abs/2604.28185)|null|

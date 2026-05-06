@@ -1,9 +1,16 @@
 # 3D Reconstruction
 
-> Updated on 2026.05.05
+> Updated on 2026.05.06
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-05-05**|**deSEO: Physics-Aware Dataset Creation for High-Resolution Satellite Image Shadow Removal**|Lorenzo Beltrame et.al.|[2605.03610](https://arxiv.org/abs/2605.03610)|null|
+|**2026-05-05**|**A simulation- and model-based approach to PI control pairing and tuning for the pyro process in a cement plant**|Jan Lorenz Svensen et.al.|[2605.03489](https://arxiv.org/abs/2605.03489)|null|
+|**2026-05-05**|**Quantum Resource Estimation for Minimising Energy Grid Losses**|Camille de Valk et.al.|[2605.03467](https://arxiv.org/abs/2605.03467)|null|
+|**2026-05-05**|**First Shape, Then Meaning: Efficient Geometry and Semantics Learning for Indoor Reconstruction**|Remi Chierchia et.al.|[2605.03463](https://arxiv.org/abs/2605.03463)|null|
+|**2026-05-05**|**MK-ResRecon: Multi-Kernel Residual Framework for Texture-Aware 3D MRI Refinement from Sparse 2D Slices**|Prajyot Pyati et.al.|[2605.03432](https://arxiv.org/abs/2605.03432)|null|
+|**2026-05-05**|**Mix3R: Mixing Feed-forward Reconstruction and Generative 3D Priors for Joint Multi-view Aligned 3D Reconstruction and Pose Estimation**|Siyou Lin et.al.|[2605.03359](https://arxiv.org/abs/2605.03359)|null|
+|**2026-05-05**|**FreeTimeGS++: Secrets of Dynamic Gaussian Splatting and Their Principles**|Lucas Yunkyu Lee et.al.|[2605.03337](https://arxiv.org/abs/2605.03337)|null|
 |**2026-05-04**|**A study of the kinematic and volumetric co-evolution of Earth-directed CMEs**|Ashutosh Pattnaik et.al.|[2605.02828](https://arxiv.org/abs/2605.02828)|null|
 |**2026-05-04**|**HumanSplatHMR: Closing the Loop Between Human Mesh Recovery and Gaussian Splatting Avatar**|Yeheng Zong et.al.|[2605.02784](https://arxiv.org/abs/2605.02784)|null|
 |**2026-05-04**|**Thin-film lithium tantalate for ultraviolet integrated electro-optic modulator**|Chupao Lin et.al.|[2605.02758](https://arxiv.org/abs/2605.02758)|null|

@@ -1,14 +1,19 @@
 # Flow Matching
 
-> Updated on 2026.05.05
+> Updated on 2026.05.06
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-05-05**|**Flow Sampling: Learning to Sample from Unnormalized Densities via Denoising Conditional Processes**|Aaron Havens et.al.|[2605.03984](https://arxiv.org/abs/2605.03984)|null|
+|**2026-05-05**|**FluxFlow: Conservative Flow-Matching for Astronomical Image Super-Resolution**|Shuhong Liu et.al.|[2605.03749](https://arxiv.org/abs/2605.03749)|null|
+|**2026-05-05**|**Flow Matching on Symmetric Spaces**|Francesco Ruscelli et.al.|[2605.03588](https://arxiv.org/abs/2605.03588)|null|
+|**2026-05-05**|**PerFlow: Physics-Embedded Rectified Flow for Efficient Reconstruction and Uncertainty Quantification of Spatiotemporal Dynamics**|Hao Zhou et.al.|[2605.03548](https://arxiv.org/abs/2605.03548)|null|
+|**2026-05-03**|**Structured Diffusion Bridges: Inductive Bias for Denoising Diffusion Bridges**|Eitan Kosman et.al.|[2605.02973](https://arxiv.org/abs/2605.02973)|null|
 |**2026-05-04**|**MolmoAct2: Action Reasoning Models for Real-world Deployment**|Haoquan Fang et.al.|[2605.02881](https://arxiv.org/abs/2605.02881)|null|
-|**2026-05-04**|**Mixture Prototype Flow Matching for Open-Set Supervised Anomaly Detection**|Fuyun Wang et.al.|[2605.02438](https://arxiv.org/abs/2605.02438)|**[link](https://github.com/fuyunwang/MPFM-OSAD)**|
+|**2026-05-04**|**Mixture Prototype Flow Matching for Open-Set Supervised Anomaly Detection**|Fuyun Wang et.al.|[2605.02438](https://arxiv.org/abs/2605.02438)|null|
 |**2026-05-04**|**DriftDecode: One-Step Wireless Image Decoding via Drifting-Inspired Detail Recovery**|Jingwen Fu et.al.|[2605.02325](https://arxiv.org/abs/2605.02325)|null|
 |**2026-05-04**|**Generative Modeling with Orbit-Space Particle Flow Matching**|Sinan Wang et.al.|[2605.02222](https://arxiv.org/abs/2605.02222)|null|
-|**2026-05-03**|**Cardiac Mesh Flow: One-Step Generation of 3D+t Cardiac Four-Chamber Meshes via Flow Matching**|Qiang Ma et.al.|[2605.01884](https://arxiv.org/abs/2605.01884)|**[link](https://github.com/m-qiang/CardiacMeshFlow)**|
+|**2026-05-03**|**Cardiac Mesh Flow: One-Step Generation of 3D+t Cardiac Four-Chamber Meshes via Flow Matching**|Qiang Ma et.al.|[2605.01884](https://arxiv.org/abs/2605.01884)|null|
 |**2026-05-02**|**Unifying Deep Stochastic Processes for Image Enhancement**|Wojciech Kozłowski et.al.|[2605.01568](https://arxiv.org/abs/2605.01568)|null|
 |**2026-05-02**|**SixthSense: Task-Agnostic Proprioception-Only Whole-Body Wrench Estimation for Humanoids**|Xingzhou Chen et.al.|[2605.01427](https://arxiv.org/abs/2605.01427)|null|
 |**2026-05-02**|**Arbitrarily Conditioned Hierarchical Flows for Spatiotemporal Events**|Keyan Chen et.al.|[2605.01226](https://arxiv.org/abs/2605.01226)|null|
