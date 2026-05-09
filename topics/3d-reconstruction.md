@@ -1,9 +1,19 @@
 # 3D Reconstruction
 
-> Updated on 2026.05.06
+> Updated on 2026.05.09
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-05-07**|**On Fano effect in IR spectra of hydrogenated nanodiamonds**|Andrei A. Shiryaev et.al.|[2605.06539](https://arxiv.org/abs/2605.06539)|null|
+|**2026-05-07**|**Spark3R: Asymmetric Token Reduction Makes Fast Feed-Forward 3D Reconstruction**|Zecheng Tang et.al.|[2605.06270](https://arxiv.org/abs/2605.06270)|null|
+|**2026-05-07**|**Mean Mode Screaming: Mean--Variance Split Residuals for 1000-Layer Diffusion Transformers**|Pengqi Lu et.al.|[2605.06169](https://arxiv.org/abs/2605.06169)|null|
+|**2026-05-07**|**FluxShard: Motion-Aware Feature Cache Reuse for Collaborative Video Analytics in Mobile Edge Computing**|Xiuxian Guan et.al.|[2605.06027](https://arxiv.org/abs/2605.06027)|null|
+|**2026-05-07**|**3DSS: 3D Surface Splatting for Inverse Rendering**|Mae Younes et.al.|[2605.05876](https://arxiv.org/abs/2605.05876)|null|
+|**2026-05-07**|**Ray-Aware Pointer Memory with Adaptive Updates for Streaming 3D Reconstruction**|Feifei Li et.al.|[2605.05749](https://arxiv.org/abs/2605.05749)|null|
+|**2026-05-07**|**Sparse-to-Complete: From Sparse Image Captures to Complete 3D Scenes**|Yiyang Shen et.al.|[2605.05664](https://arxiv.org/abs/2605.05664)|null|
+|**2026-05-06**|**egenioussBench: A New Dataset for Geospatial Visual Localisation**|Phillipp Fanta-Jende et.al.|[2605.05351](https://arxiv.org/abs/2605.05351)|null|
+|**2026-05-06**|**Syn4D: A Multiview Synthetic 4D Dataset**|Zeren Jiang et.al.|[2605.05207](https://arxiv.org/abs/2605.05207)|null|
+|**2026-05-06**|**A Bayesian Approach for Task-Specific Next-Best-View Selection with Uncertain Geometry**|Jingsen Zhu et.al.|[2605.05095](https://arxiv.org/abs/2605.05095)|null|
 |**2026-05-05**|**deSEO: Physics-Aware Dataset Creation for High-Resolution Satellite Image Shadow Removal**|Lorenzo Beltrame et.al.|[2605.03610](https://arxiv.org/abs/2605.03610)|null|
 |**2026-05-05**|**A simulation- and model-based approach to PI control pairing and tuning for the pyro process in a cement plant**|Jan Lorenz Svensen et.al.|[2605.03489](https://arxiv.org/abs/2605.03489)|null|
 |**2026-05-05**|**Quantum Resource Estimation for Minimising Energy Grid Losses**|Camille de Valk et.al.|[2605.03467](https://arxiv.org/abs/2605.03467)|null|

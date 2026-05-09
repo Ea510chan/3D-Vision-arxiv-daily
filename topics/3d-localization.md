@@ -1,9 +1,10 @@
 # 3D Localization
 
-> Updated on 2026.05.06
+> Updated on 2026.05.09
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-05-07**|**Local distillation from Reed Muller codes unfolding**|Vivien Londe et.al.|[2605.06284](https://arxiv.org/abs/2605.06284)|null|
 |**2026-05-02**|**VoxAfford: Multi-Scale Voxel-Token Fusion for Open-Vocabulary 3D Affordance Detection**|Haowen Sun et.al.|[2605.01365](https://arxiv.org/abs/2605.01365)|null|
 |**2026-04-24**|**3D modelling of thermal loads during unmitigated vertical displacement events in ITER and JET**|F. J. Artola et.al.|[2604.22516](https://arxiv.org/abs/2604.22516)|null|
 |**2026-04-22**|**StarLoc: Pinpointing Transmitting LEO Satellites from a Single Passive Array**|Ishani Janveja et.al.|[2604.21147](https://arxiv.org/abs/2604.21147)|null|
