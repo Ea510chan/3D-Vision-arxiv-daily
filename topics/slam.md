@@ -1,9 +1,10 @@
 # SLAM
 
-> Updated on 2026.05.09
+> Updated on 2026.05.11
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-05-08**|**AERO-VIS: Asynchronous Event-based Real-time Onboard Visual-Inertial SLAM**|Yannick Burkhardt et.al.|[2605.07885](https://arxiv.org/abs/2605.07885)|null|
 |**2026-05-07**|**GA3T: A Ground-Aerial Terrain Traversability Dataset for Heterogeneous Robot Teams in Unstructured Environments**|Siwei Cai et.al.|[2605.06478](https://arxiv.org/abs/2605.06478)|null|
 |**2026-05-07**|**Indoor 60 GHz Radio Channel Dataset Enabling Digital Twin Construction**|Davide Scazzoli et.al.|[2605.05824](https://arxiv.org/abs/2605.05824)|null|
 |**2026-05-06**|**SLAM: Structural Linguistic Activation Marking for Language Models**|Fabrice Harel-Canada et.al.|[2605.05443](https://arxiv.org/abs/2605.05443)|null|

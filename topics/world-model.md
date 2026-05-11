@@ -1,9 +1,19 @@
 # World Model
 
-> Updated on 2026.05.09
+> Updated on 2026.05.11
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-05-08**|**One Token Per Frame: Reconsidering Visual Bandwidth in World Models for VLA Policy**|Zuojin Tang et.al.|[2605.07931](https://arxiv.org/abs/2605.07931)|null|
+|**2026-05-08**|**Synchronizing Minds through Collective Predictive Coding: A Computational Model of Parent-Infant Homeostatic Co-Regulation**|Yushi Tsubamoto et.al.|[2605.07524](https://arxiv.org/abs/2605.07524)|null|
+|**2026-05-08**|**ST-Gen4D: Embedding 4D Spatiotemporal Cognition into World Model for 4D Generation**|Haonan Wang et.al.|[2605.07390](https://arxiv.org/abs/2605.07390)|null|
+|**2026-05-08**|**GEM: Generating LiDAR World Model via Deformable Mamba**|Yang Wu et.al.|[2605.07326](https://arxiv.org/abs/2605.07326)|null|
+|**2026-05-08**|**Sword: Style-Robust World Models as Simulators via Dynamic Latent Bootstrapping for VLA Policy Post-Training**|Jiaxuan Gao et.al.|[2605.07288](https://arxiv.org/abs/2605.07288)|null|
+|**2026-05-08**|**Predictive but Not Plannable: RC-aux for Latent World Models**|Wenyuan Li et.al.|[2605.07278](https://arxiv.org/abs/2605.07278)|null|
+|**2026-05-08**|**Three-in-One World Model: Energy-Based Consistency, Prediction, and Counterfactual Inference for Marketing Intervention**|Junichiro Niimi et.al.|[2605.07199](https://arxiv.org/abs/2605.07199)|null|
+|**2026-05-08**|**See Tomorrow, Act Today: Foresight-Driven Autonomous Driving**|Bozhou Zhang et.al.|[2605.07195](https://arxiv.org/abs/2605.07195)|null|
+|**2026-05-08**|**Learning Visual Feature-Based World Models via Residual Latent Action**|Xinyu Zhang et.al.|[2605.07079](https://arxiv.org/abs/2605.07079)|null|
+|**2026-05-08**|**Do Joint Audio-Video Generation Models Understand Physics?**|Zijun Cui et.al.|[2605.07061](https://arxiv.org/abs/2605.07061)|null|
 |**2026-05-07**|**Beyond Object-Level Alignment: Do Brains and DNNs Preserve the Same Transformations?**|Yukiyasu Kamitani et.al.|[2605.06420](https://arxiv.org/abs/2605.06420)|null|
 |**2026-05-07**|**Reconstruction or Semantics? What Makes a Latent Space Useful for Robotic World Models**|Nilaksh et.al.|[2605.06388](https://arxiv.org/abs/2605.06388)|null|
 |**2026-05-07**|**Earth-o1: A Grid-free Observation-native Atmospheric World Model**|Junchao Gong et.al.|[2605.06337](https://arxiv.org/abs/2605.06337)|null|

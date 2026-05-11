@@ -1,9 +1,11 @@
 # Point Cloud Registration
 
-> Updated on 2026.05.09
+> Updated on 2026.05.11
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-05-08**|**Offline-Online Hierarchical 3D Global Relocalization With Synthetic LiDAR Sensing and Descriptor-Space Retrieval**|Jiahua Ren et.al.|[2605.07741](https://arxiv.org/abs/2605.07741)|null|
+|**2026-05-08**|**FS-I2P:A Hierarchical Focus-Sweep Registration Network with Dynamically Allocated Depth**|Zhixin Cheng et.al.|[2605.07607](https://arxiv.org/abs/2605.07607)|null|
 |**2026-05-06**|**Angle-I2P: Angle-Consistent-Aware Hierarchical Attention for Cross-Modality Outlier Rejection**|Muyao Peng et.al.|[2605.04541](https://arxiv.org/abs/2605.04541)|null|
 |**2026-04-29**|**Point Cloud Registration via Probabilistic Self-Update Local Correspondence and Line Vector Sets**|Kuo-Liang Chung et.al.|[2604.26318](https://arxiv.org/abs/2604.26318)|null|
 |**2026-04-27**|**Point Cloud Registration for Fusion between SPECT MPI and CTA Images**|Ni Yao et.al.|[2604.24524](https://arxiv.org/abs/2604.24524)|null|

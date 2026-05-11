@@ -1,9 +1,19 @@
 # 3D Reconstruction
 
-> Updated on 2026.05.09
+> Updated on 2026.05.11
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-05-08**|**PET-Adapter: Test-Time Domain Adaptation for Full and Limited-Angle PET Image Reconstruction**|Rüveyda Yilmaz et.al.|[2605.08030](https://arxiv.org/abs/2605.08030)|null|
+|**2026-05-08**|**Uncertainty Quantification for Cardiac Shape Reconstruction with Deep Signed Distance Functions via MCMC methods**|Jan Verhülsdonk et.al.|[2605.07987](https://arxiv.org/abs/2605.07987)|null|
+|**2026-05-08**|**Seeing Across Skies and Streets: Feedforward 3D Reconstruction from Satellite, Drone, and Ground Images**|Qiwei Wang et.al.|[2605.07978](https://arxiv.org/abs/2605.07978)|null|
+|**2026-05-08**|**PhySPRING: Structure-Preserving Reduction of Physics-Informed Twins via GNN**|Yixiong Jing et.al.|[2605.07687](https://arxiv.org/abs/2605.07687)|null|
+|**2026-05-08**|**Reliable Chain-of-Thought via Prefix Consistency**|Naoto Iwase et.al.|[2605.07654](https://arxiv.org/abs/2605.07654)|null|
+|**2026-05-08**|**SAM 3D Animal: Promptable Animal 3D Reconstruction from Images in the Wild**|Xuyi Hu et.al.|[2605.07604](https://arxiv.org/abs/2605.07604)|null|
+|**2026-05-08**|**Mind the Gap: Geometrically Accurate Generative Reconstruction from Disjoint Views**|Grzegorz Wilczynski et.al.|[2605.07550](https://arxiv.org/abs/2605.07550)|null|
+|**2026-05-08**|**High-Fidelity Surface Splatting-Based 3D Reconstruction from Multi-View Images**|Nandhana Sunil et.al.|[2605.07254](https://arxiv.org/abs/2605.07254)|null|
+|**2026-05-08**|**AsyncEvGS: Asynchronous Event-Assisted Gaussian Splatting for Handheld Motion-Blurred Scenes**|Jun Dai et.al.|[2605.07192](https://arxiv.org/abs/2605.07192)|null|
+|**2026-05-08**|**SatSurfGS: Generalizable 2D Gaussian Splatting for Sparse-View Satellite Surface Reconstruction**|Min Chen et.al.|[2605.07181](https://arxiv.org/abs/2605.07181)|null|
 |**2026-05-07**|**On Fano effect in IR spectra of hydrogenated nanodiamonds**|Andrei A. Shiryaev et.al.|[2605.06539](https://arxiv.org/abs/2605.06539)|null|
 |**2026-05-07**|**Spark3R: Asymmetric Token Reduction Makes Fast Feed-Forward 3D Reconstruction**|Zecheng Tang et.al.|[2605.06270](https://arxiv.org/abs/2605.06270)|null|
 |**2026-05-07**|**Mean Mode Screaming: Mean--Variance Split Residuals for 1000-Layer Diffusion Transformers**|Pengqi Lu et.al.|[2605.06169](https://arxiv.org/abs/2605.06169)|null|

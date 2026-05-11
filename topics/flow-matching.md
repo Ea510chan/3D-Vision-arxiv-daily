@@ -1,9 +1,19 @@
 # Flow Matching
 
-> Updated on 2026.05.09
+> Updated on 2026.05.11
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-05-08**|**Normalizing Trajectory Models**|Jiatao Gu et.al.|[2605.08078](https://arxiv.org/abs/2605.08078)|null|
+|**2026-05-08**|**Flow-OPD: On-Policy Distillation for Flow Matching Models**|Zhen Fang et.al.|[2605.08063](https://arxiv.org/abs/2605.08063)|null|
+|**2026-05-08**|**One Token Per Frame: Reconsidering Visual Bandwidth in World Models for VLA Policy**|Zuojin Tang et.al.|[2605.07931](https://arxiv.org/abs/2605.07931)|null|
+|**2026-05-08**|**Trajectory as the Teacher: Few-Step Discrete Flow Matching via Energy-Navigated Distillation**|Amin Karimi Monsefi et.al.|[2605.07924](https://arxiv.org/abs/2605.07924)|null|
+|**2026-05-08**|**Scaling Categorical Flow Maps**|Oscar Davis et.al.|[2605.07820](https://arxiv.org/abs/2605.07820)|null|
+|**2026-05-08**|**TextLDM: Language Modeling with Continuous Latent Diffusion**|Jiaxiu Jiang et.al.|[2605.07748](https://arxiv.org/abs/2605.07748)|null|
+|**2026-05-08**|**Flow Matching for Count Data**|Ganchao Wei et.al.|[2605.07746](https://arxiv.org/abs/2605.07746)|null|
+|**2026-05-08**|**Structured Coupling for Flow Matching**|Xavier Sumba et.al.|[2605.07676](https://arxiv.org/abs/2605.07676)|null|
+|**2026-05-08**|**Debiased Counterfactual Generation via Flow Matching from Observations**|Hugh Dance et.al.|[2605.07665](https://arxiv.org/abs/2605.07665)|null|
+|**2026-05-08**|**Tessellations of Semi-Discrete Flow Matching**|Emile Pierret et.al.|[2605.07513](https://arxiv.org/abs/2605.07513)|null|
 |**2026-05-07**|**BRICKS: Compositional Neural Markov Kernels for Zero-Shot Radiation-Matter Simulation**|Richard Hildebrandt et.al.|[2605.06591](https://arxiv.org/abs/2605.06591)|null|
 |**2026-05-07**|**Improved techniques for fine-tuning flow models via adjoint matching: a deterministic control pipeline**|Zhengyi Guo et.al.|[2605.06583](https://arxiv.org/abs/2605.06583)|null|
 |**2026-05-07**|**Diverse Sampling in Diffusion Models with Marginal Preserving Particle Guidance**|Gal Vinograd et.al.|[2605.06553](https://arxiv.org/abs/2605.06553)|null|

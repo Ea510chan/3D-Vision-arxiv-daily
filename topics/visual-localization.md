@@ -1,9 +1,10 @@
 # Visual Localization
 
-> Updated on 2026.05.09
+> Updated on 2026.05.11
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-05-08**|**Disambiguating 2D-3D Correspondences in Gaussian Splatting-based Feature Fields for Visual Localization**|Miso Lee et.al.|[2605.07351](https://arxiv.org/abs/2605.07351)|null|
 |**2026-05-06**|**ULF-Loc: Unbiased Landmark Feature for Robust Visual Localization with 3D Gaussian Splatting**|Yingdong Gu et.al.|[2605.04730](https://arxiv.org/abs/2605.04730)|null|
 |**2026-05-01**|**Depth-Guided Privacy-Preserving Visual Localization Using 3D Sphere Clouds**|Heejoon Moon et.al.|[2605.00562](https://arxiv.org/abs/2605.00562)|null|
 |**2026-05-01**|**MSACT: Multistage Spatial Alignment for Stable Low-Latency Fine Manipulation**|Xianbo Cai et.al.|[2605.00475](https://arxiv.org/abs/2605.00475)|null|
