@@ -1,9 +1,19 @@
 # 3D Reconstruction
 
-> Updated on 2026.05.11
+> Updated on 2026.05.14
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-05-13**|**LEXI-SG: Monocular 3D Scene Graph Mapping with Room-Guided Feed-Forward Reconstruction**|Christina Kassab et.al.|[2605.13741](https://arxiv.org/abs/2605.13741)|null|
+|**2026-05-13**|**Sensitivity Quantification for Distribution System State Estimation**|Betül Mamudi et.al.|[2605.13390](https://arxiv.org/abs/2605.13390)|null|
+|**2026-05-13**|**CoGE: Sim-to-Real Online Geometric Estimation for Monocular Colonoscopy**|Liangjing Shao et.al.|[2605.13038](https://arxiv.org/abs/2605.13038)|null|
+|**2026-05-13**|**OCH3R: Object-Centric Holistic 3D Reconstruction**|Yi Du et.al.|[2605.13018](https://arxiv.org/abs/2605.13018)|null|
+|**2026-05-12**|**WildPose: A Unified Framework for Robust Pose Estimation in the Wild**|Jianhao Zheng et.al.|[2605.12774](https://arxiv.org/abs/2605.12774)|null|
+|**2026-05-12**|**TrackCraft3R: Repurposing Video Diffusion Transformers for Dense 3D Tracking**|Jisu Nam et.al.|[2605.12587](https://arxiv.org/abs/2605.12587)|null|
+|**2026-05-12**|**3D Primitives are a Spatial Language for VLMs**|Junze Liu et.al.|[2605.12586](https://arxiv.org/abs/2605.12586)|null|
+|**2026-05-12**|**Revisiting Photometric Ambiguity for Accurate Gaussian-Splatting Surface Reconstruction**|Jiahe Li et.al.|[2605.12494](https://arxiv.org/abs/2605.12494)|null|
+|**2026-05-12**|**3D Gaussian Splatting for Efficient Retrospective Dynamic Scene Novel View Synthesis with a Standardized Benchmark**|Yunxiao Zhang et.al.|[2605.12437](https://arxiv.org/abs/2605.12437)|null|
+|**2026-05-12**|**GeoQuery: Geometry-Query Diffusion for Sparse-View Reconstruction**|Xiao Cao et.al.|[2605.12399](https://arxiv.org/abs/2605.12399)|null|
 |2026-05-08|PET-Adapter: Test-Time Domain Adaptation for Full and Limited-Angle PET Image Reconstruction|Rüveyda Yilmaz et.al.|[2605.08030](https://arxiv.org/abs/2605.08030)|null|
 |2026-05-08|Uncertainty Quantification for Cardiac Shape Reconstruction with Deep Signed Distance Functions via MCMC methods|Jan Verhülsdonk et.al.|[2605.07987](https://arxiv.org/abs/2605.07987)|null|
 |2026-05-08|Seeing Across Skies and Streets: Feedforward 3D Reconstruction from Satellite, Drone, and Ground Images|Qiwei Wang et.al.|[2605.07978](https://arxiv.org/abs/2605.07978)|null|

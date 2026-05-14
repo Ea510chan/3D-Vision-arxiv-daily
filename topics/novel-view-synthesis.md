@@ -1,9 +1,19 @@
 # Novel View Synthesis
 
-> Updated on 2026.05.11
+> Updated on 2026.05.14
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-05-13**|**Z-Order Transformer for Feed-Forward Gaussian Splatting**|Can Wang et.al.|[2605.13465](https://arxiv.org/abs/2605.13465)|null|
+|**2026-05-13**|**RoSplat: Robust Feed-Forward Pixel-wise Gaussian Splatting for Varying Input Views and High-Resolution Rendering**|Hoang Chuong Nguyen et.al.|[2605.13093](https://arxiv.org/abs/2605.13093)|null|
+|**2026-05-13**|**GuardMarkGS: Unified Ownership Tracing and Edit Deterrence for 3D Gaussian Splatting**|Utae Jeong et.al.|[2605.12919](https://arxiv.org/abs/2605.12919)|null|
+|**2026-05-12**|**3D Gaussian Splatting for Efficient Retrospective Dynamic Scene Novel View Synthesis with a Standardized Benchmark**|Yunxiao Zhang et.al.|[2605.12437](https://arxiv.org/abs/2605.12437)|null|
+|**2026-05-12**|**GeoQuery: Geometry-Query Diffusion for Sparse-View Reconstruction**|Xiao Cao et.al.|[2605.12399](https://arxiv.org/abs/2605.12399)|null|
+|**2026-05-12**|**UniFixer: A Universal Reference-Guided Fixer for Diffusion-Based View Synthesis**|Sihan Chen et.al.|[2605.12169](https://arxiv.org/abs/2605.12169)|null|
+|**2026-05-12**|**PoseCompass: Intelligent Synthetic Pose Selection for Visual Localization**|Yanan Zhou et.al.|[2605.12144](https://arxiv.org/abs/2605.12144)|null|
+|**2026-05-13**|**MoCam: Unified Novel View Synthesis via Structured Denoising Dynamics**|Haofeng Liu et.al.|[2605.12119](https://arxiv.org/abs/2605.12119)|null|
+|**2026-05-12**|**PD-4DGS:Progressive Decomposition of 4D Gaussian Splatting for Bandwidth-Adaptive Dynamic Scene Streaming**|Jiachen Li et.al.|[2605.11427](https://arxiv.org/abs/2605.11427)|null|
+|**2026-05-12**|**3D-Belief: Embodied Belief Inference via Generative 3D World Modeling**|Yifan Yin et.al.|[2605.11367](https://arxiv.org/abs/2605.11367)|null|
 |2026-05-08|Differentiable Ray Tracing with Gaussians for Unified Radio Propagation Simulation and View Synthesis|Niklas Vaara et.al.|[2605.07781](https://arxiv.org/abs/2605.07781)|null|
 |2026-05-08|SplatWeaver: Learning to Allocate Gaussian Primitives for Generalizable Novel View Synthesis|Yecong Wan et.al.|[2605.07287](https://arxiv.org/abs/2605.07287)|null|
 |2026-05-07|Relit-LiVE: Relight Video by Jointly Learning Environment Video|Weiqing Xiao et.al.|[2605.06658](https://arxiv.org/abs/2605.06658)|null|
