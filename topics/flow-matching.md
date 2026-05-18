@@ -1,19 +1,19 @@
 # Flow Matching
 
-> Updated on 2026.05.16
+> Updated on 2026.05.18
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-05-13**|**R-DMesh: Video-Guided 3D Animation via Rectified Dynamic Mesh Flow**|Zijie Wu et.al.|[2605.13838](https://arxiv.org/abs/2605.13838)|null|
-|**2026-05-13**|**Cross Modality Image Translation In Medical Imaging Using Generative Frameworks**|Giulia Romoli et.al.|[2605.13686](https://arxiv.org/abs/2605.13686)|null|
-|**2026-05-13**|**Sampling from Flow Language Models via Marginal-Conditioned Bridges**|Iskander Azangulov et.al.|[2605.13681](https://arxiv.org/abs/2605.13681)|null|
-|**2026-05-13**|**Path-independent Flow Matching for Multi-parameter Generative Dynamics**|Francisco Téllez et.al.|[2605.13487](https://arxiv.org/abs/2605.13487)|null|
-|**2026-05-13**|**Q-Flow: Stable and Expressive Reinforcement Learning with Flow-Based Policy**|JaeHyeok Doo et.al.|[2605.13435](https://arxiv.org/abs/2605.13435)|null|
-|**2026-05-13**|**SID: Sliding into Distribution for Robust Few-Demonstration Manipulation**|Yicheng Ma et.al.|[2605.13428](https://arxiv.org/abs/2605.13428)|null|
-|**2026-05-13**|**RotVLA: Rotational Latent Action for Vision-Language-Action Model**|Qiwei Li et.al.|[2605.13403](https://arxiv.org/abs/2605.13403)|null|
-|**2026-05-13**|**Support-Conditioned Flow Matching Is Kernel Smoothing**|Daniel Matsui Smola et.al.|[2605.13386](https://arxiv.org/abs/2605.13386)|null|
-|**2026-05-13**|**GeoFlowVLM: Geometry-Aware Joint Uncertainty for Frozen Vision-Language Embedding**|Mayank Nautiyal et.al.|[2605.13352](https://arxiv.org/abs/2605.13352)|null|
-|**2026-05-13**|**Do Heavy Tails Help Diffusion? On the Subtle Trade-off Between Initialization and Training**|Hamza Cherkaoui et.al.|[2605.13175](https://arxiv.org/abs/2605.13175)|null|
+|2026-05-13|R-DMesh: Video-Guided 3D Animation via Rectified Dynamic Mesh Flow|Zijie Wu et.al.|[2605.13838](https://arxiv.org/abs/2605.13838)|null|
+|2026-05-13|Cross Modality Image Translation In Medical Imaging Using Generative Frameworks|Giulia Romoli et.al.|[2605.13686](https://arxiv.org/abs/2605.13686)|null|
+|2026-05-13|Sampling from Flow Language Models via Marginal-Conditioned Bridges|Iskander Azangulov et.al.|[2605.13681](https://arxiv.org/abs/2605.13681)|null|
+|2026-05-13|Path-independent Flow Matching for Multi-parameter Generative Dynamics|Francisco Téllez et.al.|[2605.13487](https://arxiv.org/abs/2605.13487)|null|
+|2026-05-13|Q-Flow: Stable and Expressive Reinforcement Learning with Flow-Based Policy|JaeHyeok Doo et.al.|[2605.13435](https://arxiv.org/abs/2605.13435)|null|
+|2026-05-13|SID: Sliding into Distribution for Robust Few-Demonstration Manipulation|Yicheng Ma et.al.|[2605.13428](https://arxiv.org/abs/2605.13428)|null|
+|2026-05-13|RotVLA: Rotational Latent Action for Vision-Language-Action Model|Qiwei Li et.al.|[2605.13403](https://arxiv.org/abs/2605.13403)|null|
+|2026-05-13|Support-Conditioned Flow Matching Is Kernel Smoothing|Daniel Matsui Smola et.al.|[2605.13386](https://arxiv.org/abs/2605.13386)|null|
+|2026-05-13|GeoFlowVLM: Geometry-Aware Joint Uncertainty for Frozen Vision-Language Embedding|Mayank Nautiyal et.al.|[2605.13352](https://arxiv.org/abs/2605.13352)|null|
+|2026-05-13|Do Heavy Tails Help Diffusion? On the Subtle Trade-off Between Initialization and Training|Hamza Cherkaoui et.al.|[2605.13175](https://arxiv.org/abs/2605.13175)|null|
 |2026-05-08|Normalizing Trajectory Models|Jiatao Gu et.al.|[2605.08078](https://arxiv.org/abs/2605.08078)|null|
 |2026-05-08|Flow-OPD: On-Policy Distillation for Flow Matching Models|Zhen Fang et.al.|[2605.08063](https://arxiv.org/abs/2605.08063)|null|
 |2026-05-08|One Token Per Frame: Reconsidering Visual Bandwidth in World Models for VLA Policy|Zuojin Tang et.al.|[2605.07931](https://arxiv.org/abs/2605.07931)|null|

@@ -1,25 +1,25 @@
 # SLAM
 
-> Updated on 2026.05.16
+> Updated on 2026.05.18
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-05-13**|**LEXI-SG: Monocular 3D Scene Graph Mapping with Room-Guided Feed-Forward Reconstruction**|Christina Kassab et.al.|[2605.13741](https://arxiv.org/abs/2605.13741)|null|
-|**2026-05-12**|**WildPose: A Unified Framework for Robust Pose Estimation in the Wild**|Jianhao Zheng et.al.|[2605.12774](https://arxiv.org/abs/2605.12774)|null|
-|**2026-05-11**|**MAGS-SLAM: Monocular Multi-Agent Gaussian Splatting SLAM for Geometrically and Photometrically Consistent Reconstruction**|Zhihao Cao et.al.|[2605.10760](https://arxiv.org/abs/2605.10760)|null|
-|**2026-05-10**|**Above and Below: Heterogeneous Multi-robot SLAM Across Surface and Underwater Domains**|John McConnell et.al.|[2605.09811](https://arxiv.org/abs/2605.09811)|null|
-|**2026-05-08**|**AERO-VIS: Asynchronous Event-based Real-time Onboard Visual-Inertial SLAM**|Yannick Burkhardt et.al.|[2605.07885](https://arxiv.org/abs/2605.07885)|null|
-|**2026-05-07**|**GA3T: A Ground-Aerial Terrain Traversability Dataset for Heterogeneous Robot Teams in Unstructured Environments**|Siwei Cai et.al.|[2605.06478](https://arxiv.org/abs/2605.06478)|null|
-|**2026-05-07**|**Indoor 60 GHz Radio Channel Dataset Enabling Digital Twin Construction**|Davide Scazzoli et.al.|[2605.05824](https://arxiv.org/abs/2605.05824)|null|
-|**2026-05-08**|**SLAM: Structural Linguistic Activation Marking for Language Models**|Fabrice Harel-Canada et.al.|[2605.05443](https://arxiv.org/abs/2605.05443)|null|
-|**2026-05-06**|**A Closed-Form Dual-Barrier CBF Safety Filter for Holonomic Robots on Incrementally Built Occupancy Grid Maps**|Himanshu Paudel et.al.|[2605.05182](https://arxiv.org/abs/2605.05182)|null|
-|**2026-05-06**|**Dr-PoGO: Direct Radar Pose-Graph Optimization**|Cedric Le Gentil et.al.|[2605.04806](https://arxiv.org/abs/2605.04806)|null|
+|2026-05-13|LEXI-SG: Monocular 3D Scene Graph Mapping with Room-Guided Feed-Forward Reconstruction|Christina Kassab et.al.|[2605.13741](https://arxiv.org/abs/2605.13741)|null|
+|2026-05-12|WildPose: A Unified Framework for Robust Pose Estimation in the Wild|Jianhao Zheng et.al.|[2605.12774](https://arxiv.org/abs/2605.12774)|null|
+|2026-05-11|MAGS-SLAM: Monocular Multi-Agent Gaussian Splatting SLAM for Geometrically and Photometrically Consistent Reconstruction|Zhihao Cao et.al.|[2605.10760](https://arxiv.org/abs/2605.10760)|null|
+|2026-05-10|Above and Below: Heterogeneous Multi-robot SLAM Across Surface and Underwater Domains|John McConnell et.al.|[2605.09811](https://arxiv.org/abs/2605.09811)|null|
+|2026-05-08|AERO-VIS: Asynchronous Event-based Real-time Onboard Visual-Inertial SLAM|Yannick Burkhardt et.al.|[2605.07885](https://arxiv.org/abs/2605.07885)|null|
+|2026-05-07|GA3T: A Ground-Aerial Terrain Traversability Dataset for Heterogeneous Robot Teams in Unstructured Environments|Siwei Cai et.al.|[2605.06478](https://arxiv.org/abs/2605.06478)|null|
+|2026-05-07|Indoor 60 GHz Radio Channel Dataset Enabling Digital Twin Construction|Davide Scazzoli et.al.|[2605.05824](https://arxiv.org/abs/2605.05824)|null|
+|2026-05-08|SLAM: Structural Linguistic Activation Marking for Language Models|Fabrice Harel-Canada et.al.|[2605.05443](https://arxiv.org/abs/2605.05443)|null|
+|2026-05-06|A Closed-Form Dual-Barrier CBF Safety Filter for Holonomic Robots on Incrementally Built Occupancy Grid Maps|Himanshu Paudel et.al.|[2605.05182](https://arxiv.org/abs/2605.05182)|null|
+|2026-05-06|Dr-PoGO: Direct Radar Pose-Graph Optimization|Cedric Le Gentil et.al.|[2605.04806](https://arxiv.org/abs/2605.04806)|null|
 |2026-05-07|Hardware-Aware Neural Feature Extraction for Resource-Constrained Devices|Francesco Tosini et.al.|[2605.04282](https://arxiv.org/abs/2605.04282)|null|
 |2026-05-05|Robust Visual SLAM for UAV Navigation in GPS-Denied and Degraded Environments: A Multi-Paradigm Evaluation and Deployment Study|Prasoon Kumar et.al.|[2605.03678](https://arxiv.org/abs/2605.03678)|null|
 |2026-05-04|DynoSLAM: Dynamic SLAM with Generative Graph Neural Networks for Real-World Social Navigation|Danil Tokhchukov et.al.|[2605.02759](https://arxiv.org/abs/2605.02759)|null|
 |2026-05-04|Multi-User XR Offloading via Massive MIMO: A System-Level Analysis using a Real-Life Dataset|Love Bárány et.al.|[2605.02631](https://arxiv.org/abs/2605.02631)|null|
 |2026-05-04|Change-Robust Online Spatial-Semantic Topological Mapping|Jiaming Wang et.al.|[2605.02227](https://arxiv.org/abs/2605.02227)|null|
-|2026-04-30|FreeOcc: Training-Free Embodied Open-Vocabulary Occupancy Prediction|Zeyu Jiang et.al.|[2604.28115](https://arxiv.org/abs/2604.28115)|**[link](https://github.com/the-masses/FreeOcc)**|
+|2026-04-30|FreeOcc: Training-Free Embodied Open-Vocabulary Occupancy Prediction|Zeyu Jiang et.al.|[2604.28115](https://arxiv.org/abs/2604.28115)|[link](https://github.com/the-masses/FreeOcc)|
 |2026-04-30|Learning-Based Hierarchical Scene Graph Matching for Robot Localization Leveraging Prior Maps|Nimrod Millenium Ndulue et.al.|[2604.27821](https://arxiv.org/abs/2604.27821)|null|
 |2026-04-28|RADIO-ViPE: Online Tightly Coupled Multi-Modal Fusion for Open-Vocabulary Semantic SLAM in Dynamic Environments|Zaid Nasser et.al.|[2604.26067](https://arxiv.org/abs/2604.26067)|null|
 |2026-04-28|Robust Graph Matching through Semantic Relationship Generation for SLAM|David Perez-Saura et.al.|[2604.25404](https://arxiv.org/abs/2604.25404)|null|

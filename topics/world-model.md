@@ -1,19 +1,19 @@
 # World Model
 
-> Updated on 2026.05.16
+> Updated on 2026.05.18
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-05-13**|**RoboEvolve: Co-Evolving Planner-Simulator for Robotic Manipulation with Limited Data**|Harold Haodong Chen et.al.|[2605.13775](https://arxiv.org/abs/2605.13775)|null|
-|**2026-05-13**|**Learning POMDP World Models from Observations with Language-Model Priors**|Valentin Six et.al.|[2605.13740](https://arxiv.org/abs/2605.13740)|null|
-|**2026-05-13**|**JEDI: Joint Embedding Diffusion World Model for Online Model-Based Reinforcement Learning**|Jing Yu Lim et.al.|[2605.13013](https://arxiv.org/abs/2605.13013)|null|
-|**2026-05-13**|**Embodied Multi-Agent Coordination by Aligning World Models Through Dialogue**|Vardhan Dongre et.al.|[2605.12920](https://arxiv.org/abs/2605.12920)|null|
-|**2026-05-13**|**PROMETHEUS: Automating Deep Causal Research Integrating Text, Data and Models**|Sridhar Mahadevan et.al.|[2605.12835](https://arxiv.org/abs/2605.12835)|null|
-|**2026-05-12**|**SenseNova-U1: Unifying Multimodal Understanding and Generation with NEO-unify Architecture**|Haiwen Diao et.al.|[2605.12500](https://arxiv.org/abs/2605.12500)|null|
-|**2026-05-12**|**3D Gaussian Splatting for Efficient Retrospective Dynamic Scene Novel View Synthesis with a Standardized Benchmark**|Yunxiao Zhang et.al.|[2605.12437](https://arxiv.org/abs/2605.12437)|null|
-|**2026-05-12**|**Reinforcing VLAs in Task-Agnostic World Models**|Yucen Wang et.al.|[2605.12334](https://arxiv.org/abs/2605.12334)|null|
-|**2026-05-12**|**PriorZero: Bridging Language Priors and World Models for Decision Making**|Junyu Xiong et.al.|[2605.12289](https://arxiv.org/abs/2605.12289)|null|
-|**2026-05-12**|**Why Conclusions Diverge from the Same Observations: Formalizing World-Model Non-Identifiability via an Inference**|Toru Takahashi et.al.|[2605.12255](https://arxiv.org/abs/2605.12255)|null|
+|2026-05-13|RoboEvolve: Co-Evolving Planner-Simulator for Robotic Manipulation with Limited Data|Harold Haodong Chen et.al.|[2605.13775](https://arxiv.org/abs/2605.13775)|null|
+|2026-05-13|Learning POMDP World Models from Observations with Language-Model Priors|Valentin Six et.al.|[2605.13740](https://arxiv.org/abs/2605.13740)|null|
+|2026-05-13|JEDI: Joint Embedding Diffusion World Model for Online Model-Based Reinforcement Learning|Jing Yu Lim et.al.|[2605.13013](https://arxiv.org/abs/2605.13013)|null|
+|2026-05-13|Embodied Multi-Agent Coordination by Aligning World Models Through Dialogue|Vardhan Dongre et.al.|[2605.12920](https://arxiv.org/abs/2605.12920)|null|
+|2026-05-13|PROMETHEUS: Automating Deep Causal Research Integrating Text, Data and Models|Sridhar Mahadevan et.al.|[2605.12835](https://arxiv.org/abs/2605.12835)|null|
+|2026-05-12|SenseNova-U1: Unifying Multimodal Understanding and Generation with NEO-unify Architecture|Haiwen Diao et.al.|[2605.12500](https://arxiv.org/abs/2605.12500)|null|
+|2026-05-12|3D Gaussian Splatting for Efficient Retrospective Dynamic Scene Novel View Synthesis with a Standardized Benchmark|Yunxiao Zhang et.al.|[2605.12437](https://arxiv.org/abs/2605.12437)|null|
+|2026-05-12|Reinforcing VLAs in Task-Agnostic World Models|Yucen Wang et.al.|[2605.12334](https://arxiv.org/abs/2605.12334)|null|
+|2026-05-12|PriorZero: Bridging Language Priors and World Models for Decision Making|Junyu Xiong et.al.|[2605.12289](https://arxiv.org/abs/2605.12289)|null|
+|2026-05-12|Why Conclusions Diverge from the Same Observations: Formalizing World-Model Non-Identifiability via an Inference|Toru Takahashi et.al.|[2605.12255](https://arxiv.org/abs/2605.12255)|null|
 |2026-05-08|One Token Per Frame: Reconsidering Visual Bandwidth in World Models for VLA Policy|Zuojin Tang et.al.|[2605.07931](https://arxiv.org/abs/2605.07931)|null|
 |2026-05-08|Synchronizing Minds through Collective Predictive Coding: A Computational Model of Parent-Infant Homeostatic Co-Regulation|Yushi Tsubamoto et.al.|[2605.07524](https://arxiv.org/abs/2605.07524)|null|
 |2026-05-08|ST-Gen4D: Embedding 4D Spatiotemporal Cognition into World Model for 4D Generation|Haonan Wang et.al.|[2605.07390](https://arxiv.org/abs/2605.07390)|null|
