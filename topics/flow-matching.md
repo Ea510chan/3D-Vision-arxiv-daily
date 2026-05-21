@@ -1,9 +1,19 @@
 # Flow Matching
 
-> Updated on 2026.05.18
+> Updated on 2026.05.21
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-05-20**|**Disentangling Generation and Regression in Stochastic Interpolants for Controllable Image Restoration**|Yi Liu et.al.|[2605.21381](https://arxiv.org/abs/2605.21381)|null|
+|**2026-05-20**|**Let EEG Models Learn EEG**|Yifan Wang et.al.|[2605.21280](https://arxiv.org/abs/2605.21280)|**[link](https://github.com/tobisns/multi-source-eeg-signal-classification)**|
+|**2026-05-20**|**Linear-DPO: Linear Direct Preference Optimization for Diffusion and Flow-Matching Generative Models**|Kesong Li et.al.|[2605.21123](https://arxiv.org/abs/2605.21123)|**[link](https://github.com/Ufere/Assingment_1)**|
+|**2026-05-20**|**PaintCopilot: Modeling Painting as Autonomous Artistic Continuation**|Yunge Wen et.al.|[2605.20941](https://arxiv.org/abs/2605.20941)|null|
+|**2026-05-20**|**What Semantics Survive the Connector? Diagnosing VLM-to-DiT Alignment in Video Editing**|Hangyu Lin et.al.|[2605.20795](https://arxiv.org/abs/2605.20795)|null|
+|**2026-05-19**|**Latent Process Generator Matching**|Lukas Billera et.al.|[2605.20547](https://arxiv.org/abs/2605.20547)|null|
+|**2026-05-19**|**FullFlow: Upgrading Text-to-Image Flow Matching Models for Bidirectional Vision--Language Generation**|Eric Tillmann Bill et.al.|[2605.20316](https://arxiv.org/abs/2605.20316)|null|
+|**2026-05-19**|**Probability-Conserving Flow Guidance**|Parsa Esmati et.al.|[2605.20079](https://arxiv.org/abs/2605.20079)|null|
+|**2026-05-19**|**Tail Annealing for Heavy-Tailed Flow Matching**|Jean Pachebat et.al.|[2605.20068](https://arxiv.org/abs/2605.20068)|null|
+|**2026-05-19**|**Beyond Action Residuals: Real-World Robot Policy Steering via Bottleneck Latent Reinforcement Learning**|Dongjie Yu et.al.|[2605.19919](https://arxiv.org/abs/2605.19919)|null|
 |2026-05-13|R-DMesh: Video-Guided 3D Animation via Rectified Dynamic Mesh Flow|Zijie Wu et.al.|[2605.13838](https://arxiv.org/abs/2605.13838)|null|
 |2026-05-13|Cross Modality Image Translation In Medical Imaging Using Generative Frameworks|Giulia Romoli et.al.|[2605.13686](https://arxiv.org/abs/2605.13686)|null|
 |2026-05-13|Sampling from Flow Language Models via Marginal-Conditioned Bridges|Iskander Azangulov et.al.|[2605.13681](https://arxiv.org/abs/2605.13681)|null|

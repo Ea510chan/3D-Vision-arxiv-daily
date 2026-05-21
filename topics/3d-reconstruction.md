@@ -1,9 +1,19 @@
 # 3D Reconstruction
 
-> Updated on 2026.05.18
+> Updated on 2026.05.21
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-05-20**|**Sensitivity analysis of Stochastic Fluid Models: Stationary and transient quantities with applications**|Anna Aksamit et.al.|[2605.21209](https://arxiv.org/abs/2605.21209)|**[link](https://github.com/Ufere/Assingment_1)**|
+|**2026-05-20**|**Transcoding a 3D Gaussian Splatting Model from a Plenoptic Point Cloud or Mesh without the Original Multi-view Images**|Maja Krivokuća et.al.|[2605.21051](https://arxiv.org/abs/2605.21051)|null|
+|**2026-05-20**|**Towards Physically Consistent 4D Scene Reconstruction for Closed-loop Autonomous Driving Simulation**|Bowyn Tan et.al.|[2605.21032](https://arxiv.org/abs/2605.21032)|null|
+|**2026-05-20**|**DAMA: Disentangled Body-Anchored Gaussians for Controllable Multi-Layered Avatars**|Daniel Eskandar et.al.|[2605.21001](https://arxiv.org/abs/2605.21001)|null|
+|**2026-05-20**|**3D Reconstruction and Knowledge Distillation to Improve Multi-View Image Models to Explore Spike Volume Estimation in Wheat**|Olivia Zumsteg et.al.|[2605.20940](https://arxiv.org/abs/2605.20940)|null|
+|**2026-05-20**|**HyDAR-Pano3D: A Hybrid Disentangled Anatomical Recovery Framework for Panoramic-to-3D Reconstruction**|Yaoyao Yue et.al.|[2605.20827](https://arxiv.org/abs/2605.20827)|null|
+|**2026-05-20**|**A 24-Channel Ultra-Low-Noise Preamplifier for dN/dx Measurements with Drift Tube Detectors**|Jiajin Ge et.al.|[2605.20812](https://arxiv.org/abs/2605.20812)|null|
+|**2026-05-19**|**TelePhysics: Physics-Grounded Multi-Object Scene Generation from a Single Image with Real-Time Interaction**|Xin Zhang et.al.|[2605.20290](https://arxiv.org/abs/2605.20290)|null|
+|**2026-05-19**|**Depth2Pose: A Pose-Based Benchmark for Monocular Depth Estimation without Ground-Truth Depth**|Viktor Kocur et.al.|[2605.19797](https://arxiv.org/abs/2605.19797)|null|
+|**2026-05-19**|**Trust It or Not: Evidential Uncertainty for Feed-Forward 3D Reconstruction with Trust3R**|Zihao Zhu et.al.|[2605.19539](https://arxiv.org/abs/2605.19539)|null|
 |2026-05-13|LEXI-SG: Monocular 3D Scene Graph Mapping with Room-Guided Feed-Forward Reconstruction|Christina Kassab et.al.|[2605.13741](https://arxiv.org/abs/2605.13741)|null|
 |2026-05-13|Sensitivity Quantification for Distribution System State Estimation|Betül Mamudi et.al.|[2605.13390](https://arxiv.org/abs/2605.13390)|null|
 |2026-05-13|CoGE: Sim-to-Real Online Geometric Estimation for Monocular Colonoscopy|Liangjing Shao et.al.|[2605.13038](https://arxiv.org/abs/2605.13038)|null|

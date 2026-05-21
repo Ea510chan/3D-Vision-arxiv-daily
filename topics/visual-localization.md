@@ -1,13 +1,19 @@
 # Visual Localization
 
-> Updated on 2026.05.18
+> Updated on 2026.05.21
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|2026-05-12|PoseCompass: Intelligent Synthetic Pose Selection for Visual Localization|Yanan Zhou et.al.|[2605.12144](https://arxiv.org/abs/2605.12144)|null|
-|2026-05-08|Disambiguating 2D-3D Correspondences in Gaussian Splatting-based Feature Fields for Visual Localization|Miso Lee et.al.|[2605.07351](https://arxiv.org/abs/2605.07351)|null|
-|2026-05-06|ULF-Loc: Unbiased Landmark Feature for Robust Visual Localization with 3D Gaussian Splatting|Yingdong Gu et.al.|[2605.04730](https://arxiv.org/abs/2605.04730)|[link](https://github.com/Cyril-gyd/ULF-Loc)|
-|2026-05-01|Depth-Guided Privacy-Preserving Visual Localization Using 3D Sphere Clouds|Heejoon Moon et.al.|[2605.00562](https://arxiv.org/abs/2605.00562)|[link](https://github.com/PHANTOM0122/Sphere-cloud)|
+|**2026-05-19**|**Faster or Stronger: Towards Flexible Visual Place Recognition via Weighted Aggregation and Token Pruning**|Zichao Zeng et.al.|[2605.20551](https://arxiv.org/abs/2605.20551)|null|
+|**2026-05-19**|**Depth2Pose: A Pose-Based Benchmark for Monocular Depth Estimation without Ground-Truth Depth**|Viktor Kocur et.al.|[2605.19797](https://arxiv.org/abs/2605.19797)|null|
+|**2026-05-19**|**KappaPlace: Learning Hyperspherical Uncertainty for Visual Place Recognition via Prototype-Anchored Supervision**|Maya Yanko et.al.|[2605.19435](https://arxiv.org/abs/2605.19435)|null|
+|**2026-05-18**|**Imaging Hidden Objects with Consumer LiDAR via Motion Induced Sampling**|Siddharth Somasundaram et.al.|[2605.17865](https://arxiv.org/abs/2605.17865)|null|
+|**2026-05-18**|**Efficient Sparse-to-Dense Visual Localization via Compact Gaussian Scene Representation and Accelerated Dense Pose Estimation**|Zizhuo Li et.al.|[2605.17777](https://arxiv.org/abs/2605.17777)|null|
+|**2026-05-15**|**SeamCam: Quantifying Seamless Camouflage via Multi-Cue Visual Detectability**|Amin Karimi Monsefi et.al.|[2605.16515](https://arxiv.org/abs/2605.16515)|null|
+|**2026-05-12**|**PoseCompass: Intelligent Synthetic Pose Selection for Visual Localization**|Yanan Zhou et.al.|[2605.12144](https://arxiv.org/abs/2605.12144)|null|
+|**2026-05-08**|**Disambiguating 2D-3D Correspondences in Gaussian Splatting-based Feature Fields for Visual Localization**|Miso Lee et.al.|[2605.07351](https://arxiv.org/abs/2605.07351)|null|
+|**2026-05-06**|**ULF-Loc: Unbiased Landmark Feature for Robust Visual Localization with 3D Gaussian Splatting**|Yingdong Gu et.al.|[2605.04730](https://arxiv.org/abs/2605.04730)|null|
+|**2026-05-01**|**Depth-Guided Privacy-Preserving Visual Localization Using 3D Sphere Clouds**|Heejoon Moon et.al.|[2605.00562](https://arxiv.org/abs/2605.00562)|null|
 |2026-05-01|MSACT: Multistage Spatial Alignment for Stable Low-Latency Fine Manipulation|Xianbo Cai et.al.|[2605.00475](https://arxiv.org/abs/2605.00475)|null|
 |2026-04-29|AirZoo: A Unified Large-Scale Dataset for Grounding Aerial Geometric 3D Vision|Xiaoya Cheng et.al.|[2604.26567](https://arxiv.org/abs/2604.26567)|null|
 |2026-04-29|3D-LENS: A 3D Lifting-based Elevated Novel-view Synthesis method for Single-View Aerial-Ground Re-Identification|William Grolleau et.al.|[2604.26520](https://arxiv.org/abs/2604.26520)|null|

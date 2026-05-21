@@ -1,9 +1,19 @@
 # Novel View Synthesis
 
-> Updated on 2026.05.18
+> Updated on 2026.05.21
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-05-20**|**Latent Dynamics for Full Body Avatar Animation**|Shichong Peng et.al.|[2605.21478](https://arxiv.org/abs/2605.21478)|null|
+|**2026-05-20**|**Towards Physically Consistent 4D Scene Reconstruction for Closed-loop Autonomous Driving Simulation**|Bowyn Tan et.al.|[2605.21032](https://arxiv.org/abs/2605.21032)|null|
+|**2026-05-19**|**Feed-Forward Gaussian Splatting from Sparse Aerial Views**|Dongli Wu et.al.|[2605.19949](https://arxiv.org/abs/2605.19949)|null|
+|**2026-05-19**|**Cross-View Splatter: Feed-Forward View Synthesis with Georeferenced Images**|Matias Turkulainen et.al.|[2605.19656](https://arxiv.org/abs/2605.19656)|null|
+|**2026-05-18**|**PIXLRelight: Controllable Relighting via Intrinsic Conditioning**|Miguel Farinha et.al.|[2605.18735](https://arxiv.org/abs/2605.18735)|null|
+|**2026-05-18**|**Resolving Representation Ambiguity in Feedforward Novel View Synthesis Transformer via Semantic-Spatial Decoupling**|Yihang Wu et.al.|[2605.18599](https://arxiv.org/abs/2605.18599)|null|
+|**2026-05-18**|**3D Skew Gaussian Splatting with Any Camera Trajectory Visualization Engine**|Beizhen Zhao et.al.|[2605.18334](https://arxiv.org/abs/2605.18334)|null|
+|**2026-05-18**|**RT-Splatting: Joint Reflection-Transmission Modeling with Gaussian Splatting**|Ji Shi et.al.|[2605.18263](https://arxiv.org/abs/2605.18263)|null|
+|**2026-05-18**|**Efficient 3D Content Reconstruction and Generation**|Jiahao Li et.al.|[2605.18052](https://arxiv.org/abs/2605.18052)|null|
+|**2026-05-18**|**Accelerating 3D Gaussian Splatting using Tensor Cores**|Sheng Li et.al.|[2605.17855](https://arxiv.org/abs/2605.17855)|null|
 |2026-05-13|Z-Order Transformer for Feed-Forward Gaussian Splatting|Can Wang et.al.|[2605.13465](https://arxiv.org/abs/2605.13465)|null|
 |2026-05-13|RoSplat: Robust Feed-Forward Pixel-wise Gaussian Splatting for Varying Input Views and High-Resolution Rendering|Hoang Chuong Nguyen et.al.|[2605.13093](https://arxiv.org/abs/2605.13093)|null|
 |2026-05-13|GuardMarkGS: Unified Ownership Tracing and Edit Deterrence for 3D Gaussian Splatting|Utae Jeong et.al.|[2605.12919](https://arxiv.org/abs/2605.12919)|null|

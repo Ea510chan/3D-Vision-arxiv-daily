@@ -16,15 +16,15 @@ title: Image Matching
   </header>
   <nav class="reader-sidebar">
     <div class="sidebar-title">Topics</div>
-    <a class="sidebar-link" href="point-cloud-registration.html">Point Cloud Registration <span class="sidebar-count">145</span></a>
+    <a class="sidebar-link" href="point-cloud-registration.html">Point Cloud Registration <span class="sidebar-count">147</span></a>
     <a class="sidebar-link active" href="image-matching.html">Image Matching <span class="sidebar-count">172</span></a>
-    <a class="sidebar-link" href="slam.html">SLAM <span class="sidebar-count">262</span></a>
-    <a class="sidebar-link" href="3d-reconstruction.html">3D Reconstruction <span class="sidebar-count">422</span></a>
-    <a class="sidebar-link" href="novel-view-synthesis.html">Novel View Synthesis <span class="sidebar-count">32</span></a>
-    <a class="sidebar-link" href="visual-localization.html">Visual Localization <span class="sidebar-count">450</span></a>
-    <a class="sidebar-link" href="3d-localization.html">3D Localization <span class="sidebar-count">14</span></a>
-    <a class="sidebar-link" href="world-model.html">World Model <span class="sidebar-count">100</span></a>
-    <a class="sidebar-link" href="flow-matching.html">Flow Matching <span class="sidebar-count">102</span></a>
+    <a class="sidebar-link" href="slam.html">SLAM <span class="sidebar-count">272</span></a>
+    <a class="sidebar-link" href="3d-reconstruction.html">3D Reconstruction <span class="sidebar-count">432</span></a>
+    <a class="sidebar-link" href="novel-view-synthesis.html">Novel View Synthesis <span class="sidebar-count">42</span></a>
+    <a class="sidebar-link" href="visual-localization.html">Visual Localization <span class="sidebar-count">456</span></a>
+    <a class="sidebar-link" href="3d-localization.html">3D Localization <span class="sidebar-count">15</span></a>
+    <a class="sidebar-link" href="world-model.html">World Model <span class="sidebar-count">110</span></a>
+    <a class="sidebar-link" href="flow-matching.html">Flow Matching <span class="sidebar-count">112</span></a>
   </nav>
   <section class="reader-list">
     <div class="list-header"><h2>Image Matching</h2><span>172 papers</span></div>

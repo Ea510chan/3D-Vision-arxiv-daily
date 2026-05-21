@@ -1,9 +1,19 @@
 # World Model
 
-> Updated on 2026.05.18
+> Updated on 2026.05.21
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-05-20**|**Distill to Think, Foresee to Act: Cognitive-Physical Reinforcement Learning for Autonomous Driving**|Yang Wu et.al.|[2605.21139](https://arxiv.org/abs/2605.21139)|null|
+|**2026-05-20**|**Anomaly-Informed Confidence Calibration for Vision-Based Safety Prediction**|Zhenjiang Mao et.al.|[2605.21109](https://arxiv.org/abs/2605.21109)|null|
+|**2026-05-20**|**Q-ARVD: Quantizing Autoregressive Video Diffusion Models**|Siao Tang et.al.|[2605.21072](https://arxiv.org/abs/2605.21072)|null|
+|**2026-05-20**|**FlowLong: Inference-time Long Video Generation via Manifold-constrained Tweedie Matching**|Jangho Park et.al.|[2605.20910](https://arxiv.org/abs/2605.20910)|null|
+|**2026-05-20**|**Demo-JEPA: Joint-Embedding Predictive Architecture for One-shot Cross-Embodiment Imitation**|Jingyang He et.al.|[2605.20811](https://arxiv.org/abs/2605.20811)|null|
+|**2026-05-20**|**What Semantics Survive the Connector? Diagnosing VLM-to-DiT Alignment in Video Editing**|Hangyu Lin et.al.|[2605.20795](https://arxiv.org/abs/2605.20795)|null|
+|**2026-05-20**|**GaussianDream: A Feed-Forward 3D Gaussian World Model for Robotic Manipulation**|Zijian Zhang et.al.|[2605.20752](https://arxiv.org/abs/2605.20752)|null|
+|**2026-05-19**|**CogOmniControl: Reasoning-Driven Controllable Video Generation via Creative Intent Cognition**|Hongji Yang et.al.|[2605.19995](https://arxiv.org/abs/2605.19995)|null|
+|**2026-05-19**|**World-Ego Modeling for Long-Horizon Evolution in Hybrid Embodied Tasks**|Zuyao Lin et.al.|[2605.19957](https://arxiv.org/abs/2605.19957)|null|
+|**2026-05-19**|**AffectVerse: Emotional World Models for Multimodal Affective Computing**|Bo Zhao et.al.|[2605.19950](https://arxiv.org/abs/2605.19950)|null|
 |2026-05-13|RoboEvolve: Co-Evolving Planner-Simulator for Robotic Manipulation with Limited Data|Harold Haodong Chen et.al.|[2605.13775](https://arxiv.org/abs/2605.13775)|null|
 |2026-05-13|Learning POMDP World Models from Observations with Language-Model Priors|Valentin Six et.al.|[2605.13740](https://arxiv.org/abs/2605.13740)|null|
 |2026-05-13|JEDI: Joint Embedding Diffusion World Model for Online Model-Based Reinforcement Learning|Jing Yu Lim et.al.|[2605.13013](https://arxiv.org/abs/2605.13013)|null|
