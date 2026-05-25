@@ -1,19 +1,19 @@
 # World Model
 
-> Updated on 2026.05.21
+> Updated on 2026.05.25
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-05-20**|**Distill to Think, Foresee to Act: Cognitive-Physical Reinforcement Learning for Autonomous Driving**|Yang Wu et.al.|[2605.21139](https://arxiv.org/abs/2605.21139)|null|
-|**2026-05-20**|**Anomaly-Informed Confidence Calibration for Vision-Based Safety Prediction**|Zhenjiang Mao et.al.|[2605.21109](https://arxiv.org/abs/2605.21109)|null|
-|**2026-05-20**|**Q-ARVD: Quantizing Autoregressive Video Diffusion Models**|Siao Tang et.al.|[2605.21072](https://arxiv.org/abs/2605.21072)|null|
-|**2026-05-20**|**FlowLong: Inference-time Long Video Generation via Manifold-constrained Tweedie Matching**|Jangho Park et.al.|[2605.20910](https://arxiv.org/abs/2605.20910)|null|
-|**2026-05-20**|**Demo-JEPA: Joint-Embedding Predictive Architecture for One-shot Cross-Embodiment Imitation**|Jingyang He et.al.|[2605.20811](https://arxiv.org/abs/2605.20811)|null|
-|**2026-05-20**|**What Semantics Survive the Connector? Diagnosing VLM-to-DiT Alignment in Video Editing**|Hangyu Lin et.al.|[2605.20795](https://arxiv.org/abs/2605.20795)|null|
-|**2026-05-20**|**GaussianDream: A Feed-Forward 3D Gaussian World Model for Robotic Manipulation**|Zijian Zhang et.al.|[2605.20752](https://arxiv.org/abs/2605.20752)|null|
-|**2026-05-19**|**CogOmniControl: Reasoning-Driven Controllable Video Generation via Creative Intent Cognition**|Hongji Yang et.al.|[2605.19995](https://arxiv.org/abs/2605.19995)|null|
-|**2026-05-19**|**World-Ego Modeling for Long-Horizon Evolution in Hybrid Embodied Tasks**|Zuyao Lin et.al.|[2605.19957](https://arxiv.org/abs/2605.19957)|null|
-|**2026-05-19**|**AffectVerse: Emotional World Models for Multimodal Affective Computing**|Bo Zhao et.al.|[2605.19950](https://arxiv.org/abs/2605.19950)|null|
+|2026-05-20|Distill to Think, Foresee to Act: Cognitive-Physical Reinforcement Learning for Autonomous Driving|Yang Wu et.al.|[2605.21139](https://arxiv.org/abs/2605.21139)|null|
+|2026-05-20|Anomaly-Informed Confidence Calibration for Vision-Based Safety Prediction|Zhenjiang Mao et.al.|[2605.21109](https://arxiv.org/abs/2605.21109)|null|
+|2026-05-20|Q-ARVD: Quantizing Autoregressive Video Diffusion Models|Siao Tang et.al.|[2605.21072](https://arxiv.org/abs/2605.21072)|null|
+|2026-05-20|FlowLong: Inference-time Long Video Generation via Manifold-constrained Tweedie Matching|Jangho Park et.al.|[2605.20910](https://arxiv.org/abs/2605.20910)|null|
+|2026-05-20|Demo-JEPA: Joint-Embedding Predictive Architecture for One-shot Cross-Embodiment Imitation|Jingyang He et.al.|[2605.20811](https://arxiv.org/abs/2605.20811)|null|
+|2026-05-20|What Semantics Survive the Connector? Diagnosing VLM-to-DiT Alignment in Video Editing|Hangyu Lin et.al.|[2605.20795](https://arxiv.org/abs/2605.20795)|null|
+|2026-05-20|GaussianDream: A Feed-Forward 3D Gaussian World Model for Robotic Manipulation|Zijian Zhang et.al.|[2605.20752](https://arxiv.org/abs/2605.20752)|null|
+|2026-05-19|CogOmniControl: Reasoning-Driven Controllable Video Generation via Creative Intent Cognition|Hongji Yang et.al.|[2605.19995](https://arxiv.org/abs/2605.19995)|null|
+|2026-05-19|World-Ego Modeling for Long-Horizon Evolution in Hybrid Embodied Tasks|Zuyao Lin et.al.|[2605.19957](https://arxiv.org/abs/2605.19957)|null|
+|2026-05-19|AffectVerse: Emotional World Models for Multimodal Affective Computing|Bo Zhao et.al.|[2605.19950](https://arxiv.org/abs/2605.19950)|null|
 |2026-05-13|RoboEvolve: Co-Evolving Planner-Simulator for Robotic Manipulation with Limited Data|Harold Haodong Chen et.al.|[2605.13775](https://arxiv.org/abs/2605.13775)|null|
 |2026-05-13|Learning POMDP World Models from Observations with Language-Model Priors|Valentin Six et.al.|[2605.13740](https://arxiv.org/abs/2605.13740)|null|
 |2026-05-13|JEDI: Joint Embedding Diffusion World Model for Online Model-Based Reinforcement Learning|Jing Yu Lim et.al.|[2605.13013](https://arxiv.org/abs/2605.13013)|null|
@@ -71,8 +71,8 @@
 |2026-04-23|WorldMark: A Unified Benchmark Suite for Interactive Video World Models|Xiaojie Xu et.al.|[2604.21686](https://arxiv.org/abs/2604.21686)|[link](https://github.com/alaya-studio/WorldMark)|
 |2026-04-22|Agentic AI for Personalized Physiotherapy: A Multi-Agent Framework for Generative Video Training and Real-Time Pose Correction|Abhishek Dharmaratnakar et.al.|[2604.21154](https://arxiv.org/abs/2604.21154)|null|
 |2026-04-22|Open-H-Embodiment: A Large-Scale Dataset for Enabling Foundation Models in Medical Robotics|Open-H-Embodiment Consortium et.al.|[2604.21017](https://arxiv.org/abs/2604.21017)|null|
-|2026-04-22|DeVI: Physics-based Dexterous Human-Object Interaction via Synthetic Video Imitation|Hyeonwoo Kim et.al.|[2604.20841](https://arxiv.org/abs/2604.20841)|null|
-|2026-04-22|Occupancy Reward Shaping: Improving Credit Assignment for Offline Goal-Conditioned Reinforcement Learning|Aravind Venugopal et.al.|[2604.20627](https://arxiv.org/abs/2604.20627)|null|
+|2026-04-22|DeVI: Physics-based Dexterous Human-Object Interaction via Synthetic Video Imitation|Hyeonwoo Kim et.al.|[2604.20841](https://arxiv.org/abs/2604.20841)|**[link](https://github.com/snuvclab/devi)**|
+|2026-04-22|Occupancy Reward Shaping: Improving Credit Assignment for Offline Goal-Conditioned Reinforcement Learning|Aravind Venugopal et.al.|[2604.20627](https://arxiv.org/abs/2604.20627)|**[link](https://github.com/aravindvenu7/occupancy_reward_shaping)**|
 |2026-04-22|CCTVBench: Contrastive Consistency Traffic VideoQA Benchmark for Multimodal LLMs|Xingcheng Zhou et.al.|[2604.20460](https://arxiv.org/abs/2604.20460)|null|
 |2026-04-20|Sonata: A Hybrid World Model for Inertial Kinematics under Clinical Data Scarcity|Blaise Delaney et.al.|[2604.18058](https://arxiv.org/abs/2604.18058)|null|
 |2026-04-20|The Umwelt Representation Hypothesis: Rethinking Universality|Victoria Bosch et.al.|[2604.17960](https://arxiv.org/abs/2604.17960)|null|

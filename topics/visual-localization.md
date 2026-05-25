@@ -1,19 +1,19 @@
 # Visual Localization
 
-> Updated on 2026.05.21
+> Updated on 2026.05.25
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-05-19**|**Faster or Stronger: Towards Flexible Visual Place Recognition via Weighted Aggregation and Token Pruning**|Zichao Zeng et.al.|[2605.20551](https://arxiv.org/abs/2605.20551)|null|
-|**2026-05-19**|**Depth2Pose: A Pose-Based Benchmark for Monocular Depth Estimation without Ground-Truth Depth**|Viktor Kocur et.al.|[2605.19797](https://arxiv.org/abs/2605.19797)|null|
-|**2026-05-19**|**KappaPlace: Learning Hyperspherical Uncertainty for Visual Place Recognition via Prototype-Anchored Supervision**|Maya Yanko et.al.|[2605.19435](https://arxiv.org/abs/2605.19435)|null|
-|**2026-05-18**|**Imaging Hidden Objects with Consumer LiDAR via Motion Induced Sampling**|Siddharth Somasundaram et.al.|[2605.17865](https://arxiv.org/abs/2605.17865)|null|
-|**2026-05-18**|**Efficient Sparse-to-Dense Visual Localization via Compact Gaussian Scene Representation and Accelerated Dense Pose Estimation**|Zizhuo Li et.al.|[2605.17777](https://arxiv.org/abs/2605.17777)|null|
-|**2026-05-15**|**SeamCam: Quantifying Seamless Camouflage via Multi-Cue Visual Detectability**|Amin Karimi Monsefi et.al.|[2605.16515](https://arxiv.org/abs/2605.16515)|null|
-|**2026-05-12**|**PoseCompass: Intelligent Synthetic Pose Selection for Visual Localization**|Yanan Zhou et.al.|[2605.12144](https://arxiv.org/abs/2605.12144)|null|
-|**2026-05-08**|**Disambiguating 2D-3D Correspondences in Gaussian Splatting-based Feature Fields for Visual Localization**|Miso Lee et.al.|[2605.07351](https://arxiv.org/abs/2605.07351)|null|
-|**2026-05-06**|**ULF-Loc: Unbiased Landmark Feature for Robust Visual Localization with 3D Gaussian Splatting**|Yingdong Gu et.al.|[2605.04730](https://arxiv.org/abs/2605.04730)|null|
-|**2026-05-01**|**Depth-Guided Privacy-Preserving Visual Localization Using 3D Sphere Clouds**|Heejoon Moon et.al.|[2605.00562](https://arxiv.org/abs/2605.00562)|null|
+|2026-05-19|Faster or Stronger: Towards Flexible Visual Place Recognition via Weighted Aggregation and Token Pruning|Zichao Zeng et.al.|[2605.20551](https://arxiv.org/abs/2605.20551)|null|
+|2026-05-19|Depth2Pose: A Pose-Based Benchmark for Monocular Depth Estimation without Ground-Truth Depth|Viktor Kocur et.al.|[2605.19797](https://arxiv.org/abs/2605.19797)|null|
+|2026-05-19|KappaPlace: Learning Hyperspherical Uncertainty for Visual Place Recognition via Prototype-Anchored Supervision|Maya Yanko et.al.|[2605.19435](https://arxiv.org/abs/2605.19435)|null|
+|2026-05-18|Imaging Hidden Objects with Consumer LiDAR via Motion Induced Sampling|Siddharth Somasundaram et.al.|[2605.17865](https://arxiv.org/abs/2605.17865)|null|
+|2026-05-18|Efficient Sparse-to-Dense Visual Localization via Compact Gaussian Scene Representation and Accelerated Dense Pose Estimation|Zizhuo Li et.al.|[2605.17777](https://arxiv.org/abs/2605.17777)|null|
+|2026-05-15|SeamCam: Quantifying Seamless Camouflage via Multi-Cue Visual Detectability|Amin Karimi Monsefi et.al.|[2605.16515](https://arxiv.org/abs/2605.16515)|null|
+|2026-05-12|PoseCompass: Intelligent Synthetic Pose Selection for Visual Localization|Yanan Zhou et.al.|[2605.12144](https://arxiv.org/abs/2605.12144)|null|
+|2026-05-08|Disambiguating 2D-3D Correspondences in Gaussian Splatting-based Feature Fields for Visual Localization|Miso Lee et.al.|[2605.07351](https://arxiv.org/abs/2605.07351)|null|
+|2026-05-06|ULF-Loc: Unbiased Landmark Feature for Robust Visual Localization with 3D Gaussian Splatting|Yingdong Gu et.al.|[2605.04730](https://arxiv.org/abs/2605.04730)|null|
+|2026-05-01|Depth-Guided Privacy-Preserving Visual Localization Using 3D Sphere Clouds|Heejoon Moon et.al.|[2605.00562](https://arxiv.org/abs/2605.00562)|null|
 |2026-05-01|MSACT: Multistage Spatial Alignment for Stable Low-Latency Fine Manipulation|Xianbo Cai et.al.|[2605.00475](https://arxiv.org/abs/2605.00475)|null|
 |2026-04-29|AirZoo: A Unified Large-Scale Dataset for Grounding Aerial Geometric 3D Vision|Xiaoya Cheng et.al.|[2604.26567](https://arxiv.org/abs/2604.26567)|null|
 |2026-04-29|3D-LENS: A 3D Lifting-based Elevated Novel-view Synthesis method for Single-View Aerial-Ground Re-Identification|William Grolleau et.al.|[2604.26520](https://arxiv.org/abs/2604.26520)|null|
@@ -290,10 +290,10 @@
 |2025-09-26|Johnson-Lindenstrauss Lemma Guided Network for Efficient 3D Medical Segmentation|Jinpeng Lu et.al.|[2509.22307](http://arxiv.org/abs/2509.22307)|null|
 |2025-09-23|SGAligner++: Cross-Modal Language-Aided 3D Scene Graph Alignment|Binod Singh et.al.|[2509.20401](http://arxiv.org/abs/2509.20401)|null|
 |2025-09-24|A Versatile Foundation Model for AI-enabled Mammogram Interpretation|Fuxiang Huang et.al.|[2509.20271](http://arxiv.org/abs/2509.20271)|null|
-|2025-09-23|Vision-Free Retrieval: Rethinking Multimodal Search with Textual Scene Descriptions|Ioanna Ntinou et.al.|[2509.19203](http://arxiv.org/abs/2509.19203)|**[link](https://github.com/IoannaNti/LexiCLIP)**|
-|2025-09-22|OrthoLoC: UAV 6-DoF Localization and Calibration Using Orthographic Geodata|Oussema Dhaouadi et.al.|[2509.18350](http://arxiv.org/abs/2509.18350)|**[link](https://github.com/deepscenario/OrthoLoC)**|
+|2025-09-23|Vision-Free Retrieval: Rethinking Multimodal Search with Textual Scene Descriptions|Ioanna Ntinou et.al.|[2509.19203](http://arxiv.org/abs/2509.19203)|[link](https://github.com/IoannaNti/LexiCLIP)|
+|2025-09-22|OrthoLoC: UAV 6-DoF Localization and Calibration Using Orthographic Geodata|Oussema Dhaouadi et.al.|[2509.18350](http://arxiv.org/abs/2509.18350)|[link](https://github.com/deepscenario/OrthoLoC)|
 |2025-09-21|Learning Attribute-Aware Hash Codes for Fine-Grained Image Retrieval via Query Optimization|Peng Wang et.al.|[2509.17049](http://arxiv.org/abs/2509.17049)|null|
-|2025-09-25|Efficient Multimodal Dataset Distillation via Generative Models|Zhenghao Zhao et.al.|[2509.15472](http://arxiv.org/abs/2509.15472)|**[link](https://github.com/ichbill/EDGE)**|
+|2025-09-25|Efficient Multimodal Dataset Distillation via Generative Models|Zhenghao Zhao et.al.|[2509.15472](http://arxiv.org/abs/2509.15472)|[link](https://github.com/ichbill/EDGE)|
 |2025-09-18|SERVAL: Surprisingly Effective Zero-Shot Visual Document Retrieval Powered by Large Vision and Language Models|Thong Nguyen et.al.|[2509.15432](http://arxiv.org/abs/2509.15432)|null|
 |2025-09-18|PRISM: Product Retrieval In Shopping Carts using Hybrid Matching|Arda Kabadayi et.al.|[2509.14985](http://arxiv.org/abs/2509.14985)|null|
 |2025-09-18|Chain-of-Thought Re-ranking for Image Retrieval Tasks|Shangrong Wu et.al.|[2509.14746](http://arxiv.org/abs/2509.14746)|null|
