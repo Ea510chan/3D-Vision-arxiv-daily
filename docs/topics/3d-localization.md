@@ -18,7 +18,7 @@ title: 3D Localization
     <div class="sidebar-title">Topics</div>
     <a class="sidebar-link" href="point-cloud-registration.html">Point Cloud Registration <span class="sidebar-count">147</span></a>
     <a class="sidebar-link" href="image-matching.html">Image Matching <span class="sidebar-count">172</span></a>
-    <a class="sidebar-link" href="slam.html">SLAM <span class="sidebar-count">272</span></a>
+    <a class="sidebar-link" href="slam.html">SLAM <span class="sidebar-count">278</span></a>
     <a class="sidebar-link" href="3d-reconstruction.html">3D Reconstruction <span class="sidebar-count">432</span></a>
     <a class="sidebar-link" href="novel-view-synthesis.html">Novel View Synthesis <span class="sidebar-count">42</span></a>
     <a class="sidebar-link" href="visual-localization.html">Visual Localization <span class="sidebar-count">456</span></a>
