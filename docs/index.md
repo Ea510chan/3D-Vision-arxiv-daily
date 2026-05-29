@@ -13,9 +13,9 @@ layout: default
     </div>
   </div>
   <div class="hero-panel">
-    <div class="stat"><span>Updated</span><strong>2026.05.26</strong></div>
+    <div class="stat"><span>Updated</span><strong>2026.05.29</strong></div>
     <div class="stat"><span>Topics</span><strong>9</strong></div>
-    <div class="stat"><span>Total papers</span><strong>1764</strong></div>
+    <div class="stat"><span>Total papers</span><strong>1774</strong></div>
   </div>
 </section>
 
@@ -76,7 +76,7 @@ layout: default
     <a class="topic-card" href="topics/flow-matching.html" style="--accent: #e11d48;">
       <span class="topic-icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2.5 20.5 7v10L12 21.5 3.5 17V7z" fill="currentColor" opacity="0.25"/><path d="M12 4.2 18.7 8v8L12 19.8 5.3 16V8z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></span>
       <h3>Flow Matching</h3>
-      <p>Latest: 2026-05-20 · Papers: 112</p>
+      <p>Latest: 2026-05-28 · Papers: 122</p>
       <span class="topic-cta">View papers →</span>
     </a>
   </div>
