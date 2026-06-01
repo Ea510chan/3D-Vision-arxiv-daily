@@ -1,9 +1,19 @@
 # World Model
 
-> Updated on 2026.05.31
+> Updated on 2026.06.01
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-05-29**|**Positional versus Symbolic Attention Heads: Learning Dynamics, RoPE Geometry, and Length Generalization**|Felipe Urrutia et.al.|[2605.31558](https://arxiv.org/abs/2605.31558)|null|
+|**2026-05-29**|**IDOL: Inverse-Dynamics-Guided Future Prediction for End-to-End Autonomous Driving**|Chenghao Zhang et.al.|[2605.31476](https://arxiv.org/abs/2605.31476)|null|
+|**2026-05-29**|**Dreaming Of Others: Latent Teammate Modeling In World Models For Multi-Agent Reinforcement Learning**|Tomas Leroy-Stone et.al.|[2605.31361](https://arxiv.org/abs/2605.31361)|null|
+|**2026-05-29**|**DecMem: Towards Minute-Long Consistent World Generation with Decoupled Memory**|Zhenhao Yang et.al.|[2605.31336](https://arxiv.org/abs/2605.31336)|null|
+|**2026-05-29**|**AR Forcing: Towards Long-Horizon Robot Navigation World Model**|Yifei Yang et.al.|[2605.31314](https://arxiv.org/abs/2605.31314)|null|
+|**2026-05-29**|**Light Interaction: Training-Free Inference Acceleration for Interactive Video World Models**|Jiacheng Lu et.al.|[2605.31158](https://arxiv.org/abs/2605.31158)|null|
+|**2026-05-29**|**Subspace-Decomposed JEPAs: Disentangling Progression and Content in Latent World Models**|Lucas Thil et.al.|[2605.31111](https://arxiv.org/abs/2605.31111)|null|
+|**2026-05-29**|**SlotMemory: Object-Centric KV Memory for Streaming Long-Video Generation**|Weijia Dou et.al.|[2605.31033](https://arxiv.org/abs/2605.31033)|null|
+|**2026-05-29**|**PatchWorld: Gradient-Free Optimization of Executable World Models**|Jiaxin Bai et.al.|[2605.30880](https://arxiv.org/abs/2605.30880)|null|
+|**2026-05-29**|**Robust Dreamer: Deviation-Aware Latent Gaussian Memory for Action-Controlled AR Video Generation**|Hanlin Chen et.al.|[2605.30855](https://arxiv.org/abs/2605.30855)|null|
 |2026-05-20|Distill to Think, Foresee to Act: Cognitive-Physical Reinforcement Learning for Autonomous Driving|Yang Wu et.al.|[2605.21139](https://arxiv.org/abs/2605.21139)|null|
 |2026-05-20|Anomaly-Informed Confidence Calibration for Vision-Based Safety Prediction|Zhenjiang Mao et.al.|[2605.21109](https://arxiv.org/abs/2605.21109)|null|
 |2026-05-20|Q-ARVD: Quantizing Autoregressive Video Diffusion Models|Siao Tang et.al.|[2605.21072](https://arxiv.org/abs/2605.21072)|null|

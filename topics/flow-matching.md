@@ -1,9 +1,18 @@
 # Flow Matching
 
-> Updated on 2026.05.31
+> Updated on 2026.06.01
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-05-29**|**VolFill: Single-View Amodal 3D Scene Reconstruction with Volumetric Flow Matching**|Tuan Duc Ngo et.al.|[2605.31466](https://arxiv.org/abs/2605.31466)|null|
+|**2026-05-29**|**TokTalk: Expressive Real-time Facial Animation from Audio-LLM Tokens**|Qingcheng Zhao et.al.|[2605.31294](https://arxiv.org/abs/2605.31294)|null|
+|**2026-05-29**|**DeMaVLA: A Vision-Language-Action Foundation Model for Generalizable Deformable Manipulation**|Taiyi Su et.al.|[2605.31286](https://arxiv.org/abs/2605.31286)|null|
+|**2026-05-29**|**Probabilistic Precipitation Nowcasting with Rectified Flow Transformers**|Johannes Schusterbauer et.al.|[2605.31204](https://arxiv.org/abs/2605.31204)|null|
+|**2026-05-29**|**Geometry-based Schrödinger Bridges for Trustworthy Multimodal Fusion**|Jiayu Xiong et.al.|[2605.31193](https://arxiv.org/abs/2605.31193)|null|
+|**2026-05-29**|**SwanVoice: Expressive Long-Form Zero-Shot Speech Synthesis for Both Monologue and Dialogue**|Ruiqi Li et.al.|[2605.30993](https://arxiv.org/abs/2605.30993)|null|
+|**2026-05-29**|**Parallel Tempering Initial Sampling in Inference-Time Reward Alignment**|Myeongjun Oh et.al.|[2605.30991](https://arxiv.org/abs/2605.30991)|null|
+|**2026-05-29**|**Wall-OSS-0.5 Technical Report**|Ryan Yu et.al.|[2605.30877](https://arxiv.org/abs/2605.30877)|null|
+|**2026-05-29**|**Equivariant Latent Alignment via Flow Matching under Group Symmetries**|Sunghyun Kim et.al.|[2605.30705](https://arxiv.org/abs/2605.30705)|null|
 |**2026-05-28**|**GPIC: A Giant Permissive Image Corpus for Visual Generation**|Keshigeyan Chandrasegaran et.al.|[2605.30341](https://arxiv.org/abs/2605.30341)|null|
 |**2026-05-28**|**UniSteer: Text-Guided Flow Matching in Activation Space for Versatile LLM Steering**|Yingdong Shi et.al.|[2605.30076](https://arxiv.org/abs/2605.30076)|null|
 |**2026-05-28**|**Evaluating Skill and Stability of ArchesWeather and ArchesWeatherGen under Multi-Decadal Climate Simulations**|Renu Singh et.al.|[2605.29976](https://arxiv.org/abs/2605.29976)|null|

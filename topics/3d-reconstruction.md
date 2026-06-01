@@ -1,9 +1,19 @@
 # 3D Reconstruction
 
-> Updated on 2026.05.31
+> Updated on 2026.06.01
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-05-29**|**Learning Global Motion with Compact Gaussians for Feed-Forward 4D Reconstruction**|Mungyeom Kim et.al.|[2605.31595](https://arxiv.org/abs/2605.31595)|null|
+|**2026-05-29**|**SurGe: Improved Surface Geometry in Point Maps**|Karim Knaebel et.al.|[2605.31577](https://arxiv.org/abs/2605.31577)|**[link](https://github.com/karimknaebel/surge)**|
+|**2026-05-29**|**RayDer: Scalable Self-Supervised Novel View Synthesis from Real-World Video**|Ulrich Prestel et.al.|[2605.31535](https://arxiv.org/abs/2605.31535)|null|
+|**2026-05-29**|**Feature-Optimized Vision for Adaptive 3D Scene Reconstruction**|Eric Liang et.al.|[2605.31534](https://arxiv.org/abs/2605.31534)|null|
+|**2026-05-29**|**VolFill: Single-View Amodal 3D Scene Reconstruction with Volumetric Flow Matching**|Tuan Duc Ngo et.al.|[2605.31466](https://arxiv.org/abs/2605.31466)|**[link](https://github.com/ngoductuanlhp/VolFill)**|
+|**2026-05-29**|**Beyond Instance-Level Alignment and Uniformity: Semantic Factor Learning for Collaborative Filtering**|Yajie Yu et.al.|[2605.31414](https://arxiv.org/abs/2605.31414)|null|
+|**2026-05-29**|**Development of a Multi-Purpose Optical TPC for Neutron-Induced Reaction Studies at SARAF**|R. Felkai et.al.|[2605.31382](https://arxiv.org/abs/2605.31382)|null|
+|**2026-05-29**|**QVGGT: Post-Training Quantized Visual Geometry Grounded Transformer**|Zhizhen Pan et.al.|[2605.31124](https://arxiv.org/abs/2605.31124)|null|
+|**2026-05-29**|**Predictive tracking of radar aurora reveals 500+ mV/m electric-field bursts during the May 2024 G5 storm**|Magnus F Ivarsen et.al.|[2605.31046](https://arxiv.org/abs/2605.31046)|null|
+|**2026-05-29**|**DSD-GS: Dynamic-Static Decomposition of Gaussian Splatting for Efficient and High-Fidelity Dynamic Scene Reconstruction**|Youngtae Han et.al.|[2605.30863](https://arxiv.org/abs/2605.30863)|null|
 |2026-05-20|Sensitivity analysis of Stochastic Fluid Models: Stationary and transient quantities with applications|Anna Aksamit et.al.|[2605.21209](https://arxiv.org/abs/2605.21209)|[link](https://github.com/Ufere/Assingment_1)|
 |2026-05-20|Transcoding a 3D Gaussian Splatting Model from a Plenoptic Point Cloud or Mesh without the Original Multi-view Images|Maja Krivokuća et.al.|[2605.21051](https://arxiv.org/abs/2605.21051)|null|
 |2026-05-20|Towards Physically Consistent 4D Scene Reconstruction for Closed-loop Autonomous Driving Simulation|Bowyn Tan et.al.|[2605.21032](https://arxiv.org/abs/2605.21032)|null|
