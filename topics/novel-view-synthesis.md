@@ -4,16 +4,16 @@
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-05-29**|**Learning Global Motion with Compact Gaussians for Feed-Forward 4D Reconstruction**|Mungyeom Kim et.al.|[2605.31595](https://arxiv.org/abs/2605.31595)|null|
-|**2026-05-29**|**RayDer: Scalable Self-Supervised Novel View Synthesis from Real-World Video**|Ulrich Prestel et.al.|[2605.31535](https://arxiv.org/abs/2605.31535)|null|
-|**2026-05-29**|**Triangle Splatting SLAM**|Nicholas Fry et.al.|[2605.31419](https://arxiv.org/abs/2605.31419)|null|
-|**2026-05-29**|**DSD-GS: Dynamic-Static Decomposition of Gaussian Splatting for Efficient and High-Fidelity Dynamic Scene Reconstruction**|Youngtae Han et.al.|[2605.30863](https://arxiv.org/abs/2605.30863)|null|
-|**2026-05-29**|**Equivariant Latent Alignment via Flow Matching under Group Symmetries**|Sunghyun Kim et.al.|[2605.30705](https://arxiv.org/abs/2605.30705)|null|
-|**2026-05-28**|**3DAE: Binaural Quality Assessment for Audio Novel View Synthesis with Spatial Maps and Benchmark**|Jialu Xu et.al.|[2605.30469](https://arxiv.org/abs/2605.30469)|null|
-|**2026-05-28**|**Supercharging Thermal Gaussian Splatting with Depth Estimation**|Manoj Biswanath et.al.|[2605.30328](https://arxiv.org/abs/2605.30328)|null|
-|**2026-05-28**|**DVSM: Decoder-only View Synthesis Model Done Right**|Cheng Sun et.al.|[2605.29891](https://arxiv.org/abs/2605.29891)|null|
-|**2026-05-28**|**Learning Representations from 3D Gaussian Splats**|Julia Farganus et.al.|[2605.29549](https://arxiv.org/abs/2605.29549)|null|
-|**2026-05-26**|**GScomp-QA: A Subjective Dataset for Quality Assessment of Compressed Gaussian Splatting**|Pedro Martin et.al.|[2605.26880](https://arxiv.org/abs/2605.26880)|null|
+|2026-05-29|Learning Global Motion with Compact Gaussians for Feed-Forward 4D Reconstruction|Mungyeom Kim et.al.|[2605.31595](https://arxiv.org/abs/2605.31595)|null|
+|2026-05-29|RayDer: Scalable Self-Supervised Novel View Synthesis from Real-World Video|Ulrich Prestel et.al.|[2605.31535](https://arxiv.org/abs/2605.31535)|null|
+|2026-05-29|Triangle Splatting SLAM|Nicholas Fry et.al.|[2605.31419](https://arxiv.org/abs/2605.31419)|null|
+|2026-05-29|DSD-GS: Dynamic-Static Decomposition of Gaussian Splatting for Efficient and High-Fidelity Dynamic Scene Reconstruction|Youngtae Han et.al.|[2605.30863](https://arxiv.org/abs/2605.30863)|null|
+|2026-05-29|Equivariant Latent Alignment via Flow Matching under Group Symmetries|Sunghyun Kim et.al.|[2605.30705](https://arxiv.org/abs/2605.30705)|null|
+|2026-05-28|3DAE: Binaural Quality Assessment for Audio Novel View Synthesis with Spatial Maps and Benchmark|Jialu Xu et.al.|[2605.30469](https://arxiv.org/abs/2605.30469)|null|
+|2026-05-28|Supercharging Thermal Gaussian Splatting with Depth Estimation|Manoj Biswanath et.al.|[2605.30328](https://arxiv.org/abs/2605.30328)|null|
+|2026-05-28|DVSM: Decoder-only View Synthesis Model Done Right|Cheng Sun et.al.|[2605.29891](https://arxiv.org/abs/2605.29891)|null|
+|2026-05-28|Learning Representations from 3D Gaussian Splats|Julia Farganus et.al.|[2605.29549](https://arxiv.org/abs/2605.29549)|null|
+|2026-05-26|GScomp-QA: A Subjective Dataset for Quality Assessment of Compressed Gaussian Splatting|Pedro Martin et.al.|[2605.26880](https://arxiv.org/abs/2605.26880)|null|
 |2026-05-20|Latent Dynamics for Full Body Avatar Animation|Shichong Peng et.al.|[2605.21478](https://arxiv.org/abs/2605.21478)|null|
 |2026-05-20|Towards Physically Consistent 4D Scene Reconstruction for Closed-loop Autonomous Driving Simulation|Bowyn Tan et.al.|[2605.21032](https://arxiv.org/abs/2605.21032)|null|
 |2026-05-19|Feed-Forward Gaussian Splatting from Sparse Aerial Views|Dongli Wu et.al.|[2605.19949](https://arxiv.org/abs/2605.19949)|null|

@@ -4,16 +4,16 @@
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-05-29**|**iVGR: Internalizing Visually Grounded Reasoning for MLLMs with Reinforcement Learning**|Chang-Bin Zhang et.al.|[2605.31096](https://arxiv.org/abs/2605.31096)|**[link](https://github.com/Visual-AI/iVGR)**|
-|**2026-05-29**|**DisPlace: Discriminative Place Projections for Multi-Reference Visual Place Recognition**|Dhyey Manish Rajani et.al.|[2605.30769](https://arxiv.org/abs/2605.30769)|null|
-|**2026-05-27**|**SAFEVPR: Patch-Based Conformal Verification for Safe Cross-Condition Sequence Visual Place Recognition**|Ha Sier et.al.|[2605.28048](https://arxiv.org/abs/2605.28048)|null|
-|**2026-05-20**|**MM-Conv: A Multimodal Dataset and Benchmark for Context-Aware Grounding in 3D Dialogue**|Anna Deichler et.al.|[2605.21796](https://arxiv.org/abs/2605.21796)|null|
-|**2026-05-19**|**Faster or Stronger: Towards Flexible Visual Place Recognition via Weighted Aggregation and Token Pruning**|Zichao Zeng et.al.|[2605.20551](https://arxiv.org/abs/2605.20551)|null|
-|**2026-05-19**|**Depth2Pose: A Pose-Based Benchmark for Monocular Depth Estimation without Ground-Truth Depth**|Viktor Kocur et.al.|[2605.19797](https://arxiv.org/abs/2605.19797)|null|
-|**2026-05-19**|**KappaPlace: Learning Hyperspherical Uncertainty for Visual Place Recognition via Prototype-Anchored Supervision**|Maya Yanko et.al.|[2605.19435](https://arxiv.org/abs/2605.19435)|null|
-|**2026-05-18**|**Imaging Hidden Objects with Consumer LiDAR via Motion Induced Sampling**|Siddharth Somasundaram et.al.|[2605.17865](https://arxiv.org/abs/2605.17865)|null|
-|**2026-05-18**|**Efficient Sparse-to-Dense Visual Localization via Compact Gaussian Scene Representation and Accelerated Dense Pose Estimation**|Zizhuo Li et.al.|[2605.17777](https://arxiv.org/abs/2605.17777)|null|
-|**2026-05-15**|**SeamCam: Quantifying Seamless Camouflage via Multi-Cue Visual Detectability**|Amin Karimi Monsefi et.al.|[2605.16515](https://arxiv.org/abs/2605.16515)|null|
+|2026-05-29|iVGR: Internalizing Visually Grounded Reasoning for MLLMs with Reinforcement Learning|Chang-Bin Zhang et.al.|[2605.31096](https://arxiv.org/abs/2605.31096)|[link](https://github.com/Visual-AI/iVGR)|
+|2026-05-29|DisPlace: Discriminative Place Projections for Multi-Reference Visual Place Recognition|Dhyey Manish Rajani et.al.|[2605.30769](https://arxiv.org/abs/2605.30769)|null|
+|2026-05-27|SAFEVPR: Patch-Based Conformal Verification for Safe Cross-Condition Sequence Visual Place Recognition|Ha Sier et.al.|[2605.28048](https://arxiv.org/abs/2605.28048)|null|
+|2026-05-20|MM-Conv: A Multimodal Dataset and Benchmark for Context-Aware Grounding in 3D Dialogue|Anna Deichler et.al.|[2605.21796](https://arxiv.org/abs/2605.21796)|null|
+|2026-05-19|Faster or Stronger: Towards Flexible Visual Place Recognition via Weighted Aggregation and Token Pruning|Zichao Zeng et.al.|[2605.20551](https://arxiv.org/abs/2605.20551)|null|
+|2026-05-19|Depth2Pose: A Pose-Based Benchmark for Monocular Depth Estimation without Ground-Truth Depth|Viktor Kocur et.al.|[2605.19797](https://arxiv.org/abs/2605.19797)|null|
+|2026-05-19|KappaPlace: Learning Hyperspherical Uncertainty for Visual Place Recognition via Prototype-Anchored Supervision|Maya Yanko et.al.|[2605.19435](https://arxiv.org/abs/2605.19435)|null|
+|2026-05-18|Imaging Hidden Objects with Consumer LiDAR via Motion Induced Sampling|Siddharth Somasundaram et.al.|[2605.17865](https://arxiv.org/abs/2605.17865)|null|
+|2026-05-18|Efficient Sparse-to-Dense Visual Localization via Compact Gaussian Scene Representation and Accelerated Dense Pose Estimation|Zizhuo Li et.al.|[2605.17777](https://arxiv.org/abs/2605.17777)|null|
+|2026-05-15|SeamCam: Quantifying Seamless Camouflage via Multi-Cue Visual Detectability|Amin Karimi Monsefi et.al.|[2605.16515](https://arxiv.org/abs/2605.16515)|null|
 |2026-05-12|PoseCompass: Intelligent Synthetic Pose Selection for Visual Localization|Yanan Zhou et.al.|[2605.12144](https://arxiv.org/abs/2605.12144)|null|
 |2026-05-08|Disambiguating 2D-3D Correspondences in Gaussian Splatting-based Feature Fields for Visual Localization|Miso Lee et.al.|[2605.07351](https://arxiv.org/abs/2605.07351)|null|
 |2026-05-06|ULF-Loc: Unbiased Landmark Feature for Robust Visual Localization with 3D Gaussian Splatting|Yingdong Gu et.al.|[2605.04730](https://arxiv.org/abs/2605.04730)|null|

@@ -4,16 +4,16 @@
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-05-25**|**G-DRAGON: Geospatial Reasoning and Dynamic Planning for Retrieval-Augmented Outdoor Navigation**|Dongzhihan Wang et.al.|[2605.25646](https://arxiv.org/abs/2605.25646)|**[link](https://github.com/Anastasiawd/G-DRAGON)**|
-|**2026-05-24**|**FusionCore: A 23-State Unscented Kalman Filter for IMU, Wheel Encoder, GPS, and Visual SLAM Fusion in ROS 2**|Manan Kharwar et.al.|[2605.25239](https://arxiv.org/abs/2605.25239)|null|
-|**2026-05-24**|**A Decentralized LiDAR-SLAM System with Certifiably Optimal Pose Graph Optimization**|Baoshan Song et.al.|[2605.25051](https://arxiv.org/abs/2605.25051)|null|
-|**2026-05-23**|**LC-Flow: Learning Local Continuous Optical Flow and Confidence from events**|Gunwoo Jeon et.al.|[2605.24604](https://arxiv.org/abs/2605.24604)|null|
-|**2026-05-21**|**Extending Deep Event Visual Odometry with Sparse Point-Cloud Export**|Alireza Safdari et.al.|[2605.22890](https://arxiv.org/abs/2605.22890)|null|
-|**2026-05-21**|**FRED: A Multi-Modal Autonomous Driving Dataset for Flooded Road Environments**|Connor Malone et.al.|[2605.22018](https://arxiv.org/abs/2605.22018)|null|
-|**2026-05-20**|**SubTGraph: Large-Scale Subterranean Environment Synthesis with Controllable Topological Variability for Robotic Autonomy Validation**|F. Labra Caso et.al.|[2605.20917](https://arxiv.org/abs/2605.20917)|null|
-|**2026-05-19**|**Enhancing Graph-Based SLAM in GNSS-Denied environments by leveraging leg odometry**|Léon Perruchot-Triboulet et.al.|[2605.20484](https://arxiv.org/abs/2605.20484)|null|
-|**2026-05-19**|**Depth2Pose: A Pose-Based Benchmark for Monocular Depth Estimation without Ground-Truth Depth**|Viktor Kocur et.al.|[2605.19797](https://arxiv.org/abs/2605.19797)|null|
-|**2026-05-19**|**Multi-Session Ground Texture SLAM in Low-Dynamic Environments**|Kyle M. Hart et.al.|[2605.19701](https://arxiv.org/abs/2605.19701)|null|
+|2026-05-25|G-DRAGON: Geospatial Reasoning and Dynamic Planning for Retrieval-Augmented Outdoor Navigation|Dongzhihan Wang et.al.|[2605.25646](https://arxiv.org/abs/2605.25646)|[link](https://github.com/Anastasiawd/G-DRAGON)|
+|2026-05-24|FusionCore: A 23-State Unscented Kalman Filter for IMU, Wheel Encoder, GPS, and Visual SLAM Fusion in ROS 2|Manan Kharwar et.al.|[2605.25239](https://arxiv.org/abs/2605.25239)|null|
+|2026-05-24|A Decentralized LiDAR-SLAM System with Certifiably Optimal Pose Graph Optimization|Baoshan Song et.al.|[2605.25051](https://arxiv.org/abs/2605.25051)|null|
+|2026-05-23|LC-Flow: Learning Local Continuous Optical Flow and Confidence from events|Gunwoo Jeon et.al.|[2605.24604](https://arxiv.org/abs/2605.24604)|null|
+|2026-05-21|Extending Deep Event Visual Odometry with Sparse Point-Cloud Export|Alireza Safdari et.al.|[2605.22890](https://arxiv.org/abs/2605.22890)|null|
+|2026-05-21|FRED: A Multi-Modal Autonomous Driving Dataset for Flooded Road Environments|Connor Malone et.al.|[2605.22018](https://arxiv.org/abs/2605.22018)|null|
+|2026-05-20|SubTGraph: Large-Scale Subterranean Environment Synthesis with Controllable Topological Variability for Robotic Autonomy Validation|F. Labra Caso et.al.|[2605.20917](https://arxiv.org/abs/2605.20917)|null|
+|2026-05-19|Enhancing Graph-Based SLAM in GNSS-Denied environments by leveraging leg odometry|Léon Perruchot-Triboulet et.al.|[2605.20484](https://arxiv.org/abs/2605.20484)|null|
+|2026-05-19|Depth2Pose: A Pose-Based Benchmark for Monocular Depth Estimation without Ground-Truth Depth|Viktor Kocur et.al.|[2605.19797](https://arxiv.org/abs/2605.19797)|null|
+|2026-05-19|Multi-Session Ground Texture SLAM in Low-Dynamic Environments|Kyle M. Hart et.al.|[2605.19701](https://arxiv.org/abs/2605.19701)|null|
 |2026-05-19|EpiDiffVO: Geometry-Aware Epipolar Diffusion for Robust Visual Odometry|Prateeth Rao et.al.|[2605.19556](https://arxiv.org/abs/2605.19556)|null|
 |2026-05-19|PRISM-SLAM: Probabilistic Ray-Grounded Inference for Scale-aware Metric SLAM|Eunsoo Im et.al.|[2605.19257](https://arxiv.org/abs/2605.19257)|null|
 |2026-05-19|Smartphone-based Circular Plot Sampling for Forest Inventory|Su Sun et.al.|[2605.19213](https://arxiv.org/abs/2605.19213)|null|
@@ -182,8 +182,8 @@
 |2025-05-19|eStonefish-scenes: A synthetically generated dataset for underwater event-based optical flow prediction tasks|Jad Mansour et.al.|[2505.13309](http://arxiv.org/abs/2505.13309)|null|
 |2025-05-23|VGGT-SLAM: Dense RGB SLAM Optimized on the SL(4) Manifold|Dominic Maggio et.al.|[2505.12549](http://arxiv.org/abs/2505.12549)|[link](https://github.com/MIT-SPARK/VGGT-SLAM)|
 |2025-05-18|Is Semantic SLAM Ready for Embedded Systems ? A Comparative Survey|Calvin Galagain et.al.|[2505.12384](http://arxiv.org/abs/2505.12384)|null|
-|2025-05-18|Structureless VIO|Junlin Song et.al.|[2505.12337](http://arxiv.org/abs/2505.12337)|**[link](https://github.com/BurhanMuhyiddin/DRT-VIO-INIT-Structureless-VI-BA)**|
-|2025-05-16|EgoDex: Learning Dexterous Manipulation from Large-Scale Egocentric Video|Ryan Hoque et.al.|[2505.11709](http://arxiv.org/abs/2505.11709)|**[link](https://github.com/apple/ml-egodex)**|
+|2025-05-18|Structureless VIO|Junlin Song et.al.|[2505.12337](http://arxiv.org/abs/2505.12337)|[link](https://github.com/BurhanMuhyiddin/DRT-VIO-INIT-Structureless-VI-BA)|
+|2025-05-16|EgoDex: Learning Dexterous Manipulation from Large-Scale Egocentric Video|Ryan Hoque et.al.|[2505.11709](http://arxiv.org/abs/2505.11709)|[link](https://github.com/apple/ml-egodex)|
 |2025-05-16|Improved Bag-of-Words Image Retrieval with Geometric Constraints for Ground Texture Localization|Aaron Wilhelm et.al.|[2505.11620](http://arxiv.org/abs/2505.11620)|null|
 |2025-05-16|Robust 2D lidar-based SLAM in arboreal environments without IMU/GNSS|Paola Nazate-Burgos et.al.|[2505.10847](http://arxiv.org/abs/2505.10847)|null|
 |2025-05-15|TartanGround: A Large-Scale Dataset for Ground Robot Perception and Navigation|Manthan Patel et.al.|[2505.10696](http://arxiv.org/abs/2505.10696)|null|

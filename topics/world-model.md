@@ -4,16 +4,16 @@
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-05-29**|**Positional versus Symbolic Attention Heads: Learning Dynamics, RoPE Geometry, and Length Generalization**|Felipe Urrutia et.al.|[2605.31558](https://arxiv.org/abs/2605.31558)|null|
-|**2026-05-29**|**IDOL: Inverse-Dynamics-Guided Future Prediction for End-to-End Autonomous Driving**|Chenghao Zhang et.al.|[2605.31476](https://arxiv.org/abs/2605.31476)|null|
-|**2026-05-29**|**Dreaming Of Others: Latent Teammate Modeling In World Models For Multi-Agent Reinforcement Learning**|Tomas Leroy-Stone et.al.|[2605.31361](https://arxiv.org/abs/2605.31361)|null|
-|**2026-05-29**|**DecMem: Towards Minute-Long Consistent World Generation with Decoupled Memory**|Zhenhao Yang et.al.|[2605.31336](https://arxiv.org/abs/2605.31336)|null|
-|**2026-05-29**|**AR Forcing: Towards Long-Horizon Robot Navigation World Model**|Yifei Yang et.al.|[2605.31314](https://arxiv.org/abs/2605.31314)|null|
-|**2026-05-29**|**Light Interaction: Training-Free Inference Acceleration for Interactive Video World Models**|Jiacheng Lu et.al.|[2605.31158](https://arxiv.org/abs/2605.31158)|null|
-|**2026-05-29**|**Subspace-Decomposed JEPAs: Disentangling Progression and Content in Latent World Models**|Lucas Thil et.al.|[2605.31111](https://arxiv.org/abs/2605.31111)|null|
-|**2026-05-29**|**SlotMemory: Object-Centric KV Memory for Streaming Long-Video Generation**|Weijia Dou et.al.|[2605.31033](https://arxiv.org/abs/2605.31033)|null|
-|**2026-05-29**|**PatchWorld: Gradient-Free Optimization of Executable World Models**|Jiaxin Bai et.al.|[2605.30880](https://arxiv.org/abs/2605.30880)|null|
-|**2026-05-29**|**Robust Dreamer: Deviation-Aware Latent Gaussian Memory for Action-Controlled AR Video Generation**|Hanlin Chen et.al.|[2605.30855](https://arxiv.org/abs/2605.30855)|null|
+|2026-05-29|Positional versus Symbolic Attention Heads: Learning Dynamics, RoPE Geometry, and Length Generalization|Felipe Urrutia et.al.|[2605.31558](https://arxiv.org/abs/2605.31558)|null|
+|2026-05-29|IDOL: Inverse-Dynamics-Guided Future Prediction for End-to-End Autonomous Driving|Chenghao Zhang et.al.|[2605.31476](https://arxiv.org/abs/2605.31476)|null|
+|2026-05-29|Dreaming Of Others: Latent Teammate Modeling In World Models For Multi-Agent Reinforcement Learning|Tomas Leroy-Stone et.al.|[2605.31361](https://arxiv.org/abs/2605.31361)|null|
+|2026-05-29|DecMem: Towards Minute-Long Consistent World Generation with Decoupled Memory|Zhenhao Yang et.al.|[2605.31336](https://arxiv.org/abs/2605.31336)|null|
+|2026-05-29|AR Forcing: Towards Long-Horizon Robot Navigation World Model|Yifei Yang et.al.|[2605.31314](https://arxiv.org/abs/2605.31314)|null|
+|2026-05-29|Light Interaction: Training-Free Inference Acceleration for Interactive Video World Models|Jiacheng Lu et.al.|[2605.31158](https://arxiv.org/abs/2605.31158)|null|
+|2026-05-29|Subspace-Decomposed JEPAs: Disentangling Progression and Content in Latent World Models|Lucas Thil et.al.|[2605.31111](https://arxiv.org/abs/2605.31111)|null|
+|2026-05-29|SlotMemory: Object-Centric KV Memory for Streaming Long-Video Generation|Weijia Dou et.al.|[2605.31033](https://arxiv.org/abs/2605.31033)|null|
+|2026-05-29|PatchWorld: Gradient-Free Optimization of Executable World Models|Jiaxin Bai et.al.|[2605.30880](https://arxiv.org/abs/2605.30880)|null|
+|2026-05-29|Robust Dreamer: Deviation-Aware Latent Gaussian Memory for Action-Controlled AR Video Generation|Hanlin Chen et.al.|[2605.30855](https://arxiv.org/abs/2605.30855)|null|
 |2026-05-20|Distill to Think, Foresee to Act: Cognitive-Physical Reinforcement Learning for Autonomous Driving|Yang Wu et.al.|[2605.21139](https://arxiv.org/abs/2605.21139)|null|
 |2026-05-20|Anomaly-Informed Confidence Calibration for Vision-Based Safety Prediction|Zhenjiang Mao et.al.|[2605.21109](https://arxiv.org/abs/2605.21109)|null|
 |2026-05-20|Q-ARVD: Quantizing Autoregressive Video Diffusion Models|Siao Tang et.al.|[2605.21072](https://arxiv.org/abs/2605.21072)|null|
@@ -25,7 +25,7 @@
 |2026-05-19|World-Ego Modeling for Long-Horizon Evolution in Hybrid Embodied Tasks|Zuyao Lin et.al.|[2605.19957](https://arxiv.org/abs/2605.19957)|null|
 |2026-05-19|AffectVerse: Emotional World Models for Multimodal Affective Computing|Bo Zhao et.al.|[2605.19950](https://arxiv.org/abs/2605.19950)|null|
 |2026-05-13|RoboEvolve: Co-Evolving Planner-Simulator for Robotic Manipulation with Limited Data|Harold Haodong Chen et.al.|[2605.13775](https://arxiv.org/abs/2605.13775)|null|
-|2026-05-13|Learning POMDP World Models from Observations with Language-Model Priors|Valentin Six et.al.|[2605.13740](https://arxiv.org/abs/2605.13740)|null|
+|2026-05-13|Learning POMDP World Models from Observations with Language-Model Priors|Valentin Six et.al.|[2605.13740](https://arxiv.org/abs/2605.13740)|**[link](https://github.com/atomresearch/pinductor)**|
 |2026-05-13|JEDI: Joint Embedding Diffusion World Model for Online Model-Based Reinforcement Learning|Jing Yu Lim et.al.|[2605.13013](https://arxiv.org/abs/2605.13013)|null|
 |2026-05-13|Embodied Multi-Agent Coordination by Aligning World Models Through Dialogue|Vardhan Dongre et.al.|[2605.12920](https://arxiv.org/abs/2605.12920)|null|
 |2026-05-13|PROMETHEUS: Automating Deep Causal Research Integrating Text, Data and Models|Sridhar Mahadevan et.al.|[2605.12835](https://arxiv.org/abs/2605.12835)|null|
@@ -81,8 +81,8 @@
 |2026-04-23|WorldMark: A Unified Benchmark Suite for Interactive Video World Models|Xiaojie Xu et.al.|[2604.21686](https://arxiv.org/abs/2604.21686)|[link](https://github.com/alaya-studio/WorldMark)|
 |2026-04-22|Agentic AI for Personalized Physiotherapy: A Multi-Agent Framework for Generative Video Training and Real-Time Pose Correction|Abhishek Dharmaratnakar et.al.|[2604.21154](https://arxiv.org/abs/2604.21154)|null|
 |2026-04-22|Open-H-Embodiment: A Large-Scale Dataset for Enabling Foundation Models in Medical Robotics|Open-H-Embodiment Consortium et.al.|[2604.21017](https://arxiv.org/abs/2604.21017)|null|
-|2026-04-22|DeVI: Physics-based Dexterous Human-Object Interaction via Synthetic Video Imitation|Hyeonwoo Kim et.al.|[2604.20841](https://arxiv.org/abs/2604.20841)|**[link](https://github.com/snuvclab/devi)**|
-|2026-04-22|Occupancy Reward Shaping: Improving Credit Assignment for Offline Goal-Conditioned Reinforcement Learning|Aravind Venugopal et.al.|[2604.20627](https://arxiv.org/abs/2604.20627)|**[link](https://github.com/aravindvenu7/occupancy_reward_shaping)**|
+|2026-04-22|DeVI: Physics-based Dexterous Human-Object Interaction via Synthetic Video Imitation|Hyeonwoo Kim et.al.|[2604.20841](https://arxiv.org/abs/2604.20841)|[link](https://github.com/snuvclab/devi)|
+|2026-04-22|Occupancy Reward Shaping: Improving Credit Assignment for Offline Goal-Conditioned Reinforcement Learning|Aravind Venugopal et.al.|[2604.20627](https://arxiv.org/abs/2604.20627)|[link](https://github.com/aravindvenu7/occupancy_reward_shaping)|
 |2026-04-22|CCTVBench: Contrastive Consistency Traffic VideoQA Benchmark for Multimodal LLMs|Xingcheng Zhou et.al.|[2604.20460](https://arxiv.org/abs/2604.20460)|null|
 |2026-04-20|Sonata: A Hybrid World Model for Inertial Kinematics under Clinical Data Scarcity|Blaise Delaney et.al.|[2604.18058](https://arxiv.org/abs/2604.18058)|null|
 |2026-04-20|The Umwelt Representation Hypothesis: Rethinking Universality|Victoria Bosch et.al.|[2604.17960](https://arxiv.org/abs/2604.17960)|null|
