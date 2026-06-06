@@ -1,9 +1,19 @@
 # SLAM
 
-> Updated on 2026.06.01
+> Updated on 2026.06.06
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-06-04**|**RadiusFPS: Efficient Farthest Point Sampling on CPUs and GPUs via Spherical Voxel Pruning**|Ziyang Yu et.al.|[2606.06255](https://arxiv.org/abs/2606.06255)|null|
+|**2026-06-04**|**Breaking Time: A Fully Gaussian Framework for Distributed and Continuous-Time SLAM**|Davide Ceriola et.al.|[2606.06250](https://arxiv.org/abs/2606.06250)|null|
+|**2026-06-04**|**Towards Realistic 3D Sonar Simulation**|Youssef Attia et.al.|[2606.06130](https://arxiv.org/abs/2606.06130)|null|
+|**2026-06-03**|**Teaching Robots to Say 'I Don't Know' : SENTINEL for Uncertainty-Aware SLAM**|Abhishek S et.al.|[2606.04853](https://arxiv.org/abs/2606.04853)|null|
+|**2026-06-03**|**BPDA-GMM: Bayesian Probabilistic Data Association via Gaussian Mixture Models for Semantic SLAM**|Thanh Nguyen Canh et.al.|[2606.04618](https://arxiv.org/abs/2606.04618)|null|
+|**2026-06-02**|**PixVOD: Pixel-Distributed Direct Visual Odometry and Depth Estimation**|Shinjeong Kim et.al.|[2606.03989](https://arxiv.org/abs/2606.03989)|null|
+|**2026-06-02**|**Autonomous Navigation System for Library Service Robot Based on Unitree Go2 Edu**|Aoduo Li et.al.|[2606.03340](https://arxiv.org/abs/2606.03340)|null|
+|**2026-06-01**|**Embedding Semantic Risk into Distance Fields and CBFs for Online Monocular Safe Control**|Dawei Zhang et.al.|[2606.01605](https://arxiv.org/abs/2606.01605)|null|
+|**2026-05-31**|**One Channel to Rule Them All: Rethinking Input Representation for Visual Place Recognition**|Timur Ismagilov et.al.|[2606.00936](https://arxiv.org/abs/2606.00936)|null|
+|**2026-05-30**|**SuperMemory-VQA: An Egocentric Visual Question-Answering Benchmark for Long-Horizon Memory**|Samiul Alam et.al.|[2606.00825](https://arxiv.org/abs/2606.00825)|null|
 |2026-05-25|G-DRAGON: Geospatial Reasoning and Dynamic Planning for Retrieval-Augmented Outdoor Navigation|Dongzhihan Wang et.al.|[2605.25646](https://arxiv.org/abs/2605.25646)|[link](https://github.com/Anastasiawd/G-DRAGON)|
 |2026-05-24|FusionCore: A 23-State Unscented Kalman Filter for IMU, Wheel Encoder, GPS, and Visual SLAM Fusion in ROS 2|Manan Kharwar et.al.|[2605.25239](https://arxiv.org/abs/2605.25239)|null|
 |2026-05-24|A Decentralized LiDAR-SLAM System with Certifiably Optimal Pose Graph Optimization|Baoshan Song et.al.|[2605.25051](https://arxiv.org/abs/2605.25051)|null|

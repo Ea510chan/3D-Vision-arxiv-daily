@@ -1,16 +1,19 @@
 # Point Cloud Registration
 
-> Updated on 2026.06.01
+> Updated on 2026.06.06
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|2026-05-19|PolycubeNet: A Dual-latent Diffusion Model for Polycube-Based Hexahedral Mesh Generation|Lu He et.al.|[2605.20274](https://arxiv.org/abs/2605.20274)|null|
-|2026-05-15|Cross-Modal Registration Between 3D and 2D Fingerprints via Pose-Aware Unwrapping and Point-Cloud Fusion|Xiongjun Guan et.al.|[2605.15796](https://arxiv.org/abs/2605.15796)|null|
-|2026-05-08|Offline-Online Hierarchical 3D Global Relocalization With Synthetic LiDAR Sensing and Descriptor-Space Retrieval|Jiahua Ren et.al.|[2605.07741](https://arxiv.org/abs/2605.07741)|null|
-|2026-05-08|FS-I2P:A Hierarchical Focus-Sweep Registration Network with Dynamically Allocated Depth|Zhixin Cheng et.al.|[2605.07607](https://arxiv.org/abs/2605.07607)|null|
-|2026-05-11|Angle-I2P: Angle-Consistent-Aware Hierarchical Attention for Cross-Modality Outlier Rejection|Muyao Peng et.al.|[2605.04541](https://arxiv.org/abs/2605.04541)|null|
-|2026-04-29|Point Cloud Registration via Probabilistic Self-Update Local Correspondence and Line Vector Sets|Kuo-Liang Chung et.al.|[2604.26318](https://arxiv.org/abs/2604.26318)|null|
-|2026-04-27|Point Cloud Registration for Fusion between SPECT MPI and CTA Images|Ni Yao et.al.|[2604.24524](https://arxiv.org/abs/2604.24524)|null|
+|**2026-05-28**|**FLIP: Real-Time and Resilient Formation Planning for Large-Scale DIstributed Swarms via Point Cloud Registration**|Yuan Zhou et.al.|[2605.29704](https://arxiv.org/abs/2605.29704)|null|
+|**2026-05-24**|**InvariantCloud: A Globally Invariant, Uniquely Indexed Point Cloud Framework for Robust 6-DoF Tactile Pose Tracking**|Pengfei Ye et.al.|[2605.25216](https://arxiv.org/abs/2605.25216)|null|
+|**2026-05-23**|**AvAtar: Learning to Align via Active Optimal Transport**|Qi Yu et.al.|[2605.24395](https://arxiv.org/abs/2605.24395)|**[link](https://github.com/yq-leo/AvAtar-ICML26)**|
+|**2026-05-19**|**PolycubeNet: A Dual-latent Diffusion Model for Polycube-Based Hexahedral Mesh Generation**|Lu He et.al.|[2605.20274](https://arxiv.org/abs/2605.20274)|null|
+|**2026-05-15**|**Cross-Modal Registration Between 3D and 2D Fingerprints via Pose-Aware Unwrapping and Point-Cloud Fusion**|Xiongjun Guan et.al.|[2605.15796](https://arxiv.org/abs/2605.15796)|null|
+|**2026-05-08**|**Offline-Online Hierarchical 3D Global Relocalization With Synthetic LiDAR Sensing and Descriptor-Space Retrieval**|Jiahua Ren et.al.|[2605.07741](https://arxiv.org/abs/2605.07741)|null|
+|**2026-05-25**|**FS-I2P:A Hierarchical Focus-Sweep Registration Network with Dynamically Allocated Depth**|Zhixin Cheng et.al.|[2605.07607](https://arxiv.org/abs/2605.07607)|null|
+|**2026-05-11**|**Angle-I2P: Angle-Consistent-Aware Hierarchical Attention for Cross-Modality Outlier Rejection**|Muyao Peng et.al.|[2605.04541](https://arxiv.org/abs/2605.04541)|null|
+|**2026-04-29**|**Point Cloud Registration via Probabilistic Self-Update Local Correspondence and Line Vector Sets**|Kuo-Liang Chung et.al.|[2604.26318](https://arxiv.org/abs/2604.26318)|null|
+|**2026-04-27**|**Point Cloud Registration for Fusion between SPECT MPI and CTA Images**|Ni Yao et.al.|[2604.24524](https://arxiv.org/abs/2604.24524)|null|
 |2026-04-24|Non-Minimal Sampling and Consensus for Prohibitively Large Datasets|Seong Hun Lee et.al.|[2604.22518](https://arxiv.org/abs/2604.22518)|null|
 |2026-04-25|PC2Model: ISPRS benchmark on 3D point cloud to model registration|Mehdi Maboudi et.al.|[2604.19596](https://arxiv.org/abs/2604.19596)|null|
 |2026-04-20|GeGS-PCR: Effective and Robust 3D Point Cloud Registration with Two-Stage Color-Enhanced Geometric-3DGS Fusion|Jiayi Tian et.al.|[2604.17721](https://arxiv.org/abs/2604.17721)|null|

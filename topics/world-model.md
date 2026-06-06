@@ -1,9 +1,19 @@
 # World Model
 
-> Updated on 2026.06.01
+> Updated on 2026.06.06
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-06-04**|**Thinking with Imagination: Agentic Visual Spatial Reasoning with World Simulators**|Chenming Zhu et.al.|[2606.06476](https://arxiv.org/abs/2606.06476)|null|
+|**2026-06-04**|**RhymeFlow: Training-Free Acceleration for Video Generation with Asynchronous Denoising Flow Scheduling**|Chensheng Dai et.al.|[2606.06309](https://arxiv.org/abs/2606.06309)|null|
+|**2026-06-04**|**MPCoT: Reward-Guided Multi-Path Latent Reasoning for Test-Time Scalable Vision-Language-Action**|Boyang Zhang et.al.|[2606.06245](https://arxiv.org/abs/2606.06245)|null|
+|**2026-06-04**|**WorldFly: A World-Model-Based Vision-Language-Action Model for UAV Navigation**|Shengtao Zheng et.al.|[2606.06147](https://arxiv.org/abs/2606.06147)|null|
+|**2026-06-04**|**PLAN-S: Bridging Planning with Latent Style Dynamics for Autonomous Driving World Models**|Xiaoyun Qiu et.al.|[2606.06014](https://arxiv.org/abs/2606.06014)|null|
+|**2026-06-04**|**World-Language-Action Model for Unified World Modeling, Language Reasoning, and Action Synthesis**|Yi Yang et.al.|[2606.05979](https://arxiv.org/abs/2606.05979)|null|
+|**2026-06-04**|**Towards a Data Flywheel for Embodied Intelligence in Logistics**|Anlan Yu et.al.|[2606.05960](https://arxiv.org/abs/2606.05960)|null|
+|**2026-06-04**|**Towards World Models in Biomedical Research**|Guangyu Wang et.al.|[2606.05925](https://arxiv.org/abs/2606.05925)|null|
+|**2026-06-04**|**PiL-World: A Chunk-Wise World Model for VLA Policy-in-the-Loop Evaluation**|Chong Ma et.al.|[2606.05773](https://arxiv.org/abs/2606.05773)|null|
+|**2026-06-04**|**DexFuture: Hierarchical Future-State Visuomotor Targeting for Bimanual Dexterous Tool Use**|Runfa Blark Li et.al.|[2606.05699](https://arxiv.org/abs/2606.05699)|null|
 |2026-05-29|Positional versus Symbolic Attention Heads: Learning Dynamics, RoPE Geometry, and Length Generalization|Felipe Urrutia et.al.|[2605.31558](https://arxiv.org/abs/2605.31558)|null|
 |2026-05-29|IDOL: Inverse-Dynamics-Guided Future Prediction for End-to-End Autonomous Driving|Chenghao Zhang et.al.|[2605.31476](https://arxiv.org/abs/2605.31476)|null|
 |2026-05-29|Dreaming Of Others: Latent Teammate Modeling In World Models For Multi-Agent Reinforcement Learning|Tomas Leroy-Stone et.al.|[2605.31361](https://arxiv.org/abs/2605.31361)|null|

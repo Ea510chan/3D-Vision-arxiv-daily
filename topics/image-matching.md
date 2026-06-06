@@ -1,15 +1,19 @@
 # Image Matching
 
-> Updated on 2026.06.01
+> Updated on 2026.06.06
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|2026-05-11|3DReflecNet: A Large-Scale Dataset for 3D Reconstruction of Reflective, Transparent, and Low-Texture Objects|Zhicheng Liang et.al.|[2605.10204](https://arxiv.org/abs/2605.10204)|null|
-|2026-05-06|Creative Robot Tool Use by Counterfactual Reasoning|M. Tuluhan Akbulut et.al.|[2605.05411](https://arxiv.org/abs/2605.05411)|null|
-|2026-05-02|SIFT-VTON: Geometric Correspondence Supervision on Cross-Attention for Virtual Try-On|Kosuke Takemoto et.al.|[2605.01296](https://arxiv.org/abs/2605.01296)|null|
-|2026-05-01|TrueEBSD in MTEX: automatic image matching for correlative microscopy applications|Vivian Tong et.al.|[2605.00703](https://arxiv.org/abs/2605.00703)|null|
-|2026-04-28|GeoSearch: Augmenting Worldwide Geolocalization with Web-Scale Reverse Image Search and Image Matching|Tung-Duong Le-Duc et.al.|[2604.25390](https://arxiv.org/abs/2604.25390)|null|
-|2026-04-26|Deploy DINO with Many-to-Many Association|Haodong Jiang et.al.|[2604.23670](https://arxiv.org/abs/2604.23670)|null|
+|**2026-06-02**|**SAMatcher: Co-Visibility Modeling with Segment Anything for Robust Feature Matching**|Xu Pan et.al.|[2606.03406](https://arxiv.org/abs/2606.03406)|null|
+|**2026-05-30**|**BEVIO: Efficient Bird's-Eye-View based Sparse-Update Visual-Inertial Odometry for Lunar Day-Night Navigation**|Mohit Singh et.al.|[2606.00709](https://arxiv.org/abs/2606.00709)|null|
+|**2026-06-01**|**SOCO: Benchmarking Semantic Object Correspondence in Vision Foundation Models**|Olaf Dünkel et.al.|[2605.31597](https://arxiv.org/abs/2605.31597)|null|
+|**2026-05-22**|**MASt3R-Nav: WayPixel Navigation in Relative 3D Maps**|Vansh Garg et.al.|[2605.24111](https://arxiv.org/abs/2605.24111)|null|
+|**2026-05-11**|**3DReflecNet: A Large-Scale Dataset for 3D Reconstruction of Reflective, Transparent, and Low-Texture Objects**|Zhicheng Liang et.al.|[2605.10204](https://arxiv.org/abs/2605.10204)|null|
+|**2026-05-06**|**Creative Robot Tool Use by Counterfactual Reasoning**|M. Tuluhan Akbulut et.al.|[2605.05411](https://arxiv.org/abs/2605.05411)|null|
+|**2026-05-02**|**SIFT-VTON: Geometric Correspondence Supervision on Cross-Attention for Virtual Try-On**|Kosuke Takemoto et.al.|[2605.01296](https://arxiv.org/abs/2605.01296)|null|
+|**2026-05-01**|**TrueEBSD in MTEX: automatic image matching for correlative microscopy applications**|Vivian Tong et.al.|[2605.00703](https://arxiv.org/abs/2605.00703)|null|
+|**2026-04-28**|**GeoSearch: Augmenting Worldwide Geolocalization with Web-Scale Reverse Image Search and Image Matching**|Tung-Duong Le-Duc et.al.|[2604.25390](https://arxiv.org/abs/2604.25390)|null|
+|**2026-04-26**|**Deploy DINO with Many-to-Many Association**|Haodong Jiang et.al.|[2604.23670](https://arxiv.org/abs/2604.23670)|null|
 |2026-04-24|ArchSym: Detecting 3D-Grounded Architectural Symmetries in the Wild|Hanyu Chen et.al.|[2604.22202](https://arxiv.org/abs/2604.22202)|null|
 |2026-04-22|MAPRPose: Mask-Aware Proposal and Amodal Refinement for Multi-Object 6D Pose Estimation|Yang Luo et.al.|[2604.20650](https://arxiv.org/abs/2604.20650)|null|
 |2026-04-17|Where Do Vision-Language Models Fail? World Scale Analysis for Image Geolocalization|Siddhant Bharadwaj et.al.|[2604.16248](https://arxiv.org/abs/2604.16248)|null|

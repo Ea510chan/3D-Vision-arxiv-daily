@@ -1,9 +1,19 @@
 # Novel View Synthesis
 
-> Updated on 2026.06.01
+> Updated on 2026.06.06
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-06-03**|**Unpaired RGB-Thermal Gaussian-Splatting Using Visual Geometric Transformers**|Jean Cordonnier et.al.|[2606.05491](https://arxiv.org/abs/2606.05491)|null|
+|**2026-06-03**|**Geometry Gaussians: Decoupling Appearance and Geometry in Gaussian Splatting**|Hongyu Zhou et.al.|[2606.05124](https://arxiv.org/abs/2606.05124)|null|
+|**2026-06-03**|**Recent Advances and Trends in Learning-based 3D Representations**|Adrien Schockaert et.al.|[2606.04871](https://arxiv.org/abs/2606.04871)|null|
+|**2026-06-02**|**MLP Splatting: Object-Centric Neural Fields**|Shinjeong Kim et.al.|[2606.03877](https://arxiv.org/abs/2606.03877)|null|
+|**2026-06-02**|**Characterizing Detectability in 3DGS Poisoning: A Stage-wise Benchmark**|Quoc-Anh Bui-Huynh et.al.|[2606.03499](https://arxiv.org/abs/2606.03499)|null|
+|**2026-06-02**|**FreeStreamGS: Online Feed-forward 3D Gaussian Splatting from Unposed Streaming Inputs**|Ruiyang Chen et.al.|[2606.03254](https://arxiv.org/abs/2606.03254)|null|
+|**2026-06-02**|**KC-3DGS: Kurtosis-Constrained Gaussian Splatting for High-Fidelity View Synthesis**|Vivekjyoti Banerjee et.al.|[2606.03120](https://arxiv.org/abs/2606.03120)|null|
+|**2026-06-01**|**The Road Ahead in Autonomous Driving: The KITScenes Multimodal Dataset**|Richard Schwarzkopf et.al.|[2606.02956](https://arxiv.org/abs/2606.02956)|null|
+|**2026-06-01**|**BEAST3D: Animal behavioral analysis and neural encoding from multi-view video via Gaussian splatting**|Yanchen Wang et.al.|[2606.02937](https://arxiv.org/abs/2606.02937)|null|
+|**2026-06-01**|**VEDAL: Variational Error-Driven Asynchronous Learning for 3D Gaussian Splatting Pruning**|Aoduo Li et.al.|[2606.02346](https://arxiv.org/abs/2606.02346)|null|
 |2026-05-29|Learning Global Motion with Compact Gaussians for Feed-Forward 4D Reconstruction|Mungyeom Kim et.al.|[2605.31595](https://arxiv.org/abs/2605.31595)|null|
 |2026-05-29|RayDer: Scalable Self-Supervised Novel View Synthesis from Real-World Video|Ulrich Prestel et.al.|[2605.31535](https://arxiv.org/abs/2605.31535)|null|
 |2026-05-29|Triangle Splatting SLAM|Nicholas Fry et.al.|[2605.31419](https://arxiv.org/abs/2605.31419)|null|
