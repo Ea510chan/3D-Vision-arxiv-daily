@@ -1,20 +1,20 @@
 # Flow Matching
 
-> Updated on 2026.06.06
+> Updated on 2026.06.08
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-06-04**|**Flow-based Policy Adaptation without Policy Updates**|Luzhe Sun et.al.|[2606.06461](https://arxiv.org/abs/2606.06461)|null|
-|**2026-06-04**|**Double Preconditioning (DoPr): Optimization for Test-Time Performance, not Validation Loss**|Thomas T. Zhang et.al.|[2606.06418](https://arxiv.org/abs/2606.06418)|null|
-|**2026-06-04**|**PAMF: Prior-Aware Multimodal Fusion for Incomplete Time Series Data**|Ziwen Kan et.al.|[2606.06328](https://arxiv.org/abs/2606.06328)|null|
-|**2026-06-04**|**Reactive Flux Matching: Mechanism Discovery and Adaptive Sampling of Rare Events**|Rishal Aggarwal et.al.|[2606.06295](https://arxiv.org/abs/2606.06295)|null|
-|**2026-06-04**|**Multi-Resolution Tactile Imitation Learning for Contact-Rich Robotic Manipulation**|Rickmer Krohn et.al.|[2606.06281](https://arxiv.org/abs/2606.06281)|null|
-|**2026-06-04**|**Geodesic Flow Matching on a Riemannian Degradation Manifold for Blind Image Restoration**|Akshay Janardan Bankar et.al.|[2606.06278](https://arxiv.org/abs/2606.06278)|null|
-|**2026-06-04**|**SAM-Flow: Source-Anchored Masked Flow for Training-Free Image Editing**|Haowang Cui et.al.|[2606.06228](https://arxiv.org/abs/2606.06228)|null|
-|**2026-06-04**|**WorldFly: A World-Model-Based Vision-Language-Action Model for UAV Navigation**|Shengtao Zheng et.al.|[2606.06147](https://arxiv.org/abs/2606.06147)|null|
-|**2026-06-04**|**Edit-R2: Context-Aware Reinforcement Learning for Multi-Turn Image Editing**|Yuxiao Ye et.al.|[2606.05950](https://arxiv.org/abs/2606.05950)|null|
-|**2026-06-04**|**UniVoice: A Unified Model for Speech and Singing Voice Generation**|Junjie Zheng et.al.|[2606.05852](https://arxiv.org/abs/2606.05852)|null|
-|2026-05-29|VolFill: Single-View Amodal 3D Scene Reconstruction with Volumetric Flow Matching|Tuan Duc Ngo et.al.|[2605.31466](https://arxiv.org/abs/2605.31466)|null|
+|2026-06-04|Flow-based Policy Adaptation without Policy Updates|Luzhe Sun et.al.|[2606.06461](https://arxiv.org/abs/2606.06461)|null|
+|2026-06-04|Double Preconditioning (DoPr): Optimization for Test-Time Performance, not Validation Loss|Thomas T. Zhang et.al.|[2606.06418](https://arxiv.org/abs/2606.06418)|null|
+|2026-06-04|PAMF: Prior-Aware Multimodal Fusion for Incomplete Time Series Data|Ziwen Kan et.al.|[2606.06328](https://arxiv.org/abs/2606.06328)|null|
+|2026-06-04|Reactive Flux Matching: Mechanism Discovery and Adaptive Sampling of Rare Events|Rishal Aggarwal et.al.|[2606.06295](https://arxiv.org/abs/2606.06295)|null|
+|2026-06-04|Multi-Resolution Tactile Imitation Learning for Contact-Rich Robotic Manipulation|Rickmer Krohn et.al.|[2606.06281](https://arxiv.org/abs/2606.06281)|null|
+|2026-06-04|Geodesic Flow Matching on a Riemannian Degradation Manifold for Blind Image Restoration|Akshay Janardan Bankar et.al.|[2606.06278](https://arxiv.org/abs/2606.06278)|null|
+|2026-06-04|SAM-Flow: Source-Anchored Masked Flow for Training-Free Image Editing|Haowang Cui et.al.|[2606.06228](https://arxiv.org/abs/2606.06228)|null|
+|2026-06-04|WorldFly: A World-Model-Based Vision-Language-Action Model for UAV Navigation|Shengtao Zheng et.al.|[2606.06147](https://arxiv.org/abs/2606.06147)|null|
+|2026-06-04|Edit-R2: Context-Aware Reinforcement Learning for Multi-Turn Image Editing|Yuxiao Ye et.al.|[2606.05950](https://arxiv.org/abs/2606.05950)|null|
+|2026-06-04|UniVoice: A Unified Model for Speech and Singing Voice Generation|Junjie Zheng et.al.|[2606.05852](https://arxiv.org/abs/2606.05852)|null|
+|2026-05-29|VolFill: Single-View Amodal 3D Scene Reconstruction with Volumetric Flow Matching|Tuan Duc Ngo et.al.|[2605.31466](https://arxiv.org/abs/2605.31466)|**[link](https://github.com/ngoductuanlhp/VolFill)**|
 |2026-05-29|TokTalk: Expressive Real-time Facial Animation from Audio-LLM Tokens|Qingcheng Zhao et.al.|[2605.31294](https://arxiv.org/abs/2605.31294)|null|
 |2026-05-29|DeMaVLA: A Vision-Language-Action Foundation Model for Generalizable Deformable Manipulation|Taiyi Su et.al.|[2605.31286](https://arxiv.org/abs/2605.31286)|null|
 |2026-05-29|Probabilistic Precipitation Nowcasting with Rectified Flow Transformers|Johannes Schusterbauer et.al.|[2605.31204](https://arxiv.org/abs/2605.31204)|null|
@@ -30,7 +30,7 @@
 |2026-05-27|Moment Matching Q-Learning|Yiyan et.al.|[2605.29033](https://arxiv.org/abs/2605.29033)|[link](https://github.com/marcophillip/imm-q-learning)|
 |2026-05-27|Resolving Endpoint Underfitting in Diffusion Bridges via Noise Alignment|Yurong Gao et.al.|[2605.28962](https://arxiv.org/abs/2605.28962)|null|
 |2026-05-27|Random Process Flow Matching: Generative Implicit Representations of Multivariate Random Fields|Julien Lalanne et.al.|[2605.28625](https://arxiv.org/abs/2605.28625)|null|
-|2026-05-27|DriveWAM: Video Generative Priors Enable Scalable World-Action Modeling for Autonomous Driving|Chen Shi et.al.|[2605.28544](https://arxiv.org/abs/2605.28544)|null|
+|2026-05-27|DriveWAM: Video Generative Priors Enable Scalable World-Action Modeling for Autonomous Driving|Chen Shi et.al.|[2605.28544](https://arxiv.org/abs/2605.28544)|**[link](https://github.com/chenshi3/DriveWAM)**|
 |2026-05-27|Universal Time Series Generation with Neural Controlled Differential Equations|Torben Berndt et.al.|[2605.28507](https://arxiv.org/abs/2605.28507)|null|
 |2026-05-27|ProgVLA: Progress-Aware Robot Manipulation Skill Learning|Seungsu Kim et.al.|[2605.28231](https://arxiv.org/abs/2605.28231)|null|
 |2026-05-20|Disentangling Generation and Regression in Stochastic Interpolants for Controllable Image Restoration|Yi Liu et.al.|[2605.21381](https://arxiv.org/abs/2605.21381)|null|
