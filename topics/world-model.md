@@ -1,9 +1,19 @@
 # World Model
 
-> Updated on 2026.06.08
+> Updated on 2026.06.11
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-06-10**|**World Pilot: Steering Vision-Language-Action Models with World-Action Priors**|Zefu Lin et.al.|[2606.12403](https://arxiv.org/abs/2606.12403)|null|
+|**2026-06-10**|**Slots, Transitions, Loops: Learning Composable World Models for ARC**|Gege Gao et.al.|[2606.12316](https://arxiv.org/abs/2606.12316)|null|
+|**2026-06-10**|**Making Foresight Actionable: Repurposing Representation Alignment in World Action Models**|Lu Qiu et.al.|[2606.12217](https://arxiv.org/abs/2606.12217)|null|
+|**2026-06-10**|**World Model Self-Distillation: Training World Models to Solve General Tasks**|Sebastian Stapf et.al.|[2606.12072](https://arxiv.org/abs/2606.12072)|null|
+|**2026-06-10**|**VICX: Generalizable Robot Manipulation via Video Generation and In-Context Operator Network**|Song Chen et.al.|[2606.12028](https://arxiv.org/abs/2606.12028)|null|
+|**2026-06-10**|**Vision-Language-Action Models Meet World Models: Embodied Agentic AI for Low-Altitude Wireless Networks**|Feibo Jiang et.al.|[2606.11618](https://arxiv.org/abs/2606.11618)|null|
+|**2026-06-09**|**Building Social World Models with Large Language Models**|Haofei Yu et.al.|[2606.11482](https://arxiv.org/abs/2606.11482)|null|
+|**2026-06-09**|**Signed Compression Progress on a Sealed Audit is Goodhart-Resistant**|Ayush Mittal et.al.|[2606.11417](https://arxiv.org/abs/2606.11417)|null|
+|**2026-06-09**|**PLUME: Probabilistic Latent Unified World Modeling and Parameter Estimation for Multi-Finger Manipulation**|Abhinav Kumar et.al.|[2606.11396](https://arxiv.org/abs/2606.11396)|null|
+|**2026-06-09**|**Next Forcing: Causal World Modeling with Multi-Chunk Prediction**|Gangwei Xu et.al.|[2606.11187](https://arxiv.org/abs/2606.11187)|null|
 |2026-06-04|Thinking with Imagination: Agentic Visual Spatial Reasoning with World Simulators|Chenming Zhu et.al.|[2606.06476](https://arxiv.org/abs/2606.06476)|null|
 |2026-06-04|RhymeFlow: Training-Free Acceleration for Video Generation with Asynchronous Denoising Flow Scheduling|Chensheng Dai et.al.|[2606.06309](https://arxiv.org/abs/2606.06309)|null|
 |2026-06-04|MPCoT: Reward-Guided Multi-Path Latent Reasoning for Test-Time Scalable Vision-Language-Action|Boyang Zhang et.al.|[2606.06245](https://arxiv.org/abs/2606.06245)|null|

@@ -1,9 +1,19 @@
 # 3D Reconstruction
 
-> Updated on 2026.06.08
+> Updated on 2026.06.11
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-06-10**|**Echoes of the Prior: A Computational Phenomenology of Forgetting**|Gege Gao et.al.|[2606.12340](https://arxiv.org/abs/2606.12340)|null|
+|**2026-06-10**|**Tracking atomic-scale interdiffusion in immiscible bimetallic nanoparticles via four-dimensional electron tomography**|Jisheng Xie et.al.|[2606.12150](https://arxiv.org/abs/2606.12150)|null|
+|**2026-06-10**|**Scalable Conformal MoSx Catalyst for Efficient Hydrogen Evolution at Industrial-Level Current Density in Alkaline Electrolyzers**|Yong Zuo et.al.|[2606.12110](https://arxiv.org/abs/2606.12110)|null|
+|**2026-06-10**|**Improvement of Heat-Treated Niobium Surface by In-situ Plasma Treatment Applied to Superconducting RF Resonator**|C. Boutelaa et.al.|[2606.12091](https://arxiv.org/abs/2606.12091)|null|
+|**2026-06-10**|**Boron Co-Alloying in AlScN Wurtzite Ferroelectrics: Insights from an 850-Sample Combinatorial Study**|Federica Messi et.al.|[2606.11954](https://arxiv.org/abs/2606.11954)|null|
+|**2026-06-10**|**Sonochemically Boosted Hydrogen Evolution Activity of Janus TMD Monolayers**|Rayantan Sadhukhan et.al.|[2606.11873](https://arxiv.org/abs/2606.11873)|null|
+|**2026-06-10**|**Extreme, transient bursts of energy in the auroral ionosphere. II. A magnetotail dipolarization event**|Magnus F Ivarsen et.al.|[2606.11861](https://arxiv.org/abs/2606.11861)|null|
+|**2026-06-10**|**Scene-Adaptive Nonlinear Tone Curves for Pseudo Ground-Truth Generation in Low-Light 3D Gaussian Splatting**|Mingzhe Lyu et.al.|[2606.11841](https://arxiv.org/abs/2606.11841)|null|
+|**2026-06-10**|**Fast Speech Foundation Model Distillation Using Interleaved Stacking**|Eungbeom Kim et.al.|[2606.11766](https://arxiv.org/abs/2606.11766)|null|
+|**2026-06-10**|**Contactless 3D Human Body Measurement Using Depth Cameras for Smart Health Monitoring**|Martha Asare et.al.|[2606.11578](https://arxiv.org/abs/2606.11578)|null|
 |2026-06-04|Texture-preserving implicit neural representation for Cone beam CT truncated reconstruction|Genyuan Zhang et.al.|[2606.06039](https://arxiv.org/abs/2606.06039)|null|
 |2026-06-04|Deep Learning-based 3D Oral Cavity Reconstruction Using 2D Intraoral Images|Jihun Cho et.al.|[2606.05998](https://arxiv.org/abs/2606.05998)|null|
 |2026-06-04|Robust and sparse support vector machine via hybrid truncated loss for supervised classification|Yuliang Yang et.al.|[2606.05814](https://arxiv.org/abs/2606.05814)|null|

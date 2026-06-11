@@ -1,9 +1,19 @@
 # Flow Matching
 
-> Updated on 2026.06.08
+> Updated on 2026.06.11
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-06-10**|**PianoKontext: Expressive Performance Rendering from Deadpan Context**|Dmitrii Gavrilev et.al.|[2606.12282](https://arxiv.org/abs/2606.12282)|null|
+|**2026-06-10**|**Holding the FP8 Quality Ceiling at 8-Bit Weights and Activations: INT8 and GGUF Post-Training Quantization of Ideogram 4.0 for Consumer GPUs**|Deep Gandhi et.al.|[2606.12280](https://arxiv.org/abs/2606.12280)|null|
+|**2026-06-10**|**DynaTok: Token-Based 4D Reconstruction from Partial Point Clouds**|Weirong Chen et.al.|[2606.12189](https://arxiv.org/abs/2606.12189)|null|
+|**2026-06-10**|**TopoCap: Learning Topology-Agnostic Motion Priors for Monocular Video-to-Animation**|Cheng-Feng Pu et.al.|[2606.12153](https://arxiv.org/abs/2606.12153)|null|
+|**2026-06-10**|**SpecLoR: Spectral Lookahead Rectification for Motion-Coherent Text-to-Video Generation**|Xu Zhang et.al.|[2606.11969](https://arxiv.org/abs/2606.11969)|null|
+|**2026-06-10**|**Flow Matching with In-Context Priors for Out-of-Distribution Brain Dynamics**|Sam Gijsen et.al.|[2606.11833](https://arxiv.org/abs/2606.11833)|null|
+|**2026-06-10**|**Spectrally Regularized Latent Flow Matching for Turbulence Generation**|Khalid Rafiq et.al.|[2606.11691](https://arxiv.org/abs/2606.11691)|null|
+|**2026-06-09**|**Mean Flow Distillation: Robust and Stable Distillation for Flow Matching Models**|An Zhao et.al.|[2606.11155](https://arxiv.org/abs/2606.11155)|null|
+|**2026-06-09**|**Exploring the Design Space of Reward Backpropagation for Flow Matching**|Ruoyu Wang et.al.|[2606.11075](https://arxiv.org/abs/2606.11075)|null|
+|**2026-06-09**|**Flow-DPPO: Divergence Proximal Policy Optimization for Flow Matching Models**|Bowen Ping et.al.|[2606.11025](https://arxiv.org/abs/2606.11025)|null|
 |2026-06-04|Flow-based Policy Adaptation without Policy Updates|Luzhe Sun et.al.|[2606.06461](https://arxiv.org/abs/2606.06461)|null|
 |2026-06-04|Double Preconditioning (DoPr): Optimization for Test-Time Performance, not Validation Loss|Thomas T. Zhang et.al.|[2606.06418](https://arxiv.org/abs/2606.06418)|null|
 |2026-06-04|PAMF: Prior-Aware Multimodal Fusion for Incomplete Time Series Data|Ziwen Kan et.al.|[2606.06328](https://arxiv.org/abs/2606.06328)|null|
