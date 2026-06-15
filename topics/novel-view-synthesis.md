@@ -1,19 +1,19 @@
 # Novel View Synthesis
 
-> Updated on 2026.06.11
+> Updated on 2026.06.15
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-06-10**|**Scene-Adaptive Nonlinear Tone Curves for Pseudo Ground-Truth Generation in Low-Light 3D Gaussian Splatting**|Mingzhe Lyu et.al.|[2606.11841](https://arxiv.org/abs/2606.11841)|null|
-|**2026-06-10**|**XPR: An Extensible Cross-Platform Point-Based Differentiable Renderer**|Steve Rhyner et.al.|[2606.11529](https://arxiv.org/abs/2606.11529)|null|
-|**2026-06-09**|**TRON: Tracing Rays to Orchestrate a Neural Renderer for 3D Gaussian Reconstructions**|Or Perel et.al.|[2606.11314](https://arxiv.org/abs/2606.11314)|null|
-|**2026-06-09**|**Envision4D: Envisioning Visual Futures via Feed-forward 4D Gaussian Splatting for Autonomous Driving**|Qi Song et.al.|[2606.10656](https://arxiv.org/abs/2606.10656)|null|
-|**2026-06-08**|**Beyond Spherical Harmonics: Rethinking Appearance Models for Radiance Reconstruction**|Ewa Miazga et.al.|[2606.09794](https://arxiv.org/abs/2606.09794)|null|
-|**2026-06-08**|**Leveraging NeRF-Rendered Images for 3D Gaussian Splatting**|Mizuki Morikawa et.al.|[2606.09034](https://arxiv.org/abs/2606.09034)|null|
-|**2026-06-06**|**LEGS: Laplacian-Enhanced Gaussian Splatting with a Nonlinear Weighted Loss**|Yongfei Guo et.al.|[2606.07932](https://arxiv.org/abs/2606.07932)|null|
-|**2026-06-05**|**UniSHARP: Universal Sharp Monocular View Synthesis**|Meixi Song et.al.|[2606.07514](https://arxiv.org/abs/2606.07514)|null|
-|**2026-06-05**|**Dash2Sim: Closed-Loop Driving Simulation from in-the-wild Dashcam Videos**|Anurag Ghosh et.al.|[2606.07366](https://arxiv.org/abs/2606.07366)|null|
-|**2026-06-03**|**Unpaired RGB-Thermal Gaussian-Splatting Using Visual Geometric Transformers**|Jean Cordonnier et.al.|[2606.05491](https://arxiv.org/abs/2606.05491)|null|
+|2026-06-10|Scene-Adaptive Nonlinear Tone Curves for Pseudo Ground-Truth Generation in Low-Light 3D Gaussian Splatting|Mingzhe Lyu et.al.|[2606.11841](https://arxiv.org/abs/2606.11841)|null|
+|2026-06-10|XPR: An Extensible Cross-Platform Point-Based Differentiable Renderer|Steve Rhyner et.al.|[2606.11529](https://arxiv.org/abs/2606.11529)|null|
+|2026-06-09|TRON: Tracing Rays to Orchestrate a Neural Renderer for 3D Gaussian Reconstructions|Or Perel et.al.|[2606.11314](https://arxiv.org/abs/2606.11314)|null|
+|2026-06-09|Envision4D: Envisioning Visual Futures via Feed-forward 4D Gaussian Splatting for Autonomous Driving|Qi Song et.al.|[2606.10656](https://arxiv.org/abs/2606.10656)|null|
+|2026-06-08|Beyond Spherical Harmonics: Rethinking Appearance Models for Radiance Reconstruction|Ewa Miazga et.al.|[2606.09794](https://arxiv.org/abs/2606.09794)|null|
+|2026-06-08|Leveraging NeRF-Rendered Images for 3D Gaussian Splatting|Mizuki Morikawa et.al.|[2606.09034](https://arxiv.org/abs/2606.09034)|null|
+|2026-06-06|LEGS: Laplacian-Enhanced Gaussian Splatting with a Nonlinear Weighted Loss|Yongfei Guo et.al.|[2606.07932](https://arxiv.org/abs/2606.07932)|null|
+|2026-06-05|UniSHARP: Universal Sharp Monocular View Synthesis|Meixi Song et.al.|[2606.07514](https://arxiv.org/abs/2606.07514)|null|
+|2026-06-05|Dash2Sim: Closed-Loop Driving Simulation from in-the-wild Dashcam Videos|Anurag Ghosh et.al.|[2606.07366](https://arxiv.org/abs/2606.07366)|null|
+|2026-06-03|Unpaired RGB-Thermal Gaussian-Splatting Using Visual Geometric Transformers|Jean Cordonnier et.al.|[2606.05491](https://arxiv.org/abs/2606.05491)|null|
 |2026-06-03|Geometry Gaussians: Decoupling Appearance and Geometry in Gaussian Splatting|Hongyu Zhou et.al.|[2606.05124](https://arxiv.org/abs/2606.05124)|null|
 |2026-06-03|Recent Advances and Trends in Learning-based 3D Representations|Adrien Schockaert et.al.|[2606.04871](https://arxiv.org/abs/2606.04871)|null|
 |2026-06-02|MLP Splatting: Object-Centric Neural Fields|Shinjeong Kim et.al.|[2606.03877](https://arxiv.org/abs/2606.03877)|null|

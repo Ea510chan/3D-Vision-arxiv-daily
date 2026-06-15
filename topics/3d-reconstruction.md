@@ -1,19 +1,19 @@
 # 3D Reconstruction
 
-> Updated on 2026.06.11
+> Updated on 2026.06.15
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-06-10**|**Echoes of the Prior: A Computational Phenomenology of Forgetting**|Gege Gao et.al.|[2606.12340](https://arxiv.org/abs/2606.12340)|null|
-|**2026-06-10**|**Tracking atomic-scale interdiffusion in immiscible bimetallic nanoparticles via four-dimensional electron tomography**|Jisheng Xie et.al.|[2606.12150](https://arxiv.org/abs/2606.12150)|null|
-|**2026-06-10**|**Scalable Conformal MoSx Catalyst for Efficient Hydrogen Evolution at Industrial-Level Current Density in Alkaline Electrolyzers**|Yong Zuo et.al.|[2606.12110](https://arxiv.org/abs/2606.12110)|null|
-|**2026-06-10**|**Improvement of Heat-Treated Niobium Surface by In-situ Plasma Treatment Applied to Superconducting RF Resonator**|C. Boutelaa et.al.|[2606.12091](https://arxiv.org/abs/2606.12091)|null|
-|**2026-06-10**|**Boron Co-Alloying in AlScN Wurtzite Ferroelectrics: Insights from an 850-Sample Combinatorial Study**|Federica Messi et.al.|[2606.11954](https://arxiv.org/abs/2606.11954)|null|
-|**2026-06-10**|**Sonochemically Boosted Hydrogen Evolution Activity of Janus TMD Monolayers**|Rayantan Sadhukhan et.al.|[2606.11873](https://arxiv.org/abs/2606.11873)|null|
-|**2026-06-10**|**Extreme, transient bursts of energy in the auroral ionosphere. II. A magnetotail dipolarization event**|Magnus F Ivarsen et.al.|[2606.11861](https://arxiv.org/abs/2606.11861)|null|
-|**2026-06-10**|**Scene-Adaptive Nonlinear Tone Curves for Pseudo Ground-Truth Generation in Low-Light 3D Gaussian Splatting**|Mingzhe Lyu et.al.|[2606.11841](https://arxiv.org/abs/2606.11841)|null|
-|**2026-06-10**|**Fast Speech Foundation Model Distillation Using Interleaved Stacking**|Eungbeom Kim et.al.|[2606.11766](https://arxiv.org/abs/2606.11766)|null|
-|**2026-06-10**|**Contactless 3D Human Body Measurement Using Depth Cameras for Smart Health Monitoring**|Martha Asare et.al.|[2606.11578](https://arxiv.org/abs/2606.11578)|null|
+|2026-06-10|Echoes of the Prior: A Computational Phenomenology of Forgetting|Gege Gao et.al.|[2606.12340](https://arxiv.org/abs/2606.12340)|null|
+|2026-06-10|Tracking atomic-scale interdiffusion in immiscible bimetallic nanoparticles via four-dimensional electron tomography|Jisheng Xie et.al.|[2606.12150](https://arxiv.org/abs/2606.12150)|null|
+|2026-06-10|Scalable Conformal MoSx Catalyst for Efficient Hydrogen Evolution at Industrial-Level Current Density in Alkaline Electrolyzers|Yong Zuo et.al.|[2606.12110](https://arxiv.org/abs/2606.12110)|null|
+|2026-06-10|Improvement of Heat-Treated Niobium Surface by In-situ Plasma Treatment Applied to Superconducting RF Resonator|C. Boutelaa et.al.|[2606.12091](https://arxiv.org/abs/2606.12091)|null|
+|2026-06-10|Boron Co-Alloying in AlScN Wurtzite Ferroelectrics: Insights from an 850-Sample Combinatorial Study|Federica Messi et.al.|[2606.11954](https://arxiv.org/abs/2606.11954)|null|
+|2026-06-10|Sonochemically Boosted Hydrogen Evolution Activity of Janus TMD Monolayers|Rayantan Sadhukhan et.al.|[2606.11873](https://arxiv.org/abs/2606.11873)|null|
+|2026-06-10|Extreme, transient bursts of energy in the auroral ionosphere. II. A magnetotail dipolarization event|Magnus F Ivarsen et.al.|[2606.11861](https://arxiv.org/abs/2606.11861)|null|
+|2026-06-10|Scene-Adaptive Nonlinear Tone Curves for Pseudo Ground-Truth Generation in Low-Light 3D Gaussian Splatting|Mingzhe Lyu et.al.|[2606.11841](https://arxiv.org/abs/2606.11841)|null|
+|2026-06-10|Fast Speech Foundation Model Distillation Using Interleaved Stacking|Eungbeom Kim et.al.|[2606.11766](https://arxiv.org/abs/2606.11766)|null|
+|2026-06-10|Contactless 3D Human Body Measurement Using Depth Cameras for Smart Health Monitoring|Martha Asare et.al.|[2606.11578](https://arxiv.org/abs/2606.11578)|null|
 |2026-06-04|Texture-preserving implicit neural representation for Cone beam CT truncated reconstruction|Genyuan Zhang et.al.|[2606.06039](https://arxiv.org/abs/2606.06039)|null|
 |2026-06-04|Deep Learning-based 3D Oral Cavity Reconstruction Using 2D Intraoral Images|Jihun Cho et.al.|[2606.05998](https://arxiv.org/abs/2606.05998)|null|
 |2026-06-04|Robust and sparse support vector machine via hybrid truncated loss for supervised classification|Yuliang Yang et.al.|[2606.05814](https://arxiv.org/abs/2606.05814)|null|
@@ -107,11 +107,11 @@
 |2026-04-27|Large-Scale Photogrammetric Documentation of St. John's Co-Cathedral: A Workflow for Cultural Heritage Preservation|Matthew Kenely et.al.|[2604.24316](https://arxiv.org/abs/2604.24316)|null|
 |2026-04-26|Bringing a Personal Point of View: Evaluating Dynamic 3D Gaussian Splatting for Egocentric Scene Reconstruction|Jan Warchocki et.al.|[2604.23803](https://arxiv.org/abs/2604.23803)|null|
 |2026-04-23|CuRast: Cuda-Based Software Rasterization for Billions of Triangles|Markus Schütz et.al.|[2604.21749](https://arxiv.org/abs/2604.21749)|null|
-|2026-04-22|GeoRect4D: Geometry-Compatible Generative Rectification for Dynamic Sparse-View 3D Reconstruction|Zhenlong Wu et.al.|[2604.20784](https://arxiv.org/abs/2604.20784)|null|
+|2026-04-22|GeoRect4D: Geometry-Compatible Generative Rectification for Dynamic Sparse-View 3D Reconstruction|Zhenlong Wu et.al.|[2604.20784](https://arxiv.org/abs/2604.20784)|**[link](https://github.com/MediaX-SJTU/GeoRect4D)**|
 |2026-04-21|FluSplat: Sparse-View 3D Editing without Test-Time Optimization|Haitao Huang et.al.|[2604.20038](https://arxiv.org/abs/2604.20038)|null|
 |2026-04-21|UniCon3R: Contact-aware 3D Human-Scene Reconstruction from Monocular Video|Tanuj Sur et.al.|[2604.19923](https://arxiv.org/abs/2604.19923)|null|
-|2026-04-21|AnyRecon: Arbitrary-View 3D Reconstruction with Video Diffusion Model|Yutian Chen et.al.|[2604.19747](https://arxiv.org/abs/2604.19747)|null|
-|2026-04-21|Paparazzo: Active Mapping of Moving 3D Objects|Davide Allegro et.al.|[2604.19556](https://arxiv.org/abs/2604.19556)|null|
+|2026-04-21|AnyRecon: Arbitrary-View 3D Reconstruction with Video Diffusion Model|Yutian Chen et.al.|[2604.19747](https://arxiv.org/abs/2604.19747)|**[link](https://github.com/OpenImagingLab/AnyRecon)**|
+|2026-04-21|Paparazzo: Active Mapping of Moving 3D Objects|Davide Allegro et.al.|[2604.19556](https://arxiv.org/abs/2604.19556)|**[link](https://github.com/davidea97/paparazzo-page)**|
 |2026-04-21|Unposed-to-3D: Learning Simulation-Ready Vehicles from Real-World Images|Hongyuan Liu et.al.|[2604.19257](https://arxiv.org/abs/2604.19257)|null|
 |2026-04-21|BALTIC: A Benchmark and Cross-Domain Strategy for 3D Reconstruction Across Air and Underwater Domains Under Varying Illumination|Michele Grimaldi et.al.|[2604.19133](https://arxiv.org/abs/2604.19133)|null|
 |2026-04-21|RoomRecon: High-Quality Textured Room Layout Reconstruction on Mobile Devices|Seok Joon Kim et.al.|[2604.19025](https://arxiv.org/abs/2604.19025)|null|
@@ -358,7 +358,7 @@
 |2025-09-24|Aerial-Ground Image Feature Matching via 3D Gaussian Splatting-based Intermediate View Rendering|Jiangxue Yu et.al.|[2509.19898](http://arxiv.org/abs/2509.19898)|null|
 |2025-09-23|DeblurSplat: SfM-free 3D Gaussian Splatting with Event Camera for Robust Deblurring|Pengteng Li et.al.|[2509.18898](http://arxiv.org/abs/2509.18898)|null|
 |2025-09-26|MS-GS: Multi-Appearance Sparse-View 3D Gaussian Splatting in the Wild|Deming Li et.al.|[2509.15548](http://arxiv.org/abs/2509.15548)|null|
-|2025-09-18|MapAnything: Universal Feed-Forward Metric 3D Reconstruction|Nikhil Keetha et.al.|[2509.13414](http://arxiv.org/abs/2509.13414)|null|
+|2025-09-18|MapAnything: Universal Feed-Forward Metric 3D Reconstruction|Nikhil Keetha et.al.|[2509.13414](http://arxiv.org/abs/2509.13414)|**[link](https://github.com/facebookresearch/map-anything)**|
 |2025-09-15|Neural 3D Object Reconstruction with Small-Scale Unmanned Aerial Vehicles|Àlmos Veres-Vitàlyos et.al.|[2509.12458](http://arxiv.org/abs/2509.12458)|null|
 |2025-09-15|Segmentation-Driven Initialization for Sparse-view 3D Gaussian Splatting|Yi-Hsin Li et.al.|[2509.11853](http://arxiv.org/abs/2509.11853)|null|
 |2025-09-14|3DAeroRelief: The first 3D Benchmark UAV Dataset for Post-Disaster Assessment|Nhut Le et.al.|[2509.11097](http://arxiv.org/abs/2509.11097)|null|
