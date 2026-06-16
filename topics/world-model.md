@@ -1,9 +1,19 @@
 # World Model
 
-> Updated on 2026.06.15
+> Updated on 2026.06.16
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-06-15**|**Geometric Action Model for Robot Policy Learning**|Jisang Han et.al.|[2606.17046](https://arxiv.org/abs/2606.17046)|**[link](https://github.com/cvlab-kaist/Geometric-Action-Model)**|
+|**2026-06-15**|**Qwen-RobotWorld Technical Report: Unifying Embodied World Modeling through Language-Conditioned Video Generation**|Jie Zhang et.al.|[2606.17030](https://arxiv.org/abs/2606.17030)|null|
+|**2026-06-15**|**DreamX-World 1.0: A General-Purpose Interactive World Model**| DreamX Team et.al.|[2606.16993](https://arxiv.org/abs/2606.16993)|**[link](https://github.com/AMAP-ML/DreamX-World)**|
+|**2026-06-15**|**Revealing Artifacts via Noise Amplification: A Novel Perspective for AI-Generated Video Detection**|Renxi Cheng et.al.|[2606.16742](https://arxiv.org/abs/2606.16742)|null|
+|**2026-06-15**|**Medical world models: representing medical states, modelling clinical dynamics and guiding intervention policies**|Ke Liu et.al.|[2606.16721](https://arxiv.org/abs/2606.16721)|null|
+|**2026-06-15**|**ARB4WM: An Adversarial Robustness Benchmark for World Models in Continuous Control**|Junjian Zhang et.al.|[2606.16605](https://arxiv.org/abs/2606.16605)|null|
+|**2026-06-15**|**Can LLM Agents Infer World Models? Evidence from Agentic Automata Learning**|Reef Menaged et.al.|[2606.16576](https://arxiv.org/abs/2606.16576)|null|
+|**2026-06-15**|**Kairos: A Native World Model Stack for Physical AI**| Kairos Team et.al.|[2606.16533](https://arxiv.org/abs/2606.16533)|null|
+|**2026-06-15**|**BadWorld: Adversarial Attacks on World Models**|Linghui Shen et.al.|[2606.16519](https://arxiv.org/abs/2606.16519)|null|
+|**2026-06-15**|**BRICKS-WM: Building Reusability via Interface Composition Kinetics for Structured World Models**|Shaowei Zhang et.al.|[2606.16489](https://arxiv.org/abs/2606.16489)|null|
 |2026-06-10|World Pilot: Steering Vision-Language-Action Models with World-Action Priors|Zefu Lin et.al.|[2606.12403](https://arxiv.org/abs/2606.12403)|null|
 |2026-06-10|Slots, Transitions, Loops: Learning Composable World Models for ARC|Gege Gao et.al.|[2606.12316](https://arxiv.org/abs/2606.12316)|null|
 |2026-06-10|Making Foresight Actionable: Repurposing Representation Alignment in World Action Models|Lu Qiu et.al.|[2606.12217](https://arxiv.org/abs/2606.12217)|null|

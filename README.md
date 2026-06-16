@@ -1,8 +1,8 @@
 # 3D Vision arXiv Daily 🚀
 
 > 🌐 Start here: **[GitHub Pages](https://ea510chan.github.io/3D-Vision-arxiv-daily/)**
-> Updated on 2026.06.15
-> Topics: 9 | Total papers: 1929
+> Updated on 2026.06.16
+> Topics: 9 | Total papers: 1956
 > Usage instructions: [here](./docs/README.md#usage)
 > This page is modified from [here](https://github.com/Vincentqyw/cv-arxiv-daily)
 
@@ -20,11 +20,11 @@
 | 🧩 | Image Matching | 2026-06-02 | 176 | [Image Matching](topics/image-matching.md) |
 | 🛰️ | SLAM | 2026-06-09 | 292 | [SLAM](topics/slam.md) |
 | 🧱 | 3D Reconstruction | 2026-06-10 | 462 | [3D Reconstruction](topics/3d-reconstruction.md) |
-| 🎥 | Novel View Synthesis | 2026-06-10 | 71 | [Novel View Synthesis](topics/novel-view-synthesis.md) |
-| 🗺️ | Visual Localization | 2026-06-10 | 468 | [Visual Localization](topics/visual-localization.md) |
-| 📍 | 3D Localization | 2026-06-10 | 17 | [3D Localization](topics/3d-localization.md) |
-| 🌍 | World Model | 2026-06-10 | 140 | [World Model](topics/world-model.md) |
-| 🌊 | Flow Matching | 2026-06-10 | 151 | [Flow Matching](topics/flow-matching.md) |
+| 🎥 | Novel View Synthesis | 2026-06-15 | 73 | [Novel View Synthesis](topics/novel-view-synthesis.md) |
+| 🗺️ | Visual Localization | 2026-06-14 | 472 | [Visual Localization](topics/visual-localization.md) |
+| 📍 | 3D Localization | 2026-06-12 | 18 | [3D Localization](topics/3d-localization.md) |
+| 🌍 | World Model | 2026-06-15 | 150 | [World Model](topics/world-model.md) |
+| 🌊 | Flow Matching | 2026-06-15 | 161 | [Flow Matching](topics/flow-matching.md) |
 
 ## How It Works
 
