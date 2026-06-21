@@ -1,9 +1,19 @@
 # Flow Matching
 
-> Updated on 2026.06.16
+> Updated on 2026.06.21
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-06-18**|**The FID Lottery: Quantifying Hidden Randomness in Generative-Model Evaluation**|Nicolas Dufour et.al.|[2606.20536](https://arxiv.org/abs/2606.20536)|null|
+|**2026-06-18**|**FlowEdit: Associative Memory for Lifelong Pronunciation Adaptation in Flow-Matching TTS**|Harshit Singh et.al.|[2606.20518](https://arxiv.org/abs/2606.20518)|null|
+|**2026-06-18**|**Transcript-Free Flow-Matching Text-to-Speech via Speech Feature Conditioning**|SooHwan Eom et.al.|[2606.20266](https://arxiv.org/abs/2606.20266)|null|
+|**2026-06-18**|**FlowMaps: Modeling Long-Term Multimodal Object Dynamics with Flow Matching**|Francesco Argenziano et.al.|[2606.20209](https://arxiv.org/abs/2606.20209)|null|
+|**2026-06-18**|**Frequency-Aware Flow Matching for Continuous and Consistent Robotic Action Generation**|Jianing Guo et.al.|[2606.20135](https://arxiv.org/abs/2606.20135)|null|
+|**2026-06-18**|**TriFlow: Generating Artist-Like 3D Mesh Topology via Nearest-Vertex Vector Fields**|Haoxuan Li et.al.|[2606.20131](https://arxiv.org/abs/2606.20131)|null|
+|**2026-06-18**|**Hybrid Diffusion Transformer for Instruction-Guided Audio Editing via Rectified Flow**|Liting Gao et.al.|[2606.20101](https://arxiv.org/abs/2606.20101)|null|
+|**2026-06-18**|**Site-Specific MIMO Channel Generation via Diffusion and Flow Matching: Fidelity, Efficiency, and Downstream Utility**|Sina Beyraghi et.al.|[2606.20098](https://arxiv.org/abs/2606.20098)|null|
+|**2026-06-18**|**Residual-Space Evolutionary Optimization via Flow-based Generative Models**|Zhuo Cao et.al.|[2606.20084](https://arxiv.org/abs/2606.20084)|null|
+|**2026-06-18**|**Time-Unconditional Generative Speech Enhancement via Autonomous Rectified Flow**|Wen Zhang et.al.|[2606.20001](https://arxiv.org/abs/2606.20001)|**[link](https://github.com/SpeechLab-HDU/ARFSE)**|
 |**2026-06-15**|**Human Universal Grasping**|Kevin Yuanbo Wu et.al.|[2606.17054](https://arxiv.org/abs/2606.17054)|null|
 |**2026-06-15**|**ExoTraj: A General Lower-limb Exoskeleton Assistance Policy for Complex Environments**|Xiao-Yin Liu et.al.|[2606.16876](https://arxiv.org/abs/2606.16876)|null|
 |**2026-06-15**|**Decision-Weighted Flow Matching for Contextual Stochastic Optimization**|Jize Xie et.al.|[2606.16790](https://arxiv.org/abs/2606.16790)|null|

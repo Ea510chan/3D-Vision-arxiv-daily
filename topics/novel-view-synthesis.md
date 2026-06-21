@@ -1,9 +1,14 @@
 # Novel View Synthesis
 
-> Updated on 2026.06.16
+> Updated on 2026.06.21
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-06-18**|**VisDom: Sparse Novel View Synthesis with Visible Domain Constraint**|Mariia Gladkova* et.al.|[2606.20531](https://arxiv.org/abs/2606.20531)|null|
+|**2026-06-18**|**LIT-GS: LiDAR-Inertial-Thermal Gaussian Splatting for Illumination-Robust Mapping**|Shikuan Shi et.al.|[2606.20424](https://arxiv.org/abs/2606.20424)|null|
+|**2026-06-18**|**Geometry-Preserving in 3D Gaussian Splatting for LiDAR-Camera Extrinsic Calibration**|Kyoleen Kwak et.al.|[2606.20103](https://arxiv.org/abs/2606.20103)|null|
+|**2026-06-18**|**MMD-SLAM: Structure-Enhanced Multi-Meta Gaussian Distribution-Guided Visual SLAM**|Fan Zhu et.al.|[2606.19874](https://arxiv.org/abs/2606.19874)|null|
+|**2026-06-17**|**NeuMesh++: Towards Versatile and Efficient Volumetric Editing with Disentangled Neural Mesh-based Implicit Field**|Chong Bao et.al.|[2606.19316](https://arxiv.org/abs/2606.19316)|null|
 |**2026-06-15**|**Local-GS: Accelerating 3D Gaussian Splatting via Tile-Local Warp Coherence**|Yang Luo et.al.|[2606.16566](https://arxiv.org/abs/2606.16566)|null|
 |**2026-06-10**|**CD-RCM: Generalizable Continuous-Depth Novel View Synthesis for Reflectance Confocal Microscopy**|Tooba Imtiaz et.al.|[2606.12635](https://arxiv.org/abs/2606.12635)|null|
 |**2026-06-10**|**Scene-Adaptive Nonlinear Tone Curves for Pseudo Ground-Truth Generation in Low-Light 3D Gaussian Splatting**|Mingzhe Lyu et.al.|[2606.11841](https://arxiv.org/abs/2606.11841)|null|
