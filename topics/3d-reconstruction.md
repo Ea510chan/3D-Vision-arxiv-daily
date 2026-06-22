@@ -1,6 +1,6 @@
 # 3D Reconstruction
 
-> Updated on 2026.06.21
+> Updated on 2026.06.22
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
@@ -107,11 +107,11 @@
 |2026-04-27|Large-Scale Photogrammetric Documentation of St. John's Co-Cathedral: A Workflow for Cultural Heritage Preservation|Matthew Kenely et.al.|[2604.24316](https://arxiv.org/abs/2604.24316)|null|
 |2026-04-26|Bringing a Personal Point of View: Evaluating Dynamic 3D Gaussian Splatting for Egocentric Scene Reconstruction|Jan Warchocki et.al.|[2604.23803](https://arxiv.org/abs/2604.23803)|null|
 |2026-04-23|CuRast: Cuda-Based Software Rasterization for Billions of Triangles|Markus Schütz et.al.|[2604.21749](https://arxiv.org/abs/2604.21749)|null|
-|2026-04-22|GeoRect4D: Geometry-Compatible Generative Rectification for Dynamic Sparse-View 3D Reconstruction|Zhenlong Wu et.al.|[2604.20784](https://arxiv.org/abs/2604.20784)|**[link](https://github.com/MediaX-SJTU/GeoRect4D)**|
+|2026-04-22|GeoRect4D: Geometry-Compatible Generative Rectification for Dynamic Sparse-View 3D Reconstruction|Zhenlong Wu et.al.|[2604.20784](https://arxiv.org/abs/2604.20784)|[link](https://github.com/MediaX-SJTU/GeoRect4D)|
 |2026-04-21|FluSplat: Sparse-View 3D Editing without Test-Time Optimization|Haitao Huang et.al.|[2604.20038](https://arxiv.org/abs/2604.20038)|null|
 |2026-04-21|UniCon3R: Contact-aware 3D Human-Scene Reconstruction from Monocular Video|Tanuj Sur et.al.|[2604.19923](https://arxiv.org/abs/2604.19923)|null|
-|2026-04-21|AnyRecon: Arbitrary-View 3D Reconstruction with Video Diffusion Model|Yutian Chen et.al.|[2604.19747](https://arxiv.org/abs/2604.19747)|**[link](https://github.com/OpenImagingLab/AnyRecon)**|
-|2026-04-21|Paparazzo: Active Mapping of Moving 3D Objects|Davide Allegro et.al.|[2604.19556](https://arxiv.org/abs/2604.19556)|**[link](https://github.com/davidea97/paparazzo-page)**|
+|2026-04-21|AnyRecon: Arbitrary-View 3D Reconstruction with Video Diffusion Model|Yutian Chen et.al.|[2604.19747](https://arxiv.org/abs/2604.19747)|[link](https://github.com/OpenImagingLab/AnyRecon)|
+|2026-04-21|Paparazzo: Active Mapping of Moving 3D Objects|Davide Allegro et.al.|[2604.19556](https://arxiv.org/abs/2604.19556)|[link](https://github.com/davidea97/paparazzo-page)|
 |2026-04-21|Unposed-to-3D: Learning Simulation-Ready Vehicles from Real-World Images|Hongyuan Liu et.al.|[2604.19257](https://arxiv.org/abs/2604.19257)|null|
 |2026-04-21|BALTIC: A Benchmark and Cross-Domain Strategy for 3D Reconstruction Across Air and Underwater Domains Under Varying Illumination|Michele Grimaldi et.al.|[2604.19133](https://arxiv.org/abs/2604.19133)|null|
 |2026-04-21|RoomRecon: High-Quality Textured Room Layout Reconstruction on Mobile Devices|Seok Joon Kim et.al.|[2604.19025](https://arxiv.org/abs/2604.19025)|null|
@@ -358,7 +358,7 @@
 |2025-09-24|Aerial-Ground Image Feature Matching via 3D Gaussian Splatting-based Intermediate View Rendering|Jiangxue Yu et.al.|[2509.19898](http://arxiv.org/abs/2509.19898)|null|
 |2025-09-23|DeblurSplat: SfM-free 3D Gaussian Splatting with Event Camera for Robust Deblurring|Pengteng Li et.al.|[2509.18898](http://arxiv.org/abs/2509.18898)|null|
 |2025-09-26|MS-GS: Multi-Appearance Sparse-View 3D Gaussian Splatting in the Wild|Deming Li et.al.|[2509.15548](http://arxiv.org/abs/2509.15548)|null|
-|2025-09-18|MapAnything: Universal Feed-Forward Metric 3D Reconstruction|Nikhil Keetha et.al.|[2509.13414](http://arxiv.org/abs/2509.13414)|**[link](https://github.com/facebookresearch/map-anything)**|
+|2025-09-18|MapAnything: Universal Feed-Forward Metric 3D Reconstruction|Nikhil Keetha et.al.|[2509.13414](http://arxiv.org/abs/2509.13414)|[link](https://github.com/facebookresearch/map-anything)|
 |2025-09-15|Neural 3D Object Reconstruction with Small-Scale Unmanned Aerial Vehicles|Àlmos Veres-Vitàlyos et.al.|[2509.12458](http://arxiv.org/abs/2509.12458)|null|
 |2025-09-15|Segmentation-Driven Initialization for Sparse-view 3D Gaussian Splatting|Yi-Hsin Li et.al.|[2509.11853](http://arxiv.org/abs/2509.11853)|null|
 |2025-09-14|3DAeroRelief: The first 3D Benchmark UAV Dataset for Post-Disaster Assessment|Nhut Le et.al.|[2509.11097](http://arxiv.org/abs/2509.11097)|null|

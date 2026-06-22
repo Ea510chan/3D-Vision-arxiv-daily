@@ -1,29 +1,29 @@
 # World Model
 
-> Updated on 2026.06.21
+> Updated on 2026.06.22
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-06-18**|**Current World Models Lack a Persistent State Core**|Jinpeng Lu et.al.|[2606.20545](https://arxiv.org/abs/2606.20545)|null|
-|**2026-06-18**|**DataMagic: Transforming Tabular Data into Data Insight Video**|Yupeng Xie et.al.|[2606.20388](https://arxiv.org/abs/2606.20388)|null|
-|**2026-06-18**|**Sensorimotor World Models: Perception for Action via Inverse Dynamics**|Petr Ivashkov et.al.|[2606.20104](https://arxiv.org/abs/2606.20104)|null|
-|**2026-06-18**|**Holo-World: Unified Camera, Object and Weather Control for Video World Model**|Xiangchen Yin et.al.|[2606.20083](https://arxiv.org/abs/2606.20083)|null|
-|**2026-06-18**|**Reward as An Agent for Embodied World Models**|Pu Li et.al.|[2606.19990](https://arxiv.org/abs/2606.19990)|null|
-|**2026-06-18**|**SWAP: Symmetric Equivariant World-Model for Agile Robot Parkour**|Kaixin Lan et.al.|[2606.19928](https://arxiv.org/abs/2606.19928)|null|
-|**2026-06-18**|**SurgVista: Long-Horizon Surgical World Modeling with Plausible Instrument-Tissue Dynamics**|Wentao Pan et.al.|[2606.19889](https://arxiv.org/abs/2606.19889)|null|
-|**2026-06-17**|**ImageWAM: Do World Action Models Really Need Video Generation, or Just Image Editing?**|Yuyang Zhang et.al.|[2606.19531](https://arxiv.org/abs/2606.19531)|null|
-|**2026-06-17**|**LooseControlVideo: Directorial Video Control using Spatial Blocking**|Shariq Farooq Bhat et.al.|[2606.19495](https://arxiv.org/abs/2606.19495)|null|
-|**2026-06-17**|**Can In-Context Learning Support Intrinsic Curiosity?**|Eric Elmoznino et.al.|[2606.19476](https://arxiv.org/abs/2606.19476)|null|
-|**2026-06-15**|**Geometric Action Model for Robot Policy Learning**|Jisang Han et.al.|[2606.17046](https://arxiv.org/abs/2606.17046)|**[link](https://github.com/cvlab-kaist/Geometric-Action-Model)**|
-|**2026-06-15**|**Qwen-RobotWorld Technical Report: Unifying Embodied World Modeling through Language-Conditioned Video Generation**|Jie Zhang et.al.|[2606.17030](https://arxiv.org/abs/2606.17030)|null|
-|**2026-06-15**|**DreamX-World 1.0: A General-Purpose Interactive World Model**| DreamX Team et.al.|[2606.16993](https://arxiv.org/abs/2606.16993)|**[link](https://github.com/AMAP-ML/DreamX-World)**|
-|**2026-06-15**|**Revealing Artifacts via Noise Amplification: A Novel Perspective for AI-Generated Video Detection**|Renxi Cheng et.al.|[2606.16742](https://arxiv.org/abs/2606.16742)|null|
-|**2026-06-15**|**Medical world models: representing medical states, modelling clinical dynamics and guiding intervention policies**|Ke Liu et.al.|[2606.16721](https://arxiv.org/abs/2606.16721)|null|
-|**2026-06-15**|**ARB4WM: An Adversarial Robustness Benchmark for World Models in Continuous Control**|Junjian Zhang et.al.|[2606.16605](https://arxiv.org/abs/2606.16605)|null|
-|**2026-06-15**|**Can LLM Agents Infer World Models? Evidence from Agentic Automata Learning**|Reef Menaged et.al.|[2606.16576](https://arxiv.org/abs/2606.16576)|null|
-|**2026-06-15**|**Kairos: A Native World Model Stack for Physical AI**| Kairos Team et.al.|[2606.16533](https://arxiv.org/abs/2606.16533)|null|
-|**2026-06-15**|**BadWorld: Adversarial Attacks on World Models**|Linghui Shen et.al.|[2606.16519](https://arxiv.org/abs/2606.16519)|null|
-|**2026-06-15**|**BRICKS-WM: Building Reusability via Interface Composition Kinetics for Structured World Models**|Shaowei Zhang et.al.|[2606.16489](https://arxiv.org/abs/2606.16489)|null|
+|2026-06-18|Current World Models Lack a Persistent State Core|Jinpeng Lu et.al.|[2606.20545](https://arxiv.org/abs/2606.20545)|null|
+|2026-06-18|DataMagic: Transforming Tabular Data into Data Insight Video|Yupeng Xie et.al.|[2606.20388](https://arxiv.org/abs/2606.20388)|null|
+|2026-06-18|Sensorimotor World Models: Perception for Action via Inverse Dynamics|Petr Ivashkov et.al.|[2606.20104](https://arxiv.org/abs/2606.20104)|null|
+|2026-06-18|Holo-World: Unified Camera, Object and Weather Control for Video World Model|Xiangchen Yin et.al.|[2606.20083](https://arxiv.org/abs/2606.20083)|null|
+|2026-06-18|Reward as An Agent for Embodied World Models|Pu Li et.al.|[2606.19990](https://arxiv.org/abs/2606.19990)|null|
+|2026-06-18|SWAP: Symmetric Equivariant World-Model for Agile Robot Parkour|Kaixin Lan et.al.|[2606.19928](https://arxiv.org/abs/2606.19928)|null|
+|2026-06-18|SurgVista: Long-Horizon Surgical World Modeling with Plausible Instrument-Tissue Dynamics|Wentao Pan et.al.|[2606.19889](https://arxiv.org/abs/2606.19889)|null|
+|2026-06-17|ImageWAM: Do World Action Models Really Need Video Generation, or Just Image Editing?|Yuyang Zhang et.al.|[2606.19531](https://arxiv.org/abs/2606.19531)|null|
+|2026-06-17|LooseControlVideo: Directorial Video Control using Spatial Blocking|Shariq Farooq Bhat et.al.|[2606.19495](https://arxiv.org/abs/2606.19495)|null|
+|2026-06-17|Can In-Context Learning Support Intrinsic Curiosity?|Eric Elmoznino et.al.|[2606.19476](https://arxiv.org/abs/2606.19476)|null|
+|2026-06-15|Geometric Action Model for Robot Policy Learning|Jisang Han et.al.|[2606.17046](https://arxiv.org/abs/2606.17046)|[link](https://github.com/cvlab-kaist/Geometric-Action-Model)|
+|2026-06-15|Qwen-RobotWorld Technical Report: Unifying Embodied World Modeling through Language-Conditioned Video Generation|Jie Zhang et.al.|[2606.17030](https://arxiv.org/abs/2606.17030)|null|
+|2026-06-15|DreamX-World 1.0: A General-Purpose Interactive World Model|DreamX Team et.al.|[2606.16993](https://arxiv.org/abs/2606.16993)|[link](https://github.com/AMAP-ML/DreamX-World)|
+|2026-06-15|Revealing Artifacts via Noise Amplification: A Novel Perspective for AI-Generated Video Detection|Renxi Cheng et.al.|[2606.16742](https://arxiv.org/abs/2606.16742)|null|
+|2026-06-15|Medical world models: representing medical states, modelling clinical dynamics and guiding intervention policies|Ke Liu et.al.|[2606.16721](https://arxiv.org/abs/2606.16721)|null|
+|2026-06-15|ARB4WM: An Adversarial Robustness Benchmark for World Models in Continuous Control|Junjian Zhang et.al.|[2606.16605](https://arxiv.org/abs/2606.16605)|null|
+|2026-06-15|Can LLM Agents Infer World Models? Evidence from Agentic Automata Learning|Reef Menaged et.al.|[2606.16576](https://arxiv.org/abs/2606.16576)|null|
+|2026-06-15|Kairos: A Native World Model Stack for Physical AI|Kairos Team et.al.|[2606.16533](https://arxiv.org/abs/2606.16533)|null|
+|2026-06-15|BadWorld: Adversarial Attacks on World Models|Linghui Shen et.al.|[2606.16519](https://arxiv.org/abs/2606.16519)|null|
+|2026-06-15|BRICKS-WM: Building Reusability via Interface Composition Kinetics for Structured World Models|Shaowei Zhang et.al.|[2606.16489](https://arxiv.org/abs/2606.16489)|null|
 |2026-06-10|World Pilot: Steering Vision-Language-Action Models with World-Action Priors|Zefu Lin et.al.|[2606.12403](https://arxiv.org/abs/2606.12403)|null|
 |2026-06-10|Slots, Transitions, Loops: Learning Composable World Models for ARC|Gege Gao et.al.|[2606.12316](https://arxiv.org/abs/2606.12316)|null|
 |2026-06-10|Making Foresight Actionable: Repurposing Representation Alignment in World Action Models|Lu Qiu et.al.|[2606.12217](https://arxiv.org/abs/2606.12217)|null|
@@ -104,9 +104,9 @@
 |2026-05-04|Existence, Asymptotic Behavior, and Numerical Analysis of a Generalized Abel Differential Equation with Applications in Financial Modeling|Dragos-Patru Covei et.al.|[2605.02831](https://arxiv.org/abs/2605.02831)|null|
 |2026-05-04|DynoSLAM: Dynamic SLAM with Generative Graph Neural Networks for Real-World Social Navigation|Danil Tokhchukov et.al.|[2605.02759](https://arxiv.org/abs/2605.02759)|null|
 |2026-05-04|Shadow-Loom: Causal Reasoning over Graphical World Model of Narratives|David Wilmot et.al.|[2605.02475](https://arxiv.org/abs/2605.02475)|null|
-|2026-04-30|HERMES++: Toward a Unified Driving World Model for 3D Scene Understanding and Generation|Xin Zhou et.al.|[2604.28196](https://arxiv.org/abs/2604.28196)|null|
+|2026-04-30|HERMES++: Toward a Unified Driving World Model for 3D Scene Understanding and Generation|Xin Zhou et.al.|[2604.28196](https://arxiv.org/abs/2604.28196)|**[link](https://github.com/H-EmbodVis/HERMESV2)**|
 |2026-04-30|LaST-R1: Reinforcing Action via Adaptive Physical Latent Reasoning for VLA Models|Hao Chen et.al.|[2604.28192](https://arxiv.org/abs/2604.28192)|null|
-|2026-04-30|Visual Generation in the New Era: An Evolution from Atomic Mapping to Agentic World Modeling|Keming Wu et.al.|[2604.28185](https://arxiv.org/abs/2604.28185)|null|
+|2026-04-30|Visual Generation in the New Era: An Evolution from Atomic Mapping to Agentic World Modeling|Keming Wu et.al.|[2604.28185](https://arxiv.org/abs/2604.28185)|**[link](https://github.com/EvolvingLMMs-Lab/Evolving-Visual-Generation)**|
 |2026-04-30|Beyond Gaussian Bottlenecks: Topologically Aligned Encoding of Vision-Transformer Feature Spaces|Andrew Bond et.al.|[2604.28122](https://arxiv.org/abs/2604.28122)|null|
 |2026-04-30|Dreaming Across Towns: Semantic Rollout and Town-Adversarial Regularization for Zero-Shot Held-Out-Town Fixed-Route Driving in CARLA|Feeza Khan Khanzada et.al.|[2604.27994](https://arxiv.org/abs/2604.27994)|null|
 |2026-04-30|GUI Agents with Reinforcement Learning: Toward Digital Inhabitants|Junan Hu et.al.|[2604.27955](https://arxiv.org/abs/2604.27955)|null|
@@ -117,7 +117,7 @@
 |2026-04-23|Seeing Fast and Slow: Learning the Flow of Time in Videos|Yen-Siang Wu et.al.|[2604.21931](https://arxiv.org/abs/2604.21931)|null|
 |2026-04-23|Machine Behavior in Relational Moral Dilemmas: Moral Rightness, Predicted Human Behavior, and Model Decisions|Jiseon Kim et.al.|[2604.21871](https://arxiv.org/abs/2604.21871)|null|
 |2026-04-23|Hi-WM: Human-in-the-World-Model for Scalable Robot Post-Training|Yaxuan Li et.al.|[2604.21741](https://arxiv.org/abs/2604.21741)|null|
-|2026-04-22|Building a Precise Video Language with Human-AI Oversight|Zhiqiu Lin et.al.|[2604.21718](https://arxiv.org/abs/2604.21718)|null|
+|2026-04-22|Building a Precise Video Language with Human-AI Oversight|Zhiqiu Lin et.al.|[2604.21718](https://arxiv.org/abs/2604.21718)|**[link](https://github.com/chancharikmitra/CHAI)**|
 |2026-04-23|WorldMark: A Unified Benchmark Suite for Interactive Video World Models|Xiaojie Xu et.al.|[2604.21686](https://arxiv.org/abs/2604.21686)|[link](https://github.com/alaya-studio/WorldMark)|
 |2026-04-22|Agentic AI for Personalized Physiotherapy: A Multi-Agent Framework for Generative Video Training and Real-Time Pose Correction|Abhishek Dharmaratnakar et.al.|[2604.21154](https://arxiv.org/abs/2604.21154)|null|
 |2026-04-22|Open-H-Embodiment: A Large-Scale Dataset for Enabling Foundation Models in Medical Robotics|Open-H-Embodiment Consortium et.al.|[2604.21017](https://arxiv.org/abs/2604.21017)|null|
