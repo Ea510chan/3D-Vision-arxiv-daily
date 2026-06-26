@@ -1,9 +1,19 @@
 # 3D Reconstruction
 
-> Updated on 2026.06.22
+> Updated on 2026.06.26
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-06-25**|**3D Imaging of Complex Skyrmion and Hopf Topologies in an Extended Sample**|I. Binnie et.al.|[2606.27365](https://arxiv.org/abs/2606.27365)|null|
+|**2026-06-25**|**RayPE: Ray-Space Positional Encoding for 3D-Aware Video Generation**|Minghao Yin et.al.|[2606.27345](https://arxiv.org/abs/2606.27345)|null|
+|**2026-06-25**|**SatSplatDiff: Geometry-preserving generative refinement for high-fidelity satellite Gaussian Splatting**|Jiyong Kim et.al.|[2606.27223](https://arxiv.org/abs/2606.27223)|null|
+|**2026-06-25**|**PanoImager: Geometry-Guided Novel View Synthesis and Reconstruction from Sparse Panoramic Views**|Zhisong Xu et.al.|[2606.27071](https://arxiv.org/abs/2606.27071)|null|
+|**2026-06-24**|**3D Kinematic Reconstruction of the Crab Nebula That Includes the Northern Ejecta `Jet'**|Ziwei Ding et.al.|[2606.26231](https://arxiv.org/abs/2606.26231)|null|
+|**2026-06-24**|**Beyond a Shadow of a Doubt: Close Proximity Geometry Reconstruction Using FMCW Radar Shadow Effects**|Felix de Trogoff du Boisguezennec et.al.|[2606.25829](https://arxiv.org/abs/2606.25829)|null|
+|**2026-06-24**|**Quotient homomorphisms of Topological MV-Algebras and Applications**|Li-Hong Xie et.al.|[2606.25676](https://arxiv.org/abs/2606.25676)|null|
+|**2026-06-24**|**PRISM: Feed-Forward Single-Image 3D Reconstruction via Geometric Warp-Residual Modeling**|Zhijie Zheng et.al.|[2606.25430](https://arxiv.org/abs/2606.25430)|null|
+|**2026-06-24**|**Evaluation Protocols and Validation for Cameras in Indoor Healthcare Monitoring**|Amirhossein Dadashzadeh et.al.|[2606.25284](https://arxiv.org/abs/2606.25284)|null|
+|**2026-06-23**|**GeoT2V-Bench: Benchmarking 3D Consistency in Text-to-Video Models via 3D Reconstruction**|Chenrui Fan et.al.|[2606.24829](https://arxiv.org/abs/2606.24829)|null|
 |2026-06-10|Echoes of the Prior: A Computational Phenomenology of Forgetting|Gege Gao et.al.|[2606.12340](https://arxiv.org/abs/2606.12340)|null|
 |2026-06-10|Tracking atomic-scale interdiffusion in immiscible bimetallic nanoparticles via four-dimensional electron tomography|Jisheng Xie et.al.|[2606.12150](https://arxiv.org/abs/2606.12150)|null|
 |2026-06-10|Scalable Conformal MoSx Catalyst for Efficient Hydrogen Evolution at Industrial-Level Current Density in Alkaline Electrolyzers|Yong Zuo et.al.|[2606.12110](https://arxiv.org/abs/2606.12110)|null|

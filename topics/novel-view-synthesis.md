@@ -1,9 +1,19 @@
 # Novel View Synthesis
 
-> Updated on 2026.06.22
+> Updated on 2026.06.26
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-06-25**|**PanoImager: Geometry-Guided Novel View Synthesis and Reconstruction from Sparse Panoramic Views**|Zhisong Xu et.al.|[2606.27071](https://arxiv.org/abs/2606.27071)|null|
+|**2026-06-25**|**Capacity-Controlled Multi-View Stylization of 3D Gaussian Splatting**|Zhihao Wen et.al.|[2606.26754](https://arxiv.org/abs/2606.26754)|null|
+|**2026-06-24**|**SSMNBench: Diagnosing Image-based Cross-View Human-Object Understanding via Single-View Sufficiency and Multi-View Necessity**|Tianchen Guo et.al.|[2606.25634](https://arxiv.org/abs/2606.25634)|**[link](https://github.com/gtc-gh/SSMNBench)**|
+|**2026-06-24**|**Gastroendoscopy View Synthesis: A New Real Dataset and Evaluation**|Masaki Minai et.al.|[2606.25427](https://arxiv.org/abs/2606.25427)|null|
+|**2026-06-23**|**Boosting Text-Driven Video Segmentation via Geometry-Aware Distillation**|Tianyu Zhu et.al.|[2606.24464](https://arxiv.org/abs/2606.24464)|**[link](https://github.com/Tony1882880/GeoLaV)**|
+|**2026-06-23**|**MM-TRELLIS: Point-Cloud Guided Multi-Modal 3D Vehicle Generation in Autonomous Driving**|Hongli Xiao et.al.|[2606.24301](https://arxiv.org/abs/2606.24301)|**[link](https://github.com/HongliXiao/MM-TRELLIS)**|
+|**2026-06-23**|**3DCarGen: Scalable 3D Car Generation via 3D-consistent Multi-view Synthesis**|Hongli Xiao et.al.|[2606.24257](https://arxiv.org/abs/2606.24257)|null|
+|**2026-06-23**|**Sat2City v2: Native 3D City Asset Generation from a Single Satellite Image**|Tongyan Hua et.al.|[2606.24138](https://arxiv.org/abs/2606.24138)|null|
+|**2026-06-22**|**MeGAS: Thermomechanical Dynamic Gaussian Splatting for Thermophysical Scene Editing**|Zesong Yang et.al.|[2606.23455](https://arxiv.org/abs/2606.23455)|null|
+|**2026-06-25**|**Learning Stable Canonical Worlds for Novel View Synthesis and Beyond**|Xiaoyu Xu et.al.|[2606.23027](https://arxiv.org/abs/2606.23027)|null|
 |2026-06-18|VisDom: Sparse Novel View Synthesis with Visible Domain Constraint|Mariia Gladkova* et.al.|[2606.20531](https://arxiv.org/abs/2606.20531)|null|
 |2026-06-18|LIT-GS: LiDAR-Inertial-Thermal Gaussian Splatting for Illumination-Robust Mapping|Shikuan Shi et.al.|[2606.20424](https://arxiv.org/abs/2606.20424)|null|
 |2026-06-18|Geometry-Preserving in 3D Gaussian Splatting for LiDAR-Camera Extrinsic Calibration|Kyoleen Kwak et.al.|[2606.20103](https://arxiv.org/abs/2606.20103)|null|

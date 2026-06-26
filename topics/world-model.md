@@ -1,9 +1,19 @@
 # World Model
 
-> Updated on 2026.06.22
+> Updated on 2026.06.26
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-06-25**|**PhysiFormer: Learning to Simulate Mechanics in World Space**|Yiming Chen et.al.|[2606.27364](https://arxiv.org/abs/2606.27364)|null|
+|**2026-06-25**|**Hallucination in World Models is Predictable and Preventable**|Nicklas Hansen et.al.|[2606.27326](https://arxiv.org/abs/2606.27326)|null|
+|**2026-06-25**|**Not All Actions Are Equal: Rethinking Conditioning for Dexterous World Model**|Zizhao Yuan et.al.|[2606.27325](https://arxiv.org/abs/2606.27325)|null|
+|**2026-06-25**|**EO-WM: A Physically Informed World Model for Probabilistic Earth Observation Forecasting**|Junwei Luo et.al.|[2606.27277](https://arxiv.org/abs/2606.27277)|null|
+|**2026-06-25**|**A Generalization Theory for JEPA-Based World Models**|Jingyi Cui et.al.|[2606.27014](https://arxiv.org/abs/2606.27014)|null|
+|**2026-06-25**|**Einstein World Models**|Munachiso Samuel Nwadike et.al.|[2606.26969](https://arxiv.org/abs/2606.26969)|null|
+|**2026-06-25**|**Look-Before-Move: Narrative-Grounded World Visual Attention in Dynamic 3D Story Worlds**|Jiaming Bian et.al.|[2606.26964](https://arxiv.org/abs/2606.26964)|null|
+|**2026-06-25**|**Risk-Aware Selective Multimodal Driver Monitoring with Driver-State World Modeling**|Daosheng Qiu et.al.|[2606.26922](https://arxiv.org/abs/2606.26922)|null|
+|**2026-06-25**|**PhysRAG: Enhancing Physics-Awareness in Video Generation via Retrieval-Augmented Generation**|Kexu Cheng et.al.|[2606.26916](https://arxiv.org/abs/2606.26916)|null|
+|**2026-06-25**|**LithoDreamer: A Physics-Informed World Model for Multi-Stage Computational Lithography**|Yuqi Jiang et.al.|[2606.26713](https://arxiv.org/abs/2606.26713)|null|
 |2026-06-18|Current World Models Lack a Persistent State Core|Jinpeng Lu et.al.|[2606.20545](https://arxiv.org/abs/2606.20545)|null|
 |2026-06-18|DataMagic: Transforming Tabular Data into Data Insight Video|Yupeng Xie et.al.|[2606.20388](https://arxiv.org/abs/2606.20388)|null|
 |2026-06-18|Sensorimotor World Models: Perception for Action via Inverse Dynamics|Petr Ivashkov et.al.|[2606.20104](https://arxiv.org/abs/2606.20104)|null|

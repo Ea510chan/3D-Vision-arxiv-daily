@@ -1,9 +1,19 @@
 # SLAM
 
-> Updated on 2026.06.22
+> Updated on 2026.06.26
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-06-25**|**RayPE: Ray-Space Positional Encoding for 3D-Aware Video Generation**|Minghao Yin et.al.|[2606.27345](https://arxiv.org/abs/2606.27345)|null|
+|**2026-06-25**|**PanoImager: Geometry-Guided Novel View Synthesis and Reconstruction from Sparse Panoramic Views**|Zhisong Xu et.al.|[2606.27071](https://arxiv.org/abs/2606.27071)|null|
+|**2026-06-24**|**RoboAtlas: Contextual Active SLAM**|Alexander Schperberg et.al.|[2606.26046](https://arxiv.org/abs/2606.26046)|null|
+|**2026-06-24**|**DSP-SLAM++: A Unified Framework for Multi-Class, High-Fidelity Object SLAM in the Wild**|Ahmad Kourani et.al.|[2606.25953](https://arxiv.org/abs/2606.25953)|null|
+|**2026-06-24**|**SA-LIVO: Efficient LiDAR-Inertial-Visual Odometry with Subspace-Aware Degeneracy Handling**|Yinong Cao et.al.|[2606.25699](https://arxiv.org/abs/2606.25699)|null|
+|**2026-06-24**|**OrthoTrack: Continuous 6-DoF UAV Trajectory Estimation Anchored in Public Orthophotos**|Oussema Dhaouadi et.al.|[2606.25245](https://arxiv.org/abs/2606.25245)|null|
+|**2026-06-23**|**Vision-Language Model Reasoning for Contextual Semantic Mapping in Intralogistics**|Marvin Rüdt et.al.|[2606.24814](https://arxiv.org/abs/2606.24814)|null|
+|**2026-06-23**|**Pocket-SLAM: Rendering-Area-Aware Pruning for Memory-Efficient 3DGS-SLAM**|Leshu Li et.al.|[2606.24796](https://arxiv.org/abs/2606.24796)|null|
+|**2026-06-23**|**Decentralized Pose Graph Riemannian Optimization for Object-based Multi-Robot SLAM**|Yixian Zhao et.al.|[2606.24489](https://arxiv.org/abs/2606.24489)|null|
+|**2026-06-22**|**Offline Reinforcement Learning for Warehouse SLAM Throughput Control**|Tina Dongxu Li et.al.|[2606.23978](https://arxiv.org/abs/2606.23978)|null|
 |2026-06-09|Information-Preserving Continuous Occupancy Mapping with Variance-Weighted Submap Joining|Zhuhua Bai et.al.|[2606.10442](https://arxiv.org/abs/2606.10442)|null|
 |2026-06-08|Efficient Minimal Solvers for Visual-Inertial Relative Pose Estimation in Multi-Camera Systems|Tao Li et.al.|[2606.09477](https://arxiv.org/abs/2606.09477)|null|
 |2026-06-06|G2G: Exploiting Intra-Group Geometry for Inter-Group Pose Estimation|Yufei Wei et.al.|[2606.08284](https://arxiv.org/abs/2606.08284)|[link](https://github.com/WeiYuFei0217/G2G)|

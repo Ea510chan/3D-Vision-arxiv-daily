@@ -1,17 +1,19 @@
 # Visual Localization
 
-> Updated on 2026.06.22
+> Updated on 2026.06.26
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|2026-06-14|VL2Spike: Spike-driven Distillation from VLMs for Low-Power Visual Perception in Embodied AI|Zinan Liu et.al.|[2606.15898](https://arxiv.org/abs/2606.15898)|null|
-|2026-06-13|FD-SLAM: Fast Dense Radar-Inertial SLAM with Frequency-Domain Loop Closure and Pose Graph Optimization|Nader J. Abu-Alrub et.al.|[2606.15491](https://arxiv.org/abs/2606.15491)|null|
-|2026-06-11|Measurement-Calibrated Multi-Camera Fusion for Vision-Based Indoor Localization|Mateo Toro Diz et.al.|[2606.13509](https://arxiv.org/abs/2606.13509)|null|
-|2026-06-11|Visual Place Recognition in Forests with Depth-Aware Distillation|Walter Nedov et.al.|[2606.13206](https://arxiv.org/abs/2606.13206)|null|
-|2026-06-10|SG2Loc: Sequential Visual Localization on 3D Scene Graphs|Nicole Damblon et.al.|[2606.11880](https://arxiv.org/abs/2606.11880)|[link](https://github.com/DmblnNicole/sg2loc)|
-|2026-06-06|Empowering Feed-Forward Reconstruction Models with Metric Scale via Satellite Images|Xianghui Ze et.al.|[2606.08205](https://arxiv.org/abs/2606.08205)|null|
-|2026-06-04|Atomic-scale phase-field modeling for 2D ferroelectrics including non-Gaussian fluctuations|Kairi Masuda et.al.|[2606.06771](https://arxiv.org/abs/2606.06771)|null|
-|2026-06-03|Z-FLoc: Zero-Shot Floorplan Localization via Geometric Primitives|Ayumi Umemura et.al.|[2606.04788](https://arxiv.org/abs/2606.04788)|null|
+|**2026-06-23**|**From Open Waters to Enclosed Cabins: ProteusVPR for Cross-Scene Visual Place Recognition in Maritime Perception and Cabin Inspection**|Zexi Chena et.al.|[2606.24234](https://arxiv.org/abs/2606.24234)|null|
+|**2026-06-02**|**A Fixed Representation Probe Reveals Morphology-Space Organization in Non-Gaussian Elastic Transients**|Jose Sanchez-Andreu et.al.|[2606.17061](https://arxiv.org/abs/2606.17061)|null|
+|**2026-06-14**|**VL2Spike: Spike-driven Distillation from VLMs for Low-Power Visual Perception in Embodied AI**|Zinan Liu et.al.|[2606.15898](https://arxiv.org/abs/2606.15898)|null|
+|**2026-06-13**|**FD-SLAM: Fast Dense Radar-Inertial SLAM with Frequency-Domain Loop Closure and Pose Graph Optimization**|Nader J. Abu-Alrub et.al.|[2606.15491](https://arxiv.org/abs/2606.15491)|null|
+|**2026-06-11**|**Measurement-Calibrated Multi-Camera Fusion for Vision-Based Indoor Localization**|Mateo Toro Diz et.al.|[2606.13509](https://arxiv.org/abs/2606.13509)|null|
+|**2026-06-11**|**Visual Place Recognition in Forests with Depth-Aware Distillation**|Walter Nedov et.al.|[2606.13206](https://arxiv.org/abs/2606.13206)|null|
+|**2026-06-10**|**SG2Loc: Sequential Visual Localization on 3D Scene Graphs**|Nicole Damblon et.al.|[2606.11880](https://arxiv.org/abs/2606.11880)|null|
+|**2026-06-06**|**Empowering Feed-Forward Reconstruction Models with Metric Scale via Satellite Images**|Xianghui Ze et.al.|[2606.08205](https://arxiv.org/abs/2606.08205)|null|
+|**2026-06-04**|**Atomic-scale phase-field modeling for 2D ferroelectrics including non-Gaussian fluctuations**|Kairi Masuda et.al.|[2606.06771](https://arxiv.org/abs/2606.06771)|null|
+|**2026-06-03**|**Z-FLoc: Zero-Shot Floorplan Localization via Geometric Primitives**|Ayumi Umemura et.al.|[2606.04788](https://arxiv.org/abs/2606.04788)|null|
 |2026-06-02|SAMatcher: Co-Visibility Modeling with Segment Anything for Robust Feature Matching|Xu Pan et.al.|[2606.03406](https://arxiv.org/abs/2606.03406)|null|
 |2026-06-01|Adversarial Attacks on Robot Localization Systems via Deep Feature Perturbation|Zhenyu Li et.al.|[2606.01892](https://arxiv.org/abs/2606.01892)|null|
 |2026-06-01|FlatVPR: Plug-and-play Geo-linear Residual Adapter for Geometric Rectification of Foundation Model Feature Manifolds|Rai Hisada et.al.|[2606.01734](https://arxiv.org/abs/2606.01734)|null|
