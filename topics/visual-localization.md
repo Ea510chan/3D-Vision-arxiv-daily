@@ -1,19 +1,19 @@
 # Visual Localization
 
-> Updated on 2026.06.26
+> Updated on 2026.06.29
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-06-23**|**From Open Waters to Enclosed Cabins: ProteusVPR for Cross-Scene Visual Place Recognition in Maritime Perception and Cabin Inspection**|Zexi Chena et.al.|[2606.24234](https://arxiv.org/abs/2606.24234)|null|
-|**2026-06-02**|**A Fixed Representation Probe Reveals Morphology-Space Organization in Non-Gaussian Elastic Transients**|Jose Sanchez-Andreu et.al.|[2606.17061](https://arxiv.org/abs/2606.17061)|null|
-|**2026-06-14**|**VL2Spike: Spike-driven Distillation from VLMs for Low-Power Visual Perception in Embodied AI**|Zinan Liu et.al.|[2606.15898](https://arxiv.org/abs/2606.15898)|null|
-|**2026-06-13**|**FD-SLAM: Fast Dense Radar-Inertial SLAM with Frequency-Domain Loop Closure and Pose Graph Optimization**|Nader J. Abu-Alrub et.al.|[2606.15491](https://arxiv.org/abs/2606.15491)|null|
-|**2026-06-11**|**Measurement-Calibrated Multi-Camera Fusion for Vision-Based Indoor Localization**|Mateo Toro Diz et.al.|[2606.13509](https://arxiv.org/abs/2606.13509)|null|
-|**2026-06-11**|**Visual Place Recognition in Forests with Depth-Aware Distillation**|Walter Nedov et.al.|[2606.13206](https://arxiv.org/abs/2606.13206)|null|
-|**2026-06-10**|**SG2Loc: Sequential Visual Localization on 3D Scene Graphs**|Nicole Damblon et.al.|[2606.11880](https://arxiv.org/abs/2606.11880)|null|
-|**2026-06-06**|**Empowering Feed-Forward Reconstruction Models with Metric Scale via Satellite Images**|Xianghui Ze et.al.|[2606.08205](https://arxiv.org/abs/2606.08205)|null|
-|**2026-06-04**|**Atomic-scale phase-field modeling for 2D ferroelectrics including non-Gaussian fluctuations**|Kairi Masuda et.al.|[2606.06771](https://arxiv.org/abs/2606.06771)|null|
-|**2026-06-03**|**Z-FLoc: Zero-Shot Floorplan Localization via Geometric Primitives**|Ayumi Umemura et.al.|[2606.04788](https://arxiv.org/abs/2606.04788)|null|
+|2026-06-23|From Open Waters to Enclosed Cabins: ProteusVPR for Cross-Scene Visual Place Recognition in Maritime Perception and Cabin Inspection|Zexi Chena et.al.|[2606.24234](https://arxiv.org/abs/2606.24234)|null|
+|2026-06-02|A Fixed Representation Probe Reveals Morphology-Space Organization in Non-Gaussian Elastic Transients|Jose Sanchez-Andreu et.al.|[2606.17061](https://arxiv.org/abs/2606.17061)|null|
+|2026-06-14|VL2Spike: Spike-driven Distillation from VLMs for Low-Power Visual Perception in Embodied AI|Zinan Liu et.al.|[2606.15898](https://arxiv.org/abs/2606.15898)|null|
+|2026-06-13|FD-SLAM: Fast Dense Radar-Inertial SLAM with Frequency-Domain Loop Closure and Pose Graph Optimization|Nader J. Abu-Alrub et.al.|[2606.15491](https://arxiv.org/abs/2606.15491)|null|
+|2026-06-11|Measurement-Calibrated Multi-Camera Fusion for Vision-Based Indoor Localization|Mateo Toro Diz et.al.|[2606.13509](https://arxiv.org/abs/2606.13509)|null|
+|2026-06-11|Visual Place Recognition in Forests with Depth-Aware Distillation|Walter Nedov et.al.|[2606.13206](https://arxiv.org/abs/2606.13206)|null|
+|2026-06-10|SG2Loc: Sequential Visual Localization on 3D Scene Graphs|Nicole Damblon et.al.|[2606.11880](https://arxiv.org/abs/2606.11880)|null|
+|2026-06-06|Empowering Feed-Forward Reconstruction Models with Metric Scale via Satellite Images|Xianghui Ze et.al.|[2606.08205](https://arxiv.org/abs/2606.08205)|null|
+|2026-06-04|Atomic-scale phase-field modeling for 2D ferroelectrics including non-Gaussian fluctuations|Kairi Masuda et.al.|[2606.06771](https://arxiv.org/abs/2606.06771)|null|
+|2026-06-03|Z-FLoc: Zero-Shot Floorplan Localization via Geometric Primitives|Ayumi Umemura et.al.|[2606.04788](https://arxiv.org/abs/2606.04788)|null|
 |2026-06-02|SAMatcher: Co-Visibility Modeling with Segment Anything for Robust Feature Matching|Xu Pan et.al.|[2606.03406](https://arxiv.org/abs/2606.03406)|null|
 |2026-06-01|Adversarial Attacks on Robot Localization Systems via Deep Feature Perturbation|Zhenyu Li et.al.|[2606.01892](https://arxiv.org/abs/2606.01892)|null|
 |2026-06-01|FlatVPR: Plug-and-play Geo-linear Residual Adapter for Geometric Rectification of Foundation Model Feature Manifolds|Rai Hisada et.al.|[2606.01734](https://arxiv.org/abs/2606.01734)|null|
@@ -338,7 +338,7 @@
 |2025-07-17|MCoT-RE: Multi-Faceted Chain-of-Thought and Re-Ranking for Training-Free Zero-Shot Composed Image Retrieval|Jeong-Woo Park et.al.|[2507.12819](http://arxiv.org/abs/2507.12819)|null|
 |2025-07-16|QuRe: Query-Relevant Retrieval through Hard Negative Sampling in Composed Image Retrieval|Jaehyun Kwak et.al.|[2507.12416](http://arxiv.org/abs/2507.12416)|[link](https://github.com/jackwaky/QuRe)|
 |2025-07-16|CorrMoE: Mixture of Experts with De-stylization Learning for Cross-Scene and Cross-Domain Correspondence Pruning|Peiwen Xia et.al.|[2507.11834](http://arxiv.org/abs/2507.11834)|null|
-|2025-07-14|GT-Loc: Unifying When and Where in Images Through a Joint Embedding Space|David G. Shatwell et.al.|[2507.10473](http://arxiv.org/abs/2507.10473)|null|
+|2025-07-14|GT-Loc: Unifying When and Where in Images Through a Joint Embedding Space|David G. Shatwell et.al.|[2507.10473](http://arxiv.org/abs/2507.10473)|**[link](https://github.com/dshatwell23/gtloc)**|
 |2025-07-14|Text-to-Remote-Sensing-Image Retrieval beyond RGB Sources|Daniele Rege Cambrin et.al.|[2507.10403](http://arxiv.org/abs/2507.10403)|null|
 |2025-07-14|Kaleidoscopic Background Attack: Disrupting Pose Estimation with Multi-Fold Radial Symmetry Textures|Xinlong Ding et.al.|[2507.10265](http://arxiv.org/abs/2507.10265)|null|
 |2025-07-11|RadiomicsRetrieval: A Customizable Framework for Medical Image Retrieval Using Radiomics Features|Inye Na et.al.|[2507.08546](http://arxiv.org/abs/2507.08546)|null|
@@ -355,7 +355,7 @@
 |2025-07-08|What's Making That Sound Right Now? Video-centric Audio-Visual Localization|Hahyeon Choi et.al.|[2507.04667](http://arxiv.org/abs/2507.04667)|null|
 |2025-07-07|Simultaneous Localization and Mapping Using Active mmWave Sensing in 5G NR|Tao Du et.al.|[2507.04662](http://arxiv.org/abs/2507.04662)|null|
 |2025-07-06|U-ViLAR: Uncertainty-Aware Visual Localization for Autonomous Driving via Differentiable Association and Registration|Xiaofan Li et.al.|[2507.04503](http://arxiv.org/abs/2507.04503)|null|
-|2025-07-04|Query-Based Adaptive Aggregation for Multi-Dataset Joint Training Toward Universal Visual Place Recognition|Jiuhong Xiao et.al.|[2507.03831](http://arxiv.org/abs/2507.03831)|null|
+|2025-07-04|Query-Based Adaptive Aggregation for Multi-Dataset Joint Training Toward Universal Visual Place Recognition|Jiuhong Xiao et.al.|[2507.03831](http://arxiv.org/abs/2507.03831)|**[link](https://github.com/arplaboratory/QAA)**|
 |2025-07-01|LoD-Loc v2: Aerial Visual Localization over Low Level-of-Detail City Models using Explicit Silhouette Alignment|Juelin Zhu et.al.|[2507.00659](http://arxiv.org/abs/2507.00659)|[link](https://github.com/VictorZoo/LoD-Loc-v2)|
 |2025-06-28|Utilizing a Novel Deep Learning Method for Scene Categorization in Remote Sensing Data|Ghufran A. Omran et.al.|[2506.22939](http://arxiv.org/abs/2506.22939)|null|
 |2025-06-28|Mask-aware Text-to-Image Retrieval: Referring Expression Segmentation Meets Cross-modal Retrieval|Li-Cheng Shen et.al.|[2506.22864](http://arxiv.org/abs/2506.22864)|[link](https://github.com/AI-Application-and-Integration-Lab/MaTIR)|

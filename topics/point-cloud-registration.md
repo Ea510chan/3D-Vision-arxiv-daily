@@ -1,19 +1,19 @@
 # Point Cloud Registration
 
-> Updated on 2026.06.26
+> Updated on 2026.06.29
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-06-17**|**DreamReg: Belief-Driven World Model for 2D-3D Ultrasound Registration**|Luoyao Kang et.al.|[2606.18825](https://arxiv.org/abs/2606.18825)|null|
-|**2026-06-15**|**Sinkhorn-CPD: Robust point cloud registration via unbalanced entropic optimal transport**|Jin Zhang et.al.|[2606.16672](https://arxiv.org/abs/2606.16672)|**[link](https://github.com/Theigrams/SinkhornCPD)**|
-|**2026-06-12**|**A Lightweight Fiducial-Based Pipeline for 3D Hyperspectral Mapping of ex-vivo Lumpectomy Specimens**|Anna Bicchi et.al.|[2606.14534](https://arxiv.org/abs/2606.14534)|null|
-|**2026-06-11**|**Point-Wise Geometry-Aware Transformer for Partial-to-Full Point Cloud Registration in Computer-Assisted Surgery**|Siyu Zhou et.al.|[2606.13488](https://arxiv.org/abs/2606.13488)|null|
-|**2026-06-10**|**Explore From Sketch: Accelerating UAV Exploration in Large-scale Environments with Prior Maps**|Tiancheng Lai et.al.|[2606.11708](https://arxiv.org/abs/2606.11708)|null|
-|**2026-06-08**|**Generalized-CVO: Fast and Correspondence-Free Local Point Cloud Registration with Second Order Riemannian Optimization**|Ray Zhang et.al.|[2606.10019](https://arxiv.org/abs/2606.10019)|null|
-|**2026-05-28**|**FLIP: Real-Time and Resilient Formation Planning for Large-Scale DIstributed Swarms via Point Cloud Registration**|Yuan Zhou et.al.|[2605.29704](https://arxiv.org/abs/2605.29704)|null|
-|**2026-05-24**|**InvariantCloud: A Globally Invariant, Uniquely Indexed Point Cloud Framework for Robust 6-DoF Tactile Pose Tracking**|Pengfei Ye et.al.|[2605.25216](https://arxiv.org/abs/2605.25216)|null|
-|**2026-05-23**|**AvAtar: Learning to Align via Active Optimal Transport**|Qi Yu et.al.|[2605.24395](https://arxiv.org/abs/2605.24395)|null|
-|**2026-05-19**|**PolycubeNet: A Dual-latent Diffusion Model for Polycube-Based Hexahedral Mesh Generation**|Lu He et.al.|[2605.20274](https://arxiv.org/abs/2605.20274)|null|
+|2026-06-17|DreamReg: Belief-Driven World Model for 2D-3D Ultrasound Registration|Luoyao Kang et.al.|[2606.18825](https://arxiv.org/abs/2606.18825)|null|
+|2026-06-15|Sinkhorn-CPD: Robust point cloud registration via unbalanced entropic optimal transport|Jin Zhang et.al.|[2606.16672](https://arxiv.org/abs/2606.16672)|[link](https://github.com/Theigrams/SinkhornCPD)|
+|2026-06-12|A Lightweight Fiducial-Based Pipeline for 3D Hyperspectral Mapping of ex-vivo Lumpectomy Specimens|Anna Bicchi et.al.|[2606.14534](https://arxiv.org/abs/2606.14534)|null|
+|2026-06-11|Point-Wise Geometry-Aware Transformer for Partial-to-Full Point Cloud Registration in Computer-Assisted Surgery|Siyu Zhou et.al.|[2606.13488](https://arxiv.org/abs/2606.13488)|null|
+|2026-06-10|Explore From Sketch: Accelerating UAV Exploration in Large-scale Environments with Prior Maps|Tiancheng Lai et.al.|[2606.11708](https://arxiv.org/abs/2606.11708)|null|
+|2026-06-08|Generalized-CVO: Fast and Correspondence-Free Local Point Cloud Registration with Second Order Riemannian Optimization|Ray Zhang et.al.|[2606.10019](https://arxiv.org/abs/2606.10019)|null|
+|2026-05-28|FLIP: Real-Time and Resilient Formation Planning for Large-Scale DIstributed Swarms via Point Cloud Registration|Yuan Zhou et.al.|[2605.29704](https://arxiv.org/abs/2605.29704)|null|
+|2026-05-24|InvariantCloud: A Globally Invariant, Uniquely Indexed Point Cloud Framework for Robust 6-DoF Tactile Pose Tracking|Pengfei Ye et.al.|[2605.25216](https://arxiv.org/abs/2605.25216)|null|
+|2026-05-23|AvAtar: Learning to Align via Active Optimal Transport|Qi Yu et.al.|[2605.24395](https://arxiv.org/abs/2605.24395)|null|
+|2026-05-19|PolycubeNet: A Dual-latent Diffusion Model for Polycube-Based Hexahedral Mesh Generation|Lu He et.al.|[2605.20274](https://arxiv.org/abs/2605.20274)|null|
 |2026-05-15|Cross-Modal Registration Between 3D and 2D Fingerprints via Pose-Aware Unwrapping and Point-Cloud Fusion|Xiongjun Guan et.al.|[2605.15796](https://arxiv.org/abs/2605.15796)|null|
 |2026-05-08|Offline-Online Hierarchical 3D Global Relocalization With Synthetic LiDAR Sensing and Descriptor-Space Retrieval|Jiahua Ren et.al.|[2605.07741](https://arxiv.org/abs/2605.07741)|null|
 |2026-05-25|FS-I2P:A Hierarchical Focus-Sweep Registration Network with Dynamically Allocated Depth|Zhixin Cheng et.al.|[2605.07607](https://arxiv.org/abs/2605.07607)|null|

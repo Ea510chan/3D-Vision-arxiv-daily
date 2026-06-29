@@ -1,19 +1,19 @@
 # Flow Matching
 
-> Updated on 2026.06.26
+> Updated on 2026.06.29
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-06-25**|**DanceOPD: On-Policy Generative Field Distillation**|Wei Zhou et.al.|[2606.27377](https://arxiv.org/abs/2606.27377)|null|
-|**2026-06-25**|**Ask, Solve, Generate: Self-Evolving Unified Multimodal Understanding and Generation via Self-Consistency Rewards**|Ritesh Thawkar et.al.|[2606.27376](https://arxiv.org/abs/2606.27376)|null|
-|**2026-06-25**|**Learning to Fold: prizewinning solution at LeHome Challenge 2026 (1st place online, 2nd offline)**|Ilia Larchenko et.al.|[2606.27163](https://arxiv.org/abs/2606.27163)|null|
-|**2026-06-25**|**PAMAE: Phase-Aware-MoE Action Experts Towards Reliable Flow-Matching Vision-Language-Action Policies**|Jiayu Yang et.al.|[2606.27144](https://arxiv.org/abs/2606.27144)|null|
-|**2026-06-25**|**Bridging Vision and Language Concepts through Optimal Transport Semantic Flow**|Chenyang Zhang et.al.|[2606.26891](https://arxiv.org/abs/2606.26891)|null|
-|**2026-06-25**|**Closing the Quality Gap in Low-Resource Text-to-Speech: LoRA Fine-Tuning of VoxCPM2 for Khmer and Korean**|Phannet Pov et.al.|[2606.26618](https://arxiv.org/abs/2606.26618)|null|
-|**2026-06-25**|**VoiceTTA: Enhancing Zero-Shot Text-to-Speech via Reinforcement Learning-Based Test-Time Adaptation**|Tianxin Xie et.al.|[2606.26534](https://arxiv.org/abs/2606.26534)|null|
-|**2026-06-24**|**Learning Action Priors for Cross-embodiment Robot Manipulation**|Dong Jing et.al.|[2606.26095](https://arxiv.org/abs/2606.26095)|null|
-|**2026-06-24**|**Parnassus: A GPU-enabled, Python-based Package for Fast Particle Detector Simulation and Reconstruction**|Abdelrahman Elabd et.al.|[2606.26089](https://arxiv.org/abs/2606.26089)|null|
-|**2026-06-24**|**Action ControlNet: A Lightweight Delay-Aware Adapter for Smooth Asynchronous Control in Vision-Language-Action Models**|Tiecheng Guo et.al.|[2606.25985](https://arxiv.org/abs/2606.25985)|null|
+|2026-06-25|DanceOPD: On-Policy Generative Field Distillation|Wei Zhou et.al.|[2606.27377](https://arxiv.org/abs/2606.27377)|null|
+|2026-06-25|Ask, Solve, Generate: Self-Evolving Unified Multimodal Understanding and Generation via Self-Consistency Rewards|Ritesh Thawkar et.al.|[2606.27376](https://arxiv.org/abs/2606.27376)|null|
+|2026-06-25|Learning to Fold: prizewinning solution at LeHome Challenge 2026 (1st place online, 2nd offline)|Ilia Larchenko et.al.|[2606.27163](https://arxiv.org/abs/2606.27163)|null|
+|2026-06-25|PAMAE: Phase-Aware-MoE Action Experts Towards Reliable Flow-Matching Vision-Language-Action Policies|Jiayu Yang et.al.|[2606.27144](https://arxiv.org/abs/2606.27144)|null|
+|2026-06-25|Bridging Vision and Language Concepts through Optimal Transport Semantic Flow|Chenyang Zhang et.al.|[2606.26891](https://arxiv.org/abs/2606.26891)|null|
+|2026-06-25|Closing the Quality Gap in Low-Resource Text-to-Speech: LoRA Fine-Tuning of VoxCPM2 for Khmer and Korean|Phannet Pov et.al.|[2606.26618](https://arxiv.org/abs/2606.26618)|null|
+|2026-06-25|VoiceTTA: Enhancing Zero-Shot Text-to-Speech via Reinforcement Learning-Based Test-Time Adaptation|Tianxin Xie et.al.|[2606.26534](https://arxiv.org/abs/2606.26534)|null|
+|2026-06-24|Learning Action Priors for Cross-embodiment Robot Manipulation|Dong Jing et.al.|[2606.26095](https://arxiv.org/abs/2606.26095)|null|
+|2026-06-24|Parnassus: A GPU-enabled, Python-based Package for Fast Particle Detector Simulation and Reconstruction|Abdelrahman Elabd et.al.|[2606.26089](https://arxiv.org/abs/2606.26089)|null|
+|2026-06-24|Action ControlNet: A Lightweight Delay-Aware Adapter for Smooth Asynchronous Control in Vision-Language-Action Models|Tiecheng Guo et.al.|[2606.25985](https://arxiv.org/abs/2606.25985)|null|
 |2026-06-18|The FID Lottery: Quantifying Hidden Randomness in Generative-Model Evaluation|Nicolas Dufour et.al.|[2606.20536](https://arxiv.org/abs/2606.20536)|null|
 |2026-06-18|FlowEdit: Associative Memory for Lifelong Pronunciation Adaptation in Flow-Matching TTS|Harshit Singh et.al.|[2606.20518](https://arxiv.org/abs/2606.20518)|null|
 |2026-06-18|Transcript-Free Flow-Matching Text-to-Speech via Speech Feature Conditioning|SooHwan Eom et.al.|[2606.20266](https://arxiv.org/abs/2606.20266)|null|
@@ -42,7 +42,7 @@
 |2026-06-10|Flow Matching with In-Context Priors for Out-of-Distribution Brain Dynamics|Sam Gijsen et.al.|[2606.11833](https://arxiv.org/abs/2606.11833)|null|
 |2026-06-10|Spectrally Regularized Latent Flow Matching for Turbulence Generation|Khalid Rafiq et.al.|[2606.11691](https://arxiv.org/abs/2606.11691)|null|
 |2026-06-09|Mean Flow Distillation: Robust and Stable Distillation for Flow Matching Models|An Zhao et.al.|[2606.11155](https://arxiv.org/abs/2606.11155)|null|
-|2026-06-09|Exploring the Design Space of Reward Backpropagation for Flow Matching|Ruoyu Wang et.al.|[2606.11075](https://arxiv.org/abs/2606.11075)|null|
+|2026-06-09|Exploring the Design Space of Reward Backpropagation for Flow Matching|Ruoyu Wang et.al.|[2606.11075](https://arxiv.org/abs/2606.11075)|**[link](https://github.com/RuoyuWang-2077/FlowBP)**|
 |2026-06-09|Flow-DPPO: Divergence Proximal Policy Optimization for Flow Matching Models|Bowen Ping et.al.|[2606.11025](https://arxiv.org/abs/2606.11025)|null|
 |2026-06-04|Flow-based Policy Adaptation without Policy Updates|Luzhe Sun et.al.|[2606.06461](https://arxiv.org/abs/2606.06461)|null|
 |2026-06-04|Double Preconditioning (DoPr): Optimization for Test-Time Performance, not Validation Loss|Thomas T. Zhang et.al.|[2606.06418](https://arxiv.org/abs/2606.06418)|null|
