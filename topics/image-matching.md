@@ -1,16 +1,19 @@
 # Image Matching
 
-> Updated on 2026.06.29
+> Updated on 2026.07.01
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|2026-06-22|G-MASt3R-SfM: Graph-based View Pruning and Multi-stage Optimization for Robust SfM|Toshiki Watanabe et.al.|[2606.22856](https://arxiv.org/abs/2606.22856)|null|
-|2026-06-18|Evaluation of Image Matching for Art Skills Assessment|Asaad Alghamdi et.al.|[2606.20199](https://arxiv.org/abs/2606.20199)|null|
-|2026-06-10|SalArt-VQA: Diagnosing Whether VLMs Understand Salient Artifacts in Generated Images|Xiaoxiao Sun et.al.|[2606.12671](https://arxiv.org/abs/2606.12671)|null|
-|2026-06-02|SAMatcher: Co-Visibility Modeling with Segment Anything for Robust Feature Matching|Xu Pan et.al.|[2606.03406](https://arxiv.org/abs/2606.03406)|null|
-|2026-05-30|BEVIO: Efficient Bird's-Eye-View based Sparse-Update Visual-Inertial Odometry for Lunar Day-Night Navigation|Mohit Singh et.al.|[2606.00709](https://arxiv.org/abs/2606.00709)|null|
-|2026-06-01|SOCO: Benchmarking Semantic Object Correspondence in Vision Foundation Models|Olaf Dünkel et.al.|[2605.31597](https://arxiv.org/abs/2605.31597)|null|
-|2026-05-22|MASt3R-Nav: WayPixel Navigation in Relative 3D Maps|Vansh Garg et.al.|[2605.24111](https://arxiv.org/abs/2605.24111)|null|
+|**2026-06-30**|**AnyMatch: Supercharging Universal Multi-Modal Image Matching with Large-Scale Single-View Images**|Meng Yang et.al.|[2606.31077](https://arxiv.org/abs/2606.31077)|null|
+|**2026-06-29**|**MF-UAVPose6D: A Model-Free Monocular 6-DoF Pose Estimation Framework for Fixed-Wing UAVs**|Juanqin Liu et.al.|[2606.29697](https://arxiv.org/abs/2606.29697)|null|
+|**2026-06-26**|**KM-Speaker: Keypoint-Based Style Control for High-Quality Speech-Driven 3D Facial Animation and Dialogue Localization**|Arthur Josi et.al.|[2606.28568](https://arxiv.org/abs/2606.28568)|null|
+|**2026-06-22**|**G-MASt3R-SfM: Graph-based View Pruning and Multi-stage Optimization for Robust SfM**|Toshiki Watanabe et.al.|[2606.22856](https://arxiv.org/abs/2606.22856)|null|
+|**2026-06-18**|**Evaluation of Image Matching for Art Skills Assessment**|Asaad Alghamdi et.al.|[2606.20199](https://arxiv.org/abs/2606.20199)|null|
+|**2026-06-10**|**SalArt-VQA: Diagnosing Whether VLMs Understand Salient Artifacts in Generated Images**|Xiaoxiao Sun et.al.|[2606.12671](https://arxiv.org/abs/2606.12671)|null|
+|**2026-06-02**|**SAMatcher: Co-Visibility Modeling with Segment Anything for Robust Feature Matching**|Xu Pan et.al.|[2606.03406](https://arxiv.org/abs/2606.03406)|null|
+|**2026-05-30**|**BEVIO: Efficient Bird's-Eye-View based Sparse-Update Visual-Inertial Odometry for Lunar Day-Night Navigation**|Mohit Singh et.al.|[2606.00709](https://arxiv.org/abs/2606.00709)|null|
+|**2026-06-01**|**SOCO: Benchmarking Semantic Object Correspondence in Vision Foundation Models**|Olaf Dünkel et.al.|[2605.31597](https://arxiv.org/abs/2605.31597)|null|
+|**2026-05-22**|**MASt3R-Nav: WayPixel Navigation in Relative 3D Maps**|Vansh Garg et.al.|[2605.24111](https://arxiv.org/abs/2605.24111)|null|
 |2026-05-11|3DReflecNet: A Large-Scale Dataset for 3D Reconstruction of Reflective, Transparent, and Low-Texture Objects|Zhicheng Liang et.al.|[2605.10204](https://arxiv.org/abs/2605.10204)|null|
 |2026-05-06|Creative Robot Tool Use by Counterfactual Reasoning|M. Tuluhan Akbulut et.al.|[2605.05411](https://arxiv.org/abs/2605.05411)|null|
 |2026-05-02|SIFT-VTON: Geometric Correspondence Supervision on Cross-Attention for Virtual Try-On|Kosuke Takemoto et.al.|[2605.01296](https://arxiv.org/abs/2605.01296)|null|

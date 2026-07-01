@@ -1,9 +1,19 @@
 # Novel View Synthesis
 
-> Updated on 2026.06.29
+> Updated on 2026.07.01
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-06-30**|**Practical High-Fidelity Novel-View Synthesis of Mounted Lepidoptera**|Kristof Overdulve et.al.|[2606.31679](https://arxiv.org/abs/2606.31679)|null|
+|**2026-06-30**|**DPPE: Rethinking Camera-Based Positional Encoding for Scaling Multi-View Transformers**|Shun Kenney et.al.|[2606.31585](https://arxiv.org/abs/2606.31585)|null|
+|**2026-06-30**|**WarpHammer: Densifying Scene Warps with 3D Object Priors for Extreme View Synthesis**|Michael Green et.al.|[2606.31258](https://arxiv.org/abs/2606.31258)|null|
+|**2026-06-29**|**StereoGS: Sparse-View 3D Gaussian Splatting via Stereo Priors**|Wenhao Yuan et.al.|[2606.30545](https://arxiv.org/abs/2606.30545)|null|
+|**2026-06-29**|**RenderFormer++: Scalable and Physically Grounded Feed-Forward Neural Rendering**|Huangsheng Du et.al.|[2606.30380](https://arxiv.org/abs/2606.30380)|null|
+|**2026-06-29**|**Monte Carlo Energy Aggregation for Mobile 3D Gaussian Splatting**|Xiaobiao Du et.al.|[2606.30017](https://arxiv.org/abs/2606.30017)|null|
+|**2026-06-29**|**Shell-Supervised Gaussian Splatting for Urban Real-to-Sim Reconstruction**|Yuan Yang et.al.|[2606.30014](https://arxiv.org/abs/2606.30014)|null|
+|**2026-06-29**|**Learning Efficient 4D Gaussian Representations from Monocular Videos with Flow Splatting**|Shengjun Zhang et.al.|[2606.29976](https://arxiv.org/abs/2606.29976)|null|
+|**2026-06-28**|**Scenes as Objects, Not Primitives: Instance-Structured 3D Tokenization from Unposed Views**|Mijin Yoo et.al.|[2606.29513](https://arxiv.org/abs/2606.29513)|null|
+|**2026-06-28**|**Rectifying Mask via Entropy for Distractor-Free 3DGS in Ambiguous Scenarios**|Wongi Park et.al.|[2606.29496](https://arxiv.org/abs/2606.29496)|null|
 |2026-06-25|PanoImager: Geometry-Guided Novel View Synthesis and Reconstruction from Sparse Panoramic Views|Zhisong Xu et.al.|[2606.27071](https://arxiv.org/abs/2606.27071)|null|
 |2026-06-25|Capacity-Controlled Multi-View Stylization of 3D Gaussian Splatting|Zhihao Wen et.al.|[2606.26754](https://arxiv.org/abs/2606.26754)|null|
 |2026-06-24|SSMNBench: Diagnosing Image-based Cross-View Human-Object Understanding via Single-View Sufficiency and Multi-View Necessity|Tianchen Guo et.al.|[2606.25634](https://arxiv.org/abs/2606.25634)|[link](https://github.com/gtc-gh/SSMNBench)|

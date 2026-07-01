@@ -1,9 +1,19 @@
 # 3D Reconstruction
 
-> Updated on 2026.06.29
+> Updated on 2026.07.01
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-06-30**|**Planar-SfM: Camera Pose Estimation via Homography Graph Embeddings**|Gabi Pragier et.al.|[2606.31979](https://arxiv.org/abs/2606.31979)|null|
+|**2026-06-30**|**What enables GaOx as hole transport layer for a 16 percent 1.0 eV CuInSe2 Bottom Cells with VOC above 550 mV?**|Francesco Lodola et.al.|[2606.31923](https://arxiv.org/abs/2606.31923)|null|
+|**2026-06-30**|**Magnetic activity in cool stars: manifestations and relevance to exoplanets**|E. Işık et.al.|[2606.31617](https://arxiv.org/abs/2606.31617)|null|
+|**2026-06-30**|**MV-GEL: Language-Driven Multi-View Geometric Entity Localization on Meshes**|Kartik Bali et.al.|[2606.31533](https://arxiv.org/abs/2606.31533)|null|
+|**2026-06-30**|**AeroVerse-SatAgent: UAV-Satellite Collaborative Spatial Reasoning Inspired by the Dual Visual Pathway Theory of Cognitive Neuroscience**|Wenyi Zhang et.al.|[2606.31467](https://arxiv.org/abs/2606.31467)|null|
+|**2026-06-30**|**WarpHammer: Densifying Scene Warps with 3D Object Priors for Extreme View Synthesis**|Michael Green et.al.|[2606.31258](https://arxiv.org/abs/2606.31258)|null|
+|**2026-06-30**|**Due-to-Heatwaves Faults in Urban Distribution System: An Identification Approach**|Andrea Mazza et.al.|[2606.31210](https://arxiv.org/abs/2606.31210)|null|
+|**2026-06-30**|**CasaMaestro: Multi-View Panoramas for House-Scale 3D Reconstruction**|Yuzhou Ji et.al.|[2606.31086](https://arxiv.org/abs/2606.31086)|null|
+|**2026-06-30**|**AnyMatch: Supercharging Universal Multi-Modal Image Matching with Large-Scale Single-View Images**|Meng Yang et.al.|[2606.31077](https://arxiv.org/abs/2606.31077)|null|
+|**2026-06-30**|**Learning Video Dynamics with Predictive Differentiable Rendering**|Yujin Tang et.al.|[2606.31050](https://arxiv.org/abs/2606.31050)|null|
 |2026-06-25|3D Imaging of Complex Skyrmion and Hopf Topologies in an Extended Sample|I. Binnie et.al.|[2606.27365](https://arxiv.org/abs/2606.27365)|null|
 |2026-06-25|RayPE: Ray-Space Positional Encoding for 3D-Aware Video Generation|Minghao Yin et.al.|[2606.27345](https://arxiv.org/abs/2606.27345)|null|
 |2026-06-25|SatSplatDiff: Geometry-preserving generative refinement for high-fidelity satellite Gaussian Splatting|Jiyong Kim et.al.|[2606.27223](https://arxiv.org/abs/2606.27223)|null|

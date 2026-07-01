@@ -1,9 +1,19 @@
 # Flow Matching
 
-> Updated on 2026.06.29
+> Updated on 2026.07.01
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-06-30**|**DVG-WM: Disentangled Video Generation Enables Efficient Embodied World Model for Robotic Manipulation**|Ziyu Shan et.al.|[2606.32028](https://arxiv.org/abs/2606.32028)|null|
+|**2026-06-30**|**DynFly: Dynamic-Aware Continuous Trajectory Generation for UAV Vision-Language Navigation in Urban Environments**|Wen Jiang et.al.|[2606.31654](https://arxiv.org/abs/2606.31654)|null|
+|**2026-06-30**|**DualBrep: A Dual-Field Continuous Representation for B-rep Modelling**|Yilin Liu et.al.|[2606.31579](https://arxiv.org/abs/2606.31579)|null|
+|**2026-06-30**|**Introduction to Stochastic Differential Equations for Generative Machine Learning: A Variational Perspective**|Ole Winther et.al.|[2606.31576](https://arxiv.org/abs/2606.31576)|null|
+|**2026-06-30**|**PRISM: Latent Composition Consistency for Single-Image Reflection Removal**|Junseong Shin et.al.|[2606.31513](https://arxiv.org/abs/2606.31513)|null|
+|**2026-06-30**|**Scenario-conditioned flow matching for probabilistic generation of three-component ground-motion waveforms**|Yi Ding et.al.|[2606.31340](https://arxiv.org/abs/2606.31340)|null|
+|**2026-06-30**|**Probabilistic Inversion with Flow Matching**|Baldur Paulwitz et.al.|[2606.31288](https://arxiv.org/abs/2606.31288)|null|
+|**2026-06-30**|**A First Exploration of Neuromorphic OT-CFM for Multi-Speaker VSR**|Lin Chen et.al.|[2606.31225](https://arxiv.org/abs/2606.31225)|null|
+|**2026-06-29**|**MeloDISinger: Melody-Aware & Duration-Preserving Singing Voice Editing with Audio Infilling**|Yoonjeong Park et.al.|[2606.30580](https://arxiv.org/abs/2606.30580)|null|
+|**2026-06-29**|**The Fundamental Limits of Valid Transport Map Estimation**|Sivaraman Balakrishnan et.al.|[2606.30574](https://arxiv.org/abs/2606.30574)|null|
 |2026-06-25|DanceOPD: On-Policy Generative Field Distillation|Wei Zhou et.al.|[2606.27377](https://arxiv.org/abs/2606.27377)|null|
 |2026-06-25|Ask, Solve, Generate: Self-Evolving Unified Multimodal Understanding and Generation via Self-Consistency Rewards|Ritesh Thawkar et.al.|[2606.27376](https://arxiv.org/abs/2606.27376)|null|
 |2026-06-25|Learning to Fold: prizewinning solution at LeHome Challenge 2026 (1st place online, 2nd offline)|Ilia Larchenko et.al.|[2606.27163](https://arxiv.org/abs/2606.27163)|null|
