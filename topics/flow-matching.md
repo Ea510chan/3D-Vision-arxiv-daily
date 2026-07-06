@@ -1,9 +1,19 @@
 # Flow Matching
 
-> Updated on 2026.07.01
+> Updated on 2026.07.06
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-07-02**|**VT-WAM: Visual-Tactile World Action Model for Contact-Rich Manipulation**|Shuai Tian et.al.|[2607.02503](https://arxiv.org/abs/2607.02503)|null|
+|**2026-07-02**|**Controllable Sim Agents with Behavior Latents**|Juanwu Lu et.al.|[2607.02496](https://arxiv.org/abs/2607.02496)|null|
+|**2026-07-02**|**LIME: Learning Intent-aware Camera Motion from Egocentric Video**|Boyang Sun et.al.|[2607.02417](https://arxiv.org/abs/2607.02417)|null|
+|**2026-07-02**|**FlowCIR: Semantic Transport via Flow Matching for Zero-Shot Composed Image Retrieval**|Zhenqi He et.al.|[2607.02284](https://arxiv.org/abs/2607.02284)|**[link](https://github.com/HKUST-LongGroup/FlowCIR)**|
+|**2026-07-02**|**Guided Action Flow: Q-Guided Inference for Flow-Matching Vision-Language-Action Policies**|Liuhaichen Yang et.al.|[2607.02092](https://arxiv.org/abs/2607.02092)|null|
+|**2026-07-02**|**RTE-FM-Dehazer: Radiative Transfer Equation Inspired Flow Matching for Real-World Image Dehazing**|Chenfeng Wei et.al.|[2607.01748](https://arxiv.org/abs/2607.01748)|null|
+|**2026-07-02**|**Multi-Resolution Flow Matching: Training-Free Diffusion Acceleration via Staged Sampling**|Xingyu Zheng et.al.|[2607.01642](https://arxiv.org/abs/2607.01642)|null|
+|**2026-07-02**|**VLAFlow: A Unified Training Framework for Vision-Language-Action Models via Co-training and Future Latent Alignment**|Guoyang Xia et.al.|[2607.01586](https://arxiv.org/abs/2607.01586)|null|
+|**2026-07-01**|**Neuro-Symbolic Safety Guidance for Vision-Language-Action Models via Constrained Flow Matching**|William English et.al.|[2607.01378](https://arxiv.org/abs/2607.01378)|null|
+|**2026-07-01**|**A Geometric Perspective on Composable Emotion Steering in Text-to-Speech Models**|Siyi Wang et.al.|[2607.00946](https://arxiv.org/abs/2607.00946)|null|
 |**2026-06-30**|**DVG-WM: Disentangled Video Generation Enables Efficient Embodied World Model for Robotic Manipulation**|Ziyu Shan et.al.|[2606.32028](https://arxiv.org/abs/2606.32028)|null|
 |**2026-06-30**|**DynFly: Dynamic-Aware Continuous Trajectory Generation for UAV Vision-Language Navigation in Urban Environments**|Wen Jiang et.al.|[2606.31654](https://arxiv.org/abs/2606.31654)|null|
 |**2026-06-30**|**DualBrep: A Dual-Field Continuous Representation for B-rep Modelling**|Yilin Liu et.al.|[2606.31579](https://arxiv.org/abs/2606.31579)|null|
