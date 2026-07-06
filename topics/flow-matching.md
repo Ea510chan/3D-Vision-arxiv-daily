@@ -4,26 +4,26 @@
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-07-02**|**VT-WAM: Visual-Tactile World Action Model for Contact-Rich Manipulation**|Shuai Tian et.al.|[2607.02503](https://arxiv.org/abs/2607.02503)|null|
-|**2026-07-02**|**Controllable Sim Agents with Behavior Latents**|Juanwu Lu et.al.|[2607.02496](https://arxiv.org/abs/2607.02496)|null|
-|**2026-07-02**|**LIME: Learning Intent-aware Camera Motion from Egocentric Video**|Boyang Sun et.al.|[2607.02417](https://arxiv.org/abs/2607.02417)|null|
-|**2026-07-02**|**FlowCIR: Semantic Transport via Flow Matching for Zero-Shot Composed Image Retrieval**|Zhenqi He et.al.|[2607.02284](https://arxiv.org/abs/2607.02284)|**[link](https://github.com/HKUST-LongGroup/FlowCIR)**|
-|**2026-07-02**|**Guided Action Flow: Q-Guided Inference for Flow-Matching Vision-Language-Action Policies**|Liuhaichen Yang et.al.|[2607.02092](https://arxiv.org/abs/2607.02092)|null|
-|**2026-07-02**|**RTE-FM-Dehazer: Radiative Transfer Equation Inspired Flow Matching for Real-World Image Dehazing**|Chenfeng Wei et.al.|[2607.01748](https://arxiv.org/abs/2607.01748)|null|
-|**2026-07-02**|**Multi-Resolution Flow Matching: Training-Free Diffusion Acceleration via Staged Sampling**|Xingyu Zheng et.al.|[2607.01642](https://arxiv.org/abs/2607.01642)|null|
-|**2026-07-02**|**VLAFlow: A Unified Training Framework for Vision-Language-Action Models via Co-training and Future Latent Alignment**|Guoyang Xia et.al.|[2607.01586](https://arxiv.org/abs/2607.01586)|null|
-|**2026-07-01**|**Neuro-Symbolic Safety Guidance for Vision-Language-Action Models via Constrained Flow Matching**|William English et.al.|[2607.01378](https://arxiv.org/abs/2607.01378)|null|
-|**2026-07-01**|**A Geometric Perspective on Composable Emotion Steering in Text-to-Speech Models**|Siyi Wang et.al.|[2607.00946](https://arxiv.org/abs/2607.00946)|null|
-|**2026-06-30**|**DVG-WM: Disentangled Video Generation Enables Efficient Embodied World Model for Robotic Manipulation**|Ziyu Shan et.al.|[2606.32028](https://arxiv.org/abs/2606.32028)|null|
-|**2026-06-30**|**DynFly: Dynamic-Aware Continuous Trajectory Generation for UAV Vision-Language Navigation in Urban Environments**|Wen Jiang et.al.|[2606.31654](https://arxiv.org/abs/2606.31654)|null|
-|**2026-06-30**|**DualBrep: A Dual-Field Continuous Representation for B-rep Modelling**|Yilin Liu et.al.|[2606.31579](https://arxiv.org/abs/2606.31579)|null|
-|**2026-06-30**|**Introduction to Stochastic Differential Equations for Generative Machine Learning: A Variational Perspective**|Ole Winther et.al.|[2606.31576](https://arxiv.org/abs/2606.31576)|null|
-|**2026-06-30**|**PRISM: Latent Composition Consistency for Single-Image Reflection Removal**|Junseong Shin et.al.|[2606.31513](https://arxiv.org/abs/2606.31513)|null|
-|**2026-06-30**|**Scenario-conditioned flow matching for probabilistic generation of three-component ground-motion waveforms**|Yi Ding et.al.|[2606.31340](https://arxiv.org/abs/2606.31340)|null|
-|**2026-06-30**|**Probabilistic Inversion with Flow Matching**|Baldur Paulwitz et.al.|[2606.31288](https://arxiv.org/abs/2606.31288)|null|
-|**2026-06-30**|**A First Exploration of Neuromorphic OT-CFM for Multi-Speaker VSR**|Lin Chen et.al.|[2606.31225](https://arxiv.org/abs/2606.31225)|null|
-|**2026-06-29**|**MeloDISinger: Melody-Aware & Duration-Preserving Singing Voice Editing with Audio Infilling**|Yoonjeong Park et.al.|[2606.30580](https://arxiv.org/abs/2606.30580)|null|
-|**2026-06-29**|**The Fundamental Limits of Valid Transport Map Estimation**|Sivaraman Balakrishnan et.al.|[2606.30574](https://arxiv.org/abs/2606.30574)|null|
+|2026-07-02|VT-WAM: Visual-Tactile World Action Model for Contact-Rich Manipulation|Shuai Tian et.al.|[2607.02503](https://arxiv.org/abs/2607.02503)|null|
+|2026-07-02|Controllable Sim Agents with Behavior Latents|Juanwu Lu et.al.|[2607.02496](https://arxiv.org/abs/2607.02496)|null|
+|2026-07-02|LIME: Learning Intent-aware Camera Motion from Egocentric Video|Boyang Sun et.al.|[2607.02417](https://arxiv.org/abs/2607.02417)|null|
+|2026-07-02|FlowCIR: Semantic Transport via Flow Matching for Zero-Shot Composed Image Retrieval|Zhenqi He et.al.|[2607.02284](https://arxiv.org/abs/2607.02284)|[link](https://github.com/HKUST-LongGroup/FlowCIR)|
+|2026-07-02|Guided Action Flow: Q-Guided Inference for Flow-Matching Vision-Language-Action Policies|Liuhaichen Yang et.al.|[2607.02092](https://arxiv.org/abs/2607.02092)|null|
+|2026-07-02|RTE-FM-Dehazer: Radiative Transfer Equation Inspired Flow Matching for Real-World Image Dehazing|Chenfeng Wei et.al.|[2607.01748](https://arxiv.org/abs/2607.01748)|null|
+|2026-07-02|Multi-Resolution Flow Matching: Training-Free Diffusion Acceleration via Staged Sampling|Xingyu Zheng et.al.|[2607.01642](https://arxiv.org/abs/2607.01642)|null|
+|2026-07-02|VLAFlow: A Unified Training Framework for Vision-Language-Action Models via Co-training and Future Latent Alignment|Guoyang Xia et.al.|[2607.01586](https://arxiv.org/abs/2607.01586)|null|
+|2026-07-01|Neuro-Symbolic Safety Guidance for Vision-Language-Action Models via Constrained Flow Matching|William English et.al.|[2607.01378](https://arxiv.org/abs/2607.01378)|null|
+|2026-07-01|A Geometric Perspective on Composable Emotion Steering in Text-to-Speech Models|Siyi Wang et.al.|[2607.00946](https://arxiv.org/abs/2607.00946)|null|
+|2026-06-30|DVG-WM: Disentangled Video Generation Enables Efficient Embodied World Model for Robotic Manipulation|Ziyu Shan et.al.|[2606.32028](https://arxiv.org/abs/2606.32028)|null|
+|2026-06-30|DynFly: Dynamic-Aware Continuous Trajectory Generation for UAV Vision-Language Navigation in Urban Environments|Wen Jiang et.al.|[2606.31654](https://arxiv.org/abs/2606.31654)|null|
+|2026-06-30|DualBrep: A Dual-Field Continuous Representation for B-rep Modelling|Yilin Liu et.al.|[2606.31579](https://arxiv.org/abs/2606.31579)|null|
+|2026-06-30|Introduction to Stochastic Differential Equations for Generative Machine Learning: A Variational Perspective|Ole Winther et.al.|[2606.31576](https://arxiv.org/abs/2606.31576)|null|
+|2026-06-30|PRISM: Latent Composition Consistency for Single-Image Reflection Removal|Junseong Shin et.al.|[2606.31513](https://arxiv.org/abs/2606.31513)|null|
+|2026-06-30|Scenario-conditioned flow matching for probabilistic generation of three-component ground-motion waveforms|Yi Ding et.al.|[2606.31340](https://arxiv.org/abs/2606.31340)|null|
+|2026-06-30|Probabilistic Inversion with Flow Matching|Baldur Paulwitz et.al.|[2606.31288](https://arxiv.org/abs/2606.31288)|null|
+|2026-06-30|A First Exploration of Neuromorphic OT-CFM for Multi-Speaker VSR|Lin Chen et.al.|[2606.31225](https://arxiv.org/abs/2606.31225)|null|
+|2026-06-29|MeloDISinger: Melody-Aware & Duration-Preserving Singing Voice Editing with Audio Infilling|Yoonjeong Park et.al.|[2606.30580](https://arxiv.org/abs/2606.30580)|null|
+|2026-06-29|The Fundamental Limits of Valid Transport Map Estimation|Sivaraman Balakrishnan et.al.|[2606.30574](https://arxiv.org/abs/2606.30574)|null|
 |2026-06-25|DanceOPD: On-Policy Generative Field Distillation|Wei Zhou et.al.|[2606.27377](https://arxiv.org/abs/2606.27377)|null|
 |2026-06-25|Ask, Solve, Generate: Self-Evolving Unified Multimodal Understanding and Generation via Self-Consistency Rewards|Ritesh Thawkar et.al.|[2606.27376](https://arxiv.org/abs/2606.27376)|null|
 |2026-06-25|Learning to Fold: prizewinning solution at LeHome Challenge 2026 (1st place online, 2nd offline)|Ilia Larchenko et.al.|[2606.27163](https://arxiv.org/abs/2606.27163)|null|
@@ -41,7 +41,7 @@
 |2026-06-18|Frequency-Aware Flow Matching for Continuous and Consistent Robotic Action Generation|Jianing Guo et.al.|[2606.20135](https://arxiv.org/abs/2606.20135)|null|
 |2026-06-18|TriFlow: Generating Artist-Like 3D Mesh Topology via Nearest-Vertex Vector Fields|Haoxuan Li et.al.|[2606.20131](https://arxiv.org/abs/2606.20131)|null|
 |2026-06-18|Hybrid Diffusion Transformer for Instruction-Guided Audio Editing via Rectified Flow|Liting Gao et.al.|[2606.20101](https://arxiv.org/abs/2606.20101)|null|
-|2026-06-18|Site-Specific MIMO Channel Generation via Diffusion and Flow Matching: Fidelity, Efficiency, and Downstream Utility|Sina Beyraghi et.al.|[2606.20098](https://arxiv.org/abs/2606.20098)|null|
+|2026-06-18|Site-Specific MIMO Channel Generation via Diffusion and Flow Matching: Fidelity, Efficiency, and Downstream Utility|Sina Beyraghi et.al.|[2606.20098](https://arxiv.org/abs/2606.20098)|**[link](https://github.com/Telefonica-Scientific-Research/GenAI_Channel_Modeling)**|
 |2026-06-18|Residual-Space Evolutionary Optimization via Flow-based Generative Models|Zhuo Cao et.al.|[2606.20084](https://arxiv.org/abs/2606.20084)|null|
 |2026-06-18|Time-Unconditional Generative Speech Enhancement via Autonomous Rectified Flow|Wen Zhang et.al.|[2606.20001](https://arxiv.org/abs/2606.20001)|[link](https://github.com/SpeechLab-HDU/ARFSE)|
 |2026-06-15|Human Universal Grasping|Kevin Yuanbo Wu et.al.|[2606.17054](https://arxiv.org/abs/2606.17054)|null|
@@ -62,7 +62,7 @@
 |2026-06-10|Flow Matching with In-Context Priors for Out-of-Distribution Brain Dynamics|Sam Gijsen et.al.|[2606.11833](https://arxiv.org/abs/2606.11833)|null|
 |2026-06-10|Spectrally Regularized Latent Flow Matching for Turbulence Generation|Khalid Rafiq et.al.|[2606.11691](https://arxiv.org/abs/2606.11691)|null|
 |2026-06-09|Mean Flow Distillation: Robust and Stable Distillation for Flow Matching Models|An Zhao et.al.|[2606.11155](https://arxiv.org/abs/2606.11155)|null|
-|2026-06-09|Exploring the Design Space of Reward Backpropagation for Flow Matching|Ruoyu Wang et.al.|[2606.11075](https://arxiv.org/abs/2606.11075)|**[link](https://github.com/RuoyuWang-2077/FlowBP)**|
+|2026-06-09|Exploring the Design Space of Reward Backpropagation for Flow Matching|Ruoyu Wang et.al.|[2606.11075](https://arxiv.org/abs/2606.11075)|[link](https://github.com/RuoyuWang-2077/FlowBP)|
 |2026-06-09|Flow-DPPO: Divergence Proximal Policy Optimization for Flow Matching Models|Bowen Ping et.al.|[2606.11025](https://arxiv.org/abs/2606.11025)|null|
 |2026-06-04|Flow-based Policy Adaptation without Policy Updates|Luzhe Sun et.al.|[2606.06461](https://arxiv.org/abs/2606.06461)|null|
 |2026-06-04|Double Preconditioning (DoPr): Optimization for Test-Time Performance, not Validation Loss|Thomas T. Zhang et.al.|[2606.06418](https://arxiv.org/abs/2606.06418)|null|

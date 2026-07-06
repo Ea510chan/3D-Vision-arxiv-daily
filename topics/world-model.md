@@ -4,26 +4,26 @@
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-07-02**|**WorldDirector: Building Controllable World Simulators with Persistent Dynamic Memory**|Hanlin Wang et.al.|[2607.02517](https://arxiv.org/abs/2607.02517)|null|
-|**2026-07-02**|**WorldSample: Closed-loop Real-robot RL with World Modelling**|Yuquan Xue et.al.|[2607.02431](https://arxiv.org/abs/2607.02431)|null|
-|**2026-07-02**|**ACID: Action Consistency via Inverse Dynamics for Planning with World Models**|Gawon Seo et.al.|[2607.02403](https://arxiv.org/abs/2607.02403)|null|
-|**2026-07-02**|**DecompRL: Solving Harder Problems by Learning Modular Code Generation**|Juliette Decugis et.al.|[2607.02390](https://arxiv.org/abs/2607.02390)|null|
-|**2026-07-02**|**Hardware-Enforced Semantic Coordination for Safety-Critical Real-Time Autonomous Systems**|Uwe M. Borghoff et.al.|[2607.02376](https://arxiv.org/abs/2607.02376)|null|
-|**2026-07-02**|**Bridge-WA: Predicting Where and How the World Changes for Robotic Action**|Yongjie Bai et.al.|[2607.02195](https://arxiv.org/abs/2607.02195)|null|
-|**2026-07-02**|**Path-Measure Dynamics of Attention-Driven World Models: A Nonlocal Onsager--Machlup Approach**|Gunn Kim et.al.|[2607.02154](https://arxiv.org/abs/2607.02154)|null|
-|**2026-07-02**|**PWM-ArtGen: Part World Model for Articulated Object Generation**|Wentao Zheng et.al.|[2607.02045](https://arxiv.org/abs/2607.02045)|null|
-|**2026-07-02**|**Liquid Latent State Dynamics for Interpretable Turbofan Degradation Modeling**|Weizhi Nie et.al.|[2607.01986](https://arxiv.org/abs/2607.01986)|null|
-|**2026-07-02**|**PhysMani: Physics-principled 3D World Model for Dynamic Object Manipulation**|Peng Yun et.al.|[2607.01938](https://arxiv.org/abs/2607.01938)|null|
-|**2026-06-30**|**DVG-WM: Disentangled Video Generation Enables Efficient Embodied World Model for Robotic Manipulation**|Ziyu Shan et.al.|[2606.32028](https://arxiv.org/abs/2606.32028)|**[link](https://github.com/zyshan0929/DVG-WM)**|
-|**2026-06-30**|**AdaJEPA: An Adaptive Latent World Model**|Ying Wang et.al.|[2606.32026](https://arxiv.org/abs/2606.32026)|null|
-|**2026-06-30**|**MemLearner: Learning to Query Context memory for Video World Models**|Jiwen Yu et.al.|[2606.31734](https://arxiv.org/abs/2606.31734)|null|
-|**2026-06-30**|**ScratchWorld: Evaluating If World Models Compute Executable Consequences**|Yufeng Lin et.al.|[2606.31689](https://arxiv.org/abs/2606.31689)|null|
-|**2026-06-30**|**WorldRoamBench: An Open-World Benchmark for Long-Horizon Stability of Interactive World Models**|Ting-Bing Xu et.al.|[2606.31672](https://arxiv.org/abs/2606.31672)|null|
-|**2026-06-30**|**Ask the World Before Acting: Budgeted Environment Probing for World-Model Calibration**|Xinyuan Song et.al.|[2606.31422](https://arxiv.org/abs/2606.31422)|null|
-|**2026-06-30**|**World-Model Collapse as a Phase Transition**|Xinyuan Song et.al.|[2606.31399](https://arxiv.org/abs/2606.31399)|null|
-|**2026-06-30**|**One Video, One World: Turning Monocular Video into Physical 4D Scenes**|Junhao Chen et.al.|[2606.31388](https://arxiv.org/abs/2606.31388)|null|
-|**2026-06-30**|**Delta-JEPA: Learning Action-Sensitive World Models via Latent Difference Decoding**|Zhenghao Zhang et.al.|[2606.31232](https://arxiv.org/abs/2606.31232)|null|
-|**2026-06-30**|**ForgeDrive: Bidirectional Cross-Conditioning for Unified Visual-Action Generation in Autonomous Driving**|Xuchang Zhong et.al.|[2606.31226](https://arxiv.org/abs/2606.31226)|null|
+|2026-07-02|WorldDirector: Building Controllable World Simulators with Persistent Dynamic Memory|Hanlin Wang et.al.|[2607.02517](https://arxiv.org/abs/2607.02517)|null|
+|2026-07-02|WorldSample: Closed-loop Real-robot RL with World Modelling|Yuquan Xue et.al.|[2607.02431](https://arxiv.org/abs/2607.02431)|null|
+|2026-07-02|ACID: Action Consistency via Inverse Dynamics for Planning with World Models|Gawon Seo et.al.|[2607.02403](https://arxiv.org/abs/2607.02403)|null|
+|2026-07-02|DecompRL: Solving Harder Problems by Learning Modular Code Generation|Juliette Decugis et.al.|[2607.02390](https://arxiv.org/abs/2607.02390)|null|
+|2026-07-02|Hardware-Enforced Semantic Coordination for Safety-Critical Real-Time Autonomous Systems|Uwe M. Borghoff et.al.|[2607.02376](https://arxiv.org/abs/2607.02376)|null|
+|2026-07-02|Bridge-WA: Predicting Where and How the World Changes for Robotic Action|Yongjie Bai et.al.|[2607.02195](https://arxiv.org/abs/2607.02195)|null|
+|2026-07-02|Path-Measure Dynamics of Attention-Driven World Models: A Nonlocal Onsager--Machlup Approach|Gunn Kim et.al.|[2607.02154](https://arxiv.org/abs/2607.02154)|null|
+|2026-07-02|PWM-ArtGen: Part World Model for Articulated Object Generation|Wentao Zheng et.al.|[2607.02045](https://arxiv.org/abs/2607.02045)|null|
+|2026-07-02|Liquid Latent State Dynamics for Interpretable Turbofan Degradation Modeling|Weizhi Nie et.al.|[2607.01986](https://arxiv.org/abs/2607.01986)|null|
+|2026-07-02|PhysMani: Physics-principled 3D World Model for Dynamic Object Manipulation|Peng Yun et.al.|[2607.01938](https://arxiv.org/abs/2607.01938)|null|
+|2026-06-30|DVG-WM: Disentangled Video Generation Enables Efficient Embodied World Model for Robotic Manipulation|Ziyu Shan et.al.|[2606.32028](https://arxiv.org/abs/2606.32028)|[link](https://github.com/zyshan0929/DVG-WM)|
+|2026-06-30|AdaJEPA: An Adaptive Latent World Model|Ying Wang et.al.|[2606.32026](https://arxiv.org/abs/2606.32026)|null|
+|2026-06-30|MemLearner: Learning to Query Context memory for Video World Models|Jiwen Yu et.al.|[2606.31734](https://arxiv.org/abs/2606.31734)|null|
+|2026-06-30|ScratchWorld: Evaluating If World Models Compute Executable Consequences|Yufeng Lin et.al.|[2606.31689](https://arxiv.org/abs/2606.31689)|null|
+|2026-06-30|WorldRoamBench: An Open-World Benchmark for Long-Horizon Stability of Interactive World Models|Ting-Bing Xu et.al.|[2606.31672](https://arxiv.org/abs/2606.31672)|null|
+|2026-06-30|Ask the World Before Acting: Budgeted Environment Probing for World-Model Calibration|Xinyuan Song et.al.|[2606.31422](https://arxiv.org/abs/2606.31422)|null|
+|2026-06-30|World-Model Collapse as a Phase Transition|Xinyuan Song et.al.|[2606.31399](https://arxiv.org/abs/2606.31399)|null|
+|2026-06-30|One Video, One World: Turning Monocular Video into Physical 4D Scenes|Junhao Chen et.al.|[2606.31388](https://arxiv.org/abs/2606.31388)|null|
+|2026-06-30|Delta-JEPA: Learning Action-Sensitive World Models via Latent Difference Decoding|Zhenghao Zhang et.al.|[2606.31232](https://arxiv.org/abs/2606.31232)|null|
+|2026-06-30|ForgeDrive: Bidirectional Cross-Conditioning for Unified Visual-Action Generation in Autonomous Driving|Xuchang Zhong et.al.|[2606.31226](https://arxiv.org/abs/2606.31226)|null|
 |2026-06-25|PhysiFormer: Learning to Simulate Mechanics in World Space|Yiming Chen et.al.|[2606.27364](https://arxiv.org/abs/2606.27364)|null|
 |2026-06-25|Hallucination in World Models is Predictable and Preventable|Nicklas Hansen et.al.|[2606.27326](https://arxiv.org/abs/2606.27326)|null|
 |2026-06-25|Not All Actions Are Equal: Rethinking Conditioning for Dexterous World Model|Zizhao Yuan et.al.|[2606.27325](https://arxiv.org/abs/2606.27325)|null|
