@@ -1,9 +1,19 @@
 # SLAM
 
-> Updated on 2026.07.06
+> Updated on 2026.07.11
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-07-09**|**Track2Map: Online Deformable SLAM with Motion-Aware Pose Optimization in Robotic Surgery**|Tianyi Song et.al.|[2607.08408](https://arxiv.org/abs/2607.08408)|**[link](https://github.com/styufo/Track2Map)**|
+|**2026-07-09**|**RadLoc: Radar-based 3-DoF Global Localization via Fast, Robust, and Lightweight Spatial Descriptor Across Diverse Environmental Scenarios**|Hogyun Kim et.al.|[2607.08115](https://arxiv.org/abs/2607.08115)|null|
+|**2026-07-08**|**STEMbot: A Compliant Robot for Under-Canopy Plant Navigation**|Zachary Charlick et.al.|[2607.07873](https://arxiv.org/abs/2607.07873)|null|
+|**2026-07-08**|**GeoGS-SLAM: Geometry-Only Gaussian Splatting for Dense Monocular SLAM**|Lipu Zhou et.al.|[2607.07452](https://arxiv.org/abs/2607.07452)|null|
+|**2026-07-08**|**PLED-VINS: A Point-Line Event-Based Visual Inertial SLAM for Dynamic Environments**|Seunghun Lee et.al.|[2607.07374](https://arxiv.org/abs/2607.07374)|null|
+|**2026-07-08**|**Dynamic Object Detection and Tracking in Construction: A Fisheye Camera and LiDAR Sensor Fusion Model**|Yilong Chen et.al.|[2607.06896](https://arxiv.org/abs/2607.06896)|null|
+|**2026-07-07**|**CILC: Cryptographically-secure Inter-agent Loop Closure Candidate Detection for Multi-Agent Collaborative SLAM**|Andrew Fishberg et.al.|[2607.06700](https://arxiv.org/abs/2607.06700)|null|
+|**2026-07-07**|**Hilti-Trimble-Oxford Dataset: 360 Visual-Inertial Benchmark with Floor Plan Priors for SLAM and Localization**|Samuele Centanni et.al.|[2607.06464](https://arxiv.org/abs/2607.06464)|null|
+|**2026-07-07**|**APVI-SLAM: Real-Time Acoustic-Pressure-Visual-Inertial Localization and Photorealistic Mapping System in Complex Underwater Environment**|Hanwen Zhang et.al.|[2607.06222](https://arxiv.org/abs/2607.06222)|null|
+|**2026-07-07**|**Why does Deep Learning Improve Visual SLAM?**|Giovanni Cioffi et.al.|[2607.06023](https://arxiv.org/abs/2607.06023)|null|
 |2026-06-30|ForgeDrive: Bidirectional Cross-Conditioning for Unified Visual-Action Generation in Autonomous Driving|Xuchang Zhong et.al.|[2606.31226](https://arxiv.org/abs/2606.31226)|null|
 |2026-06-29|Robust and Efficient Monocular 3D Gaussian SLAM for Kilometer-Scale Outdoor Scenes|Sicheng Yu et.al.|[2606.30436](https://arxiv.org/abs/2606.30436)|[link](https://github.com/3DAgentWorld/KiloGS-SLAM)|
 |2026-06-29|CSAR: Containerized System Architecture for Robotics|Ambrosio-Cestero et.al.|[2606.30293](https://arxiv.org/abs/2606.30293)|[link](https://github.com/goyoambrosio/CSAR)|

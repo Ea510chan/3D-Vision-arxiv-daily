@@ -1,9 +1,19 @@
 # Flow Matching
 
-> Updated on 2026.07.06
+> Updated on 2026.07.11
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-07-09**|**FabriVLA: A Lightweight Vision-Language-Action Model for Precise Multi-Task Manipulation**|Shiyuan Yang et.al.|[2607.08575](https://arxiv.org/abs/2607.08575)|null|
+|**2026-07-09**|**Joint Discrete-Continuous Flow Matching for Open-Vocabulary Inverse Design of Multilayer Optical Coatings**|Zhiyi Li et.al.|[2607.08392](https://arxiv.org/abs/2607.08392)|null|
+|**2026-07-09**|**Revisiting One-Zero and Two-Zero Neutrino Mass Textures in Light of Recent Oscillation and Cosmological Data**|Haruto Kitagawa et.al.|[2607.08384](https://arxiv.org/abs/2607.08384)|null|
+|**2026-07-09**|**TFP: Temporally Conditioned Memory-Fusion Policies for Visuomotor Learning**|Yushen Liang et.al.|[2607.08283](https://arxiv.org/abs/2607.08283)|**[link](https://github.com/Mirage415/TFP-Temporally-conditioned-Memory-Fusion-Policies-for-Visuomotor-Learning)**|
+|**2026-07-09**|**RadioDiff-v2: Generative Angular Radio Maps for Multi-Beam Selection and Localization**|Xiucheng Wang et.al.|[2607.08045](https://arxiv.org/abs/2607.08045)|**[link](https://github.com/UNIC-Lab/RadioDiff-v2)**|
+|**2026-07-08**|**Guidance Breaks the Fitted Operator: A Terminal-Fitted Repair for Classifier-Free Guidance**|Shiheng Zhang et.al.|[2607.07665](https://arxiv.org/abs/2607.07665)|null|
+|**2026-07-08**|**Stability of Flow Models for Graph Signals**|Martin Schmidt et.al.|[2607.07510](https://arxiv.org/abs/2607.07510)|null|
+|**2026-07-09**|**Behavior Foundations for Quadruped Robots: ABot-C0 Technical Report**|Xufeng Zhao et.al.|[2607.07370](https://arxiv.org/abs/2607.07370)|null|
+|**2026-07-08**|**Flow-PIN: A Two-Stage Power-Flow-Guided Method for System-Wide Multivariate Profile Inpainting in Distribution Networks**|Zhenghao Zhou et.al.|[2607.07250](https://arxiv.org/abs/2607.07250)|null|
+|**2026-07-08**|**ColorFM: An Optimization-to-Learning Framework for Color Transfer via Flow Matching**|Yuhang He et.al.|[2607.07119](https://arxiv.org/abs/2607.07119)|null|
 |2026-07-02|VT-WAM: Visual-Tactile World Action Model for Contact-Rich Manipulation|Shuai Tian et.al.|[2607.02503](https://arxiv.org/abs/2607.02503)|null|
 |2026-07-02|Controllable Sim Agents with Behavior Latents|Juanwu Lu et.al.|[2607.02496](https://arxiv.org/abs/2607.02496)|null|
 |2026-07-02|LIME: Learning Intent-aware Camera Motion from Egocentric Video|Boyang Sun et.al.|[2607.02417](https://arxiv.org/abs/2607.02417)|null|
