@@ -1,19 +1,19 @@
 # Flow Matching
 
-> Updated on 2026.07.11
+> Updated on 2026.07.13
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-07-09**|**FabriVLA: A Lightweight Vision-Language-Action Model for Precise Multi-Task Manipulation**|Shiyuan Yang et.al.|[2607.08575](https://arxiv.org/abs/2607.08575)|null|
-|**2026-07-09**|**Joint Discrete-Continuous Flow Matching for Open-Vocabulary Inverse Design of Multilayer Optical Coatings**|Zhiyi Li et.al.|[2607.08392](https://arxiv.org/abs/2607.08392)|null|
-|**2026-07-09**|**Revisiting One-Zero and Two-Zero Neutrino Mass Textures in Light of Recent Oscillation and Cosmological Data**|Haruto Kitagawa et.al.|[2607.08384](https://arxiv.org/abs/2607.08384)|null|
-|**2026-07-09**|**TFP: Temporally Conditioned Memory-Fusion Policies for Visuomotor Learning**|Yushen Liang et.al.|[2607.08283](https://arxiv.org/abs/2607.08283)|**[link](https://github.com/Mirage415/TFP-Temporally-conditioned-Memory-Fusion-Policies-for-Visuomotor-Learning)**|
-|**2026-07-09**|**RadioDiff-v2: Generative Angular Radio Maps for Multi-Beam Selection and Localization**|Xiucheng Wang et.al.|[2607.08045](https://arxiv.org/abs/2607.08045)|**[link](https://github.com/UNIC-Lab/RadioDiff-v2)**|
-|**2026-07-08**|**Guidance Breaks the Fitted Operator: A Terminal-Fitted Repair for Classifier-Free Guidance**|Shiheng Zhang et.al.|[2607.07665](https://arxiv.org/abs/2607.07665)|null|
-|**2026-07-08**|**Stability of Flow Models for Graph Signals**|Martin Schmidt et.al.|[2607.07510](https://arxiv.org/abs/2607.07510)|null|
-|**2026-07-09**|**Behavior Foundations for Quadruped Robots: ABot-C0 Technical Report**|Xufeng Zhao et.al.|[2607.07370](https://arxiv.org/abs/2607.07370)|null|
-|**2026-07-08**|**Flow-PIN: A Two-Stage Power-Flow-Guided Method for System-Wide Multivariate Profile Inpainting in Distribution Networks**|Zhenghao Zhou et.al.|[2607.07250](https://arxiv.org/abs/2607.07250)|null|
-|**2026-07-08**|**ColorFM: An Optimization-to-Learning Framework for Color Transfer via Flow Matching**|Yuhang He et.al.|[2607.07119](https://arxiv.org/abs/2607.07119)|null|
+|2026-07-09|FabriVLA: A Lightweight Vision-Language-Action Model for Precise Multi-Task Manipulation|Shiyuan Yang et.al.|[2607.08575](https://arxiv.org/abs/2607.08575)|null|
+|2026-07-09|Joint Discrete-Continuous Flow Matching for Open-Vocabulary Inverse Design of Multilayer Optical Coatings|Zhiyi Li et.al.|[2607.08392](https://arxiv.org/abs/2607.08392)|null|
+|2026-07-09|Revisiting One-Zero and Two-Zero Neutrino Mass Textures in Light of Recent Oscillation and Cosmological Data|Haruto Kitagawa et.al.|[2607.08384](https://arxiv.org/abs/2607.08384)|null|
+|2026-07-09|TFP: Temporally Conditioned Memory-Fusion Policies for Visuomotor Learning|Yushen Liang et.al.|[2607.08283](https://arxiv.org/abs/2607.08283)|[link](https://github.com/Mirage415/TFP-Temporally-conditioned-Memory-Fusion-Policies-for-Visuomotor-Learning)|
+|2026-07-09|RadioDiff-v2: Generative Angular Radio Maps for Multi-Beam Selection and Localization|Xiucheng Wang et.al.|[2607.08045](https://arxiv.org/abs/2607.08045)|[link](https://github.com/UNIC-Lab/RadioDiff-v2)|
+|2026-07-08|Guidance Breaks the Fitted Operator: A Terminal-Fitted Repair for Classifier-Free Guidance|Shiheng Zhang et.al.|[2607.07665](https://arxiv.org/abs/2607.07665)|null|
+|2026-07-08|Stability of Flow Models for Graph Signals|Martin Schmidt et.al.|[2607.07510](https://arxiv.org/abs/2607.07510)|null|
+|2026-07-09|Behavior Foundations for Quadruped Robots: ABot-C0 Technical Report|Xufeng Zhao et.al.|[2607.07370](https://arxiv.org/abs/2607.07370)|null|
+|2026-07-08|Flow-PIN: A Two-Stage Power-Flow-Guided Method for System-Wide Multivariate Profile Inpainting in Distribution Networks|Zhenghao Zhou et.al.|[2607.07250](https://arxiv.org/abs/2607.07250)|null|
+|2026-07-08|ColorFM: An Optimization-to-Learning Framework for Color Transfer via Flow Matching|Yuhang He et.al.|[2607.07119](https://arxiv.org/abs/2607.07119)|null|
 |2026-07-02|VT-WAM: Visual-Tactile World Action Model for Contact-Rich Manipulation|Shuai Tian et.al.|[2607.02503](https://arxiv.org/abs/2607.02503)|null|
 |2026-07-02|Controllable Sim Agents with Behavior Latents|Juanwu Lu et.al.|[2607.02496](https://arxiv.org/abs/2607.02496)|null|
 |2026-07-02|LIME: Learning Intent-aware Camera Motion from Egocentric Video|Boyang Sun et.al.|[2607.02417](https://arxiv.org/abs/2607.02417)|null|
@@ -35,7 +35,7 @@
 |2026-06-29|MeloDISinger: Melody-Aware & Duration-Preserving Singing Voice Editing with Audio Infilling|Yoonjeong Park et.al.|[2606.30580](https://arxiv.org/abs/2606.30580)|null|
 |2026-06-29|The Fundamental Limits of Valid Transport Map Estimation|Sivaraman Balakrishnan et.al.|[2606.30574](https://arxiv.org/abs/2606.30574)|null|
 |2026-06-25|DanceOPD: On-Policy Generative Field Distillation|Wei Zhou et.al.|[2606.27377](https://arxiv.org/abs/2606.27377)|null|
-|2026-06-25|Ask, Solve, Generate: Self-Evolving Unified Multimodal Understanding and Generation via Self-Consistency Rewards|Ritesh Thawkar et.al.|[2606.27376](https://arxiv.org/abs/2606.27376)|null|
+|2026-06-25|Ask, Solve, Generate: Self-Evolving Unified Multimodal Understanding and Generation via Self-Consistency Rewards|Ritesh Thawkar et.al.|[2606.27376](https://arxiv.org/abs/2606.27376)|**[link](https://github.com/mbzuai-oryx/Ask-Solve-Generate)**|
 |2026-06-25|Learning to Fold: prizewinning solution at LeHome Challenge 2026 (1st place online, 2nd offline)|Ilia Larchenko et.al.|[2606.27163](https://arxiv.org/abs/2606.27163)|null|
 |2026-06-25|PAMAE: Phase-Aware-MoE Action Experts Towards Reliable Flow-Matching Vision-Language-Action Policies|Jiayu Yang et.al.|[2606.27144](https://arxiv.org/abs/2606.27144)|null|
 |2026-06-25|Bridging Vision and Language Concepts through Optimal Transport Semantic Flow|Chenyang Zhang et.al.|[2606.26891](https://arxiv.org/abs/2606.26891)|null|
@@ -51,7 +51,7 @@
 |2026-06-18|Frequency-Aware Flow Matching for Continuous and Consistent Robotic Action Generation|Jianing Guo et.al.|[2606.20135](https://arxiv.org/abs/2606.20135)|null|
 |2026-06-18|TriFlow: Generating Artist-Like 3D Mesh Topology via Nearest-Vertex Vector Fields|Haoxuan Li et.al.|[2606.20131](https://arxiv.org/abs/2606.20131)|null|
 |2026-06-18|Hybrid Diffusion Transformer for Instruction-Guided Audio Editing via Rectified Flow|Liting Gao et.al.|[2606.20101](https://arxiv.org/abs/2606.20101)|null|
-|2026-06-18|Site-Specific MIMO Channel Generation via Diffusion and Flow Matching: Fidelity, Efficiency, and Downstream Utility|Sina Beyraghi et.al.|[2606.20098](https://arxiv.org/abs/2606.20098)|**[link](https://github.com/Telefonica-Scientific-Research/GenAI_Channel_Modeling)**|
+|2026-06-18|Site-Specific MIMO Channel Generation via Diffusion and Flow Matching: Fidelity, Efficiency, and Downstream Utility|Sina Beyraghi et.al.|[2606.20098](https://arxiv.org/abs/2606.20098)|[link](https://github.com/Telefonica-Scientific-Research/GenAI_Channel_Modeling)|
 |2026-06-18|Residual-Space Evolutionary Optimization via Flow-based Generative Models|Zhuo Cao et.al.|[2606.20084](https://arxiv.org/abs/2606.20084)|null|
 |2026-06-18|Time-Unconditional Generative Speech Enhancement via Autonomous Rectified Flow|Wen Zhang et.al.|[2606.20001](https://arxiv.org/abs/2606.20001)|[link](https://github.com/SpeechLab-HDU/ARFSE)|
 |2026-06-15|Human Universal Grasping|Kevin Yuanbo Wu et.al.|[2606.17054](https://arxiv.org/abs/2606.17054)|null|
@@ -162,7 +162,7 @@
 |2026-04-30|GSDrive: Reinforcing Driving Policies by Multi-mode Trajectory Probing with 3D Gaussian Splatting Environment|Ziang Guo et.al.|[2604.28111](https://arxiv.org/abs/2604.28111)|null|
 |2026-04-30|Martingale Posteriors for Discretely Observed Diffusions|Jingning Yao et.al.|[2604.27603](https://arxiv.org/abs/2604.27603)|null|
 |2026-04-30|ABC: Any-Subset Autoregression via Non-Markovian Diffusion Bridges in Continuous Time and Space|Gabe Guo et.al.|[2604.27443](https://arxiv.org/abs/2604.27443)|null|
-|2026-04-29|AnimateAnyMesh++: A Flexible 4D Foundation Model for High-Fidelity Text-Driven Mesh Animation|Zijie Wu et.al.|[2604.26917](https://arxiv.org/abs/2604.26917)|null|
+|2026-04-29|AnimateAnyMesh++: A Flexible 4D Foundation Model for High-Fidelity Text-Driven Mesh Animation|Zijie Wu et.al.|[2604.26917](https://arxiv.org/abs/2604.26917)|**[link](https://github.com/JarrentWu1031/AnimateAnyMesh-pp)**|
 |2026-04-28|FlowS: One-Step Motion Prediction via Local Transport Conditioning|Leandro Di Bella et.al.|[2604.26065](https://arxiv.org/abs/2604.26065)|null|
 |2026-04-28|PhyloSDF: Phylogenetically-Conditioned Neural Generation of 3D Skull Morphology via Residual Flow Matching|Kaikwan Lau et.al.|[2604.25371](https://arxiv.org/abs/2604.25371)|null|
 |2026-04-28|Exploring Time Conditioning in Diffusion Generative Models from Disjoint Noisy Data Manifolds|Liuzhuozheng Li et.al.|[2604.25289](https://arxiv.org/abs/2604.25289)|null|

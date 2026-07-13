@@ -1,6 +1,6 @@
 # Image Matching
 
-> Updated on 2026.07.11
+> Updated on 2026.07.13
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
@@ -65,7 +65,7 @@
 |2025-12-04|Deep infant brain segmentation from multi-contrast MRI|Malte Hoffmann et.al.|[2512.05114](http://arxiv.org/abs/2512.05114)|null|
 |2025-12-04|Deep Forcing: Training-Free Long Video Generation with Deep Sink and Participative Compression|Jung Yi et.al.|[2512.05081](http://arxiv.org/abs/2512.05081)|null|
 |2025-12-04|Improving Posterior Inference of Galaxy Properties with Image-Based Conditional Flow Matching|Mikaeel Yunus et.al.|[2512.05078](http://arxiv.org/abs/2512.05078)|null|
-|2025-12-04|Generative Neural Video Compression via Video Diffusion Prior|Qi Mao et.al.|[2512.05016](http://arxiv.org/abs/2512.05016)|null|
+|2025-12-04|Generative Neural Video Compression via Video Diffusion Prior|Qi Mao et.al.|[2512.05016](http://arxiv.org/abs/2512.05016)|**[link](https://github.com/CUC-MIPG/GNVC-VD)**|
 |2025-12-04|Environment-Aware Channel Inference via Cross-Modal Flow: From Multimodal Sensing to Wireless Channels|Guangming Liang et.al.|[2512.04966](http://arxiv.org/abs/2512.04966)|null|
 |2025-12-04|LatentFM: A Latent Flow Matching Approach for Generative Medical Image Segmentation|Huynh Trinh Ngoc et.al.|[2512.04821](http://arxiv.org/abs/2512.04821)|null|
 |2025-12-04|Unveiling gravitational waves from core-collapse supernovae with MUSE|Alessandro Veutro et.al.|[2512.04804](http://arxiv.org/abs/2512.04804)|null|

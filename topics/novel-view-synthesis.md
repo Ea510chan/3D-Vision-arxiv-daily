@@ -1,19 +1,19 @@
 # Novel View Synthesis
 
-> Updated on 2026.07.11
+> Updated on 2026.07.13
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-07-09**|**On the Design of Mixture-of-Experts for Dynamic Gaussian Splatting**|In-Hwan Jin et.al.|[2607.08250](https://arxiv.org/abs/2607.08250)|**[link](https://github.com/cvsp-lab/MoDE)**|
-|**2026-07-09**|**LightCrafter: PBR-Conditioned Video Diffusion Refinement for Controllable and Consistent Relighting**|Zixin Guo et.al.|[2607.08016](https://arxiv.org/abs/2607.08016)|null|
-|**2026-07-08**|**GeoGS-SLAM: Geometry-Only Gaussian Splatting for Dense Monocular SLAM**|Lipu Zhou et.al.|[2607.07452](https://arxiv.org/abs/2607.07452)|null|
-|**2026-07-08**|**SoccerNet 2026 Challenges Results**|Anthony Cioppa et.al.|[2607.07320](https://arxiv.org/abs/2607.07320)|null|
-|**2026-07-06**|**SSA-3DGS: Unsupervised Removal of Screen-Space Artifacts for 3D Gaussian Splatting**|Kristof Overdulve et.al.|[2607.05598](https://arxiv.org/abs/2607.05598)|null|
-|**2026-07-06**|**Rendering-Aware Bayesian 3D Gaussian Splatting with Native Uncertainty and Adaptive Complexity Control**|Gaoxiang Jia et.al.|[2607.05522](https://arxiv.org/abs/2607.05522)|null|
-|**2026-07-06**|**MV-Forcing: Long Multi-View Video Generation via 4D-Grounded Spatio-Temporal Self-Forcing**|Gal Fiebelman et.al.|[2607.05376](https://arxiv.org/abs/2607.05376)|null|
-|**2026-07-06**|**WildSplat: Feedforward Gaussian Splatting from Unposed In-the-Wild Images**|Xiyu Zhang et.al.|[2607.05347](https://arxiv.org/abs/2607.05347)|null|
-|**2026-07-06**|**GUSH3R: Everyone Everywhere All at Once as Gaussians**|Keito Abe et.al.|[2607.05243](https://arxiv.org/abs/2607.05243)|null|
-|**2026-07-04**|**MACRO: Training-free Multi-plane Attention for Closeup Render Optimization**|Nitzan Hodos et.al.|[2607.03875](https://arxiv.org/abs/2607.03875)|null|
+|2026-07-09|On the Design of Mixture-of-Experts for Dynamic Gaussian Splatting|In-Hwan Jin et.al.|[2607.08250](https://arxiv.org/abs/2607.08250)|[link](https://github.com/cvsp-lab/MoDE)|
+|2026-07-09|LightCrafter: PBR-Conditioned Video Diffusion Refinement for Controllable and Consistent Relighting|Zixin Guo et.al.|[2607.08016](https://arxiv.org/abs/2607.08016)|null|
+|2026-07-08|GeoGS-SLAM: Geometry-Only Gaussian Splatting for Dense Monocular SLAM|Lipu Zhou et.al.|[2607.07452](https://arxiv.org/abs/2607.07452)|null|
+|2026-07-08|SoccerNet 2026 Challenges Results|Anthony Cioppa et.al.|[2607.07320](https://arxiv.org/abs/2607.07320)|null|
+|2026-07-06|SSA-3DGS: Unsupervised Removal of Screen-Space Artifacts for 3D Gaussian Splatting|Kristof Overdulve et.al.|[2607.05598](https://arxiv.org/abs/2607.05598)|null|
+|2026-07-06|Rendering-Aware Bayesian 3D Gaussian Splatting with Native Uncertainty and Adaptive Complexity Control|Gaoxiang Jia et.al.|[2607.05522](https://arxiv.org/abs/2607.05522)|null|
+|2026-07-06|MV-Forcing: Long Multi-View Video Generation via 4D-Grounded Spatio-Temporal Self-Forcing|Gal Fiebelman et.al.|[2607.05376](https://arxiv.org/abs/2607.05376)|null|
+|2026-07-06|WildSplat: Feedforward Gaussian Splatting from Unposed In-the-Wild Images|Xiyu Zhang et.al.|[2607.05347](https://arxiv.org/abs/2607.05347)|null|
+|2026-07-06|GUSH3R: Everyone Everywhere All at Once as Gaussians|Keito Abe et.al.|[2607.05243](https://arxiv.org/abs/2607.05243)|null|
+|2026-07-04|MACRO: Training-free Multi-plane Attention for Closeup Render Optimization|Nitzan Hodos et.al.|[2607.03875](https://arxiv.org/abs/2607.03875)|null|
 |2026-06-30|Practical High-Fidelity Novel-View Synthesis of Mounted Lepidoptera|Kristof Overdulve et.al.|[2606.31679](https://arxiv.org/abs/2606.31679)|null|
 |2026-06-30|DPPE: Rethinking Camera-Based Positional Encoding for Scaling Multi-View Transformers|Shun Kenney et.al.|[2606.31585](https://arxiv.org/abs/2606.31585)|null|
 |2026-06-30|WarpHammer: Densifying Scene Warps with 3D Object Priors for Extreme View Synthesis|Michael Green et.al.|[2606.31258](https://arxiv.org/abs/2606.31258)|null|

@@ -1,26 +1,26 @@
 # Visual Localization
 
-> Updated on 2026.07.11
+> Updated on 2026.07.13
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-07-07**|**Visualizing Local Maxima of the Ohio overdose epidemic with Vineyards**|Nicholas Bermingham et.al.|[2607.05710](https://arxiv.org/abs/2607.05710)|null|
-|**2026-07-06**|**SLAM: Structured and Localized Analytic Manifold Adaptation for Lifelong VPR**|Kenta Tsukahara et.al.|[2607.04764](https://arxiv.org/abs/2607.04764)|null|
-|**2026-07-06**|**Trajectory-Anchor Optimization for Overconfident Thermal Visual Place Recognition: Zero-Leakage OOD Auditing and Kidnapped-Robot Recovery**|Zhiyuan Lu et.al.|[2607.04745](https://arxiv.org/abs/2607.04745)|null|
-|**2026-07-06**|**Reference-Induced Consensus for Selective Posed-Reference Visual Localization**|Wonseok Kang et.al.|[2607.04722](https://arxiv.org/abs/2607.04722)|**[link](https://github.com/SNU-DLLAB/ric_loc)**|
-|**2026-07-06**|**DIVO: Continuous-time DVL-Inertial-Visual Odometry for Unmanned Underwater Vehicles**|Kyungmin Jung et.al.|[2607.04615](https://arxiv.org/abs/2607.04615)|null|
-|**2026-07-02**|**GeoMix: Descriptor-Free Visual Localization via Global Context and Multi-Detector Training**|Yejun Zhang et.al.|[2607.02486](https://arxiv.org/abs/2607.02486)|null|
-|**2026-06-30**|**Lost in the Tail: Addressing Geographic Imbalance in Urban Visual Place Recognition**|Zhiyao Shu et.al.|[2607.00090](https://arxiv.org/abs/2607.00090)|null|
-|**2026-06-30**|**Seeing Through the Weights: Privacy Leakage in Scene Coordinate Regression**|Oleksii Nasypanyi et.al.|[2606.31164](https://arxiv.org/abs/2606.31164)|null|
-|**2026-07-01**|**AnyMatch: Supercharging Universal Multi-Modal Image Matching with Large-Scale Single-View Images**|Meng Yang et.al.|[2606.31077](https://arxiv.org/abs/2606.31077)|null|
-|**2026-07-02**|**PinNet: Keypoint-Aware Learned Local Descriptors with Geometric Embedding for Loop Closure in LiDAR SLAM**|Yanlong Ma et.al.|[2606.28637](https://arxiv.org/abs/2606.28637)|null|
+|2026-07-07|Visualizing Local Maxima of the Ohio overdose epidemic with Vineyards|Nicholas Bermingham et.al.|[2607.05710](https://arxiv.org/abs/2607.05710)|null|
+|2026-07-06|SLAM: Structured and Localized Analytic Manifold Adaptation for Lifelong VPR|Kenta Tsukahara et.al.|[2607.04764](https://arxiv.org/abs/2607.04764)|null|
+|2026-07-06|Trajectory-Anchor Optimization for Overconfident Thermal Visual Place Recognition: Zero-Leakage OOD Auditing and Kidnapped-Robot Recovery|Zhiyuan Lu et.al.|[2607.04745](https://arxiv.org/abs/2607.04745)|null|
+|2026-07-06|Reference-Induced Consensus for Selective Posed-Reference Visual Localization|Wonseok Kang et.al.|[2607.04722](https://arxiv.org/abs/2607.04722)|[link](https://github.com/SNU-DLLAB/ric_loc)|
+|2026-07-06|DIVO: Continuous-time DVL-Inertial-Visual Odometry for Unmanned Underwater Vehicles|Kyungmin Jung et.al.|[2607.04615](https://arxiv.org/abs/2607.04615)|null|
+|2026-07-02|GeoMix: Descriptor-Free Visual Localization via Global Context and Multi-Detector Training|Yejun Zhang et.al.|[2607.02486](https://arxiv.org/abs/2607.02486)|null|
+|2026-06-30|Lost in the Tail: Addressing Geographic Imbalance in Urban Visual Place Recognition|Zhiyao Shu et.al.|[2607.00090](https://arxiv.org/abs/2607.00090)|null|
+|2026-06-30|Seeing Through the Weights: Privacy Leakage in Scene Coordinate Regression|Oleksii Nasypanyi et.al.|[2606.31164](https://arxiv.org/abs/2606.31164)|null|
+|2026-07-01|AnyMatch: Supercharging Universal Multi-Modal Image Matching with Large-Scale Single-View Images|Meng Yang et.al.|[2606.31077](https://arxiv.org/abs/2606.31077)|null|
+|2026-07-02|PinNet: Keypoint-Aware Learned Local Descriptors with Geometric Embedding for Loop Closure in LiDAR SLAM|Yanlong Ma et.al.|[2606.28637](https://arxiv.org/abs/2606.28637)|null|
 |2026-06-23|From Open Waters to Enclosed Cabins: ProteusVPR for Cross-Scene Visual Place Recognition in Maritime Perception and Cabin Inspection|Zexi Chena et.al.|[2606.24234](https://arxiv.org/abs/2606.24234)|null|
 |2026-06-02|A Fixed Representation Probe Reveals Morphology-Space Organization in Non-Gaussian Elastic Transients|Jose Sanchez-Andreu et.al.|[2606.17061](https://arxiv.org/abs/2606.17061)|null|
 |2026-06-14|VL2Spike: Spike-driven Distillation from VLMs for Low-Power Visual Perception in Embodied AI|Zinan Liu et.al.|[2606.15898](https://arxiv.org/abs/2606.15898)|null|
 |2026-06-13|FD-SLAM: Fast Dense Radar-Inertial SLAM with Frequency-Domain Loop Closure and Pose Graph Optimization|Nader J. Abu-Alrub et.al.|[2606.15491](https://arxiv.org/abs/2606.15491)|null|
 |2026-06-11|Measurement-Calibrated Multi-Camera Fusion for Vision-Based Indoor Localization|Mateo Toro Diz et.al.|[2606.13509](https://arxiv.org/abs/2606.13509)|null|
 |2026-06-11|Visual Place Recognition in Forests with Depth-Aware Distillation|Walter Nedov et.al.|[2606.13206](https://arxiv.org/abs/2606.13206)|null|
-|2026-06-10|SG2Loc: Sequential Visual Localization on 3D Scene Graphs|Nicole Damblon et.al.|[2606.11880](https://arxiv.org/abs/2606.11880)|**[link](https://github.com/DmblnNicole/sg2loc)**|
+|2026-06-10|SG2Loc: Sequential Visual Localization on 3D Scene Graphs|Nicole Damblon et.al.|[2606.11880](https://arxiv.org/abs/2606.11880)|[link](https://github.com/DmblnNicole/sg2loc)|
 |2026-06-06|Empowering Feed-Forward Reconstruction Models with Metric Scale via Satellite Images|Xianghui Ze et.al.|[2606.08205](https://arxiv.org/abs/2606.08205)|null|
 |2026-06-04|Atomic-scale phase-field modeling for 2D ferroelectrics including non-Gaussian fluctuations|Kairi Masuda et.al.|[2606.06771](https://arxiv.org/abs/2606.06771)|null|
 |2026-06-03|Z-FLoc: Zero-Shot Floorplan Localization via Geometric Primitives|Ayumi Umemura et.al.|[2606.04788](https://arxiv.org/abs/2606.04788)|null|
@@ -103,7 +103,7 @@
 |2026-03-23|ADaFuSE: Adaptive Diffusion-generated Image and Text Fusion for Interactive Text-to-Image Retrieval|Zhuocheng Zhang et.al.|[2603.21886](https://arxiv.org/abs/2603.21886)|null|
 |2026-03-21|SATTC: Structure-Aware Label-Free Test-Time Calibration for Cross-Subject EEG-to-Image Retrieval|Qunjie Huang et.al.|[2603.20738](https://arxiv.org/abs/2603.20738)|null|
 |2026-03-21|A Multihead Continual Learning Framework for Fine-Grained Fashion Image Retrieval with Contrastive Learning and Exponential Moving Average Distillation|Ling Xiao et.al.|[2603.20648](https://arxiv.org/abs/2603.20648)|null|
-|2026-03-20|IsoCLIP: Decomposing CLIP Projectors for Efficient Intra-modal Alignment|Simone Magistri et.al.|[2603.19862](https://arxiv.org/abs/2603.19862)|null|
+|2026-03-20|IsoCLIP: Decomposing CLIP Projectors for Efficient Intra-modal Alignment|Simone Magistri et.al.|[2603.19862](https://arxiv.org/abs/2603.19862)|**[link](https://github.com/simomagi/IsoCLIP)**|
 |2026-03-20|IUP-Pose: Decoupled Iterative Uncertainty Propagation for Real-time Relative Pose Regression via Implicit Dense Alignment v1|Jun Wang et.al.|[2603.19625](https://arxiv.org/abs/2603.19625)|null|
 |2026-03-18|MCoT-MVS: Multi-level Vision Selection by Multi-modal Chain-of-Thought Reasoning for Composed Image Retrieval|Xuri Ge et.al.|[2603.17360](https://arxiv.org/abs/2603.17360)|null|
 |2026-03-17|Visual Product Search Benchmark|Karthik Sulthanpete Govindappa et.al.|[2603.17186](https://arxiv.org/abs/2603.17186)|null|
@@ -461,8 +461,8 @@
 |2025-03-27|FineCIR: Explicit Parsing of Fine-Grained Modification Semantics for Composed Image Retrieval|Zixu Li et.al.|[2503.21309](http://arxiv.org/abs/2503.21309)|[link](https://github.com/sdu-l/finecir)|
 |2025-03-27|Clean Image May be Dangerous: Data Poisoning Attacks Against Deep Hashing|Shuai Li et.al.|[2503.21236](http://arxiv.org/abs/2503.21236)|null|
 |2025-03-25|CoLLM: A Large Language Model for Composed Image Retrieval|Chuong Huynh et.al.|[2503.19910](http://arxiv.org/abs/2503.19910)|[link](https://github.com/hmchuong/CoLLM)|
-|2025-03-25|Scene-agnostic Pose Regression for Visual Localization|Junwei Zheng et.al.|[2503.19543](http://arxiv.org/abs/2503.19543)|null|
-|2025-03-25|From Sparse to Dense: Camera Relocalization with Scene-Specific Detector from Feature Gaussian Splatting|Zhiwei Huang et.al.|[2503.19358](http://arxiv.org/abs/2503.19358)|null|
+|2025-03-25|Scene-agnostic Pose Regression for Visual Localization|Junwei Zheng et.al.|[2503.19543](http://arxiv.org/abs/2503.19543)|**[link](https://github.com/JunweiZheng93/SPR)**|
+|2025-03-25|From Sparse to Dense: Camera Relocalization with Scene-Specific Detector from Feature Gaussian Splatting|Zhiwei Huang et.al.|[2503.19358](http://arxiv.org/abs/2503.19358)|**[link](https://github.com/zju3dv/STDLoc)**|
 |2025-03-25|Fine-grained Textual Inversion Network for Zero-Shot Composed Image Retrieval|Haoqiang Lin et.al.|[2503.19296](http://arxiv.org/abs/2503.19296)|[link](https://github.com/ZiChao111/FTI4CIR)|
 |2025-03-23|LocDiffusion: Identifying Locations on Earth by Diffusing in the Hilbert Space|Zhangyu Wang et.al.|[2503.18142](http://arxiv.org/abs/2503.18142)|null|
 |2025-03-23|Selecting and Pruning: A Differentiable Causal Sequentialized State-Space Model for Two-View Correspondence Learning|Xiang Fang et.al.|[2503.17938](http://arxiv.org/abs/2503.17938)|[link](https://github.com/ShineFox/CorrMamba)|
