@@ -1,6 +1,6 @@
 # Point Cloud Registration
 
-> Updated on 2026.07.16
+> Updated on 2026.07.20
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
@@ -67,7 +67,7 @@
 |2025-11-24|Efficient Transferable Optimal Transport via Min-Sliced Transport Plans|Xinran Liu et.al.|[2511.19741](http://arxiv.org/abs/2511.19741)|null|
 |2025-11-24|Structured Matching via Cost-Regularized Unbalanced Optimal Transport|Emanuele Pardini et.al.|[2511.19075](http://arxiv.org/abs/2511.19075)|null|
 |2025-11-24|Inverse Rendering for High-Genus Surface Meshes from Multi-View Images|Xiang Gao et.al.|[2511.18680](http://arxiv.org/abs/2511.18680)|null|
-|2025-11-23|Matching correlated VAR time series|Ernesto Araya et.al.|[2511.18553](http://arxiv.org/abs/2511.18553)|**[link](https://github.com/ErnestoArayaV/Matching-VAR-time-series)**|
+|2025-11-23|Matching correlated VAR time series|Ernesto Araya et.al.|[2511.18553](http://arxiv.org/abs/2511.18553)|[link](https://github.com/ErnestoArayaV/Matching-VAR-time-series)|
 |2025-11-22|ArticFlow: Generative Simulation of Articulated Mechanisms|Jiong Lin et.al.|[2511.17883](http://arxiv.org/abs/2511.17883)|null|
 |2025-11-21|MorphSeek: Fine-grained Latent Representation-Level Policy Optimization for Deformable Image Registration|Runxun Zhang et.al.|[2511.17392](http://arxiv.org/abs/2511.17392)|null|
 |2025-11-21|SlsReuse: LLM-Powered Serverless Function Reuse|Jinfeng Wen et.al.|[2511.17262](http://arxiv.org/abs/2511.17262)|null|

@@ -1,6 +1,6 @@
 # 3D Reconstruction
 
-> Updated on 2026.07.16
+> Updated on 2026.07.20
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
@@ -191,8 +191,8 @@
 |2026-03-26|Geo $^\textbf{2}$ : Geometry-Guided Cross-view Geo-Localization and Image Synthesis|Yancheng Zhang et.al.|[2603.25819](https://arxiv.org/abs/2603.25819)|null|
 |2026-03-25|SLAT-Phys: Fast Material Property Field Prediction from Structured 3D Latents|Rocktim Jyoti Das et.al.|[2603.23973](https://arxiv.org/abs/2603.23973)|null|
 |2026-03-24|AdvSplat: Adversarial Attacks on Feed-Forward Gaussian Splatting Models|Yiran Qiao et.al.|[2603.23686](https://arxiv.org/abs/2603.23686)|null|
-|2026-03-24|I3DM: Implicit 3D-aware Memory Retrieval and Injection for Consistent Video Scene Generation|Jia Li et.al.|[2603.23413](https://arxiv.org/abs/2603.23413)|**[link](https://github.com/Riga2/I3DM)**|
-|2026-03-24|GO-Renderer: Generative Object Rendering with 3D-aware Controllable Video Diffusion Models|Zekai Gu et.al.|[2603.23246](https://arxiv.org/abs/2603.23246)|**[link](https://github.com/IGL-HKUST/GO-Renderer)**|
+|2026-03-24|I3DM: Implicit 3D-aware Memory Retrieval and Injection for Consistent Video Scene Generation|Jia Li et.al.|[2603.23413](https://arxiv.org/abs/2603.23413)|[link](https://github.com/Riga2/I3DM)|
+|2026-03-24|GO-Renderer: Generative Object Rendering with 3D-aware Controllable Video Diffusion Models|Zekai Gu et.al.|[2603.23246](https://arxiv.org/abs/2603.23246)|[link](https://github.com/IGL-HKUST/GO-Renderer)|
 |2026-03-24|GTLR-GS: Geometry-Texture Aware LiDAR-Regularized 3D Gaussian Splatting for Realistic Scene Reconstruction|Yan Fang et.al.|[2603.23192](https://arxiv.org/abs/2603.23192)|null|
 |2026-03-24|UniQueR: Unified Query-based Feedforward 3D Reconstruction|Chensheng Peng et.al.|[2603.22851](https://arxiv.org/abs/2603.22851)|null|
 |2026-03-23|CAM3R: Camera-Agnostic Model for 3D Reconstruction|Namitha Guruprasad et.al.|[2603.22631](https://arxiv.org/abs/2603.22631)|null|
@@ -208,7 +208,7 @@
 |2026-03-19|FILT3R: Latent State Adaptive Kalman Filter for Streaming 3D Reconstruction|Seonghyun Jin et.al.|[2603.18493](https://arxiv.org/abs/2603.18493)|null|
 |2026-03-18|Fast and Generalizable NeRF Architecture Selection for Satellite Scene Reconstruction|Devjyoti Chakraborty et.al.|[2603.18306](https://arxiv.org/abs/2603.18306)|null|
 |2026-03-18|TAPESTRY: From Geometry to Appearance via Consistent Turntable Videos|Yan Zeng et.al.|[2603.17735](https://arxiv.org/abs/2603.17735)|null|
-|2026-03-18|PanoVGGT: Feed-Forward 3D Reconstruction from Panoramic Imagery|Yijing Guo et.al.|[2603.17571](https://arxiv.org/abs/2603.17571)|**[link](https://github.com/YijingGuo-June/PanoVGGT)**|
+|2026-03-18|PanoVGGT: Feed-Forward 3D Reconstruction from Panoramic Imagery|Yijing Guo et.al.|[2603.17571](https://arxiv.org/abs/2603.17571)|[link](https://github.com/YijingGuo-June/PanoVGGT)|
 |2026-03-13|Towards Spatio-Temporal World Scene Graph Generation from Monocular Videos|Rohith Peddi et.al.|[2603.13185](https://arxiv.org/abs/2603.13185)|null|
 |2026-03-13|3DTCR: A Physics-Based Generative Framework for Vortex-Following 3D Reconstruction to Improve Tropical Cyclone Intensity Forecasting|Jun Liu et.al.|[2603.13049](https://arxiv.org/abs/2603.13049)|null|
 |2026-03-13|CMHANet: A Cross-Modal Hybrid Attention Network for Point Cloud Registration|Dongxu Zhang et.al.|[2603.12721](https://arxiv.org/abs/2603.12721)|null|

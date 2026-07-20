@@ -1,6 +1,6 @@
 # Flow Matching
 
-> Updated on 2026.07.16
+> Updated on 2026.07.20
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
@@ -35,7 +35,7 @@
 |2026-06-29|MeloDISinger: Melody-Aware & Duration-Preserving Singing Voice Editing with Audio Infilling|Yoonjeong Park et.al.|[2606.30580](https://arxiv.org/abs/2606.30580)|null|
 |2026-06-29|The Fundamental Limits of Valid Transport Map Estimation|Sivaraman Balakrishnan et.al.|[2606.30574](https://arxiv.org/abs/2606.30574)|null|
 |2026-06-25|DanceOPD: On-Policy Generative Field Distillation|Wei Zhou et.al.|[2606.27377](https://arxiv.org/abs/2606.27377)|null|
-|2026-06-25|Ask, Solve, Generate: Self-Evolving Unified Multimodal Understanding and Generation via Self-Consistency Rewards|Ritesh Thawkar et.al.|[2606.27376](https://arxiv.org/abs/2606.27376)|**[link](https://github.com/mbzuai-oryx/Ask-Solve-Generate)**|
+|2026-06-25|Ask, Solve, Generate: Self-Evolving Unified Multimodal Understanding and Generation via Self-Consistency Rewards|Ritesh Thawkar et.al.|[2606.27376](https://arxiv.org/abs/2606.27376)|[link](https://github.com/mbzuai-oryx/Ask-Solve-Generate)|
 |2026-06-25|Learning to Fold: prizewinning solution at LeHome Challenge 2026 (1st place online, 2nd offline)|Ilia Larchenko et.al.|[2606.27163](https://arxiv.org/abs/2606.27163)|null|
 |2026-06-25|PAMAE: Phase-Aware-MoE Action Experts Towards Reliable Flow-Matching Vision-Language-Action Policies|Jiayu Yang et.al.|[2606.27144](https://arxiv.org/abs/2606.27144)|null|
 |2026-06-25|Bridging Vision and Language Concepts through Optimal Transport Semantic Flow|Chenyang Zhang et.al.|[2606.26891](https://arxiv.org/abs/2606.26891)|null|
@@ -162,7 +162,7 @@
 |2026-04-30|GSDrive: Reinforcing Driving Policies by Multi-mode Trajectory Probing with 3D Gaussian Splatting Environment|Ziang Guo et.al.|[2604.28111](https://arxiv.org/abs/2604.28111)|null|
 |2026-04-30|Martingale Posteriors for Discretely Observed Diffusions|Jingning Yao et.al.|[2604.27603](https://arxiv.org/abs/2604.27603)|null|
 |2026-04-30|ABC: Any-Subset Autoregression via Non-Markovian Diffusion Bridges in Continuous Time and Space|Gabe Guo et.al.|[2604.27443](https://arxiv.org/abs/2604.27443)|null|
-|2026-04-29|AnimateAnyMesh++: A Flexible 4D Foundation Model for High-Fidelity Text-Driven Mesh Animation|Zijie Wu et.al.|[2604.26917](https://arxiv.org/abs/2604.26917)|**[link](https://github.com/JarrentWu1031/AnimateAnyMesh-pp)**|
+|2026-04-29|AnimateAnyMesh++: A Flexible 4D Foundation Model for High-Fidelity Text-Driven Mesh Animation|Zijie Wu et.al.|[2604.26917](https://arxiv.org/abs/2604.26917)|[link](https://github.com/JarrentWu1031/AnimateAnyMesh-pp)|
 |2026-04-28|FlowS: One-Step Motion Prediction via Local Transport Conditioning|Leandro Di Bella et.al.|[2604.26065](https://arxiv.org/abs/2604.26065)|null|
 |2026-04-28|PhyloSDF: Phylogenetically-Conditioned Neural Generation of 3D Skull Morphology via Residual Flow Matching|Kaikwan Lau et.al.|[2604.25371](https://arxiv.org/abs/2604.25371)|null|
 |2026-04-28|Exploring Time Conditioning in Diffusion Generative Models from Disjoint Noisy Data Manifolds|Liuzhuozheng Li et.al.|[2604.25289](https://arxiv.org/abs/2604.25289)|null|

@@ -1,6 +1,6 @@
 # SLAM
 
-> Updated on 2026.07.16
+> Updated on 2026.07.20
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
@@ -45,7 +45,7 @@
 |2026-06-03|BPDA-GMM: Bayesian Probabilistic Data Association via Gaussian Mixture Models for Semantic SLAM|Thanh Nguyen Canh et.al.|[2606.04618](https://arxiv.org/abs/2606.04618)|null|
 |2026-06-02|PixVOD: Pixel-Distributed Direct Visual Odometry and Depth Estimation|Shinjeong Kim et.al.|[2606.03989](https://arxiv.org/abs/2606.03989)|null|
 |2026-06-02|Autonomous Navigation System for Library Service Robot Based on Unitree Go2 Edu|Aoduo Li et.al.|[2606.03340](https://arxiv.org/abs/2606.03340)|null|
-|2026-06-01|Embedding Semantic Risk into Distance Fields and CBFs for Online Monocular Safe Control|Dawei Zhang et.al.|[2606.01605](https://arxiv.org/abs/2606.01605)|**[link](https://github.com/phai-lab/SafeDF)**|
+|2026-06-01|Embedding Semantic Risk into Distance Fields and CBFs for Online Monocular Safe Control|Dawei Zhang et.al.|[2606.01605](https://arxiv.org/abs/2606.01605)|[link](https://github.com/phai-lab/SafeDF)|
 |2026-05-31|One Channel to Rule Them All: Rethinking Input Representation for Visual Place Recognition|Timur Ismagilov et.al.|[2606.00936](https://arxiv.org/abs/2606.00936)|null|
 |2026-05-30|SuperMemory-VQA: An Egocentric Visual Question-Answering Benchmark for Long-Horizon Memory|Samiul Alam et.al.|[2606.00825](https://arxiv.org/abs/2606.00825)|null|
 |2026-05-25|G-DRAGON: Geospatial Reasoning and Dynamic Planning for Retrieval-Augmented Outdoor Navigation|Dongzhihan Wang et.al.|[2605.25646](https://arxiv.org/abs/2605.25646)|[link](https://github.com/Anastasiawd/G-DRAGON)|
@@ -163,7 +163,7 @@
 |2025-07-07|Simultaneous Localization and Mapping Using Active mmWave Sensing in 5G NR|Tao Du et.al.|[2507.04662](http://arxiv.org/abs/2507.04662)|null|
 |2025-07-06|Lidar Variability: A Novel Dataset and Comparative Study of Solid-State and Spinning Lidars|Doumegna Mawuto Koudjo Felix et.al.|[2507.04321](http://arxiv.org/abs/2507.04321)|null|
 |2025-07-09|Gaussian-LIC2: LiDAR-Inertial-Camera Gaussian Splatting SLAM|Xiaolei Lang et.al.|[2507.04004](http://arxiv.org/abs/2507.04004)|null|
-|2025-07-04|Outdoor Monocular SLAM with Global Scale-Consistent 3D Gaussian Pointmaps|Chong Cheng et.al.|[2507.03737](http://arxiv.org/abs/2507.03737)|null|
+|2025-07-04|Outdoor Monocular SLAM with Global Scale-Consistent 3D Gaussian Pointmaps|Chong Cheng et.al.|[2507.03737](http://arxiv.org/abs/2507.03737)|**[link](https://github.com/3DAgentWorld/S3PO-GS)**|
 |2025-07-01|RaGNNarok: A Light-Weight Graph Neural Network for Enhancing Radar Point Clouds on Unmanned Ground Vehicles|David Hunt et.al.|[2507.00937](http://arxiv.org/abs/2507.00937)|null|
 |2025-07-01|Generation of Indoor Open Street Maps for Robot Navigation from CAD Files|Jiajie Zhang et.al.|[2507.00552](http://arxiv.org/abs/2507.00552)|null|
 |2025-06-30|VOCAL: Visual Odometry via ContrAstive Learning|Chi-Yao Huang et.al.|[2507.00243](http://arxiv.org/abs/2507.00243)|null|

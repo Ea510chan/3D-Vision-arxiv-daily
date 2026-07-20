@@ -1,6 +1,6 @@
 # World Model
 
-> Updated on 2026.07.16
+> Updated on 2026.07.20
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
@@ -80,7 +80,7 @@
 |2026-05-29|DecMem: Towards Minute-Long Consistent World Generation with Decoupled Memory|Zhenhao Yang et.al.|[2605.31336](https://arxiv.org/abs/2605.31336)|null|
 |2026-05-29|AR Forcing: Towards Long-Horizon Robot Navigation World Model|Yifei Yang et.al.|[2605.31314](https://arxiv.org/abs/2605.31314)|null|
 |2026-05-29|Light Interaction: Training-Free Inference Acceleration for Interactive Video World Models|Jiacheng Lu et.al.|[2605.31158](https://arxiv.org/abs/2605.31158)|null|
-|2026-05-29|Subspace-Decomposed JEPAs: Disentangling Progression and Content in Latent World Models|Lucas Thil et.al.|[2605.31111](https://arxiv.org/abs/2605.31111)|null|
+|2026-05-29|Subspace-Decomposed JEPAs: Disentangling Progression and Content in Latent World Models|Lucas Thil et.al.|[2605.31111](https://arxiv.org/abs/2605.31111)|**[link](https://github.com/LucasStill/SD-JEPA)**|
 |2026-05-29|SlotMemory: Object-Centric KV Memory for Streaming Long-Video Generation|Weijia Dou et.al.|[2605.31033](https://arxiv.org/abs/2605.31033)|null|
 |2026-05-29|PatchWorld: Gradient-Free Optimization of Executable World Models|Jiaxin Bai et.al.|[2605.30880](https://arxiv.org/abs/2605.30880)|null|
 |2026-05-29|Robust Dreamer: Deviation-Aware Latent Gaussian Memory for Action-Controlled AR Video Generation|Hanlin Chen et.al.|[2605.30855](https://arxiv.org/abs/2605.30855)|null|
@@ -144,7 +144,7 @@
 |2026-04-30|Simulating clinical interventions with a generative multimodal model of human physiology|Guy Lutsker et.al.|[2604.27899](https://arxiv.org/abs/2604.27899)|null|
 |2026-04-30|Graph World Models: Concepts, Taxonomy, and Future Directions|Jiawei Liu et.al.|[2604.27895](https://arxiv.org/abs/2604.27895)|null|
 |2026-04-30|MotuBrain: An Advanced World Action Model for Robot Control|MotuBrain Team et.al.|[2604.27792](https://arxiv.org/abs/2604.27792)|null|
-|2026-04-23|Seeing Fast and Slow: Learning the Flow of Time in Videos|Yen-Siang Wu et.al.|[2604.21931](https://arxiv.org/abs/2604.21931)|**[link](https://github.com/regerah/Seeing-Fast-And-Slow-Learning)**|
+|2026-04-23|Seeing Fast and Slow: Learning the Flow of Time in Videos|Yen-Siang Wu et.al.|[2604.21931](https://arxiv.org/abs/2604.21931)|[link](https://github.com/regerah/Seeing-Fast-And-Slow-Learning)|
 |2026-04-23|Machine Behavior in Relational Moral Dilemmas: Moral Rightness, Predicted Human Behavior, and Model Decisions|Jiseon Kim et.al.|[2604.21871](https://arxiv.org/abs/2604.21871)|null|
 |2026-04-23|Hi-WM: Human-in-the-World-Model for Scalable Robot Post-Training|Yaxuan Li et.al.|[2604.21741](https://arxiv.org/abs/2604.21741)|null|
 |2026-04-22|Building a Precise Video Language with Human-AI Oversight|Zhiqiu Lin et.al.|[2604.21718](https://arxiv.org/abs/2604.21718)|[link](https://github.com/chancharikmitra/CHAI)|

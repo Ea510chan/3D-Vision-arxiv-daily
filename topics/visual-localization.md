@@ -1,6 +1,6 @@
 # Visual Localization
 
-> Updated on 2026.07.16
+> Updated on 2026.07.20
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
@@ -78,7 +78,7 @@
 |2026-04-09|Bag of Bags: Adaptive Visual Vocabularies for Genizah Join Image Retrieval|Sharva Gogawale et.al.|[2604.08138](https://arxiv.org/abs/2604.08138)|null|
 |2026-04-09|SearchAD: Large-Scale Rare Image Retrieval Dataset for Autonomous Driving|Felix Embacher et.al.|[2604.08008](https://arxiv.org/abs/2604.08008)|null|
 |2026-04-09|Learning to Search: A Decision-Based Agent for Knowledge-Based Visual Question Answering|Zhuohong Chen et.al.|[2604.07146](https://arxiv.org/abs/2604.07146)|null|
-|2026-04-08|VGGT-SLAM++|Avilasha Mandal et.al.|[2604.06830](https://arxiv.org/abs/2604.06830)|null|
+|2026-04-08|VGGT-SLAM++|Avilasha Mandal et.al.|[2604.06830](https://arxiv.org/abs/2604.06830)|**[link](https://github.com/MIT-SPARK/VGGT-SLAM)**|
 |2026-04-06|CraterBench-R: Instance-Level Crater Retrieval for Planetary Scale|Jichao Fang et.al.|[2604.06245](https://arxiv.org/abs/2604.06245)|null|
 |2026-04-07|Stealthy and Adjustable Text-Guided Backdoor Attacks on Multimodal Pretrained Models|Yiyang Zhang et.al.|[2604.05809](https://arxiv.org/abs/2604.05809)|null|
 |2026-04-07|WRF4CIR: Weight-Regularized Fine-Tuning Network for Composed Image Retrieval|Yizhuo Xu et.al.|[2604.05583](https://arxiv.org/abs/2604.05583)|null|
@@ -94,7 +94,7 @@
 |2026-03-26|Few Shots Text to Image Retrieval: New Benchmarking Dataset and Optimization Methods|Ofer Idan et.al.|[2603.25891](https://arxiv.org/abs/2603.25891)|null|
 |2026-03-26|Just Zoom In: Cross-View Geo-Localization via Autoregressive Zooming|Yunus Talha Erzurumlu et.al.|[2603.25686](https://arxiv.org/abs/2603.25686)|null|
 |2026-03-26|On-Demand Instructional Material Providing Agent Based on MLLM for Tutoring Support|Takumi Kato et.al.|[2603.25195](https://arxiv.org/abs/2603.25195)|null|
-|2026-03-28|TIGeR: A Unified Framework for Time, Images and Geo-location Retrieval|David G. Shatwell et.al.|[2603.24749](https://arxiv.org/abs/2603.24749)|null|
+|2026-03-28|TIGeR: A Unified Framework for Time, Images and Geo-location Retrieval|David G. Shatwell et.al.|[2603.24749](https://arxiv.org/abs/2603.24749)|**[link](https://github.com/dshatwell23/tiger.github.io)**|
 |2026-03-24|Sparse Autoencoders for Interpretable Medical Image Representation Learning|Philipp Wesp et.al.|[2603.23794](https://arxiv.org/abs/2603.23794)|[link](https://github.com/pwesp/sail)|
 |2026-03-24|ARGENT: Adaptive Hierarchical Image-Text Representations|Chuong Huynh et.al.|[2603.23311](https://arxiv.org/abs/2603.23311)|[link](https://github.com/Ufere/Assingment_1)|
 |2026-03-24|Retrieval-Guided Photovoltaic Inventory Estimation from Satellite Imagery for Distribution Grid Planning|Muhao Guo et.al.|[2603.22856](https://arxiv.org/abs/2603.22856)|null|
@@ -103,7 +103,7 @@
 |2026-03-23|ADaFuSE: Adaptive Diffusion-generated Image and Text Fusion for Interactive Text-to-Image Retrieval|Zhuocheng Zhang et.al.|[2603.21886](https://arxiv.org/abs/2603.21886)|null|
 |2026-03-21|SATTC: Structure-Aware Label-Free Test-Time Calibration for Cross-Subject EEG-to-Image Retrieval|Qunjie Huang et.al.|[2603.20738](https://arxiv.org/abs/2603.20738)|null|
 |2026-03-21|A Multihead Continual Learning Framework for Fine-Grained Fashion Image Retrieval with Contrastive Learning and Exponential Moving Average Distillation|Ling Xiao et.al.|[2603.20648](https://arxiv.org/abs/2603.20648)|null|
-|2026-03-20|IsoCLIP: Decomposing CLIP Projectors for Efficient Intra-modal Alignment|Simone Magistri et.al.|[2603.19862](https://arxiv.org/abs/2603.19862)|**[link](https://github.com/simomagi/IsoCLIP)**|
+|2026-03-20|IsoCLIP: Decomposing CLIP Projectors for Efficient Intra-modal Alignment|Simone Magistri et.al.|[2603.19862](https://arxiv.org/abs/2603.19862)|[link](https://github.com/simomagi/IsoCLIP)|
 |2026-03-20|IUP-Pose: Decoupled Iterative Uncertainty Propagation for Real-time Relative Pose Regression via Implicit Dense Alignment v1|Jun Wang et.al.|[2603.19625](https://arxiv.org/abs/2603.19625)|null|
 |2026-03-18|MCoT-MVS: Multi-level Vision Selection by Multi-modal Chain-of-Thought Reasoning for Composed Image Retrieval|Xuri Ge et.al.|[2603.17360](https://arxiv.org/abs/2603.17360)|null|
 |2026-03-17|Visual Product Search Benchmark|Karthik Sulthanpete Govindappa et.al.|[2603.17186](https://arxiv.org/abs/2603.17186)|null|
@@ -425,8 +425,8 @@
 |2025-05-06|Seeing the Abstract: Translating the Abstract Language for Vision Language Models|Davide Talon et.al.|[2505.03242](http://arxiv.org/abs/2505.03242)|[link](https://github.com/davidetalon/fashionact)|
 |2025-05-13|SafeNav: Safe Path Navigation using Landmark Based Localization in a GPS-denied Environment|Ganesh Sapkota et.al.|[2505.01956](http://arxiv.org/abs/2505.01956)|null|
 |2025-05-02|NeuroLoc: Encoding Navigation Cells for 6-DOF Camera Localization|Xun Li et.al.|[2505.01113](http://arxiv.org/abs/2505.01113)|null|
-|2025-05-01|GSFeatLoc: Visual Localization Using Feature Correspondence on 3D Gaussian Splatting|Jongwon Lee et.al.|[2504.20379](http://arxiv.org/abs/2504.20379)|null|
-|2025-04-25|From Mapping to Composing: A Two-Stage Framework for Zero-shot Composed Image Retrieval|Yabing Wang et.al.|[2504.17990](http://arxiv.org/abs/2504.17990)|null|
+|2025-05-01|GSFeatLoc: Visual Localization Using Feature Correspondence on 3D Gaussian Splatting|Jongwon Lee et.al.|[2504.20379](http://arxiv.org/abs/2504.20379)|**[link](https://github.com/jongwonjlee/gsfeatloc)**|
+|2025-04-25|From Mapping to Composing: A Two-Stage Framework for Zero-shot Composed Image Retrieval|Yabing Wang et.al.|[2504.17990](http://arxiv.org/abs/2504.17990)|**[link](https://github.com/LiJiaBei-7/TSCIR)**|
 |2025-04-24|A Guide to Structureless Visual Localization|Vojtech Panek et.al.|[2504.17636](http://arxiv.org/abs/2504.17636)|null|
 |2025-04-23|Rethinking Vision Transformer for Large-Scale Fine-Grained Image Retrieval|Xin Jiang et.al.|[2504.16691](http://arxiv.org/abs/2504.16691)|null|
 |2025-04-22|Media Content Atlas: A Pipeline to Explore and Investigate Multidimensional Media Space using Multimodal LLMs|Merve Cerit et.al.|[2504.16323](http://arxiv.org/abs/2504.16323)|[link](https://github.com/mediacontentatlas/mediacontentatlas)|
@@ -461,8 +461,8 @@
 |2025-03-27|FineCIR: Explicit Parsing of Fine-Grained Modification Semantics for Composed Image Retrieval|Zixu Li et.al.|[2503.21309](http://arxiv.org/abs/2503.21309)|[link](https://github.com/sdu-l/finecir)|
 |2025-03-27|Clean Image May be Dangerous: Data Poisoning Attacks Against Deep Hashing|Shuai Li et.al.|[2503.21236](http://arxiv.org/abs/2503.21236)|null|
 |2025-03-25|CoLLM: A Large Language Model for Composed Image Retrieval|Chuong Huynh et.al.|[2503.19910](http://arxiv.org/abs/2503.19910)|[link](https://github.com/hmchuong/CoLLM)|
-|2025-03-25|Scene-agnostic Pose Regression for Visual Localization|Junwei Zheng et.al.|[2503.19543](http://arxiv.org/abs/2503.19543)|**[link](https://github.com/JunweiZheng93/SPR)**|
-|2025-03-25|From Sparse to Dense: Camera Relocalization with Scene-Specific Detector from Feature Gaussian Splatting|Zhiwei Huang et.al.|[2503.19358](http://arxiv.org/abs/2503.19358)|**[link](https://github.com/zju3dv/STDLoc)**|
+|2025-03-25|Scene-agnostic Pose Regression for Visual Localization|Junwei Zheng et.al.|[2503.19543](http://arxiv.org/abs/2503.19543)|[link](https://github.com/JunweiZheng93/SPR)|
+|2025-03-25|From Sparse to Dense: Camera Relocalization with Scene-Specific Detector from Feature Gaussian Splatting|Zhiwei Huang et.al.|[2503.19358](http://arxiv.org/abs/2503.19358)|[link](https://github.com/zju3dv/STDLoc)|
 |2025-03-25|Fine-grained Textual Inversion Network for Zero-Shot Composed Image Retrieval|Haoqiang Lin et.al.|[2503.19296](http://arxiv.org/abs/2503.19296)|[link](https://github.com/ZiChao111/FTI4CIR)|
 |2025-03-23|LocDiffusion: Identifying Locations on Earth by Diffusing in the Hilbert Space|Zhangyu Wang et.al.|[2503.18142](http://arxiv.org/abs/2503.18142)|null|
 |2025-03-23|Selecting and Pruning: A Differentiable Causal Sequentialized State-Space Model for Two-View Correspondence Learning|Xiang Fang et.al.|[2503.17938](http://arxiv.org/abs/2503.17938)|[link](https://github.com/ShineFox/CorrMamba)|
