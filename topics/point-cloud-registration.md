@@ -1,6 +1,6 @@
 # Point Cloud Registration
 
-> Updated on 2026.07.20
+> Updated on 2026.07.21
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|

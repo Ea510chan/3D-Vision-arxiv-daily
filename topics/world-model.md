@@ -1,9 +1,19 @@
 # World Model
 
-> Updated on 2026.07.20
+> Updated on 2026.07.21
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-07-20**|**FlashRT: Agent Harness for Guiding Agents to Deploy Real-Time Multimodal Applications**|Krish Agarwal et.al.|[2607.18171](https://arxiv.org/abs/2607.18171)|null|
+|**2026-07-20**|**SAGE: Subgoal-Conditioned Action Generation for Latent World Model Planning**|Letian Cheng et.al.|[2607.17973](https://arxiv.org/abs/2607.17973)|null|
+|**2026-07-20**|**Mobile Network Control with a World Model**|Maxime Bouton et.al.|[2607.17747](https://arxiv.org/abs/2607.17747)|**[link](https://github.com/jettbrains/-L-)**|
+|**2026-07-20**|**Planning with Transformers: Chain of Computation and Structured Context Windows**|Ehsan Futuhi et.al.|[2607.17710](https://arxiv.org/abs/2607.17710)|null|
+|**2026-07-20**|**ShotPlan: Cinematic Video Generation with Learnable Planning Token**|Su Guo et.al.|[2607.17675](https://arxiv.org/abs/2607.17675)|**[link](https://github.com/Pensioner-11/ShotPlan)**|
+|**2026-07-20**|**Attention from Above: A Multimodal Model for Drone-Based Object Localization**|Hyun-Ki Jung et.al.|[2607.17669](https://arxiv.org/abs/2607.17669)|null|
+|**2026-07-20**|**Reinforcement Learning: From Algorithms To Foundation Models**|Zihan Ding et.al.|[2607.17560](https://arxiv.org/abs/2607.17560)|null|
+|**2026-07-20**|**Thinking in Video: Can Video Generators Really Reason About the Real World?**|Yongheng Zhang et.al.|[2607.17523](https://arxiv.org/abs/2607.17523)|null|
+|**2026-07-20**|**GeoWorldAD: Geometry World Action Model for Autonomous Driving**|Songyan Zhang et.al.|[2607.17521](https://arxiv.org/abs/2607.17521)|null|
+|**2026-07-19**|**Between Safe Boundaries: Exploiting Temporal Consistency for Jailbreaking Text-To-Video Generation Models**|Xingkai Peng et.al.|[2607.17279](https://arxiv.org/abs/2607.17279)|null|
 |2026-07-02|WorldDirector: Building Controllable World Simulators with Persistent Dynamic Memory|Hanlin Wang et.al.|[2607.02517](https://arxiv.org/abs/2607.02517)|null|
 |2026-07-02|WorldSample: Closed-loop Real-robot RL with World Modelling|Yuquan Xue et.al.|[2607.02431](https://arxiv.org/abs/2607.02431)|null|
 |2026-07-02|ACID: Action Consistency via Inverse Dynamics for Planning with World Models|Gawon Seo et.al.|[2607.02403](https://arxiv.org/abs/2607.02403)|null|
