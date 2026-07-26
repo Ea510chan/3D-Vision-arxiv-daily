@@ -1,9 +1,19 @@
 # Flow Matching
 
-> Updated on 2026.07.21
+> Updated on 2026.07.26
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-07-23**|**Inference-Time Scaling of Diffusion Models via Progressive Seed Pruning**|Rogerio Guimaraes et.al.|[2607.21591](https://arxiv.org/abs/2607.21591)|**[link](https://github.com/rogerioagjr/PSP)**|
+|**2026-07-23**|**Expanding Flow Maps**|Sophia Tang et.al.|[2607.21585](https://arxiv.org/abs/2607.21585)|**[link](https://github.com/klonnet23/helloy-word)**|
+|**2026-07-23**|**Flow-based Phase-space Tomography of Continuous-variable Quantum States**|Owen Dugan et.al.|[2607.21584](https://arxiv.org/abs/2607.21584)|null|
+|**2026-07-23**|**Context-weighted Discrete Flow Matching**|Daniil Cherniavskii et.al.|[2607.21427](https://arxiv.org/abs/2607.21427)|**[link](https://github.com/alphaXiv/context-weighted-discrete-flow-matching)**|
+|**2026-07-23**|**SlerpFlow: Spherical Trajectory Correction for Rectified Flow Inversion**|Wenbin Duan et.al.|[2607.21326](https://arxiv.org/abs/2607.21326)|null|
+|**2026-07-23**|**Fast Inference on Astronomical Time Series with Trans-Dimensional Flow Matching Posterior Estimation**|Nina van der Meulen et.al.|[2607.21134](https://arxiv.org/abs/2607.21134)|null|
+|**2026-07-23**|**Faster IndexTTS-2: Accelerating and Streaming Autoregressive Zero-Shot Text-to-Speech Synthesis on GPUs**|Muyang Du et.al.|[2607.21042](https://arxiv.org/abs/2607.21042)|null|
+|**2026-07-23**|**Uni-XAS: Alignment-Driven Bidirectional Multimodal Learning for X-ray Absorption Spectroscopy**|Suyang Zhong et.al.|[2607.20906](https://arxiv.org/abs/2607.20906)|null|
+|**2026-07-22**|**DS@GT ARC at ImageCLEFmed GANs 2026: Geometric Filtering for Privacy-Preserving CT Slice Generation**|Eric Regina et.al.|[2607.20692](https://arxiv.org/abs/2607.20692)|null|
+|**2026-07-23**|**Pushing the Frontier of Full-Song Generation: Hierarchical Autoregressive Planning Meets Flow-Matching Rendering**|Junyu Dai et.al.|[2607.20253](https://arxiv.org/abs/2607.20253)|null|
 |**2026-07-20**|**A machine-learned probability distribution in the phase space of turbulent channel flow for synthetic turbulence and flow reconstruction**|Frederik Aerts et.al.|[2607.18058](https://arxiv.org/abs/2607.18058)|null|
 |**2026-07-20**|**Consistent Feature Transport for Image Relighting**|Bohan Zhang et.al.|[2607.17833](https://arxiv.org/abs/2607.17833)|null|
 |**2026-07-20**|**AGG: Jacobian-Aggregated Group Gradient for Efficient GRPO Training of Diffusion Models**|Ruiyi Ding et.al.|[2607.17572](https://arxiv.org/abs/2607.17572)|null|

@@ -1,9 +1,19 @@
 # Visual Localization
 
-> Updated on 2026.07.21
+> Updated on 2026.07.26
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-07-23**|**DTIF: Robust Loop Closure Detection via Delaunay Triangle Topology in Complex Forests**|Xin Zhao et.al.|[2607.21138](https://arxiv.org/abs/2607.21138)|null|
+|**2026-07-22**|**RIM: A Retrieval-In-Matching Framework for Cross-Domain Global Visual Localization of UAVs**|Xin Li et.al.|[2607.20116](https://arxiv.org/abs/2607.20116)|null|
+|**2026-07-21**|**TAP-RAG: Task-Aware Policy Control for Long-Document Multimodal Question Answering**|Zhong Ji et.al.|[2607.18917](https://arxiv.org/abs/2607.18917)|null|
+|**2026-07-17**|**Are All Tokens Necessary for Visual Place Recognition? An Empirical Study of Token Reduction for Efficient Inference**|Tong Jin et.al.|[2607.15563](https://arxiv.org/abs/2607.15563)|null|
+|**2026-07-16**|**VTAP Gripper: Synergizing Fingertip Sensing and a Visuo-Tactile Active Palm for Dexterous In-Hand Manipulation**|Yuhao Zhou et.al.|[2607.15448](https://arxiv.org/abs/2607.15448)|null|
+|**2026-07-16**|**SceneBind: Binding What and Where Across Vision, Audio and Language**|Mingfei Chen et.al.|[2607.15265](https://arxiv.org/abs/2607.15265)|null|
+|**2026-07-16**|**Selectivity Drives Efficiency: Dataset Pruning for Visual Place Recognition**|Tong Jin et.al.|[2607.14897](https://arxiv.org/abs/2607.14897)|null|
+|**2026-07-16**|**Immediate 3D Gaussian Splat Reconstruction of Unordered Input with Global Consistency**|Andreas Meuleman et.al.|[2607.14481](https://arxiv.org/abs/2607.14481)|null|
+|**2026-07-15**|**Visual Place Recognition Using Rate-Encoded Spiking Neural Networks with Discrete STDP Learning**|Altzi Tsanko et.al.|[2607.13584](https://arxiv.org/abs/2607.13584)|null|
+|**2026-07-15**|**Breaking Déjà Vu: Independent Auditing of Visual Place Recognition through Vision-Language Reasoning**|Sania Waheed et.al.|[2607.12818](https://arxiv.org/abs/2607.12818)|null|
 |2026-07-07|Visualizing Local Maxima of the Ohio overdose epidemic with Vineyards|Nicholas Bermingham et.al.|[2607.05710](https://arxiv.org/abs/2607.05710)|null|
 |2026-07-06|SLAM: Structured and Localized Analytic Manifold Adaptation for Lifelong VPR|Kenta Tsukahara et.al.|[2607.04764](https://arxiv.org/abs/2607.04764)|null|
 |2026-07-06|Trajectory-Anchor Optimization for Overconfident Thermal Visual Place Recognition: Zero-Leakage OOD Auditing and Kidnapped-Robot Recovery|Zhiyuan Lu et.al.|[2607.04745](https://arxiv.org/abs/2607.04745)|null|

@@ -21,10 +21,10 @@ title: SLAM
     <a class="sidebar-link active" href="slam.html">SLAM <span class="sidebar-count">322</span></a>
     <a class="sidebar-link" href="3d-reconstruction.html">3D Reconstruction <span class="sidebar-count">492</span></a>
     <a class="sidebar-link" href="novel-view-synthesis.html">Novel View Synthesis <span class="sidebar-count">108</span></a>
-    <a class="sidebar-link" href="visual-localization.html">Visual Localization <span class="sidebar-count">484</span></a>
+    <a class="sidebar-link" href="visual-localization.html">Visual Localization <span class="sidebar-count">494</span></a>
     <a class="sidebar-link" href="3d-localization.html">3D Localization <span class="sidebar-count">22</span></a>
     <a class="sidebar-link" href="world-model.html">World Model <span class="sidebar-count">200</span></a>
-    <a class="sidebar-link" href="flow-matching.html">Flow Matching <span class="sidebar-count">221</span></a>
+    <a class="sidebar-link" href="flow-matching.html">Flow Matching <span class="sidebar-count">231</span></a>
   </nav>
   <section class="reader-list">
     <div class="list-header"><h2>SLAM</h2><span>322 papers</span></div>
