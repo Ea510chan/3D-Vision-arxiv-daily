@@ -1,6 +1,6 @@
 # SLAM
 
-> Updated on 2026.07.26
+> Updated on 2026.07.27
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
@@ -163,7 +163,7 @@
 |2025-07-07|Simultaneous Localization and Mapping Using Active mmWave Sensing in 5G NR|Tao Du et.al.|[2507.04662](http://arxiv.org/abs/2507.04662)|null|
 |2025-07-06|Lidar Variability: A Novel Dataset and Comparative Study of Solid-State and Spinning Lidars|Doumegna Mawuto Koudjo Felix et.al.|[2507.04321](http://arxiv.org/abs/2507.04321)|null|
 |2025-07-09|Gaussian-LIC2: LiDAR-Inertial-Camera Gaussian Splatting SLAM|Xiaolei Lang et.al.|[2507.04004](http://arxiv.org/abs/2507.04004)|null|
-|2025-07-04|Outdoor Monocular SLAM with Global Scale-Consistent 3D Gaussian Pointmaps|Chong Cheng et.al.|[2507.03737](http://arxiv.org/abs/2507.03737)|**[link](https://github.com/3DAgentWorld/S3PO-GS)**|
+|2025-07-04|Outdoor Monocular SLAM with Global Scale-Consistent 3D Gaussian Pointmaps|Chong Cheng et.al.|[2507.03737](http://arxiv.org/abs/2507.03737)|[link](https://github.com/3DAgentWorld/S3PO-GS)|
 |2025-07-01|RaGNNarok: A Light-Weight Graph Neural Network for Enhancing Radar Point Clouds on Unmanned Ground Vehicles|David Hunt et.al.|[2507.00937](http://arxiv.org/abs/2507.00937)|null|
 |2025-07-01|Generation of Indoor Open Street Maps for Robot Navigation from CAD Files|Jiajie Zhang et.al.|[2507.00552](http://arxiv.org/abs/2507.00552)|null|
 |2025-06-30|VOCAL: Visual Odometry via ContrAstive Learning|Chi-Yao Huang et.al.|[2507.00243](http://arxiv.org/abs/2507.00243)|null|
@@ -183,7 +183,7 @@
 |2025-06-21|Optimizing Exploration with a New Uncertainty Framework for Active SLAM Systems|Sebastian Sansoni et.al.|[2506.17775](http://arxiv.org/abs/2506.17775)|null|
 |2025-06-18|MCOO-SLAM: A Multi-Camera Omnidirectional Object SLAM System|Miaoxin Pan et.al.|[2506.15402](http://arxiv.org/abs/2506.15402)|null|
 |2025-06-24|RA-NeRF: Robust Neural Radiance Field Reconstruction with Accurate Camera Pose Estimation under Complex Trajectories|Qingsong Yan et.al.|[2506.15242](http://arxiv.org/abs/2506.15242)|null|
-|2025-06-18|SHeRLoc: Synchronized Heterogeneous Radar Place Recognition for Cross-Modal Localization|Hanjun Kim et.al.|[2506.15175](http://arxiv.org/abs/2506.15175)|null|
+|2025-06-18|SHeRLoc: Synchronized Heterogeneous Radar Place Recognition for Cross-Modal Localization|Hanjun Kim et.al.|[2506.15175](http://arxiv.org/abs/2506.15175)|**[link](https://github.com/hanjun815/SHeRLoc)**|
 |2025-06-18|VIMS: A Visual-Inertial-Magnetic-Sonar SLAM System in Underwater Environments|Bingbing Zhang et.al.|[2506.15126](http://arxiv.org/abs/2506.15126)|null|
 |2025-06-16|Slanted light-sheet array microscopy for large volume imaging at rates exceeding 100 Hz|Kai Long et.al.|[2506.13664](http://arxiv.org/abs/2506.13664)|null|
 |2025-06-16|Cognitive Synergy Architecture: SEGO for Human-Centric Collaborative Robots|Jaehong Oh et.al.|[2506.13149](http://arxiv.org/abs/2506.13149)|null|

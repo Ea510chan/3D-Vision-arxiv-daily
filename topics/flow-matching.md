@@ -1,29 +1,29 @@
 # Flow Matching
 
-> Updated on 2026.07.26
+> Updated on 2026.07.27
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-07-23**|**Inference-Time Scaling of Diffusion Models via Progressive Seed Pruning**|Rogerio Guimaraes et.al.|[2607.21591](https://arxiv.org/abs/2607.21591)|**[link](https://github.com/rogerioagjr/PSP)**|
-|**2026-07-23**|**Expanding Flow Maps**|Sophia Tang et.al.|[2607.21585](https://arxiv.org/abs/2607.21585)|**[link](https://github.com/klonnet23/helloy-word)**|
-|**2026-07-23**|**Flow-based Phase-space Tomography of Continuous-variable Quantum States**|Owen Dugan et.al.|[2607.21584](https://arxiv.org/abs/2607.21584)|null|
-|**2026-07-23**|**Context-weighted Discrete Flow Matching**|Daniil Cherniavskii et.al.|[2607.21427](https://arxiv.org/abs/2607.21427)|**[link](https://github.com/alphaXiv/context-weighted-discrete-flow-matching)**|
-|**2026-07-23**|**SlerpFlow: Spherical Trajectory Correction for Rectified Flow Inversion**|Wenbin Duan et.al.|[2607.21326](https://arxiv.org/abs/2607.21326)|null|
-|**2026-07-23**|**Fast Inference on Astronomical Time Series with Trans-Dimensional Flow Matching Posterior Estimation**|Nina van der Meulen et.al.|[2607.21134](https://arxiv.org/abs/2607.21134)|null|
-|**2026-07-23**|**Faster IndexTTS-2: Accelerating and Streaming Autoregressive Zero-Shot Text-to-Speech Synthesis on GPUs**|Muyang Du et.al.|[2607.21042](https://arxiv.org/abs/2607.21042)|null|
-|**2026-07-23**|**Uni-XAS: Alignment-Driven Bidirectional Multimodal Learning for X-ray Absorption Spectroscopy**|Suyang Zhong et.al.|[2607.20906](https://arxiv.org/abs/2607.20906)|null|
-|**2026-07-22**|**DS@GT ARC at ImageCLEFmed GANs 2026: Geometric Filtering for Privacy-Preserving CT Slice Generation**|Eric Regina et.al.|[2607.20692](https://arxiv.org/abs/2607.20692)|null|
-|**2026-07-23**|**Pushing the Frontier of Full-Song Generation: Hierarchical Autoregressive Planning Meets Flow-Matching Rendering**|Junyu Dai et.al.|[2607.20253](https://arxiv.org/abs/2607.20253)|null|
-|**2026-07-20**|**A machine-learned probability distribution in the phase space of turbulent channel flow for synthetic turbulence and flow reconstruction**|Frederik Aerts et.al.|[2607.18058](https://arxiv.org/abs/2607.18058)|null|
-|**2026-07-20**|**Consistent Feature Transport for Image Relighting**|Bohan Zhang et.al.|[2607.17833](https://arxiv.org/abs/2607.17833)|null|
-|**2026-07-20**|**AGG: Jacobian-Aggregated Group Gradient for Efficient GRPO Training of Diffusion Models**|Ruiyi Ding et.al.|[2607.17572](https://arxiv.org/abs/2607.17572)|null|
-|**2026-07-20**|**FlowSonic: Stable Zero-Shot Music Editing via High-Order Trajectory Integration**|Ali Boudaghi et.al.|[2607.17526](https://arxiv.org/abs/2607.17526)|null|
-|**2026-07-20**|**DecoyFace: Beyond Obfuscation via Controllable and Imperceptible Identity Misdirection for Privacy-Preserving Face Recognition**|Zhihan Ren et.al.|[2607.17504](https://arxiv.org/abs/2607.17504)|null|
-|**2026-07-18**|**TVGL-CFM:Generating and Forecasting Time-Varying Trajectories of Dynamic Networks with Conditional Flow Matching**|Om Roy et.al.|[2607.16894](https://arxiv.org/abs/2607.16894)|null|
-|**2026-07-18**|**Token-Wise Latent Streaming from Slow Reasoners to Fast Planners for Dynamic Vision Language Navigation**|Tianshuai Hu et.al.|[2607.16806](https://arxiv.org/abs/2607.16806)|null|
-|**2026-07-18**|**Semi-Supervised Conditional Generative Learning through Stochastic Interpolation and Sufficient Representations**|Changyu Liu et.al.|[2607.16725](https://arxiv.org/abs/2607.16725)|null|
-|**2026-07-18**|**DRIFT: Difficulty-aware Rectified Flows for Through-plane MRI Super-Resolution**|Yoonseok Choi et.al.|[2607.16649](https://arxiv.org/abs/2607.16649)|null|
-|**2026-07-17**|**Learning Standard Model structure from LHC data with Riemannian flow matching**|Midori Kato et.al.|[2607.16144](https://arxiv.org/abs/2607.16144)|null|
+|2026-07-23|Inference-Time Scaling of Diffusion Models via Progressive Seed Pruning|Rogerio Guimaraes et.al.|[2607.21591](https://arxiv.org/abs/2607.21591)|[link](https://github.com/rogerioagjr/PSP)|
+|2026-07-23|Expanding Flow Maps|Sophia Tang et.al.|[2607.21585](https://arxiv.org/abs/2607.21585)|[link](https://github.com/klonnet23/helloy-word)|
+|2026-07-23|Flow-based Phase-space Tomography of Continuous-variable Quantum States|Owen Dugan et.al.|[2607.21584](https://arxiv.org/abs/2607.21584)|null|
+|2026-07-23|Context-weighted Discrete Flow Matching|Daniil Cherniavskii et.al.|[2607.21427](https://arxiv.org/abs/2607.21427)|[link](https://github.com/alphaXiv/context-weighted-discrete-flow-matching)|
+|2026-07-23|SlerpFlow: Spherical Trajectory Correction for Rectified Flow Inversion|Wenbin Duan et.al.|[2607.21326](https://arxiv.org/abs/2607.21326)|null|
+|2026-07-23|Fast Inference on Astronomical Time Series with Trans-Dimensional Flow Matching Posterior Estimation|Nina van der Meulen et.al.|[2607.21134](https://arxiv.org/abs/2607.21134)|null|
+|2026-07-23|Faster IndexTTS-2: Accelerating and Streaming Autoregressive Zero-Shot Text-to-Speech Synthesis on GPUs|Muyang Du et.al.|[2607.21042](https://arxiv.org/abs/2607.21042)|null|
+|2026-07-23|Uni-XAS: Alignment-Driven Bidirectional Multimodal Learning for X-ray Absorption Spectroscopy|Suyang Zhong et.al.|[2607.20906](https://arxiv.org/abs/2607.20906)|null|
+|2026-07-22|DS@GT ARC at ImageCLEFmed GANs 2026: Geometric Filtering for Privacy-Preserving CT Slice Generation|Eric Regina et.al.|[2607.20692](https://arxiv.org/abs/2607.20692)|null|
+|2026-07-23|Pushing the Frontier of Full-Song Generation: Hierarchical Autoregressive Planning Meets Flow-Matching Rendering|Junyu Dai et.al.|[2607.20253](https://arxiv.org/abs/2607.20253)|null|
+|2026-07-20|A machine-learned probability distribution in the phase space of turbulent channel flow for synthetic turbulence and flow reconstruction|Frederik Aerts et.al.|[2607.18058](https://arxiv.org/abs/2607.18058)|null|
+|2026-07-20|Consistent Feature Transport for Image Relighting|Bohan Zhang et.al.|[2607.17833](https://arxiv.org/abs/2607.17833)|null|
+|2026-07-20|AGG: Jacobian-Aggregated Group Gradient for Efficient GRPO Training of Diffusion Models|Ruiyi Ding et.al.|[2607.17572](https://arxiv.org/abs/2607.17572)|null|
+|2026-07-20|FlowSonic: Stable Zero-Shot Music Editing via High-Order Trajectory Integration|Ali Boudaghi et.al.|[2607.17526](https://arxiv.org/abs/2607.17526)|null|
+|2026-07-20|DecoyFace: Beyond Obfuscation via Controllable and Imperceptible Identity Misdirection for Privacy-Preserving Face Recognition|Zhihan Ren et.al.|[2607.17504](https://arxiv.org/abs/2607.17504)|null|
+|2026-07-18|TVGL-CFM:Generating and Forecasting Time-Varying Trajectories of Dynamic Networks with Conditional Flow Matching|Om Roy et.al.|[2607.16894](https://arxiv.org/abs/2607.16894)|null|
+|2026-07-18|Token-Wise Latent Streaming from Slow Reasoners to Fast Planners for Dynamic Vision Language Navigation|Tianshuai Hu et.al.|[2607.16806](https://arxiv.org/abs/2607.16806)|null|
+|2026-07-18|Semi-Supervised Conditional Generative Learning through Stochastic Interpolation and Sufficient Representations|Changyu Liu et.al.|[2607.16725](https://arxiv.org/abs/2607.16725)|null|
+|2026-07-18|DRIFT: Difficulty-aware Rectified Flows for Through-plane MRI Super-Resolution|Yoonseok Choi et.al.|[2607.16649](https://arxiv.org/abs/2607.16649)|null|
+|2026-07-17|Learning Standard Model structure from LHC data with Riemannian flow matching|Midori Kato et.al.|[2607.16144](https://arxiv.org/abs/2607.16144)|null|
 |2026-07-09|FabriVLA: A Lightweight Vision-Language-Action Model for Precise Multi-Task Manipulation|Shiyuan Yang et.al.|[2607.08575](https://arxiv.org/abs/2607.08575)|null|
 |2026-07-09|Joint Discrete-Continuous Flow Matching for Open-Vocabulary Inverse Design of Multilayer Optical Coatings|Zhiyi Li et.al.|[2607.08392](https://arxiv.org/abs/2607.08392)|null|
 |2026-07-09|Revisiting One-Zero and Two-Zero Neutrino Mass Textures in Light of Recent Oscillation and Cosmological Data|Haruto Kitagawa et.al.|[2607.08384](https://arxiv.org/abs/2607.08384)|null|
