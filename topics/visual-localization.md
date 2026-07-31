@@ -1,15 +1,19 @@
 # Visual Localization
 
-> Updated on 2026.07.27
+> Updated on 2026.07.31
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|2026-07-23|DTIF: Robust Loop Closure Detection via Delaunay Triangle Topology in Complex Forests|Xin Zhao et.al.|[2607.21138](https://arxiv.org/abs/2607.21138)|null|
-|2026-07-22|RIM: A Retrieval-In-Matching Framework for Cross-Domain Global Visual Localization of UAVs|Xin Li et.al.|[2607.20116](https://arxiv.org/abs/2607.20116)|null|
-|2026-07-21|TAP-RAG: Task-Aware Policy Control for Long-Document Multimodal Question Answering|Zhong Ji et.al.|[2607.18917](https://arxiv.org/abs/2607.18917)|null|
-|2026-07-17|Are All Tokens Necessary for Visual Place Recognition? An Empirical Study of Token Reduction for Efficient Inference|Tong Jin et.al.|[2607.15563](https://arxiv.org/abs/2607.15563)|null|
-|2026-07-16|VTAP Gripper: Synergizing Fingertip Sensing and a Visuo-Tactile Active Palm for Dexterous In-Hand Manipulation|Yuhao Zhou et.al.|[2607.15448](https://arxiv.org/abs/2607.15448)|null|
-|2026-07-16|SceneBind: Binding What and Where Across Vision, Audio and Language|Mingfei Chen et.al.|[2607.15265](https://arxiv.org/abs/2607.15265)|null|
+|**2026-07-29**|**PanDent: Toward Comprehensive Tooth-Level Structure-Language Consistency in Dental Radiology**|Xiaohan Li et.al.|[2607.27378](https://arxiv.org/abs/2607.27378)|null|
+|**2026-07-27**|**KANEx: Translating Kolmogorov-Arnold Networks' Interpretability to Medical Explainability**|Krithi Shailya et.al.|[2607.24730](https://arxiv.org/abs/2607.24730)|null|
+|**2026-07-27**|**Accuracy potential of visual localization exploiting high-end street-level imagery**|Jonas Meyer et.al.|[2607.24409](https://arxiv.org/abs/2607.24409)|null|
+|**2026-07-24**|**Visual Relocalization from Sparse Views in Aliased and Low-Texture Environments via Novel View Synthesis**|Maria Peribañez et.al.|[2607.22147](https://arxiv.org/abs/2607.22147)|null|
+|**2026-07-23**|**DTIF: Robust Loop Closure Detection via Delaunay Triangle Topology in Complex Forests**|Xin Zhao et.al.|[2607.21138](https://arxiv.org/abs/2607.21138)|null|
+|**2026-07-22**|**RIM: A Retrieval-In-Matching Framework for Cross-Domain Global Visual Localization of UAVs**|Xin Li et.al.|[2607.20116](https://arxiv.org/abs/2607.20116)|null|
+|**2026-07-21**|**TAP-RAG: Task-Aware Policy Control for Long-Document Multimodal Question Answering**|Zhong Ji et.al.|[2607.18917](https://arxiv.org/abs/2607.18917)|null|
+|**2026-07-17**|**Are All Tokens Necessary for Visual Place Recognition? An Empirical Study of Token Reduction for Efficient Inference**|Tong Jin et.al.|[2607.15563](https://arxiv.org/abs/2607.15563)|null|
+|**2026-07-16**|**VTAP Gripper: Synergizing Fingertip Sensing and a Visuo-Tactile Active Palm for Dexterous In-Hand Manipulation**|Yuhao Zhou et.al.|[2607.15448](https://arxiv.org/abs/2607.15448)|null|
+|**2026-07-16**|**SceneBind: Binding What and Where Across Vision, Audio and Language**|Mingfei Chen et.al.|[2607.15265](https://arxiv.org/abs/2607.15265)|null|
 |2026-07-16|Selectivity Drives Efficiency: Dataset Pruning for Visual Place Recognition|Tong Jin et.al.|[2607.14897](https://arxiv.org/abs/2607.14897)|null|
 |2026-07-16|Immediate 3D Gaussian Splat Reconstruction of Unordered Input with Global Consistency|Andreas Meuleman et.al.|[2607.14481](https://arxiv.org/abs/2607.14481)|null|
 |2026-07-15|Visual Place Recognition Using Rate-Encoded Spiking Neural Networks with Discrete STDP Learning|Altzi Tsanko et.al.|[2607.13584](https://arxiv.org/abs/2607.13584)|null|
