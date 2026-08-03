@@ -1,19 +1,19 @@
 # World Model
 
-> Updated on 2026.08.01
+> Updated on 2026.08.03
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-07-30**|**ACE-Data-0: Human-Centric Ambient Capture as Embodied Data Engine**|Yukang Cao et.al.|[2607.28625](https://arxiv.org/abs/2607.28625)|null|
-|**2026-07-30**|**PhiZero: A World Model Built Around Physical Language**|Shuyao Shang et.al.|[2607.28624](https://arxiv.org/abs/2607.28624)|**[link](https://github.com/yaoyao-jpg/PhiZero)**|
-|**2026-07-30**|**AuricularWorld: Hierarchical Action-Guided World Modeling for Fine-Grained Auricular Structure Segmentation from CT Scans**|Jingwen Yang et.al.|[2607.28487](https://arxiv.org/abs/2607.28487)|null|
-|**2026-07-30**|**QQWorld: Quantile-Quantile Matching for World Model Regularization**|Zhoushun Yu et.al.|[2607.28415](https://arxiv.org/abs/2607.28415)|null|
-|**2026-07-30**|**ShadowDancer: Teaching Video World Models Any Action by Learning Unified Dynamics Representations from a Video and Its Shadow**|Jin Cao et.al.|[2607.28362](https://arxiv.org/abs/2607.28362)|null|
-|**2026-07-30**|**Tycho: Active Abstraction with Programmatic World Models for ARC-AGI-3**|Jens Lehmann et.al.|[2607.28287](https://arxiv.org/abs/2607.28287)|null|
-|**2026-07-30**|**Security of World-Model-Based Embodied AI: A Lifecycle of Threats, Defenses, and Evaluation**|Fazhong Liu et.al.|[2607.28226](https://arxiv.org/abs/2607.28226)|null|
-|**2026-07-30**|**ODEWorld: A Continuous Predictive Architecture via Physical-Time Flow**|Dongxiu Liu et.al.|[2607.27924](https://arxiv.org/abs/2607.27924)|null|
-|**2026-07-30**|**Learning to Understand Body Language from Flight through Robust 3D Avatar Placing**|Dragos Costea et.al.|[2607.27865](https://arxiv.org/abs/2607.27865)|null|
-|**2026-07-30**|**World Action Planner: Generalizable Decision-Making with Action-Conditioned World Models**|Xiangcheng Zhang et.al.|[2607.27599](https://arxiv.org/abs/2607.27599)|null|
+|2026-07-30|ACE-Data-0: Human-Centric Ambient Capture as Embodied Data Engine|Yukang Cao et.al.|[2607.28625](https://arxiv.org/abs/2607.28625)|null|
+|2026-07-30|PhiZero: A World Model Built Around Physical Language|Shuyao Shang et.al.|[2607.28624](https://arxiv.org/abs/2607.28624)|[link](https://github.com/yaoyao-jpg/PhiZero)|
+|2026-07-30|AuricularWorld: Hierarchical Action-Guided World Modeling for Fine-Grained Auricular Structure Segmentation from CT Scans|Jingwen Yang et.al.|[2607.28487](https://arxiv.org/abs/2607.28487)|null|
+|2026-07-30|QQWorld: Quantile-Quantile Matching for World Model Regularization|Zhoushun Yu et.al.|[2607.28415](https://arxiv.org/abs/2607.28415)|null|
+|2026-07-30|ShadowDancer: Teaching Video World Models Any Action by Learning Unified Dynamics Representations from a Video and Its Shadow|Jin Cao et.al.|[2607.28362](https://arxiv.org/abs/2607.28362)|null|
+|2026-07-30|Tycho: Active Abstraction with Programmatic World Models for ARC-AGI-3|Jens Lehmann et.al.|[2607.28287](https://arxiv.org/abs/2607.28287)|null|
+|2026-07-30|Security of World-Model-Based Embodied AI: A Lifecycle of Threats, Defenses, and Evaluation|Fazhong Liu et.al.|[2607.28226](https://arxiv.org/abs/2607.28226)|null|
+|2026-07-30|ODEWorld: A Continuous Predictive Architecture via Physical-Time Flow|Dongxiu Liu et.al.|[2607.27924](https://arxiv.org/abs/2607.27924)|null|
+|2026-07-30|Learning to Understand Body Language from Flight through Robust 3D Avatar Placing|Dragos Costea et.al.|[2607.27865](https://arxiv.org/abs/2607.27865)|null|
+|2026-07-30|World Action Planner: Generalizable Decision-Making with Action-Conditioned World Models|Xiangcheng Zhang et.al.|[2607.27599](https://arxiv.org/abs/2607.27599)|null|
 |2026-07-20|FlashRT: Agent Harness for Guiding Agents to Deploy Real-Time Multimodal Applications|Krish Agarwal et.al.|[2607.18171](https://arxiv.org/abs/2607.18171)|null|
 |2026-07-20|SAGE: Subgoal-Conditioned Action Generation for Latent World Model Planning|Letian Cheng et.al.|[2607.17973](https://arxiv.org/abs/2607.17973)|null|
 |2026-07-20|Mobile Network Control with a World Model|Maxime Bouton et.al.|[2607.17747](https://arxiv.org/abs/2607.17747)|[link](https://github.com/jettbrains/-L-)|

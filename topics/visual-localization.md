@@ -1,19 +1,19 @@
 # Visual Localization
 
-> Updated on 2026.08.01
+> Updated on 2026.08.03
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-07-29**|**PanDent: Toward Comprehensive Tooth-Level Structure-Language Consistency in Dental Radiology**|Xiaohan Li et.al.|[2607.27378](https://arxiv.org/abs/2607.27378)|null|
-|**2026-07-27**|**KANEx: Translating Kolmogorov-Arnold Networks' Interpretability to Medical Explainability**|Krithi Shailya et.al.|[2607.24730](https://arxiv.org/abs/2607.24730)|null|
-|**2026-07-27**|**Accuracy potential of visual localization exploiting high-end street-level imagery**|Jonas Meyer et.al.|[2607.24409](https://arxiv.org/abs/2607.24409)|null|
-|**2026-07-24**|**Visual Relocalization from Sparse Views in Aliased and Low-Texture Environments via Novel View Synthesis**|Maria Peribañez et.al.|[2607.22147](https://arxiv.org/abs/2607.22147)|null|
-|**2026-07-23**|**DTIF: Robust Loop Closure Detection via Delaunay Triangle Topology in Complex Forests**|Xin Zhao et.al.|[2607.21138](https://arxiv.org/abs/2607.21138)|null|
-|**2026-07-22**|**RIM: A Retrieval-In-Matching Framework for Cross-Domain Global Visual Localization of UAVs**|Xin Li et.al.|[2607.20116](https://arxiv.org/abs/2607.20116)|null|
-|**2026-07-21**|**TAP-RAG: Task-Aware Policy Control for Long-Document Multimodal Question Answering**|Zhong Ji et.al.|[2607.18917](https://arxiv.org/abs/2607.18917)|null|
-|**2026-07-17**|**Are All Tokens Necessary for Visual Place Recognition? An Empirical Study of Token Reduction for Efficient Inference**|Tong Jin et.al.|[2607.15563](https://arxiv.org/abs/2607.15563)|null|
-|**2026-07-16**|**VTAP Gripper: Synergizing Fingertip Sensing and a Visuo-Tactile Active Palm for Dexterous In-Hand Manipulation**|Yuhao Zhou et.al.|[2607.15448](https://arxiv.org/abs/2607.15448)|null|
-|**2026-07-16**|**SceneBind: Binding What and Where Across Vision, Audio and Language**|Mingfei Chen et.al.|[2607.15265](https://arxiv.org/abs/2607.15265)|null|
+|2026-07-29|PanDent: Toward Comprehensive Tooth-Level Structure-Language Consistency in Dental Radiology|Xiaohan Li et.al.|[2607.27378](https://arxiv.org/abs/2607.27378)|null|
+|2026-07-27|KANEx: Translating Kolmogorov-Arnold Networks' Interpretability to Medical Explainability|Krithi Shailya et.al.|[2607.24730](https://arxiv.org/abs/2607.24730)|null|
+|2026-07-27|Accuracy potential of visual localization exploiting high-end street-level imagery|Jonas Meyer et.al.|[2607.24409](https://arxiv.org/abs/2607.24409)|null|
+|2026-07-24|Visual Relocalization from Sparse Views in Aliased and Low-Texture Environments via Novel View Synthesis|Maria Peribañez et.al.|[2607.22147](https://arxiv.org/abs/2607.22147)|null|
+|2026-07-23|DTIF: Robust Loop Closure Detection via Delaunay Triangle Topology in Complex Forests|Xin Zhao et.al.|[2607.21138](https://arxiv.org/abs/2607.21138)|null|
+|2026-07-22|RIM: A Retrieval-In-Matching Framework for Cross-Domain Global Visual Localization of UAVs|Xin Li et.al.|[2607.20116](https://arxiv.org/abs/2607.20116)|null|
+|2026-07-21|TAP-RAG: Task-Aware Policy Control for Long-Document Multimodal Question Answering|Zhong Ji et.al.|[2607.18917](https://arxiv.org/abs/2607.18917)|null|
+|2026-07-17|Are All Tokens Necessary for Visual Place Recognition? An Empirical Study of Token Reduction for Efficient Inference|Tong Jin et.al.|[2607.15563](https://arxiv.org/abs/2607.15563)|null|
+|2026-07-16|VTAP Gripper: Synergizing Fingertip Sensing and a Visuo-Tactile Active Palm for Dexterous In-Hand Manipulation|Yuhao Zhou et.al.|[2607.15448](https://arxiv.org/abs/2607.15448)|null|
+|2026-07-16|SceneBind: Binding What and Where Across Vision, Audio and Language|Mingfei Chen et.al.|[2607.15265](https://arxiv.org/abs/2607.15265)|null|
 |2026-07-16|Selectivity Drives Efficiency: Dataset Pruning for Visual Place Recognition|Tong Jin et.al.|[2607.14897](https://arxiv.org/abs/2607.14897)|null|
 |2026-07-16|Immediate 3D Gaussian Splat Reconstruction of Unordered Input with Global Consistency|Andreas Meuleman et.al.|[2607.14481](https://arxiv.org/abs/2607.14481)|null|
 |2026-07-15|Visual Place Recognition Using Rate-Encoded Spiking Neural Networks with Discrete STDP Learning|Altzi Tsanko et.al.|[2607.13584](https://arxiv.org/abs/2607.13584)|null|
@@ -216,7 +216,7 @@
 |2025-12-23|Soft Filtering: Guiding Zero-shot Composed Image Retrieval with Prescriptive and Proscriptive Constraints|Youjin Jung et.al.|[2512.20781](https://arxiv.org/abs/2512.20781)|[link](https://github.com/jjungyujin/SoFT)|
 |2025-12-23|Towards Natural Language-Based Document Image Retrieval: New Dataset and Benchmark|Hao Guo et.al.|[2512.20174](http://arxiv.org/abs/2512.20174)|null|
 |2025-12-22|Beyond CLIP: Knowledge-Enhanced Multimodal Transformers for Cross-Modal Alignment in Diabetic Retinopathy Diagnosis|Argha Kamal Samanta et.al.|[2512.19663](http://arxiv.org/abs/2512.19663)|null|
-|2025-12-22|Finer-Personalization Rank: Fine-Grained Retrieval Examines Identity Preservation for Personalized Generation|Connor Kilrain et.al.|[2512.19026](http://arxiv.org/abs/2512.19026)|**[link](https://github.com/OSU-MLB/Finer-Personalization-Rank)**|
+|2025-12-22|Finer-Personalization Rank: Fine-Grained Retrieval Examines Identity Preservation for Personalized Generation|Connor Kilrain et.al.|[2512.19026](http://arxiv.org/abs/2512.19026)|[link](https://github.com/OSU-MLB/Finer-Personalization-Rank)|
 |2025-12-21|Text2Graph VPR: A Text-to-Graph Expert System for Explainable Place Recognition in Changing Environments|Saeideh Yousefzadeh et.al.|[2512.18613](http://arxiv.org/abs/2512.18613)|null|
 |2025-12-20|Through the PRISm: Importance-Aware Scene Graphs for Image Retrieval|Dimitrios Georgoulopoulos et.al.|[2512.18407](http://arxiv.org/abs/2512.18407)|null|
 |2025-12-19|Robust Scene Coordinate Regression via Geometrically-Consistent Global Descriptors|Son Tung Nguyen et.al.|[2512.17226](http://arxiv.org/abs/2512.17226)|null|
@@ -277,8 +277,8 @@
 |2025-11-19|HV-Attack: Hierarchical Visual Attack for Multimodal Retrieval Augmented Generation|Linyin Luo et.al.|[2511.15435](http://arxiv.org/abs/2511.15435)|null|
 |2025-11-19|The Empowerment of Science of Science by Large Language Models: New Tools and Methods|Guoqiang Liang et.al.|[2511.15370](http://arxiv.org/abs/2511.15370)|null|
 |2025-11-19|C2F-Space: Coarse-to-Fine Space Grounding for Spatial Instructions using Vision-Language Models|Nayoung Oh et.al.|[2511.15333](http://arxiv.org/abs/2511.15333)|null|
-|2025-11-19|Towards Unbiased Cross-Modal Representation Learning for Food Image-to-Recipe Retrieval|Qing Wang et.al.|[2511.15201](http://arxiv.org/abs/2511.15201)|null|
-|2025-11-19|Unbiased Semantic Decoding with Vision Foundation Models for Few-shot Segmentation|Jin Wang et.al.|[2511.15118](http://arxiv.org/abs/2511.15118)|null|
+|2025-11-19|Towards Unbiased Cross-Modal Representation Learning for Food Image-to-Recipe Retrieval|Qing Wang et.al.|[2511.15201](http://arxiv.org/abs/2511.15201)|**[link](https://github.com/GZWQ/Towards-Unbiased-Cross-Modal-Representation-Learning-for-Food-Image-to-Recipe-Retrieval)**|
+|2025-11-19|Unbiased Semantic Decoding with Vision Foundation Models for Few-shot Segmentation|Jin Wang et.al.|[2511.15118](http://arxiv.org/abs/2511.15118)|**[link](https://github.com/vangjin/USD)**|
 |2025-11-07|Multi-modal Loop Closure Detection with Foundation Models in Severely Unstructured Environments|Laura Alejandra Encinar Gonzalez et.al.|[2511.05404](http://arxiv.org/abs/2511.05404)|null|
 |2025-11-07|DAFM: Dynamic Adaptive Fusion for Multi-Model Collaboration in Composed Image Retrieval|Yawei Cai et.al.|[2511.05020](http://arxiv.org/abs/2511.05020)|null|
 |2025-11-06|Multi-Task Learning for Visually Grounded Reasoning in Gastrointestinal VQA|Itbaan Safwan et.al.|[2511.04384](http://arxiv.org/abs/2511.04384)|null|
