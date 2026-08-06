@@ -16,7 +16,7 @@ title: Image Matching
   </header>
   <nav class="reader-sidebar">
     <div class="sidebar-title">Topics</div>
-    <a class="sidebar-link" href="point-cloud-registration.html">Point Cloud Registration <span class="sidebar-count">160</span></a>
+    <a class="sidebar-link" href="point-cloud-registration.html">Point Cloud Registration <span class="sidebar-count">169</span></a>
     <a class="sidebar-link active" href="image-matching.html">Image Matching <span class="sidebar-count">182</span></a>
     <a class="sidebar-link" href="slam.html">SLAM <span class="sidebar-count">322</span></a>
     <a class="sidebar-link" href="3d-reconstruction.html">3D Reconstruction <span class="sidebar-count">492</span></a>
