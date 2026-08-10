@@ -1,6 +1,6 @@
 # Visual Localization
 
-> Updated on 2026.08.06
+> Updated on 2026.08.10
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
@@ -277,8 +277,8 @@
 |2025-11-19|HV-Attack: Hierarchical Visual Attack for Multimodal Retrieval Augmented Generation|Linyin Luo et.al.|[2511.15435](http://arxiv.org/abs/2511.15435)|null|
 |2025-11-19|The Empowerment of Science of Science by Large Language Models: New Tools and Methods|Guoqiang Liang et.al.|[2511.15370](http://arxiv.org/abs/2511.15370)|null|
 |2025-11-19|C2F-Space: Coarse-to-Fine Space Grounding for Spatial Instructions using Vision-Language Models|Nayoung Oh et.al.|[2511.15333](http://arxiv.org/abs/2511.15333)|null|
-|2025-11-19|Towards Unbiased Cross-Modal Representation Learning for Food Image-to-Recipe Retrieval|Qing Wang et.al.|[2511.15201](http://arxiv.org/abs/2511.15201)|**[link](https://github.com/GZWQ/Towards-Unbiased-Cross-Modal-Representation-Learning-for-Food-Image-to-Recipe-Retrieval)**|
-|2025-11-19|Unbiased Semantic Decoding with Vision Foundation Models for Few-shot Segmentation|Jin Wang et.al.|[2511.15118](http://arxiv.org/abs/2511.15118)|**[link](https://github.com/vangjin/USD)**|
+|2025-11-19|Towards Unbiased Cross-Modal Representation Learning for Food Image-to-Recipe Retrieval|Qing Wang et.al.|[2511.15201](http://arxiv.org/abs/2511.15201)|[link](https://github.com/GZWQ/Towards-Unbiased-Cross-Modal-Representation-Learning-for-Food-Image-to-Recipe-Retrieval)|
+|2025-11-19|Unbiased Semantic Decoding with Vision Foundation Models for Few-shot Segmentation|Jin Wang et.al.|[2511.15118](http://arxiv.org/abs/2511.15118)|[link](https://github.com/vangjin/USD)|
 |2025-11-07|Multi-modal Loop Closure Detection with Foundation Models in Severely Unstructured Environments|Laura Alejandra Encinar Gonzalez et.al.|[2511.05404](http://arxiv.org/abs/2511.05404)|null|
 |2025-11-07|DAFM: Dynamic Adaptive Fusion for Multi-Model Collaboration in Composed Image Retrieval|Yawei Cai et.al.|[2511.05020](http://arxiv.org/abs/2511.05020)|null|
 |2025-11-06|Multi-Task Learning for Visually Grounded Reasoning in Gastrointestinal VQA|Itbaan Safwan et.al.|[2511.04384](http://arxiv.org/abs/2511.04384)|null|
