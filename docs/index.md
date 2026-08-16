@@ -13,9 +13,9 @@ layout: default
     </div>
   </div>
   <div class="hero-panel">
-    <div class="stat"><span>Updated</span><strong>2026.08.11</strong></div>
+    <div class="stat"><span>Updated</span><strong>2026.08.16</strong></div>
     <div class="stat"><span>Topics</span><strong>9</strong></div>
-    <div class="stat"><span>Total papers</span><strong>2244</strong></div>
+    <div class="stat"><span>Total papers</span><strong>2254</strong></div>
   </div>
 </section>
 
@@ -34,7 +34,7 @@ layout: default
     <a class="topic-card" href="topics/image-matching.html" style="--accent: #059669;">
       <span class="topic-icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2.5 20.5 7v10L12 21.5 3.5 17V7z" fill="currentColor" opacity="0.25"/><path d="M12 4.2 18.7 8v8L12 19.8 5.3 16V8z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></span>
       <h3>Image Matching</h3>
-      <p>Latest: 2026-06-30 · Papers: 182</p>
+      <p>Latest: 2026-08-11 · Papers: 192</p>
       <span class="topic-cta">View papers →</span>
     </a>
     <a class="topic-card" href="topics/slam.html" style="--accent: #d97706;">

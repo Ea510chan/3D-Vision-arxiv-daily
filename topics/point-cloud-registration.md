@@ -1,19 +1,19 @@
 # Point Cloud Registration
 
-> Updated on 2026.08.11
+> Updated on 2026.08.16
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|2026-08-03|Test Time Adaptation Methods for Point Cloud Registration in Laparoscopic Surgery|Nina Bodelot et.al.|[2608.02883](https://arxiv.org/abs/2608.02883)|[link](https://github.com/ninaa-git/survey_pc_registration_tta)|
-|2026-07-30|RaDiVe: Robust 4D Radar Odometry with Distance-Bounded NDT and Velocity-Discrepancy Point Uncertainty|Sangwoo Jung et.al.|[2607.28045](https://arxiv.org/abs/2607.28045)|null|
-|2026-07-29|R-SLPR: Region-based Small-to-Large Point-cloud Registration with Contrastive Learning|Yusen Wan et.al.|[2607.26583](https://arxiv.org/abs/2607.26583)|null|
-|2026-07-25|Patient-Agnostic Synthetic Pretraining for Efficient Patient-Specific Intraoperative 2D/3D Registration|Minheng Chen et.al.|[2607.23343](https://arxiv.org/abs/2607.23343)|null|
-|2026-07-25|SHReg: Strictly Rotation-Equivariant Point Cloud Registration via Spherical Harmonics|Chongjian Wang et.al.|[2607.23096](https://arxiv.org/abs/2607.23096)|null|
-|2026-07-19|Cross-Coordinate Correspondence Pruning for Image-to-Point Cloud Registration|Xin Liu et.al.|[2607.17200](https://arxiv.org/abs/2607.17200)|null|
-|2026-07-16|DINE: Distance Is Not Enough -- Learning Global Deformation Priors for Robust Soft-Tissue Point Cloud Registration|Sara Monji-Azad et.al.|[2607.14946](https://arxiv.org/abs/2607.14946)|null|
-|2026-07-16|Image-to-Point Cloud Registration Made Easy with Rectified Flow-based LiDAR Upsampling|Reon Tabata et.al.|[2607.14639](https://arxiv.org/abs/2607.14639)|null|
-|2026-07-12|Projection-Domain Sensitivity Analysis of Vertebral DRRs Under Intrinsic Calibration Perturbation|Lin Li et.al.|[2607.10551](https://arxiv.org/abs/2607.10551)|null|
-|2026-07-05|Neural LiDAR Bundle Adjustment|Chin Yung Anson Hon et.al.|[2607.04169](https://arxiv.org/abs/2607.04169)|null|
+|**2026-08-03**|**Test Time Adaptation Methods for Point Cloud Registration in Laparoscopic Surgery**|Nina Bodelot et.al.|[2608.02883](https://arxiv.org/abs/2608.02883)|**[link](https://github.com/ninaa-git/survey_pc_registration_tta)**|
+|**2026-07-30**|**RaDiVe: Robust 4D Radar Odometry with Distance-Bounded NDT and Velocity-Discrepancy Point Uncertainty**|Sangwoo Jung et.al.|[2607.28045](https://arxiv.org/abs/2607.28045)|null|
+|**2026-07-29**|**R-SLPR: Region-based Small-to-Large Point-cloud Registration with Contrastive Learning**|Yusen Wan et.al.|[2607.26583](https://arxiv.org/abs/2607.26583)|null|
+|**2026-07-25**|**Patient-Agnostic Synthetic Pretraining for Efficient Patient-Specific Intraoperative 2D/3D Registration**|Minheng Chen et.al.|[2607.23343](https://arxiv.org/abs/2607.23343)|null|
+|**2026-07-25**|**SHReg: Strictly Rotation-Equivariant Point Cloud Registration via Spherical Harmonics**|Chongjian Wang et.al.|[2607.23096](https://arxiv.org/abs/2607.23096)|null|
+|**2026-07-19**|**Cross-Coordinate Correspondence Pruning for Image-to-Point Cloud Registration**|Xin Liu et.al.|[2607.17200](https://arxiv.org/abs/2607.17200)|null|
+|**2026-07-16**|**DINE: Distance Is Not Enough -- Learning Global Deformation Priors for Robust Soft-Tissue Point Cloud Registration**|Sara Monji-Azad et.al.|[2607.14946](https://arxiv.org/abs/2607.14946)|null|
+|**2026-07-16**|**Image-to-Point Cloud Registration Made Easy with Rectified Flow-based LiDAR Upsampling**|Reon Tabata et.al.|[2607.14639](https://arxiv.org/abs/2607.14639)|null|
+|**2026-07-12**|**Projection-Domain Sensitivity Analysis of Vertebral DRRs Under Intrinsic Calibration Perturbation**|Lin Li et.al.|[2607.10551](https://arxiv.org/abs/2607.10551)|null|
+|**2026-07-05**|**Neural LiDAR Bundle Adjustment**|Chin Yung Anson Hon et.al.|[2607.04169](https://arxiv.org/abs/2607.04169)|null|
 |2026-06-30|PiLoT v2: Pixel-to-Orthogonal Map Alignment for Free-view UAV Geo-localization|Xinyi Liu et.al.|[2606.31098](https://arxiv.org/abs/2606.31098)|null|
 |2026-07-02|PinNet: Keypoint-Aware Learned Local Descriptors with Geometric Embedding for Loop Closure in LiDAR SLAM|Yanlong Ma et.al.|[2606.28637](https://arxiv.org/abs/2606.28637)|null|
 |2026-06-26|Scalable and Differentiable Point-Cloud Registration Using Maximum Mean Discrepancy|Rixon Crane et.al.|[2606.27818](https://arxiv.org/abs/2606.27818)|[link](https://github.com/csiro-robotics/mmd-reg)|
