@@ -1,6 +1,6 @@
 # Visual Localization
 
-> Updated on 2026.08.16
+> Updated on 2026.08.17
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
@@ -357,7 +357,7 @@
 |2025-09-02|Scale, Don't Fine-tune: Guiding Multimodal LLMs for Efficient Visual Place Recognition at Test-Time|Jintao Cheng et.al.|[2509.02129](http://arxiv.org/abs/2509.02129)|null|
 |2025-09-02|Ensemble-Based Event Camera Place Recognition Under Varying Illumination|Therese Joseph et.al.|[2509.01968](http://arxiv.org/abs/2509.01968)|null|
 |2025-09-01|M3Ret: Unleashing Zero-shot Multimodal Medical Image Retrieval via Self-Supervision|Che Liu et.al.|[2509.01360](http://arxiv.org/abs/2509.01360)|null|
-|2025-09-01|ReCap: Event-Aware Image Captioning with Article Retrieval and Semantic Gaussian Normalization|Thinh-Phuc Nguyen et.al.|[2509.01259](http://arxiv.org/abs/2509.01259)|null|
+|2025-09-01|ReCap: Event-Aware Image Captioning with Article Retrieval and Semantic Gaussian Normalization|Thinh-Phuc Nguyen et.al.|[2509.01259](http://arxiv.org/abs/2509.01259)|**[link](https://github.com/Noridom1/EVENTA2025-Event-Enriched-Image-Captioning)**|
 |2025-07-17|FAR-Net: Multi-Stage Fusion Network with Enhanced Semantic Alignment and Adaptive Reconciliation for Composed Image Retrieval|Jeong-Woo Park et.al.|[2507.12823](http://arxiv.org/abs/2507.12823)|null|
 |2025-07-17|MCoT-RE: Multi-Faceted Chain-of-Thought and Re-Ranking for Training-Free Zero-Shot Composed Image Retrieval|Jeong-Woo Park et.al.|[2507.12819](http://arxiv.org/abs/2507.12819)|null|
 |2025-07-16|QuRe: Query-Relevant Retrieval through Hard Negative Sampling in Composed Image Retrieval|Jaehyun Kwak et.al.|[2507.12416](http://arxiv.org/abs/2507.12416)|[link](https://github.com/jackwaky/QuRe)|

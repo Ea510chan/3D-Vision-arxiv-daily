@@ -1,19 +1,19 @@
 # Image Matching
 
-> Updated on 2026.08.16
+> Updated on 2026.08.17
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-08-11**|**Multi-Level Evidence Aggregation for Robust Facial Phenotype Retrieval in Rare Genetic Disorder Prioritization**|Alexander Hustinx et.al.|[2608.11037](https://arxiv.org/abs/2608.11037)|null|
-|**2026-08-10**|**XFeat Revisited: Reproducibility and Evaluation of a Lightweight Image Matcher**|Lazar Đoković et.al.|[2608.09519](https://arxiv.org/abs/2608.09519)|null|
-|**2026-08-06**|**A Low-Latency ASIC Architecture for Real-Time Line Segment Detection**|Amir Hossein Jalilvand et.al.|[2608.06439](https://arxiv.org/abs/2608.06439)|null|
-|**2026-08-04**|**LoRetta: A Foundation Model and Extensive Dataset for Global-Scale Remote Sensing Dense Image Matching**|Siwei Yu et.al.|[2608.04106](https://arxiv.org/abs/2608.04106)|null|
-|**2026-08-04**|**SGFormer: Structure-Guided Transformer for Robust Local Feature Matching**|Runyu Zhu et.al.|[2608.03423](https://arxiv.org/abs/2608.03423)|null|
-|**2026-08-04**|**Double Down on Defense: Strengthening Deep Perceptual Hashes against Evasion Attacks without Retraining**|Bangjie Sun et.al.|[2608.03101](https://arxiv.org/abs/2608.03101)|null|
-|**2026-07-30**|**Can Synthetic Data Overcome the Generalization Limits of AI-Based Flower and Pod Detection Across Cowpea Breeding Genotypes and Environments?**|Hamid Kamangir et.al.|[2607.28796](https://arxiv.org/abs/2607.28796)|null|
-|**2026-07-30**|**CXR-Retrieve: Compositional Text-to-Image Retrieval in Chest Radiography**|Tomer Erez et.al.|[2607.27779](https://arxiv.org/abs/2607.27779)|null|
-|**2026-07-29**|**VidMap: Exploiting Temporal Structure for Video-Based Structure-from-Motion**|Zador Pataki et.al.|[2607.27194](https://arxiv.org/abs/2607.27194)|null|
-|**2026-07-29**|**Robust RPC Bundle Adjustment for Multi-Date Satellite Imagery with Season-Invariant Correspondences**|Roger Marí et.al.|[2607.26973](https://arxiv.org/abs/2607.26973)|null|
+|2026-08-11|Multi-Level Evidence Aggregation for Robust Facial Phenotype Retrieval in Rare Genetic Disorder Prioritization|Alexander Hustinx et.al.|[2608.11037](https://arxiv.org/abs/2608.11037)|null|
+|2026-08-10|XFeat Revisited: Reproducibility and Evaluation of a Lightweight Image Matcher|Lazar Đoković et.al.|[2608.09519](https://arxiv.org/abs/2608.09519)|null|
+|2026-08-06|A Low-Latency ASIC Architecture for Real-Time Line Segment Detection|Amir Hossein Jalilvand et.al.|[2608.06439](https://arxiv.org/abs/2608.06439)|null|
+|2026-08-04|LoRetta: A Foundation Model and Extensive Dataset for Global-Scale Remote Sensing Dense Image Matching|Siwei Yu et.al.|[2608.04106](https://arxiv.org/abs/2608.04106)|null|
+|2026-08-04|SGFormer: Structure-Guided Transformer for Robust Local Feature Matching|Runyu Zhu et.al.|[2608.03423](https://arxiv.org/abs/2608.03423)|null|
+|2026-08-04|Double Down on Defense: Strengthening Deep Perceptual Hashes against Evasion Attacks without Retraining|Bangjie Sun et.al.|[2608.03101](https://arxiv.org/abs/2608.03101)|null|
+|2026-07-30|Can Synthetic Data Overcome the Generalization Limits of AI-Based Flower and Pod Detection Across Cowpea Breeding Genotypes and Environments?|Hamid Kamangir et.al.|[2607.28796](https://arxiv.org/abs/2607.28796)|null|
+|2026-07-30|CXR-Retrieve: Compositional Text-to-Image Retrieval in Chest Radiography|Tomer Erez et.al.|[2607.27779](https://arxiv.org/abs/2607.27779)|null|
+|2026-07-29|VidMap: Exploiting Temporal Structure for Video-Based Structure-from-Motion|Zador Pataki et.al.|[2607.27194](https://arxiv.org/abs/2607.27194)|null|
+|2026-07-29|Robust RPC Bundle Adjustment for Multi-Date Satellite Imagery with Season-Invariant Correspondences|Roger Marí et.al.|[2607.26973](https://arxiv.org/abs/2607.26973)|null|
 |2026-06-30|AnyMatch: Supercharging Universal Multi-Modal Image Matching with Large-Scale Single-View Images|Meng Yang et.al.|[2606.31077](https://arxiv.org/abs/2606.31077)|null|
 |2026-06-29|MF-UAVPose6D: A Model-Free Monocular 6-DoF Pose Estimation Framework for Fixed-Wing UAVs|Juanqin Liu et.al.|[2606.29697](https://arxiv.org/abs/2606.29697)|null|
 |2026-06-26|KM-Speaker: Keypoint-Based Style Control for High-Quality Speech-Driven 3D Facial Animation and Dialogue Localization|Arthur Josi et.al.|[2606.28568](https://arxiv.org/abs/2606.28568)|null|
@@ -114,7 +114,7 @@
 |2025-11-18|Cranio-ID: Graph-Based Craniofacial Identification via Automatic Landmark Annotation in 2D Multi-View X-rays|Ravi Shankar Prasad et.al.|[2511.14411](http://arxiv.org/abs/2511.14411)|[link](https://github.com/Nandani-IITM/Cranio-ID)|
 |2025-11-18|Dental3R: Geometry-Aware Pairing for Intraoral 3D Reconstruction from Sparse-View Photographs|Yiyi Miao et.al.|[2511.14315](http://arxiv.org/abs/2511.14315)|null|
 |2025-11-18|NeuralBoneReg: A Novel Self-Supervised Method for Robust and Accurate Multi-Modal Bone Surface Registration|Luohong Wu et.al.|[2511.14286](http://arxiv.org/abs/2511.14286)|null|
-|2025-11-17|SOMA: Feature Gradient Enhanced Affine-Flow Matching for SAR-Optical Registration|Haodong Wang et.al.|[2511.13168](http://arxiv.org/abs/2511.13168)|null|
+|2025-11-17|SOMA: Feature Gradient Enhanced Affine-Flow Matching for SAR-Optical Registration|Haodong Wang et.al.|[2511.13168](http://arxiv.org/abs/2511.13168)|**[link](https://github.com/traslauc/SOMA)**|
 |2025-11-14|The Persistence of Cultural Memory: Investigating Multimodal Iconicity in Diffusion Models|Maria-Teresa De Rosa Palmini et.al.|[2511.11435](http://arxiv.org/abs/2511.11435)|null|
 |2025-11-08|U(PM) $^2$ :Unsupervised polygon matching with pre-trained models for challenging stereo images|Chang Li et.al.|[2511.05949](http://arxiv.org/abs/2511.05949)|null|
 |2025-11-05|Robust Alignment of the Human Embryo in 3D Ultrasound using PCA and an Ensemble of Heuristic, Atlas-based and Learning-based Classifiers Evaluated on the Rotterdam Periconceptional Cohort|Nikolai Herrmann et.al.|[2511.03416](http://arxiv.org/abs/2511.03416)|null|

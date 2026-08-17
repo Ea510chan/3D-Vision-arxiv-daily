@@ -1,6 +1,6 @@
 # 3D Reconstruction
 
-> Updated on 2026.08.16
+> Updated on 2026.08.17
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
@@ -180,7 +180,7 @@
 |2026-04-06|LoMa: Local Feature Matching Revisited|David Nordström et.al.|[2604.04931](https://arxiv.org/abs/2604.04931)|null|
 |2026-04-06|3D Gaussian Splatting for Annular Dark Field Scanning Transmission Electron Microscopy Tomography Reconstruction|Beiyuan Zhang et.al.|[2604.04693](https://arxiv.org/abs/2604.04693)|null|
 |2026-03-30|TerraSky3D: Multi-View Reconstructions of European Landmarks in 4K|Mattia D'Urso et.al.|[2603.28287](https://arxiv.org/abs/2603.28287)|null|
-|2026-03-29|MV-RoMa: From Pairwise Matching into Multi-View Track Reconstruction|Jongmin Lee et.al.|[2603.27542](https://arxiv.org/abs/2603.27542)|null|
+|2026-03-29|MV-RoMa: From Pairwise Matching into Multi-View Track Reconstruction|Jongmin Lee et.al.|[2603.27542](https://arxiv.org/abs/2603.27542)|**[link](https://github.com/IceTea-CV/MV-RoMa)**|
 |2026-03-29|From None to All: Self-Supervised 3D Reconstruction via Novel View Synthesis|Ranran Huang et.al.|[2603.27455](https://arxiv.org/abs/2603.27455)|[link](https://github.com/ranrhuang/NAS3R)|
 |2026-03-28|HD-VGGT: High-Resolution Visual Geometry Transformer|Tianrun Chen et.al.|[2603.27222](https://arxiv.org/abs/2603.27222)|null|
 |2026-03-28|SceneExpander: Expanding 3D Scenes with Free-Form Inserted Views|Zijian He et.al.|[2603.27084](https://arxiv.org/abs/2603.27084)|null|
@@ -438,7 +438,7 @@
 |2025-05-24|Token-Level Logits Matter: A Closer Look at Speech Foundation Models for Ambiguous Emotion Recognition|Jule Valendo Halim et.al.|[2505.18484](http://arxiv.org/abs/2505.18484)|null|
 |2025-05-22|Tracking the Flight: Exploring a Computational Framework for Analyzing Escape Responses in Plains Zebra (Equus quagga)|Isla Duporge et.al.|[2505.16882](http://arxiv.org/abs/2505.16882)|[link](https://github.com/neuroinformatics-unit/zebras-stitching)|
 |2025-05-21|A Taxonomy of Structure from Motion Methods|Federica Arrigoni et.al.|[2505.15814](http://arxiv.org/abs/2505.15814)|null|
-|2025-05-18|Shallow Flow Matching for Coarse-to-Fine Text-to-Speech Synthesis|Dong Yang et.al.|[2505.12226](http://arxiv.org/abs/2505.12226)|null|
+|2025-05-18|Shallow Flow Matching for Coarse-to-Fine Text-to-Speech Synthesis|Dong Yang et.al.|[2505.12226](http://arxiv.org/abs/2505.12226)|**[link](https://github.com/ydqmkkx/ShallowFlowMatching-TTS)**|
 |2025-05-15|Mapping Semantic Segmentation to Point Clouds Using Structure from Motion for Forest Analysis|Francisco Raverta Capua et.al.|[2505.10751](http://arxiv.org/abs/2505.10751)|[link](https://github.com/lrse/sodm)|
 |2025-05-13|Unveiling the Best Practices for Applying Speech Foundation Models to Speech Intelligibility Prediction for Hearing-Impaired People|Haoshuai Zhou et.al.|[2505.08215](http://arxiv.org/abs/2505.08215)|null|
 |2025-05-12|RDD: Robust Feature Detector and Descriptor using Deformable Transformer|Gonglin Chen et.al.|[2505.08013](http://arxiv.org/abs/2505.08013)|null|
