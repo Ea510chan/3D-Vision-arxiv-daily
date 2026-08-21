@@ -1,6 +1,6 @@
 # SLAM
 
-> Updated on 2026.08.17
+> Updated on 2026.08.21
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
