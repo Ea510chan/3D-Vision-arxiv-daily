@@ -1,6 +1,6 @@
 # Image Matching
 
-> Updated on 2026.08.21
+> Updated on 2026.08.24
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
@@ -114,7 +114,7 @@
 |2025-11-18|Cranio-ID: Graph-Based Craniofacial Identification via Automatic Landmark Annotation in 2D Multi-View X-rays|Ravi Shankar Prasad et.al.|[2511.14411](http://arxiv.org/abs/2511.14411)|[link](https://github.com/Nandani-IITM/Cranio-ID)|
 |2025-11-18|Dental3R: Geometry-Aware Pairing for Intraoral 3D Reconstruction from Sparse-View Photographs|Yiyi Miao et.al.|[2511.14315](http://arxiv.org/abs/2511.14315)|null|
 |2025-11-18|NeuralBoneReg: A Novel Self-Supervised Method for Robust and Accurate Multi-Modal Bone Surface Registration|Luohong Wu et.al.|[2511.14286](http://arxiv.org/abs/2511.14286)|null|
-|2025-11-17|SOMA: Feature Gradient Enhanced Affine-Flow Matching for SAR-Optical Registration|Haodong Wang et.al.|[2511.13168](http://arxiv.org/abs/2511.13168)|**[link](https://github.com/traslauc/SOMA)**|
+|2025-11-17|SOMA: Feature Gradient Enhanced Affine-Flow Matching for SAR-Optical Registration|Haodong Wang et.al.|[2511.13168](http://arxiv.org/abs/2511.13168)|[link](https://github.com/traslauc/SOMA)|
 |2025-11-14|The Persistence of Cultural Memory: Investigating Multimodal Iconicity in Diffusion Models|Maria-Teresa De Rosa Palmini et.al.|[2511.11435](http://arxiv.org/abs/2511.11435)|null|
 |2025-11-08|U(PM) $^2$ :Unsupervised polygon matching with pre-trained models for challenging stereo images|Chang Li et.al.|[2511.05949](http://arxiv.org/abs/2511.05949)|null|
 |2025-11-05|Robust Alignment of the Human Embryo in 3D Ultrasound using PCA and an Ensemble of Heuristic, Atlas-based and Learning-based Classifiers Evaluated on the Rotterdam Periconceptional Cohort|Nikolai Herrmann et.al.|[2511.03416](http://arxiv.org/abs/2511.03416)|null|

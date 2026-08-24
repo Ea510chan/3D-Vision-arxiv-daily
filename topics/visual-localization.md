@@ -1,6 +1,6 @@
 # Visual Localization
 
-> Updated on 2026.08.21
+> Updated on 2026.08.24
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
@@ -57,7 +57,7 @@
 |2026-05-06|ULF-Loc: Unbiased Landmark Feature for Robust Visual Localization with 3D Gaussian Splatting|Yingdong Gu et.al.|[2605.04730](https://arxiv.org/abs/2605.04730)|null|
 |2026-05-01|Depth-Guided Privacy-Preserving Visual Localization Using 3D Sphere Clouds|Heejoon Moon et.al.|[2605.00562](https://arxiv.org/abs/2605.00562)|null|
 |2026-05-01|MSACT: Multistage Spatial Alignment for Stable Low-Latency Fine Manipulation|Xianbo Cai et.al.|[2605.00475](https://arxiv.org/abs/2605.00475)|null|
-|2026-04-29|AirZoo: A Unified Large-Scale Dataset for Grounding Aerial Geometric 3D Vision|Xiaoya Cheng et.al.|[2604.26567](https://arxiv.org/abs/2604.26567)|null|
+|2026-04-29|AirZoo: A Unified Large-Scale Dataset for Grounding Aerial Geometric 3D Vision|Xiaoya Cheng et.al.|[2604.26567](https://arxiv.org/abs/2604.26567)|**[link](https://github.com/nudt-sawlab/AirZoo)**|
 |2026-04-29|3D-LENS: A 3D Lifting-based Elevated Novel-view Synthesis method for Single-View Aerial-Ground Re-Identification|William Grolleau et.al.|[2604.26520](https://arxiv.org/abs/2604.26520)|null|
 |2026-04-28|COMPASS: COmpact Multi-channel Prior-map And Scene Signature for Floor-Plan-Based Visual Localization|Muhammad Shaheer et.al.|[2604.25388](https://arxiv.org/abs/2604.25388)|null|
 |2026-04-27|Geometric Analysis of Self-Supervised Vision Representations for Semantic Image Retrieval|Esteban Rodríguez-Betancourt et.al.|[2604.24469](https://arxiv.org/abs/2604.24469)|null|
@@ -67,7 +67,7 @@
 |2026-04-22|ConeSep: Cone-based Robust Noise-Unlearning Compositional Network for Composed Image Retrieval|Zixu Li et.al.|[2604.20358](https://arxiv.org/abs/2604.20358)|null|
 |2026-04-22|UniCVR: From Alignment to Reranking for Unified Zero-Shot Composed Visual Retrieval|Haokun Wen et.al.|[2604.20318](https://arxiv.org/abs/2604.20318)|null|
 |2026-04-21|SL(C)AMma: Simultaneous Localisation, (Calibration) and Mapping With a Magnetometer Array|Thomas Edridge et.al.|[2604.19946](https://arxiv.org/abs/2604.19946)|null|
-|2026-04-22|Air-Know: Arbiter-Calibrated Knowledge-Internalizing Robust Network for Composed Image Retrieval|Zhiheng Fu et.al.|[2604.19386](https://arxiv.org/abs/2604.19386)|null|
+|2026-04-22|Air-Know: Arbiter-Calibrated Knowledge-Internalizing Robust Network for Composed Image Retrieval|Zhiheng Fu et.al.|[2604.19386](https://arxiv.org/abs/2604.19386)|**[link](https://github.com/iLearn-Lab/CVPR26-Air-Know)**|
 |2026-04-20|T-REN: Learning Text-Aligned Region Tokens Improves Dense Vision-Language Alignment and Scalability|Savya Khosla et.al.|[2604.18573](https://arxiv.org/abs/2604.18573)|null|
 |2026-04-20|INTENT: Invariance and Discrimination-aware Noise Mitigation for Robust Composed Image Retrieval|Zhiwei Chen et.al.|[2604.18051](https://arxiv.org/abs/2604.18051)|null|
 |2026-04-20|HABIT: Chrono-Synergia Robust Progressive Learning Framework for Composed Image Retrieval|Zixu Li et.al.|[2604.18037](https://arxiv.org/abs/2604.18037)|null|
@@ -357,7 +357,7 @@
 |2025-09-02|Scale, Don't Fine-tune: Guiding Multimodal LLMs for Efficient Visual Place Recognition at Test-Time|Jintao Cheng et.al.|[2509.02129](http://arxiv.org/abs/2509.02129)|null|
 |2025-09-02|Ensemble-Based Event Camera Place Recognition Under Varying Illumination|Therese Joseph et.al.|[2509.01968](http://arxiv.org/abs/2509.01968)|null|
 |2025-09-01|M3Ret: Unleashing Zero-shot Multimodal Medical Image Retrieval via Self-Supervision|Che Liu et.al.|[2509.01360](http://arxiv.org/abs/2509.01360)|null|
-|2025-09-01|ReCap: Event-Aware Image Captioning with Article Retrieval and Semantic Gaussian Normalization|Thinh-Phuc Nguyen et.al.|[2509.01259](http://arxiv.org/abs/2509.01259)|**[link](https://github.com/Noridom1/EVENTA2025-Event-Enriched-Image-Captioning)**|
+|2025-09-01|ReCap: Event-Aware Image Captioning with Article Retrieval and Semantic Gaussian Normalization|Thinh-Phuc Nguyen et.al.|[2509.01259](http://arxiv.org/abs/2509.01259)|[link](https://github.com/Noridom1/EVENTA2025-Event-Enriched-Image-Captioning)|
 |2025-07-17|FAR-Net: Multi-Stage Fusion Network with Enhanced Semantic Alignment and Adaptive Reconciliation for Composed Image Retrieval|Jeong-Woo Park et.al.|[2507.12823](http://arxiv.org/abs/2507.12823)|null|
 |2025-07-17|MCoT-RE: Multi-Faceted Chain-of-Thought and Re-Ranking for Training-Free Zero-Shot Composed Image Retrieval|Jeong-Woo Park et.al.|[2507.12819](http://arxiv.org/abs/2507.12819)|null|
 |2025-07-16|QuRe: Query-Relevant Retrieval through Hard Negative Sampling in Composed Image Retrieval|Jaehyun Kwak et.al.|[2507.12416](http://arxiv.org/abs/2507.12416)|[link](https://github.com/jackwaky/QuRe)|

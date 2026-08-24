@@ -1,6 +1,6 @@
 # World Model
 
-> Updated on 2026.08.21
+> Updated on 2026.08.24
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
@@ -35,7 +35,7 @@
 |2026-07-02|Liquid Latent State Dynamics for Interpretable Turbofan Degradation Modeling|Weizhi Nie et.al.|[2607.01986](https://arxiv.org/abs/2607.01986)|null|
 |2026-07-02|PhysMani: Physics-principled 3D World Model for Dynamic Object Manipulation|Peng Yun et.al.|[2607.01938](https://arxiv.org/abs/2607.01938)|null|
 |2026-06-30|DVG-WM: Disentangled Video Generation Enables Efficient Embodied World Model for Robotic Manipulation|Ziyu Shan et.al.|[2606.32028](https://arxiv.org/abs/2606.32028)|[link](https://github.com/zyshan0929/DVG-WM)|
-|2026-06-30|AdaJEPA: An Adaptive Latent World Model|Ying Wang et.al.|[2606.32026](https://arxiv.org/abs/2606.32026)|**[link](https://github.com/agentic-learning-ai-lab/adajepa)**|
+|2026-06-30|AdaJEPA: An Adaptive Latent World Model|Ying Wang et.al.|[2606.32026](https://arxiv.org/abs/2606.32026)|[link](https://github.com/agentic-learning-ai-lab/adajepa)|
 |2026-06-30|MemLearner: Learning to Query Context memory for Video World Models|Jiwen Yu et.al.|[2606.31734](https://arxiv.org/abs/2606.31734)|null|
 |2026-06-30|ScratchWorld: Evaluating If World Models Compute Executable Consequences|Yufeng Lin et.al.|[2606.31689](https://arxiv.org/abs/2606.31689)|null|
 |2026-06-30|WorldRoamBench: An Open-World Benchmark for Long-Horizon Stability of Interactive World Models|Ting-Bing Xu et.al.|[2606.31672](https://arxiv.org/abs/2606.31672)|null|
@@ -49,7 +49,7 @@
 |2026-06-25|Not All Actions Are Equal: Rethinking Conditioning for Dexterous World Model|Zizhao Yuan et.al.|[2606.27325](https://arxiv.org/abs/2606.27325)|null|
 |2026-06-25|EO-WM: A Physically Informed World Model for Probabilistic Earth Observation Forecasting|Junwei Luo et.al.|[2606.27277](https://arxiv.org/abs/2606.27277)|null|
 |2026-06-25|A Generalization Theory for JEPA-Based World Models|Jingyi Cui et.al.|[2606.27014](https://arxiv.org/abs/2606.27014)|null|
-|2026-06-25|Einstein World Models|Munachiso Samuel Nwadike et.al.|[2606.26969](https://arxiv.org/abs/2606.26969)|**[link](https://github.com/tinycrops/einstein-world-models)**|
+|2026-06-25|Einstein World Models|Munachiso Samuel Nwadike et.al.|[2606.26969](https://arxiv.org/abs/2606.26969)|[link](https://github.com/tinycrops/einstein-world-models)|
 |2026-06-25|Look-Before-Move: Narrative-Grounded World Visual Attention in Dynamic 3D Story Worlds|Jiaming Bian et.al.|[2606.26964](https://arxiv.org/abs/2606.26964)|null|
 |2026-06-25|Risk-Aware Selective Multimodal Driver Monitoring with Driver-State World Modeling|Daosheng Qiu et.al.|[2606.26922](https://arxiv.org/abs/2606.26922)|null|
 |2026-06-25|PhysRAG: Enhancing Physics-Awareness in Video Generation via Retrieval-Augmented Generation|Kexu Cheng et.al.|[2606.26916](https://arxiv.org/abs/2606.26916)|null|
