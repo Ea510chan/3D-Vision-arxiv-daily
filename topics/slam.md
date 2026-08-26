@@ -1,9 +1,19 @@
 # SLAM
 
-> Updated on 2026.08.24
+> Updated on 2026.08.26
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-08-24**|**Spotter: Efficient Urban Visual Localization via Geo-Referenced Facade Landmarks in GPS-Degraded Environments**|Antoni Valls et.al.|[2608.23290](https://arxiv.org/abs/2608.23290)|null|
+|**2026-08-24**|**Macro-Action Topological Navigation under Noisy Localization using Reinforcement Learning**|Simon Hakenes et.al.|[2608.23055](https://arxiv.org/abs/2608.23055)|null|
+|**2026-08-24**|**RoboRacer Arena: Scaling High-Fidelity Autonomous Racing in Isaac Sim**|Mihaela-Larisa Clement et.al.|[2608.23040](https://arxiv.org/abs/2608.23040)|null|
+|**2026-08-24**|**Misanthrope: A Privacy-Preserving Keypoint Detector**|Francesco Vultaggio et.al.|[2608.23012](https://arxiv.org/abs/2608.23012)|null|
+|**2026-08-24**|**AquaFlow: A Monocular Gaussian Splatting SLAM for Underwater Streaming Reconstruction**|Yingxiang Xu et.al.|[2608.22906](https://arxiv.org/abs/2608.22906)|null|
+|**2026-08-24**|**SuperMap: A Spatio-Temporal SLAM System for Visual-Language Navigation**|Shibo Zhao et.al.|[2608.22896](https://arxiv.org/abs/2608.22896)|null|
+|**2026-08-20**|**RIPE++: Reinforced Keypoint Learning from Positive Pairs Only**|Johannes Künzel et.al.|[2608.19693](https://arxiv.org/abs/2608.19693)|null|
+|**2026-08-19**|**LT-Mem: Volatility-Aware Spatio-Temporal Memory for Lifelong Scene Understanding**|Yumin Lee et.al.|[2608.19059](https://arxiv.org/abs/2608.19059)|null|
+|**2026-08-24**|**Evaluation of Monocular SLAM Systems on High-Altitude Nadir UAV Footage**|Gašper Spagnolo et.al.|[2608.18632](https://arxiv.org/abs/2608.18632)|null|
+|**2026-08-19**|**Evaluation of Image Matching Methods for Visual Odometry on UAVs**|Gašper Spagnolo et.al.|[2608.18624](https://arxiv.org/abs/2608.18624)|null|
 |2026-07-09|Track2Map: Online Deformable SLAM with Motion-Aware Pose Optimization in Robotic Surgery|Tianyi Song et.al.|[2607.08408](https://arxiv.org/abs/2607.08408)|[link](https://github.com/styufo/Track2Map)|
 |2026-07-09|RadLoc: Radar-based 3-DoF Global Localization via Fast, Robust, and Lightweight Spatial Descriptor Across Diverse Environmental Scenarios|Hogyun Kim et.al.|[2607.08115](https://arxiv.org/abs/2607.08115)|null|
 |2026-07-08|STEMbot: A Compliant Robot for Under-Canopy Plant Navigation|Zachary Charlick et.al.|[2607.07873](https://arxiv.org/abs/2607.07873)|null|

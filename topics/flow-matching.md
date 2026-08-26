@@ -1,6 +1,6 @@
 # Flow Matching
 
-> Updated on 2026.08.24
+> Updated on 2026.08.26
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|

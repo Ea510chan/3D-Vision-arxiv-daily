@@ -1,16 +1,19 @@
 # Image Matching
 
-> Updated on 2026.08.24
+> Updated on 2026.08.26
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|2026-08-11|Multi-Level Evidence Aggregation for Robust Facial Phenotype Retrieval in Rare Genetic Disorder Prioritization|Alexander Hustinx et.al.|[2608.11037](https://arxiv.org/abs/2608.11037)|null|
-|2026-08-10|XFeat Revisited: Reproducibility and Evaluation of a Lightweight Image Matcher|Lazar Đoković et.al.|[2608.09519](https://arxiv.org/abs/2608.09519)|null|
-|2026-08-06|A Low-Latency ASIC Architecture for Real-Time Line Segment Detection|Amir Hossein Jalilvand et.al.|[2608.06439](https://arxiv.org/abs/2608.06439)|null|
-|2026-08-04|LoRetta: A Foundation Model and Extensive Dataset for Global-Scale Remote Sensing Dense Image Matching|Siwei Yu et.al.|[2608.04106](https://arxiv.org/abs/2608.04106)|null|
-|2026-08-04|SGFormer: Structure-Guided Transformer for Robust Local Feature Matching|Runyu Zhu et.al.|[2608.03423](https://arxiv.org/abs/2608.03423)|null|
-|2026-08-04|Double Down on Defense: Strengthening Deep Perceptual Hashes against Evasion Attacks without Retraining|Bangjie Sun et.al.|[2608.03101](https://arxiv.org/abs/2608.03101)|null|
-|2026-07-30|Can Synthetic Data Overcome the Generalization Limits of AI-Based Flower and Pod Detection Across Cowpea Breeding Genotypes and Environments?|Hamid Kamangir et.al.|[2607.28796](https://arxiv.org/abs/2607.28796)|null|
+|**2026-08-24**|**Misanthrope: A Privacy-Preserving Keypoint Detector**|Francesco Vultaggio et.al.|[2608.23012](https://arxiv.org/abs/2608.23012)|null|
+|**2026-08-23**|**CausalCache: Conditional High-Fidelity Restoration for Long-Horizon GUI Agents**|Jiaxuan Luo et.al.|[2608.22577](https://arxiv.org/abs/2608.22577)|null|
+|**2026-08-19**|**Evaluation of Image Matching Methods for Visual Odometry on UAVs**|Gašper Spagnolo et.al.|[2608.18624](https://arxiv.org/abs/2608.18624)|null|
+|**2026-08-11**|**Multi-Level Evidence Aggregation for Robust Facial Phenotype Retrieval in Rare Genetic Disorder Prioritization**|Alexander Hustinx et.al.|[2608.11037](https://arxiv.org/abs/2608.11037)|null|
+|**2026-08-10**|**XFeat Revisited: Reproducibility and Evaluation of a Lightweight Image Matcher**|Lazar Đoković et.al.|[2608.09519](https://arxiv.org/abs/2608.09519)|null|
+|**2026-08-06**|**A Low-Latency ASIC Architecture for Real-Time Line Segment Detection**|Amir Hossein Jalilvand et.al.|[2608.06439](https://arxiv.org/abs/2608.06439)|null|
+|**2026-08-04**|**LoRetta: A Foundation Model and Extensive Dataset for Global-Scale Remote Sensing Dense Image Matching**|Siwei Yu et.al.|[2608.04106](https://arxiv.org/abs/2608.04106)|null|
+|**2026-08-04**|**SGFormer: Structure-Guided Transformer for Robust Local Feature Matching**|Runyu Zhu et.al.|[2608.03423](https://arxiv.org/abs/2608.03423)|null|
+|**2026-08-04**|**Double Down on Defense: Strengthening Deep Perceptual Hashes against Evasion Attacks without Retraining**|Bangjie Sun et.al.|[2608.03101](https://arxiv.org/abs/2608.03101)|null|
+|**2026-07-30**|**Can Synthetic Data Overcome the Generalization Limits of AI-Based Flower and Pod Detection Across Cowpea Breeding Genotypes and Environments?**|Hamid Kamangir et.al.|[2607.28796](https://arxiv.org/abs/2607.28796)|null|
 |2026-07-30|CXR-Retrieve: Compositional Text-to-Image Retrieval in Chest Radiography|Tomer Erez et.al.|[2607.27779](https://arxiv.org/abs/2607.27779)|null|
 |2026-07-29|VidMap: Exploiting Temporal Structure for Video-Based Structure-from-Motion|Zador Pataki et.al.|[2607.27194](https://arxiv.org/abs/2607.27194)|null|
 |2026-07-29|Robust RPC Bundle Adjustment for Multi-Date Satellite Imagery with Season-Invariant Correspondences|Roger Marí et.al.|[2607.26973](https://arxiv.org/abs/2607.26973)|null|
