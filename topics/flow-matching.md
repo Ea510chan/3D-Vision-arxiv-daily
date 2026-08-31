@@ -4,16 +4,16 @@
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-08-28**|**Physics-Guided Flow Matching for CT Image Reconstruction**|Davide Evangelista et.al.|[2608.28256](https://arxiv.org/abs/2608.28256)|null|
-|**2026-08-28**|**Manifold4D: Denoising on Point Cloud Rendered Manifolds for Video Re-shooting**|Yongqi Mao et.al.|[2608.28174](https://arxiv.org/abs/2608.28174)|null|
-|**2026-08-28**|**When Can Conditional Flow Matching Replace Pointwise Negative Log-Likelihood?**|Yansen Han et.al.|[2608.28010](https://arxiv.org/abs/2608.28010)|null|
-|**2026-08-28**|**There and Back Again: Bidirectional Diffusion Bridges for Multimodality Translation**|Gabe Guo et.al.|[2608.27885](https://arxiv.org/abs/2608.27885)|null|
-|**2026-08-28**|**Mechanistic Reaction Prediction via Discrete Flow Matching on Graph-Structured Electron Occupation**|Nguyen Xuan-Vu et.al.|[2608.27429](https://arxiv.org/abs/2608.27429)|null|
-|**2026-08-27**|**FlashVLA: Streaming Action Decoding for Fast and Asynchronous VLA Inference**|Zekai Li et.al.|[2608.27384](https://arxiv.org/abs/2608.27384)|null|
-|**2026-08-27**|**Packora: Systematic Design for Generative Molecular Crystal Structure Prediction**|Nayoung Kim et.al.|[2608.26962](https://arxiv.org/abs/2608.26962)|null|
-|**2026-08-27**|**Gromov-Monge Flow Matching for Equivariant Graph Generation**|Moritz Piening et.al.|[2608.26961](https://arxiv.org/abs/2608.26961)|null|
-|**2026-08-27**|**Climate Physics Dynamic Matching**|Gurjeet Sangra Singh et.al.|[2608.26907](https://arxiv.org/abs/2608.26907)|null|
-|**2026-08-27**|**Self-OPD: On-Policy Distillation for Flow Matching Models without Teacher**|Shiyi Zhang et.al.|[2608.26872](https://arxiv.org/abs/2608.26872)|null|
+|2026-08-28|Physics-Guided Flow Matching for CT Image Reconstruction|Davide Evangelista et.al.|[2608.28256](https://arxiv.org/abs/2608.28256)|null|
+|2026-08-28|Manifold4D: Denoising on Point Cloud Rendered Manifolds for Video Re-shooting|Yongqi Mao et.al.|[2608.28174](https://arxiv.org/abs/2608.28174)|null|
+|2026-08-28|When Can Conditional Flow Matching Replace Pointwise Negative Log-Likelihood?|Yansen Han et.al.|[2608.28010](https://arxiv.org/abs/2608.28010)|null|
+|2026-08-28|There and Back Again: Bidirectional Diffusion Bridges for Multimodality Translation|Gabe Guo et.al.|[2608.27885](https://arxiv.org/abs/2608.27885)|null|
+|2026-08-28|Mechanistic Reaction Prediction via Discrete Flow Matching on Graph-Structured Electron Occupation|Nguyen Xuan-Vu et.al.|[2608.27429](https://arxiv.org/abs/2608.27429)|null|
+|2026-08-27|FlashVLA: Streaming Action Decoding for Fast and Asynchronous VLA Inference|Zekai Li et.al.|[2608.27384](https://arxiv.org/abs/2608.27384)|null|
+|2026-08-27|Packora: Systematic Design for Generative Molecular Crystal Structure Prediction|Nayoung Kim et.al.|[2608.26962](https://arxiv.org/abs/2608.26962)|null|
+|2026-08-27|Gromov-Monge Flow Matching for Equivariant Graph Generation|Moritz Piening et.al.|[2608.26961](https://arxiv.org/abs/2608.26961)|null|
+|2026-08-27|Climate Physics Dynamic Matching|Gurjeet Sangra Singh et.al.|[2608.26907](https://arxiv.org/abs/2608.26907)|null|
+|2026-08-27|Self-OPD: On-Policy Distillation for Flow Matching Models without Teacher|Shiyi Zhang et.al.|[2608.26872](https://arxiv.org/abs/2608.26872)|null|
 |2026-07-30|APO: Unsupervised Atomic Policy Optimization for 3D Structure Prediction of Atomic Systems|Shentong Mo et.al.|[2607.28553](https://arxiv.org/abs/2607.28553)|null|
 |2026-07-30|Enhancing Irregular Time Series Forecasting with Continuous-Time Modeling Framework|Tianen Shen et.al.|[2607.28035](https://arxiv.org/abs/2607.28035)|null|
 |2026-07-30|The Geometric Nature and a Free Proxy for Flow-Matching Uncertainty|Ziyang Rao et.al.|[2607.27933](https://arxiv.org/abs/2607.27933)|null|
@@ -102,7 +102,7 @@
 |2026-06-15|RGFVR: Reference-Guided Face Video Restoration with Flow Matching|Cem Eteke et.al.|[2606.16401](https://arxiv.org/abs/2606.16401)|null|
 |2026-06-15|FlowMPC: Improving Flow Matching policies with World Models|Chandon Hamel et.al.|[2606.16286](https://arxiv.org/abs/2606.16286)|null|
 |2026-06-15|LUCID: Learned Undersampling-Adaptive Consistency-Guided Inference with Deterministic Flow Matching for Sparse-View CT Reconstruction|Jigang Duan et.al.|[2606.16212](https://arxiv.org/abs/2606.16212)|null|
-|2026-06-14|Topological Flow Matching|Kacper Wyrwal et.al.|[2606.15897](https://arxiv.org/abs/2606.15897)|null|
+|2026-06-14|Topological Flow Matching|Kacper Wyrwal et.al.|[2606.15897](https://arxiv.org/abs/2606.15897)|**[link](https://github.com/KacperWyrwal/topological-flow-matching)**|
 |2026-06-14|Transferring Contact, Not Just Motion: Compliant Grasping Across Dexterous Hands|Soofiyan Atar et.al.|[2606.15516](https://arxiv.org/abs/2606.15516)|null|
 |2026-06-10|PianoKontext: Expressive Performance Rendering from Deadpan Context|Dmitrii Gavrilev et.al.|[2606.12282](https://arxiv.org/abs/2606.12282)|null|
 |2026-06-10|Holding the FP8 Quality Ceiling at 8-Bit Weights and Activations: INT8 and GGUF Post-Training Quantization of Ideogram 4.0 for Consumer GPUs|Deep Gandhi et.al.|[2606.12280](https://arxiv.org/abs/2606.12280)|null|

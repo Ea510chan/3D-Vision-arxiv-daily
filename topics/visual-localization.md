@@ -57,7 +57,7 @@
 |2026-05-06|ULF-Loc: Unbiased Landmark Feature for Robust Visual Localization with 3D Gaussian Splatting|Yingdong Gu et.al.|[2605.04730](https://arxiv.org/abs/2605.04730)|null|
 |2026-05-01|Depth-Guided Privacy-Preserving Visual Localization Using 3D Sphere Clouds|Heejoon Moon et.al.|[2605.00562](https://arxiv.org/abs/2605.00562)|null|
 |2026-05-01|MSACT: Multistage Spatial Alignment for Stable Low-Latency Fine Manipulation|Xianbo Cai et.al.|[2605.00475](https://arxiv.org/abs/2605.00475)|null|
-|2026-04-29|AirZoo: A Unified Large-Scale Dataset for Grounding Aerial Geometric 3D Vision|Xiaoya Cheng et.al.|[2604.26567](https://arxiv.org/abs/2604.26567)|**[link](https://github.com/nudt-sawlab/AirZoo)**|
+|2026-04-29|AirZoo: A Unified Large-Scale Dataset for Grounding Aerial Geometric 3D Vision|Xiaoya Cheng et.al.|[2604.26567](https://arxiv.org/abs/2604.26567)|[link](https://github.com/nudt-sawlab/AirZoo)|
 |2026-04-29|3D-LENS: A 3D Lifting-based Elevated Novel-view Synthesis method for Single-View Aerial-Ground Re-Identification|William Grolleau et.al.|[2604.26520](https://arxiv.org/abs/2604.26520)|null|
 |2026-04-28|COMPASS: COmpact Multi-channel Prior-map And Scene Signature for Floor-Plan-Based Visual Localization|Muhammad Shaheer et.al.|[2604.25388](https://arxiv.org/abs/2604.25388)|null|
 |2026-04-27|Geometric Analysis of Self-Supervised Vision Representations for Semantic Image Retrieval|Esteban Rodríguez-Betancourt et.al.|[2604.24469](https://arxiv.org/abs/2604.24469)|null|
@@ -67,7 +67,7 @@
 |2026-04-22|ConeSep: Cone-based Robust Noise-Unlearning Compositional Network for Composed Image Retrieval|Zixu Li et.al.|[2604.20358](https://arxiv.org/abs/2604.20358)|null|
 |2026-04-22|UniCVR: From Alignment to Reranking for Unified Zero-Shot Composed Visual Retrieval|Haokun Wen et.al.|[2604.20318](https://arxiv.org/abs/2604.20318)|null|
 |2026-04-21|SL(C)AMma: Simultaneous Localisation, (Calibration) and Mapping With a Magnetometer Array|Thomas Edridge et.al.|[2604.19946](https://arxiv.org/abs/2604.19946)|null|
-|2026-04-22|Air-Know: Arbiter-Calibrated Knowledge-Internalizing Robust Network for Composed Image Retrieval|Zhiheng Fu et.al.|[2604.19386](https://arxiv.org/abs/2604.19386)|**[link](https://github.com/iLearn-Lab/CVPR26-Air-Know)**|
+|2026-04-22|Air-Know: Arbiter-Calibrated Knowledge-Internalizing Robust Network for Composed Image Retrieval|Zhiheng Fu et.al.|[2604.19386](https://arxiv.org/abs/2604.19386)|[link](https://github.com/iLearn-Lab/CVPR26-Air-Know)|
 |2026-04-20|T-REN: Learning Text-Aligned Region Tokens Improves Dense Vision-Language Alignment and Scalability|Savya Khosla et.al.|[2604.18573](https://arxiv.org/abs/2604.18573)|null|
 |2026-04-20|INTENT: Invariance and Discrimination-aware Noise Mitigation for Robust Composed Image Retrieval|Zhiwei Chen et.al.|[2604.18051](https://arxiv.org/abs/2604.18051)|null|
 |2026-04-20|HABIT: Chrono-Synergia Robust Progressive Learning Framework for Composed Image Retrieval|Zixu Li et.al.|[2604.18037](https://arxiv.org/abs/2604.18037)|null|
@@ -493,11 +493,11 @@
 |2025-03-17|All You Need to Know About Training Image Retrieval Models|Gabriele Berton et.al.|[2503.13045](http://arxiv.org/abs/2503.13045)|[link](https://github.com/gmberton/image-retrieval)|
 |2025-03-12|Exploring the best way for UAV visual localization under Low-altitude Multi-view Observation Condition: a Benchmark|Yibin Ye et.al.|[2503.10692](http://arxiv.org/abs/2503.10692)|[link](https://github.com/uav-avl/benchmark)|
 |2025-03-13|ImageScope: Unifying Language-Guided Image Retrieval via Large Multimodal Model Collective Reasoning|Pengfei Luo et.al.|[2503.10166](http://arxiv.org/abs/2503.10166)|[link](https://github.com/pengfei-luo/ImageScope)|
-|2025-03-12|Revisiting Medical Image Retrieval via Knowledge Consolidation|Yang Nan et.al.|[2503.09370](http://arxiv.org/abs/2503.09370)|null|
+|2025-03-12|Revisiting Medical Image Retrieval via Knowledge Consolidation|Yang Nan et.al.|[2503.09370](http://arxiv.org/abs/2503.09370)|**[link](https://github.com/Nandayang/Revisiting-Medical-Image-Retrieval-via-Knowledge-Consolidation)**|
 |2025-03-11|CQVPR: Landmark-aware Contextual Queries for Visual Place Recognition|Dongyue Li et.al.|[2503.08170](http://arxiv.org/abs/2503.08170)|null|
 |2025-03-10|Find your Needle: Small Object Image Retrieval via Multi-Object Attention Optimization|Michael Green et.al.|[2503.07038](http://arxiv.org/abs/2503.07038)|null|
 |2025-03-10|Zero-Shot Hashing Based on Reconstruction With Part Alignment|Yan Jiang et.al.|[2503.07037](http://arxiv.org/abs/2503.07037)|null|
-|2025-03-10|Improving Visual Place Recognition with Sequence-Matching Receptiveness Prediction|Somayeh Hussaini et.al.|[2503.06840](http://arxiv.org/abs/2503.06840)|null|
+|2025-03-10|Improving Visual Place Recognition with Sequence-Matching Receptiveness Prediction|Somayeh Hussaini et.al.|[2503.06840](http://arxiv.org/abs/2503.06840)|**[link](https://github.com/QVPR/vpr-smr-predictor)**|
 |2025-03-09|RoboDesign1M: A Large-scale Dataset for Robot Design Understanding|Tri Le et.al.|[2503.06796](http://arxiv.org/abs/2503.06796)|null|
 |2025-03-09|StructVPR++: Distill Structural and Semantic Knowledge with Weighting Samples for Visual Place Recognition|Yanqing Shen et.al.|[2503.06601](http://arxiv.org/abs/2503.06601)|[link](https://github.com/syqlyx/StructVPR)|
 |2025-03-09|TextInPlace: Indoor Visual Place Recognition in Repetitive Structures with Scene Text Spotting and Verification|Huaqi Tao et.al.|[2503.06501](http://arxiv.org/abs/2503.06501)|[link](https://github.com/hqitao/textinplace)|

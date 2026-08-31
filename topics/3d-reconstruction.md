@@ -205,7 +205,7 @@
 |2026-03-19|GHOST: Fast Category-agnostic Hand-Object Interaction Reconstruction from RGB Videos using Gaussian Splatting|Ahmed Tawfik Aboukhadra et.al.|[2603.18912](https://arxiv.org/abs/2603.18912)|null|
 |2026-03-19|SEAR: Simple and Efficient Adaptation of Visual Geometric Transformers for RGB+Thermal 3D Reconstruction|Vsevolod Skorokhodov et.al.|[2603.18774](https://arxiv.org/abs/2603.18774)|null|
 |2026-03-19|SwiftGS: Episodic Priors for Immediate Satellite Surface Recovery|Rong Fu et.al.|[2603.18634](https://arxiv.org/abs/2603.18634)|null|
-|2026-03-19|FILT3R: Latent State Adaptive Kalman Filter for Streaming 3D Reconstruction|Seonghyun Jin et.al.|[2603.18493](https://arxiv.org/abs/2603.18493)|**[link](https://github.com/jinotter3/FILT3R)**|
+|2026-03-19|FILT3R: Latent State Adaptive Kalman Filter for Streaming 3D Reconstruction|Seonghyun Jin et.al.|[2603.18493](https://arxiv.org/abs/2603.18493)|[link](https://github.com/jinotter3/FILT3R)|
 |2026-03-18|Fast and Generalizable NeRF Architecture Selection for Satellite Scene Reconstruction|Devjyoti Chakraborty et.al.|[2603.18306](https://arxiv.org/abs/2603.18306)|null|
 |2026-03-18|TAPESTRY: From Geometry to Appearance via Consistent Turntable Videos|Yan Zeng et.al.|[2603.17735](https://arxiv.org/abs/2603.17735)|null|
 |2026-03-18|PanoVGGT: Feed-Forward 3D Reconstruction from Panoramic Imagery|Yijing Guo et.al.|[2603.17571](https://arxiv.org/abs/2603.17571)|[link](https://github.com/YijingGuo-June/PanoVGGT)|
@@ -213,7 +213,7 @@
 |2026-03-13|3DTCR: A Physics-Based Generative Framework for Vortex-Following 3D Reconstruction to Improve Tropical Cyclone Intensity Forecasting|Jun Liu et.al.|[2603.13049](https://arxiv.org/abs/2603.13049)|null|
 |2026-03-13|CMHANet: A Cross-Modal Hybrid Attention Network for Point Cloud Registration|Dongxu Zhang et.al.|[2603.12721](https://arxiv.org/abs/2603.12721)|null|
 |2026-03-13|Marker-Based 3D Reconstruction of Aggregates with a Comparative Analysis of 2D and 3D Morphologies|Haohang Huang et.al.|[2603.12667](https://arxiv.org/abs/2603.12667)|null|
-|2026-03-12|Single-View Rolling-Shutter SfM|Sofía Errázuriz Muñoz et.al.|[2603.11888](https://arxiv.org/abs/2603.11888)|null|
+|2026-03-12|Single-View Rolling-Shutter SfM|Sofía Errázuriz Muñoz et.al.|[2603.11888](https://arxiv.org/abs/2603.11888)|**[link](https://github.com/Ufere/Assingment_1)**|
 |2026-03-12|CEI-3D: Collaborative Explicit-Implicit 3D Reconstruction for Realistic and Fine-Grained Object Editing|Yue Shi et.al.|[2603.11810](https://arxiv.org/abs/2603.11810)|null|
 |2026-03-12|High-Precision 6DOF Pose Estimation via Global Phase Retrieval in Fringe Projection Profilometry for 3D Mapping|Sehoon Tak et.al.|[2603.11389](https://arxiv.org/abs/2603.11389)|null|
 |2026-03-11|InstantHDR: Single-forward Gaussian Splatting for High Dynamic Range 3D Reconstruction|Dingqiang Ye et.al.|[2603.11298](https://arxiv.org/abs/2603.11298)|null|
@@ -328,7 +328,7 @@
 |2025-12-05|PoolNet: Deep Learning for 2D to 3D Video Process Validation|Sanchit Kaul et.al.|[2512.05362](http://arxiv.org/abs/2512.05362)|null|
 |2025-12-04|Deep infant brain segmentation from multi-contrast MRI|Malte Hoffmann et.al.|[2512.05114](http://arxiv.org/abs/2512.05114)|null|
 |2025-12-04|QKAN-LSTM: Quantum-inspired Kolmogorov-Arnold Long Short-term Memory|Yu-Chao Hsu et.al.|[2512.05049](http://arxiv.org/abs/2512.05049)|null|
-|2025-12-04|Geometric Data Science|Olga D Anosova et.al.|[2512.05040](http://arxiv.org/abs/2512.05040)|**[link](https://github.com/xploitspeeds/Bookmarklet-Hacks-For-School)**|
+|2025-12-04|Geometric Data Science|Olga D Anosova et.al.|[2512.05040](http://arxiv.org/abs/2512.05040)|[link](https://github.com/xploitspeeds/Bookmarklet-Hacks-For-School)|
 |2025-12-04|Internal superfluid response and torque evolution in the giant glitch of PSR J1718-3718|Peng Liu et.al.|[2512.04972](http://arxiv.org/abs/2512.04972)|null|
 |2025-12-04|Canonical Rough Path over Tempered Fractional Brownian Motion: Existence, Construction, and Applications|Atef Lechiheb et.al.|[2512.04646](http://arxiv.org/abs/2512.04646)|null|
 |2025-12-04|Refaçade: Editing Object with Given Reference Texture|Youze Huang et.al.|[2512.04534](http://arxiv.org/abs/2512.04534)|null|
@@ -371,13 +371,13 @@
 |2025-11-04|Cycle-Sync: Robust Global Camera Pose Estimation through Enhanced Cycle-Consistent Synchronization|Shaohan Li et.al.|[2511.02329](http://arxiv.org/abs/2511.02329)|null|
 |2025-11-01|Oitijjo-3D: Generative AI Framework for Rapid 3D Heritage Reconstruction from Street View Imagery|Momen Khandoker Ope et.al.|[2511.00362](http://arxiv.org/abs/2511.00362)|null|
 |2025-10-23|RubbleSim: A Photorealistic Structural Collapse Simulator for Confined Space Mapping|Constantine Frost et.al.|[2510.20529](http://arxiv.org/abs/2510.20529)|null|
-|2025-10-20|Initialize to Generalize: A Stronger Initialization Pipeline for Sparse-View 3DGS|Feng Zhou et.al.|[2510.17479](http://arxiv.org/abs/2510.17479)|**[link](https://github.com/zss171999645/ItG-GS)**|
+|2025-10-20|Initialize to Generalize: A Stronger Initialization Pipeline for Sparse-View 3DGS|Feng Zhou et.al.|[2510.17479](http://arxiv.org/abs/2510.17479)|[link](https://github.com/zss171999645/ItG-GS)|
 |2025-10-21|DeepDetect: Learning All-in-One Dense Keypoints|Shaharyar Ahmed Khan Tareen et.al.|[2510.17422](http://arxiv.org/abs/2510.17422)|null|
 |2025-10-18|LightGlueStick: a Fast and Robust Glue for Joint Point-Line Matching|Aidyn Ubingazhibov et.al.|[2510.16438](http://arxiv.org/abs/2510.16438)|null|
 |2025-10-17|MRASfM: Multi-Camera Reconstruction and Aggregation through Structure-from-Motion in Driving Scenes|Lingfeng Xuan et.al.|[2510.15467](http://arxiv.org/abs/2510.15467)|null|
 |2025-10-17|CuSfM: CUDA-Accelerated Structure-from-Motion|Jingrui Yu et.al.|[2510.15271](http://arxiv.org/abs/2510.15271)|null|
-|2025-10-15|Learning Neural Parametric 3D Breast Shape Models for Metrical Surface Reconstruction From Monocular RGB Videos|Maximilian Weiherer et.al.|[2510.13540](http://arxiv.org/abs/2510.13540)|**[link](https://github.com/mweiherer/local-irbsm)**|
-|2025-10-15|InstantSfM: Fully Sparse and Parallel Structure-from-Motion|Jiankun Zhong et.al.|[2510.13310](http://arxiv.org/abs/2510.13310)|**[link](https://github.com/icratmp483/InstantSfM)**|
+|2025-10-15|Learning Neural Parametric 3D Breast Shape Models for Metrical Surface Reconstruction From Monocular RGB Videos|Maximilian Weiherer et.al.|[2510.13540](http://arxiv.org/abs/2510.13540)|[link](https://github.com/mweiherer/local-irbsm)|
+|2025-10-15|InstantSfM: Fully Sparse and Parallel Structure-from-Motion|Jiankun Zhong et.al.|[2510.13310](http://arxiv.org/abs/2510.13310)|[link](https://github.com/icratmp483/InstantSfM)|
 |2025-10-14|Scene Coordinate Reconstruction Priors|Wenjing Bian et.al.|[2510.12387](http://arxiv.org/abs/2510.12387)|[link](https://github.com/nianticspatial/scr-priors)|
 |2025-10-10|Two-Stage Gaussian Splatting Optimization for Outdoor Scene Reconstruction|Deborah Pintani et.al.|[2510.09489](http://arxiv.org/abs/2510.09489)|null|
 |2025-10-02|Non-Rigid Structure-from-Motion via Differential Geometry with Recoverable Conformal Scale|Yongbo Chen et.al.|[2510.01665](http://arxiv.org/abs/2510.01665)|null|
@@ -419,12 +419,12 @@
 |2025-06-23|Room temperature spin injection into commercial VCSELs at non-resonant wavelengths|Timur Almabetov et.al.|[2506.18376](http://arxiv.org/abs/2506.18376)|null|
 |2025-06-11|OWSM-Biasing: Contextualizing Open Whisper-Style Speech Models for Automatic Speech Recognition with Dynamic Vocabulary|Yui Sudo et.al.|[2506.09448](http://arxiv.org/abs/2506.09448)|null|
 |2025-06-06|SurGSplat: Progressive Geometry-Constrained Gaussian Splatting for Surgical Scene Reconstruction|Yuchao Zheng et.al.|[2506.05935](http://arxiv.org/abs/2506.05935)|null|
-|2025-06-05|On-the-fly Reconstruction for Large-Scale Novel View Synthesis from Unposed Images|Andreas Meuleman et.al.|[2506.05558](http://arxiv.org/abs/2506.05558)|**[link](https://github.com/graphdeco-inria/on-the-fly-nvs)**|
+|2025-06-05|On-the-fly Reconstruction for Large-Scale Novel View Synthesis from Unposed Images|Andreas Meuleman et.al.|[2506.05558](http://arxiv.org/abs/2506.05558)|[link](https://github.com/graphdeco-inria/on-the-fly-nvs)|
 |2025-06-05|SupeRANSAC: One RANSAC to Rule Them All|Daniel Barath et.al.|[2506.04803](http://arxiv.org/abs/2506.04803)|[link](https://github.com/danini/superansac)|
 |2025-06-04|Voyager: Long-Range and World-Consistent Video Diffusion for Explorable 3D Scene Generation|Tianyu Huang et.al.|[2506.04225](http://arxiv.org/abs/2506.04225)|null|
 |2025-06-04|Accelerating SfM-based Pose Estimation with Dominating Set|Joji Joseph et.al.|[2506.03667](http://arxiv.org/abs/2506.03667)|null|
 |2025-06-03|Nearby dwarf galaxies with extreme star formation rates: a window into dwarf-galaxy evolution in the early Universe|S. Kaviraj et.al.|[2506.03265](http://arxiv.org/abs/2506.03265)|null|
-|2025-06-02|Fast and Robust Rotation Averaging with Anisotropic Coordinate Descent|Yaroslava Lochman et.al.|[2506.01940](http://arxiv.org/abs/2506.01940)|**[link](https://github.com/ylochman/acd)**|
+|2025-06-02|Fast and Robust Rotation Averaging with Anisotropic Coordinate Descent|Yaroslava Lochman et.al.|[2506.01940](http://arxiv.org/abs/2506.01940)|[link](https://github.com/ylochman/acd)|
 |2025-06-03|Improving Multilingual Speech Models on ML-SUPERB 2.0: Fine-tuning with Data Augmentation and LID-Aware CTC|Qingzheng Wang et.al.|[2505.24200](http://arxiv.org/abs/2505.24200)|null|
 |2025-05-29|Rooms from Motion: Un-posed Indoor 3D Object Detection as Localization and Mapping|Justin Lazarow et.al.|[2505.23756](http://arxiv.org/abs/2505.23756)|null|
 |2025-05-30|FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian|Sara Papi et.al.|[2505.22759](http://arxiv.org/abs/2505.22759)|[link](https://github.com/hlt-mt/fbk-fairseq)|
@@ -461,7 +461,7 @@
 |2025-04-21|Traversing the Star-Forming Main Sequence with Molecular Gas Stacks of z~1.6 Cluster Galaxies|Alex Pigarelli et.al.|[2504.15381](http://arxiv.org/abs/2504.15381)|null|
 |2025-04-21|Towards Understanding Camera Motions in Any Video|Zhiqiu Lin et.al.|[2504.15376](http://arxiv.org/abs/2504.15376)|[link](https://github.com/sy77777en/CameraBench)|
 |2025-04-21|StableQuant: Layer Adaptive Post-Training Quantization for Speech Foundation Models|Yeona Hong et.al.|[2504.14915](http://arxiv.org/abs/2504.14915)|null|
-|2025-04-17|Volume Encoding Gaussians: Transfer Function-Agnostic 3D Gaussians for Volume Rendering|Landon Dyken et.al.|[2504.13339](http://arxiv.org/abs/2504.13339)|**[link](https://github.com/ldyken53/VEG)**|
+|2025-04-17|Volume Encoding Gaussians: Transfer Function-Agnostic 3D Gaussians for Volume Rendering|Landon Dyken et.al.|[2504.13339](http://arxiv.org/abs/2504.13339)|[link](https://github.com/ldyken53/VEG)|
 |2025-04-15|EDGS: Eliminating Densification for Efficient Convergence of 3DGS|Dmytro Kotovenko et.al.|[2504.13204](http://arxiv.org/abs/2504.13204)|[link](https://github.com/CompVis/EDGS)|
 |2025-04-15|Deep Learning-based Bathymetry Retrieval without In-situ Depths using Remote Sensing Imagery and SfM-MVS DSMs with Data Gaps|Panagiotis Agrafiotis et.al.|[2504.11416](http://arxiv.org/abs/2504.11416)|[link](https://github.com/pagraf/swin-bathyunet)|
 |2025-04-12|A Constrained Optimization Approach for Gaussian Splatting from Coarsely-posed Images and Noisy Lidar Point Clouds|Jizong Peng et.al.|[2504.09129](http://arxiv.org/abs/2504.09129)|[link](https://github.com/eldentse/contrained-optimization-3dgs)|

@@ -4,16 +4,16 @@
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-08-22**|**FlashReg: GPU-Accelerated 3-Clique Point Cloud Registration for Real-Time Correspondence-to-Pose Estimation**|Ziyang Yu et.al.|[2608.21804](https://arxiv.org/abs/2608.21804)|null|
-|**2026-08-20**|**CVSD-Reg: Cross-Modal Visual Semantic Prior Distillation for Robust LiDAR Registration**|Eunsoo Im et.al.|[2608.19536](https://arxiv.org/abs/2608.19536)|null|
-|**2026-08-16**|**Degenerate in Whose Frame? An Equivariance Condition for Degeneracy Detection in LiDAR Registration**|Yujie Zhang et.al.|[2608.15532](https://arxiv.org/abs/2608.15532)|null|
-|**2026-08-15**|**VGGT-Align: Bridging Local Reconstruction and Global Consistency for Long-Sequence 3D Reconstruction**|Wei Zhang et.al.|[2608.15260](https://arxiv.org/abs/2608.15260)|null|
-|**2026-08-03**|**Test Time Adaptation Methods for Point Cloud Registration in Laparoscopic Surgery**|Nina Bodelot et.al.|[2608.02883](https://arxiv.org/abs/2608.02883)|null|
-|**2026-07-30**|**RaDiVe: Robust 4D Radar Odometry with Distance-Bounded NDT and Velocity-Discrepancy Point Uncertainty**|Sangwoo Jung et.al.|[2607.28045](https://arxiv.org/abs/2607.28045)|null|
-|**2026-07-29**|**R-SLPR: Region-based Small-to-Large Point-cloud Registration with Contrastive Learning**|Yusen Wan et.al.|[2607.26583](https://arxiv.org/abs/2607.26583)|null|
-|**2026-07-25**|**Patient-Agnostic Synthetic Pretraining for Efficient Patient-Specific Intraoperative 2D/3D Registration**|Minheng Chen et.al.|[2607.23343](https://arxiv.org/abs/2607.23343)|null|
-|**2026-07-25**|**SHReg: Strictly Rotation-Equivariant Point Cloud Registration via Spherical Harmonics**|Chongjian Wang et.al.|[2607.23096](https://arxiv.org/abs/2607.23096)|null|
-|**2026-07-19**|**Cross-Coordinate Correspondence Pruning for Image-to-Point Cloud Registration**|Xin Liu et.al.|[2607.17200](https://arxiv.org/abs/2607.17200)|null|
+|2026-08-22|FlashReg: GPU-Accelerated 3-Clique Point Cloud Registration for Real-Time Correspondence-to-Pose Estimation|Ziyang Yu et.al.|[2608.21804](https://arxiv.org/abs/2608.21804)|null|
+|2026-08-20|CVSD-Reg: Cross-Modal Visual Semantic Prior Distillation for Robust LiDAR Registration|Eunsoo Im et.al.|[2608.19536](https://arxiv.org/abs/2608.19536)|null|
+|2026-08-16|Degenerate in Whose Frame? An Equivariance Condition for Degeneracy Detection in LiDAR Registration|Yujie Zhang et.al.|[2608.15532](https://arxiv.org/abs/2608.15532)|null|
+|2026-08-15|VGGT-Align: Bridging Local Reconstruction and Global Consistency for Long-Sequence 3D Reconstruction|Wei Zhang et.al.|[2608.15260](https://arxiv.org/abs/2608.15260)|null|
+|2026-08-03|Test Time Adaptation Methods for Point Cloud Registration in Laparoscopic Surgery|Nina Bodelot et.al.|[2608.02883](https://arxiv.org/abs/2608.02883)|null|
+|2026-07-30|RaDiVe: Robust 4D Radar Odometry with Distance-Bounded NDT and Velocity-Discrepancy Point Uncertainty|Sangwoo Jung et.al.|[2607.28045](https://arxiv.org/abs/2607.28045)|null|
+|2026-07-29|R-SLPR: Region-based Small-to-Large Point-cloud Registration with Contrastive Learning|Yusen Wan et.al.|[2607.26583](https://arxiv.org/abs/2607.26583)|null|
+|2026-07-25|Patient-Agnostic Synthetic Pretraining for Efficient Patient-Specific Intraoperative 2D/3D Registration|Minheng Chen et.al.|[2607.23343](https://arxiv.org/abs/2607.23343)|null|
+|2026-07-25|SHReg: Strictly Rotation-Equivariant Point Cloud Registration via Spherical Harmonics|Chongjian Wang et.al.|[2607.23096](https://arxiv.org/abs/2607.23096)|null|
+|2026-07-19|Cross-Coordinate Correspondence Pruning for Image-to-Point Cloud Registration|Xin Liu et.al.|[2607.17200](https://arxiv.org/abs/2607.17200)|null|
 |2026-07-16|DINE: Distance Is Not Enough -- Learning Global Deformation Priors for Robust Soft-Tissue Point Cloud Registration|Sara Monji-Azad et.al.|[2607.14946](https://arxiv.org/abs/2607.14946)|null|
 |2026-07-16|Image-to-Point Cloud Registration Made Easy with Rectified Flow-based LiDAR Upsampling|Reon Tabata et.al.|[2607.14639](https://arxiv.org/abs/2607.14639)|null|
 |2026-07-12|Projection-Domain Sensitivity Analysis of Vertebral DRRs Under Intrinsic Calibration Perturbation|Lin Li et.al.|[2607.10551](https://arxiv.org/abs/2607.10551)|null|

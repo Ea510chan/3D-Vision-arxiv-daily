@@ -4,16 +4,16 @@
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-08-27**|**Data-Aided Asynchronous OFDM Integrated Sensing and Communications: A Mean-Field Variational Bayes Approach**|Van-Chung Luu et.al.|[2608.27739](https://arxiv.org/abs/2608.27739)|null|
-|**2026-08-15**|**LightLoc++: Sensor-Robust Representation Learning for Efficient Outdoor LiDAR Localization**|Wen Li et.al.|[2608.15317](https://arxiv.org/abs/2608.15317)|**[link](https://github.com/liw95/LightLoc-PlusPlus)**|
-|**2026-08-17**|**LLM-Guided Graph Generation for Structure-Based Local Improvement Methods**|Hai Xia et.al.|[2608.13333](https://arxiv.org/abs/2608.13333)|null|
-|**2026-08-13**|**Point Feature Descriptor via Directional Partition of Unity on Maps**|Phan Thanh An et.al.|[2608.12794](https://arxiv.org/abs/2608.12794)|null|
-|**2026-08-12**|**Map-Det3D: Metric Feed-Forward 3D Reconstruction Prior for Multi-view 3D Object Detection from Streaming Inputs**|Yung-Hsu Yang et.al.|[2608.12179](https://arxiv.org/abs/2608.12179)|**[link](https://github.com/cvg/Map-Det3D)**|
-|**2026-08-18**|**GS-CPE: Unified 6-Degree-of-Freedom Camera Pose Estimation via 3D Gaussian Splatting**|Huaiyuan Weng et.al.|[2608.10938](https://arxiv.org/abs/2608.10938)|null|
-|**2026-08-11**|**Embodied Multimodal Grounding for Open-Vocabulary Mobile Manipulation via Semantic 3D Gaussian Splatting**|Huosen Ou et.al.|[2608.10756](https://arxiv.org/abs/2608.10756)|null|
-|**2026-08-10**|**EgoHieraLoc: A Cortically Inspired Hierarchical Segmentation-Guided Framework for Egocentric Visual Query Localization**|Yifei Cao et.al.|[2608.09656](https://arxiv.org/abs/2608.09656)|null|
-|**2026-08-10**|**Neural Array-Generic Direction-of-Arrival Estimation Exploiting Array Transfer Functions**|Mikko Heikkinen et.al.|[2608.09425](https://arxiv.org/abs/2608.09425)|null|
-|**2026-08-10**|**GLocFM: A Geometry-Aware Foundation Model for 3D Indoor Wireless Localization**|Chenghong Bian et.al.|[2608.09285](https://arxiv.org/abs/2608.09285)|null|
+|2026-08-27|Data-Aided Asynchronous OFDM Integrated Sensing and Communications: A Mean-Field Variational Bayes Approach|Van-Chung Luu et.al.|[2608.27739](https://arxiv.org/abs/2608.27739)|null|
+|2026-08-15|LightLoc++: Sensor-Robust Representation Learning for Efficient Outdoor LiDAR Localization|Wen Li et.al.|[2608.15317](https://arxiv.org/abs/2608.15317)|[link](https://github.com/liw95/LightLoc-PlusPlus)|
+|2026-08-17|LLM-Guided Graph Generation for Structure-Based Local Improvement Methods|Hai Xia et.al.|[2608.13333](https://arxiv.org/abs/2608.13333)|null|
+|2026-08-13|Point Feature Descriptor via Directional Partition of Unity on Maps|Phan Thanh An et.al.|[2608.12794](https://arxiv.org/abs/2608.12794)|null|
+|2026-08-12|Map-Det3D: Metric Feed-Forward 3D Reconstruction Prior for Multi-view 3D Object Detection from Streaming Inputs|Yung-Hsu Yang et.al.|[2608.12179](https://arxiv.org/abs/2608.12179)|[link](https://github.com/cvg/Map-Det3D)|
+|2026-08-18|GS-CPE: Unified 6-Degree-of-Freedom Camera Pose Estimation via 3D Gaussian Splatting|Huaiyuan Weng et.al.|[2608.10938](https://arxiv.org/abs/2608.10938)|null|
+|2026-08-11|Embodied Multimodal Grounding for Open-Vocabulary Mobile Manipulation via Semantic 3D Gaussian Splatting|Huosen Ou et.al.|[2608.10756](https://arxiv.org/abs/2608.10756)|null|
+|2026-08-10|EgoHieraLoc: A Cortically Inspired Hierarchical Segmentation-Guided Framework for Egocentric Visual Query Localization|Yifei Cao et.al.|[2608.09656](https://arxiv.org/abs/2608.09656)|null|
+|2026-08-10|Neural Array-Generic Direction-of-Arrival Estimation Exploiting Array Transfer Functions|Mikko Heikkinen et.al.|[2608.09425](https://arxiv.org/abs/2608.09425)|null|
+|2026-08-10|GLocFM: A Geometry-Aware Foundation Model for 3D Indoor Wireless Localization|Chenghong Bian et.al.|[2608.09285](https://arxiv.org/abs/2608.09285)|null|
 |2026-06-30|Seeing Through the Weights: Privacy Leakage in Scene Coordinate Regression|Oleksii Nasypanyi et.al.|[2606.31164](https://arxiv.org/abs/2606.31164)|null|
 |2026-06-26|Learning 1-Bit LiDAR-based Localization with Auxiliary Objective|Kaijie Yin et.al.|[2606.27729](https://arxiv.org/abs/2606.27729)|null|
 |2026-06-20|ACEsplat: Accelerated 3D Gaussian Scene Regression via RGB and Poses Only|Mingkai Liu et.al.|[2606.22091](https://arxiv.org/abs/2606.22091)|null|
