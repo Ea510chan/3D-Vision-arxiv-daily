@@ -1,9 +1,19 @@
 # Flow Matching
 
-> Updated on 2026.08.26
+> Updated on 2026.08.31
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-08-28**|**Physics-Guided Flow Matching for CT Image Reconstruction**|Davide Evangelista et.al.|[2608.28256](https://arxiv.org/abs/2608.28256)|null|
+|**2026-08-28**|**Manifold4D: Denoising on Point Cloud Rendered Manifolds for Video Re-shooting**|Yongqi Mao et.al.|[2608.28174](https://arxiv.org/abs/2608.28174)|null|
+|**2026-08-28**|**When Can Conditional Flow Matching Replace Pointwise Negative Log-Likelihood?**|Yansen Han et.al.|[2608.28010](https://arxiv.org/abs/2608.28010)|null|
+|**2026-08-28**|**There and Back Again: Bidirectional Diffusion Bridges for Multimodality Translation**|Gabe Guo et.al.|[2608.27885](https://arxiv.org/abs/2608.27885)|null|
+|**2026-08-28**|**Mechanistic Reaction Prediction via Discrete Flow Matching on Graph-Structured Electron Occupation**|Nguyen Xuan-Vu et.al.|[2608.27429](https://arxiv.org/abs/2608.27429)|null|
+|**2026-08-27**|**FlashVLA: Streaming Action Decoding for Fast and Asynchronous VLA Inference**|Zekai Li et.al.|[2608.27384](https://arxiv.org/abs/2608.27384)|null|
+|**2026-08-27**|**Packora: Systematic Design for Generative Molecular Crystal Structure Prediction**|Nayoung Kim et.al.|[2608.26962](https://arxiv.org/abs/2608.26962)|null|
+|**2026-08-27**|**Gromov-Monge Flow Matching for Equivariant Graph Generation**|Moritz Piening et.al.|[2608.26961](https://arxiv.org/abs/2608.26961)|null|
+|**2026-08-27**|**Climate Physics Dynamic Matching**|Gurjeet Sangra Singh et.al.|[2608.26907](https://arxiv.org/abs/2608.26907)|null|
+|**2026-08-27**|**Self-OPD: On-Policy Distillation for Flow Matching Models without Teacher**|Shiyi Zhang et.al.|[2608.26872](https://arxiv.org/abs/2608.26872)|null|
 |2026-07-30|APO: Unsupervised Atomic Policy Optimization for 3D Structure Prediction of Atomic Systems|Shentong Mo et.al.|[2607.28553](https://arxiv.org/abs/2607.28553)|null|
 |2026-07-30|Enhancing Irregular Time Series Forecasting with Continuous-Time Modeling Framework|Tianen Shen et.al.|[2607.28035](https://arxiv.org/abs/2607.28035)|null|
 |2026-07-30|The Geometric Nature and a Free Proxy for Flow-Matching Uncertainty|Ziyang Rao et.al.|[2607.27933](https://arxiv.org/abs/2607.27933)|null|

@@ -1,9 +1,19 @@
 # World Model
 
-> Updated on 2026.08.26
+> Updated on 2026.08.31
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-08-28**|**Video Generative Models as Geometry Learner**|Haosen Yang et.al.|[2608.28549](https://arxiv.org/abs/2608.28549)|null|
+|**2026-08-28**|**An Enclosed Mode Is a Gauge Choice: Topology Relative to Reach in Certified Code World Models**|Javier Aguilar Martín et.al.|[2608.28541](https://arxiv.org/abs/2608.28541)|null|
+|**2026-08-28**|**AcrossVAM1.0: Particle World Modeling for Text-Assisted Robot Video Prediction**|Yafei Zhang et.al.|[2608.28491](https://arxiv.org/abs/2608.28491)|null|
+|**2026-08-28**|**WALDO: One-Shot Exemplar-Conditioned Object Detection in Cluttered Scenes**|Kishor Datta Gupta et.al.|[2608.28216](https://arxiv.org/abs/2608.28216)|null|
+|**2026-08-28**|**Learning to Allocate Incentives for Incentivized Advertising via Offline Model-Based Reinforcement Learning**|Zilin Zhao et.al.|[2608.28065](https://arxiv.org/abs/2608.28065)|null|
+|**2026-08-28**|**Should I Use This Synthetic Dataset for Training? How to Test with Minimal Real Data**|Zhenyu Tao et.al.|[2608.27996](https://arxiv.org/abs/2608.27996)|null|
+|**2026-08-27**|**CLAP: Cross-Embodiment Video World Models are Zero-Shot Physical Simulators**|Kechen Liu et.al.|[2608.27406](https://arxiv.org/abs/2608.27406)|null|
+|**2026-08-27**|**Successive Capacity Growth: Task-Complexity-Driven Width and Depth Expansion for Vision Transformer Encoders in JEPA World Models**|Frederik Berenz et.al.|[2608.27367](https://arxiv.org/abs/2608.27367)|null|
+|**2026-08-28**|**PAWBench: How Far Are We from Probabilistically Aligned World Modeling?**|Yuandong Pu et.al.|[2608.27345](https://arxiv.org/abs/2608.27345)|null|
+|**2026-08-27**|**R2M-Bench: Evaluating Revisit Memory via Relative Consistency in Interactive Video World Models**|Qiwen Gu et.al.|[2608.27328](https://arxiv.org/abs/2608.27328)|null|
 |2026-07-30|ACE-Data-0: Human-Centric Ambient Capture as Embodied Data Engine|Yukang Cao et.al.|[2607.28625](https://arxiv.org/abs/2607.28625)|null|
 |2026-07-30|PhiZero: A World Model Built Around Physical Language|Shuyao Shang et.al.|[2607.28624](https://arxiv.org/abs/2607.28624)|[link](https://github.com/yaoyao-jpg/PhiZero)|
 |2026-07-30|AuricularWorld: Hierarchical Action-Guided World Modeling for Fine-Grained Auricular Structure Segmentation from CT Scans|Jingwen Yang et.al.|[2607.28487](https://arxiv.org/abs/2607.28487)|null|

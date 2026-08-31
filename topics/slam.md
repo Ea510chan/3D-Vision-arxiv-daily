@@ -1,9 +1,16 @@
 # SLAM
 
-> Updated on 2026.08.26
+> Updated on 2026.08.31
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-08-28**|**GeoFF3D: Coordinate-Anchored Feed-Forward Reconstruction for Large-Scale UAV Mapping**|Xiang Yang et.al.|[2608.28288](https://arxiv.org/abs/2608.28288)|null|
+|**2026-08-27**|**One year in a forest: Analyzing the challenges of autonomous navigation in subarctic environments**|Matěj Boxan et.al.|[2608.27628](https://arxiv.org/abs/2608.27628)|null|
+|**2026-08-27**|**How exceptional was the Big Three era? Extremes and persistence in men's professional tennis**|Manuele Leonelli et.al.|[2608.27362](https://arxiv.org/abs/2608.27362)|null|
+|**2026-08-27**|**Contact-Aided Factor-Graph Localization for Underwater Sampling**|Michele Grimaldi et.al.|[2608.26932](https://arxiv.org/abs/2608.26932)|null|
+|**2026-08-27**|**CGS-SLAM: Collaborative Gaussian Splatting based SLAM for Multi-Agent Reconstruction**|Jean-Daniel de Ambrogi et.al.|[2608.26868](https://arxiv.org/abs/2608.26868)|null|
+|**2026-08-26**|**Praxist: From Experimental Artifacts to Solution Lineages**|Jin Li et.al.|[2608.25955](https://arxiv.org/abs/2608.25955)|null|
+|**2026-08-26**|**AGRO-Nav: Autonomous Graph-based Orchard Navigation**|Ho Young Yun et.al.|[2608.25799](https://arxiv.org/abs/2608.25799)|null|
 |**2026-08-24**|**Spotter: Efficient Urban Visual Localization via Geo-Referenced Facade Landmarks in GPS-Degraded Environments**|Antoni Valls et.al.|[2608.23290](https://arxiv.org/abs/2608.23290)|null|
 |**2026-08-24**|**Macro-Action Topological Navigation under Noisy Localization using Reinforcement Learning**|Simon Hakenes et.al.|[2608.23055](https://arxiv.org/abs/2608.23055)|null|
 |**2026-08-24**|**RoboRacer Arena: Scaling High-Fidelity Autonomous Racing in Isaac Sim**|Mihaela-Larisa Clement et.al.|[2608.23040](https://arxiv.org/abs/2608.23040)|null|

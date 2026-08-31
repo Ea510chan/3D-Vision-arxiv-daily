@@ -1,6 +1,6 @@
 # 3D Reconstruction
 
-> Updated on 2026.08.26
+> Updated on 2026.08.31
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
