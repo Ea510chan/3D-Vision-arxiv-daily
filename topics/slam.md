@@ -1,9 +1,19 @@
 # SLAM
 
-> Updated on 2026.09.01
+> Updated on 2026.09.06
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-09-03**|**A hybrid pipeline for dynamic ontology-based semantic mapping**|Konstantinos Dimitropoulos et.al.|[2609.03891](https://arxiv.org/abs/2609.03891)|null|
+|**2026-09-03**|**A comparative study on the accuracy & repeatability of mobile robotic platforms for the delivery of precision NDE measurement**|SeyedMohammadAmin Nabi Pour et.al.|[2609.03794](https://arxiv.org/abs/2609.03794)|null|
+|**2026-09-03**|**RoughSense: Lightweight Terrain-Induced Rover Vibration Prediction Using Point Clouds and IMU Feedback**|Gabriel Manuel Garcia et.al.|[2609.03720](https://arxiv.org/abs/2609.03720)|null|
+|**2026-09-02**|**AutoCompass: Accurate Visual Localization on Public Maps by Learning from Weak Labels**|Javier Tirado-Garín et.al.|[2609.02798](https://arxiv.org/abs/2609.02798)|null|
+|**2026-09-01**|**TAPVid-MV: A Benchmark for Tracking Any Point in 3D Across Multiple Views**|Skanda Koppula et.al.|[2609.01899](https://arxiv.org/abs/2609.01899)|null|
+|**2026-09-01**|**Monocular Depth Estimation from a Single Image: Progress and Opportunities**|Muxin Liu et.al.|[2609.01172](https://arxiv.org/abs/2609.01172)|null|
+|**2026-09-01**|**VOIM: Training-Free Open-Vocabulary 3D Instance Mapping for RGB-D and Monocular SLAM**|Sangmin Song et.al.|[2609.00775](https://arxiv.org/abs/2609.00775)|null|
+|**2026-08-31**|**Failure or Drift? Evaluating Monocular SLAM under Synthetic and Real-World Corruptions**|Abhay Skaria Thomas et.al.|[2608.30690](https://arxiv.org/abs/2608.30690)|null|
+|**2026-08-30**|**Everybody Tracking Every Body**|Daeyun Shin et.al.|[2608.29927](https://arxiv.org/abs/2608.29927)|null|
+|**2026-08-29**|**RoSe-SLAM: Robust Semantic-Aware Gaussian Splatting SLAM from Dynamic Monocular Videos**|Wenting Wang et.al.|[2608.29003](https://arxiv.org/abs/2608.29003)|null|
 |2026-08-28|GeoFF3D: Coordinate-Anchored Feed-Forward Reconstruction for Large-Scale UAV Mapping|Xiang Yang et.al.|[2608.28288](https://arxiv.org/abs/2608.28288)|null|
 |2026-08-27|One year in a forest: Analyzing the challenges of autonomous navigation in subarctic environments|Matěj Boxan et.al.|[2608.27628](https://arxiv.org/abs/2608.27628)|null|
 |2026-08-27|How exceptional was the Big Three era? Extremes and persistence in men's professional tennis|Manuele Leonelli et.al.|[2608.27362](https://arxiv.org/abs/2608.27362)|null|
