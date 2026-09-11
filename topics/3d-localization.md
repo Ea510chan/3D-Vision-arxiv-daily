@@ -1,13 +1,19 @@
 # 3D Localization
 
-> Updated on 2026.09.07
+> Updated on 2026.09.11
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|2026-08-27|Data-Aided Asynchronous OFDM Integrated Sensing and Communications: A Mean-Field Variational Bayes Approach|Van-Chung Luu et.al.|[2608.27739](https://arxiv.org/abs/2608.27739)|null|
-|2026-08-15|LightLoc++: Sensor-Robust Representation Learning for Efficient Outdoor LiDAR Localization|Wen Li et.al.|[2608.15317](https://arxiv.org/abs/2608.15317)|[link](https://github.com/liw95/LightLoc-PlusPlus)|
-|2026-08-17|LLM-Guided Graph Generation for Structure-Based Local Improvement Methods|Hai Xia et.al.|[2608.13333](https://arxiv.org/abs/2608.13333)|null|
-|2026-08-13|Point Feature Descriptor via Directional Partition of Unity on Maps|Phan Thanh An et.al.|[2608.12794](https://arxiv.org/abs/2608.12794)|null|
+|**2026-09-09**|**Teglon: A Pixel-Level Pipeline for Galaxy-Informed Gravitational-Wave Follow-up Planning and Efficiency Analysis**|D. A. Coulter et.al.|[2609.10736](https://arxiv.org/abs/2609.10736)|null|
+|**2026-09-08**|**3D Protraction Technique for Anchor-Free, Range-Free Wireless Localization in Industrial Warehouses via Multi-Level Binary Reachability**|Peyman Moeini et.al.|[2609.09330](https://arxiv.org/abs/2609.09330)|null|
+|**2026-09-08**|**From Where to How: Continuous 4D Interaction Forecasting from Egocentric Video**|Qiaohui Chu et.al.|[2609.08636](https://arxiv.org/abs/2609.08636)|**[link](https://github.com/CorrineQiu/from-where-to-how)**|
+|**2026-09-04**|**Development of a Humanoid Robot Prototype for Multimodal Human-Robot Interaction**|Thang Tran Viet et.al.|[2609.05361](https://arxiv.org/abs/2609.05361)|null|
+|**2026-09-03**|**Certified Spherical MUSIC for 3D Localization under Adversarial Subspace Perturbations**|Albert Fannjiang et.al.|[2609.03264](https://arxiv.org/abs/2609.03264)|null|
+|**2026-09-01**|**Multidimensional Double Refraction Microscopy**|Jörg König et.al.|[2609.01703](https://arxiv.org/abs/2609.01703)|null|
+|**2026-09-06**|**Data-Aided Asynchronous OFDM Integrated Sensing and Communications: A Mean-Field Variational Bayes Approach**|Van-Chung Luu et.al.|[2608.27739](https://arxiv.org/abs/2608.27739)|null|
+|**2026-08-15**|**LightLoc++: Sensor-Robust Representation Learning for Efficient Outdoor LiDAR Localization**|Wen Li et.al.|[2608.15317](https://arxiv.org/abs/2608.15317)|null|
+|**2026-08-17**|**LLM-Guided Graph Generation for Structure-Based Local Improvement Methods**|Hai Xia et.al.|[2608.13333](https://arxiv.org/abs/2608.13333)|null|
+|**2026-08-13**|**Point Feature Descriptor via Directional Partition of Unity on Maps**|Phan Thanh An et.al.|[2608.12794](https://arxiv.org/abs/2608.12794)|null|
 |2026-08-12|Map-Det3D: Metric Feed-Forward 3D Reconstruction Prior for Multi-view 3D Object Detection from Streaming Inputs|Yung-Hsu Yang et.al.|[2608.12179](https://arxiv.org/abs/2608.12179)|[link](https://github.com/cvg/Map-Det3D)|
 |2026-08-18|GS-CPE: Unified 6-Degree-of-Freedom Camera Pose Estimation via 3D Gaussian Splatting|Huaiyuan Weng et.al.|[2608.10938](https://arxiv.org/abs/2608.10938)|null|
 |2026-08-11|Embodied Multimodal Grounding for Open-Vocabulary Mobile Manipulation via Semantic 3D Gaussian Splatting|Huosen Ou et.al.|[2608.10756](https://arxiv.org/abs/2608.10756)|null|

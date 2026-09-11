@@ -1,9 +1,19 @@
 # World Model
 
-> Updated on 2026.09.07
+> Updated on 2026.09.11
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-09-10**|**A Chip-scale Space-time Multiplexed Gaussian Boson Sampling Processor Beyond 10,000 Photons**|Yu-Xuan Fu et.al.|[2609.11922](https://arxiv.org/abs/2609.11922)|null|
+|**2026-09-10**|**MindTopo: Can Foundation Models Reason in Topological Space?**|Yunfei Ge et.al.|[2609.11900](https://arxiv.org/abs/2609.11900)|null|
+|**2026-09-10**|**CAP: Continuously Adaptive Perception-Blind Humanoid Locomotion via Learned Denoising**|Hongjin Chen et.al.|[2609.11553](https://arxiv.org/abs/2609.11553)|**[link](https://github.com/Hoshi-No-Ai/CAP)**|
+|**2026-09-10**|**World in World: Explore the World with World Models**|Chenxi Song et.al.|[2609.11548](https://arxiv.org/abs/2609.11548)|**[link](https://github.com/jettbrains/-L-)**|
+|**2026-09-10**|**Recursive Code World Models: Building Complex Worlds through Recursive Scene Programs**|Zhiqi Li et.al.|[2609.11499](https://arxiv.org/abs/2609.11499)|null|
+|**2026-09-10**|**FARM: Reading Failure Signals from the Internal Predictive States of a Frozen Robotic World Model**|Haoran Pei et.al.|[2609.11445](https://arxiv.org/abs/2609.11445)|null|
+|**2026-09-10**|**From Evaluation to Enhancement: Benchmarking and Improving Think-with-Video Reasoning for Video Generative Models**|Meng Luo et.al.|[2609.11242](https://arxiv.org/abs/2609.11242)|null|
+|**2026-09-10**|**Measuring the Value of World-Model Updates: A Counterfactual Utility Protocol for Continual Adaptation**|Anqi Peter Li et.al.|[2609.10954](https://arxiv.org/abs/2609.10954)|null|
+|**2026-09-09**|**Programmable World Model**|Zheng-Hui Huang et.al.|[2609.10540](https://arxiv.org/abs/2609.10540)|null|
+|**2026-09-09**|**DUET-DINO: Simultaneous Cross-View World Modeling for Latent Planning in Robot Manipulation**|Nisarga Nilavadi et.al.|[2609.10506](https://arxiv.org/abs/2609.10506)|null|
 |2026-08-28|Video Generative Models as Geometry Learner|Haosen Yang et.al.|[2608.28549](https://arxiv.org/abs/2608.28549)|null|
 |2026-08-28|An Enclosed Mode Is a Gauge Choice: Topology Relative to Reach in Certified Code World Models|Javier Aguilar Martín et.al.|[2608.28541](https://arxiv.org/abs/2608.28541)|null|
 |2026-08-28|AcrossVAM1.0: Particle World Modeling for Text-Assisted Robot Video Prediction|Yafei Zhang et.al.|[2608.28491](https://arxiv.org/abs/2608.28491)|null|

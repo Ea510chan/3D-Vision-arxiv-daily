@@ -1,9 +1,19 @@
 # Flow Matching
 
-> Updated on 2026.09.07
+> Updated on 2026.09.11
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-09-10**|**Model-Aware Schedules Improve Generation via Fiberwise Optimal Transport**|Luyi Jia et.al.|[2609.11842](https://arxiv.org/abs/2609.11842)|null|
+|**2026-09-10**|**ActSafeGuard: Differentiable and Training-Aligned Constraint Enforcement for Flow-Matching Policies**|Jianming Ma et.al.|[2609.11697](https://arxiv.org/abs/2609.11697)|null|
+|**2026-09-10**|**UBone3D: Physics-Rectified Conditional Flow Matching for Anatomical 3D Shape Completion from Ultrasound**|Weiying Chen et.al.|[2609.11506](https://arxiv.org/abs/2609.11506)|null|
+|**2026-09-10**|**BridgeMatch: Conditional Transport Bridges in Matching Matrix Space for 3D Deformable Registration**|Qianliang Wu et.al.|[2609.11472](https://arxiv.org/abs/2609.11472)|null|
+|**2026-09-10**|**Preference Optimization with LALM Feedback for Continuous Autoregressive Non-Verbal Vocalization Generation**|Jingbin Hu et.al.|[2609.11260](https://arxiv.org/abs/2609.11260)|null|
+|**2026-09-10**|**IMLE-VLA: Fast Single-Step Action Generation for Vision-Language-Action Policies**|Kian Hosseinkhani et.al.|[2609.10915](https://arxiv.org/abs/2609.10915)|null|
+|**2026-09-09**|**Flow Duality and Source Geometry for Categorical Generation**|Etrit Haxholli et.al.|[2609.10863](https://arxiv.org/abs/2609.10863)|null|
+|**2026-09-09**|**BINDing the lightcone: A suite of astrophysical ray-traced weak lensing and SZ maps**|Max E. Lee et.al.|[2609.10710](https://arxiv.org/abs/2609.10710)|null|
+|**2026-09-09**|**BIND (Baryonic INpainting with Deep learning): A Field-level Emulator for Galaxy Groups and Clusters**|Max E. Lee et.al.|[2609.10709](https://arxiv.org/abs/2609.10709)|null|
+|**2026-09-10**|**MotionCanvas: Learning Implicit Motion Planning from Composable Kinematic Cues**|Zeyu Ling et.al.|[2609.10457](https://arxiv.org/abs/2609.10457)|null|
 |2026-08-28|Physics-Guided Flow Matching for CT Image Reconstruction|Davide Evangelista et.al.|[2608.28256](https://arxiv.org/abs/2608.28256)|null|
 |2026-08-28|Manifold4D: Denoising on Point Cloud Rendered Manifolds for Video Re-shooting|Yongqi Mao et.al.|[2608.28174](https://arxiv.org/abs/2608.28174)|null|
 |2026-08-28|When Can Conditional Flow Matching Replace Pointwise Negative Log-Likelihood?|Yansen Han et.al.|[2608.28010](https://arxiv.org/abs/2608.28010)|null|
