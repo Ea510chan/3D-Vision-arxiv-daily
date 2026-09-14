@@ -1,6 +1,6 @@
 # Visual Localization
 
-> Updated on 2026.09.11
+> Updated on 2026.09.14
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
@@ -69,8 +69,8 @@
 |2026-04-21|SL(C)AMma: Simultaneous Localisation, (Calibration) and Mapping With a Magnetometer Array|Thomas Edridge et.al.|[2604.19946](https://arxiv.org/abs/2604.19946)|null|
 |2026-04-22|Air-Know: Arbiter-Calibrated Knowledge-Internalizing Robust Network for Composed Image Retrieval|Zhiheng Fu et.al.|[2604.19386](https://arxiv.org/abs/2604.19386)|[link](https://github.com/iLearn-Lab/CVPR26-Air-Know)|
 |2026-04-20|T-REN: Learning Text-Aligned Region Tokens Improves Dense Vision-Language Alignment and Scalability|Savya Khosla et.al.|[2604.18573](https://arxiv.org/abs/2604.18573)|null|
-|2026-04-20|INTENT: Invariance and Discrimination-aware Noise Mitigation for Robust Composed Image Retrieval|Zhiwei Chen et.al.|[2604.18051](https://arxiv.org/abs/2604.18051)|**[link](https://github.com/iLearn-Lab/AAAI26-INTENT)**|
-|2026-04-20|HABIT: Chrono-Synergia Robust Progressive Learning Framework for Composed Image Retrieval|Zixu Li et.al.|[2604.18037](https://arxiv.org/abs/2604.18037)|**[link](https://github.com/iLearn-Lab/AAAI26-HABIT)**|
+|2026-04-20|INTENT: Invariance and Discrimination-aware Noise Mitigation for Robust Composed Image Retrieval|Zhiwei Chen et.al.|[2604.18051](https://arxiv.org/abs/2604.18051)|[link](https://github.com/iLearn-Lab/AAAI26-INTENT)|
+|2026-04-20|HABIT: Chrono-Synergia Robust Progressive Learning Framework for Composed Image Retrieval|Zixu Li et.al.|[2604.18037](https://arxiv.org/abs/2604.18037)|[link](https://github.com/iLearn-Lab/AAAI26-HABIT)|
 |2026-04-20|Brain-Inspired Capture: Evidence-Driven Neuromimetic Perceptual Simulation for Visual Decoding|Feixue Shao et.al.|[2604.17927](https://arxiv.org/abs/2604.17927)|null|
 |2026-04-20|ReTrack: Evidence-Driven Dual-Stream Directional Anchor Calibration Network for Composed Video Retrieval|Zixu Li et.al.|[2604.17898](https://arxiv.org/abs/2604.17898)|null|
 |2026-04-20|Subject-Aware Multi-Granularity Alignment for Zero-Shot EEG-to-Image Retrieval|Lin Jiang et.al.|[2604.17782](https://arxiv.org/abs/2604.17782)|null|
@@ -84,10 +84,10 @@
 |2026-04-14|A Sanity Check on Composed Image Retrieval|Yikun Liu et.al.|[2604.12904](https://arxiv.org/abs/2604.12904)|null|
 |2026-04-14|VidTAG: Temporally Aligned Video to GPS Geolocalization with Denoising Sequence Prediction at a Global Scale|Parth Parag Kulkarni et.al.|[2604.12159](https://arxiv.org/abs/2604.12159)|null|
 |2026-04-13|Human-Inspired Context-Selective Multimodal Memory for Social Robots|Hangyeol Kang et.al.|[2604.12081](https://arxiv.org/abs/2604.12081)|null|
-|2026-04-13|Privacy-Preserving Structureless Visual Localization via Image Obfuscation|Vojtech Panek et.al.|[2604.12068](https://arxiv.org/abs/2604.12068)|**[link](https://github.com/spatial-intelligence-group/obfusloc)**|
-|2026-04-13|Seeing Through Touch: Tactile-Driven Visual Localization of Material Regions|Seongyu Kim et.al.|[2604.11579](https://arxiv.org/abs/2604.11579)|**[link](https://github.com/kaistmm/SeeingThroughTouch)**|
-|2026-04-13|CLAY: Conditional Visual Similarity Modulation in Vision-Language Embedding Space|Sohwi Lim et.al.|[2604.11539](https://arxiv.org/abs/2604.11539)|**[link](https://github.com/kaist-ami/CLAY)**|
-|2026-04-11|FashionMV: Product-Level Composed Image Retrieval with Multi-View Fashion Data|Peng Yuan et.al.|[2604.10297](https://arxiv.org/abs/2604.10297)|**[link](https://github.com/yuandaxia2001/FashionMV)**|
+|2026-04-13|Privacy-Preserving Structureless Visual Localization via Image Obfuscation|Vojtech Panek et.al.|[2604.12068](https://arxiv.org/abs/2604.12068)|[link](https://github.com/spatial-intelligence-group/obfusloc)|
+|2026-04-13|Seeing Through Touch: Tactile-Driven Visual Localization of Material Regions|Seongyu Kim et.al.|[2604.11579](https://arxiv.org/abs/2604.11579)|[link](https://github.com/kaistmm/SeeingThroughTouch)|
+|2026-04-13|CLAY: Conditional Visual Similarity Modulation in Vision-Language Embedding Space|Sohwi Lim et.al.|[2604.11539](https://arxiv.org/abs/2604.11539)|[link](https://github.com/kaist-ami/CLAY)|
+|2026-04-11|FashionMV: Product-Level Composed Image Retrieval with Multi-View Fashion Data|Peng Yuan et.al.|[2604.10297](https://arxiv.org/abs/2604.10297)|[link](https://github.com/yuandaxia2001/FashionMV)|
 |2026-04-10|AsymLoc: Towards Asymmetric Feature Matching for Efficient Visual Localization|Mohammad Omama et.al.|[2604.09445](https://arxiv.org/abs/2604.09445)|null|
 |2026-04-09|Bag of Bags: Adaptive Visual Vocabularies for Genizah Join Image Retrieval|Sharva Gogawale et.al.|[2604.08138](https://arxiv.org/abs/2604.08138)|null|
 |2026-04-09|SearchAD: Large-Scale Rare Image Retrieval Dataset for Autonomous Driving|Felix Embacher et.al.|[2604.08008](https://arxiv.org/abs/2604.08008)|null|
@@ -176,7 +176,7 @@
 |2026-02-01|Interacted Planes Reveal 3D Line Mapping|Zeran Ke et.al.|[2602.01296](https://arxiv.org/abs/2602.01296)|[link](https://github.com/calmke/LiPMAP)|
 |2026-02-04|Invariance on Manifolds: Understanding Robust Visual Representations for Place Recognition|Jintao Cheng et.al.|[2602.00841](https://arxiv.org/abs/2602.00841)|null|
 |2026-01-29|Variance & Greediness: A comparative study of metric-learning losses|Donghuo Zeng et.al.|[2601.21450](https://arxiv.org/abs/2601.21450)|null|
-|2026-01-28|When Vision Meets Texts in Listwise Reranking|Hongyi Cai et.al.|[2601.20623](https://arxiv.org/abs/2601.20623)|**[link](https://github.com/XcloudFance/Rank-Nexus)**|
+|2026-01-28|When Vision Meets Texts in Listwise Reranking|Hongyi Cai et.al.|[2601.20623](https://arxiv.org/abs/2601.20623)|[link](https://github.com/XcloudFance/Rank-Nexus)|
 |2026-01-28|Eliminating Hallucination in Diffusion-Augmented Interactive Text-to-Image Retrieval|Zhuocheng Zhang et.al.|[2601.20391](https://arxiv.org/abs/2601.20391)|null|
 |2026-01-27|VGGT-SLAM 2.0: Real time Dense Feed-forward Scene Reconstruction|Dominic Maggio et.al.|[2601.19887](https://arxiv.org/abs/2601.19887)|null|
 |2026-01-27|Pixel-Grounded Retrieval for Knowledgeable Large Multimodal Models|Jeonghwan Kim et.al.|[2601.19060](https://arxiv.org/abs/2601.19060)|null|
@@ -311,7 +311,7 @@
 |2025-10-10|Hierarchical Scheduling for Multi-Vector Image Retrieval|Maoliang Li et.al.|[2510.08976](http://arxiv.org/abs/2510.08976)|null|
 |2025-10-09|DarkHash: A Data-Free Backdoor Attack Against Deep Hashing|Ziqi Zhou et.al.|[2510.08094](http://arxiv.org/abs/2510.08094)|null|
 |2025-10-09|CIR-CoT: Towards Interpretable Composed Image Retrieval via End-to-End Chain-of-Thought Reasoning|Weihuang Lin et.al.|[2510.08003](http://arxiv.org/abs/2510.08003)|null|
-|2025-10-09|Mutual Learning for Hashing: Unlocking Strong Hash Functions from Weak Supervision|Xiaoxu Ma et.al.|[2510.07703](http://arxiv.org/abs/2510.07703)|**[link](https://github.com/mxx0723/MLH)**|
+|2025-10-09|Mutual Learning for Hashing: Unlocking Strong Hash Functions from Weak Supervision|Xiaoxu Ma et.al.|[2510.07703](http://arxiv.org/abs/2510.07703)|[link](https://github.com/mxx0723/MLH)|
 |2025-10-08|Multi-hop Deep Joint Source-Channel Coding with Deep Hash Distillation for Semantically Aligned Image Retrieval|Didrik Bergström et.al.|[2510.06868](http://arxiv.org/abs/2510.06868)|null|
 |2025-10-07|CalibCLIP: Contextual Calibration of Dominant Semantics for Text-Driven Image Retrieval|Bin Kang et.al.|[2510.05586](http://arxiv.org/abs/2510.05586)|null|
 |2025-10-06|Personalizing Retrieval using Joint Embeddings or "the Return of Fluffy"|Bruno Korbar et.al.|[2510.05411](http://arxiv.org/abs/2510.05411)|null|

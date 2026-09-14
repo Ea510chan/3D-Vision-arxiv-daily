@@ -1,6 +1,6 @@
 # 3D Reconstruction
 
-> Updated on 2026.09.11
+> Updated on 2026.09.14
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
@@ -164,13 +164,13 @@
 |2026-04-14|PatchPoison: Poisoning Multi-View Datasets to Degrade 3D Reconstruction|Prajas Wadekar et.al.|[2604.13153](https://arxiv.org/abs/2604.13153)|null|
 |2026-04-14|ELoG-GS: Dual-Branch Gaussian Splatting with Luminance-Guided Enhancement for Extreme Low-light 3D Reconstruction|Yuhao Liu et.al.|[2604.12592](https://arxiv.org/abs/2604.12592)|null|
 |2026-04-14|RIS-Aided Sensing: Experimental Validation of Radar 3D Imaging in the mmWave Band|Sergio Micó-Rosa et.al.|[2604.12466](https://arxiv.org/abs/2604.12466)|null|
-|2026-04-14|ArtifactWorld: Scaling 3D Gaussian Splatting Artifact Restoration via Video Generation Models|Xinliang Wang et.al.|[2604.12251](https://arxiv.org/abs/2604.12251)|**[link](https://github.com/fyting/ArtifactWorld)**|
+|2026-04-14|ArtifactWorld: Scaling 3D Gaussian Splatting Artifact Restoration via Video Generation Models|Xinliang Wang et.al.|[2604.12251](https://arxiv.org/abs/2604.12251)|[link](https://github.com/fyting/ArtifactWorld)|
 |2026-04-13|ReefMapGS: Enabling Large-Scale Underwater Reconstruction by Closing the Loop Between Multimodal SLAM and Gaussian Splatting|Daniel Yang et.al.|[2604.11992](https://arxiv.org/abs/2604.11992)|null|
-|2026-04-09|Scal3R: Scalable Test-Time Training for Large-Scale 3D Reconstruction|Tao Xie et.al.|[2604.08542](https://arxiv.org/abs/2604.08542)|**[link](https://github.com/zju3dv/Scal3R)**|
+|2026-04-09|Scal3R: Scalable Test-Time Training for Large-Scale 3D Reconstruction|Tao Xie et.al.|[2604.08542](https://arxiv.org/abs/2604.08542)|[link](https://github.com/zju3dv/Scal3R)|
 |2026-04-09|Brain3D: EEG-to-3D Decoding of Visual Representations via Multimodal Reasoning|Emanuele Balloni et.al.|[2604.08068](https://arxiv.org/abs/2604.08068)|null|
 |2026-04-09|Sampling-Aware 3D Spatial Analysis in Multiplexed Imaging|Ido Harlev et.al.|[2604.07890](https://arxiv.org/abs/2604.07890)|null|
-|2026-04-08|Fast Spatial Memory with Elastic Test-Time Training|Ziqiao Ma et.al.|[2604.07350](https://arxiv.org/abs/2604.07350)|**[link](https://github.com/Mars-tin/fast-spatial-mem)**|
-|2026-04-08|Mem3R: Streaming 3D Reconstruction with Hybrid Memory via Test-Time Training|Changkun Liu et.al.|[2604.07279](https://arxiv.org/abs/2604.07279)|**[link](https://github.com/lck666666/Mem3R)**|
+|2026-04-08|Fast Spatial Memory with Elastic Test-Time Training|Ziqiao Ma et.al.|[2604.07350](https://arxiv.org/abs/2604.07350)|[link](https://github.com/Mars-tin/fast-spatial-mem)|
+|2026-04-08|Mem3R: Streaming 3D Reconstruction with Hybrid Memory via Test-Time Training|Changkun Liu et.al.|[2604.07279](https://arxiv.org/abs/2604.07279)|[link](https://github.com/lck666666/Mem3R)|
 |2026-04-08|Enhancing MLLM Spatial Understanding via Active 3D Scene Exploration for Multi-Perspective Reasoning|Jiahua Chen et.al.|[2604.06725](https://arxiv.org/abs/2604.06725)|null|
 |2026-04-07|Human Interaction-Aware 3D Reconstruction from a Single Image|Gwanghyun Kim et.al.|[2604.05436](https://arxiv.org/abs/2604.05436)|null|
 |2026-04-07|3DTurboQuant: Training-Free Near-Optimal Quantization for 3D Reconstruction Models|Jae Joong Lee et.al.|[2604.05366](https://arxiv.org/abs/2604.05366)|null|
