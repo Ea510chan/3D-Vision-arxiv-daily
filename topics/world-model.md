@@ -40,7 +40,7 @@
 |2026-07-20|Planning with Transformers: Chain of Computation and Structured Context Windows|Ehsan Futuhi et.al.|[2607.17710](https://arxiv.org/abs/2607.17710)|null|
 |2026-07-20|ShotPlan: Cinematic Video Generation with Learnable Planning Token|Su Guo et.al.|[2607.17675](https://arxiv.org/abs/2607.17675)|[link](https://github.com/Pensioner-11/ShotPlan)|
 |2026-07-20|Attention from Above: A Multimodal Model for Drone-Based Object Localization|Hyun-Ki Jung et.al.|[2607.17669](https://arxiv.org/abs/2607.17669)|null|
-|2026-07-20|Reinforcement Learning: From Algorithms To Foundation Models|Zihan Ding et.al.|[2607.17560](https://arxiv.org/abs/2607.17560)|null|
+|2026-07-20|Reinforcement Learning: From Algorithms To Foundation Models|Zihan Ding et.al.|[2607.17560](https://arxiv.org/abs/2607.17560)|**[link](https://github.com/abusufyanvu/6S191_MIT_DeepLearning)**|
 |2026-07-20|Thinking in Video: Can Video Generators Really Reason About the Real World?|Yongheng Zhang et.al.|[2607.17523](https://arxiv.org/abs/2607.17523)|null|
 |2026-07-20|GeoWorldAD: Geometry World Action Model for Autonomous Driving|Songyan Zhang et.al.|[2607.17521](https://arxiv.org/abs/2607.17521)|null|
 |2026-07-19|Between Safe Boundaries: Exploiting Temporal Consistency for Jailbreaking Text-To-Video Generation Models|Xingkai Peng et.al.|[2607.17279](https://arxiv.org/abs/2607.17279)|null|

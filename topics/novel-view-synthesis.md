@@ -4,16 +4,16 @@
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-09-15**|**ORCA: Occlusion-Aware Refinement and Completion for Novel View Synthesis**|Weronika Jakubowska et.al.|[2609.17450](https://arxiv.org/abs/2609.17450)|null|
-|**2026-09-15**|**BRAVE-6D: Benchmark for Robotic Active Vision in 6DOF Pose Estimation**|Philipp Ausserlechner et.al.|[2609.17106](https://arxiv.org/abs/2609.17106)|null|
-|**2026-09-15**|**G-ray: Ray-Level Relative Geometric Position Encoding in Multi-View Vision Transformers under Camera Heterogeneity**|Shuo Zhang et.al.|[2609.15018](https://arxiv.org/abs/2609.15018)|**[link](https://github.com/zhangshuoneu/G-ray)**|
-|**2026-09-11**|**NOVA-GS: Noise-Aware View-Consistent Gaussian Splatting for Low-Light Novel View Synthesis**|Shaurya Pavan A et.al.|[2609.12682](https://arxiv.org/abs/2609.12682)|null|
-|**2026-09-10**|**3D Point Splatting for mmWave Radar Novel View Synthesis**|Adnan Armouti et.al.|[2609.11894](https://arxiv.org/abs/2609.11894)|null|
-|**2026-09-10**|**Gaussian Light Transport**|Patrick Attimont et.al.|[2609.11430](https://arxiv.org/abs/2609.11430)|null|
-|**2026-09-09**|**View-Structured Conformal Prediction for 3D Gaussian Splatting**|Junzheng Chu et.al.|[2609.10307](https://arxiv.org/abs/2609.10307)|null|
-|**2026-09-09**|**LinearMask-GS: Stable-Mask Importance Pruning for Compact 3D Gaussian Splatting**|Donghun Ryu et.al.|[2609.10095](https://arxiv.org/abs/2609.10095)|null|
-|**2026-09-14**|**RealSimLoop: Online Real-to-Sim Adaptation via Differentiable Reduced-Order Simulation with Vision Feedback**|Zhihao Cen et.al.|[2609.09828](https://arxiv.org/abs/2609.09828)|null|
-|**2026-09-08**|**Learning Global Camera Poses from Noisy View-Graphs for Structure from Motion**|Fadi Khatib et.al.|[2609.09491](https://arxiv.org/abs/2609.09491)|null|
+|2026-09-15|ORCA: Occlusion-Aware Refinement and Completion for Novel View Synthesis|Weronika Jakubowska et.al.|[2609.17450](https://arxiv.org/abs/2609.17450)|null|
+|2026-09-15|BRAVE-6D: Benchmark for Robotic Active Vision in 6DOF Pose Estimation|Philipp Ausserlechner et.al.|[2609.17106](https://arxiv.org/abs/2609.17106)|null|
+|2026-09-15|G-ray: Ray-Level Relative Geometric Position Encoding in Multi-View Vision Transformers under Camera Heterogeneity|Shuo Zhang et.al.|[2609.15018](https://arxiv.org/abs/2609.15018)|[link](https://github.com/zhangshuoneu/G-ray)|
+|2026-09-11|NOVA-GS: Noise-Aware View-Consistent Gaussian Splatting for Low-Light Novel View Synthesis|Shaurya Pavan A et.al.|[2609.12682](https://arxiv.org/abs/2609.12682)|null|
+|2026-09-10|3D Point Splatting for mmWave Radar Novel View Synthesis|Adnan Armouti et.al.|[2609.11894](https://arxiv.org/abs/2609.11894)|null|
+|2026-09-10|Gaussian Light Transport|Patrick Attimont et.al.|[2609.11430](https://arxiv.org/abs/2609.11430)|null|
+|2026-09-09|View-Structured Conformal Prediction for 3D Gaussian Splatting|Junzheng Chu et.al.|[2609.10307](https://arxiv.org/abs/2609.10307)|null|
+|2026-09-09|LinearMask-GS: Stable-Mask Importance Pruning for Compact 3D Gaussian Splatting|Donghun Ryu et.al.|[2609.10095](https://arxiv.org/abs/2609.10095)|null|
+|2026-09-14|RealSimLoop: Online Real-to-Sim Adaptation via Differentiable Reduced-Order Simulation with Vision Feedback|Zhihao Cen et.al.|[2609.09828](https://arxiv.org/abs/2609.09828)|null|
+|2026-09-08|Learning Global Camera Poses from Noisy View-Graphs for Structure from Motion|Fadi Khatib et.al.|[2609.09491](https://arxiv.org/abs/2609.09491)|null|
 |2026-07-09|On the Design of Mixture-of-Experts for Dynamic Gaussian Splatting|In-Hwan Jin et.al.|[2607.08250](https://arxiv.org/abs/2607.08250)|[link](https://github.com/cvsp-lab/MoDE)|
 |2026-07-09|LightCrafter: PBR-Conditioned Video Diffusion Refinement for Controllable and Consistent Relighting|Zixin Guo et.al.|[2607.08016](https://arxiv.org/abs/2607.08016)|null|
 |2026-07-08|GeoGS-SLAM: Geometry-Only Gaussian Splatting for Dense Monocular SLAM|Lipu Zhou et.al.|[2607.07452](https://arxiv.org/abs/2607.07452)|null|

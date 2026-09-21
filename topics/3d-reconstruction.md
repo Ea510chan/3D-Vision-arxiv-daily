@@ -4,16 +4,16 @@
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-09-15**|**DecoGS: Adaptive Static-Dynamic Decoupling of 3D Gaussians for Free-Viewpoint Video Streaming**|Idil Sulo et.al.|[2609.17230](https://arxiv.org/abs/2609.17230)|null|
-|**2026-09-15**|**EventEgoHands++: Event-based Egocentric 3D Hand Mesh Reconstruction with Real Dataset**|Ryosei Hara et.al.|[2609.17189](https://arxiv.org/abs/2609.17189)|null|
-|**2026-09-15**|**StainBridge: Stain-Aware Pairwise Registration of Serial Renal Biopsy Whole-Slide Images Across Structural and Immunohistochemical Stains**|Ellen Wei et.al.|[2609.17090](https://arxiv.org/abs/2609.17090)|null|
-|**2026-09-15**|**Bi-FlowGS: Bridging Generative View Completion and Gaussian Geometry through Bidirectional Flow Co-Refinement**|Yuetong Wang et.al.|[2609.17039](https://arxiv.org/abs/2609.17039)|null|
-|**2026-09-15**|**Evaluating Mesh Reconstruction Methods for Crop Phenotyping**|Karanvir Singh et.al.|[2609.16926](https://arxiv.org/abs/2609.16926)|null|
-|**2026-09-15**|**Covariance-Weighted Spectral Delay Fusion With a One-Dimensional Affine Model for High-Precision Distributed Optical-Fiber Sensing**|Zhiyang Xue et.al.|[2609.16791](https://arxiv.org/abs/2609.16791)|null|
-|**2026-09-15**|**Seeing What Matters: Visual Cue Guided Video Planning for Generalizable Robot Navigation**|Hojin Lee et.al.|[2609.16737](https://arxiv.org/abs/2609.16737)|null|
-|**2026-09-15**|**MAETrack: Unleashing the Potential of Pretrained Geometric Priors for 3D Single Object Tracking**|Sifan Zhou et.al.|[2609.16695](https://arxiv.org/abs/2609.16695)|null|
-|**2026-09-15**|**Lesion-centered 3D mapping of colonoscopy procedures: validation of a hierarchical ensemble pipeline on public benchmark videos**|Hyunjun Kim et.al.|[2609.16672](https://arxiv.org/abs/2609.16672)|null|
-|**2026-09-14**|**SceneBench: A Hierarchical Benchmark for Vision-Language Understanding of 3D Scenes**|Anubhav Khanal et.al.|[2609.16233](https://arxiv.org/abs/2609.16233)|null|
+|2026-09-15|DecoGS: Adaptive Static-Dynamic Decoupling of 3D Gaussians for Free-Viewpoint Video Streaming|Idil Sulo et.al.|[2609.17230](https://arxiv.org/abs/2609.17230)|null|
+|2026-09-15|EventEgoHands++: Event-based Egocentric 3D Hand Mesh Reconstruction with Real Dataset|Ryosei Hara et.al.|[2609.17189](https://arxiv.org/abs/2609.17189)|null|
+|2026-09-15|StainBridge: Stain-Aware Pairwise Registration of Serial Renal Biopsy Whole-Slide Images Across Structural and Immunohistochemical Stains|Ellen Wei et.al.|[2609.17090](https://arxiv.org/abs/2609.17090)|null|
+|2026-09-15|Bi-FlowGS: Bridging Generative View Completion and Gaussian Geometry through Bidirectional Flow Co-Refinement|Yuetong Wang et.al.|[2609.17039](https://arxiv.org/abs/2609.17039)|null|
+|2026-09-15|Evaluating Mesh Reconstruction Methods for Crop Phenotyping|Karanvir Singh et.al.|[2609.16926](https://arxiv.org/abs/2609.16926)|null|
+|2026-09-15|Covariance-Weighted Spectral Delay Fusion With a One-Dimensional Affine Model for High-Precision Distributed Optical-Fiber Sensing|Zhiyang Xue et.al.|[2609.16791](https://arxiv.org/abs/2609.16791)|null|
+|2026-09-15|Seeing What Matters: Visual Cue Guided Video Planning for Generalizable Robot Navigation|Hojin Lee et.al.|[2609.16737](https://arxiv.org/abs/2609.16737)|null|
+|2026-09-15|MAETrack: Unleashing the Potential of Pretrained Geometric Priors for 3D Single Object Tracking|Sifan Zhou et.al.|[2609.16695](https://arxiv.org/abs/2609.16695)|null|
+|2026-09-15|Lesion-centered 3D mapping of colonoscopy procedures: validation of a hierarchical ensemble pipeline on public benchmark videos|Hyunjun Kim et.al.|[2609.16672](https://arxiv.org/abs/2609.16672)|null|
+|2026-09-14|SceneBench: A Hierarchical Benchmark for Vision-Language Understanding of 3D Scenes|Anubhav Khanal et.al.|[2609.16233](https://arxiv.org/abs/2609.16233)|null|
 |2026-07-09|Wat3R: Underwater 3D Geometry Learning without Annotations|Jiangwei Ren et.al.|[2607.08772](https://arxiv.org/abs/2607.08772)|null|
 |2026-07-09|Geometry and Gradient-based Partitioning for Panoramic Outdoor Reconstruction|Weijian Chen et.al.|[2607.08769](https://arxiv.org/abs/2607.08769)|null|
 |2026-07-09|Deep Spectroscopic Follow-Up of Maisie's Galaxy -- A Typical Galaxy in the Early Universe|Rebecca L. Larson et.al.|[2607.08749](https://arxiv.org/abs/2607.08749)|null|

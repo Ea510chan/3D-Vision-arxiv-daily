@@ -4,16 +4,16 @@
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-09-15**|**PanoGS-SLAM: Panoramic 3D Gaussian Splatting SLAM**|Yongqi Mao et.al.|[2609.17387](https://arxiv.org/abs/2609.17387)|null|
-|**2026-09-15**|**Online Geometric Change Detection via Scene Decomposition**|David Thorne et.al.|[2609.17302](https://arxiv.org/abs/2609.17302)|**[link](https://github.com/vectr-ucla/geometric_change_detection)**|
-|**2026-09-15**|**HuMemSLAM: Efficient Human-Inspired Semantic Place Recognition for Robust Visual SLAM**|Mayowa Adebambo et.al.|[2609.17168](https://arxiv.org/abs/2609.17168)|null|
-|**2026-09-14**|**SURE-Map: Self-Correcting Streaming Geometric Foundation Model**|Mingkai Liu et.al.|[2609.15795](https://arxiv.org/abs/2609.15795)|**[link](https://github.com/RCL-Robotics/SURE-map)**|
-|**2026-09-14**|**P-POSEMEM: Projective Semantic Memory for Consistent Language Grounding under Pose-Graph Rewrites**|Ha Sier et.al.|[2609.15475](https://arxiv.org/abs/2609.15475)|null|
-|**2026-09-14**|**Comparing Trajectories from Positions Alone: Curvature-Based Time Alignment and Drift Error Metric**|Effie Daum et.al.|[2609.14936](https://arxiv.org/abs/2609.14936)|null|
-|**2026-09-13**|**SCOUT-SLAM: Structurally-Coupled Dual Uncertainty-Aware 3DGS SLAM in the Wild**|Kumaran Karthik et.al.|[2609.14634](https://arxiv.org/abs/2609.14634)|null|
-|**2026-09-12**|**FFVO: A Feedforward Pose Decoder for Long-Horizon Visual Odometry**|Meng-Li Shih et.al.|[2609.13733](https://arxiv.org/abs/2609.13733)|null|
-|**2026-09-12**|**MomentBA: Second-order Spatial Moments for Anisotropic Correspondence Uncertainty in Differentiable Bundle Adjustment**|Yuqing Wang et.al.|[2609.13691](https://arxiv.org/abs/2609.13691)|null|
-|**2026-09-11**|**Parameter Sensitivity Analysis for Aerial LiDAR-Inertial Odometries in low-altitude flights**|Robert Milijas et.al.|[2609.12837](https://arxiv.org/abs/2609.12837)|null|
+|2026-09-15|PanoGS-SLAM: Panoramic 3D Gaussian Splatting SLAM|Yongqi Mao et.al.|[2609.17387](https://arxiv.org/abs/2609.17387)|null|
+|2026-09-15|Online Geometric Change Detection via Scene Decomposition|David Thorne et.al.|[2609.17302](https://arxiv.org/abs/2609.17302)|[link](https://github.com/vectr-ucla/geometric_change_detection)|
+|2026-09-15|HuMemSLAM: Efficient Human-Inspired Semantic Place Recognition for Robust Visual SLAM|Mayowa Adebambo et.al.|[2609.17168](https://arxiv.org/abs/2609.17168)|null|
+|2026-09-14|SURE-Map: Self-Correcting Streaming Geometric Foundation Model|Mingkai Liu et.al.|[2609.15795](https://arxiv.org/abs/2609.15795)|[link](https://github.com/RCL-Robotics/SURE-map)|
+|2026-09-14|P-POSEMEM: Projective Semantic Memory for Consistent Language Grounding under Pose-Graph Rewrites|Ha Sier et.al.|[2609.15475](https://arxiv.org/abs/2609.15475)|null|
+|2026-09-14|Comparing Trajectories from Positions Alone: Curvature-Based Time Alignment and Drift Error Metric|Effie Daum et.al.|[2609.14936](https://arxiv.org/abs/2609.14936)|null|
+|2026-09-13|SCOUT-SLAM: Structurally-Coupled Dual Uncertainty-Aware 3DGS SLAM in the Wild|Kumaran Karthik et.al.|[2609.14634](https://arxiv.org/abs/2609.14634)|null|
+|2026-09-12|FFVO: A Feedforward Pose Decoder for Long-Horizon Visual Odometry|Meng-Li Shih et.al.|[2609.13733](https://arxiv.org/abs/2609.13733)|null|
+|2026-09-12|MomentBA: Second-order Spatial Moments for Anisotropic Correspondence Uncertainty in Differentiable Bundle Adjustment|Yuqing Wang et.al.|[2609.13691](https://arxiv.org/abs/2609.13691)|null|
+|2026-09-11|Parameter Sensitivity Analysis for Aerial LiDAR-Inertial Odometries in low-altitude flights|Robert Milijas et.al.|[2609.12837](https://arxiv.org/abs/2609.12837)|null|
 |2026-09-03|A hybrid pipeline for dynamic ontology-based semantic mapping|Konstantinos Dimitropoulos et.al.|[2609.03891](https://arxiv.org/abs/2609.03891)|null|
 |2026-09-03|A comparative study on the accuracy & repeatability of mobile robotic platforms for the delivery of precision NDE measurement|SeyedMohammadAmin Nabi Pour et.al.|[2609.03794](https://arxiv.org/abs/2609.03794)|null|
 |2026-09-03|RoughSense: Lightweight Terrain-Induced Rover Vibration Prediction Using Point Clouds and IMU Feedback|Gabriel Manuel Garcia et.al.|[2609.03720](https://arxiv.org/abs/2609.03720)|null|

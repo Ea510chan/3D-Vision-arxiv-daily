@@ -26,11 +26,11 @@
 |2026-08-27|Self-OPD: On-Policy Distillation for Flow Matching Models without Teacher|Shiyi Zhang et.al.|[2608.26872](https://arxiv.org/abs/2608.26872)|null|
 |2026-07-30|APO: Unsupervised Atomic Policy Optimization for 3D Structure Prediction of Atomic Systems|Shentong Mo et.al.|[2607.28553](https://arxiv.org/abs/2607.28553)|null|
 |2026-07-30|Enhancing Irregular Time Series Forecasting with Continuous-Time Modeling Framework|Tianen Shen et.al.|[2607.28035](https://arxiv.org/abs/2607.28035)|null|
-|2026-07-30|The Geometric Nature and a Free Proxy for Flow-Matching Uncertainty|Ziyang Rao et.al.|[2607.27933](https://arxiv.org/abs/2607.27933)|null|
+|2026-07-30|The Geometric Nature and a Free Proxy for Flow-Matching Uncertainty|Ziyang Rao et.al.|[2607.27933](https://arxiv.org/abs/2607.27933)|**[link](https://github.com/rrrrrrzy/fm-geometry)**|
 |2026-07-30|RedFlow: Redirect Failure into Action-Level Corrections for Flow-matching VLA Policy|Zhengyang Yan et.al.|[2607.27782](https://arxiv.org/abs/2607.27782)|null|
 |2026-07-30|RIPPLE: Generating Multi-Channel Phase, Not Recovering It|Jaehyuk Lee et.al.|[2607.27775](https://arxiv.org/abs/2607.27775)|null|
 |2026-07-30|ProgFormer: Hierarchical Voxel Diffusion Transformer for Longitudinal Brain MRI Prediction|Dexuan Ding et.al.|[2607.27537](https://arxiv.org/abs/2607.27537)|null|
-|2026-07-29|Latent-Kernel Discrete Flow Maps for Few-Step Generation|Mansoor Ahmed et.al.|[2607.27529](https://arxiv.org/abs/2607.27529)|null|
+|2026-07-29|Latent-Kernel Discrete Flow Maps for Few-Step Generation|Mansoor Ahmed et.al.|[2607.27529](https://arxiv.org/abs/2607.27529)|**[link](https://github.com/mansoor181/lkf)**|
 |2026-07-29|Failure Detection for Surgical Robot Imitation Policies via Flow-Matching World Modeling|Zhefeng Huang et.al.|[2607.27511](https://arxiv.org/abs/2607.27511)|null|
 |2026-07-29|SE(3)-MeanFlow: Few-Step Protein Backbone Generation on Lie Groups|Yikun Bai et.al.|[2607.27431](https://arxiv.org/abs/2607.27431)|null|
 |2026-07-29|DLAM: Distributional Latent Actions with Temporal Constraints|Zuojin Tang et.al.|[2607.27138](https://arxiv.org/abs/2607.27138)|null|
