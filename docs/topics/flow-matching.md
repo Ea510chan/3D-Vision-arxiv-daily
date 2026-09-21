@@ -16,7 +16,7 @@ title: Flow Matching
   </header>
   <nav class="reader-sidebar">
     <div class="sidebar-title">Topics</div>
-    <a class="sidebar-link" href="point-cloud-registration.html">Point Cloud Registration <span class="sidebar-count">173</span></a>
+    <a class="sidebar-link" href="point-cloud-registration.html">Point Cloud Registration <span class="sidebar-count">183</span></a>
     <a class="sidebar-link" href="image-matching.html">Image Matching <span class="sidebar-count">195</span></a>
     <a class="sidebar-link" href="slam.html">SLAM <span class="sidebar-count">359</span></a>
     <a class="sidebar-link" href="3d-reconstruction.html">3D Reconstruction <span class="sidebar-count">502</span></a>

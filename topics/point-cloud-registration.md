@@ -1,9 +1,19 @@
 # Point Cloud Registration
 
-> Updated on 2026.09.16
+> Updated on 2026.09.21
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-09-16**|**Mask 2D-3D: Adaptive Dual-Masked Autoencoder Network for Image-to-Point Cloud Registration**|Zhixin Cheng et.al.|[2609.18088](https://arxiv.org/abs/2609.18088)|null|
+|**2026-09-16**|**PESTO: Formally Correct Registration of LiDAR Point Clouds with Limited Overlap**|Valen Yamamoto et.al.|[2609.18082](https://arxiv.org/abs/2609.18082)|null|
+|**2026-09-14**|**Unsupervised Point Cloud Registration via Training-Time Semantic Guidance**|Kezheng Xiong et.al.|[2609.15228](https://arxiv.org/abs/2609.15228)|null|
+|**2026-09-11**|**DRS-VPT: Directly Relocalizing in a Scan with Vision Point Transformers**|Lanke Frank Tarimo Fu et.al.|[2609.12557](https://arxiv.org/abs/2609.12557)|null|
+|**2026-09-11**|**Spectral Consistency-Guided Multiview Point Cloud Registration for Low-Overlap Scenes**|Tianyu Li et.al.|[2609.12417](https://arxiv.org/abs/2609.12417)|null|
+|**2026-09-10**|**Fast and Accurate Monomodal 3D High Resolution Deep Registration of Drosophila Larval Brain Volumes**|Daniel Reisenbüchler et.al.|[2609.11240](https://arxiv.org/abs/2609.11240)|null|
+|**2026-09-09**|**XPos3R: Cross-Modal Transformer for Intraoperative 2D/3D Registration**|Shiyan Su et.al.|[2609.10733](https://arxiv.org/abs/2609.10733)|null|
+|**2026-09-07**|**Unified Motion Retargeting for Humanoids with Learned Point Cloud Correspondence**|Hanyang Cao et.al.|[2609.02134](https://arxiv.org/abs/2609.02134)|null|
+|**2026-09-01**|**Adaptive Depth-Map-Guided Bundle Adjustment for Correspondence-Free Multi-View Point Cloud Registration**|Yiran Zhou et.al.|[2609.01089](https://arxiv.org/abs/2609.01089)|null|
+|**2026-08-27**|**DPA-I2P: Depth-Guided Projective Alignment for Image-to-Point-Cloud Registration in Autonomous Driving**|Wenxin Zhang et.al.|[2608.26589](https://arxiv.org/abs/2608.26589)|null|
 |2026-08-22|FlashReg: GPU-Accelerated 3-Clique Point Cloud Registration for Real-Time Correspondence-to-Pose Estimation|Ziyang Yu et.al.|[2608.21804](https://arxiv.org/abs/2608.21804)|null|
 |2026-08-20|CVSD-Reg: Cross-Modal Visual Semantic Prior Distillation for Robust LiDAR Registration|Eunsoo Im et.al.|[2608.19536](https://arxiv.org/abs/2608.19536)|null|
 |2026-08-16|Degenerate in Whose Frame? An Equivariance Condition for Degeneracy Detection in LiDAR Registration|Yujie Zhang et.al.|[2608.15532](https://arxiv.org/abs/2608.15532)|null|
