@@ -1,10 +1,19 @@
 # Visual Localization
 
-> Updated on 2026.09.21
+> Updated on 2026.09.26
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|2026-09-15|HuMemSLAM: Efficient Human-Inspired Semantic Place Recognition for Robust Visual SLAM|Mayowa Adebambo et.al.|[2609.17168](https://arxiv.org/abs/2609.17168)|null|
+|**2026-09-23**|**Geometry-Conditioned Visual Place Recognition in Natural Environments**|Walter Nedov et.al.|[2609.27370](https://arxiv.org/abs/2609.27370)|null|
+|**2026-09-23**|**From LiDAR Maps to Visual Localization: Unified Visual Association for Robust Point-Line-Plane Pose Estimation**|Wentao Zhao et.al.|[2609.27363](https://arxiv.org/abs/2609.27363)|null|
+|**2026-09-22**|**TM-APR: Thermal Temporal-Memory Localization via Analytic Online Adaptation**|Yanshuo Bai et.al.|[2609.26766](https://arxiv.org/abs/2609.26766)|null|
+|**2026-09-22**|**Calibrating Retrieval Geometry: Reliability-Guided Training-Free Aggregation for Visual Place Recognition**|Xin Li et.al.|[2609.25937](https://arxiv.org/abs/2609.25937)|null|
+|**2026-09-22**|**NaCR: Visual Localization via NeRF-aided Camera Ray Regression**|Yesheng Zhang et.al.|[2609.25907](https://arxiv.org/abs/2609.25907)|null|
+|**2026-09-21**|**DeCo: Efficient Decouple-to-Couple Learning for Multi-Task Visual Grounding**|Xiaoqiang Lu et.al.|[2609.24409](https://arxiv.org/abs/2609.24409)|null|
+|**2026-09-18**|**Multi-viewpoint Geo-localization with Event Cameras**|Adam D. Hines et.al.|[2609.21219](https://arxiv.org/abs/2609.21219)|null|
+|**2026-09-17**|**SlugTrails: An Egocentric Benchmark for Floor Plan Localization in Large Buildings**|Yunqian Cheng et.al.|[2609.19876](https://arxiv.org/abs/2609.19876)|null|
+|**2026-09-16**|**PIVOT: Perception-aware Independent Viewpoint Online Optimization**|Yuyang Chen et.al.|[2609.19510](https://arxiv.org/abs/2609.19510)|null|
+|**2026-09-15**|**HuMemSLAM: Efficient Human-Inspired Semantic Place Recognition for Robust Visual SLAM**|Mayowa Adebambo et.al.|[2609.17168](https://arxiv.org/abs/2609.17168)|null|
 |2026-09-15|G-ray: Ray-Level Relative Geometric Position Encoding in Multi-View Vision Transformers under Camera Heterogeneity|Shuo Zhang et.al.|[2609.15018](https://arxiv.org/abs/2609.15018)|[link](https://github.com/zhangshuoneu/G-ray)|
 |2026-09-10|Chain-SLAM: Globally Consistent Backend for Multi-Session LiDAR SLAM via Chained Loop Closure|Zhiheng Li et.al.|[2609.12221](https://arxiv.org/abs/2609.12221)|null|
 |2026-09-07|TRAIL: Trajectory-Aware Visual Place Recognition against Unordered Databases|Dominik A. Kloepfer et.al.|[2609.07373](https://arxiv.org/abs/2609.07373)|null|

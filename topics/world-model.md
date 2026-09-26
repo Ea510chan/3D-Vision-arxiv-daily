@@ -1,9 +1,19 @@
 # World Model
 
-> Updated on 2026.09.21
+> Updated on 2026.09.26
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-09-24**|**AD-WM: Action-Discriminative World Models for Counterfactual Model Predictive Control**|Jiabin Qiu et.al.|[2609.30264](https://arxiv.org/abs/2609.30264)|null|
+|**2026-09-24**|**Underwater C3-JEPA: An Object-Centric Cross-View World Model for ROV Salvage**|Yuncong Yang et.al.|[2609.30214](https://arxiv.org/abs/2609.30214)|null|
+|**2026-09-24**|**Aim Short to Reach Far: Your Frozen World Model Can Plan Better Than You Think**|Xvyuan Liu et.al.|[2609.30036](https://arxiv.org/abs/2609.30036)|null|
+|**2026-09-24**|**Poster: FedWM-Guard: Thwarting Imagination Poisoning in Federated World Model-based Autonomous Driving**|Sheng Liu et.al.|[2609.29178](https://arxiv.org/abs/2609.29178)|null|
+|**2026-09-24**|**Representation World Model: Learning States, Transition and Executable Plans in Representation**|Yijun Yuan et.al.|[2609.29171](https://arxiv.org/abs/2609.29171)|null|
+|**2026-09-24**|**DAWN: Noise-Robust Quadruped Parkour via Depth-Denoising World Models**|Yohan Choi et.al.|[2609.29092](https://arxiv.org/abs/2609.29092)|null|
+|**2026-09-24**|**Sim-to-Real Aware End-to-End Learning Environment for Micromobility**|Shouma Amano et.al.|[2609.28969](https://arxiv.org/abs/2609.28969)|null|
+|**2026-09-24**|**HelloWorld: Towards Practical Applications of Generative Driving World Models**|Fan Lu et.al.|[2609.28931](https://arxiv.org/abs/2609.28931)|null|
+|**2026-09-24**|**Streaming-WAM: Action-Conditioned World-Action Model for Asynchronous Robot Manipulation**|Xuyao Huang et.al.|[2609.28927](https://arxiv.org/abs/2609.28927)|null|
+|**2026-09-23**|**Beyond Static Graph World Models: Learning Stochastic Latent Dynamics over Evolving Topologies**|Alex Schutz et.al.|[2609.28670](https://arxiv.org/abs/2609.28670)|null|
 |2026-09-10|A Chip-scale Space-time Multiplexed Gaussian Boson Sampling Processor Beyond 10,000 Photons|Yu-Xuan Fu et.al.|[2609.11922](https://arxiv.org/abs/2609.11922)|null|
 |2026-09-10|MindTopo: Can Foundation Models Reason in Topological Space?|Yunfei Ge et.al.|[2609.11900](https://arxiv.org/abs/2609.11900)|null|
 |2026-09-10|CAP: Continuously Adaptive Perception-Blind Humanoid Locomotion via Learned Denoising|Hongjin Chen et.al.|[2609.11553](https://arxiv.org/abs/2609.11553)|[link](https://github.com/Hoshi-No-Ai/CAP)|

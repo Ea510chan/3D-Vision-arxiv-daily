@@ -1,9 +1,19 @@
 # Novel View Synthesis
 
-> Updated on 2026.09.21
+> Updated on 2026.09.26
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-09-24**|**Towards Practical Compression of 3D Gaussian Splatting**|Pengpeng Yu et.al.|[2609.30245](https://arxiv.org/abs/2609.30245)|null|
+|**2026-09-24**|**M3GD: Multi-Modal Multi-View Geometric Diffusion for Camera--LiDAR Novel View Synthesis**|Yang Zhou et.al.|[2609.30056](https://arxiv.org/abs/2609.30056)|null|
+|**2026-09-24**|**From Scattered Gaussians to Structured Maps: Efficient Gaussian Splatting Coding via Dual-phase Morton Sorting**|Bolin Chen et.al.|[2609.29041](https://arxiv.org/abs/2609.29041)|null|
+|**2026-09-23**|**InfiNoVA: Infinite Novel View Augmentation for Viewpoint Invariant Robot Policies**|Sai Puneeth Reddy Gottam et.al.|[2609.27734](https://arxiv.org/abs/2609.27734)|null|
+|**2026-09-22**|**NaCR: Visual Localization via NeRF-aided Camera Ray Regression**|Yesheng Zhang et.al.|[2609.25907](https://arxiv.org/abs/2609.25907)|null|
+|**2026-09-22**|**Agentic Building-Aware Satellite Gaussian Splatting for Auditable Urban DSM Reconstruction**|Wentao Sun et.al.|[2609.25578](https://arxiv.org/abs/2609.25578)|null|
+|**2026-09-21**|**BayesianGS-SLAM: Uncertainty-Aware Neural Rendering SLAM via Probabilistic Formulation**|Kyeongsu Kang et.al.|[2609.24140](https://arxiv.org/abs/2609.24140)|null|
+|**2026-09-20**|**GARO: Geometry-Aware Redundancy Optimization for Real-Time and High-Fidelity Dynamic Gaussian Splatting**|Huiwen Xue et.al.|[2609.23509](https://arxiv.org/abs/2609.23509)|null|
+|**2026-09-24**|**GAPS: Generative Active Pseudo-view Selection for Sparse-View 3D Gaussian Splatting**|Hongfei Zhu et.al.|[2609.23436](https://arxiv.org/abs/2609.23436)|null|
+|**2026-09-20**|**LiteTex-GS: Fast and Lightweight Texturing for Gaussian Splatting**|Zhiwei Li et.al.|[2609.23380](https://arxiv.org/abs/2609.23380)|null|
 |2026-09-15|ORCA: Occlusion-Aware Refinement and Completion for Novel View Synthesis|Weronika Jakubowska et.al.|[2609.17450](https://arxiv.org/abs/2609.17450)|null|
 |2026-09-15|BRAVE-6D: Benchmark for Robotic Active Vision in 6DOF Pose Estimation|Philipp Ausserlechner et.al.|[2609.17106](https://arxiv.org/abs/2609.17106)|null|
 |2026-09-15|G-ray: Ray-Level Relative Geometric Position Encoding in Multi-View Vision Transformers under Camera Heterogeneity|Shuo Zhang et.al.|[2609.15018](https://arxiv.org/abs/2609.15018)|[link](https://github.com/zhangshuoneu/G-ray)|

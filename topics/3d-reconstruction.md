@@ -1,9 +1,19 @@
 # 3D Reconstruction
 
-> Updated on 2026.09.21
+> Updated on 2026.09.26
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-09-24**|**OmniFabric: Coherent UV Space Texture Synthesis for 3D Garment Reconstruction**|Ding-Jiun Huang et.al.|[2609.30234](https://arxiv.org/abs/2609.30234)|**[link](https://github.com/humansensinglab/OmniFabric)**|
+|**2026-09-24**|**Integration of p-type Cr2O3 on Ultra-Wide Bandgap AlGaN PolFETs with 2.5 kV Breakdown Voltage**|Jonathan Pratt et.al.|[2609.29990](https://arxiv.org/abs/2609.29990)|null|
+|**2026-09-24**|**OceanXL: Large-scale Underwater 3D Gaussian Splatting via Block Partitioning and Adaptive Pruning**|Haoran Wang et.al.|[2609.29985](https://arxiv.org/abs/2609.29985)|null|
+|**2026-09-24**|**Anatomy-Aligned Surface Field Learning for Myocardial Reconstruction from Sparse Short-Axis Cine MRI**|Xiaohan Yuan et.al.|[2609.29825](https://arxiv.org/abs/2609.29825)|**[link](https://github.com/yuan-xiaohan/SAX2MyoSurf)**|
+|**2026-09-24**|**Markerless Multi-Modal Autonomous Robotic Inspection of Large Space Structures**|Juan De Dios Alfaro et.al.|[2609.29644](https://arxiv.org/abs/2609.29644)|null|
+|**2026-09-24**|**WildHSR: Metric Feed-Forward 4D People-Scene Reconstruction from a 3D Foundation Model**|Jerrin Bright et.al.|[2609.29106](https://arxiv.org/abs/2609.29106)|null|
+|**2026-09-23**|**PePESeg3D: Perception Prior Enhances Multi-Scale Segmentation for 3D Gaussian Splatting**|Sungjae Choi et.al.|[2609.28645](https://arxiv.org/abs/2609.28645)|null|
+|**2026-09-23**|**Formal weakly enriched category theory**|Giuseppe Leoncini et.al.|[2609.28435](https://arxiv.org/abs/2609.28435)|null|
+|**2026-09-23**|**Event-driven signal reconstruction through neuromorphic compressive sensing**|Zeru Fang et.al.|[2609.28063](https://arxiv.org/abs/2609.28063)|null|
+|**2026-09-23**|**AstraLOD3: Zero-shot multimodal agentic reconstruction of LOD3 building models**|Bryan G. Pantoja-Rosero et.al.|[2609.28061](https://arxiv.org/abs/2609.28061)|null|
 |2026-09-15|DecoGS: Adaptive Static-Dynamic Decoupling of 3D Gaussians for Free-Viewpoint Video Streaming|Idil Sulo et.al.|[2609.17230](https://arxiv.org/abs/2609.17230)|null|
 |2026-09-15|EventEgoHands++: Event-based Egocentric 3D Hand Mesh Reconstruction with Real Dataset|Ryosei Hara et.al.|[2609.17189](https://arxiv.org/abs/2609.17189)|null|
 |2026-09-15|StainBridge: Stain-Aware Pairwise Registration of Serial Renal Biopsy Whole-Slide Images Across Structural and Immunohistochemical Stains|Ellen Wei et.al.|[2609.17090](https://arxiv.org/abs/2609.17090)|null|

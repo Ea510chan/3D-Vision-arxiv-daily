@@ -1,15 +1,19 @@
 # 3D Localization
 
-> Updated on 2026.09.21
+> Updated on 2026.09.26
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|2026-09-13|PRI-Net: A Lightweight Multimodal Framework for 3D UAV Localization|Zhixuan Chen et.al.|[2609.14469](https://arxiv.org/abs/2609.14469)|null|
-|2026-09-09|Teglon: A Pixel-Level Pipeline for Galaxy-Informed Gravitational-Wave Follow-up Planning and Efficiency Analysis|D. A. Coulter et.al.|[2609.10736](https://arxiv.org/abs/2609.10736)|null|
-|2026-09-08|3D Protraction Technique for Anchor-Free, Range-Free Wireless Localization in Industrial Warehouses via Multi-Level Binary Reachability|Peyman Moeini et.al.|[2609.09330](https://arxiv.org/abs/2609.09330)|null|
-|2026-09-08|From Where to How: Continuous 4D Interaction Forecasting from Egocentric Video|Qiaohui Chu et.al.|[2609.08636](https://arxiv.org/abs/2609.08636)|[link](https://github.com/CorrineQiu/from-where-to-how)|
-|2026-09-04|Development of a Humanoid Robot Prototype for Multimodal Human-Robot Interaction|Thang Tran Viet et.al.|[2609.05361](https://arxiv.org/abs/2609.05361)|null|
-|2026-09-14|Certified Spherical MUSIC for 3D Localization under Adversarial Subspace Perturbations|Albert Fannjiang et.al.|[2609.03264](https://arxiv.org/abs/2609.03264)|null|
+|**2026-09-23**|**Large-Scale Geometric Map-Based Localization of UAVs in GNSS-Denied Urban Environments**|Garth Terlizzi et.al.|[2609.28225](https://arxiv.org/abs/2609.28225)|null|
+|**2026-09-22**|**Dr-LiSA: Direct Radar-Lidar Scan Alignment for $SE(3)$ Localization**|Alex Zhang et.al.|[2609.26423](https://arxiv.org/abs/2609.26423)|null|
+|**2026-09-21**|**Audio-based UAV Localization with Adaptive Temporal Correspondence via Reinforcement Learning**|Haoxiang Lei et.al.|[2609.24218](https://arxiv.org/abs/2609.24218)|null|
+|**2026-09-20**|**PosEviLoc: Position-Conditioned Spatial Evidence for Language-Based 3D Localization**|Tianyi Shang et.al.|[2609.23534](https://arxiv.org/abs/2609.23534)|null|
+|**2026-09-13**|**PRI-Net: A Lightweight Multimodal Framework for 3D UAV Localization**|Zhixuan Chen et.al.|[2609.14469](https://arxiv.org/abs/2609.14469)|null|
+|**2026-09-09**|**Teglon: A Pixel-Level Pipeline for Galaxy-Informed Gravitational-Wave Follow-up Planning and Efficiency Analysis**|D. A. Coulter et.al.|[2609.10736](https://arxiv.org/abs/2609.10736)|null|
+|**2026-09-08**|**3D Protraction Technique for Anchor-Free, Range-Free Wireless Localization in Industrial Warehouses via Multi-Level Binary Reachability**|Peyman Moeini et.al.|[2609.09330](https://arxiv.org/abs/2609.09330)|null|
+|**2026-09-08**|**From Where to How: Continuous 4D Interaction Forecasting from Egocentric Video**|Qiaohui Chu et.al.|[2609.08636](https://arxiv.org/abs/2609.08636)|null|
+|**2026-09-04**|**Development of a Humanoid Robot Prototype for Multimodal Human-Robot Interaction**|Thang Tran Viet et.al.|[2609.05361](https://arxiv.org/abs/2609.05361)|null|
+|**2026-09-14**|**Certified Spherical MUSIC for 3D Localization under Adversarial Subspace Perturbations**|Albert Fannjiang et.al.|[2609.03264](https://arxiv.org/abs/2609.03264)|null|
 |2026-09-01|Multidimensional Double Refraction Microscopy|Jörg König et.al.|[2609.01703](https://arxiv.org/abs/2609.01703)|null|
 |2026-09-06|Data-Aided Asynchronous OFDM Integrated Sensing and Communications: A Mean-Field Variational Bayes Approach|Van-Chung Luu et.al.|[2608.27739](https://arxiv.org/abs/2608.27739)|null|
 |2026-08-15|LightLoc++: Sensor-Robust Representation Learning for Efficient Outdoor LiDAR Localization|Wen Li et.al.|[2608.15317](https://arxiv.org/abs/2608.15317)|null|

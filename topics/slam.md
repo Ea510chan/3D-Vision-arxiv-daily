@@ -1,9 +1,19 @@
 # SLAM
 
-> Updated on 2026.09.21
+> Updated on 2026.09.26
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-09-24**|**FMCW-LIO: A Doppler LiDAR-Inertial Odometry**|Mingle Zhao et.al.|[2609.29374](https://arxiv.org/abs/2609.29374)|**[link](https://github.com/IMRL/FMCW-LIO)**|
+|**2026-09-23**|**PTC-Bias: Phoneme-Level Temporal Competition for Bias Retrieval and Post-Decoding Correction in Speech LLMs**|Zhiqi Ai et.al.|[2609.28727](https://arxiv.org/abs/2609.28727)|null|
+|**2026-09-23**|**DAVIO: Dense Monocular-Inertial SLAM with Feed-Forward Initialization and Pose-Conditioned Mapping**|Jaafar Mahmoud et.al.|[2609.27702](https://arxiv.org/abs/2609.27702)|null|
+|**2026-09-23**|**Know-Your-Scene (KYS)-SLAM: Hierarchical Semantic-Motion Priors for Feature Matching in Stereo Visual SLAM**|Preeti Chatterjee et.al.|[2609.27509](https://arxiv.org/abs/2609.27509)|null|
+|**2026-09-22**|**TM-APR: Thermal Temporal-Memory Localization via Analytic Online Adaptation**|Yanshuo Bai et.al.|[2609.26766](https://arxiv.org/abs/2609.26766)|null|
+|**2026-09-22**|**ArborSplat: Online Semantic Gaussian Splatting SLAM for Orchards**|Alessandro Masini et.al.|[2609.26315](https://arxiv.org/abs/2609.26315)|null|
+|**2026-09-22**|**Unsigned Distance Maps on 2D Point Cloud Registration**|Ricardo B. Sousa et.al.|[2609.25932](https://arxiv.org/abs/2609.25932)|null|
+|**2026-09-22**|**Dual Covariance Gaussian Splatting SLAM: Decoupling Rendering and Registration for Robust Real-Time Tracking**|Edward Beng Wai Tan et.al.|[2609.25746](https://arxiv.org/abs/2609.25746)|null|
+|**2026-09-21**|**Range-Aided SLAM Initialization Exploiting Accurate Heading Information**|Isabel Lougheed et.al.|[2609.24846](https://arxiv.org/abs/2609.24846)|null|
+|**2026-09-21**|**SPARSER: Sparse Variable Projection by Exploiting Separable Structure in Robotic Perception**|Nikolas R. Sanderson et.al.|[2609.24708](https://arxiv.org/abs/2609.24708)|null|
 |2026-09-15|PanoGS-SLAM: Panoramic 3D Gaussian Splatting SLAM|Yongqi Mao et.al.|[2609.17387](https://arxiv.org/abs/2609.17387)|null|
 |2026-09-15|Online Geometric Change Detection via Scene Decomposition|David Thorne et.al.|[2609.17302](https://arxiv.org/abs/2609.17302)|[link](https://github.com/vectr-ucla/geometric_change_detection)|
 |2026-09-15|HuMemSLAM: Efficient Human-Inspired Semantic Place Recognition for Robust Visual SLAM|Mayowa Adebambo et.al.|[2609.17168](https://arxiv.org/abs/2609.17168)|null|
