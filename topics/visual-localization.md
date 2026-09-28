@@ -1,19 +1,19 @@
 # Visual Localization
 
-> Updated on 2026.09.26
+> Updated on 2026.09.28
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-09-23**|**Geometry-Conditioned Visual Place Recognition in Natural Environments**|Walter Nedov et.al.|[2609.27370](https://arxiv.org/abs/2609.27370)|null|
-|**2026-09-23**|**From LiDAR Maps to Visual Localization: Unified Visual Association for Robust Point-Line-Plane Pose Estimation**|Wentao Zhao et.al.|[2609.27363](https://arxiv.org/abs/2609.27363)|null|
-|**2026-09-22**|**TM-APR: Thermal Temporal-Memory Localization via Analytic Online Adaptation**|Yanshuo Bai et.al.|[2609.26766](https://arxiv.org/abs/2609.26766)|null|
-|**2026-09-22**|**Calibrating Retrieval Geometry: Reliability-Guided Training-Free Aggregation for Visual Place Recognition**|Xin Li et.al.|[2609.25937](https://arxiv.org/abs/2609.25937)|null|
-|**2026-09-22**|**NaCR: Visual Localization via NeRF-aided Camera Ray Regression**|Yesheng Zhang et.al.|[2609.25907](https://arxiv.org/abs/2609.25907)|null|
-|**2026-09-21**|**DeCo: Efficient Decouple-to-Couple Learning for Multi-Task Visual Grounding**|Xiaoqiang Lu et.al.|[2609.24409](https://arxiv.org/abs/2609.24409)|null|
-|**2026-09-18**|**Multi-viewpoint Geo-localization with Event Cameras**|Adam D. Hines et.al.|[2609.21219](https://arxiv.org/abs/2609.21219)|null|
-|**2026-09-17**|**SlugTrails: An Egocentric Benchmark for Floor Plan Localization in Large Buildings**|Yunqian Cheng et.al.|[2609.19876](https://arxiv.org/abs/2609.19876)|null|
-|**2026-09-16**|**PIVOT: Perception-aware Independent Viewpoint Online Optimization**|Yuyang Chen et.al.|[2609.19510](https://arxiv.org/abs/2609.19510)|null|
-|**2026-09-15**|**HuMemSLAM: Efficient Human-Inspired Semantic Place Recognition for Robust Visual SLAM**|Mayowa Adebambo et.al.|[2609.17168](https://arxiv.org/abs/2609.17168)|null|
+|2026-09-23|Geometry-Conditioned Visual Place Recognition in Natural Environments|Walter Nedov et.al.|[2609.27370](https://arxiv.org/abs/2609.27370)|null|
+|2026-09-23|From LiDAR Maps to Visual Localization: Unified Visual Association for Robust Point-Line-Plane Pose Estimation|Wentao Zhao et.al.|[2609.27363](https://arxiv.org/abs/2609.27363)|null|
+|2026-09-22|TM-APR: Thermal Temporal-Memory Localization via Analytic Online Adaptation|Yanshuo Bai et.al.|[2609.26766](https://arxiv.org/abs/2609.26766)|null|
+|2026-09-22|Calibrating Retrieval Geometry: Reliability-Guided Training-Free Aggregation for Visual Place Recognition|Xin Li et.al.|[2609.25937](https://arxiv.org/abs/2609.25937)|null|
+|2026-09-22|NaCR: Visual Localization via NeRF-aided Camera Ray Regression|Yesheng Zhang et.al.|[2609.25907](https://arxiv.org/abs/2609.25907)|null|
+|2026-09-21|DeCo: Efficient Decouple-to-Couple Learning for Multi-Task Visual Grounding|Xiaoqiang Lu et.al.|[2609.24409](https://arxiv.org/abs/2609.24409)|null|
+|2026-09-18|Multi-viewpoint Geo-localization with Event Cameras|Adam D. Hines et.al.|[2609.21219](https://arxiv.org/abs/2609.21219)|null|
+|2026-09-17|SlugTrails: An Egocentric Benchmark for Floor Plan Localization in Large Buildings|Yunqian Cheng et.al.|[2609.19876](https://arxiv.org/abs/2609.19876)|null|
+|2026-09-16|PIVOT: Perception-aware Independent Viewpoint Online Optimization|Yuyang Chen et.al.|[2609.19510](https://arxiv.org/abs/2609.19510)|null|
+|2026-09-15|HuMemSLAM: Efficient Human-Inspired Semantic Place Recognition for Robust Visual SLAM|Mayowa Adebambo et.al.|[2609.17168](https://arxiv.org/abs/2609.17168)|null|
 |2026-09-15|G-ray: Ray-Level Relative Geometric Position Encoding in Multi-View Vision Transformers under Camera Heterogeneity|Shuo Zhang et.al.|[2609.15018](https://arxiv.org/abs/2609.15018)|[link](https://github.com/zhangshuoneu/G-ray)|
 |2026-09-10|Chain-SLAM: Globally Consistent Backend for Multi-Session LiDAR SLAM via Chained Loop Closure|Zhiheng Li et.al.|[2609.12221](https://arxiv.org/abs/2609.12221)|null|
 |2026-09-07|TRAIL: Trajectory-Aware Visual Place Recognition against Unordered Databases|Dominik A. Kloepfer et.al.|[2609.07373](https://arxiv.org/abs/2609.07373)|null|
@@ -306,7 +306,7 @@
 |2025-11-04|LUMA-RAG: Lifelong Multimodal Agents with Provably Stable Streaming Alignment|Rohan Wandre et.al.|[2511.02371](http://arxiv.org/abs/2511.02371)|null|
 |2025-11-03|SEPS: Semantic-enhanced Patch Slimming Framework for fine-grained cross-modal alignment|Xinyu Mao et.al.|[2511.01390](http://arxiv.org/abs/2511.01390)|[link](https://github.com/Sweet4tars/seps)|
 |2025-11-02|Dynamic Multi-level Weighted Alignment Network for Zero-shot Sketch-based Image Retrieval|Hanwen Su et.al.|[2511.00925](http://arxiv.org/abs/2511.00925)|null|
-|2025-11-01|Multi-Mapcher: Loop Closure Detection-Free Heterogeneous LiDAR Multi-Session SLAM Leveraging Outlier-Robust Registration for Autonomous Vehicles|Hyungtae Lim et.al.|[2511.00635](http://arxiv.org/abs/2511.00635)|**[link](https://github.com/url-kaist/multi-mapcher)**|
+|2025-11-01|Multi-Mapcher: Loop Closure Detection-Free Heterogeneous LiDAR Multi-Session SLAM Leveraging Outlier-Robust Registration for Autonomous Vehicles|Hyungtae Lim et.al.|[2511.00635](http://arxiv.org/abs/2511.00635)|[link](https://github.com/url-kaist/multi-mapcher)|
 |2025-10-31|Approximate Diverse $k$ -nearest Neighbor Search in Vector Database|Jiachen Zhao et.al.|[2510.27243](http://arxiv.org/abs/2510.27243)|[link](https://github.com/DGENJI/Progressive-Search)|
 |2025-11-03|Evaluating Perspectival Biases in Cross-Modal Retrieval|Teerapol Saengsukhiran et.al.|[2510.26861](http://arxiv.org/abs/2510.26861)|[link](https://github.com/ChulaAI/EVALUATING-PERSPECTIVAL-BIASES-IN-CROSS-MODAL-RETRIEVAL)|
 |2025-10-30|Scaling Image Geo-Localization to Continent Level|Philipp Lindenberger et.al.|[2510.26795](http://arxiv.org/abs/2510.26795)|[link](https://github.com/scaling-geoloc/scaling-geoloc.github.io)|
