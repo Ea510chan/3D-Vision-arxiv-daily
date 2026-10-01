@@ -22,7 +22,7 @@ title: Point Cloud Registration
     <a class="sidebar-link" href="3d-reconstruction.html">3D Reconstruction <span class="sidebar-count">512</span></a>
     <a class="sidebar-link" href="novel-view-synthesis.html">Novel View Synthesis <span class="sidebar-count">128</span></a>
     <a class="sidebar-link" href="visual-localization.html">Visual Localization <span class="sidebar-count">517</span></a>
-    <a class="sidebar-link" href="3d-localization.html">3D Localization <span class="sidebar-count">43</span></a>
+    <a class="sidebar-link" href="3d-localization.html">3D Localization <span class="sidebar-count">46</span></a>
     <a class="sidebar-link" href="world-model.html">World Model <span class="sidebar-count">240</span></a>
     <a class="sidebar-link" href="flow-matching.html">Flow Matching <span class="sidebar-count">271</span></a>
   </nav>

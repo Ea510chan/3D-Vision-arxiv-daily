@@ -1,8 +1,8 @@
 # 3D Vision arXiv Daily 🚀
 
 > 🌐 Start here: **[GitHub Pages](https://ea510chan.github.io/3D-Vision-arxiv-daily/)**
-> Updated on 2026.09.28
-> Topics: 9 | Total papers: 2458
+> Updated on 2026.10.01
+> Topics: 9 | Total papers: 2461
 > Usage instructions: [here](./docs/README.md#usage)
 > This page is modified from [here](https://github.com/Vincentqyw/cv-arxiv-daily)
 
@@ -22,7 +22,7 @@
 | 🧱 | 3D Reconstruction | 2026-09-24 | 512 | [3D Reconstruction](topics/3d-reconstruction.md) |
 | 🎥 | Novel View Synthesis | 2026-09-24 | 128 | [Novel View Synthesis](topics/novel-view-synthesis.md) |
 | 🗺️ | Visual Localization | 2026-09-23 | 517 | [Visual Localization](topics/visual-localization.md) |
-| 📍 | 3D Localization | 2026-09-23 | 43 | [3D Localization](topics/3d-localization.md) |
+| 📍 | 3D Localization | 2026-09-29 | 46 | [3D Localization](topics/3d-localization.md) |
 | 🌍 | World Model | 2026-09-24 | 240 | [World Model](topics/world-model.md) |
 | 🌊 | Flow Matching | 2026-09-24 | 271 | [Flow Matching](topics/flow-matching.md) |
 
