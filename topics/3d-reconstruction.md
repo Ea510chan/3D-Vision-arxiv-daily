@@ -1,6 +1,6 @@
 # 3D Reconstruction
 
-> Updated on 2026.10.01
+> Updated on 2026.10.05
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
@@ -130,7 +130,7 @@
 |2026-05-05|First Shape, Then Meaning: Efficient Geometry and Semantics Learning for Indoor Reconstruction|Remi Chierchia et.al.|[2605.03463](https://arxiv.org/abs/2605.03463)|null|
 |2026-05-05|MK-ResRecon: Multi-Kernel Residual Framework for Texture-Aware 3D MRI Refinement from Sparse 2D Slices|Prajyot Pyati et.al.|[2605.03432](https://arxiv.org/abs/2605.03432)|null|
 |2026-05-05|Mix3R: Mixing Feed-forward Reconstruction and Generative 3D Priors for Joint Multi-view Aligned 3D Reconstruction and Pose Estimation|Siyou Lin et.al.|[2605.03359](https://arxiv.org/abs/2605.03359)|null|
-|2026-05-05|FreeTimeGS++: Secrets of Dynamic Gaussian Splatting and Their Principles|Lucas Yunkyu Lee et.al.|[2605.03337](https://arxiv.org/abs/2605.03337)|**[link](https://github.com/zhixiongzuo/FreeTimeGSPlusPlus)**|
+|2026-05-05|FreeTimeGS++: Secrets of Dynamic Gaussian Splatting and Their Principles|Lucas Yunkyu Lee et.al.|[2605.03337](https://arxiv.org/abs/2605.03337)|[link](https://github.com/zhixiongzuo/FreeTimeGSPlusPlus)|
 |2026-05-04|A study of the kinematic and volumetric co-evolution of Earth-directed CMEs|Ashutosh Pattnaik et.al.|[2605.02828](https://arxiv.org/abs/2605.02828)|null|
 |2026-05-04|HumanSplatHMR: Closing the Loop Between Human Mesh Recovery and Gaussian Splatting Avatar|Yeheng Zong et.al.|[2605.02784](https://arxiv.org/abs/2605.02784)|null|
 |2026-05-04|Thin-film lithium tantalate for ultraviolet integrated electro-optic modulator|Chupao Lin et.al.|[2605.02758](https://arxiv.org/abs/2605.02758)|null|
@@ -171,7 +171,7 @@
 |2026-04-20|Score-Based Matching with Target Guidance for Cryo-EM Denoising|Xiaoqi Wu et.al.|[2604.17734](https://arxiv.org/abs/2604.17734)|null|
 |2026-04-19|HyKey: Hyperspectral Keypoint Detection and Matching in Minimally Invasive Surgery|Alexander Saikia et.al.|[2604.17446](https://arxiv.org/abs/2604.17446)|null|
 |2026-04-19|A Rapid Deployment Pipeline for Autonomous Humanoid Grasping Based on Foundation Models|Yifei Yan et.al.|[2604.17258](https://arxiv.org/abs/2604.17258)|null|
-|2026-04-17|PoInit-of-View: Poisoning Initialization of Views Transfers Across Multiple 3D Reconstruction Systems|Weijie Wang et.al.|[2604.16540](https://arxiv.org/abs/2604.16540)|null|
+|2026-04-17|PoInit-of-View: Poisoning Initialization of Views Transfers Across Multiple 3D Reconstruction Systems|Weijie Wang et.al.|[2604.16540](https://arxiv.org/abs/2604.16540)|**[link](https://github.com/twowwj/PoInit-of-View)**|
 |2026-04-17|Neural Gabor Splatting: Enhanced Gaussian Splatting with Neural Gabor for High-frequency Surface Reconstruction|Haato Watanabe et.al.|[2604.15941](https://arxiv.org/abs/2604.15941)|null|
 |2026-04-17|Splats in Splats++: Robust and Generalizable 3D Gaussian Splatting Steganography|Yijia Guo et.al.|[2604.15862](https://arxiv.org/abs/2604.15862)|null|
 |2026-04-16|CAVERS: Multimodal SLAM Data from a Natural Karstic Cave with Ground Truth Motion Capture|Giacomo Franchini et.al.|[2604.15052](https://arxiv.org/abs/2604.15052)|null|
@@ -392,7 +392,7 @@
 |2025-11-01|Oitijjo-3D: Generative AI Framework for Rapid 3D Heritage Reconstruction from Street View Imagery|Momen Khandoker Ope et.al.|[2511.00362](http://arxiv.org/abs/2511.00362)|null|
 |2025-10-23|RubbleSim: A Photorealistic Structural Collapse Simulator for Confined Space Mapping|Constantine Frost et.al.|[2510.20529](http://arxiv.org/abs/2510.20529)|null|
 |2025-10-20|Initialize to Generalize: A Stronger Initialization Pipeline for Sparse-View 3DGS|Feng Zhou et.al.|[2510.17479](http://arxiv.org/abs/2510.17479)|[link](https://github.com/zss171999645/ItG-GS)|
-|2025-10-21|DeepDetect: Learning All-in-One Dense Keypoints|Shaharyar Ahmed Khan Tareen et.al.|[2510.17422](http://arxiv.org/abs/2510.17422)|**[link](https://github.com/saktx/DeepDetect)**|
+|2025-10-21|DeepDetect: Learning All-in-One Dense Keypoints|Shaharyar Ahmed Khan Tareen et.al.|[2510.17422](http://arxiv.org/abs/2510.17422)|[link](https://github.com/saktx/DeepDetect)|
 |2025-10-18|LightGlueStick: a Fast and Robust Glue for Joint Point-Line Matching|Aidyn Ubingazhibov et.al.|[2510.16438](http://arxiv.org/abs/2510.16438)|null|
 |2025-10-17|MRASfM: Multi-Camera Reconstruction and Aggregation through Structure-from-Motion in Driving Scenes|Lingfeng Xuan et.al.|[2510.15467](http://arxiv.org/abs/2510.15467)|null|
 |2025-10-17|CuSfM: CUDA-Accelerated Structure-from-Motion|Jingrui Yu et.al.|[2510.15271](http://arxiv.org/abs/2510.15271)|null|

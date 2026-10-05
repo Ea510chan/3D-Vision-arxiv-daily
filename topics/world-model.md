@@ -1,6 +1,6 @@
 # World Model
 
-> Updated on 2026.10.01
+> Updated on 2026.10.05
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
@@ -119,7 +119,7 @@
 |2026-06-04|MPCoT: Reward-Guided Multi-Path Latent Reasoning for Test-Time Scalable Vision-Language-Action|Boyang Zhang et.al.|[2606.06245](https://arxiv.org/abs/2606.06245)|null|
 |2026-06-04|WorldFly: A World-Model-Based Vision-Language-Action Model for UAV Navigation|Shengtao Zheng et.al.|[2606.06147](https://arxiv.org/abs/2606.06147)|null|
 |2026-06-04|PLAN-S: Bridging Planning with Latent Style Dynamics for Autonomous Driving World Models|Xiaoyun Qiu et.al.|[2606.06014](https://arxiv.org/abs/2606.06014)|null|
-|2026-06-04|World-Language-Action Model for Unified World Modeling, Language Reasoning, and Action Synthesis|Yi Yang et.al.|[2606.05979](https://arxiv.org/abs/2606.05979)|null|
+|2026-06-04|World-Language-Action Model for Unified World Modeling, Language Reasoning, and Action Synthesis|Yi Yang et.al.|[2606.05979](https://arxiv.org/abs/2606.05979)|**[link](https://github.com/SJTU-DENG-Lab/WLA)**|
 |2026-06-04|Towards a Data Flywheel for Embodied Intelligence in Logistics|Anlan Yu et.al.|[2606.05960](https://arxiv.org/abs/2606.05960)|null|
 |2026-06-04|Towards World Models in Biomedical Research|Guangyu Wang et.al.|[2606.05925](https://arxiv.org/abs/2606.05925)|null|
 |2026-06-04|PiL-World: A Chunk-Wise World Model for VLA Policy-in-the-Loop Evaluation|Chong Ma et.al.|[2606.05773](https://arxiv.org/abs/2606.05773)|null|

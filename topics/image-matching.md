@@ -1,6 +1,6 @@
 # Image Matching
 
-> Updated on 2026.10.01
+> Updated on 2026.10.05
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
@@ -42,8 +42,8 @@
 |2026-04-14|Are Pretrained Image Matchers Good Enough for SAR-Optical Satellite Registration?|Isaac Corley et.al.|[2604.10217](https://arxiv.org/abs/2604.10217)|null|
 |2026-04-08|Mathematical Analysis of Image Matching Techniques|Oleh Samoilenko et.al.|[2604.07574](https://arxiv.org/abs/2604.07574)|null|
 |2026-04-08|Improving Local Feature Matching by Entropy-inspired Scale Adaptability and Flow-endowed Local Consistency|Ke Jin et.al.|[2604.06713](https://arxiv.org/abs/2604.06713)|null|
-|2026-04-06|LoMa: Local Feature Matching Revisited|David Nordström et.al.|[2604.04931](https://arxiv.org/abs/2604.04931)|null|
-|2026-03-30|AffordMatcher: Affordance Learning in 3D Scenes from Visual Signifiers|Nghia Vu et.al.|[2603.27970](https://arxiv.org/abs/2603.27970)|null|
+|2026-04-06|LoMa: Local Feature Matching Revisited|David Nordström et.al.|[2604.04931](https://arxiv.org/abs/2604.04931)|**[link](https://github.com/davnords/LoMa)**|
+|2026-03-30|AffordMatcher: Affordance Learning in 3D Scenes from Visual Signifiers|Nghia Vu et.al.|[2603.27970](https://arxiv.org/abs/2603.27970)|**[link](https://github.com/aioz-ai/AffordMatcher)**|
 |2026-03-23|EpiMask: Leveraging Epipolar Distance Based Masks in Cross-Attention for Satellite Image Matching|Rahul Deshmukh et.al.|[2603.21463](https://arxiv.org/abs/2603.21463)|null|
 |2026-03-20|Benchmarking Efficient & Effective Camera Pose Estimation Strategies for Novel View Synthesis|Jhacson Meza et.al.|[2603.20428](https://arxiv.org/abs/2603.20428)|null|
 |2026-03-19|Pixel-Accurate Epipolar Guided Matching|Oleksii Nasypanyi et.al.|[2603.18401](https://arxiv.org/abs/2603.18401)|[link](https://github.com/LexaNagiBator228/Pixel-Accurate-Epipolar-Guided-Matching)|

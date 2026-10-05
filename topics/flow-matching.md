@@ -1,6 +1,6 @@
 # Flow Matching
 
-> Updated on 2026.10.01
+> Updated on 2026.10.05
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
@@ -115,7 +115,7 @@
 |2026-06-18|Residual-Space Evolutionary Optimization via Flow-based Generative Models|Zhuo Cao et.al.|[2606.20084](https://arxiv.org/abs/2606.20084)|null|
 |2026-06-18|Time-Unconditional Generative Speech Enhancement via Autonomous Rectified Flow|Wen Zhang et.al.|[2606.20001](https://arxiv.org/abs/2606.20001)|[link](https://github.com/SpeechLab-HDU/ARFSE)|
 |2026-06-15|Human Universal Grasping|Kevin Yuanbo Wu et.al.|[2606.17054](https://arxiv.org/abs/2606.17054)|null|
-|2026-06-15|ExoTraj: A General Lower-limb Exoskeleton Assistance Policy for Complex Environments|Xiao-Yin Liu et.al.|[2606.16876](https://arxiv.org/abs/2606.16876)|**[link](https://github.com/StonenotBlue/Sound-space-custom-map-1)**|
+|2026-06-15|ExoTraj: A General Lower-limb Exoskeleton Assistance Policy for Complex Environments|Xiao-Yin Liu et.al.|[2606.16876](https://arxiv.org/abs/2606.16876)|[link](https://github.com/StonenotBlue/Sound-space-custom-map-1)|
 |2026-06-15|Decision-Weighted Flow Matching for Contextual Stochastic Optimization|Jize Xie et.al.|[2606.16790](https://arxiv.org/abs/2606.16790)|null|
 |2026-06-15|Diffusion Flow Matching: Dimension-Improved KL Bounds and Wasserstein Guarantees|Marta Gentiloni Silveri et.al.|[2606.16610](https://arxiv.org/abs/2606.16610)|null|
 |2026-06-15|Steering Generative Reinforcement Learning into Stable Robotic Controller|Yixuan Wang et.al.|[2606.16572](https://arxiv.org/abs/2606.16572)|null|
@@ -243,7 +243,7 @@
 |2026-04-20|OFlow: Injecting Object-Aware Temporal Flow Matching for Robust Robotic Manipulation|Kuanning Wang et.al.|[2604.17876](https://arxiv.org/abs/2604.17876)|null|
 |2026-04-20|OmniVLA-RL: A Vision-Language-Action Model with Spatial Understanding and Online RL|Haoxiang Jie et.al.|[2604.17706](https://arxiv.org/abs/2604.17706)|null|
 |2026-04-20|Grokking of Diffusion Models: Case Study on Modular Addition|Joon Hyeok Kim et.al.|[2604.17673](https://arxiv.org/abs/2604.17673)|null|
-|2026-04-19|Reward Score Matching: Unifying Reward-based Fine-tuning for Flow and Diffusion Models|Jeongjae Lee et.al.|[2604.17415](https://arxiv.org/abs/2604.17415)|null|
+|2026-04-19|Reward Score Matching: Unifying Reward-based Fine-tuning for Flow and Diffusion Models|Jeongjae Lee et.al.|[2604.17415](https://arxiv.org/abs/2604.17415)|**[link](https://github.com/jaylee2000/rsm)**|
 |2026-04-19|EmbodiedHead: Real-Time Listening and Speaking Avatar for Conversational Agents|Yu Zhang et.al.|[2604.17211](https://arxiv.org/abs/2604.17211)|null|
 |2026-04-18|FlowRefiner: Flow Matching-Based Iterative Refinement for 3D Turbulent Flow Simulation|Yilong Dai et.al.|[2604.17149](https://arxiv.org/abs/2604.17149)|null|
 |2026-04-18|Anonymization, Not Elimination: Utility-Preserved Speech Anonymization|Yunchong Xiao et.al.|[2604.17000](https://arxiv.org/abs/2604.17000)|null|
