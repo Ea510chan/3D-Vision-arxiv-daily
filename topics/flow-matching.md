@@ -1,9 +1,19 @@
 # Flow Matching
 
-> Updated on 2026.10.06
+> Updated on 2026.10.11
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-10-08**|**Bi-FORK: Generative Modeling of High-Dimensional Bifurcating Systems**|Anna Zimmel et.al.|[2610.12449](https://arxiv.org/abs/2610.12449)|null|
+|**2026-10-08**|**Generative Neural Retargeting for Human-to-Robot Dexterous Manipulation**|Dechen Gao et.al.|[2610.12440](https://arxiv.org/abs/2610.12440)|null|
+|**2026-10-08**|**LeWAM: A JEPA World Action Model with Diffusion-Steering-Based MPC**|Shashank Hegde et.al.|[2610.12407](https://arxiv.org/abs/2610.12407)|null|
+|**2026-10-08**|**Controllable Exaggeration for Generative Motion Models via Training-Time Adaptation and Inference-Time Guidance**|Amirhossein Zamani et.al.|[2610.12316](https://arxiv.org/abs/2610.12316)|**[link](https://github.com/AHHHZ975/Controllable-Motion-Exaggeration)**|
+|**2026-10-08**|**La-Ribo: RNA Co-Design via Geometry-Latent Flow Matching**|Runze Ma et.al.|[2610.12236](https://arxiv.org/abs/2610.12236)|null|
+|**2026-10-08**|**Residual Modeling Closes the Regression and Generative Policy Gap in Robot Learning**|Yuchen Zhou et.al.|[2610.12231](https://arxiv.org/abs/2610.12231)|null|
+|**2026-10-08**|**Few-Step Generation via Data-Space Iteration**|Shanchuan Lin et.al.|[2610.12102](https://arxiv.org/abs/2610.12102)|null|
+|**2026-10-08**|**Dino Forcing Flow Models: Do not denoise what you can predict**|Arijit Ghosh et.al.|[2610.11751](https://arxiv.org/abs/2610.11751)|null|
+|**2026-10-08**|**Learning Language-Conditioned Traversability Representations for Adaptive Visual Navigation**|Senda Chen et.al.|[2610.11622](https://arxiv.org/abs/2610.11622)|null|
+|**2026-10-08**|**$C_4$ -Equivariant Flow Matching on Anisotropic Power-Diagram Graphs for Microstructure Generation**|Dawid Lipinski et.al.|[2610.11549](https://arxiv.org/abs/2610.11549)|null|
 |2026-09-24|Faster Visuomotor Policy Learning on Action Manifolds via Riemannian MeanFlow|S. Talha Bukhari et.al.|[2609.30127](https://arxiv.org/abs/2609.30127)|null|
 |2026-09-24|M3GD: Multi-Modal Multi-View Geometric Diffusion for Camera--LiDAR Novel View Synthesis|Yang Zhou et.al.|[2609.30056](https://arxiv.org/abs/2609.30056)|null|
 |2026-09-24|Structured Pose-Conditioned Flow Matching for Generative 5G CSI Augmentation|Haojin Li et.al.|[2609.29912](https://arxiv.org/abs/2609.29912)|null|

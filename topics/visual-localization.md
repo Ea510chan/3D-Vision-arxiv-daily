@@ -1,12 +1,19 @@
 # Visual Localization
 
-> Updated on 2026.10.06
+> Updated on 2026.10.11
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|2026-09-23|Geometry-Conditioned Visual Place Recognition in Natural Environments|Walter Nedov et.al.|[2609.27370](https://arxiv.org/abs/2609.27370)|null|
-|2026-09-23|From LiDAR Maps to Visual Localization: Unified Visual Association for Robust Point-Line-Plane Pose Estimation|Wentao Zhao et.al.|[2609.27363](https://arxiv.org/abs/2609.27363)|null|
-|2026-09-22|TM-APR: Thermal Temporal-Memory Localization via Analytic Online Adaptation|Yanshuo Bai et.al.|[2609.26766](https://arxiv.org/abs/2609.26766)|null|
+|**2026-10-08**|**Learning Which Correspondences to Trust: Confidence-Weighted Event-Camera Localization in LiDAR Maps**|Panagiotis Kiousis et.al.|[2610.11967](https://arxiv.org/abs/2610.11967)|null|
+|**2026-10-08**|**SatFix: Absolute Visual Localization of UAVs in Satellite Maps from a Single Oblique Image**|Jiarui Zeng et.al.|[2610.11049](https://arxiv.org/abs/2610.11049)|null|
+|**2026-10-07**|**Fast and Robust Teach-and-Repeat Navigation Using MixVPR Visual Place Recognition***|Václav Truhlařík et.al.|[2610.09631](https://arxiv.org/abs/2610.09631)|null|
+|**2026-10-02**|**Less Decoder is More Encoder: Geometric Representation Learning from Novel View Synthesis**|Keerthi Kaashyap et.al.|[2610.03717](https://arxiv.org/abs/2610.03717)|null|
+|**2026-10-01**|**MVDG: Efficient Multi-view 3D Disambiguation on Unconstrained Real-World Images**|Hanyuan Xiao et.al.|[2610.01098](https://arxiv.org/abs/2610.01098)|null|
+|**2026-09-28**|**Structured Interaction, Visual Localization, and Robust Execution for Complex Web Tasks: A Technical Report on the WebRetriever Challenge**|Ziqi Zhang et.al.|[2609.35904](https://arxiv.org/abs/2609.35904)|null|
+|**2026-09-28**|**MarsLab: A Martian Rover Simulator for Planetary Rover Autonomous Navigation**|Hoyun Kim et.al.|[2609.34702](https://arxiv.org/abs/2609.34702)|null|
+|**2026-09-23**|**Geometry-Conditioned Visual Place Recognition in Natural Environments**|Walter Nedov et.al.|[2609.27370](https://arxiv.org/abs/2609.27370)|null|
+|**2026-09-23**|**From LiDAR Maps to Visual Localization: Unified Visual Association for Robust Point-Line-Plane Pose Estimation**|Wentao Zhao et.al.|[2609.27363](https://arxiv.org/abs/2609.27363)|null|
+|**2026-09-22**|**TM-APR: Thermal Temporal-Memory Localization via Analytic Online Adaptation**|Yanshuo Bai et.al.|[2609.26766](https://arxiv.org/abs/2609.26766)|null|
 |2026-09-22|Calibrating Retrieval Geometry: Reliability-Guided Training-Free Aggregation for Visual Place Recognition|Xin Li et.al.|[2609.25937](https://arxiv.org/abs/2609.25937)|null|
 |2026-09-22|NaCR: Visual Localization via NeRF-aided Camera Ray Regression|Yesheng Zhang et.al.|[2609.25907](https://arxiv.org/abs/2609.25907)|null|
 |2026-09-21|DeCo: Efficient Decouple-to-Couple Learning for Multi-Task Visual Grounding|Xiaoqiang Lu et.al.|[2609.24409](https://arxiv.org/abs/2609.24409)|null|
