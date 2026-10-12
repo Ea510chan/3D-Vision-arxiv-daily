@@ -1,6 +1,6 @@
 # World Model
 
-> Updated on 2026.10.11
+> Updated on 2026.10.12
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
@@ -41,7 +41,7 @@
 |2026-07-30|ShadowDancer: Teaching Video World Models Any Action by Learning Unified Dynamics Representations from a Video and Its Shadow|Jin Cao et.al.|[2607.28362](https://arxiv.org/abs/2607.28362)|null|
 |2026-07-30|Tycho: Active Abstraction with Programmatic World Models for ARC-AGI-3|Jens Lehmann et.al.|[2607.28287](https://arxiv.org/abs/2607.28287)|null|
 |2026-07-30|Security of World-Model-Based Embodied AI: A Lifecycle of Threats, Defenses, and Evaluation|Fazhong Liu et.al.|[2607.28226](https://arxiv.org/abs/2607.28226)|null|
-|2026-07-30|ODEWorld: A Continuous Predictive Architecture via Physical-Time Flow|Dongxiu Liu et.al.|[2607.27924](https://arxiv.org/abs/2607.27924)|null|
+|2026-07-30|ODEWorld: A Continuous Predictive Architecture via Physical-Time Flow|Dongxiu Liu et.al.|[2607.27924](https://arxiv.org/abs/2607.27924)|**[link](https://github.com/Dstate/ODEWorld)**|
 |2026-07-30|Learning to Understand Body Language from Flight through Robust 3D Avatar Placing|Dragos Costea et.al.|[2607.27865](https://arxiv.org/abs/2607.27865)|null|
 |2026-07-30|World Action Planner: Generalizable Decision-Making with Action-Conditioned World Models|Xiangcheng Zhang et.al.|[2607.27599](https://arxiv.org/abs/2607.27599)|null|
 |2026-07-20|FlashRT: Agent Harness for Guiding Agents to Deploy Real-Time Multimodal Applications|Krish Agarwal et.al.|[2607.18171](https://arxiv.org/abs/2607.18171)|null|
@@ -119,7 +119,7 @@
 |2026-06-04|MPCoT: Reward-Guided Multi-Path Latent Reasoning for Test-Time Scalable Vision-Language-Action|Boyang Zhang et.al.|[2606.06245](https://arxiv.org/abs/2606.06245)|null|
 |2026-06-04|WorldFly: A World-Model-Based Vision-Language-Action Model for UAV Navigation|Shengtao Zheng et.al.|[2606.06147](https://arxiv.org/abs/2606.06147)|null|
 |2026-06-04|PLAN-S: Bridging Planning with Latent Style Dynamics for Autonomous Driving World Models|Xiaoyun Qiu et.al.|[2606.06014](https://arxiv.org/abs/2606.06014)|null|
-|2026-06-04|World-Language-Action Model for Unified World Modeling, Language Reasoning, and Action Synthesis|Yi Yang et.al.|[2606.05979](https://arxiv.org/abs/2606.05979)|**[link](https://github.com/SJTU-DENG-Lab/WLA)**|
+|2026-06-04|World-Language-Action Model for Unified World Modeling, Language Reasoning, and Action Synthesis|Yi Yang et.al.|[2606.05979](https://arxiv.org/abs/2606.05979)|[link](https://github.com/SJTU-DENG-Lab/WLA)|
 |2026-06-04|Towards a Data Flywheel for Embodied Intelligence in Logistics|Anlan Yu et.al.|[2606.05960](https://arxiv.org/abs/2606.05960)|null|
 |2026-06-04|Towards World Models in Biomedical Research|Guangyu Wang et.al.|[2606.05925](https://arxiv.org/abs/2606.05925)|null|
 |2026-06-04|PiL-World: A Chunk-Wise World Model for VLA Policy-in-the-Loop Evaluation|Chong Ma et.al.|[2606.05773](https://arxiv.org/abs/2606.05773)|null|
@@ -216,7 +216,7 @@
 |2026-04-18|SafeDream: Safety World Model for Proactive Early Jailbreak Detection|Bo Yan et.al.|[2604.16824](https://arxiv.org/abs/2604.16824)|null|
 |2026-04-15|Seedance 2.0: Advancing Video Generation for World Complexity|Team Seedance et.al.|[2604.14148](https://arxiv.org/abs/2604.14148)|null|
 |2026-04-15|Feed-Forward 3D Scene Modeling: A Problem-Driven Perspective|Weijie Wang et.al.|[2604.14025](https://arxiv.org/abs/2604.14025)|null|
-|2026-04-15|Beyond State Consistency: Behavior Consistency in Text-Based World Models|Youling Huang et.al.|[2604.13824](https://arxiv.org/abs/2604.13824)|null|
+|2026-04-15|Beyond State Consistency: Behavior Consistency in Text-Based World Models|Youling Huang et.al.|[2604.13824](https://arxiv.org/abs/2604.13824)|**[link](https://github.com/Ricardo-H/behr-wm)**|
 |2026-04-15|Vision-and-Language Navigation for UAVs: Progress, Challenges, and a Research Roadmap|Hanxuan Chen et.al.|[2604.13654](https://arxiv.org/abs/2604.13654)|null|
 |2026-04-15|DiT as Real-Time Rerenderer: Streaming Video Stylization with Autoregressive Diffusion Transformer|Hengye Lyu et.al.|[2604.13509](https://arxiv.org/abs/2604.13509)|null|
 |2026-04-15|VibeFlow: Versatile Video Chroma-Lux Editing through Self-Supervised Learning|Yifan Li et.al.|[2604.13425](https://arxiv.org/abs/2604.13425)|null|

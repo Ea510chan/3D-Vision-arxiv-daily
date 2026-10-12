@@ -1,6 +1,6 @@
 # Novel View Synthesis
 
-> Updated on 2026.10.11
+> Updated on 2026.10.12
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
@@ -35,7 +35,7 @@
 |2026-07-06|GUSH3R: Everyone Everywhere All at Once as Gaussians|Keito Abe et.al.|[2607.05243](https://arxiv.org/abs/2607.05243)|null|
 |2026-07-04|MACRO: Training-free Multi-plane Attention for Closeup Render Optimization|Nitzan Hodos et.al.|[2607.03875](https://arxiv.org/abs/2607.03875)|null|
 |2026-06-30|Practical High-Fidelity Novel-View Synthesis of Mounted Lepidoptera|Kristof Overdulve et.al.|[2606.31679](https://arxiv.org/abs/2606.31679)|null|
-|2026-06-30|DPPE: Rethinking Camera-Based Positional Encoding for Scaling Multi-View Transformers|Shun Kenney et.al.|[2606.31585](https://arxiv.org/abs/2606.31585)|null|
+|2026-06-30|DPPE: Rethinking Camera-Based Positional Encoding for Scaling Multi-View Transformers|Shun Kenney et.al.|[2606.31585](https://arxiv.org/abs/2606.31585)|**[link](https://github.com/sbintuitions/dppe)**|
 |2026-06-30|WarpHammer: Densifying Scene Warps with 3D Object Priors for Extreme View Synthesis|Michael Green et.al.|[2606.31258](https://arxiv.org/abs/2606.31258)|null|
 |2026-06-29|StereoGS: Sparse-View 3D Gaussian Splatting via Stereo Priors|Wenhao Yuan et.al.|[2606.30545](https://arxiv.org/abs/2606.30545)|null|
 |2026-06-29|RenderFormer++: Scalable and Physically Grounded Feed-Forward Neural Rendering|Huangsheng Du et.al.|[2606.30380](https://arxiv.org/abs/2606.30380)|null|
@@ -128,8 +128,8 @@
 |2026-04-30|Softmax-GS: Generalized Gaussians Learning When to Blend or Bound|Chen Ziwen et.al.|[2604.27437](https://arxiv.org/abs/2604.27437)|null|
 |2026-04-30|Sparse-View 3D Gaussian Splatting in the Wild|Wongi Park et.al.|[2604.27422](https://arxiv.org/abs/2604.27422)|null|
 |2026-04-29|MesonGS++: Post-training Compression of 3D Gaussian Splatting with Hyperparameter Searching|Shuzhao Xie et.al.|[2604.26799](https://arxiv.org/abs/2604.26799)|null|
-|2026-04-29|3D-LENS: A 3D Lifting-based Elevated Novel-view Synthesis method for Single-View Aerial-Ground Re-Identification|William Grolleau et.al.|[2604.26520](https://arxiv.org/abs/2604.26520)|**[link](https://github.com/TurtleSmoke/3D-LENS)**|
-|2026-04-29|Semantic Foam: Unifying Spatial and Semantic Scene Decomposition|Amr Sharafeldin et.al.|[2604.26262](https://arxiv.org/abs/2604.26262)|**[link](https://github.com/AmrMSharafeldin/semanticfoam)**|
-|2026-04-27|Light 'em Up: Enabling Few-Shot Low-Light 3D Gaussian Splatting with Multi-Scale Explicit Retinex Illumination Decoupling|YuHao Yin et.al.|[2604.24053](https://arxiv.org/abs/2604.24053)|**[link](https://github.com/YhuoyuH/MERID-GS)**|
+|2026-04-29|3D-LENS: A 3D Lifting-based Elevated Novel-view Synthesis method for Single-View Aerial-Ground Re-Identification|William Grolleau et.al.|[2604.26520](https://arxiv.org/abs/2604.26520)|[link](https://github.com/TurtleSmoke/3D-LENS)|
+|2026-04-29|Semantic Foam: Unifying Spatial and Semantic Scene Decomposition|Amr Sharafeldin et.al.|[2604.26262](https://arxiv.org/abs/2604.26262)|[link](https://github.com/AmrMSharafeldin/semanticfoam)|
+|2026-04-27|Light 'em Up: Enabling Few-Shot Low-Light 3D Gaussian Splatting with Multi-Scale Explicit Retinex Illumination Decoupling|YuHao Yin et.al.|[2604.24053](https://arxiv.org/abs/2604.24053)|[link](https://github.com/YhuoyuH/MERID-GS)|
 |2026-04-26|Bringing a Personal Point of View: Evaluating Dynamic 3D Gaussian Splatting for Egocentric Scene Reconstruction|Jan Warchocki et.al.|[2604.23803](https://arxiv.org/abs/2604.23803)|null|
 

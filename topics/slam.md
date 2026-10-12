@@ -1,6 +1,6 @@
 # SLAM
 
-> Updated on 2026.10.11
+> Updated on 2026.10.12
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
@@ -32,7 +32,7 @@
 |2026-09-01|Monocular Depth Estimation from a Single Image: Progress and Opportunities|Muxin Liu et.al.|[2609.01172](https://arxiv.org/abs/2609.01172)|null|
 |2026-09-01|VOIM: Training-Free Open-Vocabulary 3D Instance Mapping for RGB-D and Monocular SLAM|Sangmin Song et.al.|[2609.00775](https://arxiv.org/abs/2609.00775)|null|
 |2026-08-31|Failure or Drift? Evaluating Monocular SLAM under Synthetic and Real-World Corruptions|Abhay Skaria Thomas et.al.|[2608.30690](https://arxiv.org/abs/2608.30690)|null|
-|2026-08-30|Everybody Tracking Every Body|Daeyun Shin et.al.|[2608.29927](https://arxiv.org/abs/2608.29927)|**[link](https://github.com/danderfer/Comp_Sci_Sem_2)**|
+|2026-08-30|Everybody Tracking Every Body|Daeyun Shin et.al.|[2608.29927](https://arxiv.org/abs/2608.29927)|[link](https://github.com/danderfer/Comp_Sci_Sem_2)|
 |2026-08-29|RoSe-SLAM: Robust Semantic-Aware Gaussian Splatting SLAM from Dynamic Monocular Videos|Wenting Wang et.al.|[2608.29003](https://arxiv.org/abs/2608.29003)|null|
 |2026-08-28|GeoFF3D: Coordinate-Anchored Feed-Forward Reconstruction for Large-Scale UAV Mapping|Xiang Yang et.al.|[2608.28288](https://arxiv.org/abs/2608.28288)|null|
 |2026-08-27|One year in a forest: Analyzing the challenges of autonomous navigation in subarctic environments|Matěj Boxan et.al.|[2608.27628](https://arxiv.org/abs/2608.27628)|null|
@@ -115,7 +115,7 @@
 |2026-05-12|WildPose: A Unified Framework for Robust Pose Estimation in the Wild|Jianhao Zheng et.al.|[2605.12774](https://arxiv.org/abs/2605.12774)|[link](https://github.com/GradientSpaces/WildPose)|
 |2026-05-11|MAGS-SLAM: Monocular Multi-Agent Gaussian Splatting SLAM for Geometrically and Photometrically Consistent Reconstruction|Zhihao Cao et.al.|[2605.10760](https://arxiv.org/abs/2605.10760)|null|
 |2026-05-10|Above and Below: Heterogeneous Multi-robot SLAM Across Surface and Underwater Domains|John McConnell et.al.|[2605.09811](https://arxiv.org/abs/2605.09811)|null|
-|2026-05-08|AERO-VIS: Asynchronous Event-based Real-time Onboard Visual-Inertial SLAM|Yannick Burkhardt et.al.|[2605.07885](https://arxiv.org/abs/2605.07885)|null|
+|2026-05-08|AERO-VIS: Asynchronous Event-based Real-time Onboard Visual-Inertial SLAM|Yannick Burkhardt et.al.|[2605.07885](https://arxiv.org/abs/2605.07885)|**[link](https://github.com/ethz-mrl/AERO-VIS)**|
 |2026-05-07|GA3T: A Ground-Aerial Terrain Traversability Dataset for Heterogeneous Robot Teams in Unstructured Environments|Siwei Cai et.al.|[2605.06478](https://arxiv.org/abs/2605.06478)|null|
 |2026-05-07|Indoor 60 GHz Radio Channel Dataset Enabling Digital Twin Construction|Davide Scazzoli et.al.|[2605.05824](https://arxiv.org/abs/2605.05824)|null|
 |2026-05-08|SLAM: Structural Linguistic Activation Marking for Language Models|Fabrice Harel-Canada et.al.|[2605.05443](https://arxiv.org/abs/2605.05443)|null|
@@ -136,7 +136,7 @@
 |2026-04-27|Event-based SLAM Benchmark for High-Speed Maneuvers|Sheng Zhong et.al.|[2604.24033](https://arxiv.org/abs/2604.24033)|null|
 |2026-04-24|Railway Artificial Intelligence Learning Benchmark (RAIL-BENCH): A Benchmark Suite for Perception in the Railway Domain|Annika Bätz et.al.|[2604.22507](https://arxiv.org/abs/2604.22507)|null|
 |2026-04-24|Holo360D: A Large-Scale Real-World Dataset with Continuous Trajectories for Advancing Panoramic 3D Reconstruction and Beyond|Jing Ou et.al.|[2604.22482](https://arxiv.org/abs/2604.22482)|null|
-|2026-04-24|PoseFM: Relative Camera Pose Estimation Through Flow Matching|Dominik Kuczkowski et.al.|[2604.22350](https://arxiv.org/abs/2604.22350)|null|
+|2026-04-24|PoseFM: Relative Camera Pose Estimation Through Flow Matching|Dominik Kuczkowski et.al.|[2604.22350](https://arxiv.org/abs/2604.22350)|**[link](https://github.com/helsinki-sda-group/posefm)**|
 |2026-04-15|RadarSplat-RIO: Indoor Radar-Inertial Odometry with Gaussian Splatting-Based Radar Bundle Adjustment|Pou-Chun Kung et.al.|[2604.13492](https://arxiv.org/abs/2604.13492)|null|
 |2026-04-09|TinyDEVO: Deep Event-based Visual Odometry on Ultra-low-power Multi-core Microcontrollers|Alessandro Marchei et.al.|[2604.08060](https://arxiv.org/abs/2604.08060)|null|
 |2026-04-08|VGGT-SLAM++|Avilasha Mandal et.al.|[2604.06830](https://arxiv.org/abs/2604.06830)|null|
@@ -178,7 +178,7 @@
 |2025-11-10|Integration of Visual SLAM into Consumer-Grade Automotive Localization|Luis Diener et.al.|[2511.06919](http://arxiv.org/abs/2511.06919)|null|
 |2025-11-10|Robust and High-Fidelity 3D Gaussian Splatting: Fusing Pose Priors and Geometry Constraints for Texture-Deficient Outdoor Scenes|Meijun Guo et.al.|[2511.06765](http://arxiv.org/abs/2511.06765)|null|
 |2025-11-03|LiDAR-VGGT: Cross-Modal Coarse-to-Fine Fusion for Globally Consistent and Metric-Scale Dense Mapping|Lijie Wang et.al.|[2511.01186](http://arxiv.org/abs/2511.01186)|[link](https://github.com/NorwegianSmokedSalmon/LiDAR-VGGT)|
-|2025-10-30|AgriGS-SLAM: Orchard Mapping Across Seasons via Multi-View Gaussian Splatting SLAM|Mirko Usuelli et.al.|[2510.26358](http://arxiv.org/abs/2510.26358)|**[link](https://github.com/AIRLab-POLIMI/agri-gs-slam)**|
+|2025-10-30|AgriGS-SLAM: Orchard Mapping Across Seasons via Multi-View Gaussian Splatting SLAM|Mirko Usuelli et.al.|[2510.26358](http://arxiv.org/abs/2510.26358)|[link](https://github.com/AIRLab-POLIMI/agri-gs-slam)|
 |2025-10-29|EA3D: Online Open-World 3D Object Extraction from Streaming Videos|Xiaoyu Zhou et.al.|[2510.25146](http://arxiv.org/abs/2510.25146)|null|
 |2025-10-23|Degradation-Aware Cooperative Multi-Modal GNSS-Denied Localization Leveraging LiDAR-Based Robot Detections|Václav Pritzl et.al.|[2510.20480](http://arxiv.org/abs/2510.20480)|null|
 |2025-10-21|DeepDetect: Learning All-in-One Dense Keypoints|Shaharyar Ahmed Khan Tareen et.al.|[2510.17422](http://arxiv.org/abs/2510.17422)|[link](https://github.com/saktx/DeepDetect)|
@@ -209,7 +209,7 @@
 |2025-07-08|Cooperative Mapping, Localization, and Beam Management via Multi-Modal SLAM in ISAC Systems|Hang Que et.al.|[2507.05718](http://arxiv.org/abs/2507.05718)|null|
 |2025-07-07|Simultaneous Localization and Mapping Using Active mmWave Sensing in 5G NR|Tao Du et.al.|[2507.04662](http://arxiv.org/abs/2507.04662)|null|
 |2025-07-06|Lidar Variability: A Novel Dataset and Comparative Study of Solid-State and Spinning Lidars|Doumegna Mawuto Koudjo Felix et.al.|[2507.04321](http://arxiv.org/abs/2507.04321)|null|
-|2025-07-09|Gaussian-LIC2: LiDAR-Inertial-Camera Gaussian Splatting SLAM|Xiaolei Lang et.al.|[2507.04004](http://arxiv.org/abs/2507.04004)|**[link](https://github.com/APRIL-ZJU/Gaussian-LIC)**|
+|2025-07-09|Gaussian-LIC2: LiDAR-Inertial-Camera Gaussian Splatting SLAM|Xiaolei Lang et.al.|[2507.04004](http://arxiv.org/abs/2507.04004)|[link](https://github.com/APRIL-ZJU/Gaussian-LIC)|
 |2025-07-04|Outdoor Monocular SLAM with Global Scale-Consistent 3D Gaussian Pointmaps|Chong Cheng et.al.|[2507.03737](http://arxiv.org/abs/2507.03737)|[link](https://github.com/3DAgentWorld/S3PO-GS)|
 |2025-07-01|RaGNNarok: A Light-Weight Graph Neural Network for Enhancing Radar Point Clouds on Unmanned Ground Vehicles|David Hunt et.al.|[2507.00937](http://arxiv.org/abs/2507.00937)|null|
 |2025-07-01|Generation of Indoor Open Street Maps for Robot Navigation from CAD Files|Jiajie Zhang et.al.|[2507.00552](http://arxiv.org/abs/2507.00552)|null|

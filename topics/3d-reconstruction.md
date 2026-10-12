@@ -1,6 +1,6 @@
 # 3D Reconstruction
 
-> Updated on 2026.10.11
+> Updated on 2026.10.12
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
@@ -24,7 +24,7 @@
 |2026-09-15|MAETrack: Unleashing the Potential of Pretrained Geometric Priors for 3D Single Object Tracking|Sifan Zhou et.al.|[2609.16695](https://arxiv.org/abs/2609.16695)|null|
 |2026-09-15|Lesion-centered 3D mapping of colonoscopy procedures: validation of a hierarchical ensemble pipeline on public benchmark videos|Hyunjun Kim et.al.|[2609.16672](https://arxiv.org/abs/2609.16672)|null|
 |2026-09-14|SceneBench: A Hierarchical Benchmark for Vision-Language Understanding of 3D Scenes|Anubhav Khanal et.al.|[2609.16233](https://arxiv.org/abs/2609.16233)|null|
-|2026-07-09|Wat3R: Underwater 3D Geometry Learning without Annotations|Jiangwei Ren et.al.|[2607.08772](https://arxiv.org/abs/2607.08772)|null|
+|2026-07-09|Wat3R: Underwater 3D Geometry Learning without Annotations|Jiangwei Ren et.al.|[2607.08772](https://arxiv.org/abs/2607.08772)|**[link](https://github.com/LSXI7/Wat3R)**|
 |2026-07-09|Geometry and Gradient-based Partitioning for Panoramic Outdoor Reconstruction|Weijian Chen et.al.|[2607.08769](https://arxiv.org/abs/2607.08769)|null|
 |2026-07-09|Deep Spectroscopic Follow-Up of Maisie's Galaxy -- A Typical Galaxy in the Early Universe|Rebecca L. Larson et.al.|[2607.08749](https://arxiv.org/abs/2607.08749)|null|
 |2026-07-09|LTM: Large-scale Terrain Model for Wildfire-prone Landscapes|Xiao Fu et.al.|[2607.08711](https://arxiv.org/abs/2607.08711)|null|
@@ -43,7 +43,7 @@
 |2026-06-30|Due-to-Heatwaves Faults in Urban Distribution System: An Identification Approach|Andrea Mazza et.al.|[2606.31210](https://arxiv.org/abs/2606.31210)|null|
 |2026-06-30|CasaMaestro: Multi-View Panoramas for House-Scale 3D Reconstruction|Yuzhou Ji et.al.|[2606.31086](https://arxiv.org/abs/2606.31086)|null|
 |2026-06-30|AnyMatch: Supercharging Universal Multi-Modal Image Matching with Large-Scale Single-View Images|Meng Yang et.al.|[2606.31077](https://arxiv.org/abs/2606.31077)|null|
-|2026-06-30|Learning Video Dynamics with Predictive Differentiable Rendering|Yujin Tang et.al.|[2606.31050](https://arxiv.org/abs/2606.31050)|null|
+|2026-06-30|Learning Video Dynamics with Predictive Differentiable Rendering|Yujin Tang et.al.|[2606.31050](https://arxiv.org/abs/2606.31050)|**[link](https://github.com/yyyujintang/PredGS)**|
 |2026-06-25|3D Imaging of Complex Skyrmion and Hopf Topologies in an Extended Sample|I. Binnie et.al.|[2606.27365](https://arxiv.org/abs/2606.27365)|null|
 |2026-06-25|RayPE: Ray-Space Positional Encoding for 3D-Aware Video Generation|Minghao Yin et.al.|[2606.27345](https://arxiv.org/abs/2606.27345)|null|
 |2026-06-25|SatSplatDiff: Geometry-preserving generative refinement for high-fidelity satellite Gaussian Splatting|Jiyong Kim et.al.|[2606.27223](https://arxiv.org/abs/2606.27223)|null|
@@ -171,7 +171,7 @@
 |2026-04-20|Score-Based Matching with Target Guidance for Cryo-EM Denoising|Xiaoqi Wu et.al.|[2604.17734](https://arxiv.org/abs/2604.17734)|null|
 |2026-04-19|HyKey: Hyperspectral Keypoint Detection and Matching in Minimally Invasive Surgery|Alexander Saikia et.al.|[2604.17446](https://arxiv.org/abs/2604.17446)|null|
 |2026-04-19|A Rapid Deployment Pipeline for Autonomous Humanoid Grasping Based on Foundation Models|Yifei Yan et.al.|[2604.17258](https://arxiv.org/abs/2604.17258)|null|
-|2026-04-17|PoInit-of-View: Poisoning Initialization of Views Transfers Across Multiple 3D Reconstruction Systems|Weijie Wang et.al.|[2604.16540](https://arxiv.org/abs/2604.16540)|**[link](https://github.com/twowwj/PoInit-of-View)**|
+|2026-04-17|PoInit-of-View: Poisoning Initialization of Views Transfers Across Multiple 3D Reconstruction Systems|Weijie Wang et.al.|[2604.16540](https://arxiv.org/abs/2604.16540)|[link](https://github.com/twowwj/PoInit-of-View)|
 |2026-04-17|Neural Gabor Splatting: Enhanced Gaussian Splatting with Neural Gabor for High-frequency Surface Reconstruction|Haato Watanabe et.al.|[2604.15941](https://arxiv.org/abs/2604.15941)|null|
 |2026-04-17|Splats in Splats++: Robust and Generalizable 3D Gaussian Splatting Steganography|Yijia Guo et.al.|[2604.15862](https://arxiv.org/abs/2604.15862)|null|
 |2026-04-16|CAVERS: Multimodal SLAM Data from a Natural Karstic Cave with Ground Truth Motion Capture|Giacomo Franchini et.al.|[2604.15052](https://arxiv.org/abs/2604.15052)|null|
@@ -197,7 +197,7 @@
 |2026-04-07|SmokeGS-R: Physics-Guided Pseudo-Clean 3DGS for Real-World Multi-View Smoke Restoration|Xueming Fu et.al.|[2604.05301](https://arxiv.org/abs/2604.05301)|null|
 |2026-04-06|Coverage Optimization for Camera View Selection|Timothy Chen et.al.|[2604.05259](https://arxiv.org/abs/2604.05259)|null|
 |2026-04-06|LSRM: High-Fidelity Object-Centric Reconstruction via Scaled Context Windows|Zhengqin Li et.al.|[2604.05182](https://arxiv.org/abs/2604.05182)|null|
-|2026-04-06|LoMa: Local Feature Matching Revisited|David Nordström et.al.|[2604.04931](https://arxiv.org/abs/2604.04931)|null|
+|2026-04-06|LoMa: Local Feature Matching Revisited|David Nordström et.al.|[2604.04931](https://arxiv.org/abs/2604.04931)|**[link](https://github.com/davnords/LoMa)**|
 |2026-04-06|3D Gaussian Splatting for Annular Dark Field Scanning Transmission Electron Microscopy Tomography Reconstruction|Beiyuan Zhang et.al.|[2604.04693](https://arxiv.org/abs/2604.04693)|null|
 |2026-03-30|TerraSky3D: Multi-View Reconstructions of European Landmarks in 4K|Mattia D'Urso et.al.|[2603.28287](https://arxiv.org/abs/2603.28287)|null|
 |2026-03-29|MV-RoMa: From Pairwise Matching into Multi-View Track Reconstruction|Jongmin Lee et.al.|[2603.27542](https://arxiv.org/abs/2603.27542)|[link](https://github.com/IceTea-CV/MV-RoMa)|
@@ -415,9 +415,9 @@
 |2025-09-09|Australian Supermarket Object Set (ASOS): A Benchmark Dataset of Physical Objects and 3D Models for Robotics and Computer Vision|Akansel Cosgun et.al.|[2509.09720](http://arxiv.org/abs/2509.09720)|null|
 |2025-09-10|VIM-GS: Visual-Inertial Monocular Gaussian Splatting via Object-level Guidance in Large Scenes|Shengkai Zhang et.al.|[2509.06685](http://arxiv.org/abs/2509.06685)|null|
 |2025-09-02|Doctoral Thesis: Geometric Deep Learning For Camera Pose Prediction, Registration, Depth Estimation, and 3D Reconstruction|Xueyang Kang et.al.|[2509.01873](http://arxiv.org/abs/2509.01873)|null|
-|2025-08-25|SAIL-Recon: Large SfM by Augmenting Scene Regression with Localization|Junyuan Deng et.al.|[2508.17972](http://arxiv.org/abs/2508.17972)|null|
+|2025-08-25|SAIL-Recon: Large SfM by Augmenting Scene Regression with Localization|Junyuan Deng et.al.|[2508.17972](http://arxiv.org/abs/2508.17972)|**[link](https://github.com/HKUST-SAIL/sail-recon)**|
 |2025-08-25|HOSt3R: Keypoint-free Hand-Object 3D Reconstruction from RGB images|Anilkumar Swamy et.al.|[2508.16465](http://arxiv.org/abs/2508.16465)|null|
-|2025-08-22|NeuralMeshing: Complete Object Mesh Extraction from Casual Captures|Floris Erich et.al.|[2508.16026](http://arxiv.org/abs/2508.16026)|null|
+|2025-08-22|NeuralMeshing: Complete Object Mesh Extraction from Casual Captures|Floris Erich et.al.|[2508.16026](http://arxiv.org/abs/2508.16026)|**[link](https://github.com/FlorisE/NeuralMeshing)**|
 |2025-08-21|Enhancing Novel View Synthesis from extremely sparse views with SfM-free 3D Gaussian Splatting Framework|Zongqi He et.al.|[2508.15457](http://arxiv.org/abs/2508.15457)|null|
 |2025-08-20|GeMS: Efficient Gaussian Splatting for Extreme Motion Blur|Gopi Raju Matta et.al.|[2508.14682](http://arxiv.org/abs/2508.14682)|null|
 |2025-08-10|GS4Buildings: Prior-Guided Gaussian Splatting for 3D Building Reconstruction|Qilin Zhang et.al.|[2508.07355](http://arxiv.org/abs/2508.07355)|null|
