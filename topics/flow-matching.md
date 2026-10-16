@@ -1,9 +1,19 @@
 # Flow Matching
 
-> Updated on 2026.10.12
+> Updated on 2026.10.16
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-10-15**|**PathFM: Fast Generative Forecasting of Multivariate Trajectories**|Jiachen Yao et.al.|[2610.22358](https://arxiv.org/abs/2610.22358)|null|
+|**2026-10-15**|**MOSS: Mode-Oriented Source Shaping for Robot Flow Matching Policies**|Zirun Ma et.al.|[2610.22193](https://arxiv.org/abs/2610.22193)|**[link](https://github.com/Mmmmazr/moss)**|
+|**2026-10-15**|**REKI: Registering Knowledge in VLAs**|Juliette Marrie et.al.|[2610.22178](https://arxiv.org/abs/2610.22178)|null|
+|**2026-10-15**|**Conditional Mean Flows: Few-Step Densities for Simulation-Based Inference**|Jonas Arruda et.al.|[2610.21657](https://arxiv.org/abs/2610.21657)|null|
+|**2026-10-15**|**Rethinking Classifier-Free Guidance for TI2I Flow Matching**|Andreas Floros et.al.|[2610.21550](https://arxiv.org/abs/2610.21550)|null|
+|**2026-10-15**|**Semantic Latent Alignment for Flow Matching with Invertible Bi-Lipschitz Adapters**|Felix Nützel et.al.|[2610.21332](https://arxiv.org/abs/2610.21332)|null|
+|**2026-10-15**|**FocusOPD: Structure-Guided On-Policy Distillation for Diffusion Models**|Xinrui Lin et.al.|[2610.21250](https://arxiv.org/abs/2610.21250)|null|
+|**2026-10-15**|**ControlFlow3D: Distilling Multi-View Knowledge into Latent Flow Matching for Point Cloud Upsampling**|Yuang Liu et.al.|[2610.21190](https://arxiv.org/abs/2610.21190)|null|
+|**2026-10-15**|**RoPE-Flow: Monocular Vision-based Robot Pose Estimation via 2D Graph-Conditioned 3D Flow Matching**|Liangjing Shao et.al.|[2610.21086](https://arxiv.org/abs/2610.21086)|null|
+|**2026-10-14**|**MIDI-REPA: Improving Text-to-Music Generation with Symbolic Representation Alignment**|Song-Ze Yu et.al.|[2610.20967](https://arxiv.org/abs/2610.20967)|null|
 |2026-10-08|Bi-FORK: Generative Modeling of High-Dimensional Bifurcating Systems|Anna Zimmel et.al.|[2610.12449](https://arxiv.org/abs/2610.12449)|null|
 |2026-10-08|Generative Neural Retargeting for Human-to-Robot Dexterous Manipulation|Dechen Gao et.al.|[2610.12440](https://arxiv.org/abs/2610.12440)|null|
 |2026-10-08|LeWAM: A JEPA World Action Model with Diffusion-Steering-Based MPC|Shashank Hegde et.al.|[2610.12407](https://arxiv.org/abs/2610.12407)|null|
