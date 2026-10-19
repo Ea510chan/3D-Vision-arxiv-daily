@@ -1,6 +1,6 @@
 # Image Matching
 
-> Updated on 2026.10.16
+> Updated on 2026.10.19
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
@@ -103,7 +103,7 @@
 |2025-11-24|Machine Learning Based Identification of Solar Disk and Plages in Kodaikanal Solar Observatory Historical Suncharts|Dibya Kirti Mishra et.al.|[2511.19040](http://arxiv.org/abs/2511.19040)|null|
 |2025-11-24|VeCoR - Velocity Contrastive Regularization for Flow Matching|Zong-Wei Hong et.al.|[2511.18942](http://arxiv.org/abs/2511.18942)|null|
 |2025-11-24|FlowSteer: Guiding Few-Step Image Synthesis with Authentic Trajectories|Lei Ke et.al.|[2511.18834](http://arxiv.org/abs/2511.18834)|null|
-|2025-11-24|VideoCompressa: Data-Efficient Video Understanding via Joint Temporal Compression and Spatial Reconstruction|Shaobo Wang et.al.|[2511.18831](http://arxiv.org/abs/2511.18831)|null|
+|2025-11-24|VideoCompressa: Data-Efficient Video Understanding via Joint Temporal Compression and Spatial Reconstruction|Shaobo Wang et.al.|[2511.18831](http://arxiv.org/abs/2511.18831)|**[link](https://github.com/gszfwsb/VideoCompressa)**|
 |2025-11-24|NI-Tex: Non-isometric Image-based Garment Texture Generation|Hui Shan et.al.|[2511.18765](http://arxiv.org/abs/2511.18765)|[link](https://github.com/SII-Hui/NI-Tex)|
 |2025-12-26|SPIDER: Spatial Image CorresponDence Estimator for Robust Calibration|Zhimin Shao et.al.|[2511.17750](https://arxiv.org/abs/2511.17750)|null|
 |2025-11-21|MuM: Multi-View Masked Image Modeling for 3D Vision|David Nordström et.al.|[2511.17309](http://arxiv.org/abs/2511.17309)|null|

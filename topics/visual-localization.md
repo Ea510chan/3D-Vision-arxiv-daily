@@ -1,6 +1,6 @@
 # Visual Localization
 
-> Updated on 2026.10.16
+> Updated on 2026.10.19
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|

@@ -1,6 +1,6 @@
 # Novel View Synthesis
 
-> Updated on 2026.10.16
+> Updated on 2026.10.19
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
@@ -35,7 +35,7 @@
 |2026-07-06|GUSH3R: Everyone Everywhere All at Once as Gaussians|Keito Abe et.al.|[2607.05243](https://arxiv.org/abs/2607.05243)|null|
 |2026-07-04|MACRO: Training-free Multi-plane Attention for Closeup Render Optimization|Nitzan Hodos et.al.|[2607.03875](https://arxiv.org/abs/2607.03875)|null|
 |2026-06-30|Practical High-Fidelity Novel-View Synthesis of Mounted Lepidoptera|Kristof Overdulve et.al.|[2606.31679](https://arxiv.org/abs/2606.31679)|null|
-|2026-06-30|DPPE: Rethinking Camera-Based Positional Encoding for Scaling Multi-View Transformers|Shun Kenney et.al.|[2606.31585](https://arxiv.org/abs/2606.31585)|**[link](https://github.com/sbintuitions/dppe)**|
+|2026-06-30|DPPE: Rethinking Camera-Based Positional Encoding for Scaling Multi-View Transformers|Shun Kenney et.al.|[2606.31585](https://arxiv.org/abs/2606.31585)|[link](https://github.com/sbintuitions/dppe)|
 |2026-06-30|WarpHammer: Densifying Scene Warps with 3D Object Priors for Extreme View Synthesis|Michael Green et.al.|[2606.31258](https://arxiv.org/abs/2606.31258)|null|
 |2026-06-29|StereoGS: Sparse-View 3D Gaussian Splatting via Stereo Priors|Wenhao Yuan et.al.|[2606.30545](https://arxiv.org/abs/2606.30545)|null|
 |2026-06-29|RenderFormer++: Scalable and Physically Grounded Feed-Forward Neural Rendering|Huangsheng Du et.al.|[2606.30380](https://arxiv.org/abs/2606.30380)|null|

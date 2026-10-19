@@ -1,6 +1,6 @@
 # Point Cloud Registration
 
-> Updated on 2026.10.16
+> Updated on 2026.10.19
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
@@ -143,7 +143,7 @@
 |2025-07-09|Diff $^2$ I2P: Differentiable Image-to-Point Cloud Registration with Diffusion Prior|Juncheng Mu et.al.|[2507.06651](http://arxiv.org/abs/2507.06651)|null|
 |2025-07-07|Simultaneous Localization and Mapping Using Active mmWave Sensing in 5G NR|Tao Du et.al.|[2507.04662](http://arxiv.org/abs/2507.04662)|null|
 |2025-07-06|Lidar Variability: A Novel Dataset and Comparative Study of Solid-State and Spinning Lidars|Doumegna Mawuto Koudjo Felix et.al.|[2507.04321](http://arxiv.org/abs/2507.04321)|null|
-|2025-07-03|TurboReg: TurboClique for Robust and Efficient Point Cloud Registration|Shaocheng Yan et.al.|[2507.01439](http://arxiv.org/abs/2507.01439)|null|
+|2025-07-03|TurboReg: TurboClique for Robust and Efficient Point Cloud Registration|Shaocheng Yan et.al.|[2507.01439](http://arxiv.org/abs/2507.01439)|**[link](https://github.com/Laka-3DV/TurboReg)**|
 |2025-06-26|CA-I2P: Channel-Adaptive Registration Network with Global Optimal Selection|Zhixin Cheng et.al.|[2506.21364](http://arxiv.org/abs/2506.21364)|null|
 |2025-06-18|Correspondence-Free Multiview Point Cloud Registration via Depth-Guided Joint Optimisation|Yiran Zhou et.al.|[2506.18922](http://arxiv.org/abs/2506.18922)|null|
 |2025-06-18|BCRNet: Enhancing Landmark Detection in Laparoscopic Liver Surgery via Bezier Curve Refinement|Qian Li et.al.|[2506.15279](http://arxiv.org/abs/2506.15279)|[link](https://github.com/jinlab-imvr/BCRNet)|

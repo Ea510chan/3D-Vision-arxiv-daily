@@ -1,6 +1,6 @@
 # SLAM
 
-> Updated on 2026.10.16
+> Updated on 2026.10.19
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
@@ -115,7 +115,7 @@
 |2026-05-12|WildPose: A Unified Framework for Robust Pose Estimation in the Wild|Jianhao Zheng et.al.|[2605.12774](https://arxiv.org/abs/2605.12774)|[link](https://github.com/GradientSpaces/WildPose)|
 |2026-05-11|MAGS-SLAM: Monocular Multi-Agent Gaussian Splatting SLAM for Geometrically and Photometrically Consistent Reconstruction|Zhihao Cao et.al.|[2605.10760](https://arxiv.org/abs/2605.10760)|null|
 |2026-05-10|Above and Below: Heterogeneous Multi-robot SLAM Across Surface and Underwater Domains|John McConnell et.al.|[2605.09811](https://arxiv.org/abs/2605.09811)|null|
-|2026-05-08|AERO-VIS: Asynchronous Event-based Real-time Onboard Visual-Inertial SLAM|Yannick Burkhardt et.al.|[2605.07885](https://arxiv.org/abs/2605.07885)|**[link](https://github.com/ethz-mrl/AERO-VIS)**|
+|2026-05-08|AERO-VIS: Asynchronous Event-based Real-time Onboard Visual-Inertial SLAM|Yannick Burkhardt et.al.|[2605.07885](https://arxiv.org/abs/2605.07885)|[link](https://github.com/ethz-mrl/AERO-VIS)|
 |2026-05-07|GA3T: A Ground-Aerial Terrain Traversability Dataset for Heterogeneous Robot Teams in Unstructured Environments|Siwei Cai et.al.|[2605.06478](https://arxiv.org/abs/2605.06478)|null|
 |2026-05-07|Indoor 60 GHz Radio Channel Dataset Enabling Digital Twin Construction|Davide Scazzoli et.al.|[2605.05824](https://arxiv.org/abs/2605.05824)|null|
 |2026-05-08|SLAM: Structural Linguistic Activation Marking for Language Models|Fabrice Harel-Canada et.al.|[2605.05443](https://arxiv.org/abs/2605.05443)|null|
@@ -136,7 +136,7 @@
 |2026-04-27|Event-based SLAM Benchmark for High-Speed Maneuvers|Sheng Zhong et.al.|[2604.24033](https://arxiv.org/abs/2604.24033)|null|
 |2026-04-24|Railway Artificial Intelligence Learning Benchmark (RAIL-BENCH): A Benchmark Suite for Perception in the Railway Domain|Annika Bätz et.al.|[2604.22507](https://arxiv.org/abs/2604.22507)|null|
 |2026-04-24|Holo360D: A Large-Scale Real-World Dataset with Continuous Trajectories for Advancing Panoramic 3D Reconstruction and Beyond|Jing Ou et.al.|[2604.22482](https://arxiv.org/abs/2604.22482)|null|
-|2026-04-24|PoseFM: Relative Camera Pose Estimation Through Flow Matching|Dominik Kuczkowski et.al.|[2604.22350](https://arxiv.org/abs/2604.22350)|**[link](https://github.com/helsinki-sda-group/posefm)**|
+|2026-04-24|PoseFM: Relative Camera Pose Estimation Through Flow Matching|Dominik Kuczkowski et.al.|[2604.22350](https://arxiv.org/abs/2604.22350)|[link](https://github.com/helsinki-sda-group/posefm)|
 |2026-04-15|RadarSplat-RIO: Indoor Radar-Inertial Odometry with Gaussian Splatting-Based Radar Bundle Adjustment|Pou-Chun Kung et.al.|[2604.13492](https://arxiv.org/abs/2604.13492)|null|
 |2026-04-09|TinyDEVO: Deep Event-based Visual Odometry on Ultra-low-power Multi-core Microcontrollers|Alessandro Marchei et.al.|[2604.08060](https://arxiv.org/abs/2604.08060)|null|
 |2026-04-08|VGGT-SLAM++|Avilasha Mandal et.al.|[2604.06830](https://arxiv.org/abs/2604.06830)|null|
