@@ -1,9 +1,19 @@
 # SLAM
 
-> Updated on 2026.10.19
+> Updated on 2026.10.21
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-10-20**|**MAPLE: Mondrian-Anchored Prior for Learning-free Indoor Exploration**|Kelvin Aladum et.al.|[2610.28566](https://arxiv.org/abs/2610.28566)|null|
+|**2026-10-20**|**A Head Camera Is (Almost) All You Need: An Electronics-Free UMI Glove Labelled and Observed by One Moving Camera**|Yosub Shin et.al.|[2610.27622](https://arxiv.org/abs/2610.27622)|null|
+|**2026-10-19**|**V-JEPA Hand: Simple, Accurate and Fast 3D Hand and Camera Trajectory Recovery from Egocentric Videos**|Ruicheng Li et.al.|[2610.26780](https://arxiv.org/abs/2610.26780)|null|
+|**2026-10-19**|**CAOS-SLAM: Class-Agnostic Object-Aware Real-Time vSLAM for Dynamic Environments**|Gaia Borghi et.al.|[2610.26633](https://arxiv.org/abs/2610.26633)|null|
+|**2026-10-19**|**EgoXperience: Learning World-Grounded Egocentric Representations from Human Experience**|Xinhao Ji et.al.|[2610.26625](https://arxiv.org/abs/2610.26625)|null|
+|**2026-10-18**|**GOFusion: Real-Time Gaussian-Occupancy Submap Fusion for Fisher-Informed Autonomous Robot Navigation**|Boxin Bu et.al.|[2610.25261](https://arxiv.org/abs/2610.25261)|null|
+|**2026-10-16**|**The Rise of Personal Trackers as the Next Infrastructure for Ubiquitous Positioning**|Mohamed I. Hany et.al.|[2610.24249](https://arxiv.org/abs/2610.24249)|null|
+|**2026-10-16**|**F-LIVO: A Feature-Level Geometric Measurement Framework for LiDAR-Inertial-Visual Odometry**|Xinye Dai et.al.|[2610.23595](https://arxiv.org/abs/2610.23595)|null|
+|**2026-10-16**|**FLoTS-SLAM: Optical Flow-Derived Uncertainty for Monocular Dynamic SLAM with Two-Stage Optimization**|Haorui Du et.al.|[2610.23496](https://arxiv.org/abs/2610.23496)|null|
+|**2026-10-15**|**RTISSLAM-3D: Full 6-DoF SLAM With an In-Air 3D Imaging Sonar**|Jan Steckel et.al.|[2610.22552](https://arxiv.org/abs/2610.22552)|null|
 |2026-09-24|FMCW-LIO: A Doppler LiDAR-Inertial Odometry|Mingle Zhao et.al.|[2609.29374](https://arxiv.org/abs/2609.29374)|[link](https://github.com/IMRL/FMCW-LIO)|
 |2026-09-23|PTC-Bias: Phoneme-Level Temporal Competition for Bias Retrieval and Post-Decoding Correction in Speech LLMs|Zhiqi Ai et.al.|[2609.28727](https://arxiv.org/abs/2609.28727)|null|
 |2026-09-23|DAVIO: Dense Monocular-Inertial SLAM with Feed-Forward Initialization and Pose-Conditioned Mapping|Jaafar Mahmoud et.al.|[2609.27702](https://arxiv.org/abs/2609.27702)|null|
