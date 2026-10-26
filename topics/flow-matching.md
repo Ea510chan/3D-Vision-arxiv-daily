@@ -221,7 +221,7 @@
 |2026-05-07|Flow Matching with Arbitrary Auxiliary Paths|Xin Peng et.al.|[2605.06364](https://arxiv.org/abs/2605.06364)|null|
 |2026-05-07|A Flow Matching Algorithm for Many-Shot Adaptation to Unseen Distributions|Tyler Ingebrand et.al.|[2605.06272](https://arxiv.org/abs/2605.06272)|null|
 |2026-05-07|Predictive-Generative Drift Decomposition for Speech Enhancement and Separation|Julius Richter et.al.|[2605.06189](https://arxiv.org/abs/2605.06189)|null|
-|2026-05-07|Entropy-Regularized Adjoint Matching for Offline RL|Abdelghani Ghanem et.al.|[2605.06156](https://arxiv.org/abs/2605.06156)|null|
+|2026-05-07|Entropy-Regularized Adjoint Matching for Offline RL|Abdelghani Ghanem et.al.|[2605.06156](https://arxiv.org/abs/2605.06156)|**[link](https://github.com/MIT-REALM/laser)**|
 |2026-05-07|SymDrift: One-Shot Generative Modeling under Symmetries|Samir Darouich et.al.|[2605.06140](https://arxiv.org/abs/2605.06140)|null|
 |2026-05-05|Flow Sampling: Learning to Sample from Unnormalized Densities via Denoising Conditional Processes|Aaron Havens et.al.|[2605.03984](https://arxiv.org/abs/2605.03984)|null|
 |2026-05-05|FluxFlow: Conservative Flow-Matching for Astronomical Image Super-Resolution|Shuhong Liu et.al.|[2605.03749](https://arxiv.org/abs/2605.03749)|null|

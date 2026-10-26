@@ -4,19 +4,19 @@
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-10-22**|**Consistent Distributed Invariant EKF SLAM with Point and Object Features**|Mengya Xu et.al.|[2610.31221](https://arxiv.org/abs/2610.31221)|null|
-|**2026-10-22**|**Evaluation of Front-End Feature Matching for Lunar Visual SLAM**|Guillem Casadesus Vila et.al.|[2610.30774](https://arxiv.org/abs/2610.30774)|null|
-|**2026-10-21**|**DewHand: Direct Metric World-Space Hand Motion Reconstruction from Egocentric Videos**|Naru Suzuki et.al.|[2610.29936](https://arxiv.org/abs/2610.29936)|null|
-|**2026-10-20**|**MAPLE: Mondrian-Anchored Prior for Learning-free Indoor Exploration**|Kelvin Aladum et.al.|[2610.28566](https://arxiv.org/abs/2610.28566)|null|
-|**2026-10-20**|**A Head Camera Is (Almost) All You Need: An Electronics-Free UMI Glove Labelled and Observed by One Moving Camera**|Yosub Shin et.al.|[2610.27622](https://arxiv.org/abs/2610.27622)|null|
-|**2026-10-19**|**V-JEPA Hand: Simple, Accurate and Fast 3D Hand and Camera Trajectory Recovery from Egocentric Videos**|Ruicheng Li et.al.|[2610.26780](https://arxiv.org/abs/2610.26780)|null|
-|**2026-10-19**|**CAOS-SLAM: Class-Agnostic Object-Aware Real-Time vSLAM for Dynamic Environments**|Gaia Borghi et.al.|[2610.26633](https://arxiv.org/abs/2610.26633)|null|
-|**2026-10-19**|**EgoXperience: Learning World-Grounded Egocentric Representations from Human Experience**|Xinhao Ji et.al.|[2610.26625](https://arxiv.org/abs/2610.26625)|null|
-|**2026-10-18**|**GOFusion: Real-Time Gaussian-Occupancy Submap Fusion for Fisher-Informed Autonomous Robot Navigation**|Boxin Bu et.al.|[2610.25261](https://arxiv.org/abs/2610.25261)|null|
-|**2026-10-16**|**The Rise of Personal Trackers as the Next Infrastructure for Ubiquitous Positioning**|Mohamed I. Hany et.al.|[2610.24249](https://arxiv.org/abs/2610.24249)|null|
-|**2026-10-16**|**F-LIVO: A Feature-Level Geometric Measurement Framework for LiDAR-Inertial-Visual Odometry**|Xinye Dai et.al.|[2610.23595](https://arxiv.org/abs/2610.23595)|null|
-|**2026-10-16**|**FLoTS-SLAM: Optical Flow-Derived Uncertainty for Monocular Dynamic SLAM with Two-Stage Optimization**|Haorui Du et.al.|[2610.23496](https://arxiv.org/abs/2610.23496)|null|
-|**2026-10-15**|**RTISSLAM-3D: Full 6-DoF SLAM With an In-Air 3D Imaging Sonar**|Jan Steckel et.al.|[2610.22552](https://arxiv.org/abs/2610.22552)|null|
+|2026-10-22|Consistent Distributed Invariant EKF SLAM with Point and Object Features|Mengya Xu et.al.|[2610.31221](https://arxiv.org/abs/2610.31221)|null|
+|2026-10-22|Evaluation of Front-End Feature Matching for Lunar Visual SLAM|Guillem Casadesus Vila et.al.|[2610.30774](https://arxiv.org/abs/2610.30774)|null|
+|2026-10-21|DewHand: Direct Metric World-Space Hand Motion Reconstruction from Egocentric Videos|Naru Suzuki et.al.|[2610.29936](https://arxiv.org/abs/2610.29936)|null|
+|2026-10-20|MAPLE: Mondrian-Anchored Prior for Learning-free Indoor Exploration|Kelvin Aladum et.al.|[2610.28566](https://arxiv.org/abs/2610.28566)|null|
+|2026-10-20|A Head Camera Is (Almost) All You Need: An Electronics-Free UMI Glove Labelled and Observed by One Moving Camera|Yosub Shin et.al.|[2610.27622](https://arxiv.org/abs/2610.27622)|null|
+|2026-10-19|V-JEPA Hand: Simple, Accurate and Fast 3D Hand and Camera Trajectory Recovery from Egocentric Videos|Ruicheng Li et.al.|[2610.26780](https://arxiv.org/abs/2610.26780)|null|
+|2026-10-19|CAOS-SLAM: Class-Agnostic Object-Aware Real-Time vSLAM for Dynamic Environments|Gaia Borghi et.al.|[2610.26633](https://arxiv.org/abs/2610.26633)|null|
+|2026-10-19|EgoXperience: Learning World-Grounded Egocentric Representations from Human Experience|Xinhao Ji et.al.|[2610.26625](https://arxiv.org/abs/2610.26625)|null|
+|2026-10-18|GOFusion: Real-Time Gaussian-Occupancy Submap Fusion for Fisher-Informed Autonomous Robot Navigation|Boxin Bu et.al.|[2610.25261](https://arxiv.org/abs/2610.25261)|null|
+|2026-10-16|The Rise of Personal Trackers as the Next Infrastructure for Ubiquitous Positioning|Mohamed I. Hany et.al.|[2610.24249](https://arxiv.org/abs/2610.24249)|null|
+|2026-10-16|F-LIVO: A Feature-Level Geometric Measurement Framework for LiDAR-Inertial-Visual Odometry|Xinye Dai et.al.|[2610.23595](https://arxiv.org/abs/2610.23595)|null|
+|2026-10-16|FLoTS-SLAM: Optical Flow-Derived Uncertainty for Monocular Dynamic SLAM with Two-Stage Optimization|Haorui Du et.al.|[2610.23496](https://arxiv.org/abs/2610.23496)|null|
+|2026-10-15|RTISSLAM-3D: Full 6-DoF SLAM With an In-Air 3D Imaging Sonar|Jan Steckel et.al.|[2610.22552](https://arxiv.org/abs/2610.22552)|null|
 |2026-09-24|FMCW-LIO: A Doppler LiDAR-Inertial Odometry|Mingle Zhao et.al.|[2609.29374](https://arxiv.org/abs/2609.29374)|[link](https://github.com/IMRL/FMCW-LIO)|
 |2026-09-23|PTC-Bias: Phoneme-Level Temporal Competition for Bias Retrieval and Post-Decoding Correction in Speech LLMs|Zhiqi Ai et.al.|[2609.28727](https://arxiv.org/abs/2609.28727)|null|
 |2026-09-23|DAVIO: Dense Monocular-Inertial SLAM with Feed-Forward Initialization and Pose-Conditioned Mapping|Jaafar Mahmoud et.al.|[2609.27702](https://arxiv.org/abs/2609.27702)|null|
@@ -88,7 +88,7 @@
 |2026-06-25|PanoImager: Geometry-Guided Novel View Synthesis and Reconstruction from Sparse Panoramic Views|Zhisong Xu et.al.|[2606.27071](https://arxiv.org/abs/2606.27071)|null|
 |2026-06-24|RoboAtlas: Contextual Active SLAM|Alexander Schperberg et.al.|[2606.26046](https://arxiv.org/abs/2606.26046)|null|
 |2026-06-24|DSP-SLAM++: A Unified Framework for Multi-Class, High-Fidelity Object SLAM in the Wild|Ahmad Kourani et.al.|[2606.25953](https://arxiv.org/abs/2606.25953)|null|
-|2026-06-24|SA-LIVO: Efficient LiDAR-Inertial-Visual Odometry with Subspace-Aware Degeneracy Handling|Yinong Cao et.al.|[2606.25699](https://arxiv.org/abs/2606.25699)|null|
+|2026-06-24|SA-LIVO: Efficient LiDAR-Inertial-Visual Odometry with Subspace-Aware Degeneracy Handling|Yinong Cao et.al.|[2606.25699](https://arxiv.org/abs/2606.25699)|**[link](https://github.com/Huashuijingying/SA-LIVO-Reimpl)**|
 |2026-06-24|OrthoTrack: Continuous 6-DoF UAV Trajectory Estimation Anchored in Public Orthophotos|Oussema Dhaouadi et.al.|[2606.25245](https://arxiv.org/abs/2606.25245)|null|
 |2026-06-23|Vision-Language Model Reasoning for Contextual Semantic Mapping in Intralogistics|Marvin Rüdt et.al.|[2606.24814](https://arxiv.org/abs/2606.24814)|null|
 |2026-06-23|Pocket-SLAM: Rendering-Area-Aware Pruning for Memory-Efficient 3DGS-SLAM|Leshu Li et.al.|[2606.24796](https://arxiv.org/abs/2606.24796)|null|
