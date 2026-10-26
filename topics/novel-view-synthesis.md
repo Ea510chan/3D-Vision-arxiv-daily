@@ -1,9 +1,19 @@
 # Novel View Synthesis
 
-> Updated on 2026.10.21
+> Updated on 2026.10.26
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-10-23**|**CompMVR: Compression-Aware Multi-View Restoration Using Diffusion Models for Geometrically Consistent 3D Reconstruction**|Dong-hwi Kim et.al.|[2610.32800](https://arxiv.org/abs/2610.32800)|null|
+|**2026-10-23**|**Towards Effective and Transferable Physical Camouflage against Multi-View BEV-based 3D Perception in Autonomous Driving**|Linye Lyu et.al.|[2610.32230](https://arxiv.org/abs/2610.32230)|null|
+|**2026-10-23**|**RADIANT: Object-Centric Feed-Forward Global Illumination**|Sarah Zhang et.al.|[2610.32075](https://arxiv.org/abs/2610.32075)|null|
+|**2026-10-22**|**GSHeadRelight: Fast Relightability for 3D Gaussian Head Synthesis**|Henglei Lv et.al.|[2610.30619](https://arxiv.org/abs/2610.30619)|**[link](https://github.com/IGLICT/GSHeadRelight)**|
+|**2026-10-21**|**RayCo4D: Ray-Conditioned Continuous Motion Model for Monocular 4D Dynamic Reconstruction**|Yuanxiang Ni et.al.|[2610.28351](https://arxiv.org/abs/2610.28351)|**[link](https://github.com/123n123/RayCo4D)**|
+|**2026-10-20**|**HRoPE: Homography Relative Positional Encoding**|Huachen Gao et.al.|[2610.28284](https://arxiv.org/abs/2610.28284)|null|
+|**2026-10-20**|**CrossFit-GS: Out-of-Fold Pose Estimation for COLMAP-Free 3D Gaussian Splatting**|Zijian Wu et.al.|[2610.28190](https://arxiv.org/abs/2610.28190)|null|
+|**2026-10-20**|**Geometry Regularization for Vanilla NeRF via Self-Supervised Cross-Ray Consistency**|Zongji Wang et.al.|[2610.27776](https://arxiv.org/abs/2610.27776)|null|
+|**2026-10-19**|**Rethinking Sparse-View 3D Gaussian Splatting: A Few-Shot Learning Perspective on Overfitting Prevention**|Lejia Ye et.al.|[2610.25887](https://arxiv.org/abs/2610.25887)|null|
+|**2026-10-18**|**Holo4D: Holistic 4D Reconstruction as Geometric Control for Video Diffusion**|Yushi Lan et.al.|[2610.25276](https://arxiv.org/abs/2610.25276)|null|
 |2026-09-24|Towards Practical Compression of 3D Gaussian Splatting|Pengpeng Yu et.al.|[2609.30245](https://arxiv.org/abs/2609.30245)|null|
 |2026-09-24|M3GD: Multi-Modal Multi-View Geometric Diffusion for Camera--LiDAR Novel View Synthesis|Yang Zhou et.al.|[2609.30056](https://arxiv.org/abs/2609.30056)|null|
 |2026-09-24|From Scattered Gaussians to Structured Maps: Efficient Gaussian Splatting Coding via Dual-phase Morton Sorting|Bolin Chen et.al.|[2609.29041](https://arxiv.org/abs/2609.29041)|null|
