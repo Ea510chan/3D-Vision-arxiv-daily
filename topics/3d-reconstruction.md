@@ -1,9 +1,19 @@
 # 3D Reconstruction
 
-> Updated on 2026.10.26
+> Updated on 2026.10.31
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-10-29**|**LucidLyra: Feed-Forward Generative 3D Scene Reconstruction and Joint Understanding via Multi-Task Distillation**|Oliver Hahn et.al.|[2610.40495](https://arxiv.org/abs/2610.40495)|null|
+|**2026-10-29**|**Electronic liquid crystals and superconductivity from doping a moiré Mott insulator**|Yichi Zhang et.al.|[2610.39978](https://arxiv.org/abs/2610.39978)|null|
+|**2026-10-29**|**MLLM-GS: Multimodal Large Language Model Prior-Guided Fast Novel View Synthesis in Extreme Environments**|Zhiliang Wu et.al.|[2610.39936](https://arxiv.org/abs/2610.39936)|null|
+|**2026-10-29**|**Implementation and Validation of Mismatch-Tolerant High-Gain OTA with a Calibrated Negative Conductance Load**|Mayank Aggarwal et.al.|[2610.39699](https://arxiv.org/abs/2610.39699)|null|
+|**2026-10-28**|**800 $^\circ$C Air-Ambient Operation of Extreme-Bandgap Al$_{x}$Ga$_{1-x}$ N (x>0.6) Digital and Random-Alloy Channel HEMTs**|Abdullah Al Mamun Mazumder et.al.|[2610.39053](https://arxiv.org/abs/2610.39053)|null|
+|**2026-10-28**|**Dual Area-Volume-of-Fluid (DAVOF): co-advecting volume and face-area fractions for a closed-form, cell-local interface normal and position on unstructured meshes**|Tomislav Marić et.al.|[2610.38863](https://arxiv.org/abs/2610.38863)|null|
+|**2026-10-28**|**Environmental Quenching of Satellite Galaxies out to z~0.4 with GAMA and DEVILS**|Megan Oxland et.al.|[2610.38836](https://arxiv.org/abs/2610.38836)|null|
+|**2026-10-28**|**Shock detection in meshless finite mass hydrodynamic schemes**|Ludwig M. Böss et.al.|[2610.38700](https://arxiv.org/abs/2610.38700)|null|
+|**2026-10-28**|**Volley3D: Unified 3D Full-Sequence Reconstruction from Monocular Broadcasts**|Noâm Boussouf et.al.|[2610.38358](https://arxiv.org/abs/2610.38358)|null|
+|**2026-10-28**|**Aligning Misaligned Benchmarks for Single-View Novel View Synthesis**|Yang-Che Tseng et.al.|[2610.38349](https://arxiv.org/abs/2610.38349)|null|
 |2026-09-24|OmniFabric: Coherent UV Space Texture Synthesis for 3D Garment Reconstruction|Ding-Jiun Huang et.al.|[2609.30234](https://arxiv.org/abs/2609.30234)|[link](https://github.com/humansensinglab/OmniFabric)|
 |2026-09-24|Integration of p-type Cr2O3 on Ultra-Wide Bandgap AlGaN PolFETs with 2.5 kV Breakdown Voltage|Jonathan Pratt et.al.|[2609.29990](https://arxiv.org/abs/2609.29990)|null|
 |2026-09-24|OceanXL: Large-scale Underwater 3D Gaussian Splatting via Block Partitioning and Adaptive Pruning|Haoran Wang et.al.|[2609.29985](https://arxiv.org/abs/2609.29985)|null|

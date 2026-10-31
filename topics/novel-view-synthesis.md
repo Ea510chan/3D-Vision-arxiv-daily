@@ -1,9 +1,19 @@
 # Novel View Synthesis
 
-> Updated on 2026.10.26
+> Updated on 2026.10.31
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-10-29**|**MLLM-GS: Multimodal Large Language Model Prior-Guided Fast Novel View Synthesis in Extreme Environments**|Zhiliang Wu et.al.|[2610.39936](https://arxiv.org/abs/2610.39936)|null|
+|**2026-10-29**|**ACD-GS: Asymmetric Curvature-aware Densification for 3D Gaussian Splatting**|Houqiang Zhong et.al.|[2610.39399](https://arxiv.org/abs/2610.39399)|**[link](https://github.com/waveviewer/ACD-GS)**|
+|**2026-10-28**|**Aligning Misaligned Benchmarks for Single-View Novel View Synthesis**|Yang-Che Tseng et.al.|[2610.38349](https://arxiv.org/abs/2610.38349)|**[link](https://github.com/ubc-vision/aligned-sv-nvs-bench)**|
+|**2026-10-28**|**Extremely Sparse-View Computed Tomography from 2D Projections via Pose-Aware Diffusion Priors**|Linrui Dai et.al.|[2610.38319](https://arxiv.org/abs/2610.38319)|null|
+|**2026-10-28**|**BudSplat: Feed-forward 3D Gaussian Splatting under a Rendering Budget**|Muyu Xu et.al.|[2610.38278](https://arxiv.org/abs/2610.38278)|null|
+|**2026-10-27**|**Hierarchical Diffusion for Camera-controlled Autoregressive Video Generation**|Kaihua Chen et.al.|[2610.37983](https://arxiv.org/abs/2610.37983)|null|
+|**2026-10-27**|**Honeycomb-Surfels: Compact Hexagonal Primitives for Efficient Scene Rendering and Reconstruction**|Prakhar Kaushik et.al.|[2610.37668](https://arxiv.org/abs/2610.37668)|null|
+|**2026-10-27**|**GroundControl: Satellite-Conditioned Multi-View Diffusion for Reconstruction-Free Novel View Synthesis**|Akshay Krishnan et.al.|[2610.37545](https://arxiv.org/abs/2610.37545)|null|
+|**2026-10-27**|**DomeGS: Perceptually Consistent Background Completion for Unbounded 3D Gaussian Splatting in Virtual Reality**|Anastasiya Pechko et.al.|[2610.37172](https://arxiv.org/abs/2610.37172)|null|
+|**2026-10-27**|**GeoGSplat: Geometry-Grounded Non-Pixel-Aligned Gaussian Splatting**|Jiale Wang et.al.|[2610.36760](https://arxiv.org/abs/2610.36760)|null|
 |2026-10-23|CompMVR: Compression-Aware Multi-View Restoration Using Diffusion Models for Geometrically Consistent 3D Reconstruction|Dong-hwi Kim et.al.|[2610.32800](https://arxiv.org/abs/2610.32800)|null|
 |2026-10-23|Towards Effective and Transferable Physical Camouflage against Multi-View BEV-based 3D Perception in Autonomous Driving|Linye Lyu et.al.|[2610.32230](https://arxiv.org/abs/2610.32230)|null|
 |2026-10-23|RADIANT: Object-Centric Feed-Forward Global Illumination|Sarah Zhang et.al.|[2610.32075](https://arxiv.org/abs/2610.32075)|null|
