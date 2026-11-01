@@ -1,9 +1,19 @@
 # World Model
 
-> Updated on 2026.10.31
+> Updated on 2026.11.01
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-10-29**|**world2vec: Mechanistic world models through latent dynamics learning**|Tobias Schmidt et.al.|[2610.40637](https://arxiv.org/abs/2610.40637)|null|
+|**2026-10-29**|**L3G-World: Real-Time Infinite World Generation with Latent 3D Gaussian Memory**|Jinhyeok Choi et.al.|[2610.40614](https://arxiv.org/abs/2610.40614)|null|
+|**2026-10-29**|**Fight World Model: Customizable Combat through Visual Interaction Proxies**|Jiahua Li et.al.|[2610.40607](https://arxiv.org/abs/2610.40607)|null|
+|**2026-10-29**|**Algebraic World Model: From Exploration to Proofs**|Guancheng Pan et.al.|[2610.40503](https://arxiv.org/abs/2610.40503)|null|
+|**2026-10-29**|**Continuous-Action World Models: Learning Cross-Embodiment Spatiotemporal Dynamics Priors**|Liangyu Li et.al.|[2610.40401](https://arxiv.org/abs/2610.40401)|null|
+|**2026-10-29**|**HiFOR: Hierarchical Foresight with Action-Guided World Grounding for Vision-Language-Action Model**|Rongxing Ding et.al.|[2610.40373](https://arxiv.org/abs/2610.40373)|null|
+|**2026-10-29**|**Wizard: Manipulate Any World in Real Time via Agentic Control**|Yuzhe Wu et.al.|[2610.40339](https://arxiv.org/abs/2610.40339)|null|
+|**2026-10-29**|**Video Generation Meets Agent Harness: Agentic Video Generation, Agentic World Modeling and Recursive Self-Improvement**|Liaoyuan Fan et.al.|[2610.40191](https://arxiv.org/abs/2610.40191)|null|
+|**2026-10-29**|**Cheap Retrieval and Observation Credit Assignment from One Quantity: The Value of Information**|Daniel Strauss et.al.|[2610.40030](https://arxiv.org/abs/2610.40030)|null|
+|**2026-10-29**|**GROME: GROunding Factorized MEmory into Video World Models**|Fang Yu et.al.|[2610.39812](https://arxiv.org/abs/2610.39812)|null|
 |2026-09-24|AD-WM: Action-Discriminative World Models for Counterfactual Model Predictive Control|Jiabin Qiu et.al.|[2609.30264](https://arxiv.org/abs/2609.30264)|null|
 |2026-09-24|Underwater C3-JEPA: An Object-Centric Cross-View World Model for ROV Salvage|Yuncong Yang et.al.|[2609.30214](https://arxiv.org/abs/2609.30214)|null|
 |2026-09-24|Aim Short to Reach Far: Your Frozen World Model Can Plan Better Than You Think|Xvyuan Liu et.al.|[2609.30036](https://arxiv.org/abs/2609.30036)|null|

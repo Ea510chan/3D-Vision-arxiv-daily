@@ -16,15 +16,15 @@ title: 3D Reconstruction
   </header>
   <nav class="reader-sidebar">
     <div class="sidebar-title">Topics</div>
-    <a class="sidebar-link" href="point-cloud-registration.html">Point Cloud Registration <span class="sidebar-count">183</span></a>
-    <a class="sidebar-link" href="image-matching.html">Image Matching <span class="sidebar-count">195</span></a>
+    <a class="sidebar-link" href="point-cloud-registration.html">Point Cloud Registration <span class="sidebar-count">193</span></a>
+    <a class="sidebar-link" href="image-matching.html">Image Matching <span class="sidebar-count">205</span></a>
     <a class="sidebar-link" href="slam.html">SLAM <span class="sidebar-count">392</span></a>
     <a class="sidebar-link active" href="3d-reconstruction.html">3D Reconstruction <span class="sidebar-count">522</span></a>
     <a class="sidebar-link" href="novel-view-synthesis.html">Novel View Synthesis <span class="sidebar-count">148</span></a>
     <a class="sidebar-link" href="visual-localization.html">Visual Localization <span class="sidebar-count">534</span></a>
-    <a class="sidebar-link" href="3d-localization.html">3D Localization <span class="sidebar-count">46</span></a>
-    <a class="sidebar-link" href="world-model.html">World Model <span class="sidebar-count">240</span></a>
-    <a class="sidebar-link" href="flow-matching.html">Flow Matching <span class="sidebar-count">291</span></a>
+    <a class="sidebar-link" href="3d-localization.html">3D Localization <span class="sidebar-count">53</span></a>
+    <a class="sidebar-link" href="world-model.html">World Model <span class="sidebar-count">250</span></a>
+    <a class="sidebar-link" href="flow-matching.html">Flow Matching <span class="sidebar-count">301</span></a>
   </nav>
   <section class="reader-list">
     <div class="list-header"><h2>3D Reconstruction</h2><span>522 papers</span></div>

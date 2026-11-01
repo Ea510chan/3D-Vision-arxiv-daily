@@ -1,12 +1,19 @@
 # 3D Localization
 
-> Updated on 2026.10.31
+> Updated on 2026.11.01
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|2026-09-29|Temporal-Aware Fusion for Robust Outdoor LiDAR Localization|Minghang Zhu et.al.|[2609.36432](https://arxiv.org/abs/2609.36432)|null|
-|2026-09-27|ReLoc: Rethinking Scene Coordinate Regression Architecture for Robust Outdoor LiDAR-based Localization|Heejoon Moon et.al.|[2609.33344](https://arxiv.org/abs/2609.33344)|null|
-|2026-09-26|Interpretable Physics Informed WiFi Indoor Localization: Learning an Effective Access Point Geometry and Using It to Prune|Arshia Eftekhari zadeh et.al.|[2609.32539](https://arxiv.org/abs/2609.32539)|null|
+|**2026-10-23**|**Localization and Neural Splatting on the Edge: An FPGA Scene Memory for Robots**|Haohua Que et.al.|[2610.25068](https://arxiv.org/abs/2610.25068)|null|
+|**2026-10-11**|**Tornado Wave-Encoded Point Spread Functions for Multi-Period Three-Dimensional Localization Imaging**|Lai Chen et.al.|[2610.15606](https://arxiv.org/abs/2610.15606)|null|
+|**2026-10-07**|**Video-Conditioned Generative Joint 2D-3D Hand Motion Recovery**|Chen Xu et.al.|[2610.10512](https://arxiv.org/abs/2610.10512)|null|
+|**2026-10-07**|**Borrowed Eyes: Markerless Nano-UAV Flight with an Active Quadruped Observer**|Alejandro Lorite Mora et.al.|[2610.09967](https://arxiv.org/abs/2610.09967)|null|
+|**2026-10-07**|**PARC-Loc: Text-to-Point-Cloud Localization with Partial Assignment and Relational Consistency**|Shengkai Ma et.al.|[2610.09761](https://arxiv.org/abs/2610.09761)|null|
+|**2026-10-05**|**Lens3D: Target-Conditioned Visual Foveation for Fine-Grained 3D Understanding**|Junming Huang et.al.|[2610.06611](https://arxiv.org/abs/2610.06611)|null|
+|**2026-10-01**|**ShelfChange3D: Object-Level 3D Change Detection for Retail Shelf Monitoring**|Lingyi Zhou et.al.|[2610.01283](https://arxiv.org/abs/2610.01283)|null|
+|**2026-09-29**|**Temporal-Aware Fusion for Robust Outdoor LiDAR Localization**|Minghang Zhu et.al.|[2609.36432](https://arxiv.org/abs/2609.36432)|null|
+|**2026-09-27**|**ReLoc: Rethinking Scene Coordinate Regression Architecture for Robust Outdoor LiDAR-based Localization**|Heejoon Moon et.al.|[2609.33344](https://arxiv.org/abs/2609.33344)|null|
+|**2026-09-26**|**Interpretable Physics Informed WiFi Indoor Localization: Learning an Effective Access Point Geometry and Using It to Prune**|Arshia Eftekhari zadeh et.al.|[2609.32539](https://arxiv.org/abs/2609.32539)|null|
 |2026-09-23|Large-Scale Geometric Map-Based Localization of UAVs in GNSS-Denied Urban Environments|Garth Terlizzi et.al.|[2609.28225](https://arxiv.org/abs/2609.28225)|null|
 |2026-09-22|Dr-LiSA: Direct Radar-Lidar Scan Alignment for $SE(3)$ Localization|Alex Zhang et.al.|[2609.26423](https://arxiv.org/abs/2609.26423)|null|
 |2026-09-21|Audio-based UAV Localization with Adaptive Temporal Correspondence via Reinforcement Learning|Haoxiang Lei et.al.|[2609.24218](https://arxiv.org/abs/2609.24218)|null|
