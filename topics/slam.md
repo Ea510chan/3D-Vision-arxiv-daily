@@ -1,19 +1,19 @@
 # SLAM
 
-> Updated on 2026.11.01
+> Updated on 2026.11.02
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-10-29**|**Smartphone Indoor Localization Enhanced by Hierarchical Multi-Sensor Context Recognition**|Wenhui Feng et.al.|[2610.39691](https://arxiv.org/abs/2610.39691)|null|
-|**2026-10-29**|**UMI-Live for In-The-Wild Bimanual Robotics Data Collection**|Govind Velamoor et.al.|[2610.39385](https://arxiv.org/abs/2610.39385)|null|
-|**2026-10-28**|**SKiD-SLAM: Resource-Aware Distributed Multi-Robot LiDAR SLAM for Planetary Missions with Field Deployments at Analog Sites**|Hogyun Kim et.al.|[2610.38141](https://arxiv.org/abs/2610.38141)|null|
-|**2026-10-27**|**A Stochastic LineseArch Method (SLAM) for Minimizing Expectation Residuals: Weakening Boundedness of Gradient**|Qi Wang et.al.|[2610.37947](https://arxiv.org/abs/2610.37947)|null|
-|**2026-10-27**|**RAVEN: A Unified Active SLAM System for Rapid Autonomous Visual Exploration with Aerial Robots under Localization Uncertainty**|Xinyi Chen et.al.|[2610.37111](https://arxiv.org/abs/2610.37111)|null|
-|**2026-10-27**|**HoloRecon: Incremental Reconstruction of Long-Range Panoramas with Global Consistency**|Zhuoxiao Li et.al.|[2610.36876](https://arxiv.org/abs/2610.36876)|null|
-|**2026-10-27**|**LingGS: Decoupling Feed-Forward Geometry Prediction from Camera Tracking for High-Fidelity Gaussian SLAM**|Da Li et.al.|[2610.36853](https://arxiv.org/abs/2610.36853)|null|
-|**2026-10-27**|**SVIn+: Multi-Modal Framework for Robust Underwater State Estimation using 3D Sonar, Visual-Inertial, Water-Pressure, and DVL**|Chinmay Burgul et.al.|[2610.36454](https://arxiv.org/abs/2610.36454)|null|
-|**2026-10-26**|**SG^2SLAM: Spatial Geometry-Informed 3D Gaussian Splatting SLAM for Monocular Outdoor Navigation**|Ziang Guo et.al.|[2610.36312](https://arxiv.org/abs/2610.36312)|null|
-|**2026-10-26**|**VPR-Space: A Benchmark for Visual Place Recognition in Space Analog Domains**|Richard Fechner et.al.|[2610.35642](https://arxiv.org/abs/2610.35642)|null|
+|2026-10-29|Smartphone Indoor Localization Enhanced by Hierarchical Multi-Sensor Context Recognition|Wenhui Feng et.al.|[2610.39691](https://arxiv.org/abs/2610.39691)|null|
+|2026-10-29|UMI-Live for In-The-Wild Bimanual Robotics Data Collection|Govind Velamoor et.al.|[2610.39385](https://arxiv.org/abs/2610.39385)|null|
+|2026-10-28|SKiD-SLAM: Resource-Aware Distributed Multi-Robot LiDAR SLAM for Planetary Missions with Field Deployments at Analog Sites|Hogyun Kim et.al.|[2610.38141](https://arxiv.org/abs/2610.38141)|null|
+|2026-10-27|A Stochastic LineseArch Method (SLAM) for Minimizing Expectation Residuals: Weakening Boundedness of Gradient|Qi Wang et.al.|[2610.37947](https://arxiv.org/abs/2610.37947)|null|
+|2026-10-27|RAVEN: A Unified Active SLAM System for Rapid Autonomous Visual Exploration with Aerial Robots under Localization Uncertainty|Xinyi Chen et.al.|[2610.37111](https://arxiv.org/abs/2610.37111)|null|
+|2026-10-27|HoloRecon: Incremental Reconstruction of Long-Range Panoramas with Global Consistency|Zhuoxiao Li et.al.|[2610.36876](https://arxiv.org/abs/2610.36876)|null|
+|2026-10-27|LingGS: Decoupling Feed-Forward Geometry Prediction from Camera Tracking for High-Fidelity Gaussian SLAM|Da Li et.al.|[2610.36853](https://arxiv.org/abs/2610.36853)|null|
+|2026-10-27|SVIn+: Multi-Modal Framework for Robust Underwater State Estimation using 3D Sonar, Visual-Inertial, Water-Pressure, and DVL|Chinmay Burgul et.al.|[2610.36454](https://arxiv.org/abs/2610.36454)|null|
+|2026-10-26|SG^2SLAM: Spatial Geometry-Informed 3D Gaussian Splatting SLAM for Monocular Outdoor Navigation|Ziang Guo et.al.|[2610.36312](https://arxiv.org/abs/2610.36312)|null|
+|2026-10-26|VPR-Space: A Benchmark for Visual Place Recognition in Space Analog Domains|Richard Fechner et.al.|[2610.35642](https://arxiv.org/abs/2610.35642)|null|
 |2026-10-22|Consistent Distributed Invariant EKF SLAM with Point and Object Features|Mengya Xu et.al.|[2610.31221](https://arxiv.org/abs/2610.31221)|null|
 |2026-10-22|Evaluation of Front-End Feature Matching for Lunar Visual SLAM|Guillem Casadesus Vila et.al.|[2610.30774](https://arxiv.org/abs/2610.30774)|null|
 |2026-10-21|DewHand: Direct Metric World-Space Hand Motion Reconstruction from Egocentric Videos|Naru Suzuki et.al.|[2610.29936](https://arxiv.org/abs/2610.29936)|null|
@@ -98,7 +98,7 @@
 |2026-06-25|PanoImager: Geometry-Guided Novel View Synthesis and Reconstruction from Sparse Panoramic Views|Zhisong Xu et.al.|[2606.27071](https://arxiv.org/abs/2606.27071)|null|
 |2026-06-24|RoboAtlas: Contextual Active SLAM|Alexander Schperberg et.al.|[2606.26046](https://arxiv.org/abs/2606.26046)|null|
 |2026-06-24|DSP-SLAM++: A Unified Framework for Multi-Class, High-Fidelity Object SLAM in the Wild|Ahmad Kourani et.al.|[2606.25953](https://arxiv.org/abs/2606.25953)|null|
-|2026-06-24|SA-LIVO: Efficient LiDAR-Inertial-Visual Odometry with Subspace-Aware Degeneracy Handling|Yinong Cao et.al.|[2606.25699](https://arxiv.org/abs/2606.25699)|**[link](https://github.com/Huashuijingying/SA-LIVO-Reimpl)**|
+|2026-06-24|SA-LIVO: Efficient LiDAR-Inertial-Visual Odometry with Subspace-Aware Degeneracy Handling|Yinong Cao et.al.|[2606.25699](https://arxiv.org/abs/2606.25699)|[link](https://github.com/Huashuijingying/SA-LIVO-Reimpl)|
 |2026-06-24|OrthoTrack: Continuous 6-DoF UAV Trajectory Estimation Anchored in Public Orthophotos|Oussema Dhaouadi et.al.|[2606.25245](https://arxiv.org/abs/2606.25245)|null|
 |2026-06-23|Vision-Language Model Reasoning for Contextual Semantic Mapping in Intralogistics|Marvin Rüdt et.al.|[2606.24814](https://arxiv.org/abs/2606.24814)|null|
 |2026-06-23|Pocket-SLAM: Rendering-Area-Aware Pruning for Memory-Efficient 3DGS-SLAM|Leshu Li et.al.|[2606.24796](https://arxiv.org/abs/2606.24796)|null|
@@ -112,7 +112,7 @@
 |2026-06-04|Breaking Time: A Fully Gaussian Framework for Distributed and Continuous-Time SLAM|Davide Ceriola et.al.|[2606.06250](https://arxiv.org/abs/2606.06250)|null|
 |2026-06-04|Towards Realistic 3D Sonar Simulation|Youssef Attia et.al.|[2606.06130](https://arxiv.org/abs/2606.06130)|null|
 |2026-06-03|Teaching Robots to Say 'I Don't Know' : SENTINEL for Uncertainty-Aware SLAM|Abhishek S et.al.|[2606.04853](https://arxiv.org/abs/2606.04853)|null|
-|2026-06-03|BPDA-GMM: Bayesian Probabilistic Data Association via Gaussian Mixture Models for Semantic SLAM|Thanh Nguyen Canh et.al.|[2606.04618](https://arxiv.org/abs/2606.04618)|null|
+|2026-06-03|BPDA-GMM: Bayesian Probabilistic Data Association via Gaussian Mixture Models for Semantic SLAM|Thanh Nguyen Canh et.al.|[2606.04618](https://arxiv.org/abs/2606.04618)|**[link](https://github.com/sw-packages/6c4b20cfc83b2247a04618134fb93b0a6eb50fa765fd45317505d04eeb2606b6)**|
 |2026-06-02|PixVOD: Pixel-Distributed Direct Visual Odometry and Depth Estimation|Shinjeong Kim et.al.|[2606.03989](https://arxiv.org/abs/2606.03989)|null|
 |2026-06-02|Autonomous Navigation System for Library Service Robot Based on Unitree Go2 Edu|Aoduo Li et.al.|[2606.03340](https://arxiv.org/abs/2606.03340)|null|
 |2026-06-01|Embedding Semantic Risk into Distance Fields and CBFs for Online Monocular Safe Control|Dawei Zhang et.al.|[2606.01605](https://arxiv.org/abs/2606.01605)|[link](https://github.com/phai-lab/SafeDF)|

@@ -1,19 +1,19 @@
 # Flow Matching
 
-> Updated on 2026.11.01
+> Updated on 2026.11.02
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-10-29**|**Read, Allocate, Route: Role-Coupled Tokenization for Pixel-Space Generative Transformers**|Jiongfan Yang et.al.|[2610.40647](https://arxiv.org/abs/2610.40647)|null|
-|**2026-10-29**|**Learning developmental dynamics from lineage context**|Gokul Gowri et.al.|[2610.40447](https://arxiv.org/abs/2610.40447)|null|
-|**2026-10-29**|**Framework-Conditional Open Materials Generation**|Maya M. Martirossyan et.al.|[2610.40443](https://arxiv.org/abs/2610.40443)|null|
-|**2026-10-29**|**AcrossDEX 1.0: From Human Motion Pretraining to Bimanual Dexterous Manipulation across Hand Embodiments**|Xiaoyu Yang et.al.|[2610.40210](https://arxiv.org/abs/2610.40210)|null|
-|**2026-10-29**|**SynthFaces: Balanced Large Scale Human Dataset**|Sergey Karpukhin et.al.|[2610.40119](https://arxiv.org/abs/2610.40119)|null|
-|**2026-10-29**|**SelfThinker: Self-Evolving Reasoning via Reliability-Verified Intrinsic Visual Thoughts**|Zhangquan Chen et.al.|[2610.40115](https://arxiv.org/abs/2610.40115)|null|
-|**2026-10-29**|**Coupled Guidance for Flow Matching**|Mateo Clémente et.al.|[2610.40109](https://arxiv.org/abs/2610.40109)|null|
-|**2026-10-29**|**Learning Safe Flow Matching Robot Policies from Binary Feasibility Oracles**|Jianming Ma et.al.|[2610.40075](https://arxiv.org/abs/2610.40075)|null|
-|**2026-10-29**|**AegisFlow: Training-Free Non-Myopic Path-Safe Guided Flow Matching**|Kunpeng Liu et.al.|[2610.39825](https://arxiv.org/abs/2610.39825)|null|
-|**2026-10-29**|**MOSAIC-Flow: Orthogonal-Axis and Status-Conditioned Fusion for Missing-Sequence Completion in Brain Tumor MRI**|Pengli Zhu et.al.|[2610.39534](https://arxiv.org/abs/2610.39534)|null|
+|2026-10-29|Read, Allocate, Route: Role-Coupled Tokenization for Pixel-Space Generative Transformers|Jiongfan Yang et.al.|[2610.40647](https://arxiv.org/abs/2610.40647)|null|
+|2026-10-29|Learning developmental dynamics from lineage context|Gokul Gowri et.al.|[2610.40447](https://arxiv.org/abs/2610.40447)|null|
+|2026-10-29|Framework-Conditional Open Materials Generation|Maya M. Martirossyan et.al.|[2610.40443](https://arxiv.org/abs/2610.40443)|null|
+|2026-10-29|AcrossDEX 1.0: From Human Motion Pretraining to Bimanual Dexterous Manipulation across Hand Embodiments|Xiaoyu Yang et.al.|[2610.40210](https://arxiv.org/abs/2610.40210)|null|
+|2026-10-29|SynthFaces: Balanced Large Scale Human Dataset|Sergey Karpukhin et.al.|[2610.40119](https://arxiv.org/abs/2610.40119)|null|
+|2026-10-29|SelfThinker: Self-Evolving Reasoning via Reliability-Verified Intrinsic Visual Thoughts|Zhangquan Chen et.al.|[2610.40115](https://arxiv.org/abs/2610.40115)|null|
+|2026-10-29|Coupled Guidance for Flow Matching|Mateo Clémente et.al.|[2610.40109](https://arxiv.org/abs/2610.40109)|null|
+|2026-10-29|Learning Safe Flow Matching Robot Policies from Binary Feasibility Oracles|Jianming Ma et.al.|[2610.40075](https://arxiv.org/abs/2610.40075)|null|
+|2026-10-29|AegisFlow: Training-Free Non-Myopic Path-Safe Guided Flow Matching|Kunpeng Liu et.al.|[2610.39825](https://arxiv.org/abs/2610.39825)|null|
+|2026-10-29|MOSAIC-Flow: Orthogonal-Axis and Status-Conditioned Fusion for Missing-Sequence Completion in Brain Tumor MRI|Pengli Zhu et.al.|[2610.39534](https://arxiv.org/abs/2610.39534)|null|
 |2026-10-15|PathFM: Fast Generative Forecasting of Multivariate Trajectories|Jiachen Yao et.al.|[2610.22358](https://arxiv.org/abs/2610.22358)|null|
 |2026-10-15|MOSS: Mode-Oriented Source Shaping for Robot Flow Matching Policies|Zirun Ma et.al.|[2610.22193](https://arxiv.org/abs/2610.22193)|[link](https://github.com/Mmmmazr/moss)|
 |2026-10-15|REKI: Registering Knowledge in VLAs|Juliette Marrie et.al.|[2610.22178](https://arxiv.org/abs/2610.22178)|null|
@@ -231,7 +231,7 @@
 |2026-05-07|Flow Matching with Arbitrary Auxiliary Paths|Xin Peng et.al.|[2605.06364](https://arxiv.org/abs/2605.06364)|null|
 |2026-05-07|A Flow Matching Algorithm for Many-Shot Adaptation to Unseen Distributions|Tyler Ingebrand et.al.|[2605.06272](https://arxiv.org/abs/2605.06272)|null|
 |2026-05-07|Predictive-Generative Drift Decomposition for Speech Enhancement and Separation|Julius Richter et.al.|[2605.06189](https://arxiv.org/abs/2605.06189)|null|
-|2026-05-07|Entropy-Regularized Adjoint Matching for Offline RL|Abdelghani Ghanem et.al.|[2605.06156](https://arxiv.org/abs/2605.06156)|**[link](https://github.com/MIT-REALM/laser)**|
+|2026-05-07|Entropy-Regularized Adjoint Matching for Offline RL|Abdelghani Ghanem et.al.|[2605.06156](https://arxiv.org/abs/2605.06156)|[link](https://github.com/MIT-REALM/laser)|
 |2026-05-07|SymDrift: One-Shot Generative Modeling under Symmetries|Samir Darouich et.al.|[2605.06140](https://arxiv.org/abs/2605.06140)|null|
 |2026-05-05|Flow Sampling: Learning to Sample from Unnormalized Densities via Denoising Conditional Processes|Aaron Havens et.al.|[2605.03984](https://arxiv.org/abs/2605.03984)|null|
 |2026-05-05|FluxFlow: Conservative Flow-Matching for Astronomical Image Super-Resolution|Shuhong Liu et.al.|[2605.03749](https://arxiv.org/abs/2605.03749)|null|

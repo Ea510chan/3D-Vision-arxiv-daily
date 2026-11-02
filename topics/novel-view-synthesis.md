@@ -1,19 +1,19 @@
 # Novel View Synthesis
 
-> Updated on 2026.11.01
+> Updated on 2026.11.02
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-10-29**|**MLLM-GS: Multimodal Large Language Model Prior-Guided Fast Novel View Synthesis in Extreme Environments**|Zhiliang Wu et.al.|[2610.39936](https://arxiv.org/abs/2610.39936)|null|
-|**2026-10-29**|**ACD-GS: Asymmetric Curvature-aware Densification for 3D Gaussian Splatting**|Houqiang Zhong et.al.|[2610.39399](https://arxiv.org/abs/2610.39399)|null|
-|**2026-10-28**|**Aligning Misaligned Benchmarks for Single-View Novel View Synthesis**|Yang-Che Tseng et.al.|[2610.38349](https://arxiv.org/abs/2610.38349)|null|
-|**2026-10-28**|**Extremely Sparse-View Computed Tomography from 2D Projections via Pose-Aware Diffusion Priors**|Linrui Dai et.al.|[2610.38319](https://arxiv.org/abs/2610.38319)|null|
-|**2026-10-28**|**BudSplat: Feed-forward 3D Gaussian Splatting under a Rendering Budget**|Muyu Xu et.al.|[2610.38278](https://arxiv.org/abs/2610.38278)|null|
-|**2026-10-27**|**Hierarchical Diffusion for Camera-controlled Autoregressive Video Generation**|Kaihua Chen et.al.|[2610.37983](https://arxiv.org/abs/2610.37983)|null|
-|**2026-10-27**|**Honeycomb-Surfels: Compact Hexagonal Primitives for Efficient Scene Rendering and Reconstruction**|Prakhar Kaushik et.al.|[2610.37668](https://arxiv.org/abs/2610.37668)|null|
-|**2026-10-27**|**GroundControl: Satellite-Conditioned Multi-View Diffusion for Reconstruction-Free Novel View Synthesis**|Akshay Krishnan et.al.|[2610.37545](https://arxiv.org/abs/2610.37545)|null|
-|**2026-10-27**|**DomeGS: Perceptually Consistent Background Completion for Unbounded 3D Gaussian Splatting in Virtual Reality**|Anastasiya Pechko et.al.|[2610.37172](https://arxiv.org/abs/2610.37172)|null|
-|**2026-10-27**|**GeoGSplat: Geometry-Grounded Non-Pixel-Aligned Gaussian Splatting**|Jiale Wang et.al.|[2610.36760](https://arxiv.org/abs/2610.36760)|null|
+|2026-10-29|MLLM-GS: Multimodal Large Language Model Prior-Guided Fast Novel View Synthesis in Extreme Environments|Zhiliang Wu et.al.|[2610.39936](https://arxiv.org/abs/2610.39936)|null|
+|2026-10-29|ACD-GS: Asymmetric Curvature-aware Densification for 3D Gaussian Splatting|Houqiang Zhong et.al.|[2610.39399](https://arxiv.org/abs/2610.39399)|null|
+|2026-10-28|Aligning Misaligned Benchmarks for Single-View Novel View Synthesis|Yang-Che Tseng et.al.|[2610.38349](https://arxiv.org/abs/2610.38349)|null|
+|2026-10-28|Extremely Sparse-View Computed Tomography from 2D Projections via Pose-Aware Diffusion Priors|Linrui Dai et.al.|[2610.38319](https://arxiv.org/abs/2610.38319)|null|
+|2026-10-28|BudSplat: Feed-forward 3D Gaussian Splatting under a Rendering Budget|Muyu Xu et.al.|[2610.38278](https://arxiv.org/abs/2610.38278)|null|
+|2026-10-27|Hierarchical Diffusion for Camera-controlled Autoregressive Video Generation|Kaihua Chen et.al.|[2610.37983](https://arxiv.org/abs/2610.37983)|null|
+|2026-10-27|Honeycomb-Surfels: Compact Hexagonal Primitives for Efficient Scene Rendering and Reconstruction|Prakhar Kaushik et.al.|[2610.37668](https://arxiv.org/abs/2610.37668)|null|
+|2026-10-27|GroundControl: Satellite-Conditioned Multi-View Diffusion for Reconstruction-Free Novel View Synthesis|Akshay Krishnan et.al.|[2610.37545](https://arxiv.org/abs/2610.37545)|null|
+|2026-10-27|DomeGS: Perceptually Consistent Background Completion for Unbounded 3D Gaussian Splatting in Virtual Reality|Anastasiya Pechko et.al.|[2610.37172](https://arxiv.org/abs/2610.37172)|null|
+|2026-10-27|GeoGSplat: Geometry-Grounded Non-Pixel-Aligned Gaussian Splatting|Jiale Wang et.al.|[2610.36760](https://arxiv.org/abs/2610.36760)|null|
 |2026-10-23|CompMVR: Compression-Aware Multi-View Restoration Using Diffusion Models for Geometrically Consistent 3D Reconstruction|Dong-hwi Kim et.al.|[2610.32800](https://arxiv.org/abs/2610.32800)|null|
 |2026-10-23|Towards Effective and Transferable Physical Camouflage against Multi-View BEV-based 3D Perception in Autonomous Driving|Linye Lyu et.al.|[2610.32230](https://arxiv.org/abs/2610.32230)|null|
 |2026-10-23|RADIANT: Object-Centric Feed-Forward Global Illumination|Sarah Zhang et.al.|[2610.32075](https://arxiv.org/abs/2610.32075)|null|
@@ -100,7 +100,7 @@
 |2026-06-01|The Road Ahead in Autonomous Driving: The KITScenes Multimodal Dataset|Richard Schwarzkopf et.al.|[2606.02956](https://arxiv.org/abs/2606.02956)|null|
 |2026-06-01|BEAST3D: Animal behavioral analysis and neural encoding from multi-view video via Gaussian splatting|Yanchen Wang et.al.|[2606.02937](https://arxiv.org/abs/2606.02937)|null|
 |2026-06-01|VEDAL: Variational Error-Driven Asynchronous Learning for 3D Gaussian Splatting Pruning|Aoduo Li et.al.|[2606.02346](https://arxiv.org/abs/2606.02346)|null|
-|2026-05-29|Learning Global Motion with Compact Gaussians for Feed-Forward 4D Reconstruction|Mungyeom Kim et.al.|[2605.31595](https://arxiv.org/abs/2605.31595)|**[link](https://github.com/cvlab-kaist/C4G)**|
+|2026-05-29|Learning Global Motion with Compact Gaussians for Feed-Forward 4D Reconstruction|Mungyeom Kim et.al.|[2605.31595](https://arxiv.org/abs/2605.31595)|[link](https://github.com/cvlab-kaist/C4G)|
 |2026-05-29|RayDer: Scalable Self-Supervised Novel View Synthesis from Real-World Video|Ulrich Prestel et.al.|[2605.31535](https://arxiv.org/abs/2605.31535)|null|
 |2026-05-29|Triangle Splatting SLAM|Nicholas Fry et.al.|[2605.31419](https://arxiv.org/abs/2605.31419)|null|
 |2026-05-29|DSD-GS: Dynamic-Static Decomposition of Gaussian Splatting for Efficient and High-Fidelity Dynamic Scene Reconstruction|Youngtae Han et.al.|[2605.30863](https://arxiv.org/abs/2605.30863)|null|
