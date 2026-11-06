@@ -1,9 +1,19 @@
 # World Model
 
-> Updated on 2026.11.02
+> Updated on 2026.11.06
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-11-05**|**Learning a patient world model for health system simulation in intensive care**|Yingtai Li et.al.|[2611.08392](https://arxiv.org/abs/2611.08392)|null|
+|**2026-11-05**|**GPWM: Modeling the World as 3D Particle Motion**|Robert Ren et.al.|[2611.08338](https://arxiv.org/abs/2611.08338)|null|
+|**2026-11-05**|**La-JEPA: Compact Robot Policies with Latent World Modeling**|Mateo Clémente et.al.|[2611.08156](https://arxiv.org/abs/2611.08156)|null|
+|**2026-11-05**|**FreeOcc: Decoupling Ego-Motion for Efficient 4D Occupancy Forecasting via Continuous Flow Matching**|Zeping Zhang et.al.|[2611.08128](https://arxiv.org/abs/2611.08128)|null|
+|**2026-11-05**|**WAM-Sim0.1: World Anchored Memory Meets Online RL for Consistent and Realistic Driving Simulation**|Jiahao Cui et.al.|[2611.07939](https://arxiv.org/abs/2611.07939)|null|
+|**2026-11-05**|**GuidedWAM: Training-Free Energy Guidance for World Action Models in Autonomous Driving**|Xiyan Su et.al.|[2611.07912](https://arxiv.org/abs/2611.07912)|null|
+|**2026-11-05**|**PVDepth: Panoramic Video Depth Estimation via Geometry-Aware Spatiotemporal Adaptation**|Chuanxin Song et.al.|[2611.07873](https://arxiv.org/abs/2611.07873)|null|
+|**2026-11-05**|**PlayGen2: Learning Real-Time Playable Worlds with Explicit 3D State**|Jihai Zhang et.al.|[2611.07867](https://arxiv.org/abs/2611.07867)|null|
+|**2026-11-05**|**Learning Robotic World Models with Semantic and Visual Feedback**|Hao Wu et.al.|[2611.07850](https://arxiv.org/abs/2611.07850)|null|
+|**2026-11-05**|**Seeing Beyond the Next Step: World-Model-Guided Human-Like Navigation in Multi-Agent Scenes**|Seong-Eun Hong et.al.|[2611.07730](https://arxiv.org/abs/2611.07730)|null|
 |2026-10-29|world2vec: Mechanistic world models through latent dynamics learning|Tobias Schmidt et.al.|[2610.40637](https://arxiv.org/abs/2610.40637)|null|
 |2026-10-29|L3G-World: Real-Time Infinite World Generation with Latent 3D Gaussian Memory|Jinhyeok Choi et.al.|[2610.40614](https://arxiv.org/abs/2610.40614)|null|
 |2026-10-29|Fight World Model: Customizable Combat through Visual Interaction Proxies|Jiahua Li et.al.|[2610.40607](https://arxiv.org/abs/2610.40607)|null|

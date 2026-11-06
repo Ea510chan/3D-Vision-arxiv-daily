@@ -1,9 +1,19 @@
 # Flow Matching
 
-> Updated on 2026.11.02
+> Updated on 2026.11.06
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-11-05**|**Latent RL Priors for Data-Efficient Dexterous Manipulation**|Yixiao Wang et.al.|[2611.08458](https://arxiv.org/abs/2611.08458)|null|
+|**2026-11-05**|**GPWM: Modeling the World as 3D Particle Motion**|Robert Ren et.al.|[2611.08338](https://arxiv.org/abs/2611.08338)|null|
+|**2026-11-05**|**Transformer-Based Trajectory Prescription for sEMG-Optimizing Robot-Mediated Rehabilitation**|Gabriel Parra et.al.|[2611.08295](https://arxiv.org/abs/2611.08295)|null|
+|**2026-11-05**|**FreeOcc: Decoupling Ego-Motion for Efficient 4D Occupancy Forecasting via Continuous Flow Matching**|Zeping Zhang et.al.|[2611.08128](https://arxiv.org/abs/2611.08128)|null|
+|**2026-11-05**|**Reinforcing End-to-End Autonomous Driving Safety via Negative-Aware Planning in a Unified World-Action Model**|Zihao Zhang et.al.|[2611.08111](https://arxiv.org/abs/2611.08111)|**[link](https://github.com/Zizizi-hao/NegWAM)**|
+|**2026-11-05**|**Route-DMD: Distribution Matching Distillation with Task-Routed Mechanism for Speech Foundation Models**|Yanru Huo et.al.|[2611.08011](https://arxiv.org/abs/2611.08011)|null|
+|**2026-11-05**|**WAM-Sim0.1: World Anchored Memory Meets Online RL for Consistent and Realistic Driving Simulation**|Jiahao Cui et.al.|[2611.07939](https://arxiv.org/abs/2611.07939)|null|
+|**2026-11-05**|**Estimating Spectrum-Free Information Bounds for Generative Surrogates Beyond Conditional Collapse**|Chaitanya Dumbre et.al.|[2611.07826](https://arxiv.org/abs/2611.07826)|null|
+|**2026-11-05**|**Physics-informed latent conditional flow matching for generative modeling of granular flows on inclined planes**|Ziqi Han et.al.|[2611.07458](https://arxiv.org/abs/2611.07458)|null|
+|**2026-11-04**|**A Night at the LLM Zoo: Data Conditioned Flow Matching for Generating Pretrained LLM Weights**|Scott Biggs et.al.|[2611.07103](https://arxiv.org/abs/2611.07103)|null|
 |2026-10-29|Read, Allocate, Route: Role-Coupled Tokenization for Pixel-Space Generative Transformers|Jiongfan Yang et.al.|[2610.40647](https://arxiv.org/abs/2610.40647)|null|
 |2026-10-29|Learning developmental dynamics from lineage context|Gokul Gowri et.al.|[2610.40447](https://arxiv.org/abs/2610.40447)|null|
 |2026-10-29|Framework-Conditional Open Materials Generation|Maya M. Martirossyan et.al.|[2610.40443](https://arxiv.org/abs/2610.40443)|null|

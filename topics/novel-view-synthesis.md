@@ -1,9 +1,19 @@
 # Novel View Synthesis
 
-> Updated on 2026.11.02
+> Updated on 2026.11.06
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-11-05**|**MOMASPLAT: Dynamic Novel-View Demonstration Augmentation for Mobile Manipulation**|Sateesh Kumar et.al.|[2611.08372](https://arxiv.org/abs/2611.08372)|null|
+|**2026-11-05**|**Perception Over Geometry: Rethinking Gaussian Allocation in Mesh-based Splatting**|Yuting Wang et.al.|[2611.07979](https://arxiv.org/abs/2611.07979)|**[link](https://github.com/yuting01234/P-MGS)**|
+|**2026-11-05**|**PlayGen2: Learning Real-Time Playable Worlds with Explicit 3D State**|Jihai Zhang et.al.|[2611.07867](https://arxiv.org/abs/2611.07867)|null|
+|**2026-11-05**|**AffineGS: Unlocking Accurate Geometry in 3DGS via Spatially Varying Affine Rectification**|Tze Ho Elden Tse et.al.|[2611.07709](https://arxiv.org/abs/2611.07709)|null|
+|**2026-11-05**|**MIKU: Material Invariance and Knowledge Unification for PBR Generation**|Yajie Bao et.al.|[2611.07354](https://arxiv.org/abs/2611.07354)|null|
+|**2026-11-04**|**Wide View Synthesis from Overlapping Perspective Cameras in Autonomous Driving**|Kaixuan Zhang et.al.|[2611.07081](https://arxiv.org/abs/2611.07081)|null|
+|**2026-11-04**|**T $^2$ -Splat: Adaptive Topology Mesh Splatting with Texture Residuals**|Zhihao Tang et.al.|[2611.06974](https://arxiv.org/abs/2611.06974)|null|
+|**2026-11-04**|**BudgetSplat: Budget-Controllable Generalizable Gaussian Splatting**|Yuxi Hu et.al.|[2611.06593](https://arxiv.org/abs/2611.06593)|null|
+|**2026-11-04**|**Quo Vadis, Driving Scene Reconstruction? Occlusion-Aware Gaussian Densification**|Dung Do Tien et.al.|[2611.06273](https://arxiv.org/abs/2611.06273)|null|
+|**2026-11-04**|**GSPIM: A Temporal-Locality-Aware 4D Gaussian Splatting Accelerator with Polymorphic PIM and Multi-Frame Rendering Dataflow**|Zirui Ma et.al.|[2611.04804](https://arxiv.org/abs/2611.04804)|null|
 |2026-10-29|MLLM-GS: Multimodal Large Language Model Prior-Guided Fast Novel View Synthesis in Extreme Environments|Zhiliang Wu et.al.|[2610.39936](https://arxiv.org/abs/2610.39936)|null|
 |2026-10-29|ACD-GS: Asymmetric Curvature-aware Densification for 3D Gaussian Splatting|Houqiang Zhong et.al.|[2610.39399](https://arxiv.org/abs/2610.39399)|null|
 |2026-10-28|Aligning Misaligned Benchmarks for Single-View Novel View Synthesis|Yang-Che Tseng et.al.|[2610.38349](https://arxiv.org/abs/2610.38349)|null|

@@ -1,14 +1,19 @@
 # Image Matching
 
-> Updated on 2026.11.02
+> Updated on 2026.11.06
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|2026-10-29|Luggage re-identification: A study of strategies towards a real-world application|Quentin Dhôte et.al.|[2610.40643](https://arxiv.org/abs/2610.40643)|null|
-|2026-10-29|Comprehensive empirical evaluation of feature extractors in computer vision|Murat Isik et.al.|[2610.39551](https://arxiv.org/abs/2610.39551)|null|
-|2026-10-28|Aligning Misaligned Benchmarks for Single-View Novel View Synthesis|Yang-Che Tseng et.al.|[2610.38349](https://arxiv.org/abs/2610.38349)|[link](https://github.com/ubc-vision/aligned-sv-nvs-bench)|
-|2026-10-23|ACVA-Bench: Beyond Prompt Following in Abstract Concept Visualization Ability for Text-to-Image Models|Mengyan Wang et.al.|[2610.32058](https://arxiv.org/abs/2610.32058)|null|
-|2026-10-22|MVLoMa: Multi-View Local Feature Matching with Any Geometry Foundation Model|Xinyang Lu et.al.|[2610.31321](https://arxiv.org/abs/2610.31321)|null|
+|**2026-11-05**|**USB Gym: A Gymnasium Testbed for Closed-Loop Ultrasound View Matching**|Thanapong Intharah et.al.|[2611.08352](https://arxiv.org/abs/2611.08352)|null|
+|**2026-11-03**|**Sparse Anchors for Visual Multi-Session Registration in Changing Environments**|Yunus Talha Erzurumlu et.al.|[2611.05084](https://arxiv.org/abs/2611.05084)|null|
+|**2026-11-03**|**Manifold Embedding of Deep Image Features for Image Matching via Neural Adjoint Maps**|Nafie El Amrani et.al.|[2611.05083](https://arxiv.org/abs/2611.05083)|null|
+|**2026-11-01**|**Accurate automated photo-identification of Near Eastern and European fire salamanders**|Maayan Yesharim et.al.|[2611.01601](https://arxiv.org/abs/2611.01601)|null|
+|**2026-10-30**|**A Generalized Sparse Fuzzy Clustering Framework with Automated Cluster Cardinality Estimation Ability**|George Stamatelis et.al.|[2611.00159](https://arxiv.org/abs/2611.00159)|null|
+|**2026-10-29**|**Luggage re-identification: A study of strategies towards a real-world application**|Quentin Dhôte et.al.|[2610.40643](https://arxiv.org/abs/2610.40643)|null|
+|**2026-10-29**|**Comprehensive empirical evaluation of feature extractors in computer vision**|Murat Isik et.al.|[2610.39551](https://arxiv.org/abs/2610.39551)|null|
+|**2026-10-28**|**Aligning Misaligned Benchmarks for Single-View Novel View Synthesis**|Yang-Che Tseng et.al.|[2610.38349](https://arxiv.org/abs/2610.38349)|null|
+|**2026-10-23**|**ACVA-Bench: Beyond Prompt Following in Abstract Concept Visualization Ability for Text-to-Image Models**|Mengyan Wang et.al.|[2610.32058](https://arxiv.org/abs/2610.32058)|null|
+|**2026-10-22**|**MVLoMa: Multi-View Local Feature Matching with Any Geometry Foundation Model**|Xinyang Lu et.al.|[2610.31321](https://arxiv.org/abs/2610.31321)|null|
 |2026-10-22|HimmBO: High-Dimensional Interactive Model-Merging Bayesian Optimization for Image Generation|Jinyuan Mao et.al.|[2610.30875](https://arxiv.org/abs/2610.30875)|null|
 |2026-10-28|WovenAnchor Matcher: Specialized Intra- and Inter-Image Context Modeling for Feature Matching|Zhiyang Li et.al.|[2610.30799](https://arxiv.org/abs/2610.30799)|null|
 |2026-10-18|LateMatch: Breaking the Interaction Bottleneck via Cacheable Matching for Efficient Visual Localization|Mohammad Omama et.al.|[2610.25358](https://arxiv.org/abs/2610.25358)|null|
