@@ -1,19 +1,19 @@
 # Novel View Synthesis
 
-> Updated on 2026.11.06
+> Updated on 2026.11.09
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-11-05**|**MOMASPLAT: Dynamic Novel-View Demonstration Augmentation for Mobile Manipulation**|Sateesh Kumar et.al.|[2611.08372](https://arxiv.org/abs/2611.08372)|null|
-|**2026-11-05**|**Perception Over Geometry: Rethinking Gaussian Allocation in Mesh-based Splatting**|Yuting Wang et.al.|[2611.07979](https://arxiv.org/abs/2611.07979)|**[link](https://github.com/yuting01234/P-MGS)**|
-|**2026-11-05**|**PlayGen2: Learning Real-Time Playable Worlds with Explicit 3D State**|Jihai Zhang et.al.|[2611.07867](https://arxiv.org/abs/2611.07867)|null|
-|**2026-11-05**|**AffineGS: Unlocking Accurate Geometry in 3DGS via Spatially Varying Affine Rectification**|Tze Ho Elden Tse et.al.|[2611.07709](https://arxiv.org/abs/2611.07709)|null|
-|**2026-11-05**|**MIKU: Material Invariance and Knowledge Unification for PBR Generation**|Yajie Bao et.al.|[2611.07354](https://arxiv.org/abs/2611.07354)|null|
-|**2026-11-04**|**Wide View Synthesis from Overlapping Perspective Cameras in Autonomous Driving**|Kaixuan Zhang et.al.|[2611.07081](https://arxiv.org/abs/2611.07081)|null|
-|**2026-11-04**|**T $^2$ -Splat: Adaptive Topology Mesh Splatting with Texture Residuals**|Zhihao Tang et.al.|[2611.06974](https://arxiv.org/abs/2611.06974)|null|
-|**2026-11-04**|**BudgetSplat: Budget-Controllable Generalizable Gaussian Splatting**|Yuxi Hu et.al.|[2611.06593](https://arxiv.org/abs/2611.06593)|null|
-|**2026-11-04**|**Quo Vadis, Driving Scene Reconstruction? Occlusion-Aware Gaussian Densification**|Dung Do Tien et.al.|[2611.06273](https://arxiv.org/abs/2611.06273)|null|
-|**2026-11-04**|**GSPIM: A Temporal-Locality-Aware 4D Gaussian Splatting Accelerator with Polymorphic PIM and Multi-Frame Rendering Dataflow**|Zirui Ma et.al.|[2611.04804](https://arxiv.org/abs/2611.04804)|null|
+|2026-11-05|MOMASPLAT: Dynamic Novel-View Demonstration Augmentation for Mobile Manipulation|Sateesh Kumar et.al.|[2611.08372](https://arxiv.org/abs/2611.08372)|null|
+|2026-11-05|Perception Over Geometry: Rethinking Gaussian Allocation in Mesh-based Splatting|Yuting Wang et.al.|[2611.07979](https://arxiv.org/abs/2611.07979)|[link](https://github.com/yuting01234/P-MGS)|
+|2026-11-05|PlayGen2: Learning Real-Time Playable Worlds with Explicit 3D State|Jihai Zhang et.al.|[2611.07867](https://arxiv.org/abs/2611.07867)|null|
+|2026-11-05|AffineGS: Unlocking Accurate Geometry in 3DGS via Spatially Varying Affine Rectification|Tze Ho Elden Tse et.al.|[2611.07709](https://arxiv.org/abs/2611.07709)|null|
+|2026-11-05|MIKU: Material Invariance and Knowledge Unification for PBR Generation|Yajie Bao et.al.|[2611.07354](https://arxiv.org/abs/2611.07354)|null|
+|2026-11-04|Wide View Synthesis from Overlapping Perspective Cameras in Autonomous Driving|Kaixuan Zhang et.al.|[2611.07081](https://arxiv.org/abs/2611.07081)|null|
+|2026-11-04|T $^2$ -Splat: Adaptive Topology Mesh Splatting with Texture Residuals|Zhihao Tang et.al.|[2611.06974](https://arxiv.org/abs/2611.06974)|null|
+|2026-11-04|BudgetSplat: Budget-Controllable Generalizable Gaussian Splatting|Yuxi Hu et.al.|[2611.06593](https://arxiv.org/abs/2611.06593)|null|
+|2026-11-04|Quo Vadis, Driving Scene Reconstruction? Occlusion-Aware Gaussian Densification|Dung Do Tien et.al.|[2611.06273](https://arxiv.org/abs/2611.06273)|null|
+|2026-11-04|GSPIM: A Temporal-Locality-Aware 4D Gaussian Splatting Accelerator with Polymorphic PIM and Multi-Frame Rendering Dataflow|Zirui Ma et.al.|[2611.04804](https://arxiv.org/abs/2611.04804)|null|
 |2026-10-29|MLLM-GS: Multimodal Large Language Model Prior-Guided Fast Novel View Synthesis in Extreme Environments|Zhiliang Wu et.al.|[2610.39936](https://arxiv.org/abs/2610.39936)|null|
 |2026-10-29|ACD-GS: Asymmetric Curvature-aware Densification for 3D Gaussian Splatting|Houqiang Zhong et.al.|[2610.39399](https://arxiv.org/abs/2610.39399)|null|
 |2026-10-28|Aligning Misaligned Benchmarks for Single-View Novel View Synthesis|Yang-Che Tseng et.al.|[2610.38349](https://arxiv.org/abs/2610.38349)|null|
@@ -67,12 +67,12 @@
 |2026-06-30|Practical High-Fidelity Novel-View Synthesis of Mounted Lepidoptera|Kristof Overdulve et.al.|[2606.31679](https://arxiv.org/abs/2606.31679)|null|
 |2026-06-30|DPPE: Rethinking Camera-Based Positional Encoding for Scaling Multi-View Transformers|Shun Kenney et.al.|[2606.31585](https://arxiv.org/abs/2606.31585)|[link](https://github.com/sbintuitions/dppe)|
 |2026-06-30|WarpHammer: Densifying Scene Warps with 3D Object Priors for Extreme View Synthesis|Michael Green et.al.|[2606.31258](https://arxiv.org/abs/2606.31258)|null|
-|2026-06-29|StereoGS: Sparse-View 3D Gaussian Splatting via Stereo Priors|Wenhao Yuan et.al.|[2606.30545](https://arxiv.org/abs/2606.30545)|null|
+|2026-06-29|StereoGS: Sparse-View 3D Gaussian Splatting via Stereo Priors|Wenhao Yuan et.al.|[2606.30545](https://arxiv.org/abs/2606.30545)|**[link](https://github.com/StringerYwh00/StereoGS)**|
 |2026-06-29|RenderFormer++: Scalable and Physically Grounded Feed-Forward Neural Rendering|Huangsheng Du et.al.|[2606.30380](https://arxiv.org/abs/2606.30380)|null|
-|2026-06-29|Monte Carlo Energy Aggregation for Mobile 3D Gaussian Splatting|Xiaobiao Du et.al.|[2606.30017](https://arxiv.org/abs/2606.30017)|null|
+|2026-06-29|Monte Carlo Energy Aggregation for Mobile 3D Gaussian Splatting|Xiaobiao Du et.al.|[2606.30017](https://arxiv.org/abs/2606.30017)|**[link](https://github.com/xiaobiaodu/Flux-GS)**|
 |2026-06-29|Shell-Supervised Gaussian Splatting for Urban Real-to-Sim Reconstruction|Yuan Yang et.al.|[2606.30014](https://arxiv.org/abs/2606.30014)|null|
 |2026-06-29|Learning Efficient 4D Gaussian Representations from Monocular Videos with Flow Splatting|Shengjun Zhang et.al.|[2606.29976](https://arxiv.org/abs/2606.29976)|null|
-|2026-06-28|Scenes as Objects, Not Primitives: Instance-Structured 3D Tokenization from Unposed Views|Mijin Yoo et.al.|[2606.29513](https://arxiv.org/abs/2606.29513)|null|
+|2026-06-28|Scenes as Objects, Not Primitives: Instance-Structured 3D Tokenization from Unposed Views|Mijin Yoo et.al.|[2606.29513](https://arxiv.org/abs/2606.29513)|**[link](https://github.com/yoomimi/instok3d)**|
 |2026-06-28|Rectifying Mask via Entropy for Distractor-Free 3DGS in Ambiguous Scenarios|Wongi Park et.al.|[2606.29496](https://arxiv.org/abs/2606.29496)|null|
 |2026-06-25|PanoImager: Geometry-Guided Novel View Synthesis and Reconstruction from Sparse Panoramic Views|Zhisong Xu et.al.|[2606.27071](https://arxiv.org/abs/2606.27071)|null|
 |2026-06-25|Capacity-Controlled Multi-View Stylization of 3D Gaussian Splatting|Zhihao Wen et.al.|[2606.26754](https://arxiv.org/abs/2606.26754)|null|

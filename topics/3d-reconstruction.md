@@ -1,19 +1,19 @@
 # 3D Reconstruction
 
-> Updated on 2026.11.06
+> Updated on 2026.11.09
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-11-05**|**SM4RT: Cascaded Feed-forward Model for 4D Reconstruction**|Pang-Chi Lo et.al.|[2611.08436](https://arxiv.org/abs/2611.08436)|null|
-|**2026-11-05**|**Rotation Is Token-Blind: A Structural Criterion for Post-Training Quantization of Feed-Forward Geometry Transformers**|Huanfei He et.al.|[2611.07955](https://arxiv.org/abs/2611.07955)|null|
-|**2026-11-05**|**MV-Sign: Multi-View 3D Motion Integration and Enhanced Text-to-Motion Conditioning for Sign Language Production**|Singyu Muk et.al.|[2611.07811](https://arxiv.org/abs/2611.07811)|null|
-|**2026-11-05**|**Georeferenced Cross-View 3D Reconstruction from Ground and Satellite Images**|David G. Shatwell et.al.|[2611.07575](https://arxiv.org/abs/2611.07575)|null|
-|**2026-11-05**|**MetricTrail: Revisiting the Power of Metric Depth and Local Optimization for Long-Sequence Streaming 3D Reconstruction**|Jingnan Gao et.al.|[2611.07555](https://arxiv.org/abs/2611.07555)|null|
-|**2026-11-05**|**Degree-Equalized View-Graph Selection under Tight Pair Budgets**|Minhyeok Im et.al.|[2611.07498](https://arxiv.org/abs/2611.07498)|null|
-|**2026-11-05**|**MP-DualNet: A Dual-Branch Deep Learning Approach for Magnetopause Boundary Detection Using Simulated SXI Images**|Cheng Zhong et.al.|[2611.07433](https://arxiv.org/abs/2611.07433)|null|
-|**2026-11-04**|**Gaussians Can Subtract: Neural Dissolve Fields for Hybrid Scene Rendering**|Yiyan Wang et.al.|[2611.07049](https://arxiv.org/abs/2611.07049)|null|
-|**2026-11-05**|**Trainspotting: Learning Object-Centric 3D Reconstruction from Found Photos**|Hanyu Chen et.al.|[2611.06849](https://arxiv.org/abs/2611.06849)|null|
-|**2026-11-04**|**Quo Vadis, Driving Scene Reconstruction? Occlusion-Aware Gaussian Densification**|Dung Do Tien et.al.|[2611.06273](https://arxiv.org/abs/2611.06273)|null|
+|2026-11-05|SM4RT: Cascaded Feed-forward Model for 4D Reconstruction|Pang-Chi Lo et.al.|[2611.08436](https://arxiv.org/abs/2611.08436)|null|
+|2026-11-05|Rotation Is Token-Blind: A Structural Criterion for Post-Training Quantization of Feed-Forward Geometry Transformers|Huanfei He et.al.|[2611.07955](https://arxiv.org/abs/2611.07955)|null|
+|2026-11-05|MV-Sign: Multi-View 3D Motion Integration and Enhanced Text-to-Motion Conditioning for Sign Language Production|Singyu Muk et.al.|[2611.07811](https://arxiv.org/abs/2611.07811)|null|
+|2026-11-05|Georeferenced Cross-View 3D Reconstruction from Ground and Satellite Images|David G. Shatwell et.al.|[2611.07575](https://arxiv.org/abs/2611.07575)|null|
+|2026-11-05|MetricTrail: Revisiting the Power of Metric Depth and Local Optimization for Long-Sequence Streaming 3D Reconstruction|Jingnan Gao et.al.|[2611.07555](https://arxiv.org/abs/2611.07555)|null|
+|2026-11-05|Degree-Equalized View-Graph Selection under Tight Pair Budgets|Minhyeok Im et.al.|[2611.07498](https://arxiv.org/abs/2611.07498)|null|
+|2026-11-05|MP-DualNet: A Dual-Branch Deep Learning Approach for Magnetopause Boundary Detection Using Simulated SXI Images|Cheng Zhong et.al.|[2611.07433](https://arxiv.org/abs/2611.07433)|null|
+|2026-11-04|Gaussians Can Subtract: Neural Dissolve Fields for Hybrid Scene Rendering|Yiyan Wang et.al.|[2611.07049](https://arxiv.org/abs/2611.07049)|null|
+|2026-11-05|Trainspotting: Learning Object-Centric 3D Reconstruction from Found Photos|Hanyu Chen et.al.|[2611.06849](https://arxiv.org/abs/2611.06849)|null|
+|2026-11-04|Quo Vadis, Driving Scene Reconstruction? Occlusion-Aware Gaussian Densification|Dung Do Tien et.al.|[2611.06273](https://arxiv.org/abs/2611.06273)|null|
 |2026-10-29|LucidLyra: Feed-Forward Generative 3D Scene Reconstruction and Joint Understanding via Multi-Task Distillation|Oliver Hahn et.al.|[2610.40495](https://arxiv.org/abs/2610.40495)|null|
 |2026-10-29|Electronic liquid crystals and superconductivity from doping a moiré Mott insulator|Yichi Zhang et.al.|[2610.39978](https://arxiv.org/abs/2610.39978)|null|
 |2026-10-29|MLLM-GS: Multimodal Large Language Model Prior-Guided Fast Novel View Synthesis in Extreme Environments|Zhiliang Wu et.al.|[2610.39936](https://arxiv.org/abs/2610.39936)|null|
@@ -242,7 +242,7 @@
 |2026-03-19|MonoArt: Progressive Structural Reasoning for Monocular Articulated 3D Reconstruction|Haitian Li et.al.|[2603.19231](https://arxiv.org/abs/2603.19231)|null|
 |2026-03-19|Reconstruction Matters: Learning Geometry-Aligned BEV Representation through 3D Gaussian Splatting|Yiren Lu et.al.|[2603.19193](https://arxiv.org/abs/2603.19193)|null|
 |2026-03-19|VGGT-360: Geometry-Consistent Zero-Shot Panoramic Depth Estimation|Jiayi Yuan et.al.|[2603.18943](https://arxiv.org/abs/2603.18943)|null|
-|2026-03-19|GHOST: Fast Category-agnostic Hand-Object Interaction Reconstruction from RGB Videos using Gaussian Splatting|Ahmed Tawfik Aboukhadra et.al.|[2603.18912](https://arxiv.org/abs/2603.18912)|null|
+|2026-03-19|GHOST: Fast Category-agnostic Hand-Object Interaction Reconstruction from RGB Videos using Gaussian Splatting|Ahmed Tawfik Aboukhadra et.al.|[2603.18912](https://arxiv.org/abs/2603.18912)|**[link](https://github.com/ATAboukhadra/GHOST)**|
 |2026-03-19|SEAR: Simple and Efficient Adaptation of Visual Geometric Transformers for RGB+Thermal 3D Reconstruction|Vsevolod Skorokhodov et.al.|[2603.18774](https://arxiv.org/abs/2603.18774)|null|
 |2026-03-19|SwiftGS: Episodic Priors for Immediate Satellite Surface Recovery|Rong Fu et.al.|[2603.18634](https://arxiv.org/abs/2603.18634)|null|
 |2026-03-19|FILT3R: Latent State Adaptive Kalman Filter for Streaming 3D Reconstruction|Seonghyun Jin et.al.|[2603.18493](https://arxiv.org/abs/2603.18493)|[link](https://github.com/jinotter3/FILT3R)|

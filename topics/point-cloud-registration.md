@@ -1,19 +1,19 @@
 # Point Cloud Registration
 
-> Updated on 2026.11.06
+> Updated on 2026.11.09
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-11-05**|**FREE-LIVO: Physically Decoupled Yet Tightly Coupled LiDAR-Inertial-Visual Odometry**|Reon Tabata et.al.|[2611.07463](https://arxiv.org/abs/2611.07463)|null|
-|**2026-11-04**|**Practical Semialgebraic Optimization via Sparse Sample-Based Sum-of-Squares Programming**|Jason Nezvadovitz et.al.|[2611.07108](https://arxiv.org/abs/2611.07108)|null|
-|**2026-11-03**|**When can multi-fragment 2D/3D registration be trusted? Calibrated certification and uncertainty-driven view planning for pelvic fracture fluoroscopy**|Bowen Xiang et.al.|[2611.05618](https://arxiv.org/abs/2611.05618)|null|
-|**2026-11-03**|**SparseGraph-I2P: Consistency-Guided Hypothesis Selection for Efficient Image-to-Point-Cloud Registration**|Ziyang Yu et.al.|[2611.04591](https://arxiv.org/abs/2611.04591)|null|
-|**2026-11-05**|**CUFormer: Modality-Aware CT-Ultrasound Point Cloud Registration for Orthopedic Navigation**|Lixing Tan et.al.|[2611.01536](https://arxiv.org/abs/2611.01536)|**[link](https://github.com/LexTran/CUFormer)**|
-|**2026-10-30**|**SketchMate: Agentic Geometric Reasoning for Zero-Shot Precision Insertion**|Jiaming Wang et.al.|[2610.41844](https://arxiv.org/abs/2610.41844)|null|
-|**2026-10-30**|**Self-Localization of Distributed Microphone Arrays Using One Source and Acoustic Reflections**|Thomas Guffroy et.al.|[2610.41547](https://arxiv.org/abs/2610.41547)|null|
-|**2026-10-29**|**Joint Rigid Alignment and Morphable Reconstruction from Partial 3D Face Scans**|Eli A. Underwood et.al.|[2610.39161](https://arxiv.org/abs/2610.39161)|null|
-|**2026-10-27**|**An Interactive Mobile Augmented Reality System for Efficient Virtual Model-to-Patient Registration in Thoracic Surgery**|Emmanuel Ajaero et.al.|[2610.37271](https://arxiv.org/abs/2610.37271)|null|
-|**2026-10-27**|**SAGE: Semantic-Augmented Geometric Experts for Point Cloud Registration**|Tomoyasu Shimada et.al.|[2610.36658](https://arxiv.org/abs/2610.36658)|null|
+|2026-11-05|FREE-LIVO: Physically Decoupled Yet Tightly Coupled LiDAR-Inertial-Visual Odometry|Reon Tabata et.al.|[2611.07463](https://arxiv.org/abs/2611.07463)|null|
+|2026-11-04|Practical Semialgebraic Optimization via Sparse Sample-Based Sum-of-Squares Programming|Jason Nezvadovitz et.al.|[2611.07108](https://arxiv.org/abs/2611.07108)|null|
+|2026-11-03|When can multi-fragment 2D/3D registration be trusted? Calibrated certification and uncertainty-driven view planning for pelvic fracture fluoroscopy|Bowen Xiang et.al.|[2611.05618](https://arxiv.org/abs/2611.05618)|null|
+|2026-11-03|SparseGraph-I2P: Consistency-Guided Hypothesis Selection for Efficient Image-to-Point-Cloud Registration|Ziyang Yu et.al.|[2611.04591](https://arxiv.org/abs/2611.04591)|null|
+|2026-11-05|CUFormer: Modality-Aware CT-Ultrasound Point Cloud Registration for Orthopedic Navigation|Lixing Tan et.al.|[2611.01536](https://arxiv.org/abs/2611.01536)|[link](https://github.com/LexTran/CUFormer)|
+|2026-10-30|SketchMate: Agentic Geometric Reasoning for Zero-Shot Precision Insertion|Jiaming Wang et.al.|[2610.41844](https://arxiv.org/abs/2610.41844)|null|
+|2026-10-30|Self-Localization of Distributed Microphone Arrays Using One Source and Acoustic Reflections|Thomas Guffroy et.al.|[2610.41547](https://arxiv.org/abs/2610.41547)|null|
+|2026-10-29|Joint Rigid Alignment and Morphable Reconstruction from Partial 3D Face Scans|Eli A. Underwood et.al.|[2610.39161](https://arxiv.org/abs/2610.39161)|null|
+|2026-10-27|An Interactive Mobile Augmented Reality System for Efficient Virtual Model-to-Patient Registration in Thoracic Surgery|Emmanuel Ajaero et.al.|[2610.37271](https://arxiv.org/abs/2610.37271)|null|
+|2026-10-27|SAGE: Semantic-Augmented Geometric Experts for Point Cloud Registration|Tomoyasu Shimada et.al.|[2610.36658](https://arxiv.org/abs/2610.36658)|null|
 |2026-10-25|Robust Single-Parameter Point Cloud Registration using Truncated Lp Functions|Seong Hun Lee et.al.|[2610.34271](https://arxiv.org/abs/2610.34271)|null|
 |2026-10-20|Register Anything Model for Generalizable and Robust Point Cloud Registration|Zheng Qin et.al.|[2610.28821](https://arxiv.org/abs/2610.28821)|null|
 |2026-10-19|On Maximum Clique and Maximum Consensus Formulations in Point Cloud Registration|Abolfazl Babanazari et.al.|[2610.27275](https://arxiv.org/abs/2610.27275)|null|
