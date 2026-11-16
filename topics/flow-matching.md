@@ -4,16 +4,16 @@
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-11-13**|**Elliptic Sampling: Optimal Interpolant Schedules for Gaussians and Beyond**|Cole Becker et.al.|[2611.18542](https://arxiv.org/abs/2611.18542)|null|
-|**2026-11-13**|**Potential Flow, Stress, and Straightness in Flow Matching: Euler Error on Gaussian-Mixture Targets**|Zijian Liu et.al.|[2611.18343](https://arxiv.org/abs/2611.18343)|null|
-|**2026-11-13**|**Vessel2Brain: Edge-Aware Multi-Scale Flow Matching for 3D Brain Image Generation from Vessel Masks**|Zhi Chen et.al.|[2611.17919](https://arxiv.org/abs/2611.17919)|null|
-|**2026-11-13**|**More Genes, Faster Inference: Efficient Large-Panel Spatial Transcriptomics Prediction from Histology**|Songming Zhang et.al.|[2611.17899](https://arxiv.org/abs/2611.17899)|null|
-|**2026-11-13**|**Learning Anisotropic Prediction Targets for Flow Models**|Rayhan Zirvi et.al.|[2611.17767](https://arxiv.org/abs/2611.17767)|null|
-|**2026-11-13**|**Complex Schrödinger Bridges**|Dong-Sig Han et.al.|[2611.17746](https://arxiv.org/abs/2611.17746)|null|
-|**2026-11-13**|**Finite speed Ornstein-Uhlenbeck-Kac processes and their applications in generative modeling**|Richard Duong et.al.|[2611.17625](https://arxiv.org/abs/2611.17625)|null|
-|**2026-11-12**|**Agentic-Teacher: An Agentic Data Engine for Failure-Driven VLA Post-Training**|Gongyue Teng et.al.|[2611.17394](https://arxiv.org/abs/2611.17394)|null|
-|**2026-11-12**|**Sprint3D: Accelerating End-to-End 3D Asset Generation through Pipeline Optimization**|Sho Kuno et.al.|[2611.16701](https://arxiv.org/abs/2611.16701)|null|
-|**2026-11-12**|**Manifold Attracting Flow Matching: Physics-Constrained Sampling via Continuous Geometric Dynamics**|Guanyu Chen et.al.|[2611.16677](https://arxiv.org/abs/2611.16677)|null|
+|2026-11-13|Elliptic Sampling: Optimal Interpolant Schedules for Gaussians and Beyond|Cole Becker et.al.|[2611.18542](https://arxiv.org/abs/2611.18542)|null|
+|2026-11-13|Potential Flow, Stress, and Straightness in Flow Matching: Euler Error on Gaussian-Mixture Targets|Zijian Liu et.al.|[2611.18343](https://arxiv.org/abs/2611.18343)|null|
+|2026-11-13|Vessel2Brain: Edge-Aware Multi-Scale Flow Matching for 3D Brain Image Generation from Vessel Masks|Zhi Chen et.al.|[2611.17919](https://arxiv.org/abs/2611.17919)|null|
+|2026-11-13|More Genes, Faster Inference: Efficient Large-Panel Spatial Transcriptomics Prediction from Histology|Songming Zhang et.al.|[2611.17899](https://arxiv.org/abs/2611.17899)|null|
+|2026-11-13|Learning Anisotropic Prediction Targets for Flow Models|Rayhan Zirvi et.al.|[2611.17767](https://arxiv.org/abs/2611.17767)|null|
+|2026-11-13|Complex Schrödinger Bridges|Dong-Sig Han et.al.|[2611.17746](https://arxiv.org/abs/2611.17746)|null|
+|2026-11-13|Finite speed Ornstein-Uhlenbeck-Kac processes and their applications in generative modeling|Richard Duong et.al.|[2611.17625](https://arxiv.org/abs/2611.17625)|null|
+|2026-11-12|Agentic-Teacher: An Agentic Data Engine for Failure-Driven VLA Post-Training|Gongyue Teng et.al.|[2611.17394](https://arxiv.org/abs/2611.17394)|null|
+|2026-11-12|Sprint3D: Accelerating End-to-End 3D Asset Generation through Pipeline Optimization|Sho Kuno et.al.|[2611.16701](https://arxiv.org/abs/2611.16701)|null|
+|2026-11-12|Manifold Attracting Flow Matching: Physics-Constrained Sampling via Continuous Geometric Dynamics|Guanyu Chen et.al.|[2611.16677](https://arxiv.org/abs/2611.16677)|null|
 |2026-11-05|Latent RL Priors for Data-Efficient Dexterous Manipulation|Yixiao Wang et.al.|[2611.08458](https://arxiv.org/abs/2611.08458)|null|
 |2026-11-05|GPWM: Modeling the World as 3D Particle Motion|Robert Ren et.al.|[2611.08338](https://arxiv.org/abs/2611.08338)|null|
 |2026-11-05|Transformer-Based Trajectory Prescription for sEMG-Optimizing Robot-Mediated Rehabilitation|Gabriel Parra et.al.|[2611.08295](https://arxiv.org/abs/2611.08295)|null|
@@ -247,7 +247,7 @@
 |2026-05-07|Improved techniques for fine-tuning flow models via adjoint matching: a deterministic control pipeline|Zhengyi Guo et.al.|[2605.06583](https://arxiv.org/abs/2605.06583)|null|
 |2026-05-07|Diverse Sampling in Diffusion Models with Marginal Preserving Particle Guidance|Gal Vinograd et.al.|[2605.06553](https://arxiv.org/abs/2605.06553)|null|
 |2026-05-07|OA-WAM: Object-Addressable World Action Model for Robust Robot Manipulation|Yushan Liu et.al.|[2605.06481](https://arxiv.org/abs/2605.06481)|null|
-|2026-05-07|FREPix: Frequency-Heterogeneous Flow Matching for Pixel-Space Image Generation|Mingfeng Lin et.al.|[2605.06421](https://arxiv.org/abs/2605.06421)|**[link](https://github.com/sleepy1231/FREPix)**|
+|2026-05-07|FREPix: Frequency-Heterogeneous Flow Matching for Pixel-Space Image Generation|Mingfeng Lin et.al.|[2605.06421](https://arxiv.org/abs/2605.06421)|[link](https://github.com/sleepy1231/FREPix)|
 |2026-05-07|Flow Matching with Arbitrary Auxiliary Paths|Xin Peng et.al.|[2605.06364](https://arxiv.org/abs/2605.06364)|null|
 |2026-05-07|A Flow Matching Algorithm for Many-Shot Adaptation to Unseen Distributions|Tyler Ingebrand et.al.|[2605.06272](https://arxiv.org/abs/2605.06272)|null|
 |2026-05-07|Predictive-Generative Drift Decomposition for Speech Enhancement and Separation|Julius Richter et.al.|[2605.06189](https://arxiv.org/abs/2605.06189)|null|

@@ -19,7 +19,7 @@
 |2026-10-18|LateMatch: Breaking the Interaction Bottleneck via Cacheable Matching for Efficient Visual Localization|Mohammad Omama et.al.|[2610.25358](https://arxiv.org/abs/2610.25358)|null|
 |2026-10-16|DinoMUSE: A DINOv2-guided Framework for Unsupervised Lateral Motion Estimation in Ultrasound Elastography|Xiyao Meng et.al.|[2610.24020](https://arxiv.org/abs/2610.24020)|null|
 |2026-10-15|CLAD: Keypoint Matching Using Global Line Correspondences|Masaki Satoh et.al.|[2610.21409](https://arxiv.org/abs/2610.21409)|null|
-|2026-08-24|Misanthrope: A Privacy-Preserving Keypoint Detector|Francesco Vultaggio et.al.|[2608.23012](https://arxiv.org/abs/2608.23012)|**[link](https://github.com/fratopa/misanthrope)**|
+|2026-08-24|Misanthrope: A Privacy-Preserving Keypoint Detector|Francesco Vultaggio et.al.|[2608.23012](https://arxiv.org/abs/2608.23012)|[link](https://github.com/fratopa/misanthrope)|
 |2026-08-23|CausalCache: Conditional High-Fidelity Restoration for Long-Horizon GUI Agents|Jiaxuan Luo et.al.|[2608.22577](https://arxiv.org/abs/2608.22577)|null|
 |2026-08-19|Evaluation of Image Matching Methods for Visual Odometry on UAVs|Gašper Spagnolo et.al.|[2608.18624](https://arxiv.org/abs/2608.18624)|null|
 |2026-08-11|Multi-Level Evidence Aggregation for Robust Facial Phenotype Retrieval in Rare Genetic Disorder Prioritization|Alexander Hustinx et.al.|[2608.11037](https://arxiv.org/abs/2608.11037)|null|
@@ -30,7 +30,7 @@
 |2026-08-04|Double Down on Defense: Strengthening Deep Perceptual Hashes against Evasion Attacks without Retraining|Bangjie Sun et.al.|[2608.03101](https://arxiv.org/abs/2608.03101)|null|
 |2026-07-30|Can Synthetic Data Overcome the Generalization Limits of AI-Based Flower and Pod Detection Across Cowpea Breeding Genotypes and Environments?|Hamid Kamangir et.al.|[2607.28796](https://arxiv.org/abs/2607.28796)|null|
 |2026-07-30|CXR-Retrieve: Compositional Text-to-Image Retrieval in Chest Radiography|Tomer Erez et.al.|[2607.27779](https://arxiv.org/abs/2607.27779)|null|
-|2026-07-29|VidMap: Exploiting Temporal Structure for Video-Based Structure-from-Motion|Zador Pataki et.al.|[2607.27194](https://arxiv.org/abs/2607.27194)|**[link](https://github.com/cvg/vidmap)**|
+|2026-07-29|VidMap: Exploiting Temporal Structure for Video-Based Structure-from-Motion|Zador Pataki et.al.|[2607.27194](https://arxiv.org/abs/2607.27194)|[link](https://github.com/cvg/vidmap)|
 |2026-07-29|Robust RPC Bundle Adjustment for Multi-Date Satellite Imagery with Season-Invariant Correspondences|Roger Marí et.al.|[2607.26973](https://arxiv.org/abs/2607.26973)|null|
 |2026-06-30|AnyMatch: Supercharging Universal Multi-Modal Image Matching with Large-Scale Single-View Images|Meng Yang et.al.|[2606.31077](https://arxiv.org/abs/2606.31077)|null|
 |2026-06-29|MF-UAVPose6D: A Model-Free Monocular 6-DoF Pose Estimation Framework for Fixed-Wing UAVs|Juanqin Liu et.al.|[2606.29697](https://arxiv.org/abs/2606.29697)|null|
@@ -84,11 +84,11 @@
 |2026-01-09|Stationaere Kurven auf endlichdimensionalen Mannigfaltigkeiten|Tobias Starke et.al.|[2601.05695](https://arxiv.org/abs/2601.05695)|null|
 |2026-01-05|Exact Clique Number Manipulation via Edge Interdiction|Yi Zhou et.al.|[2601.01869](https://arxiv.org/abs/2601.01869)|null|
 |2025-12-31|Quantum Visual Word Sense Disambiguation: Unraveling Ambiguities Through Quantum Inference Model|Wenbo Qiao et.al.|[2512.24687](https://arxiv.org/abs/2512.24687)|null|
-|2025-12-24|VisRes Bench: On Evaluating the Visual Reasoning Capabilities of VLMs|Brigitta Malagurski Törtei et.al.|[2512.21194](https://arxiv.org/abs/2512.21194)|**[link](https://github.com/visres-bench/visres-bench)**|
+|2025-12-24|VisRes Bench: On Evaluating the Visual Reasoning Capabilities of VLMs|Brigitta Malagurski Törtei et.al.|[2512.21194](https://arxiv.org/abs/2512.21194)|[link](https://github.com/visres-bench/visres-bench)|
 |2025-12-20|Analog Quantum Image Representation with Qubit-Frugal Encoding|Vikrant Sharma et.al.|[2512.18451](https://arxiv.org/abs/2512.18451)|null|
-|2025-12-17|The Perceptual Observatory Characterizing Robustness and Grounding in MLLMs|Tejas Anvekar et.al.|[2512.15949](https://arxiv.org/abs/2512.15949)|**[link](https://github.com/CoRAL-ASU/PerceptualObservatory)**|
+|2025-12-17|The Perceptual Observatory Characterizing Robustness and Grounding in MLLMs|Tejas Anvekar et.al.|[2512.15949](https://arxiv.org/abs/2512.15949)|[link](https://github.com/CoRAL-ASU/PerceptualObservatory)|
 |2025-12-11|Self-Supervised Contrastive Embedding Adaptation for Endoscopic Image Matching|Alberto Rota et.al.|[2512.10379](https://arxiv.org/abs/2512.10379)|null|
-|2025-12-14|MotionEdit: Benchmarking and Learning Motion-Centric Image Editing|Yixin Wan et.al.|[2512.10284](https://arxiv.org/abs/2512.10284)|**[link](https://github.com/elainew728/motion-edit)**|
+|2025-12-14|MotionEdit: Benchmarking and Learning Motion-Centric Image Editing|Yixin Wan et.al.|[2512.10284](https://arxiv.org/abs/2512.10284)|[link](https://github.com/elainew728/motion-edit)|
 |2025-12-04|Value Gradient Guidance for Flow Matching Alignment|Zhen Liu et.al.|[2512.05116](http://arxiv.org/abs/2512.05116)|[link](https://github.com/lzzcd001/vggflow)|
 |2025-12-04|Deep infant brain segmentation from multi-contrast MRI|Malte Hoffmann et.al.|[2512.05114](http://arxiv.org/abs/2512.05114)|null|
 |2025-12-04|Deep Forcing: Training-Free Long Video Generation with Deep Sink and Participative Compression|Jung Yi et.al.|[2512.05081](http://arxiv.org/abs/2512.05081)|null|

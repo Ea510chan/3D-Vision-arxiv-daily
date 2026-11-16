@@ -88,7 +88,7 @@
 |2026-06-01|Adversarial Attacks on Robot Localization Systems via Deep Feature Perturbation|Zhenyu Li et.al.|[2606.01892](https://arxiv.org/abs/2606.01892)|null|
 |2026-06-01|FlatVPR: Plug-and-play Geo-linear Residual Adapter for Geometric Rectification of Foundation Model Feature Manifolds|Rai Hisada et.al.|[2606.01734](https://arxiv.org/abs/2606.01734)|null|
 |2026-05-31|One Channel to Rule Them All: Rethinking Input Representation for Visual Place Recognition|Timur Ismagilov et.al.|[2606.00936](https://arxiv.org/abs/2606.00936)|null|
-|2026-05-29|iVGR: Internalizing Visually Grounded Reasoning for MLLMs with Reinforcement Learning|Chang-Bin Zhang et.al.|[2605.31096](https://arxiv.org/abs/2605.31096)|null|
+|2026-05-29|iVGR: Internalizing Visually Grounded Reasoning for MLLMs with Reinforcement Learning|Chang-Bin Zhang et.al.|[2605.31096](https://arxiv.org/abs/2605.31096)|**[link](https://github.com/Visual-AI/ivgr)**|
 |2026-05-29|DisPlace: Discriminative Place Projections for Multi-Reference Visual Place Recognition|Dhyey Manish Rajani et.al.|[2605.30769](https://arxiv.org/abs/2605.30769)|null|
 |2026-05-27|SAFEVPR: Patch-Based Conformal Verification for Safe Cross-Condition Sequence Visual Place Recognition|Ha Sier et.al.|[2605.28048](https://arxiv.org/abs/2605.28048)|null|
 |2026-05-20|MM-Conv: A Multimodal Dataset and Benchmark for Context-Aware Grounding in 3D Dialogue|Anna Deichler et.al.|[2605.21796](https://arxiv.org/abs/2605.21796)|null|
@@ -104,13 +104,13 @@
 |2026-05-01|Depth-Guided Privacy-Preserving Visual Localization Using 3D Sphere Clouds|Heejoon Moon et.al.|[2605.00562](https://arxiv.org/abs/2605.00562)|null|
 |2026-05-01|MSACT: Multistage Spatial Alignment for Stable Low-Latency Fine Manipulation|Xianbo Cai et.al.|[2605.00475](https://arxiv.org/abs/2605.00475)|null|
 |2026-04-29|AirZoo: A Unified Large-Scale Dataset for Grounding Aerial Geometric 3D Vision|Xiaoya Cheng et.al.|[2604.26567](https://arxiv.org/abs/2604.26567)|[link](https://github.com/nudt-sawlab/AirZoo)|
-|2026-04-29|3D-LENS: A 3D Lifting-based Elevated Novel-view Synthesis method for Single-View Aerial-Ground Re-Identification|William Grolleau et.al.|[2604.26520](https://arxiv.org/abs/2604.26520)|**[link](https://github.com/TurtleSmoke/3D-LENS)**|
+|2026-04-29|3D-LENS: A 3D Lifting-based Elevated Novel-view Synthesis method for Single-View Aerial-Ground Re-Identification|William Grolleau et.al.|[2604.26520](https://arxiv.org/abs/2604.26520)|[link](https://github.com/TurtleSmoke/3D-LENS)|
 |2026-04-28|COMPASS: COmpact Multi-channel Prior-map And Scene Signature for Floor-Plan-Based Visual Localization|Muhammad Shaheer et.al.|[2604.25388](https://arxiv.org/abs/2604.25388)|null|
 |2026-04-27|Geometric Analysis of Self-Supervised Vision Representations for Semantic Image Retrieval|Esteban Rodríguez-Betancourt et.al.|[2604.24469](https://arxiv.org/abs/2604.24469)|null|
 |2026-04-24|Region Matters: Efficient and Reliable Region-Aware Visual Place Recognition|Shunpeng Chen et.al.|[2604.22390](https://arxiv.org/abs/2604.22390)|null|
 |2026-04-24|Revisiting Geometric Obfuscation with Dual Convergent Lines for Privacy-Preserving Image Queries in Visual Localization|Jeonggon Kim et.al.|[2604.22310](https://arxiv.org/abs/2604.22310)|null|
-|2026-04-24|TEMA: Anchor the Image, Follow the Text for Multi-Modification Composed Image Retrieval|Zixu Li et.al.|[2604.21806](https://arxiv.org/abs/2604.21806)|**[link](https://github.com/iLearn-Lab/ACL26-TEMA)**|
-|2026-04-22|ConeSep: Cone-based Robust Noise-Unlearning Compositional Network for Composed Image Retrieval|Zixu Li et.al.|[2604.20358](https://arxiv.org/abs/2604.20358)|**[link](https://github.com/iLearn-Lab/CVPR26-ConeSep)**|
+|2026-04-24|TEMA: Anchor the Image, Follow the Text for Multi-Modification Composed Image Retrieval|Zixu Li et.al.|[2604.21806](https://arxiv.org/abs/2604.21806)|[link](https://github.com/iLearn-Lab/ACL26-TEMA)|
+|2026-04-22|ConeSep: Cone-based Robust Noise-Unlearning Compositional Network for Composed Image Retrieval|Zixu Li et.al.|[2604.20358](https://arxiv.org/abs/2604.20358)|[link](https://github.com/iLearn-Lab/CVPR26-ConeSep)|
 |2026-04-22|UniCVR: From Alignment to Reranking for Unified Zero-Shot Composed Visual Retrieval|Haokun Wen et.al.|[2604.20318](https://arxiv.org/abs/2604.20318)|null|
 |2026-04-21|SL(C)AMma: Simultaneous Localisation, (Calibration) and Mapping With a Magnetometer Array|Thomas Edridge et.al.|[2604.19946](https://arxiv.org/abs/2604.19946)|null|
 |2026-04-22|Air-Know: Arbiter-Calibrated Knowledge-Internalizing Robust Network for Composed Image Retrieval|Zhiheng Fu et.al.|[2604.19386](https://arxiv.org/abs/2604.19386)|[link](https://github.com/iLearn-Lab/CVPR26-Air-Know)|
@@ -347,7 +347,7 @@
 |2025-10-26|Bag-of-Word-Groups (BoWG): A Robust and Efficient Loop Closure Detection Method Under Perceptual Aliasing|Xiang Fei et.al.|[2510.22529](http://arxiv.org/abs/2510.22529)|[link](https://github.com/EdgarFx/BoWG)|
 |2025-10-24|BioCAP: Exploiting Synthetic Captions Beyond Labels in Biological Foundation Models|Ziheng Zhang et.al.|[2510.20095](http://arxiv.org/abs/2510.20095)|null|
 |2025-10-18|Small Language Models Offer Significant Potential for Science Community|Jian Zhang et.al.|[2510.18890](http://arxiv.org/abs/2510.18890)|null|
-|2025-10-21|Beyond Single Images: Retrieval Self-Augmented Unsupervised Camouflaged Object Detection|Ji Du et.al.|[2510.18437](http://arxiv.org/abs/2510.18437)|**[link](https://github.com/xiaohainku/RISE)**|
+|2025-10-21|Beyond Single Images: Retrieval Self-Augmented Unsupervised Camouflaged Object Detection|Ji Du et.al.|[2510.18437](http://arxiv.org/abs/2510.18437)|[link](https://github.com/xiaohainku/RISE)|
 |2025-10-21|ImageGem: In-the-wild Generative Image Interaction Dataset for Generative Model Personalization|Yuanhe Guo et.al.|[2510.18433](http://arxiv.org/abs/2510.18433)|null|
 |2025-10-21|DualHash: A Stochastic Primal-Dual Algorithm with Theoretical Guarantee for Deep Hashing|Luxuan Li et.al.|[2510.18218](http://arxiv.org/abs/2510.18218)|null|
 |2025-10-20|Joint Multi-Condition Representation Modelling via Matrix Factorisation for Visual Place Recognition|Timur Ismagilov et.al.|[2510.17739](http://arxiv.org/abs/2510.17739)|null|

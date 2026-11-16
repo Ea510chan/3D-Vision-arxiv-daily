@@ -242,7 +242,7 @@
 |2026-03-19|MonoArt: Progressive Structural Reasoning for Monocular Articulated 3D Reconstruction|Haitian Li et.al.|[2603.19231](https://arxiv.org/abs/2603.19231)|null|
 |2026-03-19|Reconstruction Matters: Learning Geometry-Aligned BEV Representation through 3D Gaussian Splatting|Yiren Lu et.al.|[2603.19193](https://arxiv.org/abs/2603.19193)|null|
 |2026-03-19|VGGT-360: Geometry-Consistent Zero-Shot Panoramic Depth Estimation|Jiayi Yuan et.al.|[2603.18943](https://arxiv.org/abs/2603.18943)|null|
-|2026-03-19|GHOST: Fast Category-agnostic Hand-Object Interaction Reconstruction from RGB Videos using Gaussian Splatting|Ahmed Tawfik Aboukhadra et.al.|[2603.18912](https://arxiv.org/abs/2603.18912)|**[link](https://github.com/ATAboukhadra/GHOST)**|
+|2026-03-19|GHOST: Fast Category-agnostic Hand-Object Interaction Reconstruction from RGB Videos using Gaussian Splatting|Ahmed Tawfik Aboukhadra et.al.|[2603.18912](https://arxiv.org/abs/2603.18912)|[link](https://github.com/ATAboukhadra/GHOST)|
 |2026-03-19|SEAR: Simple and Efficient Adaptation of Visual Geometric Transformers for RGB+Thermal 3D Reconstruction|Vsevolod Skorokhodov et.al.|[2603.18774](https://arxiv.org/abs/2603.18774)|null|
 |2026-03-19|SwiftGS: Episodic Priors for Immediate Satellite Surface Recovery|Rong Fu et.al.|[2603.18634](https://arxiv.org/abs/2603.18634)|null|
 |2026-03-19|FILT3R: Latent State Adaptive Kalman Filter for Streaming 3D Reconstruction|Seonghyun Jin et.al.|[2603.18493](https://arxiv.org/abs/2603.18493)|[link](https://github.com/jinotter3/FILT3R)|
