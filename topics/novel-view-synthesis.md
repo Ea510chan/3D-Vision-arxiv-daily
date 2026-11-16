@@ -1,6 +1,6 @@
 # Novel View Synthesis
 
-> Updated on 2026.11.11
+> Updated on 2026.11.16
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|

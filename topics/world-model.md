@@ -1,9 +1,19 @@
 # World Model
 
-> Updated on 2026.11.11
+> Updated on 2026.11.16
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-11-13**|**When to Trust Simulated Patient Responses:Support-Gated World Models for Vasopressor Decision Support**|Yifan Jin et.al.|[2611.18458](https://arxiv.org/abs/2611.18458)|null|
+|**2026-11-13**|**WeatherDreamer: Learning a World Model from Multimodal Earth Observations**|Kate Duffy et.al.|[2611.18393](https://arxiv.org/abs/2611.18393)|null|
+|**2026-11-13**|**Toward Universal Translatability: On the Statistical Ontology of Generative AI**|Katia Schwerzmann et.al.|[2611.17963](https://arxiv.org/abs/2611.17963)|null|
+|**2026-11-13**|**V-JEPA-LM: Video-Language Models That Read Dynamics Beyond Static, Text-Aligned Representations**|Keuntae Kim et.al.|[2611.17831](https://arxiv.org/abs/2611.17831)|null|
+|**2026-11-13**|**CHARMING: Parallel Edge AI Acceleration Across Tensor Processing and In-Memory Computation**|Md Omar Faruque et.al.|[2611.17785](https://arxiv.org/abs/2611.17785)|null|
+|**2026-11-13**|**Beyond Prediction Gain: LASR as a Metric for Action-Grounded Latents in World Models**|Yu Zhou et.al.|[2611.17775](https://arxiv.org/abs/2611.17775)|null|
+|**2026-11-13**|**Joint World Action Models through Differentiable Trajectory Optimization**|Mintae Kim et.al.|[2611.17626](https://arxiv.org/abs/2611.17626)|null|
+|**2026-11-12**|**Learning Latent Goal Costs for Visual World-Model Planning with an Expanding Curriculum**|Konstantinos Mylonas et.al.|[2611.17529](https://arxiv.org/abs/2611.17529)|null|
+|**2026-11-12**|**Back to Pixels: Lifting Latent Video Diffusion into Pixel Space**|Yanke Song et.al.|[2611.17336](https://arxiv.org/abs/2611.17336)|null|
+|**2026-11-12**|**K2V: Generative Keyframing For Physically Plausible Video Generation**|Felix O'Mahony et.al.|[2611.17324](https://arxiv.org/abs/2611.17324)|null|
 |2026-11-05|Learning a patient world model for health system simulation in intensive care|Yingtai Li et.al.|[2611.08392](https://arxiv.org/abs/2611.08392)|null|
 |2026-11-05|GPWM: Modeling the World as 3D Particle Motion|Robert Ren et.al.|[2611.08338](https://arxiv.org/abs/2611.08338)|null|
 |2026-11-05|La-JEPA: Compact Robot Policies with Latent World Modeling|Mateo Clémente et.al.|[2611.08156](https://arxiv.org/abs/2611.08156)|null|
