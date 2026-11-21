@@ -13,9 +13,9 @@ layout: default
     </div>
   </div>
   <div class="hero-panel">
-    <div class="stat"><span>Updated</span><strong>2026.11.16</strong></div>
+    <div class="stat"><span>Updated</span><strong>2026.11.21</strong></div>
     <div class="stat"><span>Topics</span><strong>9</strong></div>
-    <div class="stat"><span>Total papers</span><strong>2699</strong></div>
+    <div class="stat"><span>Total papers</span><strong>2719</strong></div>
   </div>
 </section>
 
@@ -46,7 +46,7 @@ layout: default
     <a class="topic-card" href="topics/3d-reconstruction.html" style="--accent: #7c3aed;">
       <span class="topic-icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2.5 20.5 7v10L12 21.5 3.5 17V7z" fill="currentColor" opacity="0.25"/><path d="M12 4.2 18.7 8v8L12 19.8 5.3 16V8z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></span>
       <h3>3D Reconstruction</h3>
-      <p>Latest: 2026-11-05 · Papers: 532</p>
+      <p>Latest: 2026-11-19 · Papers: 542</p>
       <span class="topic-cta">View papers →</span>
     </a>
     <a class="topic-card" href="topics/novel-view-synthesis.html" style="--accent: #db2777;">
@@ -70,7 +70,7 @@ layout: default
     <a class="topic-card" href="topics/world-model.html" style="--accent: #9333ea;">
       <span class="topic-icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2.5 20.5 7v10L12 21.5 3.5 17V7z" fill="currentColor" opacity="0.25"/><path d="M12 4.2 18.7 8v8L12 19.8 5.3 16V8z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></span>
       <h3>World Model</h3>
-      <p>Latest: 2026-11-13 · Papers: 270</p>
+      <p>Latest: 2026-11-19 · Papers: 280</p>
       <span class="topic-cta">View papers →</span>
     </a>
     <a class="topic-card" href="topics/flow-matching.html" style="--accent: #e11d48;">

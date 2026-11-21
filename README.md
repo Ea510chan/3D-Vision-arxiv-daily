@@ -1,8 +1,8 @@
 # 3D Vision arXiv Daily 🚀
 
 > 🌐 Start here: **[GitHub Pages](https://ea510chan.github.io/3D-Vision-arxiv-daily/)**
-> Updated on 2026.11.16
-> Topics: 9 | Total papers: 2699
+> Updated on 2026.11.21
+> Topics: 9 | Total papers: 2719
 > Usage instructions: [here](./docs/README.md#usage)
 > This page is modified from [here](https://github.com/Vincentqyw/cv-arxiv-daily)
 
@@ -19,11 +19,11 @@
 | 🧭 | Point Cloud Registration | 2026-11-05 | 200 | [Point Cloud Registration](topics/point-cloud-registration.md) |
 | 🧩 | Image Matching | 2026-11-05 | 210 | [Image Matching](topics/image-matching.md) |
 | 🛰️ | SLAM | 2026-11-05 | 402 | [SLAM](topics/slam.md) |
-| 🧱 | 3D Reconstruction | 2026-11-05 | 532 | [3D Reconstruction](topics/3d-reconstruction.md) |
+| 🧱 | 3D Reconstruction | 2026-11-19 | 542 | [3D Reconstruction](topics/3d-reconstruction.md) |
 | 🎥 | Novel View Synthesis | 2026-11-05 | 158 | [Novel View Synthesis](topics/novel-view-synthesis.md) |
 | 🗺️ | Visual Localization | 2026-11-05 | 544 | [Visual Localization](topics/visual-localization.md) |
 | 📍 | 3D Localization | 2026-11-13 | 62 | [3D Localization](topics/3d-localization.md) |
-| 🌍 | World Model | 2026-11-13 | 270 | [World Model](topics/world-model.md) |
+| 🌍 | World Model | 2026-11-19 | 280 | [World Model](topics/world-model.md) |
 | 🌊 | Flow Matching | 2026-11-13 | 321 | [Flow Matching](topics/flow-matching.md) |
 
 ## How It Works

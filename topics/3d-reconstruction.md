@@ -1,9 +1,19 @@
 # 3D Reconstruction
 
-> Updated on 2026.11.16
+> Updated on 2026.11.21
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-11-19**|**Hydrodynamic modeling of liquid metal field emitter deformation under combined RF and DC magnetic fields**|Yuan-Zhi Lim et.al.|[2611.26518](https://arxiv.org/abs/2611.26518)|null|
+|**2026-11-19**|**SGAR: Feed-Forward 3D Reconstruction via Sparse Geometry-Guided Attention**|Aoxiang Fan et.al.|[2611.26493](https://arxiv.org/abs/2611.26493)|null|
+|**2026-11-19**|**FirstCross: Convex Single-Photon 3D Reconstruction from Sparse Views**|Chi-Wei Lee et.al.|[2611.26321](https://arxiv.org/abs/2611.26321)|null|
+|**2026-11-19**|**Reference-Twist-Based Velocity-Domain Spatiotemporal Calibration for mmWave Radar, Event Camera, and IMU**|Zhenghao Zou et.al.|[2611.26083](https://arxiv.org/abs/2611.26083)|null|
+|**2026-11-19**|**AGE-Capture: Autonomous, General, and Efficient UAV Capture for High-Fidelity Scene Reconstruction**|Xiaofeng Jin et.al.|[2611.26048](https://arxiv.org/abs/2611.26048)|null|
+|**2026-11-19**|**SCCV-6D: Sparse Canonical Coordinate Voting for Holistic Multi-View RGB-D 6D Pose Estimation in Robotic Bin Picking**|Nico Leuze et.al.|[2611.25819](https://arxiv.org/abs/2611.25819)|null|
+|**2026-11-19**|**Beyond Resemblance: Image Fusion Reimagined**|Hao Zhang et.al.|[2611.25453](https://arxiv.org/abs/2611.25453)|null|
+|**2026-11-18**|**MV-JEPA: Post-Training Video Encoders for Cross-View Understanding**|Yangchen Zhao et.al.|[2611.25172](https://arxiv.org/abs/2611.25172)|null|
+|**2026-11-18**|**Infer3D: Inverse Generative Modeling Enables Robust 3D Reconstruction**|Amani Kiruga et.al.|[2611.25061](https://arxiv.org/abs/2611.25061)|null|
+|**2026-11-18**|**Beyond Appearance: Evidence-Guided Programmatic 3D Scene Reconstruction with Agentic Lighting Reasoning**|Zeting Luo et.al.|[2611.24565](https://arxiv.org/abs/2611.24565)|null|
 |2026-11-05|SM4RT: Cascaded Feed-forward Model for 4D Reconstruction|Pang-Chi Lo et.al.|[2611.08436](https://arxiv.org/abs/2611.08436)|null|
 |2026-11-05|Rotation Is Token-Blind: A Structural Criterion for Post-Training Quantization of Feed-Forward Geometry Transformers|Huanfei He et.al.|[2611.07955](https://arxiv.org/abs/2611.07955)|null|
 |2026-11-05|MV-Sign: Multi-View 3D Motion Integration and Enhanced Text-to-Motion Conditioning for Sign Language Production|Singyu Muk et.al.|[2611.07811](https://arxiv.org/abs/2611.07811)|null|
