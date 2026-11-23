@@ -1,6 +1,6 @@
 # Visual Localization
 
-> Updated on 2026.11.21
+> Updated on 2026.11.23
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
@@ -69,7 +69,7 @@
 |2026-07-06|Trajectory-Anchor Optimization for Overconfident Thermal Visual Place Recognition: Zero-Leakage OOD Auditing and Kidnapped-Robot Recovery|Zhiyuan Lu et.al.|[2607.04745](https://arxiv.org/abs/2607.04745)|null|
 |2026-07-06|Reference-Induced Consensus for Selective Posed-Reference Visual Localization|Wonseok Kang et.al.|[2607.04722](https://arxiv.org/abs/2607.04722)|[link](https://github.com/SNU-DLLAB/ric_loc)|
 |2026-07-06|DIVO: Continuous-time DVL-Inertial-Visual Odometry for Unmanned Underwater Vehicles|Kyungmin Jung et.al.|[2607.04615](https://arxiv.org/abs/2607.04615)|null|
-|2026-07-02|GeoMix: Descriptor-Free Visual Localization via Global Context and Multi-Detector Training|Yejun Zhang et.al.|[2607.02486](https://arxiv.org/abs/2607.02486)|null|
+|2026-07-02|GeoMix: Descriptor-Free Visual Localization via Global Context and Multi-Detector Training|Yejun Zhang et.al.|[2607.02486](https://arxiv.org/abs/2607.02486)|**[link](https://github.com/YejunZhang/Geomix)**|
 |2026-06-30|Lost in the Tail: Addressing Geographic Imbalance in Urban Visual Place Recognition|Zhiyao Shu et.al.|[2607.00090](https://arxiv.org/abs/2607.00090)|null|
 |2026-06-30|Seeing Through the Weights: Privacy Leakage in Scene Coordinate Regression|Oleksii Nasypanyi et.al.|[2606.31164](https://arxiv.org/abs/2606.31164)|null|
 |2026-07-01|AnyMatch: Supercharging Universal Multi-Modal Image Matching with Large-Scale Single-View Images|Meng Yang et.al.|[2606.31077](https://arxiv.org/abs/2606.31077)|null|
@@ -88,7 +88,7 @@
 |2026-06-01|Adversarial Attacks on Robot Localization Systems via Deep Feature Perturbation|Zhenyu Li et.al.|[2606.01892](https://arxiv.org/abs/2606.01892)|null|
 |2026-06-01|FlatVPR: Plug-and-play Geo-linear Residual Adapter for Geometric Rectification of Foundation Model Feature Manifolds|Rai Hisada et.al.|[2606.01734](https://arxiv.org/abs/2606.01734)|null|
 |2026-05-31|One Channel to Rule Them All: Rethinking Input Representation for Visual Place Recognition|Timur Ismagilov et.al.|[2606.00936](https://arxiv.org/abs/2606.00936)|null|
-|2026-05-29|iVGR: Internalizing Visually Grounded Reasoning for MLLMs with Reinforcement Learning|Chang-Bin Zhang et.al.|[2605.31096](https://arxiv.org/abs/2605.31096)|**[link](https://github.com/Visual-AI/ivgr)**|
+|2026-05-29|iVGR: Internalizing Visually Grounded Reasoning for MLLMs with Reinforcement Learning|Chang-Bin Zhang et.al.|[2605.31096](https://arxiv.org/abs/2605.31096)|[link](https://github.com/Visual-AI/ivgr)|
 |2026-05-29|DisPlace: Discriminative Place Projections for Multi-Reference Visual Place Recognition|Dhyey Manish Rajani et.al.|[2605.30769](https://arxiv.org/abs/2605.30769)|null|
 |2026-05-27|SAFEVPR: Patch-Based Conformal Verification for Safe Cross-Condition Sequence Visual Place Recognition|Ha Sier et.al.|[2605.28048](https://arxiv.org/abs/2605.28048)|null|
 |2026-05-20|MM-Conv: A Multimodal Dataset and Benchmark for Context-Aware Grounding in 3D Dialogue|Anna Deichler et.al.|[2605.21796](https://arxiv.org/abs/2605.21796)|null|
