@@ -1,12 +1,19 @@
 # Image Matching
 
-> Updated on 2026.11.23
+> Updated on 2026.11.26
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|2026-11-05|USB Gym: A Gymnasium Testbed for Closed-Loop Ultrasound View Matching|Thanapong Intharah et.al.|[2611.08352](https://arxiv.org/abs/2611.08352)|null|
-|2026-11-03|Sparse Anchors for Visual Multi-Session Registration in Changing Environments|Yunus Talha Erzurumlu et.al.|[2611.05084](https://arxiv.org/abs/2611.05084)|null|
-|2026-11-03|Manifold Embedding of Deep Image Features for Image Matching via Neural Adjoint Maps|Nafie El Amrani et.al.|[2611.05083](https://arxiv.org/abs/2611.05083)|null|
+|**2026-11-24**|**Learning Agent States for Latent Action Modeling**|Shaoan Xie et.al.|[2611.32017](https://arxiv.org/abs/2611.32017)|null|
+|**2026-11-22**|**Separating Action Allocation from Image Matching in Visual Token Routing**|Chenxi Wang et.al.|[2611.29477](https://arxiv.org/abs/2611.29477)|null|
+|**2026-11-20**|**Which Dwarf Is This? Doppeldwarf-306 and Near-Identical Instance Retrieval**|Turhan Can Kargin et.al.|[2611.27490](https://arxiv.org/abs/2611.27490)|null|
+|**2026-11-19**|**LBW-NPS: A Local Band-Weighted Noise Power Spectrum Loss for Texture-Preserving Low-Dose CT Denoising**|Fatma Elif Yalçındağ et.al.|[2611.25548](https://arxiv.org/abs/2611.25548)|null|
+|**2026-11-15**|**Mock Observations: Morphological Analysis of Galactic Bars in IllustrisTNG Simulations**|Jun-Yu Gong et.al.|[2611.19884](https://arxiv.org/abs/2611.19884)|null|
+|**2026-11-06**|**OfficeTwin: Realizing 3D Reconstruction of Redundant Scenes through Partial Viewpoint Perception**|Quanyun Wu et.al.|[2611.10241](https://arxiv.org/abs/2611.10241)|null|
+|**2026-11-05**|**Federated training performs as well as centralized for 3D Latent Diffusion for Diagnosis-Conditioned Brain MRI Synthesis**|Abhijith Shaji et.al.|[2611.08771](https://arxiv.org/abs/2611.08771)|null|
+|**2026-11-05**|**USB Gym: A Gymnasium Testbed for Closed-Loop Ultrasound View Matching**|Thanapong Intharah et.al.|[2611.08352](https://arxiv.org/abs/2611.08352)|null|
+|**2026-11-03**|**Sparse Anchors for Visual Multi-Session Registration in Changing Environments**|Yunus Talha Erzurumlu et.al.|[2611.05084](https://arxiv.org/abs/2611.05084)|null|
+|**2026-11-03**|**Manifold Embedding of Deep Image Features for Image Matching via Neural Adjoint Maps**|Nafie El Amrani et.al.|[2611.05083](https://arxiv.org/abs/2611.05083)|null|
 |2026-11-01|Accurate automated photo-identification of Near Eastern and European fire salamanders|Maayan Yesharim et.al.|[2611.01601](https://arxiv.org/abs/2611.01601)|null|
 |2026-10-30|A Generalized Sparse Fuzzy Clustering Framework with Automated Cluster Cardinality Estimation Ability|George Stamatelis et.al.|[2611.00159](https://arxiv.org/abs/2611.00159)|null|
 |2026-10-29|Luggage re-identification: A study of strategies towards a real-world application|Quentin Dhôte et.al.|[2610.40643](https://arxiv.org/abs/2610.40643)|null|

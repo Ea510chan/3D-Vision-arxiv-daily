@@ -1,11 +1,19 @@
 # Visual Localization
 
-> Updated on 2026.11.23
+> Updated on 2026.11.26
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|2026-11-05|How Far Can Untrained Neural Networks Go in Anomaly Detection? From Tables to Pixels|Hyojun Yi et.al.|[2611.08136](https://arxiv.org/abs/2611.08136)|null|
-|2026-11-04|UniLoop: Unified Loop Closure Detection from Retrieval to Geometric Verification and Relative Pose Estimation|Jingwen Yu et.al.|[2611.06378](https://arxiv.org/abs/2611.06378)|null|
+|**2026-11-25**|**Towards Closing the Performance Gap in Cross-Modal Place Recognition**|Ofer Idan et.al.|[2611.34877](https://arxiv.org/abs/2611.34877)|null|
+|**2026-11-25**|**Who Is Ego? Scaling Cross-View Camera Wearer Identification and Segmentation beyond Humans**|Yifan Jin et.al.|[2611.34489](https://arxiv.org/abs/2611.34489)|null|
+|**2026-11-17**|**Bits, Not Boxes: Label-Free Layer Selection for Visual Localization in VLMs**|Haisheng Fu et.al.|[2611.23432](https://arxiv.org/abs/2611.23432)|null|
+|**2026-11-17**|**PeriaTrace: Tooth-Level Grounding Diagnosis and Patient-Facing Explanations from Periapical Radiographs**|Zhenhuan Zhou et.al.|[2611.23012](https://arxiv.org/abs/2611.23012)|null|
+|**2026-11-17**|**EfficientVPR: Toward Efficient Visual Place Recognition via Scene-Aware Prompt Tuning and Adaptive Feature Enhancement**|Wenjing Tang et.al.|[2611.22506](https://arxiv.org/abs/2611.22506)|**[link](https://github.com/WiniTang/EfficientVPR)**|
+|**2026-11-16**|**Beyond Appearance: Where Forest Visual Place Recognition Actually Fails**|Blake Matheson et.al.|[2611.21996](https://arxiv.org/abs/2611.21996)|null|
+|**2026-11-06**|**CRTrack-Cap: A New Benchmark for Cross-View Dense Video Object Captioning**|Xiangqun Zhang et.al.|[2611.09617](https://arxiv.org/abs/2611.09617)|null|
+|**2026-11-06**|**MetricPose: Flexible 3D Human Pose Estimation with Depth and Geometric Cues**|Shifan Zhu et.al.|[2611.08954](https://arxiv.org/abs/2611.08954)|null|
+|**2026-11-09**|**How Far Can Untrained Neural Networks Go in Anomaly Detection? From Tables to Pixels**|Hyojun Yi et.al.|[2611.08136](https://arxiv.org/abs/2611.08136)|null|
+|**2026-11-04**|**UniLoop: Unified Loop Closure Detection from Retrieval to Geometric Verification and Relative Pose Estimation**|Jingwen Yu et.al.|[2611.06378](https://arxiv.org/abs/2611.06378)|null|
 |2026-11-03|Anchored Rank-Adversarial Fine-Tuning Pretrained Visual Place Recognition Models|Mostafa Kira et.al.|[2611.05286](https://arxiv.org/abs/2611.05286)|null|
 |2026-11-03|Sparse Anchors for Visual Multi-Session Registration in Changing Environments|Yunus Talha Erzurumlu et.al.|[2611.05084](https://arxiv.org/abs/2611.05084)|null|
 |2026-11-02|CoReMatch: Recurrent Continuous Coordinate Refinement for Real-Time Robotic Feature Matching|Robert J. Wang et.al.|[2611.03932](https://arxiv.org/abs/2611.03932)|null|

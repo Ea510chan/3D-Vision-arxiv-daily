@@ -1,9 +1,19 @@
 # Novel View Synthesis
 
-> Updated on 2026.11.23
+> Updated on 2026.11.26
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-11-25**|**A Mesh for Every Moment**|Roy Or-El et.al.|[2611.34939](https://arxiv.org/abs/2611.34939)|null|
+|**2026-11-25**|**DynMF2: Rigid Motion Factorization by Expectation-Maximization for Monocular 4D Reconstruction and Motion Segmentation**|Agelos Kratimenos et.al.|[2611.34931](https://arxiv.org/abs/2611.34931)|null|
+|**2026-11-25**|**WorldExpand: Building Coherent 3D Worlds via Sparse Joint Panoramic Expansion**|Yuyang Yin et.al.|[2611.34810](https://arxiv.org/abs/2611.34810)|null|
+|**2026-11-25**|**Neural Rendering Compiler: Generative Video Models as Programmable Renderers**|Yuxia Zhu et.al.|[2611.34680](https://arxiv.org/abs/2611.34680)|null|
+|**2026-11-25**|**TACC: Target-Aware Carrier Compression for Dense-Context Novel View Synthesis**|Yiming Fan et.al.|[2611.34476](https://arxiv.org/abs/2611.34476)|null|
+|**2026-11-25**|**UPP-Gauss: Ultrasound Propagation Physics-informed Gaussian Splatting for B-mode Novel-View Synthesis**|Guil Jung et.al.|[2611.33920](https://arxiv.org/abs/2611.33920)|null|
+|**2026-11-25**|**VivaWorld: Long-Horizon Video World Model With Compositional 3D Priors**|Ying Jiang et.al.|[2611.33591](https://arxiv.org/abs/2611.33591)|null|
+|**2026-11-24**|**OrdiHand-GS: Ordinal-Guided Tracking and Hand-Refined Gaussian Avatars for Digital Signers**|Mingxuan Ma et.al.|[2611.33465](https://arxiv.org/abs/2611.33465)|null|
+|**2026-11-24**|**Synchronizing Cameras via 3D Object Relationships**|Sujong Shin et.al.|[2611.33387](https://arxiv.org/abs/2611.33387)|null|
+|**2026-11-24**|**FOCI: Trajectory Optimization on Gaussian Splats for Gaussian Robots**|Mario Gomez Andreu et.al.|[2611.33380](https://arxiv.org/abs/2611.33380)|null|
 |2026-11-05|MOMASPLAT: Dynamic Novel-View Demonstration Augmentation for Mobile Manipulation|Sateesh Kumar et.al.|[2611.08372](https://arxiv.org/abs/2611.08372)|null|
 |2026-11-05|Perception Over Geometry: Rethinking Gaussian Allocation in Mesh-based Splatting|Yuting Wang et.al.|[2611.07979](https://arxiv.org/abs/2611.07979)|[link](https://github.com/yuting01234/P-MGS)|
 |2026-11-05|PlayGen2: Learning Real-Time Playable Worlds with Explicit 3D State|Jihai Zhang et.al.|[2611.07867](https://arxiv.org/abs/2611.07867)|null|

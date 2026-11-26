@@ -1,14 +1,19 @@
 # 3D Localization
 
-> Updated on 2026.11.23
+> Updated on 2026.11.26
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|2026-11-13|SCAR: Bridging Coarse Retrieval and Fine Localization through Candidate Reranking|Shuhan Dong et.al.|[2611.18240](https://arxiv.org/abs/2611.18240)|null|
-|2026-11-09|Uni-Loc: Weakly Supervised 3D CT Pathology Localization via Spatially Grounded Vision-Language Classification|Hao-Chih Lee et.al.|[2611.13330](https://arxiv.org/abs/2611.13330)|null|
-|2026-11-09|CSG-Nav: Confidence-Aware Semantic-Geometric Fusion for Robust Exploration and Accurate Zero-Shot Object-Goal Navigation|Shoubin Chen et.al.|[2611.11978](https://arxiv.org/abs/2611.11978)|null|
-|2026-11-09|Bistatic UAV-Based 3D SAR Imaging Using Integrated Sensing and Communications Transceivers|Akanksha Sneh et.al.|[2611.11956](https://arxiv.org/abs/2611.11956)|null|
-|2026-11-06|DAC-MACE: Context-Conditioned Expert Routing for Compact Scene Coordinate Regression in Camera Relocalization|Dingying Fan et.al.|[2611.10263](https://arxiv.org/abs/2611.10263)|null|
+|**2026-11-25**|**An Image Detectability Field as a Viewpoint Utility for 2D-3D Localization in Sparse Maps**|Han Sun et.al.|[2611.34139](https://arxiv.org/abs/2611.34139)|null|
+|**2026-11-24**|**VG-GP: Uncertainty-Gated Visuo-Geometric Memory for Negative-Transfer-Resistant Grasp Adaptation**|Yonglong Zhang et.al.|[2611.31826](https://arxiv.org/abs/2611.31826)|null|
+|**2026-11-21**|**LoKiTO: Local Kinodynamic Trajectory Optimization for UAVs based on Memory-Efficient Neural Distance Fields**|Guillermo Gil-Garcia et.al.|[2611.28438](https://arxiv.org/abs/2611.28438)|null|
+|**2026-11-16**|**Vision-Language Grounded Semantic Navigation for Autonomous Mobile Robots**|Ravindran Vasoor Saravanan et.al.|[2611.20558](https://arxiv.org/abs/2611.20558)|null|
+|**2026-11-14**|**Long-Horizon Causal Inertial Odometry in Multistory Buildings**|Tianzi Zhang et.al.|[2611.19387](https://arxiv.org/abs/2611.19387)|null|
+|**2026-11-23**|**SCAR: Bridging Coarse Retrieval and Fine Localization through Candidate Reranking**|Shuhan Dong et.al.|[2611.18240](https://arxiv.org/abs/2611.18240)|null|
+|**2026-11-09**|**Uni-Loc: Weakly Supervised 3D CT Pathology Localization via Spatially Grounded Vision-Language Classification**|Hao-Chih Lee et.al.|[2611.13330](https://arxiv.org/abs/2611.13330)|null|
+|**2026-11-09**|**CSG-Nav: Confidence-Aware Semantic-Geometric Fusion for Robust Exploration and Accurate Zero-Shot Object-Goal Navigation**|Shoubin Chen et.al.|[2611.11978](https://arxiv.org/abs/2611.11978)|null|
+|**2026-11-09**|**Bistatic UAV-Based 3D SAR Imaging Using Integrated Sensing and Communications Transceivers**|Akanksha Sneh et.al.|[2611.11956](https://arxiv.org/abs/2611.11956)|null|
+|**2026-11-06**|**DAC-MACE: Context-Conditioned Expert Routing for Compact Scene Coordinate Regression in Camera Relocalization**|Dingying Fan et.al.|[2611.10263](https://arxiv.org/abs/2611.10263)|null|
 |2026-11-06|Beyond Segmentation: Enriching ImageCAS with Coronary Ostia Landmarks, Rooted Centerline Graphs, and Open-Weight Localization Models|Matteo Leccardi et.al.|[2611.09714](https://arxiv.org/abs/2611.09714)|null|
 |2026-11-05|High resolution 3D localization of ultrasound sparse sources using a SAGE algorithm|Sophie V. Heymans et.al.|[2611.07966](https://arxiv.org/abs/2611.07966)|null|
 |2026-11-02|Ray-SCR: Generalizing Scene Coordinate Regression Across Camera Models|Jaemin Cho et.al.|[2611.03098](https://arxiv.org/abs/2611.03098)|null|

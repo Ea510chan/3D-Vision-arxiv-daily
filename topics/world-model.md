@@ -1,9 +1,19 @@
 # World Model
 
-> Updated on 2026.11.23
+> Updated on 2026.11.26
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-11-25**|**Not all world models can doubt: how training objective and architecture shape epistemic uncertainty in JEPA and RSSM world models**|Simon Baur et.al.|[2611.34830](https://arxiv.org/abs/2611.34830)|null|
+|**2026-11-25**|**Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video Models**|Dezhi Luo et.al.|[2611.34813](https://arxiv.org/abs/2611.34813)|null|
+|**2026-11-25**|**Was the Model Given the Right Action? Auditing and Repairing Action Interfaces in Navigation World Models**|Ajmain Istiak Apon et.al.|[2611.34739](https://arxiv.org/abs/2611.34739)|null|
+|**2026-11-25**|**WorldInteract: Controllable Streaming Video Generation for Multi-Material Interactions**|Ahmed Hatem et.al.|[2611.34730](https://arxiv.org/abs/2611.34730)|null|
+|**2026-11-25**|**ShowNow: Fine-Grained Speculative Streaming for Responsive World Models**|Yiren Song et.al.|[2611.34693](https://arxiv.org/abs/2611.34693)|null|
+|**2026-11-25**|**Do We Still Need Reinforcement Learning When We Can Read the World Model?**|Mingchao Zhang et.al.|[2611.34656](https://arxiv.org/abs/2611.34656)|null|
+|**2026-11-25**|**Motion Beyond Pixels: Learning Future Visual Representations for Object-Centric Dynamics**|Chengzhi Zhao et.al.|[2611.34644](https://arxiv.org/abs/2611.34644)|null|
+|**2026-11-25**|**$μ$ MPC: Microsecond-Scale Nonlinear and World Model Control from Edge to GPU via Koopman-Linearized Precompilation**|Devesh Nath et.al.|[2611.34597](https://arxiv.org/abs/2611.34597)|null|
+|**2026-11-25**|**Long-Horizon Planning with Latent World Models via Graph Anchors**|Syed Nazmus Sakib et.al.|[2611.34509](https://arxiv.org/abs/2611.34509)|null|
+|**2026-11-25**|**Most of the Way There: Turning a Strong Video Prior into an Action-Conditioned World Model**|Zanyi Wang et.al.|[2611.34435](https://arxiv.org/abs/2611.34435)|null|
 |2026-11-19|ScaleWorld: High-Resolution World Generation through Shared Prediction and Refinement|Yansong Qu et.al.|[2611.26615](https://arxiv.org/abs/2611.26615)|null|
 |2026-11-19|Plan4D: Generative Plannable 4D Worlds|Hangwei Zhang et.al.|[2611.26516](https://arxiv.org/abs/2611.26516)|null|
 |2026-11-19|Monte Carlo Pass Search for Setpieces|Andrew Kang et.al.|[2611.26464](https://arxiv.org/abs/2611.26464)|null|

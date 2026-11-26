@@ -1,9 +1,19 @@
 # Point Cloud Registration
 
-> Updated on 2026.11.23
+> Updated on 2026.11.26
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-11-23**|**Exact Volume-Preserving Diffeomorphic Shear Splitting: Continuous-Discrete Geometric Bounds, Reversible Memory Backpropagation, and Expressivity Frontiers in Volumetric Mapping**|Alvaro Garcia-Casas et.al.|[2611.31343](https://arxiv.org/abs/2611.31343)|null|
+|**2026-11-23**|**GeLiFiSH: Recursive LiDAR Keypoint Estimation with Ground and Moving Object Segmentation**|Nikolaos Stathoulopoulos et.al.|[2611.30402](https://arxiv.org/abs/2611.30402)|null|
+|**2026-11-21**|**PointNeXt Adapter Improved Model for BIM Component Defect Association under Construction Images and Design Model Attributes**|Na Yu et.al.|[2611.28820](https://arxiv.org/abs/2611.28820)|null|
+|**2026-11-19**|**ConRef: Auditing Reference Reliability in 2D/3D Registration Benchmarks**|Jianfeng Yue et.al.|[2611.26758](https://arxiv.org/abs/2611.26758)|null|
+|**2026-11-19**|**I See You: Initial Multi-Robot LiDAR Registration with Mutual-Observation Checks**|Jonathan Lichtenfeld et.al.|[2611.26276](https://arxiv.org/abs/2611.26276)|null|
+|**2026-11-19**|**Reference-Twist-Based Velocity-Domain Spatiotemporal Calibration for mmWave Radar, Event Camera, and IMU**|Zhenghao Zou et.al.|[2611.26083](https://arxiv.org/abs/2611.26083)|null|
+|**2026-11-17**|**Kolibri: Color Finds the Place, Refinement Sets the Pose for RGB-D Localization in Colored Point Clouds**|Leonel Aguilar et.al.|[2611.22829](https://arxiv.org/abs/2611.22829)|null|
+|**2026-11-17**|**The Multivariate Feedback Particle Filter for State-dependent Multiplicative Noises and Its Application to Attitude and Pose Estimations**|Jingyao You et.al.|[2611.22518](https://arxiv.org/abs/2611.22518)|null|
+|**2026-11-16**|**OrthoMark: Place Recognition with Point-Anchored Orthographic Height Mark**|Haichuan Li et.al.|[2611.20570](https://arxiv.org/abs/2611.20570)|null|
+|**2026-11-12**|**A thorough review on Deep Learning approaches to 2D-to-3D Registration in Medical Imaging**|Andrea Borghesi et.al.|[2611.17468](https://arxiv.org/abs/2611.17468)|null|
 |2026-11-05|FREE-LIVO: Physically Decoupled Yet Tightly Coupled LiDAR-Inertial-Visual Odometry|Reon Tabata et.al.|[2611.07463](https://arxiv.org/abs/2611.07463)|null|
 |2026-11-04|Practical Semialgebraic Optimization via Sparse Sample-Based Sum-of-Squares Programming|Jason Nezvadovitz et.al.|[2611.07108](https://arxiv.org/abs/2611.07108)|null|
 |2026-11-03|When can multi-fragment 2D/3D registration be trusted? Calibrated certification and uncertainty-driven view planning for pelvic fracture fluoroscopy|Bowen Xiang et.al.|[2611.05618](https://arxiv.org/abs/2611.05618)|null|

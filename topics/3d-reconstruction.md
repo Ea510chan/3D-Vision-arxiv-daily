@@ -1,9 +1,19 @@
 # 3D Reconstruction
 
-> Updated on 2026.11.23
+> Updated on 2026.11.26
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-11-25**|**AnyCam: Anything Can Represent Camera for Video Generation**|Weijie Lyu et.al.|[2611.34944](https://arxiv.org/abs/2611.34944)|null|
+|**2026-11-25**|**MERLoc: Robust Robot Localization in Dynamic Environments with Pose-Based Retrieval over 3D Gaussian Splatting References**|Michael Baumgartner et.al.|[2611.34932](https://arxiv.org/abs/2611.34932)|null|
+|**2026-11-25**|**WorldExpand: Building Coherent 3D Worlds via Sparse Joint Panoramic Expansion**|Yuyang Yin et.al.|[2611.34810](https://arxiv.org/abs/2611.34810)|null|
+|**2026-11-25**|**Who Is Ego? Scaling Cross-View Camera Wearer Identification and Segmentation beyond Humans**|Yifan Jin et.al.|[2611.34489](https://arxiv.org/abs/2611.34489)|null|
+|**2026-11-25**|**OceanFix: Reference-Guided Diffusion for Sparse-View Underwater 3D Reconstruction**|Gen Li et.al.|[2611.34155](https://arxiv.org/abs/2611.34155)|null|
+|**2026-11-25**|**FoundSurface: Feedforward Ray-Based 3D Scene Surface Reconstruction from Unposed Images**|Shenxing Wei et.al.|[2611.34128](https://arxiv.org/abs/2611.34128)|null|
+|**2026-11-25**|**Gradient Optical Diffraction Tomography Using Deep Learning-Assisted Amplitude Estimation**|Julianna Winnik et.al.|[2611.34059](https://arxiv.org/abs/2611.34059)|null|
+|**2026-11-25**|**End-to-End Image-Goal Navigation for Agile Quadrotors via Recurrent State Distillation**|Simone Nascivera et.al.|[2611.34046](https://arxiv.org/abs/2611.34046)|null|
+|**2026-11-25**|**Tortho-Gaussian++: Suppressing Geometric Drift and Floaters for Robust Gravity-Aligned TDOM Generation in Large-Scale Aerial Scenes**|Xiang Wang et.al.|[2611.33905](https://arxiv.org/abs/2611.33905)|null|
+|**2026-11-25**|**Revisiting Monocular In-Hand Object Scanning: Dataset, Pose Estimation, and Surface Reconstruction**|Di Wu et.al.|[2611.33824](https://arxiv.org/abs/2611.33824)|null|
 |2026-11-19|Hydrodynamic modeling of liquid metal field emitter deformation under combined RF and DC magnetic fields|Yuan-Zhi Lim et.al.|[2611.26518](https://arxiv.org/abs/2611.26518)|null|
 |2026-11-19|SGAR: Feed-Forward 3D Reconstruction via Sparse Geometry-Guided Attention|Aoxiang Fan et.al.|[2611.26493](https://arxiv.org/abs/2611.26493)|null|
 |2026-11-19|FirstCross: Convex Single-Photon 3D Reconstruction from Sparse Views|Chi-Wei Lee et.al.|[2611.26321](https://arxiv.org/abs/2611.26321)|null|

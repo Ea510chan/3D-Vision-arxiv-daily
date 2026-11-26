@@ -1,9 +1,19 @@
 # SLAM
 
-> Updated on 2026.11.23
+> Updated on 2026.11.26
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-11-25**|**CADENCE: Sensor-GroundedWorld-Consistent Gaussian SLAM for Collaborative Mobile Reconstruction**|Reshad Ul Karim et.al.|[2611.34549](https://arxiv.org/abs/2611.34549)|null|
+|**2026-11-25**|**End-to-End Image-Goal Navigation for Agile Quadrotors via Recurrent State Distillation**|Simone Nascivera et.al.|[2611.34046](https://arxiv.org/abs/2611.34046)|null|
+|**2026-11-24**|**SpatialArena: Where Do Geometric Foundation Models Stand?**|Yu Chen et.al.|[2611.32816](https://arxiv.org/abs/2611.32816)|null|
+|**2026-11-24**|**Seeing to Drive on a Single Board: Attention-Free Depth for Onboard Robot Navigation**|Itai Mizlish et.al.|[2611.32718](https://arxiv.org/abs/2611.32718)|**[link](https://github.com/itaim18/DANIEL)**|
+|**2026-11-24**|**AirLeg: A Robust and Accurate Self-Supervised Visual-Inertial-Leg SLAM System**|Kuan Xu et.al.|[2611.32523](https://arxiv.org/abs/2611.32523)|null|
+|**2026-11-24**|**ROVO: Robust Rotation-Only Visual Odometry for UAVs at Low and Moderate Altitudes**|Xiaokai Song et.al.|[2611.32475](https://arxiv.org/abs/2611.32475)|null|
+|**2026-11-25**|**GOLD-SLAM: Gaussian-splatting Omnidirectional LiDAR-Depth SLAM**|Weicong Zhang et.al.|[2611.32335](https://arxiv.org/abs/2611.32335)|null|
+|**2026-11-24**|**View Management with Gaussian Placement and Opacity Regularization for Online 3DGS**|Dong Hwi Kim et.al.|[2611.32025](https://arxiv.org/abs/2611.32025)|null|
+|**2026-11-23**|**Confidently Lost: Silent Failure and Edge Deployment of Dense Visual SLAM under Photon Starvation**|Shrikrishna Bhagirath Rajule et.al.|[2611.30173](https://arxiv.org/abs/2611.30173)|null|
+|**2026-11-22**|**GravHMR: Coupling SLAM and Human Mesh Recovery in a Shared Gravity Frame**|Hanglei Jin et.al.|[2611.29614](https://arxiv.org/abs/2611.29614)|null|
 |2026-11-05|An Integrated Open-Source Stack for Vision-Based Autonomous Navigation of Wheeled Rovers|Iaroslav Kolomiets et.al.|[2611.08100](https://arxiv.org/abs/2611.08100)|null|
 |2026-11-05|FREE-LIVO: Physically Decoupled Yet Tightly Coupled LiDAR-Inertial-Visual Odometry|Reon Tabata et.al.|[2611.07463](https://arxiv.org/abs/2611.07463)|null|
 |2026-11-04|Scale Anchoring via Implicit Semantics and Sequence-Consistent Loop Closure for VGGT-Based SLAM|Ziyi Jin et.al.|[2611.06308](https://arxiv.org/abs/2611.06308)|null|

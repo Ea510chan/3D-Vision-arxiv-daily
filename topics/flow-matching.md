@@ -1,9 +1,19 @@
 # Flow Matching
 
-> Updated on 2026.11.23
+> Updated on 2026.11.26
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-11-25**|**PostMesh: Self-Rewarded Preference Post-Training for Flow-Based Artist Mesh Generation**|Gihyun Kwon et.al.|[2611.34319](https://arxiv.org/abs/2611.34319)|null|
+|**2026-11-25**|**Ground Your Steps: Optimizing Sampling Schedules in Flow Matching Robot Policies**|Licheng Yang et.al.|[2611.34148](https://arxiv.org/abs/2611.34148)|null|
+|**2026-11-25**|**AlignPre: Skill-Aligned Post-Training for Latent-Free Generative Precipitation Nowcasting**|Demin Yu et.al.|[2611.34101](https://arxiv.org/abs/2611.34101)|null|
+|**2026-11-25**|**Understanding Diffusion Acceleration: Methods, Trade-Offs, and Open Questions**|Xiaofeng Mao et.al.|[2611.34056](https://arxiv.org/abs/2611.34056)|null|
+|**2026-11-25**|**Counter-DECEIVR: Counterfactual Explanations for Deepfake Detectors using Detector-Guided Rectified Flow Inversion**|Mariano V. Ntrougkas et.al.|[2611.34032](https://arxiv.org/abs/2611.34032)|null|
+|**2026-11-25**|**RefMix: Expanding Endpoint Proposals for Diversity-Preserving Reward Fine-Tuning**|Jaemin Kim et.al.|[2611.33957](https://arxiv.org/abs/2611.33957)|null|
+|**2026-11-25**|**Wasserstein-Fisher-Rao Reconstruction of Discrete space Population Dynamics**|Junda Ying et.al.|[2611.33923](https://arxiv.org/abs/2611.33923)|null|
+|**2026-11-25**|**iMFPO: Improving Mean Flow Policy Optimization with Drift-Aware Velocity Alignment for Embodied Control**|Lisiyu Pan et.al.|[2611.33922](https://arxiv.org/abs/2611.33922)|null|
+|**2026-11-25**|**Event-WAM: Learning to Act with Event-Derived Futures**|Jongseong Bae et.al.|[2611.33917](https://arxiv.org/abs/2611.33917)|null|
+|**2026-11-25**|**X-Matte: VAE-Free Pixel-Space Flow Matching for Single-Step Image Matting**|Zanyi Wang et.al.|[2611.33874](https://arxiv.org/abs/2611.33874)|null|
 |2026-11-13|Elliptic Sampling: Optimal Interpolant Schedules for Gaussians and Beyond|Cole Becker et.al.|[2611.18542](https://arxiv.org/abs/2611.18542)|null|
 |2026-11-13|Potential Flow, Stress, and Straightness in Flow Matching: Euler Error on Gaussian-Mixture Targets|Zijian Liu et.al.|[2611.18343](https://arxiv.org/abs/2611.18343)|null|
 |2026-11-13|Vessel2Brain: Edge-Aware Multi-Scale Flow Matching for 3D Brain Image Generation from Vessel Masks|Zhi Chen et.al.|[2611.17919](https://arxiv.org/abs/2611.17919)|null|
